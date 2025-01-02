@@ -1,0 +1,51 @@
+{
+  "iri": "Paper-46",
+  "title": "ECCV_2012_30_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-46-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-46-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper considers the problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+              "text": "Hitherto , smooth motion has been encouraged using a trajectory basis , yielding a hard combinatorial problem with time complexity growing exponentially in the number of frames ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-3",
+              "text": "Branch and bound strategies have previously attempted to curb this complexity whilst maintaining global optimality ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-4",
+              "text": "However , they provide no guarantee of being more efficient than exhaustive search ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+              "text": "Inspired by recent work which reconstructs general trajectories using compact high-pass filters , we develop a dynamic programming approach which scales linearly in the number of frames , leveraging the intrinsically local nature of filter interactions ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+              "text": "Extension to affine projection enables reconstruction without estimating cameras ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "This paper considers the problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior . Hitherto , smooth motion has been encouraged using a trajectory basis , yielding a hard combinatorial problem with time complexity growing exponentially in the number of frames . Branch and bound strategies have previously attempted to curb this complexity whilst maintaining global optimality . However , they provide no guarantee of being more efficient than exhaustive search . Inspired by recent work which reconstructs general trajectories using compact high-pass filters , we develop a dynamic programming approach which scales linearly in the number of frames , leveraging the intrinsically local nature of filter interactions . Extension to affine projection enables reconstruction without estimating cameras .",
+  "kg2text": [
+    "This paper considers and addresses the problem of reconstructing the motion of a 3D articulated tree, presenting a method known as reconstruction. This reconstruction process specifically tackles the challenges associated with the motion of a 3D articulated tree, which is subject to a temporal prior that ensures smooth transitions between frames. The paper introduces an extension to affine projection, which enables reconstruction without estimating cameras, thereby simplifying the process. Additionally, the concept of smooth motion is promoted through the use of a trajectory basis, which helps in managing the complexity of the problem. The dynamic programming approach discussed in this paper scales with the number of frames, which is a critical factor as the time complexity grows exponentially with the number of frames. To address the inherent complexity of this hard combinatorial problem, branch and bound strategies are employed to curb the computational challenges. Furthermore, recent work that reconstructs general trajectories using compact high-pass filters serves as an inspiration for the dynamic programming approach, leveraging the intrinsically local nature of filter interactions to enhance efficiency.",
+    "Time complexity is a concept that falls under the broader category of complexity, which encompasses the computational challenges associated with algorithms. A hard combinatorial problem, such as reconstructing smooth motion from 2D point correspondences in a 3D articulated tree, yields significant time complexity due to its exponential growth in solution space. Although branch and bound strategies aim to reduce this complexity, they provide no guarantee of being more efficient than exhaustive search methods, which systematically explore all possible solutions. In the realm of computer vision, estimating cameras is a process that is encompassed by the broader term cameras, which are essential for capturing images. Furthermore, branch and bound strategies are designed to maintain global optimality, ensuring that the solutions they find are the best possible among all feasible options."
+  ],
+  "times": [
+    4.30244779586792
+  ]
+}

@@ -1,0 +1,944 @@
+{
+  "iri": "Paper-59",
+  "title": "P05-1046",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-59-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-59-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-1",
+              "text": "The applicability of many current information extraction techniques is severely limited by the need for supervised training data ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+              "text": "We demonstrate that for certain field structured extraction tasks , such as classified advertisements and bibliographic citations , small amounts of prior knowledge can be used to learn effective models in a primarily unsupervised fashion ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-3",
+              "text": "Although hidden Markov models -LRB- HMMs -RRB- provide a suitable generative model for field structured text , general unsupervised HMM learning fails to learn useful structure in either of our domains ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-4",
+              "text": "However , one can dramatically improve the quality of the learned structure by exploiting simple prior knowledge of the desired solutions ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-5",
+              "text": "In both domains , we found that unsupervised methods can attain accuracies with 400 unlabeled examples comparable to those attained by supervised methods on 50 labeled examples , and that semi-supervised methods can make good use of small amounts of labeled data ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0007426738739013672,
+    14.215794563293457,
+    19.1514732837677,
+    22.89012360572815,
+    0.021688461303710938,
+    8.153915405273438e-05,
+    9.942054748535156e-05,
+    29.949409008026123,
+    37.75066351890564,
+    1.015718698501587,
+    18.879379987716675,
+    0.008091449737548828,
+    0.00017142295837402344,
+    27.71154475212097,
+    3.3995840549468994,
+    0.008253335952758789,
+    1.1101117134094238,
+    3.2546820640563965,
+    3.6609630584716797,
+    4.375860691070557,
+    37.98771953582764,
+    1.5770719051361084,
+    13.658445835113525,
+    0.9317295551300049,
+    0.00048065185546875,
+    0.009923458099365234
+  ],
+  "nodes": {
+    "Entity-small_amount_of_prior_knowledge_can_be_used_to_learn_effective_model_in_a_primarily_unsupervised_fashion": {
+      "node_id": "small_amount_of_prior_knowledge_can_be_used_to_learn_effective_model_in_a_primarily_unsupervised_fashion",
+      "disambiguation_index": 0,
+      "label": "small amounts of prior knowledge can be used to learn effective models in a primarily unsupervised fashion",
+      "aliases": [
+        "small amounts of prior knowledge can be used to learn effective models in a primarily unsupervised fashion"
+      ],
+      "types": [
+        "modeling technique",
+        "unsupervised learning",
+        "model",
+        "knowledge"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The concept of using limited prior knowledge to develop efficient machine learning models without requiring labeled training data.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "small amounts of prior knowledge can be used to learn effective models in a primarily unsupervised fashion",
+          "local_types": [
+            "modeling technique",
+            "unsupervised learning",
+            "model",
+            "knowledge"
+          ],
+          "iri": "Entity-small_amount_of_prior_knowledge_can_be_used_to_learn_effective_model_in_a_primarily_unsupervised_fashion-Mention-1"
+        }
+      ],
+      "relevance": 0.7333984375
+    },
+    "Entity-many_current_information_extraction_technique": {
+      "node_id": "many_current_information_extraction_technique",
+      "disambiguation_index": 0,
+      "label": "many current information extraction techniques",
+      "aliases": [
+        "many current information extraction techniques"
+      ],
+      "types": [
+        "technique",
+        "information extraction technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Various methods and approaches used to extract relevant information from unstructured or semi-structured text, such as hidden Markov models, that require labeled training data for effective operation.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "many current information extraction techniques",
+          "local_types": [
+            "technique",
+            "information extraction technique"
+          ],
+          "iri": "Entity-many_current_information_extraction_technique-Mention-1"
+        }
+      ],
+      "relevance": 0.71826171875
+    },
+    "Entity-although_hidden_markov_model_-lrb-_hmms_-rrb-_provide_a_suitable_generative_model_for_field_structured_text": {
+      "node_id": "although_hidden_markov_model_-lrb-_hmms_-rrb-_provide_a_suitable_generative_model_for_field_structured_text",
+      "disambiguation_index": 0,
+      "label": "Although hidden Markov models -LRB- HMMs -RRB- provide a suitable generative model for field structured text",
+      "aliases": [
+        "Although hidden Markov models -LRB- HMMs -RRB- provide a suitable generative model for field structured text"
+      ],
+      "types": [
+        "HMM",
+        "model",
+        "text"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical model that uses probability distributions to represent and analyze sequential data.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Although hidden Markov models -LRB- HMMs -RRB- provide a suitable generative model for field structured text",
+          "local_types": [
+            "HMM",
+            "model",
+            "text"
+          ],
+          "iri": "Entity-although_hidden_markov_model_-lrb-_hmms_-rrb-_provide_a_suitable_generative_model_for_field_structured_text-Mention-1"
+        }
+      ],
+      "relevance": 0.697265625
+    },
+    "Entity-semi-supervised_method": {
+      "node_id": "semi-supervised_method",
+      "disambiguation_index": 0,
+      "label": "semi-supervised methods",
+      "aliases": [
+        "semi-supervised methods"
+      ],
+      "types": [
+        "machine learning approach",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Machine learning approaches that utilize a combination of labeled and unlabeled training examples to improve model performance.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "semi-supervised methods",
+          "local_types": [
+            "machine learning approach",
+            "method"
+          ],
+          "iri": "Entity-semi-supervised_method-Mention-1"
+        }
+      ],
+      "relevance": 0.6962890625
+    },
+    "Entity-general_unsupervised_hmm_learning_fails_to_learn_useful_structure_in_either_of_our_domain": {
+      "node_id": "general_unsupervised_hmm_learning_fails_to_learn_useful_structure_in_either_of_our_domain",
+      "disambiguation_index": 0,
+      "label": "general unsupervised HMM learning fails to learn useful structure in either of our domains",
+      "aliases": [
+        "general unsupervised HMM learning fails to learn useful structure in either of our domains"
+      ],
+      "types": [
+        "domain",
+        "learning"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "General unsupervised Hidden Markov Model (HMM) learning",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "general unsupervised HMM learning fails to learn useful structure in either of our domains",
+          "local_types": [
+            "domain",
+            "learning"
+          ],
+          "iri": "Entity-general_unsupervised_hmm_learning_fails_to_learn_useful_structure_in_either_of_our_domain-Mention-1"
+        }
+      ],
+      "relevance": 0.6943359375
+    },
+    "Entity-we_demonstrate": {
+      "node_id": "we_demonstrate",
+      "disambiguation_index": 0,
+      "label": "We demonstrate",
+      "aliases": [
+        "We demonstrate"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The demonstration of using small amounts of prior knowledge to learn effective models for certain field structured extraction tasks, such as classified advertisements and bibliographic citations, in a primarily unsupervised fashion.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We demonstrate",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_demonstrate-Mention-1"
+        }
+      ],
+      "relevance": 0.6884765625
+    },
+    "Entity-supervised_method": {
+      "node_id": "supervised_method",
+      "disambiguation_index": 0,
+      "label": "supervised methods",
+      "aliases": [
+        "supervised methods"
+      ],
+      "types": [
+        "machine learning approach",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Machine learning approaches or algorithms that utilize labeled training data to learn from examples.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "supervised methods",
+          "local_types": [
+            "machine learning approach",
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-supervised_method-Mention-1"
+        }
+      ],
+      "relevance": 0.67041015625
+    },
+    "Entity-unsupervised_method": {
+      "node_id": "unsupervised_method",
+      "disambiguation_index": 0,
+      "label": "unsupervised methods",
+      "aliases": [
+        "unsupervised methods"
+      ],
+      "types": [
+        "machine learning approach",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Machine learning approaches or algorithms that do not require human-labeled training data.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "unsupervised methods",
+          "local_types": [
+            "machine learning approach",
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-unsupervised_method-Mention-1"
+        }
+      ],
+      "relevance": 0.65283203125
+    },
+    "Entity-the_need_for_supervised_training_data": {
+      "node_id": "the_need_for_supervised_training_data",
+      "disambiguation_index": 0,
+      "label": "the need for supervised training data",
+      "aliases": [
+        "the need for supervised training data"
+      ],
+      "types": [
+        "requirement",
+        "data requirement"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A requirement or necessity to use labeled examples in machine learning models, as opposed to relying solely on unlabeled data.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the need for supervised training data",
+          "local_types": [
+            "requirement",
+            "data requirement"
+          ],
+          "iri": "Entity-the_need_for_supervised_training_data-Mention-1"
+        }
+      ],
+      "relevance": 0.6416015625
+    },
+    "Entity-unsupervised_fashion": {
+      "node_id": "unsupervised_fashion",
+      "disambiguation_index": 0,
+      "label": "unsupervised fashion",
+      "aliases": [
+        "unsupervised fashion"
+      ],
+      "types": [
+        "methodology",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The approach or methodology of learning models without requiring labeled training data.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "unsupervised fashion",
+          "local_types": [
+            "methodology",
+            "approach"
+          ],
+          "iri": "Entity-unsupervised_fashion-Mention-1"
+        }
+      ],
+      "relevance": 0.63134765625
+    },
+    "Entity-classified_advertisement_and_bibliographic_citation": {
+      "node_id": "classified_advertisement_and_bibliographic_citation",
+      "disambiguation_index": 0,
+      "label": "classified advertisements and bibliographic citations",
+      "aliases": [
+        "classified advertisements and bibliographic citations"
+      ],
+      "types": [
+        "citations",
+        "bibliography",
+        "advertisements"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A type of information extraction task that involves learning from both structured data (classified advertisements) and unstructured text citations, often requiring minimal prior knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "classified advertisements and bibliographic citations",
+          "local_types": [
+            "citations",
+            "bibliography",
+            "advertisements"
+          ],
+          "iri": "Entity-classified_advertisement_and_bibliographic_citation-Mention-1"
+        }
+      ],
+      "relevance": 0.61962890625
+    },
+    "Entity-simple_prior_knowledge_of_the_desired_solution": {
+      "node_id": "simple_prior_knowledge_of_the_desired_solution",
+      "disambiguation_index": 0,
+      "label": "simple prior knowledge of the desired solutions",
+      "aliases": [
+        "simple prior knowledge of the desired solutions"
+      ],
+      "types": [
+        "knowledge",
+        "prior_knowledge",
+        "desired_solutions"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The author's existing understanding or familiarity with the correct answers to a problem that can be used to improve model learning in an unsupervised fashion.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "simple prior knowledge of the desired solutions",
+          "local_types": [
+            "knowledge",
+            "prior_knowledge",
+            "desired_solutions"
+          ],
+          "iri": "Entity-simple_prior_knowledge_of_the_desired_solution-Mention-1"
+        }
+      ],
+      "relevance": 0.61669921875
+    },
+    "Entity-the_applicability": {
+      "node_id": "the_applicability",
+      "disambiguation_index": 0,
+      "label": "The applicability",
+      "aliases": [
+        "The applicability"
+      ],
+      "types": [
+        "concept"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The suitability or effectiveness of various information extraction techniques in performing tasks without requiring large amounts of labeled training data.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "The applicability",
+          "local_types": [
+            "concept"
+          ],
+          "iri": "Entity-the_applicability-Mention-1"
+        }
+      ],
+      "relevance": 0.61083984375
+    },
+    "Entity-supervised_training_data": {
+      "node_id": "supervised_training_data",
+      "disambiguation_index": 0,
+      "label": "supervised training data",
+      "aliases": [
+        "supervised training data"
+      ],
+      "types": [
+        "training data",
+        "dataset",
+        "data set",
+        "resource",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of labeled examples used to train machine learning models, typically requiring human annotation or validation.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "supervised training data",
+          "local_types": [
+            "training data",
+            "dataset",
+            "data set",
+            "resource",
+            "data"
+          ],
+          "iri": "Entity-supervised_training_data-Mention-1"
+        }
+      ],
+      "relevance": 0.6044921875
+    },
+    "Entity-the_learned_structure": {
+      "node_id": "the_learned_structure",
+      "disambiguation_index": 0,
+      "label": "the learned structure",
+      "aliases": [
+        "the learned structure"
+      ],
+      "types": [
+        "structure",
+        "learned_structure"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The underlying model or architecture that improves its quality through exploitation of prior knowledge about the desired extraction tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the learned structure",
+          "local_types": [
+            "structure",
+            "learned_structure"
+          ],
+          "iri": "Entity-the_learned_structure-Mention-1"
+        }
+      ],
+      "relevance": 0.599609375
+    },
+    "Entity-hmms": {
+      "node_id": "hmms",
+      "disambiguation_index": 0,
+      "label": "HMMs",
+      "aliases": [
+        "HMMs",
+        "hidden Markov models"
+      ],
+      "types": [
+        "machine learning",
+        "algorithm",
+        "statistical model",
+        "mathematical concept",
+        "model"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A statistical model that uses hidden states and probability distributions to analyze sequential data.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "HMMs",
+          "local_types": [
+            "mathematical concept",
+            "model",
+            "algorithm"
+          ],
+          "iri": "Entity-hmms-Mention-1"
+        },
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "hidden Markov models",
+          "local_types": [
+            "statistical model",
+            "machine learning",
+            "algorithm",
+            "model"
+          ],
+          "iri": "Entity-hmms-Mention-2"
+        }
+      ],
+      "relevance": 0.587890625
+    },
+    "Entity-one": {
+      "node_id": "one",
+      "disambiguation_index": 0,
+      "label": "one",
+      "aliases": [
+        "one"
+      ],
+      "types": [
+        "entity"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The ability to significantly enhance the quality of learned structural models in a primarily unsupervised fashion.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "one",
+          "local_types": [
+            "entity"
+          ],
+          "iri": "Entity-one-Mention-1"
+        }
+      ],
+      "relevance": 0.58154296875
+    },
+    "Entity-certain_field_structured_extraction_task": {
+      "node_id": "certain_field_structured_extraction_task",
+      "disambiguation_index": 0,
+      "label": "certain field structured extraction tasks",
+      "aliases": [
+        "We demonstrate that for certain field structured extraction tasks",
+        "certain field structured extraction tasks"
+      ],
+      "types": [
+        "field",
+        "research",
+        "academic discipline",
+        "task",
+        "field of study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Structured information extraction tasks related to specific academic disciplines or fields of study.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "certain field structured extraction tasks",
+          "local_types": [
+            "field",
+            "field of study",
+            "task",
+            "academic discipline"
+          ],
+          "iri": "Entity-certain_field_structured_extraction_task-Mention-1"
+        },
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We demonstrate that for certain field structured extraction tasks",
+          "local_types": [
+            "research",
+            "task"
+          ],
+          "iri": "Entity-certain_field_structured_extraction_task-Mention-2"
+        }
+      ],
+      "relevance": 0.5732421875
+    },
+    "Entity-information_extraction_technique": {
+      "node_id": "information_extraction_technique",
+      "disambiguation_index": 0,
+      "label": "information extraction techniques",
+      "aliases": [
+        "information extraction techniques"
+      ],
+      "types": [
+        "approach",
+        "methodology",
+        "techniques",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Methods or approaches used to extract relevant and useful information from a given dataset, often involving machine learning algorithms.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "information extraction techniques",
+          "local_types": [
+            "approach",
+            "methodology",
+            "techniques",
+            "method"
+          ],
+          "iri": "Entity-information_extraction_technique-Mention-1"
+        }
+      ],
+      "relevance": 0.5546875
+    },
+    "Entity-small_amount_of_prior_knowledge": {
+      "node_id": "small_amount_of_prior_knowledge",
+      "disambiguation_index": 0,
+      "label": "small amounts of prior knowledge",
+      "aliases": [
+        "small amounts of prior knowledge"
+      ],
+      "types": [
+        "data",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A limited quantity of previously acquired understanding or familiarity.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "small amounts of prior knowledge",
+          "local_types": [
+            "data",
+            "information"
+          ],
+          "iri": "Entity-small_amount_of_prior_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.51318359375
+    },
+    "Entity-prior_knowledge": {
+      "node_id": "prior_knowledge",
+      "disambiguation_index": 0,
+      "label": "prior knowledge",
+      "aliases": [
+        "prior knowledge"
+      ],
+      "types": [
+        "knowledge",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Background understanding or facts that influence decision-making or problem-solving",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "prior knowledge",
+          "local_types": [
+            "knowledge",
+            "information"
+          ],
+          "iri": "Entity-prior_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.51171875
+    },
+    "Entity-field_structured_text": {
+      "node_id": "field_structured_text",
+      "disambiguation_index": 0,
+      "label": "field structured text",
+      "aliases": [
+        "field structured text"
+      ],
+      "types": [
+        "data type",
+        "text format",
+        "text"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A type of text that can be organized into fields or categories",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "field structured text",
+          "local_types": [
+            "data type",
+            "text format",
+            "text"
+          ],
+          "iri": "Entity-field_structured_text-Mention-1"
+        }
+      ],
+      "relevance": 0.477294921875
+    },
+    "Entity-classified_advertisement": {
+      "node_id": "classified_advertisement",
+      "disambiguation_index": 0,
+      "label": "classified advertisements",
+      "aliases": [
+        "classified advertisements"
+      ],
+      "types": [
+        "field",
+        "genre",
+        "medium",
+        "publication format",
+        "domain",
+        "format",
+        "category"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Advertisements that are categorized or structured according to specific criteria and typically appear in print media, online platforms, or other public spaces.",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "classified advertisements",
+          "local_types": [
+            "field",
+            "genre",
+            "medium",
+            "publication format",
+            "domain",
+            "format",
+            "category"
+          ],
+          "iri": "Entity-classified_advertisement-Mention-1"
+        }
+      ],
+      "relevance": 0.468994140625
+    },
+    "Entity-bibliographic_citation": {
+      "node_id": "bibliographic_citation",
+      "disambiguation_index": 0,
+      "label": "bibliographic citations",
+      "aliases": [
+        "bibliographic citations"
+      ],
+      "types": [
+        "field",
+        "citation style",
+        "reference",
+        "domain",
+        "citation format",
+        "reference style",
+        "category"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of references or sources cited in a particular format",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "bibliographic citations",
+          "local_types": [
+            "field",
+            "citation style",
+            "reference",
+            "domain",
+            "citation format",
+            "reference style",
+            "category"
+          ],
+          "iri": "Entity-bibliographic_citation-Mention-1"
+        }
+      ],
+      "relevance": 0.433349609375
+    },
+    "Entity-desired_solution": {
+      "node_id": "desired_solution",
+      "disambiguation_index": 0,
+      "label": "desired solutions",
+      "aliases": [
+        "desired solutions"
+      ],
+      "types": [
+        "solution",
+        "outcome"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Proposed or intended answers to a problem",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "desired solutions",
+          "local_types": [
+            "solution",
+            "outcome"
+          ],
+          "iri": "Entity-desired_solution-Mention-1"
+        }
+      ],
+      "relevance": 0.406005859375
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author",
+        "researcher"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A group or organization consisting of authors or researchers",
+      "mentions": [
+        {
+          "reference": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We",
+          "local_types": [
+            "author",
+            "researcher"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.376708984375
+    }
+  },
+  "summary": "The applicability of many current information extraction techniques is severely limited by the need for supervised training data . We demonstrate that for certain field structured extraction tasks , such as classified advertisements and bibliographic citations , small amounts of prior knowledge can be used to learn effective models in a primarily unsupervised fashion . Although hidden Markov models -LRB- HMMs -RRB- provide a suitable generative model for field structured text , general unsupervised HMM learning fails to learn useful structure in either of our domains . However , one can dramatically improve the quality of the learned structure by exploiting simple prior knowledge of the desired solutions . In both domains , we found that unsupervised methods can attain accuracies with 400 unlabeled examples comparable to those attained by supervised methods on 50 labeled examples , and that semi-supervised methods can make good use of small amounts of labeled data .",
+  "triples": [
+    [
+      "Entity-the_applicability",
+      "Predicate-is_limited_by",
+      "Entity-the_need_for_supervised_training_data"
+    ],
+    [
+      "Entity-many_current_information_extraction_technique",
+      "Predicate-are_severely_limited_by",
+      "Entity-the_need_for_supervised_training_data"
+    ],
+    [
+      "Entity-the_applicability",
+      "Predicate-are_severely_limited_by",
+      "Entity-the_need_for_supervised_training_data"
+    ],
+    [
+      "Entity-we",
+      "Predicate-demonstrate_that_for_certain_field_structured_extraction_tasks",
+      "Entity-classified_advertisement_and_bibliographic_citation"
+    ],
+    [
+      "Entity-simple_prior_knowledge_of_the_desired_solution",
+      "Predicate-exploits",
+      "Entity-the_learned_structure"
+    ],
+    [
+      "Entity-unsupervised_method",
+      "Predicate-can_attain_accuracies_comparable_to_those_attained_by",
+      "Entity-supervised_method"
+    ],
+    [
+      "Entity-many_current_information_extraction_technique",
+      "Predicate-can_be_used",
+      "Entity-small_amount_of_prior_knowledge_can_be_used_to_learn_effective_model_in_a_primarily_unsupervised_fashion"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-supervised_training_data",
+      "skos:broader",
+      "Entity-the_need_for_supervised_training_data"
+    ],
+    [
+      "Entity-although_hidden_markov_model_-lrb-_hmms_-rrb-_provide_a_suitable_generative_model_for_field_structured_text",
+      "skos:broader",
+      "Entity-hmms"
+    ],
+    [
+      "Entity-small_amount_of_prior_knowledge_can_be_used_to_learn_effective_model_in_a_primarily_unsupervised_fashion",
+      "skos:broader",
+      "Entity-unsupervised_method"
+    ],
+    [
+      "Entity-many_current_information_extraction_technique",
+      "skos:broader",
+      "Entity-information_extraction_technique"
+    ],
+    [
+      "Entity-simple_prior_knowledge_of_the_desired_solution",
+      "skos:broader",
+      "Entity-desired_solution"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_limited_by": {
+      "label": "is limited by",
+      "description": "Indicates a constraint or restriction that affects the scope or extent of something. The subject is bounded or restricted in some way by the object, which serves as a limiting factor.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_severely_limited_by": {
+      "label": "are severely limited by",
+      "description": "This predicate indicates a strong constraint or obstacle that hinders the subject's ability to function, achieve its goals, or operate effectively. The object represents the underlying factor or condition that causes this limitation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-demonstrate_that_for_certain_field_structured_extraction_tasks": {
+      "label": "demonstrate that for certain field structured extraction tasks",
+      "description": "To predicate demonstrates a connection between the subject's expertise or capabilities and their ability to extract specific information from structured data sources. The object represents the type of extraction tasks that can be successfully performed, often highlighting the domain-specific nature of these tasks.",
+      "disambiguation_index": 0
+    },
+    "Predicate-exploits": {
+      "label": "exploits",
+      "description": "The predicate 'exploits' indicates a relationship where the subject leverages or utilizes the object to achieve some goal, gain insight, or uncover underlying patterns. In this sense, it implies that the subject has discovered or developed a way to capitalize on the properties or characteristics of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_attain_accuracies_comparable_to_those_attained_by": {
+      "label": "can attain accuracies comparable to those attained by",
+      "description": "This predicate indicates that the subject has the potential to achieve a level of accuracy similar to or matching that achieved by the object. It suggests a comparison between the subject's capabilities and those of the object, implying that the subject can reach a comparable standard.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_used": {
+      "label": "can be used",
+      "description": "Indicates that the subject has an applicability or suitability for achieving a specific purpose, goal, or outcome described by the object. The predicate suggests that the subject can be employed, utilized, or leveraged to accomplish something with the help of the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is related to or encompasses the object in some sense. The relationship between the subject and object suggests that the subject represents a more specific concept, category, or idea than the object, which may be a higher-level abstraction, a generalization, or an overarching principle.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,1446 @@
+{
+  "iri": "Paper-78",
+  "title": "CVPR_1994_10_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-78-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-78-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-1",
+              "text": "MINPRAN , a new robust operator , nds good ts in data sets where more than 50 % of the points are outliers ."
+            },
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+              "text": "Unlike other techniques that handle large outlier percentages , MINPRAN does not rely on a known error bound for the good data ."
+            },
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-3",
+              "text": "Instead it assumes that the bad data are randomly -LRB- uniformly -RRB- distributed within the dynamic range of the sensor ."
+            },
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-4",
+              "text": "Based on this , MINPRAN uses random sampling to search for the t and the number of inliers to the t that are least likely to have occurred randomly ."
+            },
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+              "text": "It runs in time O -LRB- N 2 + SN log N -RRB- , where S is the number of random samples and N is the number of data points ."
+            },
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+              "text": "We demonstrate analytically that MINPRAN distinguishes good ts from ts to random data , and that MINPRAN nds accurate ts and nearly the correct number of inliers , regardless of the percentage of true inliers ."
+            },
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-7",
+              "text": "MINPRAN 's properties are connrmed experimentally on synthetic data and compare favorably to least median of squares ."
+            },
+            {
+              "iri": "Paper-78-Section-1-Paragraph-1-Sentence-8",
+              "text": "Related work applies MINPRAN to complex range and intensity data 23 -RSB- ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0004999637603759766,
+    11.403095960617065,
+    20.47900414466858,
+    20.785187005996704,
+    0.0465998649597168,
+    0.0001308917999267578,
+    0.00023508071899414062,
+    26.716684818267822,
+    40.94893002510071,
+    4.646795988082886,
+    12.513452053070068,
+    0.012473821640014648,
+    0.00025391578674316406,
+    17.56956386566162,
+    0.0012950897216796875,
+    0.05215001106262207,
+    0.001911163330078125,
+    5.418578863143921,
+    2.466675043106079,
+    2.683805227279663,
+    50.37605285644531,
+    6.731744050979614,
+    59.203693151474,
+    3.894968271255493,
+    0.001962900161743164,
+    0.011668920516967773
+  ],
+  "nodes": {
+    "Entity-a_new_robust_operator": {
+      "node_id": "a_new_robust_operator",
+      "disambiguation_index": 0,
+      "label": "a new robust operator",
+      "aliases": [
+        "a new robust operator"
+      ],
+      "types": [
+        "operator"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "MINPRAN is a new robust operator designed to find good fits in datasets with over 50% outliers by utilizing random sampling to identify inliers without relying on known error bounds for the good data.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a new robust operator",
+          "local_types": [
+            "operator"
+          ],
+          "iri": "Entity-a_new_robust_operator-Mention-1"
+        }
+      ],
+      "relevance": 0.8369140625
+    },
+    "Entity-minpran": {
+      "node_id": "minpran",
+      "disambiguation_index": 0,
+      "label": "MINPRAN",
+      "aliases": [
+        "MINPRAN"
+      ],
+      "types": [
+        "technique",
+        "model",
+        "algorithm",
+        "data processing technique",
+        "method",
+        "operator"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "MINPRAN is a robust data processing technique designed to find good fits in datasets with over 50% outliers, utilizing random sampling to identify inliers without relying on known error bounds.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "MINPRAN",
+          "local_types": [
+            "algorithm",
+            "data processing technique",
+            "operator"
+          ],
+          "iri": "Entity-minpran-Mention-1"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "MINPRAN",
+          "local_types": [
+            "algorithm",
+            "technique",
+            "method"
+          ],
+          "iri": "Entity-minpran-Mention-2"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "MINPRAN",
+          "local_types": [
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-minpran-Mention-3"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "MINPRAN",
+          "local_types": [
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-minpran-Mention-4"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "MINPRAN",
+          "local_types": [
+            "algorithm",
+            "model",
+            "method"
+          ],
+          "iri": "Entity-minpran-Mention-5"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "MINPRAN",
+          "local_types": [
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-minpran-Mention-6"
+        }
+      ],
+      "relevance": 0.82861328125
+    },
+    "Entity-good_t": {
+      "node_id": "good_t",
+      "disambiguation_index": 0,
+      "label": "good ts",
+      "aliases": [
+        "accurate ts",
+        "good ts"
+      ],
+      "types": [
+        "data type"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Good ts refers to the accurate transformations or models identified by the MINPRAN operator in datasets with a high percentage of outliers, distinguishing them from random data points.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "good ts",
+          "local_types": [
+            "data type"
+          ],
+          "iri": "Entity-good_t-Mention-1"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "accurate ts",
+          "local_types": [
+            "data type"
+          ],
+          "iri": "Entity-good_t-Mention-2"
+        }
+      ],
+      "relevance": 0.75927734375
+    },
+    "Entity-random_data": {
+      "node_id": "random_data",
+      "disambiguation_index": 0,
+      "label": "random data",
+      "aliases": [
+        "random data"
+      ],
+      "types": [
+        "data type",
+        "statistical term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'random data' refers to data points that are uniformly distributed and considered as outliers, which the MINPRAN operator distinguishes from good fits in data sets.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "random data",
+          "local_types": [
+            "data type",
+            "statistical term"
+          ],
+          "iri": "Entity-random_data-Mention-1"
+        }
+      ],
+      "relevance": 0.734375
+    },
+    "Entity-t": {
+      "node_id": "t",
+      "disambiguation_index": 0,
+      "label": "t",
+      "aliases": [
+        "the t",
+        "t",
+        "ts"
+      ],
+      "types": [
+        "data type",
+        "statistical variable",
+        "statistical term",
+        "parameter",
+        "variable"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the MINPRAN robust operator, 't' refers to the target model or parameter that the algorithm aims to fit to the data set while accounting for outliers.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "t",
+          "local_types": [
+            "statistical variable",
+            "parameter"
+          ],
+          "iri": "Entity-t-Mention-1"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "ts",
+          "local_types": [
+            "data type",
+            "statistical term"
+          ],
+          "iri": "Entity-t-Mention-2"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the t",
+          "local_types": [
+            "variable"
+          ],
+          "iri": "Entity-t-Mention-3"
+        }
+      ],
+      "relevance": 0.72216796875
+    },
+    "Entity-time_o_-lrb-_n_2__sn_log_n_-rrb-": {
+      "node_id": "time_o_-lrb-_n_2__sn_log_n_-rrb-",
+      "disambiguation_index": 0,
+      "label": "time O -LRB- N 2 + SN log N -RRB-",
+      "aliases": [
+        "time O -LRB- N 2 + SN log N -RRB-"
+      ],
+      "types": [
+        "complexity"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The term 'time O -LRB- N 2 + SN log N -RRB-' refers to the computational complexity of the MINPRAN algorithm, which indicates that the algorithm's running time is proportional to the square of the number of data points (N^2) plus the product of the number of random samples (S) and the logarithm of the number of data points (N), making it efficient for processing datasets with a significant proportion of outliers.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "time O -LRB- N 2 + SN log N -RRB-",
+          "local_types": [
+            "complexity"
+          ],
+          "iri": "Entity-time_o_-lrb-_n_2__sn_log_n_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.71435546875
+    },
+    "Entity-good_data": {
+      "node_id": "good_data",
+      "disambiguation_index": 0,
+      "label": "good data",
+      "aliases": [
+        "the good data",
+        "good data"
+      ],
+      "types": [
+        "data type",
+        "dataset",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'good data' refers to the subset of data points that are considered reliable and accurate for fitting models, as opposed to outliers, and is crucial for the performance of the MINPRAN robust operator.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "good data",
+          "local_types": [
+            "data type",
+            "dataset"
+          ],
+          "iri": "Entity-good_data-Mention-1"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the good data",
+          "local_types": [
+            "data"
+          ],
+          "iri": "Entity-good_data-Mention-2"
+        }
+      ],
+      "relevance": 0.7080078125
+    },
+    "Entity-the_number_of_random_sample": {
+      "node_id": "the_number_of_random_sample",
+      "disambiguation_index": 0,
+      "label": "the number of random samples",
+      "aliases": [
+        "the number of random samples"
+      ],
+      "types": [
+        "quantity",
+        "samples"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The number of random samples refers to the variable S in the context of the MINPRAN algorithm, which indicates the quantity of random samples used in the process of searching for the best fit in data sets with a high percentage of outliers.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the number of random samples",
+          "local_types": [
+            "quantity",
+            "samples"
+          ],
+          "iri": "Entity-the_number_of_random_sample-Mention-1"
+        }
+      ],
+      "relevance": 0.70263671875
+    },
+    "Entity-the_correct_number_of_inliers": {
+      "node_id": "the_correct_number_of_inliers",
+      "disambiguation_index": 0,
+      "label": "the correct number of inliers",
+      "aliases": [
+        "the correct number of inliers"
+      ],
+      "types": [
+        "statistical measure"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The correct number of inliers refers to the estimated count of data points that fit a particular model well, as determined by the MINPRAN robust operator, which effectively identifies these inliers even in datasets with a high percentage of outliers.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the correct number of inliers",
+          "local_types": [
+            "statistical measure"
+          ],
+          "iri": "Entity-the_correct_number_of_inliers-Mention-1"
+        }
+      ],
+      "relevance": 0.70263671875
+    },
+    "Entity-s": {
+      "node_id": "s",
+      "disambiguation_index": 0,
+      "label": "S",
+      "aliases": [
+        "S"
+      ],
+      "types": [
+        "variable",
+        "parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the MINPRAN robust operator, 'S' refers to the variable representing the number of random samples used in the algorithm's time complexity analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "S",
+          "local_types": [
+            "variable",
+            "parameter"
+          ],
+          "iri": "Entity-s-Mention-1"
+        }
+      ],
+      "relevance": 0.69140625
+    },
+    "Entity-more_than_50__of_the_point": {
+      "node_id": "more_than_50__of_the_point",
+      "disambiguation_index": 0,
+      "label": "more than 50 % of the points",
+      "aliases": [
+        "more than 50 % of the points"
+      ],
+      "types": [
+        "data point"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'more than 50 % of the points' refers to a scenario in data analysis where the majority of data points in a dataset are considered outliers, which is a critical condition for the application of the MINPRAN robust operator to effectively identify good fits.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "more than 50 % of the points",
+          "local_types": [
+            "data point"
+          ],
+          "iri": "Entity-more_than_50__of_the_point-Mention-1"
+        }
+      ],
+      "relevance": 0.68994140625
+    },
+    "Entity-the_number_of_inliers": {
+      "node_id": "the_number_of_inliers",
+      "disambiguation_index": 0,
+      "label": "the number of inliers",
+      "aliases": [
+        "the number of inliers"
+      ],
+      "types": [
+        "count",
+        "variable"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The number of inliers refers to the count of data points that fit well with a model or hypothesis, indicating their likelihood of being true data as opposed to outliers, and is a key metric in the context of the MINPRAN robust operator for data fitting.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the number of inliers",
+          "local_types": [
+            "count",
+            "variable"
+          ],
+          "iri": "Entity-the_number_of_inliers-Mention-1"
+        }
+      ],
+      "relevance": 0.677734375
+    },
+    "Entity-related_work": {
+      "node_id": "related_work",
+      "disambiguation_index": 0,
+      "label": "Related work",
+      "aliases": [
+        "Related work"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Related work refers to previous research and applications that utilize the MINPRAN robust operator for analyzing complex range and intensity data.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "Related work",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-related_work-Mention-1"
+        }
+      ],
+      "relevance": 0.64208984375
+    },
+    "Entity-n": {
+      "node_id": "n",
+      "disambiguation_index": 0,
+      "label": "N",
+      "aliases": [
+        "N"
+      ],
+      "types": [
+        "variable",
+        "parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "N refers to a variable representing the number of data points in the time complexity expression of the MINPRAN robust operator.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "N",
+          "local_types": [
+            "variable",
+            "parameter"
+          ],
+          "iri": "Entity-n-Mention-1"
+        }
+      ],
+      "relevance": 0.6396484375
+    },
+    "Entity-the_number_of_data_point": {
+      "node_id": "the_number_of_data_point",
+      "disambiguation_index": 0,
+      "label": "the number of data points",
+      "aliases": [
+        "the number of data points"
+      ],
+      "types": [
+        "quantity",
+        "data points"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The number of data points refers to the total count of individual data entries in a dataset, denoted as N, which is a critical parameter in the computational complexity of the MINPRAN robust operator.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the number of data points",
+          "local_types": [
+            "quantity",
+            "data points"
+          ],
+          "iri": "Entity-the_number_of_data_point-Mention-1"
+        }
+      ],
+      "relevance": 0.607421875
+    },
+    "Entity-percentage_of_true_inliers": {
+      "node_id": "percentage_of_true_inliers",
+      "disambiguation_index": 0,
+      "label": "percentage of true inliers",
+      "aliases": [
+        "percentage of true inliers"
+      ],
+      "types": [
+        "statistical measure"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The 'percentage of true inliers' refers to the proportion of data points in a dataset that are correctly identified as inliers, which are points that fit well with a model, as opposed to outliers that do not conform to the expected pattern.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "percentage of true inliers",
+          "local_types": [
+            "statistical measure"
+          ],
+          "iri": "Entity-percentage_of_true_inliers-Mention-1"
+        }
+      ],
+      "relevance": 0.59521484375
+    },
+    "Entity-inliers": {
+      "node_id": "inliers",
+      "disambiguation_index": 0,
+      "label": "inliers",
+      "aliases": [
+        "inliers"
+      ],
+      "types": [
+        "statistical measure",
+        "inlier",
+        "statistical term",
+        "data point"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Inliers are data points that are considered to be part of a statistical model or distribution, typically lying within a certain range or threshold, and are not considered outliers.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "inliers",
+          "local_types": [
+            "statistical measure",
+            "inlier",
+            "statistical term",
+            "data point"
+          ],
+          "iri": "Entity-inliers-Mention-1"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "inliers",
+          "local_types": [
+            "data point",
+            "statistical term"
+          ],
+          "iri": "Entity-inliers-Mention-2"
+        }
+      ],
+      "relevance": 0.56640625
+    },
+    "Entity-t_to_random_data": {
+      "node_id": "t_to_random_data",
+      "disambiguation_index": 0,
+      "label": "ts to random data",
+      "aliases": [
+        "ts to random data"
+      ],
+      "types": [
+        "data type"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'ts to random data' refers to the fitting of models to data points that are uniformly distributed and do not represent meaningful or structured information, which is contrasted with fitting to good data points that contain relevant information.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "ts to random data",
+          "local_types": [
+            "data type"
+          ],
+          "iri": "Entity-t_to_random_data-Mention-1"
+        }
+      ],
+      "relevance": 0.56494140625
+    },
+    "Entity-large_outlier_percentage": {
+      "node_id": "large_outlier_percentage",
+      "disambiguation_index": 0,
+      "label": "large outlier percentages",
+      "aliases": [
+        "large outlier percentages"
+      ],
+      "types": [
+        "data",
+        "outlier"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Large outlier percentages refer to data sets in which a significant proportion, specifically more than 50%, of the data points are classified as outliers, posing challenges for traditional data fitting techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "large outlier percentages",
+          "local_types": [
+            "data",
+            "outlier"
+          ],
+          "iri": "Entity-large_outlier_percentage-Mention-1"
+        }
+      ],
+      "relevance": 0.5625
+    },
+    "Entity-least_median_of_square": {
+      "node_id": "least_median_of_square",
+      "disambiguation_index": 0,
+      "label": "least median of squares",
+      "aliases": [
+        "least median of squares"
+      ],
+      "types": [
+        "algorithm",
+        "regression technique",
+        "statistical method",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The least median of squares is a robust regression technique that minimizes the median of the squared residuals to reduce the influence of outliers in statistical modeling.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "least median of squares",
+          "local_types": [
+            "algorithm",
+            "regression technique",
+            "statistical method",
+            "method"
+          ],
+          "iri": "Entity-least_median_of_square-Mention-1"
+        }
+      ],
+      "relevance": 0.56005859375
+    },
+    "Entity-other_technique": {
+      "node_id": "other_technique",
+      "disambiguation_index": 0,
+      "label": "other techniques",
+      "aliases": [
+        "other techniques"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'other techniques' refers to various methods used to manage datasets with a high percentage of outliers, which typically rely on known error bounds for identifying good data.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "other techniques",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-other_technique-Mention-1"
+        }
+      ],
+      "relevance": 0.544921875
+    },
+    "Entity-random_sample": {
+      "node_id": "random_sample",
+      "disambiguation_index": 0,
+      "label": "random samples",
+      "aliases": [
+        "random samples"
+      ],
+      "types": [
+        "statistical sample",
+        "data subset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Random samples are subsets of data selected from a larger dataset in a manner that ensures each member of the population has an equal chance of being chosen, often used in statistical analysis to draw inferences about the population.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "random samples",
+          "local_types": [
+            "statistical sample",
+            "data subset"
+          ],
+          "iri": "Entity-random_sample-Mention-1"
+        }
+      ],
+      "relevance": 0.54345703125
+    },
+    "Entity-complex_range_and_intensity_data": {
+      "node_id": "complex_range_and_intensity_data",
+      "disambiguation_index": 0,
+      "label": "complex range and intensity data",
+      "aliases": [
+        "complex range and intensity data"
+      ],
+      "types": [
+        "data type",
+        "data structure",
+        "dataset",
+        "data set",
+        "data",
+        "measurement data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Complex range and intensity data refers to a type of dataset that encompasses measurements of varying ranges and intensities, typically used in contexts where data may contain significant outliers, such as in sensor data analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "complex range and intensity data",
+          "local_types": [
+            "data type",
+            "data structure",
+            "dataset",
+            "data set",
+            "data",
+            "measurement data"
+          ],
+          "iri": "Entity-complex_range_and_intensity_data-Mention-1"
+        }
+      ],
+      "relevance": 0.53857421875
+    },
+    "Entity-random_sampling": {
+      "node_id": "random_sampling",
+      "disambiguation_index": 0,
+      "label": "random sampling",
+      "aliases": [
+        "random sampling"
+      ],
+      "types": [
+        "sampling method",
+        "statistical method",
+        "sampling technique",
+        "method",
+        "statistical technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Random sampling is a statistical method used to select a subset of individuals from a larger population, where each individual has an equal chance of being chosen, ensuring that the sample is representative of the population.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "random sampling",
+          "local_types": [
+            "sampling method",
+            "statistical method",
+            "sampling technique",
+            "method",
+            "statistical technique"
+          ],
+          "iri": "Entity-random_sampling-Mention-1"
+        }
+      ],
+      "relevance": 0.53369140625
+    },
+    "Entity-outlier": {
+      "node_id": "outlier",
+      "disambiguation_index": 0,
+      "label": "outliers",
+      "aliases": [
+        "outliers"
+      ],
+      "types": [
+        "data point",
+        "outlier",
+        "statistical anomaly",
+        "statistical term",
+        "data anomaly"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Outliers are data points that differ significantly from other observations in a dataset, often indicating variability or anomalies in the data.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "outliers",
+          "local_types": [
+            "data point",
+            "outlier",
+            "statistical anomaly",
+            "statistical term",
+            "data anomaly"
+          ],
+          "iri": "Entity-outlier-Mention-1"
+        }
+      ],
+      "relevance": 0.52490234375
+    },
+    "Entity-dynamic_range": {
+      "node_id": "dynamic_range",
+      "disambiguation_index": 0,
+      "label": "dynamic range",
+      "aliases": [
+        "the dynamic range of the sensor",
+        "dynamic range"
+      ],
+      "types": [
+        "sensor characteristic",
+        "range",
+        "measurement range",
+        "sensor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Dynamic range refers to the range of values that a sensor can accurately measure, encompassing the difference between the smallest and largest values it can detect.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "dynamic range",
+          "local_types": [
+            "sensor characteristic",
+            "measurement range"
+          ],
+          "iri": "Entity-dynamic_range-Mention-1"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the dynamic range of the sensor",
+          "local_types": [
+            "range",
+            "sensor"
+          ],
+          "iri": "Entity-dynamic_range-Mention-2"
+        }
+      ],
+      "relevance": 0.5166015625
+    },
+    "Entity-a_known_error_bound": {
+      "node_id": "a_known_error_bound",
+      "disambiguation_index": 0,
+      "label": "a known error bound",
+      "aliases": [
+        "a known error bound"
+      ],
+      "types": [
+        "concept",
+        "error bound"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A known error bound refers to a predefined limit or threshold on the amount of error that can be tolerated in a dataset, which is typically used by various techniques to assess the quality of data or the reliability of results in statistical analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a known error bound",
+          "local_types": [
+            "concept",
+            "error bound"
+          ],
+          "iri": "Entity-a_known_error_bound-Mention-1"
+        }
+      ],
+      "relevance": 0.50244140625
+    },
+    "Entity-error_bound": {
+      "node_id": "error_bound",
+      "disambiguation_index": 0,
+      "label": "error bound",
+      "aliases": [
+        "error bound"
+      ],
+      "types": [
+        "statistical measure",
+        "statistical concept",
+        "mathematical term",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An error bound is a mathematical term that quantifies the maximum allowable error in an estimation or approximation, often used in statistics and numerical analysis to assess the accuracy of a method or model.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "error bound",
+          "local_types": [
+            "statistical measure",
+            "statistical concept",
+            "mathematical term",
+            "concept"
+          ],
+          "iri": "Entity-error_bound-Mention-1"
+        }
+      ],
+      "relevance": 0.494384765625
+    },
+    "Entity-bad_data": {
+      "node_id": "bad_data",
+      "disambiguation_index": 0,
+      "label": "bad data",
+      "aliases": [
+        "bad data",
+        "the bad data"
+      ],
+      "types": [
+        "data",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Bad data refers to inaccurate, erroneous, or misleading information that can negatively impact analysis, decision-making, or system performance.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "bad data",
+          "local_types": [
+            "data",
+            "information"
+          ],
+          "iri": "Entity-bad_data-Mention-1"
+        },
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the bad data",
+          "local_types": [
+            "data"
+          ],
+          "iri": "Entity-bad_data-Mention-2"
+        }
+      ],
+      "relevance": 0.47412109375
+    },
+    "Entity-synthetic_data": {
+      "node_id": "synthetic_data",
+      "disambiguation_index": 0,
+      "label": "synthetic data",
+      "aliases": [
+        "synthetic data"
+      ],
+      "types": [
+        "data type",
+        "artificial data",
+        "dataset",
+        "simulated data",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Synthetic data refers to artificially generated information that mimics real-world data, used for various purposes such as testing, training machine learning models, and conducting experiments without compromising privacy.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "synthetic data",
+          "local_types": [
+            "data type",
+            "artificial data",
+            "dataset",
+            "simulated data",
+            "data"
+          ],
+          "iri": "Entity-synthetic_data-Mention-1"
+        }
+      ],
+      "relevance": 0.473388671875
+    },
+    "Entity-data_point": {
+      "node_id": "data_point",
+      "disambiguation_index": 0,
+      "label": "data points",
+      "aliases": [
+        "data points"
+      ],
+      "types": [
+        "data",
+        "information unit"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Data points are individual units of information or measurements that are collected and analyzed in various fields such as statistics, data science, and research.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "data points",
+          "local_types": [
+            "data",
+            "information unit"
+          ],
+          "iri": "Entity-data_point-Mention-1"
+        }
+      ],
+      "relevance": 0.44775390625
+    },
+    "Entity-data_set": {
+      "node_id": "data_set",
+      "disambiguation_index": 0,
+      "label": "data sets",
+      "aliases": [
+        "data sets"
+      ],
+      "types": [
+        "data",
+        "data set",
+        "dataset",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Data sets are collections of related data points or values that are organized for analysis, processing, or statistical evaluation.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "data sets",
+          "local_types": [
+            "data",
+            "data set",
+            "dataset",
+            "data structure"
+          ],
+          "iri": "Entity-data_set-Mention-1"
+        }
+      ],
+      "relevance": 0.4365234375
+    },
+    "Entity-sensor": {
+      "node_id": "sensor",
+      "disambiguation_index": 0,
+      "label": "sensor",
+      "aliases": [
+        "sensor"
+      ],
+      "types": [
+        "device",
+        "measurement instrument"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A sensor is a device or measurement instrument that detects and responds to physical stimuli, converting them into signals that can be measured or recorded.",
+      "mentions": [
+        {
+          "reference": "Paper-78-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "sensor",
+          "local_types": [
+            "device",
+            "measurement instrument"
+          ],
+          "iri": "Entity-sensor-Mention-1"
+        }
+      ],
+      "relevance": 0.41845703125
+    }
+  },
+  "summary": "MINPRAN , a new robust operator , nds good ts in data sets where more than 50 % of the points are outliers . Unlike other techniques that handle large outlier percentages , MINPRAN does not rely on a known error bound for the good data . Instead it assumes that the bad data are randomly -LRB- uniformly -RRB- distributed within the dynamic range of the sensor . Based on this , MINPRAN uses random sampling to search for the t and the number of inliers to the t that are least likely to have occurred randomly . It runs in time O -LRB- N 2 + SN log N -RRB- , where S is the number of random samples and N is the number of data points . We demonstrate analytically that MINPRAN distinguishes good ts from ts to random data , and that MINPRAN nds accurate ts and nearly the correct number of inliers , regardless of the percentage of true inliers . MINPRAN 's properties are connrmed experimentally on synthetic data and compare favorably to least median of squares . Related work applies MINPRAN to complex range and intensity data 23 -RSB- .",
+  "triples": [
+    [
+      "Entity-minpran",
+      "Predicate-nds_good_ts_in",
+      "Entity-data_set"
+    ],
+    [
+      "Entity-data_set",
+      "Predicate-contains",
+      "Entity-outlier"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-distinguishes",
+      "Entity-good_t"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-does_not_rely_on",
+      "Entity-a_known_error_bound"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-does_not_rely_on",
+      "Entity-error_bound"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-handles",
+      "Entity-large_outlier_percentage"
+    ],
+    [
+      "Entity-bad_data",
+      "Predicate-are_distributed_within",
+      "Entity-dynamic_range"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-uses",
+      "Entity-random_sampling"
+    ],
+    [
+      "Entity-random_sampling",
+      "Predicate-searches_for",
+      "Entity-t"
+    ],
+    [
+      "Entity-the_number_of_inliers",
+      "Predicate-is_related_to",
+      "Entity-t"
+    ],
+    [
+      "Entity-random_sampling",
+      "Predicate-is_used_by",
+      "Entity-minpran"
+    ],
+    [
+      "Entity-t",
+      "Predicate-is",
+      "Entity-the_number_of_inliers"
+    ],
+    [
+      "Entity-time_o_-lrb-_n_2__sn_log_n_-rrb-",
+      "Predicate-runs_in",
+      "Entity-n"
+    ],
+    [
+      "Entity-s",
+      "Predicate-is_the_number_of",
+      "Entity-random_sample"
+    ],
+    [
+      "Entity-n",
+      "Predicate-is_the_number_of",
+      "Entity-data_point"
+    ],
+    [
+      "Entity-the_number_of_random_sample",
+      "Predicate-is_represented_by",
+      "Entity-s"
+    ],
+    [
+      "Entity-the_number_of_data_point",
+      "Predicate-is_represented_by",
+      "Entity-n"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-distinguishes",
+      "Entity-t_to_random_data"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-nds",
+      "Entity-good_t"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-nds",
+      "Entity-the_correct_number_of_inliers"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-nds",
+      "Entity-inliers"
+    ],
+    [
+      "Entity-percentage_of_true_inliers",
+      "Predicate-is_regardless_of",
+      "Entity-the_correct_number_of_inliers"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-finds",
+      "Entity-good_t"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-finds",
+      "Entity-the_correct_number_of_inliers"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-are_confirmed_on",
+      "Entity-synthetic_data"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-compare_favorably_to",
+      "Entity-least_median_of_square"
+    ],
+    [
+      "Entity-related_work",
+      "Predicate-applies",
+      "Entity-minpran"
+    ],
+    [
+      "Entity-related_work",
+      "Predicate-applies",
+      "Entity-complex_range_and_intensity_data"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-assumes",
+      "Entity-bad_data"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-is",
+      "Entity-a_new_robust_operator"
+    ],
+    [
+      "Entity-a_new_robust_operator",
+      "Predicate-finds",
+      "Entity-good_t"
+    ],
+    [
+      "Entity-minpran",
+      "Predicate-identifies",
+      "Entity-good_t"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_known_error_bound",
+      "skos:broader",
+      "Entity-error_bound"
+    ],
+    [
+      "Entity-the_number_of_data_point",
+      "skos:broader",
+      "Entity-data_point"
+    ],
+    [
+      "Entity-large_outlier_percentage",
+      "skos:broader",
+      "Entity-outlier"
+    ],
+    [
+      "Entity-complex_range_and_intensity_data",
+      "skos:broader",
+      "Entity-data_set"
+    ],
+    [
+      "Entity-dynamic_range",
+      "skos:broader",
+      "Entity-sensor"
+    ],
+    [
+      "Entity-outlier",
+      "skos:broader",
+      "Entity-data_point"
+    ],
+    [
+      "Entity-the_number_of_random_sample",
+      "skos:broader",
+      "Entity-random_sample"
+    ],
+    [
+      "Entity-inliers",
+      "skos:broader",
+      "Entity-data_point"
+    ],
+    [
+      "Entity-more_than_50__of_the_point",
+      "skos:broader",
+      "Entity-data_point"
+    ]
+  ],
+  "predicates": {
+    "Predicate-nds_good_ts_in": {
+      "label": "nds good ts in",
+      "description": "The predicate 'nds good ts in' indicates that the subject possesses or demonstrates a strong capability or effectiveness in a particular area or context represented by the object. It suggests a positive relationship where the subject is proficient or successful in utilizing or applying the concepts, methods, or resources associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-contains": {
+      "label": "contains",
+      "description": "The predicate 'contains' indicates that the subject includes or holds within it the object, signifying a relationship where the object is a part of or is present in the subject. This relationship can apply to various contexts, such as physical items, abstract concepts, or data elements, and implies that the object is an integral component of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-distinguishes": {
+      "label": "distinguishes",
+      "description": "The predicate 'distinguishes' indicates a relationship where the subject identifies or recognizes differences between itself and the object, often highlighting specific characteristics or qualities that set the object apart. This action implies a comparative analysis or discernment that allows the subject to categorize or evaluate the object in relation to other entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-does_not_rely_on": {
+      "label": "does not rely on",
+      "description": "The predicate 'does not rely on' indicates a relationship where the subject operates independently of the object, suggesting that the subject does not depend on, utilize, or incorporate the object as a basis for its function, decision-making, or performance. This implies a level of autonomy or self-sufficiency in the subject's processes or outcomes.",
+      "disambiguation_index": 0
+    },
+    "Predicate-handles": {
+      "label": "handles",
+      "description": "The predicate 'handles' indicates that the subject is responsible for managing, processing, or dealing with the object in a particular context. It implies an active role of the subject in addressing or controlling the characteristics or challenges presented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_distributed_within": {
+      "label": "are distributed within",
+      "description": "The predicate 'are distributed within' indicates a relationship where the subject is spread out or allocated across the boundaries or limits defined by the object. It suggests that the subject is not concentrated in a single location but rather exists in various positions or segments that fall under the scope of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates that the subject employs or utilizes the object as a means to achieve a specific purpose or function. It establishes a relationship where the subject actively engages with the object, indicating that the object serves as a tool, method, or resource in the context of the subject's activities or operations.",
+      "disambiguation_index": 0
+    },
+    "Predicate-searches_for": {
+      "label": "searches for",
+      "description": "The predicate 'searches for' indicates an action where the subject actively seeks to find or locate the object. It implies a process of exploration or inquiry directed towards discovering the presence, existence, or details of the object in question. This relationship suggests that the subject has a goal or intention to identify or obtain information about the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_related_to": {
+      "label": "is related to",
+      "description": "The predicate 'is related to' establishes a connection or association between the subject and the object, indicating that there is a meaningful link or correlation between them. This relationship can encompass various forms of dependency, influence, or relevance, suggesting that changes or characteristics in the subject may have implications for the object, and vice versa.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_by": {
+      "label": "is used by",
+      "description": "The predicate 'is used by' establishes a relationship where the subject represents a method, tool, or concept that is employed or utilized by the object, which typically refers to an entity, organization, or individual. This indicates that the object relies on or implements the subject in its operations, processes, or activities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' serves as a linking verb that establishes an identity or equivalence between the subject and the object. It indicates that the subject possesses the characteristics or properties defined by the object, effectively asserting that the subject can be defined or described in terms of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-runs_in": {
+      "label": "runs in",
+      "description": "The predicate 'runs in' indicates a relationship where the subject is associated with or occurs within the context or framework defined by the object. It suggests that the subject operates, functions, or is measured in terms of the object, often implying a temporal, spatial, or contextual dimension.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_the_number_of": {
+      "label": "is the number of",
+      "description": "The predicate 'is the number of' establishes a quantitative relationship between the subject and the object, indicating that the subject represents a specific count or total that corresponds to the quantity of the object. In this context, the subject quantifies how many instances, elements, or units are represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_represented_by": {
+      "label": "is represented by",
+      "description": "The predicate 'is represented by' establishes a relationship where the subject is depicted, denoted, or symbolized by the object. It indicates that the object serves as a representation, illustration, or expression of the subject, conveying its meaning, value, or characteristics in a specific context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-nds": {
+      "label": "nds",
+      "description": "The predicate 'nds' serves to establish a relationship between the subject and the object, indicating that the subject possesses or exhibits a certain quality, characteristic, or state represented by the object. In this context, 'nds' functions as a linking verb that connects the subject to an attribute or descriptor, thereby providing information about the subject's nature or condition.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_regardless_of": {
+      "label": "is regardless of",
+      "description": "The predicate 'is regardless of' indicates that the subject is not influenced or affected by the object, suggesting a lack of dependency or correlation between the two. It implies that changes in the object do not alter the state or value of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-finds": {
+      "label": "finds",
+      "description": "The predicate 'finds' indicates that the subject has discovered, located, or identified the object, which is typically something of value, interest, or significance. It implies an active process of searching or recognizing, resulting in the subject obtaining knowledge or possession of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_confirmed_on": {
+      "label": "are confirmed on",
+      "description": "The predicate 'are confirmed on' indicates that the subject has been validated or substantiated in relation to the object. It suggests that there is a process of verification or affirmation that links the subject to the object, implying that the subject's claims, findings, or assertions are supported by evidence or agreement concerning the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-compare_favorably_to": {
+      "label": "compare favorably to",
+      "description": "The predicate 'compare favorably to' indicates a positive assessment or evaluation of the subject in relation to the object. It suggests that the subject possesses qualities, characteristics, or performance metrics that are superior or more advantageous when contrasted with the object. This comparison implies a judgment that highlights the strengths or benefits of the subject in a favorable light, suggesting that it is a preferable option or has better attributes than the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-applies": {
+      "label": "applies",
+      "description": "The predicate 'applies' indicates a relationship where the subject is relevant or pertinent to the object, suggesting that the subject utilizes, implements, or is associated with the object in a meaningful way. This connection often implies that the subject can be used in the context of the object or that the object is a framework, method, or concept that the subject engages with or draws upon.",
+      "disambiguation_index": 0
+    },
+    "Predicate-assumes": {
+      "label": "assumes",
+      "description": "The predicate 'assumes' indicates that the subject takes on a belief, perspective, or presumption regarding the object. It implies that the subject accepts the object as true or valid without requiring proof or evidence, often leading to conclusions or actions based on that acceptance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-identifies": {
+      "label": "identifies",
+      "description": "The predicate 'identifies' serves to establish a relationship between the subject and the object, indicating that the subject recognizes, names, or categorizes the object in a specific manner. In this context, the subject is asserting a connection or association with the object, suggesting that the object is characterized or defined by the subject's action of identification.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or concept that falls under the more general category represented by the object. This relationship implies that the object encompasses a wider scope or range of meanings, of which the subject is a part.",
+      "disambiguation_index": 0
+    }
+  }
+}

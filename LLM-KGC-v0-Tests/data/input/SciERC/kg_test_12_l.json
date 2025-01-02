@@ -1,0 +1,919 @@
+{
+  "iri": "Paper-12",
+  "title": "CVPR_1999_15_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-12-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-12-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+              "text": "In this paper we specialize the projective unifocal , bifo-cal , and trifocal tensors to the affine case , and show how the tensors obtained relate to the registered tensors encountered in previous work ."
+            },
+            {
+              "iri": "Paper-12-Section-1-Paragraph-1-Sentence-2",
+              "text": "This enables us to obtain an affine specialization of known projective relations connecting points and lines across two or three views ."
+            },
+            {
+              "iri": "Paper-12-Section-1-Paragraph-1-Sentence-3",
+              "text": "In the simpler case of affine cameras we give neccessary and sufficient constraints on the components of the trifocal tensor , together with a simple geometric interpretation ."
+            },
+            {
+              "iri": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+              "text": "Finally , we show how the estimation of the tensors from point correspondences is achieved through factorization , and discuss the estimation from line correspondences ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005097389221191406,
+    13.020751476287842,
+    24.50346350669861,
+    19.35072946548462,
+    0.02094244956970215,
+    9.322166442871094e-05,
+    0.00010180473327636719,
+    30.55504822731018,
+    41.903724193573,
+    0.9729213714599609,
+    21.966377019882202,
+    0.007860898971557617,
+    0.0001742839813232422,
+    23.338642835617065,
+    1.1185898780822754,
+    0.014912128448486328,
+    1.128441333770752,
+    3.548616647720337,
+    3.4632856845855713,
+    3.622070789337158,
+    31.18131923675537,
+    1.596428632736206,
+    16.75228500366211,
+    0.8369913101196289,
+    0.0005316734313964844,
+    0.009782791137695312
+  ],
+  "nodes": {
+    "Entity-affine_case": {
+      "node_id": "affine_case",
+      "disambiguation_index": 0,
+      "label": "affine case",
+      "aliases": [
+        "affine case"
+      ],
+      "types": [
+        "problem domain",
+        "concept",
+        "mathematical context"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A specialization of projective unifocal, bifo-cal, and trifocal tensors in computer vision, where the focus is on relating these tensors to registered tensors from previous work.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "affine case",
+          "local_types": [
+            "problem domain",
+            "concept",
+            "mathematical context"
+          ],
+          "iri": "Entity-affine_case-Mention-1"
+        }
+      ],
+      "relevance": 0.81689453125
+    },
+    "Entity-in_the_simpler_case": {
+      "node_id": "in_the_simpler_case",
+      "disambiguation_index": 0,
+      "label": "In the simpler case",
+      "aliases": [
+        "In the simpler case"
+      ],
+      "types": [
+        "description"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The description refers to the specialization of trifocal tensors in the context of affine cameras.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "In the simpler case",
+          "local_types": [
+            "description"
+          ],
+          "iri": "Entity-in_the_simpler_case-Mention-1"
+        }
+      ],
+      "relevance": 0.7783203125
+    },
+    "Entity-the_component_of_the_trifocal_tensor": {
+      "node_id": "the_component_of_the_trifocal_tensor",
+      "disambiguation_index": 0,
+      "label": "the components of the trifocal tensor",
+      "aliases": [
+        "the components of the trifocal tensor"
+      ],
+      "types": [
+        "component",
+        "tensor"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The necessary and sufficient constraints on the individual elements or parts that make up the trifocal tensor in the context of affine cameras, along with their geometric interpretation.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the components of the trifocal tensor",
+          "local_types": [
+            "component",
+            "tensor"
+          ],
+          "iri": "Entity-the_component_of_the_trifocal_tensor-Mention-1"
+        }
+      ],
+      "relevance": 0.724609375
+    },
+    "Entity-trifocal_tensor": {
+      "node_id": "trifocal_tensor",
+      "disambiguation_index": 0,
+      "label": "trifocal tensors",
+      "aliases": [
+        "trifocal tensors",
+        "trifocal tensor"
+      ],
+      "types": [
+        "mathematical concept",
+        "tensor",
+        "tensors",
+        "mathematical concepts"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A mathematical concept representing a type of tensor used for describing projective relations connecting points and lines across three views in computer vision.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "trifocal tensors",
+          "local_types": [
+            "mathematical concept",
+            "tensor",
+            "tensors",
+            "mathematical concepts"
+          ],
+          "iri": "Entity-trifocal_tensor-Mention-1"
+        },
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "trifocal tensor",
+          "local_types": [
+            "mathematical concept",
+            "tensor"
+          ],
+          "iri": "Entity-trifocal_tensor-Mention-2"
+        }
+      ],
+      "relevance": 0.7216796875
+    },
+    "Entity-a_simple_geometric_interpretation": {
+      "node_id": "a_simple_geometric_interpretation",
+      "disambiguation_index": 0,
+      "label": "a simple geometric interpretation",
+      "aliases": [
+        "a simple geometric interpretation"
+      ],
+      "types": [
+        "interpretation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of constraints on the components of the trifocal tensor in the context of affine cameras, providing an intuitive and visual understanding of its structure.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a simple geometric interpretation",
+          "local_types": [
+            "interpretation"
+          ],
+          "iri": "Entity-a_simple_geometric_interpretation-Mention-1"
+        }
+      ],
+      "relevance": 0.720703125
+    },
+    "Entity-the_projective_unifocal__bifo-cal__and_trifocal_tensor": {
+      "node_id": "the_projective_unifocal__bifo-cal__and_trifocal_tensor",
+      "disambiguation_index": 0,
+      "label": "the projective unifocal, bifo-cal, and trifocal tensors",
+      "aliases": [
+        "the projective unifocal, bifo-cal, and trifocal tensors"
+      ],
+      "types": [
+        "tensor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A set of mathematical objects representing transformations between two or three views in computer vision, including unifocal, bifocal, and trifocal tensors.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the projective unifocal, bifo-cal, and trifocal tensors",
+          "local_types": [
+            "tensor"
+          ],
+          "iri": "Entity-the_projective_unifocal__bifo-cal__and_trifocal_tensor-Mention-1"
+        }
+      ],
+      "relevance": 0.71875
+    },
+    "Entity-bifo-cal": {
+      "node_id": "bifo-cal",
+      "disambiguation_index": 0,
+      "label": "bifo-cal",
+      "aliases": [
+        "bifo-cal"
+      ],
+      "types": [
+        "mathematical concept",
+        "tensor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A type of tensor, specifically an affine specialization of projective relations connecting points and lines across two views.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "bifo-cal",
+          "local_types": [
+            "mathematical concept",
+            "tensor"
+          ],
+          "iri": "Entity-bifo-cal-Mention-1"
+        }
+      ],
+      "relevance": 0.71630859375
+    },
+    "Entity-projective_unifocal": {
+      "node_id": "projective_unifocal",
+      "disambiguation_index": 0,
+      "label": "projective unifocal",
+      "aliases": [
+        "projective unifocal"
+      ],
+      "types": [
+        "mathematical concept",
+        "tensor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A mathematical concept and tensor representing an affine specialization of projective relations connecting points and lines across two views.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "projective unifocal",
+          "local_types": [
+            "mathematical concept",
+            "tensor"
+          ],
+          "iri": "Entity-projective_unifocal-Mention-1"
+        }
+      ],
+      "relevance": 0.71533203125
+    },
+    "Entity-tensor_from_point_correspondence": {
+      "node_id": "tensor_from_point_correspondence",
+      "disambiguation_index": 0,
+      "label": "tensors from point correspondences",
+      "aliases": [
+        "tensors from point correspondences"
+      ],
+      "types": [
+        "data",
+        "correspondence"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A mathematical representation of geometric relationships between points in multiple views, obtained through factorization and used for estimating camera poses or 3D structures.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "tensors from point correspondences",
+          "local_types": [
+            "data",
+            "correspondence"
+          ],
+          "iri": "Entity-tensor_from_point_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.7041015625
+    },
+    "Entity-the_trifocal_tensor": {
+      "node_id": "the_trifocal_tensor",
+      "disambiguation_index": 0,
+      "label": "the trifocal tensor",
+      "aliases": [
+        "the trifocal tensor"
+      ],
+      "types": [
+        "tensor",
+        "trifocal"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical object that represents the relationships between three images or cameras in a way that captures their relative positions and orientations.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the trifocal tensor",
+          "local_types": [
+            "tensor",
+            "trifocal"
+          ],
+          "iri": "Entity-the_trifocal_tensor-Mention-1"
+        }
+      ],
+      "relevance": 0.68798828125
+    },
+    "Entity-this": {
+      "node_id": "this",
+      "disambiguation_index": 0,
+      "label": "This",
+      "aliases": [
+        "This"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of obtaining an affine specialization of previously established projective relationships between points, lines, and camera views.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "This",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this-Mention-1"
+        }
+      ],
+      "relevance": 0.673828125
+    },
+    "Entity-registered_tensor": {
+      "node_id": "registered_tensor",
+      "disambiguation_index": 0,
+      "label": "registered tensors",
+      "aliases": [
+        "registered tensors encountered in previous work",
+        "registered tensors"
+      ],
+      "types": [
+        "previous work",
+        "work",
+        "result",
+        "tensor",
+        "mathematical concept",
+        "tensors",
+        "mathematical concepts"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Tensors previously computed or measured, which are used as reference points for relating projective and affine transformations across multiple views.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "registered tensors",
+          "local_types": [
+            "result",
+            "tensor",
+            "mathematical concept",
+            "tensors",
+            "mathematical concepts"
+          ],
+          "iri": "Entity-registered_tensor-Mention-1"
+        },
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "registered tensors encountered in previous work",
+          "local_types": [
+            "tensors",
+            "previous work",
+            "work"
+          ],
+          "iri": "Entity-registered_tensor-Mention-2"
+        }
+      ],
+      "relevance": 0.66845703125
+    },
+    "Entity-the_affine_case": {
+      "node_id": "the_affine_case",
+      "disambiguation_index": 0,
+      "label": "the affine case",
+      "aliases": [
+        "the affine case"
+      ],
+      "types": [
+        "affine",
+        "case"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The specific instance of camera perspective where projective transformations are reduced to linear transformations, allowing for simpler geometric interpretations and constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the affine case",
+          "local_types": [
+            "affine",
+            "case"
+          ],
+          "iri": "Entity-the_affine_case-Mention-1"
+        }
+      ],
+      "relevance": 0.65185546875
+    },
+    "Entity-the_estimation": {
+      "node_id": "the_estimation",
+      "disambiguation_index": 0,
+      "label": "the estimation",
+      "aliases": [
+        "the estimation"
+      ],
+      "types": [
+        "estimation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of determining the values of tensors through factorization, given point and line correspondences.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the estimation",
+          "local_types": [
+            "estimation"
+          ],
+          "iri": "Entity-the_estimation-Mention-1"
+        }
+      ],
+      "relevance": 0.630859375
+    },
+    "Entity-affine_camera": {
+      "node_id": "affine_camera",
+      "disambiguation_index": 0,
+      "label": "affine cameras",
+      "aliases": [
+        "affine cameras"
+      ],
+      "types": [
+        "affine",
+        "cameras",
+        "camera model",
+        "mathematical concept",
+        "computer vision",
+        "camera type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of camera model or transformation that preserves straight lines and ratios between distances.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "affine cameras",
+          "local_types": [
+            "affine",
+            "cameras",
+            "camera model",
+            "mathematical concept",
+            "computer vision",
+            "camera type"
+          ],
+          "iri": "Entity-affine_camera-Mention-1"
+        }
+      ],
+      "relevance": 0.5947265625
+    },
+    "Entity-known_projective_relation_connecting_point_and_line_across_two_or_three_view": {
+      "node_id": "known_projective_relation_connecting_point_and_line_across_two_or_three_view",
+      "disambiguation_index": 0,
+      "label": "known projective relations connecting points and lines across two or three views",
+      "aliases": [
+        "an affine specialization of known projective relations connecting points and lines across two or three views",
+        "known projective relations connecting points and lines across two or three views"
+      ],
+      "types": [
+        "projective",
+        "methodology",
+        "algorithm",
+        "relations"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A set of geometric relationships between points, lines, and camera views in 2D or 3D space.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "known projective relations connecting points and lines across two or three views",
+          "local_types": [
+            "projective",
+            "relations"
+          ],
+          "iri": "Entity-known_projective_relation_connecting_point_and_line_across_two_or_three_view-Mention-1"
+        },
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "an affine specialization of known projective relations connecting points and lines across two or three views",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-known_projective_relation_connecting_point_and_line_across_two_or_three_view-Mention-2"
+        }
+      ],
+      "relevance": 0.59423828125
+    },
+    "Entity-projective_relation": {
+      "node_id": "projective_relation",
+      "disambiguation_index": 0,
+      "label": "projective relations",
+      "aliases": [
+        "projective relations"
+      ],
+      "types": [
+        "mathematical concept",
+        "relation",
+        "relations"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical concept that establishes connections between geometric entities, such as points and lines, across multiple viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "projective relations",
+          "local_types": [
+            "mathematical concept",
+            "relation",
+            "relations"
+          ],
+          "iri": "Entity-projective_relation-Mention-1"
+        }
+      ],
+      "relevance": 0.54638671875
+    },
+    "Entity-point_correspondence": {
+      "node_id": "point_correspondence",
+      "disambiguation_index": 0,
+      "label": "point correspondences",
+      "aliases": [
+        "point correspondences"
+      ],
+      "types": [
+        "image processing",
+        "correspondences",
+        "geometric entities",
+        "correspondence",
+        "points",
+        "data type",
+        "computer vision",
+        "objects of study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of pairs or matches between distinct points in an image or scene.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "point correspondences",
+          "local_types": [
+            "image processing",
+            "correspondences",
+            "geometric entities",
+            "correspondence",
+            "points",
+            "data type",
+            "computer vision",
+            "objects of study"
+          ],
+          "iri": "Entity-point_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.5361328125
+    },
+    "Entity-tensor": {
+      "node_id": "tensor",
+      "disambiguation_index": 0,
+      "label": "tensors",
+      "aliases": [
+        "tensors"
+      ],
+      "types": [
+        "mathematical concept",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical concept or data structure used to represent multi-dimensional arrays of numerical values.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "tensors",
+          "local_types": [
+            "mathematical concept",
+            "data structure"
+          ],
+          "iri": "Entity-tensor-Mention-1"
+        }
+      ],
+      "relevance": 0.5205078125
+    },
+    "Entity-line_correspondence": {
+      "node_id": "line_correspondence",
+      "disambiguation_index": 0,
+      "label": "line correspondences",
+      "aliases": [
+        "line correspondences"
+      ],
+      "types": [
+        "image processing",
+        "geometric entities",
+        "correspondences",
+        "lines",
+        "correspondence",
+        "data",
+        "data type",
+        "computer vision",
+        "objects of study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of pairs or mappings between lines in an image or scene that describe their geometric relationships.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "line correspondences",
+          "local_types": [
+            "image processing",
+            "geometric entities",
+            "correspondences",
+            "lines",
+            "correspondence",
+            "data",
+            "data type",
+            "computer vision",
+            "objects of study"
+          ],
+          "iri": "Entity-line_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.517578125
+    },
+    "Entity-point_and_line": {
+      "node_id": "point_and_line",
+      "disambiguation_index": 0,
+      "label": "points and lines",
+      "aliases": [
+        "points and lines"
+      ],
+      "types": [
+        "geometric object",
+        "objects of study",
+        "shapes",
+        "data type",
+        "geometric entities"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A geometric concept consisting of a set of points and lines, often used to describe spatial relationships and transformations.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "points and lines",
+          "local_types": [
+            "geometric object",
+            "objects of study",
+            "shapes",
+            "data type",
+            "geometric entities"
+          ],
+          "iri": "Entity-point_and_line-Mention-1"
+        }
+      ],
+      "relevance": 0.46484375
+    },
+    "Entity-view": {
+      "node_id": "view",
+      "disambiguation_index": 0,
+      "label": "views",
+      "aliases": [
+        "views"
+      ],
+      "types": [
+        "visual representation",
+        "angles of view",
+        "perspective",
+        "perspectives"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A visual representation or perspective from which something can be seen, observed, or perceived.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "views",
+          "local_types": [
+            "visual representation",
+            "angles of view",
+            "perspective",
+            "perspectives"
+          ],
+          "iri": "Entity-view-Mention-1"
+        }
+      ],
+      "relevance": 0.46484375
+    },
+    "Entity-estimation": {
+      "node_id": "estimation",
+      "disambiguation_index": 0,
+      "label": "estimation",
+      "aliases": [
+        "estimation"
+      ],
+      "types": [
+        "process",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or method of calculating an approximate value",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "estimation",
+          "local_types": [
+            "process",
+            "method"
+          ],
+          "iri": "Entity-estimation-Mention-1"
+        }
+      ],
+      "relevance": 0.440673828125
+    },
+    "Entity-factorization": {
+      "node_id": "factorization",
+      "disambiguation_index": 0,
+      "label": "factorization",
+      "aliases": [
+        "factorization"
+      ],
+      "types": [
+        "mathematical method",
+        "method",
+        "algorithmic technique",
+        "algorithmic process",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical method or process that breaks down complex entities into simpler components or factors.",
+      "mentions": [
+        {
+          "reference": "Paper-12-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "factorization",
+          "local_types": [
+            "mathematical method",
+            "method",
+            "algorithmic technique",
+            "algorithmic process",
+            "methodology"
+          ],
+          "iri": "Entity-factorization-Mention-1"
+        }
+      ],
+      "relevance": 0.43359375
+    }
+  },
+  "summary": "In this paper we specialize the projective unifocal , bifo-cal , and trifocal tensors to the affine case , and show how the tensors obtained relate to the registered tensors encountered in previous work . This enables us to obtain an affine specialization of known projective relations connecting points and lines across two or three views . In the simpler case of affine cameras we give neccessary and sufficient constraints on the components of the trifocal tensor , together with a simple geometric interpretation . Finally , we show how the estimation of the tensors from point correspondences is achieved through factorization , and discuss the estimation from line correspondences .",
+  "triples": [
+    [
+      "Entity-projective_unifocal",
+      "Predicate-specialize_to",
+      "Entity-the_affine_case"
+    ],
+    [
+      "Entity-bifo-cal",
+      "Predicate-specialize_to",
+      "Entity-the_affine_case"
+    ],
+    [
+      "Entity-trifocal_tensor",
+      "Predicate-relate_to",
+      "Entity-registered_tensor"
+    ],
+    [
+      "Entity-the_trifocal_tensor",
+      "Predicate-have",
+      "Entity-a_simple_geometric_interpretation"
+    ],
+    [
+      "Entity-the_trifocal_tensor",
+      "Predicate-have_constraints_on_the_components_of",
+      "Entity-affine_camera"
+    ],
+    [
+      "Entity-tensor_from_point_correspondence",
+      "Predicate-achieved_through",
+      "Entity-factorization"
+    ],
+    [
+      "Entity-affine_case",
+      "Predicate-relate",
+      "Entity-in_the_simpler_case"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_trifocal_tensor",
+      "skos:broader",
+      "Entity-tensor"
+    ],
+    [
+      "Entity-projective_unifocal",
+      "skos:broader",
+      "Entity-tensor"
+    ],
+    [
+      "Entity-registered_tensor",
+      "skos:broader",
+      "Entity-tensor"
+    ],
+    [
+      "Entity-the_projective_unifocal__bifo-cal__and_trifocal_tensor",
+      "skos:broader",
+      "Entity-tensor"
+    ],
+    [
+      "Entity-bifo-cal",
+      "skos:broader",
+      "Entity-tensor"
+    ],
+    [
+      "Entity-the_estimation",
+      "skos:broader",
+      "Entity-estimation"
+    ],
+    [
+      "Entity-the_component_of_the_trifocal_tensor",
+      "skos:broader",
+      "Entity-tensor"
+    ],
+    [
+      "Entity-trifocal_tensor",
+      "skos:broader",
+      "Entity-tensor"
+    ]
+  ],
+  "predicates": {
+    "Predicate-specialize_to": {
+      "label": "specialize to",
+      "description": "To specialize to means to focus one's attention or expertise on a specific area or domain, often implying a narrowing of scope from a broader field. This predicate indicates that the subject has concentrated its efforts and knowledge on the object, which represents a particular aspect or instance within that domain.",
+      "disambiguation_index": 0
+    },
+    "Predicate-relate_to": {
+      "label": "relate to",
+      "description": "The predicate 'relate to' indicates a connection or correspondence between two entities (subject and object), suggesting that they share common characteristics, properties, or concepts. This relationship implies some level of similarity, analogy, or equivalence between the subject and object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-have": {
+      "label": "have",
+      "description": "The predicate 'have' indicates possession or association between the subject and object. It suggests that the subject has or possesses the quality, characteristic, or meaning described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-have_constraints_on_the_components_of": {
+      "label": "have constraints on the components of",
+      "description": "This predicate indicates that there are restrictions or limitations imposed on the individual parts or elements that make up a given subject. The object specifies the type of constraints or rules that govern these components, effectively defining their properties and relationships.",
+      "disambiguation_index": 0
+    },
+    "Predicate-achieved_through": {
+      "label": "achieved through",
+      "description": "The predicate 'achieved through' indicates a means or method by which something (the subject) was obtained or accomplished. It implies that the object represents an approach, technique, process, or strategy used to attain or realize the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-relate": {
+      "label": "relate",
+      "description": "To connect or establish a connection between two entities (subject and object), often implying a sense of similarity, analogy, or correspondence.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or example of a more general category or concept represented by the object. In other words, it establishes a relationship between the subject and the object where the subject is a narrower or more specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,1490 @@
+{
+  "iri": "Paper-76",
+  "title": "INTERSPEECH_2006_21_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-76-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-76-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+              "text": "In this paper , we discuss language model adaptation methods given a word list and a raw corpus ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this situation , the general method is to segment the raw corpus automatically using a word list , correct the output sentences by hand , and build a model from the segmented corpus ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+              "text": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+              "text": "In this paper , we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+              "text": "This method allows us to avoid these problems and go directly to capturing the statistical behavior of specific words in the application ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+              "text": "In the experiments , we used a variety of methods for preparing a segmented corpus and compared the language models by their speech recognition accuracies ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+              "text": "The results showed the advantages of our method ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005285739898681641,
+    17.651620149612427,
+    25.59663438796997,
+    25.135737419128418,
+    0.022590160369873047,
+    0.00011301040649414062,
+    0.00015401840209960938,
+    46.310205936431885,
+    58.07941794395447,
+    1.1429643630981445,
+    37.747856855392456,
+    0.01316523551940918,
+    0.00024199485778808594,
+    29.967025756835938,
+    3.539074420928955,
+    0.012380123138427734,
+    1.140848159790039,
+    3.30610728263855,
+    7.306653738021851,
+    8.01864767074585,
+    50.57104778289795,
+    2.157653570175171,
+    19.225866079330444,
+    0.934356689453125,
+    0.0006899833679199219,
+    0.015288114547729492
+  ],
+  "nodes": {
+    "Entity-the_general_method": {
+      "node_id": "the_general_method",
+      "disambiguation_index": 0,
+      "label": "the general method",
+      "aliases": [
+        "This method",
+        "the general method"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A language model adaptation approach involving automatic segmentation of raw corpora using word lists, manual correction of output sentences, and building models from segmented corpora.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the general method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-the_general_method-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "This method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-the_general_method-Mention-2"
+        }
+      ],
+      "relevance": 0.75830078125
+    },
+    "Entity-in_this_paper": {
+      "node_id": "in_this_paper",
+      "disambiguation_index": 0,
+      "label": "In this paper",
+      "aliases": [
+        "this paper",
+        "In this paper"
+      ],
+      "types": [
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This paper discusses the topic of language model adaptation methods using a word list and a raw corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "In this paper",
+          "local_types": [
+            "paper"
+          ],
+          "iri": "Entity-in_this_paper-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "this paper",
+          "local_types": [
+            "paper"
+          ],
+          "iri": "Entity-in_this_paper-Mention-2"
+        }
+      ],
+      "relevance": 0.75537109375
+    },
+    "Entity-this_situation": {
+      "node_id": "this_situation",
+      "disambiguation_index": 0,
+      "label": "this situation",
+      "aliases": [
+        "this situation"
+      ],
+      "types": [
+        "situation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of segmenting a raw corpus automatically using a word list, correcting output sentences by hand, and building a model from the segmented corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this situation",
+          "local_types": [
+            "situation"
+          ],
+          "iri": "Entity-this_situation-Mention-1"
+        }
+      ],
+      "relevance": 0.75244140625
+    },
+    "Entity-build_a_model_from_the_segmented_corpus": {
+      "node_id": "build_a_model_from_the_segmented_corpus",
+      "disambiguation_index": 0,
+      "label": "build a model from the segmented corpus",
+      "aliases": [
+        "build a model from the segmented corpus"
+      ],
+      "types": [
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of creating a language model by utilizing a pre-segmented text dataset, typically obtained through automatic segmentation using a word list.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "build a model from the segmented corpus",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-build_a_model_from_the_segmented_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.7353515625
+    },
+    "Entity-correction_unit": {
+      "node_id": "correction_unit",
+      "disambiguation_index": 0,
+      "label": "correction unit",
+      "aliases": [
+        "correction unit"
+      ],
+      "types": [
+        "unit of measurement",
+        "computational concept",
+        "processing step",
+        "algorithmic component"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A single-word unit used for correcting grammatically complicated positions and capturing statistical behavior of specific words in language model adaptation methods.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "correction unit",
+          "local_types": [
+            "unit of measurement",
+            "computational concept",
+            "processing step",
+            "algorithmic component"
+          ],
+          "iri": "Entity-correction_unit-Mention-1"
+        }
+      ],
+      "relevance": 0.69921875
+    },
+    "Entity-given_a_word_list_and_a_raw_corpus": {
+      "node_id": "given_a_word_list_and_a_raw_corpus",
+      "disambiguation_index": 0,
+      "label": "given a word list and a raw corpus",
+      "aliases": [
+        "given a word list and a raw corpus"
+      ],
+      "types": [
+        "condition"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of words used as input for adapting language models from a raw text corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "given a word list and a raw corpus",
+          "local_types": [
+            "condition"
+          ],
+          "iri": "Entity-given_a_word_list_and_a_raw_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.693359375
+    },
+    "Entity-a_segmented_corpus": {
+      "node_id": "a_segmented_corpus",
+      "disambiguation_index": 0,
+      "label": "a segmented corpus",
+      "aliases": [
+        "a segmented corpus"
+      ],
+      "types": [
+        "corpus"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A collection of text data that has been automatically divided into individual sentences or units, typically using a word list for segmentation.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a segmented corpus",
+          "local_types": [
+            "corpus"
+          ],
+          "iri": "Entity-a_segmented_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.6787109375
+    },
+    "Entity-language_model_adaptation_method": {
+      "node_id": "language_model_adaptation_method",
+      "disambiguation_index": 0,
+      "label": "language model adaptation methods",
+      "aliases": [
+        "language model adaptation methods"
+      ],
+      "types": [
+        "computational method",
+        "algorithm",
+        "research area",
+        "method",
+        "field of study",
+        "adaptation method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Techniques used to modify or fine-tune pre-trained language models for specific tasks or domains.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "language model adaptation methods",
+          "local_types": [
+            "computational method",
+            "algorithm",
+            "research area",
+            "method",
+            "field of study",
+            "adaptation method"
+          ],
+          "iri": "Entity-language_model_adaptation_method-Mention-1"
+        }
+      ],
+      "relevance": 0.66650390625
+    },
+    "Entity-correcting_the_position_in_which_the_word_in_the_list_appear": {
+      "node_id": "correcting_the_position_in_which_the_word_in_the_list_appear",
+      "disambiguation_index": 0,
+      "label": "correcting the positions in which the words in the list appear",
+      "aliases": [
+        "correcting the positions in which the words in the list appear"
+      ],
+      "types": [
+        "process",
+        "correction"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The process of adjusting the order or placement of words within a list to match their correct position.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "correcting the positions in which the words in the list appear",
+          "local_types": [
+            "process",
+            "correction"
+          ],
+          "iri": "Entity-correcting_the_position_in_which_the_word_in_the_list_appear-Mention-1"
+        }
+      ],
+      "relevance": 0.66259765625
+    },
+    "Entity-language_model_adaptation": {
+      "node_id": "language_model_adaptation",
+      "disambiguation_index": 0,
+      "label": "language model adaptation",
+      "aliases": [
+        "language model adaptation"
+      ],
+      "types": [
+        "technique",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of modifying or fine-tuning pre-trained language models to better suit specific tasks, datasets, or domains.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "language model adaptation",
+          "local_types": [
+            "technique",
+            "method"
+          ],
+          "iri": "Entity-language_model_adaptation-Mention-1"
+        }
+      ],
+      "relevance": 0.650390625
+    },
+    "Entity-sentence-by-sentence_error_correction_method": {
+      "node_id": "sentence-by-sentence_error_correction_method",
+      "disambiguation_index": 0,
+      "label": "sentence-by-sentence error correction method",
+      "aliases": [
+        "sentence-by-sentence error correction method"
+      ],
+      "types": [
+        "method",
+        "methodology",
+        "computational method",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic approach to correcting errors in written text on a sentence-by-sentence basis.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "sentence-by-sentence error correction method",
+          "local_types": [
+            "method",
+            "methodology",
+            "computational method",
+            "algorithm"
+          ],
+          "iri": "Entity-sentence-by-sentence_error_correction_method-Mention-1"
+        }
+      ],
+      "relevance": 0.642578125
+    },
+    "Entity-this_result_in_a_decrease_of_productivity": {
+      "node_id": "this_result_in_a_decrease_of_productivity",
+      "disambiguation_index": 0,
+      "label": "this results in a decrease of productivity",
+      "aliases": [
+        "this results in a decrease of productivity"
+      ],
+      "types": [
+        "result"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The process of correcting grammatically complicated positions during sentence-by-sentence error correction.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this results in a decrease of productivity",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-this_result_in_a_decrease_of_productivity-Mention-1"
+        }
+      ],
+      "relevance": 0.634765625
+    },
+    "Entity-language_model_by_their_speech_recognition_accuracy": {
+      "node_id": "language_model_by_their_speech_recognition_accuracy",
+      "disambiguation_index": 0,
+      "label": "language models by their speech recognition accuracies",
+      "aliases": [
+        "language models by their speech recognition accuracies"
+      ],
+      "types": [
+        "model",
+        "accuracy"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Language models ranked according to their performance in recognizing spoken words.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "language models by their speech recognition accuracies",
+          "local_types": [
+            "model",
+            "accuracy"
+          ],
+          "iri": "Entity-language_model_by_their_speech_recognition_accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.6328125
+    },
+    "Entity-the_experiment": {
+      "node_id": "the_experiment",
+      "disambiguation_index": 0,
+      "label": "the experiments",
+      "aliases": [
+        "the experiments"
+      ],
+      "types": [
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A series of studies or trials conducted to compare various methods for preparing a segmented corpus and evaluate the performance of language models in terms of speech recognition accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the experiments",
+          "local_types": [
+            "study"
+          ],
+          "iri": "Entity-the_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.6328125
+    },
+    "Entity-these_problem": {
+      "node_id": "these_problem",
+      "disambiguation_index": 0,
+      "label": "these problems",
+      "aliases": [
+        "these problems"
+      ],
+      "types": [
+        "problem"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The difficulties encountered when correcting grammatically complicated positions during sentence-by-sentence error correction.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "these problems",
+          "local_types": [
+            "problem"
+          ],
+          "iri": "Entity-these_problem-Mention-1"
+        }
+      ],
+      "relevance": 0.6181640625
+    },
+    "Entity-the_result": {
+      "node_id": "the_result",
+      "disambiguation_index": 0,
+      "label": "The results",
+      "aliases": [
+        "The results"
+      ],
+      "types": [
+        "result"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The outcomes or findings from experiments comparing language models by their speech recognition accuracies, which demonstrated the benefits of the proposed adaptation method.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "The results",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-the_result-Mention-1"
+        }
+      ],
+      "relevance": 0.61474609375
+    },
+    "Entity-correct_the_output_sentence_by_hand": {
+      "node_id": "correct_the_output_sentence_by_hand",
+      "disambiguation_index": 0,
+      "label": "correct the output sentences by hand",
+      "aliases": [
+        "correct the output sentences by hand"
+      ],
+      "types": [
+        "process"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The process of manually correcting errors in automatically generated sentence outputs.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "correct the output sentences by hand",
+          "local_types": [
+            "process"
+          ],
+          "iri": "Entity-correct_the_output_sentence_by_hand-Mention-1"
+        }
+      ],
+      "relevance": 0.6103515625
+    },
+    "Entity-grammatically_complicated_position": {
+      "node_id": "grammatically_complicated_position",
+      "disambiguation_index": 0,
+      "label": "grammatically complicated positions",
+      "aliases": [
+        "grammatically complicated positions"
+      ],
+      "types": [
+        "positions",
+        "language feature",
+        "linguistic concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The specific locations within sentences where linguistic errors or ambiguities occur that make them difficult to correct.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "grammatically complicated positions",
+          "local_types": [
+            "positions",
+            "language feature",
+            "linguistic concept"
+          ],
+          "iri": "Entity-grammatically_complicated_position-Mention-1"
+        }
+      ],
+      "relevance": 0.59912109375
+    },
+    "Entity-the_annotator": {
+      "node_id": "the_annotator",
+      "disambiguation_index": 0,
+      "label": "the annotator",
+      "aliases": [
+        "the annotator"
+      ],
+      "types": [
+        "annotator"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A person or entity responsible for correcting errors in sentence-by-sentence error correction method.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the annotator",
+          "local_types": [
+            "annotator"
+          ],
+          "iri": "Entity-the_annotator-Mention-1"
+        }
+      ],
+      "relevance": 0.58154296875
+    },
+    "Entity-language_model": {
+      "node_id": "language_model",
+      "disambiguation_index": 0,
+      "label": "language models",
+      "aliases": [
+        "language models"
+      ],
+      "types": [
+        "language model",
+        "model",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Computer programs that analyze and generate human-like natural language",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "language models",
+          "local_types": [
+            "language model",
+            "model",
+            "algorithm"
+          ],
+          "iri": "Entity-language_model-Mention-1"
+        }
+      ],
+      "relevance": 0.580078125
+    },
+    "Entity-a_variety_of_method_for_preparing_a_segmented_corpus": {
+      "node_id": "a_variety_of_method_for_preparing_a_segmented_corpus",
+      "disambiguation_index": 0,
+      "label": "a variety of methods for preparing a segmented corpus",
+      "aliases": [
+        "a variety of methods for preparing a segmented corpus"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of techniques or procedures used to create a divided dataset, typically from unstructured text.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a variety of methods for preparing a segmented corpus",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-a_variety_of_method_for_preparing_a_segmented_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.57421875
+    },
+    "Entity-speech_recognition_accuracy": {
+      "node_id": "speech_recognition_accuracy",
+      "disambiguation_index": 0,
+      "label": "speech recognition accuracies",
+      "aliases": [
+        "speech recognition accuracies"
+      ],
+      "types": [
+        "metric",
+        "evaluation measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of measures quantifying the accuracy with which spoken words or phrases are recognized",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "speech recognition accuracies",
+          "local_types": [
+            "metric",
+            "evaluation measure"
+          ],
+          "iri": "Entity-speech_recognition_accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.57080078125
+    },
+    "Entity-a_word_list": {
+      "node_id": "a_word_list",
+      "disambiguation_index": 0,
+      "label": "a word list",
+      "aliases": [
+        "the words in the list",
+        "a word list"
+      ],
+      "types": [
+        "words",
+        "list"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of words",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a word list",
+          "local_types": [
+            "list"
+          ],
+          "iri": "Entity-a_word_list-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a word list",
+          "local_types": [
+            "list"
+          ],
+          "iri": "Entity-a_word_list-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the words in the list",
+          "local_types": [
+            "list",
+            "words"
+          ],
+          "iri": "Entity-a_word_list-Mention-3"
+        }
+      ],
+      "relevance": 0.55859375
+    },
+    "Entity-raw_corpus": {
+      "node_id": "raw_corpus",
+      "disambiguation_index": 0,
+      "label": "raw corpus",
+      "aliases": [
+        "corpus",
+        "raw corpus"
+      ],
+      "types": [
+        "collection",
+        "data source",
+        "dataset",
+        "data set",
+        "corpus",
+        "large collection of text data",
+        "resource",
+        "text dataset",
+        "collection of texts"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A large collection of text data",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "raw corpus",
+          "local_types": [
+            "data source",
+            "data set",
+            "corpus",
+            "large collection of text data",
+            "resource",
+            "text dataset"
+          ],
+          "iri": "Entity-raw_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "corpus",
+          "local_types": [
+            "data set",
+            "collection of texts"
+          ],
+          "iri": "Entity-raw_corpus-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "corpus",
+          "local_types": [
+            "dataset",
+            "collection"
+          ],
+          "iri": "Entity-raw_corpus-Mention-3"
+        }
+      ],
+      "relevance": 0.55810546875
+    },
+    "Entity-word_list": {
+      "node_id": "word_list",
+      "disambiguation_index": 0,
+      "label": "word list",
+      "aliases": [
+        "word list"
+      ],
+      "types": [
+        "collection of words",
+        "dataset",
+        "data set",
+        "resource",
+        "list"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A compilation of words",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "word list",
+          "local_types": [
+            "collection of words",
+            "dataset",
+            "data set",
+            "resource",
+            "list"
+          ],
+          "iri": "Entity-word_list-Mention-1"
+        }
+      ],
+      "relevance": 0.55322265625
+    },
+    "Entity-a_raw_corpus": {
+      "node_id": "a_raw_corpus",
+      "disambiguation_index": 0,
+      "label": "a raw corpus",
+      "aliases": [
+        "a raw corpus"
+      ],
+      "types": [
+        "corpus"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of unprocessed or untreated linguistic data",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a raw corpus",
+          "local_types": [
+            "corpus"
+          ],
+          "iri": "Entity-a_raw_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.55224609375
+    },
+    "Entity-position": {
+      "node_id": "position",
+      "disambiguation_index": 0,
+      "label": "positions",
+      "aliases": [
+        "positions"
+      ],
+      "types": [
+        "linguistic concept",
+        "grammatical structure",
+        "placement",
+        "spot",
+        "location"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A point or location within a structure or sequence",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "positions",
+          "local_types": [
+            "spot",
+            "location",
+            "linguistic concept",
+            "grammatical structure"
+          ],
+          "iri": "Entity-position-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "positions",
+          "local_types": [
+            "location",
+            "placement"
+          ],
+          "iri": "Entity-position-Mention-2"
+        }
+      ],
+      "relevance": 0.54052734375
+    },
+    "Entity-the_position_in_which_the_word_in_the_list_appear": {
+      "node_id": "the_position_in_which_the_word_in_the_list_appear",
+      "disambiguation_index": 0,
+      "label": "the positions in which the words in the list appear",
+      "aliases": [
+        "the positions in which the words in the list appear"
+      ],
+      "types": [
+        "position"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of indices or locations where specific items are situated within a sequence.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the positions in which the words in the list appear",
+          "local_types": [
+            "position"
+          ],
+          "iri": "Entity-the_position_in_which_the_word_in_the_list_appear-Mention-1"
+        }
+      ],
+      "relevance": 0.53955078125
+    },
+    "Entity-word_in_the_list": {
+      "node_id": "word_in_the_list",
+      "disambiguation_index": 0,
+      "label": "words in the list",
+      "aliases": [
+        "words in the list"
+      ],
+      "types": [
+        "list item",
+        "term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A term or item within a collection of items",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "words in the list",
+          "local_types": [
+            "list item",
+            "term"
+          ],
+          "iri": "Entity-word_in_the_list-Mention-1"
+        }
+      ],
+      "relevance": 0.52880859375
+    },
+    "Entity-specific_word_in_the_application": {
+      "node_id": "specific_word_in_the_application",
+      "disambiguation_index": 0,
+      "label": "specific words in the application",
+      "aliases": [
+        "specific words in the application"
+      ],
+      "types": [
+        "word",
+        "words",
+        "application"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Specific words or phrases used within a software application, likely referring to keywords or terminology unique to that application.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "specific words in the application",
+          "local_types": [
+            "word",
+            "words",
+            "application"
+          ],
+          "iri": "Entity-specific_word_in_the_application-Mention-1"
+        }
+      ],
+      "relevance": 0.5283203125
+    },
+    "Entity-word": {
+      "node_id": "word",
+      "disambiguation_index": 0,
+      "label": "words",
+      "aliases": [
+        "words"
+      ],
+      "types": [
+        "lexical items",
+        "linguistic units"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A unit of language with a distinct meaning or sense.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "words",
+          "local_types": [
+            "lexical items",
+            "linguistic units"
+          ],
+          "iri": "Entity-word-Mention-1"
+        }
+      ],
+      "relevance": 0.5234375
+    },
+    "Entity-our_method": {
+      "node_id": "our_method",
+      "disambiguation_index": 0,
+      "label": "our method",
+      "aliases": [
+        "our method"
+      ],
+      "types": [
+        "method",
+        "research approach",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A research methodology or algorithm used to achieve a specific goal or solve a particular problem.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "our method",
+          "local_types": [
+            "method",
+            "research approach",
+            "algorithm"
+          ],
+          "iri": "Entity-our_method-Mention-1"
+        }
+      ],
+      "relevance": 0.517578125
+    },
+    "Entity-annotator": {
+      "node_id": "annotator",
+      "disambiguation_index": 0,
+      "label": "annotator",
+      "aliases": [
+        "annotator"
+      ],
+      "types": [
+        "person",
+        "researcher",
+        "expert"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A person who adds labels or annotations to data, often with specialized knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "annotator",
+          "local_types": [
+            "person",
+            "researcher",
+            "expert"
+          ],
+          "iri": "Entity-annotator-Mention-1"
+        }
+      ],
+      "relevance": 0.49462890625
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "methods",
+      "aliases": [
+        "methods",
+        "method"
+      ],
+      "types": [
+        "approach",
+        "technique",
+        "computation techniques",
+        "academic technique",
+        "algorithmic approaches",
+        "research approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic procedure or set of procedures used to achieve a specific goal or solve a problem",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "methods",
+          "local_types": [
+            "computation techniques",
+            "academic technique",
+            "research approach",
+            "algorithmic approaches"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "method",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "method",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-3"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "methods",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-4"
+        }
+      ],
+      "relevance": 0.49267578125
+    },
+    "Entity-situation": {
+      "node_id": "situation",
+      "disambiguation_index": 0,
+      "label": "situation",
+      "aliases": [
+        "situation"
+      ],
+      "types": [
+        "context",
+        "scenario"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of circumstances or conditions in which something occurs, develops, or is considered.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "situation",
+          "local_types": [
+            "context",
+            "scenario"
+          ],
+          "iri": "Entity-situation-Mention-1"
+        }
+      ],
+      "relevance": 0.47265625
+    },
+    "Entity-problem": {
+      "node_id": "problem",
+      "disambiguation_index": 0,
+      "label": "problems",
+      "aliases": [
+        "problems"
+      ],
+      "types": [
+        "issues",
+        "challenges"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Difficulties or obstacles that need to be overcome",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "problems",
+          "local_types": [
+            "issues",
+            "challenges"
+          ],
+          "iri": "Entity-problem-Mention-1"
+        }
+      ],
+      "relevance": 0.46826171875
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "this paper",
+        "paper"
+      ],
+      "types": [
+        "research paper",
+        "research",
+        "academic work",
+        "paper",
+        "document",
+        "publication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written document that presents research or information on a particular topic",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "publication",
+            "research paper",
+            "academic work",
+            "document"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "paper",
+          "local_types": [
+            "document",
+            "publication"
+          ],
+          "iri": "Entity-paper-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "this paper",
+          "local_types": [
+            "research",
+            "paper"
+          ],
+          "iri": "Entity-paper-Mention-3"
+        }
+      ],
+      "relevance": 0.4677734375
+    },
+    "Entity-result": {
+      "node_id": "result",
+      "disambiguation_index": 0,
+      "label": "results",
+      "aliases": [
+        "results"
+      ],
+      "types": [
+        "finding",
+        "outcome"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The outcome or finding obtained from a process, experiment, or investigation.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "results",
+          "local_types": [
+            "finding",
+            "outcome"
+          ],
+          "iri": "Entity-result-Mention-1"
+        }
+      ],
+      "relevance": 0.45068359375
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "experiments",
+      "aliases": [
+        "experiments"
+      ],
+      "types": [
+        "research",
+        "testing procedures",
+        "scientific investigation",
+        "empirical study",
+        "study",
+        "research trials"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Scientific investigations or trials conducted to test hypotheses, gather data, or evaluate theories",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "experiments",
+          "local_types": [
+            "research",
+            "testing procedures",
+            "scientific investigation",
+            "empirical study",
+            "study",
+            "research trials"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.434814453125
+    }
+  },
+  "summary": "In this paper , we discuss language model adaptation methods given a word list and a raw corpus . In this situation , the general method is to segment the raw corpus automatically using a word list , correct the output sentences by hand , and build a model from the segmented corpus . In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity . In this paper , we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit . This method allows us to avoid these problems and go directly to capturing the statistical behavior of specific words in the application . In the experiments , we used a variety of methods for preparing a segmented corpus and compared the language models by their speech recognition accuracies . The results showed the advantages of our method .",
+  "triples": [
+    [
+      "Entity-this_situation",
+      "Predicate-use",
+      "Entity-a_word_list"
+    ],
+    [
+      "Entity-the_annotator",
+      "Predicate-encounters",
+      "Entity-grammatically_complicated_position"
+    ],
+    [
+      "Entity-in_this_paper",
+      "Predicate-propose",
+      "Entity-correcting_the_position_in_which_the_word_in_the_list_appear"
+    ],
+    [
+      "Entity-the_general_method",
+      "Predicate-allows_us_to_avoid",
+      "Entity-these_problem"
+    ],
+    [
+      "Entity-experiment",
+      "Predicate-used",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_general_method",
+      "Predicate-is_applied_to",
+      "Entity-this_situation"
+    ],
+    [
+      "Entity-in_this_paper",
+      "Predicate-discuss",
+      "Entity-the_general_method"
+    ],
+    [
+      "Entity-in_this_paper",
+      "Predicate-discuss",
+      "Entity-this_situation"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_variety_of_method_for_preparing_a_segmented_corpus",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_result",
+      "skos:broader",
+      "Entity-result"
+    ],
+    [
+      "Entity-specific_word_in_the_application",
+      "skos:broader",
+      "Entity-word"
+    ],
+    [
+      "Entity-language_model_adaptation_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-word_in_the_list",
+      "skos:broader",
+      "Entity-word"
+    ],
+    [
+      "Entity-our_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-grammatically_complicated_position",
+      "skos:broader",
+      "Entity-position"
+    ],
+    [
+      "Entity-language_model_adaptation",
+      "skos:broader",
+      "Entity-our_method"
+    ],
+    [
+      "Entity-the_general_method",
+      "skos:broader",
+      "Entity-our_method"
+    ],
+    [
+      "Entity-sentence-by-sentence_error_correction_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_annotator",
+      "skos:broader",
+      "Entity-annotator"
+    ],
+    [
+      "Entity-this_result_in_a_decrease_of_productivity",
+      "skos:broader",
+      "Entity-result"
+    ],
+    [
+      "Entity-given_a_word_list_and_a_raw_corpus",
+      "skos:broader",
+      "Entity-situation"
+    ],
+    [
+      "Entity-a_variety_of_method_for_preparing_a_segmented_corpus",
+      "skos:broader",
+      "Entity-our_method"
+    ],
+    [
+      "Entity-language_model_adaptation_method",
+      "skos:broader",
+      "Entity-our_method"
+    ],
+    [
+      "Entity-in_this_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-these_problem",
+      "skos:broader",
+      "Entity-problem"
+    ],
+    [
+      "Entity-a_segmented_corpus",
+      "skos:broader",
+      "Entity-raw_corpus"
+    ],
+    [
+      "Entity-the_position_in_which_the_word_in_the_list_appear",
+      "skos:broader",
+      "Entity-position"
+    ],
+    [
+      "Entity-language_model_adaptation",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-sentence-by-sentence_error_correction_method",
+      "skos:broader",
+      "Entity-our_method"
+    ],
+    [
+      "Entity-a_word_list",
+      "skos:broader",
+      "Entity-word"
+    ],
+    [
+      "Entity-the_general_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-a_raw_corpus",
+      "skos:broader",
+      "Entity-raw_corpus"
+    ],
+    [
+      "Entity-this_situation",
+      "skos:broader",
+      "Entity-situation"
+    ]
+  ],
+  "predicates": {
+    "Predicate-use": {
+      "label": "use",
+      "description": "To employ or apply something (e.g. words, concepts, strategies) to achieve a specific purpose or effect within a particular context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encounters": {
+      "label": "encounters",
+      "description": "The predicate 'encounters' indicates a situation where the subject comes into contact or interacts with the object, potentially resulting in some kind of experience, understanding, or recognition. This interaction can be physical, cognitive, emotional, or any other type that facilitates a connection between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-propose": {
+      "label": "propose",
+      "description": "To propose means to suggest or recommend something as a potential solution, plan, or idea. It implies presenting an option for consideration and discussion, often with the intention of implementing it or moving forward with it.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allows_us_to_avoid": {
+      "label": "allows us to avoid",
+      "description": "The predicate 'allows us to avoid' indicates a means of circumventing or escaping from something undesirable. It suggests that the subject has the capacity to prevent or mitigate the negative consequences associated with the object, thereby creating an opportunity for positive outcomes.",
+      "disambiguation_index": 0
+    },
+    "Predicate-used": {
+      "label": "used",
+      "description": "The predicate 'used' indicates that the subject has employed or utilized the object in some way. It suggests a relationship of application, implementation, or exploitation between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_applied_to": {
+      "label": "is applied to",
+      "description": "The predicate 'is applied to' indicates a relationship where the subject (a concept, approach, or technique) is used or implemented with respect to the object (a specific context, situation, or entity). This connection implies that the subject has been utilized or brought into play in order to address, solve, or understand the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-discuss": {
+      "label": "discuss",
+      "description": "To engage in a conversation or examination of an idea, topic, or issue with others, often involving critical thinking and analysis.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or member of a larger category or class denoted by the object. In other words, it establishes a hierarchical relationship between the subject and the object, where the subject is a more detailed or specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

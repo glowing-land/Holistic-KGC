@@ -1,0 +1,2428 @@
+{
+  "iri": "Paper-73",
+  "title": "W02-1602",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-73-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-73-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+              "text": "Coedition of a natural language text and its representation in some interlingual form seems the best and simplest way to share text revision across languages ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-2",
+              "text": "For various reasons , UNL graphs are the best candidates in this context ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+              "text": "We are developing a prototype where , in the simplest sharing scenario , naive users interact directly with the text in their language -LRB- L0 -RRB- , and indirectly with the associated graph ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+              "text": "The modified graph is then sent to the UNL-L0 deconverter and the result shown ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+              "text": "If is is satisfactory , the errors were probably due to the graph , not to the deconverter , and the graph is sent to deconverters in other languages ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-6",
+              "text": "Versions in some other languages known by the user may be displayed , so that improvement sharing is visible and encouraging ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+              "text": "As new versions are added with appropriate tags and attributes in the original multilingual document , nothing is ever lost , and cooperative working on a document is rendered feasible ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+              "text": "On the internal side , liaisons are established between elements of the text and the graph by using broadly available resources such as a LO-English or better a L0-UNL dictionary , a morphosyntactic parser of L0 , and a canonical graph2tree transformation ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+              "text": "Establishing a `` best '' correspondence between the '' UNL-tree + L0 '' and the '' MS-L0 structure '' , a lattice , may be done using the dictionary and trying to align the tree and the selected trajectory with as few crossing liaisons as possible ."
+            },
+            {
+              "iri": "Paper-73-Section-1-Paragraph-1-Sentence-10",
+              "text": "A central goal of this research is to merge approaches from pivot MT , interactive MT , and multilingual text authoring ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0019252300262451172,
+    99.02721786499023,
+    108.53476810455322,
+    103.2187111377716,
+    0.09402585029602051,
+    0.0005309581756591797,
+    0.0002231597900390625,
+    612.4640138149261,
+    608.9354019165039,
+    8.073215961456299,
+    322.6346433162689,
+    0.02291083335876465,
+    0.0003409385681152344,
+    105.24725294113159,
+    0.0021829605102539062,
+    0.050817012786865234,
+    0.0026140213012695312,
+    8.152382135391235,
+    78.83228302001953,
+    80.2088360786438,
+    798.6856060028076,
+    14.265549659729004,
+    440.83823680877686,
+    6.3875367641448975,
+    0.0022051334381103516,
+    0.018010854721069336
+  ],
+  "nodes": {
+    "Entity-unl-l0": {
+      "node_id": "unl-l0",
+      "disambiguation_index": 0,
+      "label": "UNL-L0",
+      "aliases": [
+        "UNL-L0 deconverter",
+        "UNL-L0",
+        "the UNL-L0 deconverter"
+      ],
+      "types": [
+        "tool",
+        "converter",
+        "software",
+        "software tool",
+        "deconverter"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "UNL-L0 refers to a deconverter tool used in a prototype system for processing and sharing natural language text revisions across languages by converting modified UNL graphs back into a readable format.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "UNL-L0",
+          "local_types": [
+            "software",
+            "tool"
+          ],
+          "iri": "Entity-unl-l0-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "UNL-L0 deconverter",
+          "local_types": [
+            "tool",
+            "converter",
+            "software",
+            "software tool",
+            "deconverter"
+          ],
+          "iri": "Entity-unl-l0-Mention-2"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the UNL-L0 deconverter",
+          "local_types": [
+            "converter"
+          ],
+          "iri": "Entity-unl-l0-Mention-3"
+        }
+      ],
+      "relevance": 0.77099609375
+    },
+    "Entity-unl_graph": {
+      "node_id": "unl_graph",
+      "disambiguation_index": 0,
+      "label": "UNL graphs",
+      "aliases": [
+        "UNL graphs"
+      ],
+      "types": [
+        "data structure",
+        "graph"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "UNL graphs are a type of data structure used to represent interlingual forms of natural language texts, facilitating text revision and multilingual cooperation through graphical representations.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "UNL graphs",
+          "local_types": [
+            "data structure",
+            "graph"
+          ],
+          "iri": "Entity-unl_graph-Mention-1"
+        }
+      ],
+      "relevance": 0.73974609375
+    },
+    "Entity-deconverter": {
+      "node_id": "deconverter",
+      "disambiguation_index": 0,
+      "label": "deconverter",
+      "aliases": [
+        "deconverter",
+        "the deconverter"
+      ],
+      "types": [
+        "deconverter",
+        "tool",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The deconverter is a software tool that processes modified UNL graphs to facilitate the sharing and revision of natural language texts across different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "deconverter",
+          "local_types": [
+            "software",
+            "tool"
+          ],
+          "iri": "Entity-deconverter-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the deconverter",
+          "local_types": [
+            "deconverter"
+          ],
+          "iri": "Entity-deconverter-Mention-2"
+        }
+      ],
+      "relevance": 0.73486328125
+    },
+    "Entity-unl": {
+      "node_id": "unl",
+      "disambiguation_index": 0,
+      "label": "UNL",
+      "aliases": [
+        "UNL"
+      ],
+      "types": [
+        "framework",
+        "graph",
+        "data structure",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "UNL refers to Universal Networking Language, a framework for representing natural language texts as interlingual graphs to facilitate multilingual text revision and sharing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "UNL",
+          "local_types": [
+            "framework",
+            "graph",
+            "data structure",
+            "language"
+          ],
+          "iri": "Entity-unl-Mention-1"
+        }
+      ],
+      "relevance": 0.72705078125
+    },
+    "Entity-l0-unl_dictionary": {
+      "node_id": "l0-unl_dictionary",
+      "disambiguation_index": 0,
+      "label": "L0-UNL dictionary",
+      "aliases": [
+        "L0-UNL dictionary"
+      ],
+      "types": [
+        "language resource",
+        "resource",
+        "dictionary"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The L0-UNL dictionary is a linguistic resource used to establish connections between elements of a natural language text and its interlingual representation in UNL graphs, facilitating the alignment of linguistic structures in multilingual text processing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "L0-UNL dictionary",
+          "local_types": [
+            "language resource",
+            "resource",
+            "dictionary"
+          ],
+          "iri": "Entity-l0-unl_dictionary-Mention-1"
+        }
+      ],
+      "relevance": 0.72265625
+    },
+    "Entity-deconverters_in_other_language": {
+      "node_id": "deconverters_in_other_language",
+      "disambiguation_index": 0,
+      "label": "deconverters in other languages",
+      "aliases": [
+        "deconverters in other languages"
+      ],
+      "types": [
+        "deconverter",
+        "language"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Deconverters in other languages refer to systems or tools that convert interlingual representations, such as UNL graphs, back into natural language texts in various target languages, facilitating multilingual text revision and sharing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "deconverters in other languages",
+          "local_types": [
+            "deconverter",
+            "language"
+          ],
+          "iri": "Entity-deconverters_in_other_language-Mention-1"
+        }
+      ],
+      "relevance": 0.72021484375
+    },
+    "Entity-graph": {
+      "node_id": "graph",
+      "disambiguation_index": 0,
+      "label": "graph",
+      "aliases": [
+        "the associated graph",
+        "graph",
+        "the graph"
+      ],
+      "types": [
+        "visual representation",
+        "graph",
+        "data structure",
+        "representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'graph' refers to a UNL graph, which serves as a visual representation and data structure for interlingual text representation, allowing users to interact with and modify the underlying structure of a natural language text in a multilingual context.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "graph",
+          "local_types": [
+            "data structure",
+            "visual representation"
+          ],
+          "iri": "Entity-graph-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "graph",
+          "local_types": [
+            "data structure",
+            "visual representation"
+          ],
+          "iri": "Entity-graph-Mention-2"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "graph",
+          "local_types": [
+            "data structure",
+            "representation"
+          ],
+          "iri": "Entity-graph-Mention-3"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the associated graph",
+          "local_types": [
+            "graph"
+          ],
+          "iri": "Entity-graph-Mention-4"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the graph",
+          "local_types": [
+            "graph"
+          ],
+          "iri": "Entity-graph-Mention-5"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "the graph",
+          "local_types": [
+            "graph"
+          ],
+          "iri": "Entity-graph-Mention-6"
+        }
+      ],
+      "relevance": 0.71826171875
+    },
+    "Entity-modified_graph": {
+      "node_id": "modified_graph",
+      "disambiguation_index": 0,
+      "label": "modified graph",
+      "aliases": [
+        "modified graph",
+        "The modified graph"
+      ],
+      "types": [
+        "graph",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The modified graph refers to a version of a UNL graph that has been altered or updated for the purpose of facilitating the conversion and sharing of multilingual text revisions in a prototype system.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "modified graph",
+          "local_types": [
+            "data structure",
+            "graph"
+          ],
+          "iri": "Entity-modified_graph-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "The modified graph",
+          "local_types": [
+            "graph"
+          ],
+          "iri": "Entity-modified_graph-Mention-2"
+        }
+      ],
+      "relevance": 0.71484375
+    },
+    "Entity-text_revision": {
+      "node_id": "text_revision",
+      "disambiguation_index": 0,
+      "label": "text revision",
+      "aliases": [
+        "text revision"
+      ],
+      "types": [
+        "textual modification",
+        "editing process",
+        "text",
+        "revision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Text revision refers to the process of modifying a natural language text to facilitate its coedition and sharing across different languages, particularly through the use of interlingual representations such as UNL graphs.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "text revision",
+          "local_types": [
+            "textual modification",
+            "editing process",
+            "text",
+            "revision"
+          ],
+          "iri": "Entity-text_revision-Mention-1"
+        }
+      ],
+      "relevance": 0.7138671875
+    },
+    "Entity-unl-tree__l0": {
+      "node_id": "unl-tree__l0",
+      "disambiguation_index": 0,
+      "label": "UNL-tree + L0",
+      "aliases": [
+        "UNL-tree + L0"
+      ],
+      "types": [
+        "tree",
+        "structure"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The 'UNL-tree + L0' refers to a structured representation that combines a Universal Networking Language (UNL) tree with a specific natural language (L0), aimed at establishing optimal correspondences for multilingual text processing and revision.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "UNL-tree + L0",
+          "local_types": [
+            "tree",
+            "structure"
+          ],
+          "iri": "Entity-unl-tree__l0-Mention-1"
+        }
+      ],
+      "relevance": 0.71337890625
+    },
+    "Entity-this_context": {
+      "node_id": "this_context",
+      "disambiguation_index": 0,
+      "label": "this context",
+      "aliases": [
+        "this context"
+      ],
+      "types": [
+        "context"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'this context' refers to the scenario in which UNL graphs are considered the most suitable candidates for facilitating the coedition of natural language texts and their interlingual representations to enable effective text revision across multiple languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this context",
+          "local_types": [
+            "context"
+          ],
+          "iri": "Entity-this_context-Mention-1"
+        }
+      ],
+      "relevance": 0.7119140625
+    },
+    "Entity-unl-tree": {
+      "node_id": "unl-tree",
+      "disambiguation_index": 0,
+      "label": "UNL-tree",
+      "aliases": [
+        "UNL-tree"
+      ],
+      "types": [
+        "linguistic representation",
+        "structure",
+        "data structure"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "The UNL-tree is a linguistic representation structure used to establish correspondences between interlingual forms and natural language texts, facilitating multilingual text authoring and revision.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "UNL-tree",
+          "local_types": [
+            "linguistic representation",
+            "structure",
+            "data structure"
+          ],
+          "iri": "Entity-unl-tree-Mention-1"
+        }
+      ],
+      "relevance": 0.7041015625
+    },
+    "Entity-l0-unl": {
+      "node_id": "l0-unl",
+      "disambiguation_index": 0,
+      "label": "L0-UNL",
+      "aliases": [
+        "L0-UNL"
+      ],
+      "types": [
+        "resource",
+        "dictionary"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "L0-UNL refers to a dictionary resource used for establishing liaisons between elements of a natural language text and its interlingual representation in the context of multilingual text authoring and machine translation.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "L0-UNL",
+          "local_types": [
+            "resource",
+            "dictionary"
+          ],
+          "iri": "Entity-l0-unl-Mention-1"
+        }
+      ],
+      "relevance": 0.69384765625
+    },
+    "Entity-it_representation_in_some_interlingual_form": {
+      "node_id": "it_representation_in_some_interlingual_form",
+      "disambiguation_index": 0,
+      "label": "its representation in some interlingual form",
+      "aliases": [
+        "its representation in some interlingual form"
+      ],
+      "types": [
+        "representation",
+        "interlingual form"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'its representation in some interlingual form' refers to the structured representation of a natural language text in a universal interlingual format, such as UNL graphs, which facilitates the sharing and revision of text across multiple languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "its representation in some interlingual form",
+          "local_types": [
+            "representation",
+            "interlingual form"
+          ],
+          "iri": "Entity-it_representation_in_some_interlingual_form-Mention-1"
+        }
+      ],
+      "relevance": 0.6845703125
+    },
+    "Entity-context": {
+      "node_id": "context",
+      "disambiguation_index": 0,
+      "label": "context",
+      "aliases": [
+        "context"
+      ],
+      "types": [
+        "situation",
+        "environment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'context' refers to the specific situation or environment in which UNL graphs are considered the most suitable candidates for facilitating the coedition of natural language texts and their interlingual representations.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "context",
+          "local_types": [
+            "situation",
+            "environment"
+          ],
+          "iri": "Entity-context-Mention-1"
+        }
+      ],
+      "relevance": 0.68408203125
+    },
+    "Entity-graph2tree": {
+      "node_id": "graph2tree",
+      "disambiguation_index": 0,
+      "label": "graph2tree",
+      "aliases": [
+        "graph2tree"
+      ],
+      "types": [
+        "algorithm",
+        "method",
+        "transformation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "graph2tree refers to a canonical transformation method used to establish correspondences between UNL trees and morphosyntactic structures in multilingual text processing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "graph2tree",
+          "local_types": [
+            "algorithm",
+            "method",
+            "transformation"
+          ],
+          "iri": "Entity-graph2tree-Mention-1"
+        }
+      ],
+      "relevance": 0.68212890625
+    },
+    "Entity-improvement_sharing": {
+      "node_id": "improvement_sharing",
+      "disambiguation_index": 0,
+      "label": "improvement sharing",
+      "aliases": [
+        "improvement sharing"
+      ],
+      "types": [
+        "activity",
+        "collaboration",
+        "knowledge exchange",
+        "sharing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Improvement sharing refers to the process of displaying and facilitating the exchange of text revisions across different languages, allowing users to see and learn from modifications made in various language versions of a document.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "improvement sharing",
+          "local_types": [
+            "activity",
+            "collaboration",
+            "knowledge exchange",
+            "sharing"
+          ],
+          "iri": "Entity-improvement_sharing-Mention-1"
+        }
+      ],
+      "relevance": 0.67529296875
+    },
+    "Entity-coedition_of_a_natural_language_text": {
+      "node_id": "coedition_of_a_natural_language_text",
+      "disambiguation_index": 0,
+      "label": "Coedition of a natural language text",
+      "aliases": [
+        "Coedition of a natural language text"
+      ],
+      "types": [
+        "process",
+        "text"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Coedition of a natural language text refers to the collaborative process of revising a text in its original language while simultaneously representing it in an interlingual form, facilitating the sharing and improvement of the text across multiple languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Coedition of a natural language text",
+          "local_types": [
+            "process",
+            "text"
+          ],
+          "iri": "Entity-coedition_of_a_natural_language_text-Mention-1"
+        }
+      ],
+      "relevance": 0.67333984375
+    },
+    "Entity-canonical_graph2tree_transformation": {
+      "node_id": "canonical_graph2tree_transformation",
+      "disambiguation_index": 0,
+      "label": "canonical graph2tree transformation",
+      "aliases": [
+        "canonical graph2tree transformation"
+      ],
+      "types": [
+        "algorithm",
+        "method",
+        "transformation",
+        "process"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "The canonical graph2tree transformation is a method used to establish correspondences between elements of a natural language text and its interlingual graph representation, facilitating the integration of multilingual text authoring and machine translation processes.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "canonical graph2tree transformation",
+          "local_types": [
+            "algorithm",
+            "method",
+            "transformation",
+            "process"
+          ],
+          "iri": "Entity-canonical_graph2tree_transformation-Mention-1"
+        }
+      ],
+      "relevance": 0.67236328125
+    },
+    "Entity-crossing_liaison": {
+      "node_id": "crossing_liaison",
+      "disambiguation_index": 0,
+      "label": "crossing liaisons",
+      "aliases": [
+        "crossing liaisons"
+      ],
+      "types": [
+        "connection",
+        "relationship"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Crossing liaisons refer to the connections or relationships that occur when aligning elements of a UNL-tree with an MS-L0 structure in a multilingual text processing context, aiming to minimize complexity in the correspondence.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "crossing liaisons",
+          "local_types": [
+            "connection",
+            "relationship"
+          ],
+          "iri": "Entity-crossing_liaison-Mention-1"
+        }
+      ],
+      "relevance": 0.662109375
+    },
+    "Entity-l0": {
+      "node_id": "l0",
+      "disambiguation_index": 0,
+      "label": "L0",
+      "aliases": [
+        "L0"
+      ],
+      "types": [
+        "linguistic representation",
+        "resource",
+        "interlingua",
+        "language model",
+        "linguistic term",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "L0 refers to a natural language that is being used in a multilingual text authoring and interlingual representation context, specifically in relation to the UNL (Universal Networking Language) framework.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "L0",
+          "local_types": [
+            "resource",
+            "language"
+          ],
+          "iri": "Entity-l0-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "L0",
+          "local_types": [
+            "language model",
+            "linguistic term",
+            "linguistic representation",
+            "language"
+          ],
+          "iri": "Entity-l0-Mention-2"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "L0",
+          "local_types": [
+            "interlingua",
+            "language"
+          ],
+          "iri": "Entity-l0-Mention-3"
+        }
+      ],
+      "relevance": 0.66162109375
+    },
+    "Entity-ms-l0": {
+      "node_id": "ms-l0",
+      "disambiguation_index": 0,
+      "label": "MS-L0",
+      "aliases": [
+        "MS-L0",
+        "MS-L0 structure"
+      ],
+      "types": [
+        "linguistic representation",
+        "structure",
+        "data structure",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "MS-L0 refers to a lattice structure used to establish correspondence between the UNL-tree and the L0 language representation in the context of multilingual text authoring and machine translation.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "MS-L0",
+          "local_types": [
+            "structure",
+            "data structure",
+            "language"
+          ],
+          "iri": "Entity-ms-l0-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "MS-L0 structure",
+          "local_types": [
+            "linguistic representation",
+            "structure",
+            "data structure"
+          ],
+          "iri": "Entity-ms-l0-Mention-2"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity-tree": {
+      "node_id": "tree",
+      "disambiguation_index": 0,
+      "label": "tree",
+      "aliases": [
+        "tree"
+      ],
+      "types": [
+        "data structure"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In the context of this paper, 'tree' refers to a data structure used to represent hierarchical relationships in the UNL (Universal Networking Language) framework, facilitating the alignment and transformation of multilingual text structures.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "tree",
+          "local_types": [
+            "data structure"
+          ],
+          "iri": "Entity-tree-Mention-1"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity-associated_graph": {
+      "node_id": "associated_graph",
+      "disambiguation_index": 0,
+      "label": "associated graph",
+      "aliases": [
+        "associated graph"
+      ],
+      "types": [
+        "graph"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'associated graph' refers to a graphical representation that links elements of a natural language text to their interlingual forms, facilitating user interaction and text revision across different languages in the context of multilingual text authoring.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "associated graph",
+          "local_types": [
+            "graph"
+          ],
+          "iri": "Entity-associated_graph-Mention-1"
+        }
+      ],
+      "relevance": 0.64794921875
+    },
+    "Entity-morphosyntactic_parser_of_l0": {
+      "node_id": "morphosyntactic_parser_of_l0",
+      "disambiguation_index": 0,
+      "label": "morphosyntactic parser of L0",
+      "aliases": [
+        "morphosyntactic parser of L0"
+      ],
+      "types": [
+        "software tool",
+        "linguistic tool",
+        "parser"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The morphosyntactic parser of L0 is a linguistic tool used to establish connections between elements of a natural language text in L0 and its corresponding interlingual representation, facilitating the integration of linguistic structures into a graph format for multilingual text processing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "morphosyntactic parser of L0",
+          "local_types": [
+            "software tool",
+            "linguistic tool",
+            "parser"
+          ],
+          "iri": "Entity-morphosyntactic_parser_of_l0-Mention-1"
+        }
+      ],
+      "relevance": 0.6474609375
+    },
+    "Entity-prototype": {
+      "node_id": "prototype",
+      "disambiguation_index": 0,
+      "label": "prototype",
+      "aliases": [
+        "a prototype",
+        "prototype"
+      ],
+      "types": [
+        "system",
+        "model",
+        "prototype"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'prototype' refers to a system being developed to facilitate interaction between naive users and a natural language text alongside its interlingual representation, allowing for text revision sharing across languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "prototype",
+          "local_types": [
+            "system",
+            "model",
+            "prototype"
+          ],
+          "iri": "Entity-prototype-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a prototype",
+          "local_types": [
+            "prototype"
+          ],
+          "iri": "Entity-prototype-Mention-2"
+        }
+      ],
+      "relevance": 0.62646484375
+    },
+    "Entity-liaison": {
+      "node_id": "liaison",
+      "disambiguation_index": 0,
+      "label": "liaisons",
+      "aliases": [
+        "liaisons"
+      ],
+      "types": [
+        "connection",
+        "relationship"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'liaisons' refer to the connections established between elements of a natural language text and its corresponding interlingual graph representation, facilitated by various linguistic resources and tools.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "liaisons",
+          "local_types": [
+            "connection",
+            "relationship"
+          ],
+          "iri": "Entity-liaison-Mention-1"
+        }
+      ],
+      "relevance": 0.62353515625
+    },
+    "Entity-across_language": {
+      "node_id": "across_language",
+      "disambiguation_index": 0,
+      "label": "across languages",
+      "aliases": [
+        "across languages"
+      ],
+      "types": [
+        "language"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'across languages' refers to the process of sharing and revising natural language texts and their interlingual representations, facilitating collaboration and improvement in multilingual contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "across languages",
+          "local_types": [
+            "language"
+          ],
+          "iri": "Entity-across_language-Mention-1"
+        }
+      ],
+      "relevance": 0.623046875
+    },
+    "Entity-error": {
+      "node_id": "error",
+      "disambiguation_index": 0,
+      "label": "errors",
+      "aliases": [
+        "the errors",
+        "errors"
+      ],
+      "types": [
+        "error",
+        "problem",
+        "issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'errors' refers to issues or problems that arise during the processing of a modified graph in the context of converting natural language text into an interlingual form, specifically indicating that these errors are likely related to the graph rather than the deconverter.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "errors",
+          "local_types": [
+            "error",
+            "problem",
+            "issue"
+          ],
+          "iri": "Entity-error-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the errors",
+          "local_types": [
+            "error"
+          ],
+          "iri": "Entity-error-Mention-2"
+        }
+      ],
+      "relevance": 0.6220703125
+    },
+    "Entity-trajectory": {
+      "node_id": "trajectory",
+      "disambiguation_index": 0,
+      "label": "trajectory",
+      "aliases": [
+        "trajectory"
+      ],
+      "types": [
+        "conceptual model",
+        "path"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of aligning linguistic structures, the term 'trajectory' refers to the selected path or sequence of connections established between the UNL-tree and the MS-L0 structure to minimize crossing liaisons.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "trajectory",
+          "local_types": [
+            "conceptual model",
+            "path"
+          ],
+          "iri": "Entity-trajectory-Mention-1"
+        }
+      ],
+      "relevance": 0.6162109375
+    },
+    "Entity-result": {
+      "node_id": "result",
+      "disambiguation_index": 0,
+      "label": "result",
+      "aliases": [
+        "result",
+        "the result"
+      ],
+      "types": [
+        "result",
+        "data",
+        "output"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'result' refers to the output produced by the UNL-L0 deconverter after processing the modified graph.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "result",
+          "local_types": [
+            "output",
+            "data"
+          ],
+          "iri": "Entity-result-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the result",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-result-Mention-2"
+        }
+      ],
+      "relevance": 0.61279296875
+    },
+    "Entity-version_in_some_other_language": {
+      "node_id": "version_in_some_other_language",
+      "disambiguation_index": 0,
+      "label": "Versions in some other languages",
+      "aliases": [
+        "Versions in some other languages"
+      ],
+      "types": [
+        "version",
+        "language"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Versions in some other languages refers to the different adaptations or translations of a natural language text that are accessible to the user, allowing for collaborative improvement and visibility of revisions across multiple languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Versions in some other languages",
+          "local_types": [
+            "version",
+            "language"
+          ],
+          "iri": "Entity-version_in_some_other_language-Mention-1"
+        }
+      ],
+      "relevance": 0.61279296875
+    },
+    "Entity-lo-english": {
+      "node_id": "lo-english",
+      "disambiguation_index": 0,
+      "label": "LO-English",
+      "aliases": [
+        "LO-English"
+      ],
+      "types": [
+        "language resource",
+        "resource",
+        "dictionary",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "LO-English refers to a language resource that serves as a dictionary for establishing liaisons between elements of a natural language text and its interlingual representation in the context of multilingual text processing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "LO-English",
+          "local_types": [
+            "language resource",
+            "resource",
+            "dictionary",
+            "language"
+          ],
+          "iri": "Entity-lo-english-Mention-1"
+        }
+      ],
+      "relevance": 0.6103515625
+    },
+    "Entity-lattice": {
+      "node_id": "lattice",
+      "disambiguation_index": 0,
+      "label": "lattice",
+      "aliases": [
+        "lattice"
+      ],
+      "types": [
+        "structure",
+        "mathematical structure",
+        "lattice",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'lattice' refers to a mathematical structure that represents the optimal correspondence between the UNL-tree and the MS-L0 structure, facilitating the alignment of elements with minimal crossing liaisons.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "lattice",
+          "local_types": [
+            "structure",
+            "mathematical structure",
+            "lattice",
+            "data structure"
+          ],
+          "iri": "Entity-lattice-Mention-1"
+        }
+      ],
+      "relevance": 0.6103515625
+    },
+    "Entity-this_research": {
+      "node_id": "this_research",
+      "disambiguation_index": 0,
+      "label": "this research",
+      "aliases": [
+        "this research"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This research focuses on integrating methodologies from pivot machine translation (MT), interactive MT, and multilingual text authoring to enhance the coedition of natural language texts and their interlingual representations.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "this research",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_research-Mention-1"
+        }
+      ],
+      "relevance": 0.6103515625
+    },
+    "Entity-version": {
+      "node_id": "version",
+      "disambiguation_index": 0,
+      "label": "versions",
+      "aliases": [
+        "new versions",
+        "versions"
+      ],
+      "types": [
+        "version",
+        "document version",
+        "update"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'versions' refers to different iterations or updates of a multilingual document that are created by adding new content along with appropriate tags and attributes, facilitating collaborative editing and sharing of improvements across languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "versions",
+          "local_types": [
+            "document version",
+            "update"
+          ],
+          "iri": "Entity-version-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "new versions",
+          "local_types": [
+            "version"
+          ],
+          "iri": "Entity-version-Mention-2"
+        }
+      ],
+      "relevance": 0.609375
+    },
+    "Entity-cooperative_working": {
+      "node_id": "cooperative_working",
+      "disambiguation_index": 0,
+      "label": "cooperative working",
+      "aliases": [
+        "cooperative working"
+      ],
+      "types": [
+        "work process",
+        "collaboration"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Cooperative working refers to the collaborative process of editing and improving a multilingual document by allowing users to interact with and share revisions across different language representations, ensuring that all contributions are preserved and accessible.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "cooperative working",
+          "local_types": [
+            "work process",
+            "collaboration"
+          ],
+          "iri": "Entity-cooperative_working-Mention-1"
+        }
+      ],
+      "relevance": 0.60888671875
+    },
+    "Entity-text": {
+      "node_id": "text",
+      "disambiguation_index": 0,
+      "label": "text",
+      "aliases": [
+        "the text",
+        "text"
+      ],
+      "types": [
+        "data",
+        "text",
+        "content"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'text' refers to the natural language content that users interact with in their own language within a prototype system designed for multilingual text revision and sharing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "text",
+          "local_types": [
+            "content",
+            "data"
+          ],
+          "iri": "Entity-text-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the text",
+          "local_types": [
+            "text"
+          ],
+          "iri": "Entity-text-Mention-2"
+        }
+      ],
+      "relevance": 0.60693359375
+    },
+    "Entity-multilingual_document": {
+      "node_id": "multilingual_document",
+      "disambiguation_index": 0,
+      "label": "multilingual document",
+      "aliases": [
+        "the original multilingual document",
+        "multilingual document"
+      ],
+      "types": [
+        "multilingual",
+        "document",
+        "text"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A multilingual document is a text that contains content in multiple languages, allowing for communication and understanding across different linguistic groups.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "multilingual document",
+          "local_types": [
+            "multilingual",
+            "document",
+            "text"
+          ],
+          "iri": "Entity-multilingual_document-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "the original multilingual document",
+          "local_types": [
+            "document"
+          ],
+          "iri": "Entity-multilingual_document-Mention-2"
+        }
+      ],
+      "relevance": 0.595703125
+    },
+    "Entity-interlingual_form": {
+      "node_id": "interlingual_form",
+      "disambiguation_index": 0,
+      "label": "interlingual form",
+      "aliases": [
+        "interlingual form"
+      ],
+      "types": [
+        "form",
+        "language model",
+        "representation",
+        "language form"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An interlingual form is a representation of a natural language text that facilitates communication and understanding across different languages by providing a common linguistic framework.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "interlingual form",
+          "local_types": [
+            "form",
+            "language model",
+            "representation",
+            "language form"
+          ],
+          "iri": "Entity-interlingual_form-Mention-1"
+        }
+      ],
+      "relevance": 0.591796875
+    },
+    "Entity-language": {
+      "node_id": "language",
+      "disambiguation_index": 0,
+      "label": "languages",
+      "aliases": [
+        "languages",
+        "language"
+      ],
+      "types": [
+        "linguistic system",
+        "system of signs",
+        "human language",
+        "communication system",
+        "communication method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'languages' refers to human languages as systems of communication that are utilized for sharing and revising text across different linguistic contexts in the development of multilingual text authoring and machine translation.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "languages",
+          "local_types": [
+            "communication system",
+            "linguistic system"
+          ],
+          "iri": "Entity-language-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "language",
+          "local_types": [
+            "communication method",
+            "linguistic system"
+          ],
+          "iri": "Entity-language-Mention-2"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "languages",
+          "local_types": [
+            "communication system",
+            "human language"
+          ],
+          "iri": "Entity-language-Mention-3"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "languages",
+          "local_types": [
+            "communication method",
+            "system of signs"
+          ],
+          "iri": "Entity-language-Mention-4"
+        }
+      ],
+      "relevance": 0.59130859375
+    },
+    "Entity-text_in_their_language": {
+      "node_id": "text_in_their_language",
+      "disambiguation_index": 0,
+      "label": "text in their language",
+      "aliases": [
+        "text in their language"
+      ],
+      "types": [
+        "text",
+        "language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The phrase 'text in their language' refers to the natural language text that naive users interact with directly in the context of a prototype designed for multilingual text revision and sharing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "text in their language",
+          "local_types": [
+            "text",
+            "language"
+          ],
+          "iri": "Entity-text_in_their_language-Mention-1"
+        }
+      ],
+      "relevance": 0.59130859375
+    },
+    "Entity-element_of_the_text": {
+      "node_id": "element_of_the_text",
+      "disambiguation_index": 0,
+      "label": "elements of the text",
+      "aliases": [
+        "elements of the text"
+      ],
+      "types": [
+        "text element",
+        "text component",
+        "linguistic element"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The phrase 'elements of the text' refers to the individual components or linguistic units within a natural language text that are linked to an interlingual representation, facilitating the establishment of connections between the text and its corresponding graph in the context of multilingual text processing.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "elements of the text",
+          "local_types": [
+            "text element",
+            "text component",
+            "linguistic element"
+          ],
+          "iri": "Entity-element_of_the_text-Mention-1"
+        }
+      ],
+      "relevance": 0.5849609375
+    },
+    "Entity-multilingual_text_authoring": {
+      "node_id": "multilingual_text_authoring",
+      "disambiguation_index": 0,
+      "label": "multilingual text authoring",
+      "aliases": [
+        "multilingual text authoring"
+      ],
+      "types": [
+        "text authoring",
+        "approach",
+        "text generation",
+        "authoring",
+        "method",
+        "process",
+        "content creation"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Multilingual text authoring refers to the process of creating written content in multiple languages, often utilizing various methods and technologies to facilitate the generation and adaptation of text across different linguistic contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "multilingual text authoring",
+          "local_types": [
+            "text authoring",
+            "approach",
+            "text generation",
+            "authoring",
+            "method",
+            "process",
+            "content creation"
+          ],
+          "iri": "Entity-multilingual_text_authoring-Mention-1"
+        }
+      ],
+      "relevance": 0.5830078125
+    },
+    "Entity-their_language": {
+      "node_id": "their_language",
+      "disambiguation_index": 0,
+      "label": "their language",
+      "aliases": [
+        "their language"
+      ],
+      "types": [
+        "language"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'their language' refers to the specific natural language that naive users interact with directly in the context of a prototype designed for sharing text revisions across languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "their language",
+          "local_types": [
+            "language"
+          ],
+          "iri": "Entity-their_language-Mention-1"
+        }
+      ],
+      "relevance": 0.57373046875
+    },
+    "Entity-interactive_mt": {
+      "node_id": "interactive_mt",
+      "disambiguation_index": 0,
+      "label": "interactive MT",
+      "aliases": [
+        "interactive MT"
+      ],
+      "types": [
+        "translation approach",
+        "method",
+        "machine translation",
+        "approach"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Interactive MT refers to a method of machine translation that involves user interaction to improve translation quality and adapt the output to specific needs.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "interactive MT",
+          "local_types": [
+            "translation approach",
+            "method",
+            "machine translation",
+            "approach"
+          ],
+          "iri": "Entity-interactive_mt-Mention-1"
+        }
+      ],
+      "relevance": 0.56884765625
+    },
+    "Entity-broadly_available_resource": {
+      "node_id": "broadly_available_resource",
+      "disambiguation_index": 0,
+      "label": "broadly available resources",
+      "aliases": [
+        "broadly available resources"
+      ],
+      "types": [
+        "resource"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Broadly available resources refer to commonly accessible tools and materials, such as dictionaries, morphosyntactic parsers, and transformation algorithms, that facilitate the establishment of connections between natural language texts and their interlingual representations.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "broadly available resources",
+          "local_types": [
+            "resource"
+          ],
+          "iri": "Entity-broadly_available_resource-Mention-1"
+        }
+      ],
+      "relevance": 0.56201171875
+    },
+    "Entity-appropriate_tag_and_attribute": {
+      "node_id": "appropriate_tag_and_attribute",
+      "disambiguation_index": 0,
+      "label": "appropriate tags and attributes",
+      "aliases": [
+        "appropriate tags and attributes"
+      ],
+      "types": [
+        "tags",
+        "attributes"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'appropriate tags and attributes' refers to the metadata and descriptive elements added to versions of a multilingual document that facilitate the organization, identification, and collaborative editing of text revisions across different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "appropriate tags and attributes",
+          "local_types": [
+            "tags",
+            "attributes"
+          ],
+          "iri": "Entity-appropriate_tag_and_attribute-Mention-1"
+        }
+      ],
+      "relevance": 0.5595703125
+    },
+    "Entity-encouraging": {
+      "node_id": "encouraging",
+      "disambiguation_index": 0,
+      "label": "encouraging",
+      "aliases": [
+        "encouraging"
+      ],
+      "types": [
+        "action"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'encouraging' refers to the positive reinforcement experienced by users when they can see visible improvements in shared multilingual document versions, fostering collaborative efforts in text revision.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "encouraging",
+          "local_types": [
+            "action"
+          ],
+          "iri": "Entity-encouraging-Mention-1"
+        }
+      ],
+      "relevance": 0.55712890625
+    },
+    "Entity-mt": {
+      "node_id": "mt",
+      "disambiguation_index": 0,
+      "label": "MT",
+      "aliases": [
+        "MT"
+      ],
+      "types": [
+        "technology",
+        "machine translation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "MT refers to machine translation, specifically in the context of merging pivot and interactive machine translation approaches with multilingual text authoring.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "MT",
+          "local_types": [
+            "technology",
+            "machine translation"
+          ],
+          "iri": "Entity-mt-Mention-1"
+        }
+      ],
+      "relevance": 0.55419921875
+    },
+    "Entity-tag": {
+      "node_id": "tag",
+      "disambiguation_index": 0,
+      "label": "tags",
+      "aliases": [
+        "attributes",
+        "tags"
+      ],
+      "types": [
+        "metadata",
+        "document attribute"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Tags refer to the appropriate labels and attributes added to versions of a multilingual document to facilitate cooperative editing and ensure that no information is lost during the revision process.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "tags",
+          "local_types": [
+            "metadata",
+            "document attribute"
+          ],
+          "iri": "Entity-tag-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "attributes",
+          "local_types": [
+            "metadata",
+            "document attribute"
+          ],
+          "iri": "Entity-tag-Mention-2"
+        }
+      ],
+      "relevance": 0.5537109375
+    },
+    "Entity-pivot_mt": {
+      "node_id": "pivot_mt",
+      "disambiguation_index": 0,
+      "label": "pivot MT",
+      "aliases": [
+        "pivot MT"
+      ],
+      "types": [
+        "translation approach",
+        "method",
+        "machine translation",
+        "approach"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Pivot MT refers to a machine translation approach that uses an intermediate language, or pivot language, to facilitate translation between two other languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "pivot MT",
+          "local_types": [
+            "translation approach",
+            "method",
+            "machine translation",
+            "approach"
+          ],
+          "iri": "Entity-pivot_mt-Mention-1"
+        }
+      ],
+      "relevance": 0.54736328125
+    },
+    "Entity-natural_language_text": {
+      "node_id": "natural_language_text",
+      "disambiguation_index": 0,
+      "label": "natural language text",
+      "aliases": [
+        "natural language text"
+      ],
+      "types": [
+        "text",
+        "language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Natural language text refers to written or spoken content that is produced in a human language, characterized by its use of grammar, vocabulary, and syntax that are typical of natural languages.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "natural language text",
+          "local_types": [
+            "text",
+            "language"
+          ],
+          "iri": "Entity-natural_language_text-Mention-1"
+        }
+      ],
+      "relevance": 0.529296875
+    },
+    "Entity-dictionary": {
+      "node_id": "dictionary",
+      "disambiguation_index": 0,
+      "label": "dictionary",
+      "aliases": [
+        "dictionary"
+      ],
+      "types": [
+        "resource",
+        "dictionary",
+        "reference material",
+        "linguistic resource"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A dictionary is a reference resource that provides definitions, translations, and information about the words of a language, often including their meanings, pronunciations, and grammatical properties.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "dictionary",
+          "local_types": [
+            "resource",
+            "dictionary"
+          ],
+          "iri": "Entity-dictionary-Mention-1"
+        },
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "dictionary",
+          "local_types": [
+            "resource",
+            "reference material",
+            "linguistic resource"
+          ],
+          "iri": "Entity-dictionary-Mention-2"
+        }
+      ],
+      "relevance": 0.48486328125
+    },
+    "Entity-naive_user": {
+      "node_id": "naive_user",
+      "disambiguation_index": 0,
+      "label": "naive users",
+      "aliases": [
+        "naive users"
+      ],
+      "types": [
+        "end user",
+        "user",
+        "participant",
+        "user group"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "naive users are individuals who lack expertise or experience in a particular domain, often interacting with systems or technologies in a straightforward manner.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "naive users",
+          "local_types": [
+            "end user",
+            "user",
+            "participant",
+            "user group"
+          ],
+          "iri": "Entity-naive_user-Mention-1"
+        }
+      ],
+      "relevance": 0.440673828125
+    },
+    "Entity-research": {
+      "node_id": "research",
+      "disambiguation_index": 0,
+      "label": "research",
+      "aliases": [
+        "research"
+      ],
+      "types": [
+        "investigation",
+        "research",
+        "academic study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Research refers to a systematic investigation or study conducted to establish facts, gather information, and contribute to knowledge in a specific field.",
+      "mentions": [
+        {
+          "reference": "Paper-73-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "research",
+          "local_types": [
+            "investigation",
+            "research",
+            "academic study"
+          ],
+          "iri": "Entity-research-Mention-1"
+        }
+      ],
+      "relevance": 0.4033203125
+    }
+  },
+  "summary": "Coedition of a natural language text and its representation in some interlingual form seems the best and simplest way to share text revision across languages . For various reasons , UNL graphs are the best candidates in this context . We are developing a prototype where , in the simplest sharing scenario , naive users interact directly with the text in their language -LRB- L0 -RRB- , and indirectly with the associated graph . The modified graph is then sent to the UNL-L0 deconverter and the result shown . If is is satisfactory , the errors were probably due to the graph , not to the deconverter , and the graph is sent to deconverters in other languages . Versions in some other languages known by the user may be displayed , so that improvement sharing is visible and encouraging . As new versions are added with appropriate tags and attributes in the original multilingual document , nothing is ever lost , and cooperative working on a document is rendered feasible . On the internal side , liaisons are established between elements of the text and the graph by using broadly available resources such as a LO-English or better a L0-UNL dictionary , a morphosyntactic parser of L0 , and a canonical graph2tree transformation . Establishing a `` best '' correspondence between the '' UNL-tree + L0 '' and the '' MS-L0 structure '' , a lattice , may be done using the dictionary and trying to align the tree and the selected trajectory with as few crossing liaisons as possible . A central goal of this research is to merge approaches from pivot MT , interactive MT , and multilingual text authoring .",
+  "triples": [
+    [
+      "Entity-coedition_of_a_natural_language_text",
+      "Predicate-seems_the_best_and_simplest_way_to_share",
+      "Entity-text_revision"
+    ],
+    [
+      "Entity-natural_language_text",
+      "Predicate-has_representation_in",
+      "Entity-interlingual_form"
+    ],
+    [
+      "Entity-it_representation_in_some_interlingual_form",
+      "Predicate-shares",
+      "Entity-text_revision"
+    ],
+    [
+      "Entity-text_revision",
+      "Predicate-is_shared_across",
+      "Entity-language"
+    ],
+    [
+      "Entity-unl_graph",
+      "Predicate-are_the_best_candidates_in",
+      "Entity-this_context"
+    ],
+    [
+      "Entity-naive_user",
+      "Predicate-interact_directly_with",
+      "Entity-text"
+    ],
+    [
+      "Entity-naive_user",
+      "Predicate-interact_indirectly_with",
+      "Entity-graph"
+    ],
+    [
+      "Entity-prototype",
+      "Predicate-is_developing",
+      "Entity-naive_user"
+    ],
+    [
+      "Entity-modified_graph",
+      "Predicate-is_sent_to",
+      "Entity-unl-l0"
+    ],
+    [
+      "Entity-unl-l0",
+      "Predicate-shows",
+      "Entity-result"
+    ],
+    [
+      "Entity-graph",
+      "Predicate-is_sent_to",
+      "Entity-deconverters_in_other_language"
+    ],
+    [
+      "Entity-error",
+      "Predicate-were_probably_due_to",
+      "Entity-graph"
+    ],
+    [
+      "Entity-version_in_some_other_language",
+      "Predicate-may_be_displayed",
+      "Entity-language"
+    ],
+    [
+      "Entity-improvement_sharing",
+      "Predicate-is_visible_and_encouraging",
+      "Entity-encouraging"
+    ],
+    [
+      "Entity-version_in_some_other_language",
+      "Predicate-may_be_displayed",
+      "Entity-improvement_sharing"
+    ],
+    [
+      "Entity-version",
+      "Predicate-are_added_with",
+      "Entity-appropriate_tag_and_attribute"
+    ],
+    [
+      "Entity-cooperative_working",
+      "Predicate-is_rendered_feasible_by",
+      "Entity-multilingual_document"
+    ],
+    [
+      "Entity-liaison",
+      "Predicate-are_established_between",
+      "Entity-element_of_the_text"
+    ],
+    [
+      "Entity-liaison",
+      "Predicate-are_established_between",
+      "Entity-graph"
+    ],
+    [
+      "Entity-element_of_the_text",
+      "Predicate-are_connected_to",
+      "Entity-graph"
+    ],
+    [
+      "Entity-broadly_available_resource",
+      "Predicate-are_used_for",
+      "Entity-l0"
+    ],
+    [
+      "Entity-l0",
+      "Predicate-has",
+      "Entity-morphosyntactic_parser_of_l0"
+    ],
+    [
+      "Entity-l0",
+      "Predicate-is_associated_with",
+      "Entity-l0-unl_dictionary"
+    ],
+    [
+      "Entity-l0-unl",
+      "Predicate-is_a_type_of",
+      "Entity-dictionary"
+    ],
+    [
+      "Entity-canonical_graph2tree_transformation",
+      "Predicate-is_a_method_for",
+      "Entity-graph"
+    ],
+    [
+      "Entity-unl-tree__l0",
+      "Predicate-corresponds_to",
+      "Entity-ms-l0"
+    ],
+    [
+      "Entity-ms-l0",
+      "Predicate-is_a_type_of",
+      "Entity-lattice"
+    ],
+    [
+      "Entity-dictionary",
+      "Predicate-is_used_to_align",
+      "Entity-tree"
+    ],
+    [
+      "Entity-tree",
+      "Predicate-is_aligned_with",
+      "Entity-trajectory"
+    ],
+    [
+      "Entity-trajectory",
+      "Predicate-has",
+      "Entity-crossing_liaison"
+    ],
+    [
+      "Entity-this_research",
+      "Predicate-merges_approaches_from",
+      "Entity-pivot_mt"
+    ],
+    [
+      "Entity-this_research",
+      "Predicate-merges_approaches_from",
+      "Entity-interactive_mt"
+    ],
+    [
+      "Entity-this_research",
+      "Predicate-merges_approaches_from",
+      "Entity-multilingual_text_authoring"
+    ],
+    [
+      "Entity-unl-l0",
+      "Predicate-converts",
+      "Entity-unl_graph"
+    ],
+    [
+      "Entity-deconverter",
+      "Predicate-processes",
+      "Entity-unl-l0"
+    ],
+    [
+      "Entity-deconverter",
+      "Predicate-processes",
+      "Entity-unl_graph"
+    ],
+    [
+      "Entity-deconverter",
+      "Predicate-processes",
+      "Entity-unl"
+    ],
+    [
+      "Entity-deconverter",
+      "Predicate-establishes_liaisons_between",
+      "Entity-l0-unl_dictionary"
+    ],
+    [
+      "Entity-unl-l0",
+      "Predicate-converts",
+      "Entity-unl"
+    ],
+    [
+      "Entity-unl_graph",
+      "Predicate-represent",
+      "Entity-unl"
+    ],
+    [
+      "Entity-unl-l0",
+      "Predicate-facilitates_the_conversion_of_UNL_graphs_using_the_L0-UNL_dictionary_in_the_UNL-L0_tool",
+      "Entity-l0-unl_dictionary"
+    ],
+    [
+      "Entity-l0-unl_dictionary",
+      "Predicate-establishes_connections_between",
+      "Entity-unl_graph"
+    ],
+    [
+      "Entity-l0-unl_dictionary",
+      "Predicate-establishes_connections_between",
+      "Entity-unl"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-unl",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-modified_graph",
+      "skos:broader",
+      "Entity-graph"
+    ],
+    [
+      "Entity-text_revision",
+      "skos:broader",
+      "Entity-text"
+    ],
+    [
+      "Entity-ms-l0",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-l0",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-lo-english",
+      "skos:broader",
+      "Entity-dictionary"
+    ],
+    [
+      "Entity-unl-l0",
+      "skos:broader",
+      "Entity-deconverter"
+    ],
+    [
+      "Entity-this_context",
+      "skos:broader",
+      "Entity-context"
+    ],
+    [
+      "Entity-their_language",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-unl",
+      "skos:broader",
+      "Entity-graph"
+    ],
+    [
+      "Entity-this_research",
+      "skos:broader",
+      "Entity-research"
+    ],
+    [
+      "Entity-text_in_their_language",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-natural_language_text",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-associated_graph",
+      "skos:broader",
+      "Entity-graph"
+    ],
+    [
+      "Entity-across_language",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-unl_graph",
+      "skos:broader",
+      "Entity-graph"
+    ],
+    [
+      "Entity-deconverters_in_other_language",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-l0-unl",
+      "skos:broader",
+      "Entity-dictionary"
+    ],
+    [
+      "Entity-version_in_some_other_language",
+      "skos:broader",
+      "Entity-version"
+    ],
+    [
+      "Entity-it_representation_in_some_interlingual_form",
+      "skos:broader",
+      "Entity-interlingual_form"
+    ],
+    [
+      "Entity-l0-unl_dictionary",
+      "skos:broader",
+      "Entity-dictionary"
+    ],
+    [
+      "Entity-version_in_some_other_language",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-multilingual_document",
+      "skos:broader",
+      "Entity-text"
+    ],
+    [
+      "Entity-unl-tree__l0",
+      "skos:broader",
+      "Entity-tree"
+    ],
+    [
+      "Entity-natural_language_text",
+      "skos:broader",
+      "Entity-text"
+    ],
+    [
+      "Entity-text_in_their_language",
+      "skos:broader",
+      "Entity-text"
+    ],
+    [
+      "Entity-deconverters_in_other_language",
+      "skos:broader",
+      "Entity-deconverter"
+    ],
+    [
+      "Entity-coedition_of_a_natural_language_text",
+      "skos:broader",
+      "Entity-text"
+    ],
+    [
+      "Entity-appropriate_tag_and_attribute",
+      "skos:broader",
+      "Entity-tag"
+    ],
+    [
+      "Entity-lo-english",
+      "skos:broader",
+      "Entity-language"
+    ]
+  ],
+  "predicates": {
+    "Predicate-seems_the_best_and_simplest_way_to_share": {
+      "label": "seems the best and simplest way to share",
+      "description": "The predicate 'seems the best and simplest way to share' indicates that the subject is perceived as the most effective and straightforward method for facilitating the transfer or communication of the object. It suggests a favorable evaluation of the subject's utility in relation to the object, emphasizing ease of use and efficiency in the sharing process.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has_representation_in": {
+      "label": "has representation in",
+      "description": "The predicate 'has representation in' indicates a relationship where the subject is expressed or manifested in the form of the object. It signifies that the subject can be understood, interpreted, or conveyed through the medium or framework provided by the object, thereby establishing a connection between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-shares": {
+      "label": "shares",
+      "description": "The predicate 'shares' indicates a relationship in which the subject actively distributes, communicates, or provides access to the object, suggesting a transfer of information, resources, or attributes from one entity to another.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_shared_across": {
+      "label": "is shared across",
+      "description": "The predicate 'is shared across' indicates a relationship where the subject possesses a quality, characteristic, or element that is common or applicable to multiple instances or categories represented by the object. It suggests a distribution or presence of the subject's attributes in various contexts or domains encompassed by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_the_best_candidates_in": {
+      "label": "are the best candidates in",
+      "description": "The predicate 'are the best candidates in' establishes a relationship where the subject is identified as the most suitable or optimal option within a specified domain or context represented by the object. It implies a comparative evaluation, suggesting that the subject excels or stands out in relevance, effectiveness, or appropriateness when considered against other possible options in the given context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-interact_directly_with": {
+      "label": "interact directly with",
+      "description": "The predicate 'interact directly with' signifies a direct engagement or connection between the subject and the object, indicating that the subject actively participates in a meaningful way with the object. This interaction implies a two-way communication or exchange where the subject influences or is influenced by the object, often resulting in a tangible effect or response.",
+      "disambiguation_index": 0
+    },
+    "Predicate-interact_indirectly_with": {
+      "label": "interact indirectly with",
+      "description": "The predicate 'interact indirectly with' describes a relationship where the subject engages with the object in a manner that is not direct or immediate. This implies that the interaction occurs through intermediaries, processes, or systems, rather than through direct contact or communication. The subject may influence or be influenced by the object in a more abstract or mediated way, suggesting a connection that is less straightforward and may involve multiple steps or layers.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_developing": {
+      "label": "is developing",
+      "description": "The predicate 'is developing' indicates an ongoing process in which the subject is actively working on or creating something that is intended to be used or experienced by the object. It implies a progression towards completion or enhancement, where the subject is engaged in activities that contribute to the growth, improvement, or realization of the object, which may represent a target audience, a product, or a concept.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_sent_to": {
+      "label": "is sent to",
+      "description": "The predicate 'is sent to' indicates a directional transfer or communication from the subject to the object, suggesting that the subject is being directed or delivered towards the object, which typically represents a destination, recipient, or target of the action.",
+      "disambiguation_index": 0
+    },
+    "Predicate-shows": {
+      "label": "shows",
+      "description": "The predicate 'shows' indicates a relationship where the subject presents, reveals, or demonstrates information, evidence, or a particular state to the object. It implies that the subject provides clarity or insight regarding the object, often making something visible or understandable.",
+      "disambiguation_index": 0
+    },
+    "Predicate-were_probably_due_to": {
+      "label": "were probably due to",
+      "description": "The predicate 'were probably due to' indicates a causal relationship where the subject is suggested to be a result or consequence of the object. It implies a level of uncertainty or speculation about the connection, suggesting that while the subject may be linked to the object, this link is not definitively established.",
+      "disambiguation_index": 0
+    },
+    "Predicate-may_be_displayed": {
+      "label": "may be displayed",
+      "description": "The predicate 'may be displayed' indicates a potential or conditional relationship where the subject has the capability or possibility to be shown or presented in relation to the object. It suggests that the subject can be made visible or accessible in the context of the object, but does not guarantee that this will occur.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_visible_and_encouraging": {
+      "label": "is visible and encouraging",
+      "description": "The predicate 'is visible and encouraging' serves to establish a relationship where the subject is perceived as being both apparent and supportive, thereby fostering a positive environment or attitude towards the object. It implies that the subject not only manifests in a way that can be easily recognized or acknowledged but also actively promotes motivation and positivity related to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_added_with": {
+      "label": "are added with",
+      "description": "The predicate 'are added with' indicates a process in which the subject is supplemented or enhanced by the inclusion of the object. It implies that the subject receives additional elements or features, represented by the object, which serve to modify, categorize, or provide further information about the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_rendered_feasible_by": {
+      "label": "is rendered feasible by",
+      "description": "The predicate 'is rendered feasible by' indicates that the subject is made possible or achievable through the influence or presence of the object. It suggests a causal relationship where the object provides the necessary conditions, resources, or support that enable the subject to occur or be realized.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_established_between": {
+      "label": "are established between",
+      "description": "The predicate 'are established between' indicates a relationship or connection that is formed or recognized between the subject and the object. It suggests that the subject creates, defines, or recognizes a link, interaction, or association with the object, highlighting the nature of their relationship.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_connected_to": {
+      "label": "are connected to",
+      "description": "The predicate 'are connected to' indicates a relationship of association or linkage between the subject and the object, suggesting that the subject has a relevant or meaningful relationship with the object. This connection can imply various forms of interaction, relevance, or dependency, highlighting how the subject and object are related within a particular context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_used_for": {
+      "label": "are used for",
+      "description": "The predicate 'are used for' indicates a functional relationship between the subject and the object, where the subject serves a purpose or fulfills a role that is defined by the object. It implies that the subject provides a means, tool, or resource that enables or facilitates the action, process, or outcome represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' indicates a possessive relationship between the subject and the object, signifying that the subject possesses, contains, or is associated with the object in some capacity. In this context, it establishes that the subject is the owner or bearer of the object, which can represent an attribute, feature, or component that is integral to the subject's identity or functionality.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_associated_with": {
+      "label": "is associated with",
+      "description": "The predicate 'is associated with' indicates a relationship between the subject and the object, suggesting that there is a connection, relevance, or correlation between them. This connection can imply various forms of association, such as functional, contextual, or conceptual links, where the subject may utilize, relate to, or be influenced by the object in some manner.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_type_of": {
+      "label": "is a type of",
+      "description": "The predicate 'is a type of' establishes a categorical relationship between the subject and the object, indicating that the subject belongs to a broader class or category represented by the object. It signifies that the subject shares common characteristics or properties with other entities that fall under the same category as the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_method_for": {
+      "label": "is a method for",
+      "description": "The predicate 'is a method for' establishes a relationship where the subject represents a specific technique, approach, or process that is utilized to achieve, create, or manipulate the object. It indicates that the subject serves as a means or strategy to work with or produce the object, highlighting the functional connection between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-corresponds_to": {
+      "label": "corresponds to",
+      "description": "The predicate 'corresponds to' indicates a relationship of equivalence or alignment between the subject and the object, suggesting that they share a commonality or are related in a way that allows one to be associated with or represent the other.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_to_align": {
+      "label": "is used to align",
+      "description": "The predicate 'is used to align' indicates a functional relationship where the subject serves a purpose or role in achieving a state of alignment with the object. This suggests that the subject provides a means, method, or tool that facilitates the arrangement, coordination, or matching of elements represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_aligned_with": {
+      "label": "is aligned with",
+      "description": "The predicate 'is aligned with' indicates a relationship of correspondence or agreement between the subject and the object, suggesting that they share a common direction, purpose, or orientation. This alignment can refer to physical positioning, conceptual agreement, or compatibility in characteristics, where the subject is positioned or organized in a way that is consistent with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-merges_approaches_from": {
+      "label": "merges approaches from",
+      "description": "The predicate 'merges approaches from' indicates a synthesis or integration of methodologies, techniques, or frameworks from a specified source or domain into the subject. It suggests that the subject is combining elements from the object to create a new or enhanced perspective, strategy, or solution.",
+      "disambiguation_index": 0
+    },
+    "Predicate-converts": {
+      "label": "converts",
+      "description": "The predicate 'converts' indicates a transformation or change of state where the subject is altered or processed in such a way that it results in the object. This implies a relationship where the subject undergoes a process that enables it to take on a new form, representation, or function as defined by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-processes": {
+      "label": "processes",
+      "description": "The predicate 'processes' indicates an action or function performed by the subject that involves the transformation, manipulation, or handling of the object. It suggests that the subject takes the object as input and applies a series of operations or procedures to achieve a specific outcome or result.",
+      "disambiguation_index": 0
+    },
+    "Predicate-establishes_liaisons_between": {
+      "label": "establishes liaisons between",
+      "description": "The predicate 'establishes liaisons between' indicates a relationship where the subject creates or facilitates connections, interactions, or associations with the object. This implies that the subject plays a role in linking or coordinating with the object, enabling communication, collaboration, or integration between them.",
+      "disambiguation_index": 0
+    },
+    "Predicate-represent": {
+      "label": "represent",
+      "description": "The predicate 'represent' indicates a relationship where the subject serves as a symbol, depiction, or manifestation of the object, conveying its meaning, characteristics, or essence in a particular context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-facilitates_the_conversion_of_UNL_graphs_using_the_L0-UNL_dictionary_in_the_UNL-L0_tool": {
+      "label": "facilitates the conversion of UNL graphs using the L0-UNL dictionary in the UNL-L0 tool",
+      "description": "The predicate describes an action performed by the subject that enables or aids in the transformation of UNL graphs into another format or representation, utilizing the L0-UNL dictionary as a resource within the context of the UNL-L0 tool. It indicates a process where the subject provides the means or support necessary for this conversion, highlighting the relationship between the subject and the object as one of facilitation and resource utilization.",
+      "disambiguation_index": 0
+    },
+    "Predicate-establishes_connections_between": {
+      "label": "establishes connections between",
+      "description": "The predicate 'establishes connections between' indicates a relationship where the subject serves as a medium or framework that links or relates to the object, facilitating an understanding or interaction between the two entities. This connection can imply various forms of association, such as semantic, functional, or structural relationships, highlighting how the subject and object are interrelated within a specific context.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the object represents a more general category or concept that encompasses the subject. This relationship suggests that the subject is a specific instance or subset of the broader category defined by the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

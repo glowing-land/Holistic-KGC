@@ -1,0 +1,1124 @@
+{
+  "iri": "Paper-62",
+  "title": "I05-5003",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-62-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-62-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+              "text": "The task of machine translation -LRB- MT -RRB- evaluation is closely related to the task of sentence-level semantic equivalence classification ."
+            },
+            {
+              "iri": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+              "text": "This paper investigates the utility of applying standard MT evaluation methods -LRB- BLEU , NIST , WER and PER -RRB- to building classifiers to predict semantic equivalence and entailment ."
+            },
+            {
+              "iri": "Paper-62-Section-1-Paragraph-1-Sentence-3",
+              "text": "We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence ."
+            },
+            {
+              "iri": "Paper-62-Section-1-Paragraph-1-Sentence-4",
+              "text": "Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment ."
+            },
+            {
+              "iri": "Paper-62-Section-1-Paragraph-1-Sentence-5",
+              "text": "Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005362033843994141,
+    16.776756525039673,
+    20.703380584716797,
+    21.11019539833069,
+    0.02082991600036621,
+    0.0001087188720703125,
+    0.00015401840209960938,
+    38.35464143753052,
+    45.295001745224,
+    1.1338474750518799,
+    21.121175527572632,
+    0.010434865951538086,
+    0.000209808349609375,
+    27.010196924209595,
+    4.491048097610474,
+    0.01243448257446289,
+    1.1177093982696533,
+    3.2936601638793945,
+    6.9633190631866455,
+    9.953310489654541,
+    28.915921449661255,
+    1.610581874847412,
+    16.487480640411377,
+    0.9397866725921631,
+    0.0006093978881835938,
+    0.01229095458984375
+  ],
+  "nodes": {
+    "Entity-our_result_show_that_mt_evaluation_technique_are_able_to_produce_useful_feature_for_paraphrase_classification_and_to_a_lesser_extent_entailment": {
+      "node_id": "our_result_show_that_mt_evaluation_technique_are_able_to_produce_useful_feature_for_paraphrase_classification_and_to_a_lesser_extent_entailment",
+      "disambiguation_index": 0,
+      "label": "Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment",
+      "aliases": [
+        "Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment"
+      ],
+      "types": [
+        "finding"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The findings on the utility of applying standard machine translation evaluation methods in building classifiers to predict semantic equivalence, paraphrasing, and entailment.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment",
+          "local_types": [
+            "finding"
+          ],
+          "iri": "Entity-our_result_show_that_mt_evaluation_technique_are_able_to_produce_useful_feature_for_paraphrase_classification_and_to_a_lesser_extent_entailment-Mention-1"
+        }
+      ],
+      "relevance": 0.8310546875
+    },
+    "Entity--lrb-_mt_-rrb-_evaluation": {
+      "node_id": "-lrb-_mt_-rrb-_evaluation",
+      "disambiguation_index": 0,
+      "label": "-LRB- MT -RRB- evaluation",
+      "aliases": [
+        "-LRB- MT -RRB- evaluation"
+      ],
+      "types": [
+        "evaluation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The process of evaluating machine translation systems using standard metrics such as BLEU, NIST, WER, and PER.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "-LRB- MT -RRB- evaluation",
+          "local_types": [
+            "evaluation"
+          ],
+          "iri": "Entity--lrb-_mt_-rrb-_evaluation-Mention-1"
+        }
+      ],
+      "relevance": 0.8076171875
+    },
+    "Entity-standard_mt_evaluation_method": {
+      "node_id": "standard_mt_evaluation_method",
+      "disambiguation_index": 0,
+      "label": "standard MT evaluation methods",
+      "aliases": [
+        "standard MT evaluation methods"
+      ],
+      "types": [
+        "evaluation method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Standard techniques used in machine translation evaluation, including BLEU, NIST, WER, and PER.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "standard MT evaluation methods",
+          "local_types": [
+            "evaluation method"
+          ],
+          "iri": "Entity-standard_mt_evaluation_method-Mention-1"
+        }
+      ],
+      "relevance": 0.77099609375
+    },
+    "Entity-our_technique_give_a_substantial_improvement_in_paraphrase_classification_accuracy_over_all_of_the_other_model_used_in_the_experiment": {
+      "node_id": "our_technique_give_a_substantial_improvement_in_paraphrase_classification_accuracy_over_all_of_the_other_model_used_in_the_experiment",
+      "disambiguation_index": 0,
+      "label": "Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments",
+      "aliases": [
+        "Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments"
+      ],
+      "types": [
+        "result"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A novel classification method based on PER, which leverages part-of-speech information for predicting semantic equivalence and entailment.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-our_technique_give_a_substantial_improvement_in_paraphrase_classification_accuracy_over_all_of_the_other_model_used_in_the_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.7646484375
+    },
+    "Entity-our_result": {
+      "node_id": "our_result",
+      "disambiguation_index": 0,
+      "label": "Our results",
+      "aliases": [
+        "Our results"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The outcomes of the experiments conducted in this paper, specifically highlighting the effectiveness of machine translation evaluation techniques in producing useful features for sentence-level semantic equivalence classification and paraphrase classification.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Our results",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-our_result-Mention-1"
+        }
+      ],
+      "relevance": 0.74951171875
+    },
+    "Entity-all_of_the_other_model_used_in_the_experiment": {
+      "node_id": "all_of_the_other_model_used_in_the_experiment",
+      "disambiguation_index": 0,
+      "label": "all of the other models used in the experiments",
+      "aliases": [
+        "all of the other models used in the experiments"
+      ],
+      "types": [
+        "models",
+        "experiments"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Various machine translation evaluation methods and sentence-level semantic equivalence classifiers developed for this study, excluding the novel PER-based method introduced by the authors.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "all of the other models used in the experiments",
+          "local_types": [
+            "models",
+            "experiments"
+          ],
+          "iri": "Entity-all_of_the_other_model_used_in_the_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.7333984375
+    },
+    "Entity-bleu__nist__wer_and_per": {
+      "node_id": "bleu__nist__wer_and_per",
+      "disambiguation_index": 0,
+      "label": "BLEU, NIST, WER and PER",
+      "aliases": [
+        "BLEU, NIST, WER and PER"
+      ],
+      "types": [
+        "metrics",
+        "evaluation metric",
+        "metric",
+        "evaluation metrics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of standard metrics used in machine translation evaluation",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "BLEU, NIST, WER and PER",
+          "local_types": [
+            "metrics",
+            "evaluation metric",
+            "metric",
+            "evaluation metrics"
+          ],
+          "iri": "Entity-bleu__nist__wer_and_per-Mention-1"
+        }
+      ],
+      "relevance": 0.732421875
+    },
+    "Entity-a_novel_classification_method_based_on_per_which_leverage_part_of_speech_information_of_the_word_contributing_to_the_word_match_and_non-matches_in_the_sentence": {
+      "node_id": "a_novel_classification_method_based_on_per_which_leverage_part_of_speech_information_of_the_word_contributing_to_the_word_match_and_non-matches_in_the_sentence",
+      "disambiguation_index": 0,
+      "label": "a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence",
+      "aliases": [
+        "PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence",
+        "a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A machine learning-based paraphrase classification method that utilizes Part-of-Speech (POS) information from matched and unmatched words in a sentence.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-a_novel_classification_method_based_on_per_which_leverage_part_of_speech_information_of_the_word_contributing_to_the_word_match_and_non-matches_in_the_sentence-Mention-1"
+        },
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-a_novel_classification_method_based_on_per_which_leverage_part_of_speech_information_of_the_word_contributing_to_the_word_match_and_non-matches_in_the_sentence-Mention-2"
+        }
+      ],
+      "relevance": 0.72265625
+    },
+    "Entity-the_task_of_machine_translation": {
+      "node_id": "the_task_of_machine_translation",
+      "disambiguation_index": 0,
+      "label": "The task of machine translation",
+      "aliases": [
+        "The task of machine translation"
+      ],
+      "types": [
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process or activity of evaluating and assessing the quality of machine translation outputs, typically using standardized metrics such as BLEU, NIST, WER, and PER.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "The task of machine translation",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-the_task_of_machine_translation-Mention-1"
+        }
+      ],
+      "relevance": 0.71435546875
+    },
+    "Entity-sentence-level_semantic_equivalence_classification": {
+      "node_id": "sentence-level_semantic_equivalence_classification",
+      "disambiguation_index": 0,
+      "label": "sentence-level semantic equivalence classification",
+      "aliases": [
+        "sentence-level semantic equivalence classification",
+        "the task of sentence-level semantic equivalence classification"
+      ],
+      "types": [
+        "field",
+        "evaluation metric",
+        "classification task",
+        "process",
+        "task",
+        "classification"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or technique used to classify sentences as semantically equivalent, which is closely related to machine translation evaluation.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "sentence-level semantic equivalence classification",
+          "local_types": [
+            "field",
+            "evaluation metric",
+            "classification task",
+            "process",
+            "task"
+          ],
+          "iri": "Entity-sentence-level_semantic_equivalence_classification-Mention-1"
+        },
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the task of sentence-level semantic equivalence classification",
+          "local_types": [
+            "classification"
+          ],
+          "iri": "Entity-sentence-level_semantic_equivalence_classification-Mention-2"
+        }
+      ],
+      "relevance": 0.7099609375
+    },
+    "Entity-per": {
+      "node_id": "per",
+      "disambiguation_index": 0,
+      "label": "PER",
+      "aliases": [
+        "PER"
+      ],
+      "types": [
+        "technique",
+        "evaluation method",
+        "named entity recognition",
+        "acronym",
+        "metric",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A metric or methodology used in natural language processing for evaluating the performance of machine translation systems.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "PER",
+          "local_types": [
+            "metric",
+            "evaluation method"
+          ],
+          "iri": "Entity-per-Mention-1"
+        },
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "PER",
+          "local_types": [
+            "technique",
+            "acronym",
+            "named entity recognition",
+            "methodology"
+          ],
+          "iri": "Entity-per-Mention-2"
+        }
+      ],
+      "relevance": 0.708984375
+    },
+    "Entity-our_technique": {
+      "node_id": "our_technique",
+      "disambiguation_index": 0,
+      "label": "Our technique",
+      "aliases": [
+        "Our technique"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A novel method for predicting semantic equivalence and entailment that leverages part-of-speech information to improve paraphrase classification accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Our technique",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-our_technique-Mention-1"
+        }
+      ],
+      "relevance": 0.6953125
+    },
+    "Entity-building_classifier_to_predict_semantic_equivalence_and_entailment": {
+      "node_id": "building_classifier_to_predict_semantic_equivalence_and_entailment",
+      "disambiguation_index": 0,
+      "label": "building classifiers to predict semantic equivalence and entailment",
+      "aliases": [
+        "building classifiers to predict semantic equivalence and entailment"
+      ],
+      "types": [
+        "approach",
+        "research goal",
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The task of developing machine learning models that can classify sentences as semantically equivalent or entailing each other.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "building classifiers to predict semantic equivalence and entailment",
+          "local_types": [
+            "approach",
+            "research goal",
+            "task"
+          ],
+          "iri": "Entity-building_classifier_to_predict_semantic_equivalence_and_entailment-Mention-1"
+        }
+      ],
+      "relevance": 0.69287109375
+    },
+    "Entity-mt_evaluation_technique": {
+      "node_id": "mt_evaluation_technique",
+      "disambiguation_index": 0,
+      "label": "MT evaluation techniques",
+      "aliases": [
+        "MT evaluation techniques",
+        "MT evaluation methods"
+      ],
+      "types": [
+        "technique",
+        "algorithm",
+        "evaluation technique",
+        "evaluation metric",
+        "techniques",
+        "methods",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Methods or approaches used to assess the quality, accuracy, or effectiveness of machine translation systems.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "MT evaluation techniques",
+          "local_types": [
+            "evaluation technique",
+            "technique",
+            "methodology"
+          ],
+          "iri": "Entity-mt_evaluation_technique-Mention-1"
+        },
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "MT evaluation methods",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "evaluation metric",
+            "techniques",
+            "methods",
+            "methodology"
+          ],
+          "iri": "Entity-mt_evaluation_technique-Mention-2"
+        }
+      ],
+      "relevance": 0.6787109375
+    },
+    "Entity-paraphrase_classification_accuracy": {
+      "node_id": "paraphrase_classification_accuracy",
+      "disambiguation_index": 0,
+      "label": "paraphrase classification accuracy",
+      "aliases": [
+        "paraphrase classification accuracy"
+      ],
+      "types": [
+        "metric",
+        "evaluation measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A metric or evaluation measure that assesses the ability to correctly classify paraphrased text.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "paraphrase classification accuracy",
+          "local_types": [
+            "metric",
+            "evaluation measure"
+          ],
+          "iri": "Entity-paraphrase_classification_accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.6787109375
+    },
+    "Entity-bleu": {
+      "node_id": "bleu",
+      "disambiguation_index": 0,
+      "label": "BLEU",
+      "aliases": [
+        "BLEU"
+      ],
+      "types": [
+        "metric",
+        "evaluation method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A widely used metric for evaluating the quality of machine translation outputs.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "BLEU",
+          "local_types": [
+            "metric",
+            "evaluation method"
+          ],
+          "iri": "Entity-bleu-Mention-1"
+        }
+      ],
+      "relevance": 0.67236328125
+    },
+    "Entity-we_also_introduce_a_novel_classification_method": {
+      "node_id": "we_also_introduce_a_novel_classification_method",
+      "disambiguation_index": 0,
+      "label": "We also introduce a novel classification method",
+      "aliases": [
+        "We also introduce a novel classification method"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A machine learning approach that uses part-of-speech information to classify semantic equivalence between sentences.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "We also introduce a novel classification method",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_also_introduce_a_novel_classification_method-Mention-1"
+        }
+      ],
+      "relevance": 0.671875
+    },
+    "Entity-wer": {
+      "node_id": "wer",
+      "disambiguation_index": 0,
+      "label": "WER",
+      "aliases": [
+        "WER"
+      ],
+      "types": [
+        "metric",
+        "evaluation method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A measure of the error rate in speech recognition or machine translation",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "WER",
+          "local_types": [
+            "metric",
+            "evaluation method"
+          ],
+          "iri": "Entity-wer-Mention-1"
+        }
+      ],
+      "relevance": 0.66748046875
+    },
+    "Entity-nist": {
+      "node_id": "nist",
+      "disambiguation_index": 0,
+      "label": "NIST",
+      "aliases": [
+        "NIST"
+      ],
+      "types": [
+        "metric",
+        "evaluation method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A standard evaluation method for measuring the quality of machine translation systems",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "NIST",
+          "local_types": [
+            "metric",
+            "evaluation method"
+          ],
+          "iri": "Entity-nist-Mention-1"
+        }
+      ],
+      "relevance": 0.662109375
+    },
+    "Entity-paraphrase_classification": {
+      "node_id": "paraphrase_classification",
+      "disambiguation_index": 0,
+      "label": "paraphrase classification",
+      "aliases": [
+        "paraphrase classification"
+      ],
+      "types": [
+        "field",
+        "classification problem",
+        "natural language processing task",
+        "task",
+        "classification",
+        "field of study"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The process of categorizing text into different semantic categories based on their meaning, often used in natural language processing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "paraphrase classification",
+          "local_types": [
+            "field",
+            "classification problem",
+            "natural language processing task",
+            "task",
+            "classification",
+            "field of study"
+          ],
+          "iri": "Entity-paraphrase_classification-Mention-1"
+        }
+      ],
+      "relevance": 0.6220703125
+    },
+    "Entity-mt": {
+      "node_id": "mt",
+      "disambiguation_index": 0,
+      "label": "MT",
+      "aliases": [
+        "MT"
+      ],
+      "types": [
+        "abbreviation",
+        "acronym",
+        "notation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Machine translation, an abbreviation or acronym used to denote the process of translating text from one language to another.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "MT",
+          "local_types": [
+            "abbreviation",
+            "acronym",
+            "notation"
+          ],
+          "iri": "Entity-mt-Mention-1"
+        }
+      ],
+      "relevance": 0.603515625
+    },
+    "Entity-building_classifier": {
+      "node_id": "building_classifier",
+      "disambiguation_index": 0,
+      "label": "building classifiers",
+      "aliases": [
+        "building classifiers"
+      ],
+      "types": [
+        "algorithm",
+        "machine learning model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of machine learning model that classifies buildings based on certain characteristics.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "building classifiers",
+          "local_types": [
+            "algorithm",
+            "machine learning model"
+          ],
+          "iri": "Entity-building_classifier-Mention-1"
+        }
+      ],
+      "relevance": 0.57568359375
+    },
+    "Entity-machine_translation": {
+      "node_id": "machine_translation",
+      "disambiguation_index": 0,
+      "label": "machine translation",
+      "aliases": [
+        "machine translation"
+      ],
+      "types": [
+        "field",
+        "concept",
+        "process",
+        "task"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The process or system that automatically translates text from one language to another.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "machine translation",
+          "local_types": [
+            "field",
+            "concept",
+            "process",
+            "task"
+          ],
+          "iri": "Entity-machine_translation-Mention-1"
+        }
+      ],
+      "relevance": 0.5732421875
+    },
+    "Entity-semantic_equivalence_and_entailment": {
+      "node_id": "semantic_equivalence_and_entailment",
+      "disambiguation_index": 0,
+      "label": "semantic equivalence and entailment",
+      "aliases": [
+        "semantic equivalence and entailment"
+      ],
+      "types": [
+        "idea",
+        "concept",
+        "natural language processing task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The relationship between the meaning of two texts or statements that are either identical in meaning, implies a similar meaning, or conveys more information than another.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "semantic equivalence and entailment",
+          "local_types": [
+            "idea",
+            "concept",
+            "natural language processing task"
+          ],
+          "iri": "Entity-semantic_equivalence_and_entailment-Mention-1"
+        }
+      ],
+      "relevance": 0.556640625
+    },
+    "Entity-novel_classification_method": {
+      "node_id": "novel_classification_method",
+      "disambiguation_index": 0,
+      "label": "novel classification method",
+      "aliases": [
+        "novel classification method"
+      ],
+      "types": [
+        "algorithm",
+        "research methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computational approach for categorizing or grouping entities into predefined categories based on specific criteria.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "novel classification method",
+          "local_types": [
+            "algorithm",
+            "research methodology"
+          ],
+          "iri": "Entity-novel_classification_method-Mention-1"
+        }
+      ],
+      "relevance": 0.5517578125
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "models",
+      "aliases": [
+        "models"
+      ],
+      "types": [
+        "algorithm",
+        "computational model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of algorithms or computational representations that are designed to perform specific tasks, classify data, or make predictions.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "models",
+          "local_types": [
+            "algorithm",
+            "computational model"
+          ],
+          "iri": "Entity-model-Mention-1"
+        }
+      ],
+      "relevance": 0.52685546875
+    },
+    "Entity-part_of_speech_information": {
+      "node_id": "part_of_speech_information",
+      "disambiguation_index": 0,
+      "label": "part of speech information",
+      "aliases": [
+        "part of speech information"
+      ],
+      "types": [
+        "data type",
+        "information type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of linguistic feature used for classifying text",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "part of speech information",
+          "local_types": [
+            "data type",
+            "information type"
+          ],
+          "iri": "Entity-part_of_speech_information-Mention-1"
+        }
+      ],
+      "relevance": 0.515625
+    },
+    "Entity-entailment": {
+      "node_id": "entailment",
+      "disambiguation_index": 0,
+      "label": "entailment",
+      "aliases": [
+        "entailment"
+      ],
+      "types": [
+        "relation",
+        "idea",
+        "concept",
+        "task",
+        "semantic relationship",
+        "logical inference",
+        "field of study"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A logical inference or relationship between two statements, where one statement implies another",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "entailment",
+          "local_types": [
+            "relation",
+            "task",
+            "semantic relationship",
+            "logical inference",
+            "field of study"
+          ],
+          "iri": "Entity-entailment-Mention-1"
+        },
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "entailment",
+          "local_types": [
+            "concept",
+            "idea"
+          ],
+          "iri": "Entity-entailment-Mention-2"
+        }
+      ],
+      "relevance": 0.51318359375
+    },
+    "Entity-semantic_equivalence": {
+      "node_id": "semantic_equivalence",
+      "disambiguation_index": 0,
+      "label": "semantic equivalence",
+      "aliases": [
+        "semantic equivalence"
+      ],
+      "types": [
+        "concept",
+        "idea"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A relationship between two expressions that convey equivalent meaning or sense.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "semantic equivalence",
+          "local_types": [
+            "concept",
+            "idea"
+          ],
+          "iri": "Entity-semantic_equivalence-Mention-1"
+        }
+      ],
+      "relevance": 0.499755859375
+    },
+    "Entity-technique": {
+      "node_id": "technique",
+      "disambiguation_index": 0,
+      "label": "technique",
+      "aliases": [
+        "technique"
+      ],
+      "types": [
+        "method",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic method or approach for achieving a specific goal or solving a problem.",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "technique",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-technique-Mention-1"
+        }
+      ],
+      "relevance": 0.445556640625
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "This paper",
+        "paper"
+      ],
+      "types": [
+        "research",
+        "research paper",
+        "academic work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written work presenting research or scholarly findings",
+      "mentions": [
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "paper",
+          "local_types": [
+            "research paper",
+            "academic work"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        },
+        {
+          "reference": "Paper-62-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-paper-Mention-2"
+        }
+      ],
+      "relevance": 0.441162109375
+    }
+  },
+  "summary": "The task of machine translation -LRB- MT -RRB- evaluation is closely related to the task of sentence-level semantic equivalence classification . This paper investigates the utility of applying standard MT evaluation methods -LRB- BLEU , NIST , WER and PER -RRB- to building classifiers to predict semantic equivalence and entailment . We also introduce a novel classification method based on PER which leverages part of speech information of the words contributing to the word matches and non-matches in the sentence . Our results show that MT evaluation techniques are able to produce useful features for paraphrase classification and to a lesser extent entailment . Our technique gives a substantial improvement in paraphrase classification accuracy over all of the other models used in the experiments .",
+  "triples": [
+    [
+      "Entity-the_task_of_machine_translation",
+      "Predicate-is_closely_related_to",
+      "Entity-sentence-level_semantic_equivalence_classification"
+    ],
+    [
+      "Entity-we_also_introduce_a_novel_classification_method",
+      "Predicate-leverages",
+      "Entity-part_of_speech_information"
+    ],
+    [
+      "Entity-we_also_introduce_a_novel_classification_method",
+      "Predicate-introduce",
+      "Entity-a_novel_classification_method_based_on_per_which_leverage_part_of_speech_information_of_the_word_contributing_to_the_word_match_and_non-matches_in_the_sentence"
+    ],
+    [
+      "Entity-mt_evaluation_technique",
+      "Predicate-produce_useful_features_for",
+      "Entity-paraphrase_classification"
+    ],
+    [
+      "Entity-our_technique",
+      "Predicate-improvement_in",
+      "Entity-paraphrase_classification_accuracy"
+    ],
+    [
+      "Entity-our_technique",
+      "Predicate-over",
+      "Entity-all_of_the_other_model_used_in_the_experiment"
+    ],
+    [
+      "Entity-standard_mt_evaluation_method",
+      "Predicate-are_able_to_produce",
+      "Entity-our_result_show_that_mt_evaluation_technique_are_able_to_produce_useful_feature_for_paraphrase_classification_and_to_a_lesser_extent_entailment"
+    ],
+    [
+      "Entity--lrb-_mt_-rrb-_evaluation",
+      "Predicate-are_able_to_produce",
+      "Entity-our_result_show_that_mt_evaluation_technique_are_able_to_produce_useful_feature_for_paraphrase_classification_and_to_a_lesser_extent_entailment"
+    ],
+    [
+      "Entity-standard_mt_evaluation_method",
+      "Predicate-apply",
+      "Entity--lrb-_mt_-rrb-_evaluation"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-all_of_the_other_model_used_in_the_experiment",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-building_classifier_to_predict_semantic_equivalence_and_entailment",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-our_technique",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-mt_evaluation_technique",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-per",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-a_novel_classification_method_based_on_per_which_leverage_part_of_speech_information_of_the_word_contributing_to_the_word_match_and_non-matches_in_the_sentence",
+      "skos:broader",
+      "Entity-technique"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_closely_related_to": {
+      "label": "is closely related to",
+      "description": "Indicates a connection between two concepts or tasks where one concept or task has significant implications for understanding, analyzing, or achieving the other. This predicate highlights the interdependence and mutual relevance of the subject and object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-leverages": {
+      "label": "leverages",
+      "description": "The predicate 'leverages' indicates that the subject uses or exploits the object to achieve some benefit, gain insight, or solve a problem. It implies a relationship of reliance, utilization, or exploitation between the subject and the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-introduce": {
+      "label": "introduce",
+      "description": "To introduce means to bring forth or present something new, often for consideration, discussion, or implementation. The predicate 'introduce' connects the subject (the entity introducing) with an object that represents a novel idea, concept, method, or perspective.",
+      "disambiguation_index": 0
+    },
+    "Predicate-produce_useful_features_for": {
+      "label": "produce useful features for",
+      "description": "The predicate 'produce useful features for' indicates a relationship where the subject (a method or technique) generates relevant and valuable characteristics that are applicable to, or beneficial for, the object (an application domain, task, or problem). This connection implies that the produced features have some practical significance or utility in addressing the needs of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improvement_in": {
+      "label": "improvement in",
+      "description": "The predicate 'improvement in' indicates a relationship where the subject has achieved or demonstrated an increase or enhancement in some aspect or quality represented by the object. This connection suggests that the subject's performance, capability, or outcome has been enhanced or improved upon.",
+      "disambiguation_index": 0
+    },
+    "Predicate-over": {
+      "label": "over",
+      "description": "The predicate 'over' indicates a relationship where the subject has dominance or superiority over the object. It suggests that the subject is prominent, prevailing, or superior to the object in some way.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_able_to_produce": {
+      "label": "are able to produce",
+      "description": "The predicate 'are able to produce' indicates the subject's capacity or capability of generating, creating, or yielding something (the object). It suggests that the subject has a certain level of proficiency, skill, or ability to bring forth or manufacture the specified outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-apply": {
+      "label": "apply",
+      "description": "The predicate 'apply' indicates that a specific method or approach (subject) is used to perform an action on, or bring into effect, a particular concept or framework (object).",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "Indicates that the subject is a more specific instance or member of a category or class denoted by the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

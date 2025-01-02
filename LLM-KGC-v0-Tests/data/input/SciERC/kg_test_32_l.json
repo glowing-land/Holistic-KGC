@@ -1,0 +1,961 @@
+{
+  "iri": "Paper-32",
+  "title": "P03-1070",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-32-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-32-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+              "text": "We investigate the verbal and nonverbal means for grounding , and propose a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction ."
+            },
+            {
+              "iri": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+              "text": "We analyzed eye gaze , head nods and attentional focus in the context of a direction-giving task ."
+            },
+            {
+              "iri": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+              "text": "The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded , and the overall pattern reflected a monitoring of lack of negative feedback ."
+            },
+            {
+              "iri": "Paper-32-Section-1-Paragraph-1-Sentence-4",
+              "text": "Based on these results , we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005114078521728516,
+    12.785645246505737,
+    20.122817039489746,
+    19.09747576713562,
+    0.02034473419189453,
+    8.225440979003906e-05,
+    0.0001087188720703125,
+    29.96225333213806,
+    35.320894718170166,
+    1.0092873573303223,
+    17.358710765838623,
+    0.008386373519897461,
+    0.0001919269561767578,
+    28.850038528442383,
+    1.1981449127197266,
+    0.016144752502441406,
+    1.1171839237213135,
+    3.208923101425171,
+    3.3237524032592773,
+    3.890974283218384,
+    40.42602491378784,
+    1.7202599048614502,
+    11.008853197097778,
+    0.7649681568145752,
+    0.0004360675811767578,
+    0.010592937469482422
+  ],
+  "nodes": {
+    "Entity-verbal_and_nonverbal_grounding_act": {
+      "node_id": "verbal_and_nonverbal_grounding_act",
+      "disambiguation_index": 0,
+      "label": "verbal and nonverbal grounding acts",
+      "aliases": [
+        "verbal and nonverbal grounding acts",
+        "the verbal and nonverbal means for grounding"
+      ],
+      "types": [
+        "technique",
+        "methodology",
+        "method",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Verbal and nonverbal behaviors used by embodied conversational agents (ECAs) to establish common ground with humans during human-computer interaction, updating dialogue state.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "verbal and nonverbal grounding acts",
+          "local_types": [
+            "technique",
+            "approach"
+          ],
+          "iri": "Entity-verbal_and_nonverbal_grounding_act-Mention-1"
+        },
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the verbal and nonverbal means for grounding",
+          "local_types": [
+            "approach",
+            "methodology",
+            "method"
+          ],
+          "iri": "Entity-verbal_and_nonverbal_grounding_act-Mention-2"
+        }
+      ],
+      "relevance": 0.8876953125
+    },
+    "Entity-we_investigate": {
+      "node_id": "we_investigate",
+      "disambiguation_index": 0,
+      "label": "We investigate",
+      "aliases": [
+        "We investigate"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The research into the verbal and nonverbal means of grounding, specifically exploring how embodied conversational agents can use both kinds of signals to establish common ground in human-computer interaction.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "We investigate",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_investigate-Mention-1"
+        }
+      ],
+      "relevance": 0.828125
+    },
+    "Entity-based_on_these_result": {
+      "node_id": "based_on_these_result",
+      "disambiguation_index": 0,
+      "label": "Based on these results",
+      "aliases": [
+        "Based on these results"
+      ],
+      "types": [
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The presentation of a conversational agent (ECA) that updates its dialogue state using both verbal and nonverbal grounding acts, based on previous research findings.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Based on these results",
+          "local_types": [
+            "study"
+          ],
+          "iri": "Entity-based_on_these_result-Mention-1"
+        }
+      ],
+      "relevance": 0.7998046875
+    },
+    "Entity-we_(1)": {
+      "node_id": "we_(1)",
+      "disambiguation_index": 1,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors who are investigating verbal and nonverbal means for grounding and proposing a design for embodied conversational agents.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we_(1)-Mention-1"
+        }
+      ],
+      "relevance": 0.75341796875
+    },
+    "Entity-a_design_for_embodied_conversational_agent_that_relies_on_both_kind_of_signal_to_establish_common_ground_in_human-computer_interaction": {
+      "node_id": "a_design_for_embodied_conversational_agent_that_relies_on_both_kind_of_signal_to_establish_common_ground_in_human-computer_interaction",
+      "disambiguation_index": 0,
+      "label": "a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction",
+      "aliases": [
+        "a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction"
+      ],
+      "types": [
+        "study",
+        "design",
+        "concept",
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A proposed design for embodied conversational agents that utilizes verbal and nonverbal cues to facilitate common understanding between humans and computers.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction",
+          "local_types": [
+            "study",
+            "design",
+            "concept",
+            "research"
+          ],
+          "iri": "Entity-a_design_for_embodied_conversational_agent_that_relies_on_both_kind_of_signal_to_establish_common_ground_in_human-computer_interaction-Mention-1"
+        }
+      ],
+      "relevance": 0.74267578125
+    },
+    "Entity-that_relies_on_both_kind_of_signal_to_establish_common_ground_in_human-computer_interaction": {
+      "node_id": "that_relies_on_both_kind_of_signal_to_establish_common_ground_in_human-computer_interaction",
+      "disambiguation_index": 0,
+      "label": "that relies on both kinds of signals to establish common ground in human-computer interaction",
+      "aliases": [
+        "that relies on both kinds of signals to establish common ground in human-computer interaction"
+      ],
+      "types": [
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "An approach or method that uses verbal and nonverbal cues, such as eye gaze, head nods, and attentional focus, to establish common ground in human-computer interaction.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "that relies on both kinds of signals to establish common ground in human-computer interaction",
+          "local_types": [
+            "approach"
+          ],
+          "iri": "Entity-that_relies_on_both_kind_of_signal_to_establish_common_ground_in_human-computer_interaction-Mention-1"
+        }
+      ],
+      "relevance": 0.74267578125
+    },
+    "Entity-nonverbal_mean_for_grounding": {
+      "node_id": "nonverbal_mean_for_grounding",
+      "disambiguation_index": 0,
+      "label": "nonverbal means for grounding",
+      "aliases": [
+        "nonverbal means for grounding"
+      ],
+      "types": [
+        "approach",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Verbal and nonverbal methods used to establish shared understanding between humans and computers",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "nonverbal means for grounding",
+          "local_types": [
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-nonverbal_mean_for_grounding-Mention-1"
+        }
+      ],
+      "relevance": 0.7392578125
+    },
+    "Entity-eca": {
+      "node_id": "eca",
+      "disambiguation_index": 0,
+      "label": "ECA",
+      "aliases": [
+        "ECA"
+      ],
+      "types": [
+        "concept",
+        "algorithm",
+        "method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A concept or approach for updating dialogue states using verbal and non-verbal cues.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "ECA",
+          "local_types": [
+            "concept",
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-eca-Mention-1"
+        }
+      ],
+      "relevance": 0.70849609375
+    },
+    "Entity-dialogue_move_being_grounded": {
+      "node_id": "dialogue_move_being_grounded",
+      "disambiguation_index": 0,
+      "label": "dialogue move being grounded",
+      "aliases": [
+        "dialogue move being grounded"
+      ],
+      "types": [
+        "idea",
+        "concept",
+        "category"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A category or concept referring to different types of moves made in a conversation that are supported by nonverbal cues, such as eye gaze and head nods.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "dialogue move being grounded",
+          "local_types": [
+            "idea",
+            "concept",
+            "category"
+          ],
+          "iri": "Entity-dialogue_move_being_grounded-Mention-1"
+        }
+      ],
+      "relevance": 0.68798828125
+    },
+    "Entity-the_type_of_dialogue_move_being_grounded": {
+      "node_id": "the_type_of_dialogue_move_being_grounded",
+      "disambiguation_index": 0,
+      "label": "the type of dialogue move being grounded",
+      "aliases": [
+        "the type of dialogue move being grounded"
+      ],
+      "types": [
+        "concept",
+        "move"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A specific kind of conversational action or strategy that serves as the basis for establishing common ground in human-computer interaction.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the type of dialogue move being grounded",
+          "local_types": [
+            "concept",
+            "move"
+          ],
+          "iri": "Entity-the_type_of_dialogue_move_being_grounded-Mention-1"
+        }
+      ],
+      "relevance": 0.677734375
+    },
+    "Entity-embodied_conversational_agent": {
+      "node_id": "embodied_conversational_agent",
+      "disambiguation_index": 0,
+      "label": "embodied conversational agents",
+      "aliases": [
+        "embodied conversational agents",
+        "a design for embodied conversational agents"
+      ],
+      "types": [
+        "artificial intelligence",
+        "computer science",
+        "system",
+        "design",
+        "technology",
+        "concept"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Computer-generated entities that simulate conversation with humans using verbal and nonverbal cues.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "embodied conversational agents",
+          "local_types": [
+            "artificial intelligence",
+            "computer science",
+            "system",
+            "technology",
+            "concept"
+          ],
+          "iri": "Entity-embodied_conversational_agent-Mention-1"
+        },
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a design for embodied conversational agents",
+          "local_types": [
+            "design",
+            "technology"
+          ],
+          "iri": "Entity-embodied_conversational_agent-Mention-2"
+        }
+      ],
+      "relevance": 0.67578125
+    },
+    "Entity-eye_gaze__head_nod_and_attentional_focus": {
+      "node_id": "eye_gaze__head_nod_and_attentional_focus",
+      "disambiguation_index": 0,
+      "label": "eye gaze, head nods and attentional focus",
+      "aliases": [
+        "eye gaze, head nods and attentional focus"
+      ],
+      "types": [
+        "behavior",
+        "phenomenon"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A nonverbal behavior characterized by visual cues, bodily gestures, and cognitive processes that indicate an individual's engagement or disengagement with their environment.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "eye gaze, head nods and attentional focus",
+          "local_types": [
+            "behavior",
+            "phenomenon"
+          ],
+          "iri": "Entity-eye_gaze__head_nod_and_attentional_focus-Mention-1"
+        }
+      ],
+      "relevance": 0.6474609375
+    },
+    "Entity-head_nod": {
+      "node_id": "head_nod",
+      "disambiguation_index": 0,
+      "label": "head nods",
+      "aliases": [
+        "head nods"
+      ],
+      "types": [
+        "measurement",
+        "nonverbal cue",
+        "body language",
+        "behavioral signal",
+        "behavioral phenomenon",
+        "phenomenon",
+        "nonverbal behavior",
+        "behavioral trait",
+        "concept",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A nonverbal gesture characterized by slight movements of the head",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "head nods",
+          "local_types": [
+            "measurement",
+            "nonverbal cue",
+            "body language",
+            "behavioral signal",
+            "behavioral phenomenon",
+            "phenomenon",
+            "nonverbal behavior",
+            "behavioral trait",
+            "concept",
+            "methodology"
+          ],
+          "iri": "Entity-head_nod-Mention-1"
+        }
+      ],
+      "relevance": 0.6328125
+    },
+    "Entity-nonverbal_behavior": {
+      "node_id": "nonverbal_behavior",
+      "disambiguation_index": 0,
+      "label": "nonverbal behaviors",
+      "aliases": [
+        "nonverbal behaviors"
+      ],
+      "types": [
+        "behavior",
+        "communication method",
+        "signals",
+        "phenomenon",
+        "social behavior",
+        "pattern",
+        "behaviors"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A form of communication that conveys meaning without using words",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "nonverbal behaviors",
+          "local_types": [
+            "behavior",
+            "communication method",
+            "signals",
+            "phenomenon",
+            "social behavior",
+            "pattern",
+            "behaviors"
+          ],
+          "iri": "Entity-nonverbal_behavior-Mention-1"
+        }
+      ],
+      "relevance": 0.626953125
+    },
+    "Entity-the_distribution": {
+      "node_id": "the_distribution",
+      "disambiguation_index": 0,
+      "label": "The distribution",
+      "aliases": [
+        "The distribution"
+      ],
+      "types": [
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A statistical analysis or presentation of the patterns and frequencies of nonverbal behaviors in human-computer interaction",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "The distribution",
+          "local_types": [
+            "study"
+          ],
+          "iri": "Entity-the_distribution-Mention-1"
+        }
+      ],
+      "relevance": 0.6044921875
+    },
+    "Entity-dialogue_move": {
+      "node_id": "dialogue_move",
+      "disambiguation_index": 0,
+      "label": "dialogue move",
+      "aliases": [
+        "dialogue move"
+      ],
+      "types": [
+        "linguistic phenomenon",
+        "communication act",
+        "speech act"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A deliberate verbal or non-verbal action in a conversation that conveys meaning and influences the interaction.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "dialogue move",
+          "local_types": [
+            "linguistic phenomenon",
+            "communication act",
+            "speech act"
+          ],
+          "iri": "Entity-dialogue_move-Mention-1"
+        }
+      ],
+      "relevance": 0.60009765625
+    },
+    "Entity-eye_gaze": {
+      "node_id": "eye_gaze",
+      "disambiguation_index": 0,
+      "label": "eye gaze",
+      "aliases": [
+        "eye gaze"
+      ],
+      "types": [
+        "measurement",
+        "nonverbal cue",
+        "biological phenomenon",
+        "physiological response",
+        "phenomenon",
+        "behavioral signal",
+        "behavioral trait",
+        "concept",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The act or instance of directing one's visual attention towards something.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "eye gaze",
+          "local_types": [
+            "measurement",
+            "nonverbal cue",
+            "biological phenomenon",
+            "physiological response",
+            "phenomenon",
+            "behavioral signal",
+            "behavioral trait",
+            "concept",
+            "methodology"
+          ],
+          "iri": "Entity-eye_gaze-Mention-1"
+        }
+      ],
+      "relevance": 0.55859375
+    },
+    "Entity-grounding": {
+      "node_id": "grounding",
+      "disambiguation_index": 0,
+      "label": "grounding",
+      "aliases": [
+        "grounding"
+      ],
+      "types": [
+        "concept",
+        "theory"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or mechanism by which something is established as a basis for understanding, agreement, or shared meaning.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "grounding",
+          "local_types": [
+            "concept",
+            "theory"
+          ],
+          "iri": "Entity-grounding-Mention-1"
+        }
+      ],
+      "relevance": 0.54833984375
+    },
+    "Entity-human-computer_interaction": {
+      "node_id": "human-computer_interaction",
+      "disambiguation_index": 0,
+      "label": "human-computer interaction",
+      "aliases": [
+        "human-computer interaction"
+      ],
+      "types": [
+        "field",
+        "computing discipline",
+        "research area",
+        "domain",
+        "field of study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The study or practice of designing interfaces between humans and computers, enabling effective communication and collaboration.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "human-computer interaction",
+          "local_types": [
+            "field",
+            "computing discipline",
+            "research area",
+            "domain",
+            "field of study"
+          ],
+          "iri": "Entity-human-computer_interaction-Mention-1"
+        }
+      ],
+      "relevance": 0.54296875
+    },
+    "Entity-dialogue_state": {
+      "node_id": "dialogue_state",
+      "disambiguation_index": 0,
+      "label": "dialogue state",
+      "aliases": [
+        "dialogue state"
+      ],
+      "types": [
+        "state",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A current situation or status within a conversation",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "dialogue state",
+          "local_types": [
+            "state",
+            "information"
+          ],
+          "iri": "Entity-dialogue_state-Mention-1"
+        }
+      ],
+      "relevance": 0.54296875
+    },
+    "Entity-attentional_focus": {
+      "node_id": "attentional_focus",
+      "disambiguation_index": 0,
+      "label": "attentional focus",
+      "aliases": [
+        "attentional focus"
+      ],
+      "types": [
+        "measurement",
+        "nonverbal cue",
+        "behavioral signal",
+        "phenomenon",
+        "cognitive process",
+        "behavioral trait",
+        "mental state",
+        "concept",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A mental state or cognitive process characterized by concentration on specific stimuli or information.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "attentional focus",
+          "local_types": [
+            "measurement",
+            "nonverbal cue",
+            "behavioral signal",
+            "phenomenon",
+            "cognitive process",
+            "behavioral trait",
+            "mental state",
+            "concept",
+            "methodology"
+          ],
+          "iri": "Entity-attentional_focus-Mention-1"
+        }
+      ],
+      "relevance": 0.53466796875
+    },
+    "Entity-the_context_of_a_direction-giving_task": {
+      "node_id": "the_context_of_a_direction-giving_task",
+      "disambiguation_index": 0,
+      "label": "the context of a direction-giving task",
+      "aliases": [
+        "the context of a direction-giving task"
+      ],
+      "types": [
+        "scenario",
+        "setting",
+        "context",
+        "study design",
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The situation in which someone provides instructions, guidance, or directions to achieve a specific goal or objective.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the context of a direction-giving task",
+          "local_types": [
+            "scenario",
+            "setting",
+            "context",
+            "study design",
+            "task"
+          ],
+          "iri": "Entity-the_context_of_a_direction-giving_task-Mention-1"
+        }
+      ],
+      "relevance": 0.52685546875
+    },
+    "Entity-direction-giving_task": {
+      "node_id": "direction-giving_task",
+      "disambiguation_index": 0,
+      "label": "direction-giving task",
+      "aliases": [
+        "direction-giving task"
+      ],
+      "types": [
+        "experiment",
+        "task",
+        "activity"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A task where an individual provides directions or instructions to another person.",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "direction-giving task",
+          "local_types": [
+            "experiment",
+            "task",
+            "activity"
+          ],
+          "iri": "Entity-direction-giving_task-Mention-1"
+        }
+      ],
+      "relevance": 0.50439453125
+    },
+    "Entity-lack_of_negative_feedback": {
+      "node_id": "lack_of_negative_feedback",
+      "disambiguation_index": 0,
+      "label": "lack of negative feedback",
+      "aliases": [
+        "lack of negative feedback"
+      ],
+      "types": [
+        "phenomenon",
+        "feedback mechanism",
+        "feedback",
+        "negative outcome"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The absence or scarcity of unfavorable reactions",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "lack of negative feedback",
+          "local_types": [
+            "phenomenon",
+            "feedback mechanism",
+            "feedback",
+            "negative outcome"
+          ],
+          "iri": "Entity-lack_of_negative_feedback-Mention-1"
+        }
+      ],
+      "relevance": 0.46826171875
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author",
+        "researcher"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A group or collective of authors or researchers",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "We",
+          "local_types": [
+            "author",
+            "researcher"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.432373046875
+    },
+    "Entity-distribution": {
+      "node_id": "distribution",
+      "disambiguation_index": 0,
+      "label": "distribution",
+      "aliases": [
+        "distribution"
+      ],
+      "types": [
+        "statistical concept",
+        "pattern"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical arrangement or pattern of data",
+      "mentions": [
+        {
+          "reference": "Paper-32-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "distribution",
+          "local_types": [
+            "statistical concept",
+            "pattern"
+          ],
+          "iri": "Entity-distribution-Mention-1"
+        }
+      ],
+      "relevance": 0.39697265625
+    }
+  },
+  "summary": "We investigate the verbal and nonverbal means for grounding , and propose a design for embodied conversational agents that relies on both kinds of signals to establish common ground in human-computer interaction . We analyzed eye gaze , head nods and attentional focus in the context of a direction-giving task . The distribution of nonverbal behaviors differed depending on the type of dialogue move being grounded , and the overall pattern reflected a monitoring of lack of negative feedback . Based on these results , we present an ECA that uses verbal and nonverbal grounding acts to update dialogue state .",
+  "triples": [
+    [
+      "Entity-we",
+      "Predicate-investigate",
+      "Entity-verbal_and_nonverbal_grounding_act"
+    ],
+    [
+      "Entity-we",
+      "Predicate-propose",
+      "Entity-a_design_for_embodied_conversational_agent_that_relies_on_both_kind_of_signal_to_establish_common_ground_in_human-computer_interaction"
+    ],
+    [
+      "Entity-we_(1)",
+      "Predicate-analyze",
+      "Entity-eye_gaze__head_nod_and_attentional_focus"
+    ],
+    [
+      "Entity-the_distribution",
+      "Predicate-differed_depending_on",
+      "Entity-the_type_of_dialogue_move_being_grounded"
+    ],
+    [
+      "Entity-nonverbal_behavior",
+      "Predicate-reflected_a_monitoring_of",
+      "Entity-lack_of_negative_feedback"
+    ],
+    [
+      "Entity-eca",
+      "Predicate-uses",
+      "Entity-verbal_and_nonverbal_grounding_act"
+    ],
+    [
+      "Entity-verbal_and_nonverbal_grounding_act",
+      "Predicate-update",
+      "Entity-dialogue_state"
+    ],
+    [
+      "Entity-we_investigate",
+      "Predicate-propose",
+      "Entity-verbal_and_nonverbal_grounding_act"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-head_nod",
+      "skos:broader",
+      "Entity-nonverbal_behavior"
+    ]
+  ],
+  "predicates": {
+    "Predicate-investigate": {
+      "label": "investigate",
+      "description": "To investigate means to systematically examine or analyze something (e.g., data, evidence, phenomena), often with a goal of gaining insight, understanding, or resolving uncertainty. The subject performs an inquiry into the object, which can be a specific phenomenon, process, or set of information.",
+      "disambiguation_index": 0
+    },
+    "Predicate-propose": {
+      "label": "propose",
+      "description": "To propose means to suggest or put forward an idea, plan, or solution for consideration and potential implementation. The predicate connects the subject (the entity proposing) with the object (the proposed concept), indicating that the subject has taken a proactive role in introducing or advocating for the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-analyze": {
+      "label": "analyze",
+      "description": "To analyze means to examine or investigate a phenomenon, behavior, or data set in order to understand its underlying structure, patterns, or relationships. The subject of analysis seeks to uncover insights and meaning by breaking down complex information into smaller components, identifying key features, and drawing connections between them.",
+      "disambiguation_index": 0
+    },
+    "Predicate-differed_depending_on": {
+      "label": "differed depending on",
+      "description": "This predicate indicates that the subject's property or behavior varies in a way that is contingent upon the object. The relationship between the subject and object suggests a conditional or dependent connection, where the subject's characteristic changes according to different conditions specified by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-reflected_a_monitoring_of": {
+      "label": "reflected a monitoring of",
+      "description": "The predicate 'reflected a monitoring of' indicates that the subject (e.g. nonverbal behaviors) serves as an indicator or manifestation of some underlying process, concept, or phenomenon being monitored (i.e., lack of negative feedback). In general, this predicate suggests a connection between the subject and object where the former is seen to be influenced by or reflective of the latter.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates a relationship of utilization or application between the subject (ECA) and object (verbal and nonverbal grounding acts), suggesting that ECA employs, exploits, or makes use of these acts for some purpose.",
+      "disambiguation_index": 0
+    },
+    "Predicate-update": {
+      "label": "update",
+      "description": "The predicate 'update' represents an action that modifies or changes the current state of something (the object), typically based on new information or input provided by the subject. This process involves adjusting, refining, or correcting the existing state to reflect a more accurate or up-to-date understanding.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is related to or encompasses the object as a more general category. It suggests a hierarchical relationship between the two, where the subject represents a higher-level concept and the object represents a lower-level concept within its scope.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "iri": "Paper-52",
+  "title": "CVPR_2016_413_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-52-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-52-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+              "text": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+              "text": "However , acquiring the necessary training data is typically a tedious and time consuming task that involves manual interaction , active sensing devices and/or synthetic scenes ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+              "text": "To overcome this problem , we propose a new , flexible , and scalable way for generating training data that only requires a set of stereo images as input ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+              "text": "The key idea of our approach is to use different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-5",
+              "text": "This enables us to generate a huge amount of training data in a fully automated manner ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+              "text": "Among other experiments , we demonstrate the potential of our approach by boosting the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision . However , acquiring the necessary training data is typically a tedious and time consuming task that involves manual interaction , active sensing devices and/or synthetic scenes . To overcome this problem , we propose a new , flexible , and scalable way for generating training data that only requires a set of stereo images as input . The key idea of our approach is to use different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm . This enables us to generate a huge amount of training data in a fully automated manner . Among other experiments , we demonstrate the potential of our approach by boosting the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data .",
+  "kg2text": [
+    "Our approach generates training data for learned confidence measures, significantly boosting the performance of three learned confidence measures. These measures are trained on a huge amount of training data, which is generated in an automated manner. This new, flexible, and scalable way for generating training data effectively overcomes the tedious problem of acquiring necessary training data, which often involves manual interaction and limited laser ground truth data. The approach utilizes multiple depth maps generated with the same stereo algorithm, enabling the creation of extensive training datasets. Furthermore, this method requires stereo images and employs different viewpoints to reason about inconsistencies and contradictions among the depth maps. The KITTI2012 dataset is used to train these three learned confidence measures, which are broader terms under the umbrella of confidence measures. Overall, the approach not only enables the generation of a huge amount of training data but also encompasses the necessary training data, which may involve synthetic scenes.",
+    "The process of acquiring training data is essential for developing effective machine learning models, particularly when it comes to obtaining the necessary training data, which often involves the use of active sensing devices and manual interaction. In the realm of stereo vision, the stereo algorithm plays a crucial role as it generates depth maps from stereo images, which are pairs of images taken from different angles to simulate human depth perception. Notably, multiple depth maps, which are derived from various viewpoints using the same stereo algorithm, have a broader term that encompasses depth maps. Furthermore, the generation of training data is conducted in an automated manner, allowing for the efficient creation of large datasets. Additionally, outlier removal is a technique that falls under the broader category of quality improvement, aimed at enhancing the overall quality of data analysis."
+  ],
+  "times": [
+    4.0950095653533936
+  ]
+}

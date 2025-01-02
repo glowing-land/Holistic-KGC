@@ -1,0 +1,1256 @@
+{
+  "iri": "Paper-97",
+  "title": "CVPR_2004_30_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-97-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-97-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-97-Section-1-Paragraph-1-Sentence-1",
+              "text": "Background modeling is an important component of many vision systems ."
+            },
+            {
+              "iri": "Paper-97-Section-1-Paragraph-1-Sentence-2",
+              "text": "Existing work in the area has mostly addressed scenes that consist of static or quasi-static structures ."
+            },
+            {
+              "iri": "Paper-97-Section-1-Paragraph-1-Sentence-3",
+              "text": "When the scene exhibits a persistent dynamic behavior in time , such an assumption is violated and detection performance deteriorates ."
+            },
+            {
+              "iri": "Paper-97-Section-1-Paragraph-1-Sentence-4",
+              "text": "In this paper , we propose a new method for the modeling and subtraction of such scenes ."
+            },
+            {
+              "iri": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+              "text": "Towards the modeling of the dynamic characteristics , optical flow is computed and utilized as a feature in a higher dimensional space ."
+            },
+            {
+              "iri": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+              "text": "Inherent ambiguities in the computation of features are addressed by using a data-dependent bandwidth for density estimation using kernels ."
+            },
+            {
+              "iri": "Paper-97-Section-1-Paragraph-1-Sentence-7",
+              "text": "Extensive experiments demonstrate the utility and performance of the proposed approach ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005128383636474609,
+    16.639527320861816,
+    21.68451189994812,
+    24.525171279907227,
+    0.018738508224487305,
+    0.00010132789611816406,
+    0.00012230873107910156,
+    42.39499521255493,
+    51.10134482383728,
+    1.1785616874694824,
+    18.78301477432251,
+    0.011077165603637695,
+    0.00021719932556152344,
+    30.739555835723877,
+    8.881305932998657,
+    0.008407831192016602,
+    1.4451277256011963,
+    3.615609645843506,
+    6.919813871383667,
+    8.502748012542725,
+    38.04564094543457,
+    1.8563857078552246,
+    21.625062227249146,
+    1.0858664512634277,
+    0.000644683837890625,
+    0.012965679168701172
+  ],
+  "nodes": {
+    "Entity-the_proposed_approach": {
+      "node_id": "the_proposed_approach",
+      "disambiguation_index": 0,
+      "label": "the proposed approach",
+      "aliases": [
+        "the proposed approach"
+      ],
+      "types": [
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A new method for modeling and subtracting scenes that exhibit persistent dynamic behavior in time, utilizing optical flow as a feature in a higher dimensional space.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "the proposed approach",
+          "local_types": [
+            "approach"
+          ],
+          "iri": "Entity-the_proposed_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.77294921875
+    },
+    "Entity-in_this_paper": {
+      "node_id": "in_this_paper",
+      "disambiguation_index": 0,
+      "label": "In this paper",
+      "aliases": [
+        "In this paper"
+      ],
+      "types": [
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This paper proposes a new method for background modeling and scene subtraction when dealing with persistent dynamic behavior in time.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "In this paper",
+          "local_types": [
+            "paper"
+          ],
+          "iri": "Entity-in_this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.7666015625
+    },
+    "Entity-we_propose_a_new_method_for_the_modeling_and_subtraction_of_such_scene": {
+      "node_id": "we_propose_a_new_method_for_the_modeling_and_subtraction_of_such_scene",
+      "disambiguation_index": 0,
+      "label": "we propose a new method for the modeling and subtraction of such scenes",
+      "aliases": [
+        "we propose a new method for the modeling and subtraction of such scenes"
+      ],
+      "types": [
+        "method",
+        "proposition"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A novel approach for processing dynamic visual scenes, enabling more accurate detection performance.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "we propose a new method for the modeling and subtraction of such scenes",
+          "local_types": [
+            "method",
+            "proposition"
+          ],
+          "iri": "Entity-we_propose_a_new_method_for_the_modeling_and_subtraction_of_such_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.73828125
+    },
+    "Entity-a_a_feature_in_a_higher_dimensional_space": {
+      "node_id": "a_a_feature_in_a_higher_dimensional_space",
+      "disambiguation_index": 0,
+      "label": "as a feature in a higher dimensional space",
+      "aliases": [
+        "as a feature in a higher dimensional space"
+      ],
+      "types": [
+        "feature",
+        "dimensional space"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Optical flow computed and used as a characteristic representation of dynamic scene behavior, projected onto a higher-dimensional space for modeling and analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "as a feature in a higher dimensional space",
+          "local_types": [
+            "feature",
+            "dimensional space"
+          ],
+          "iri": "Entity-a_a_feature_in_a_higher_dimensional_space-Mention-1"
+        }
+      ],
+      "relevance": 0.73583984375
+    },
+    "Entity-optical_flow_is_computed_and_utilized_a_a_feature_in_a_higher_dimensional_space": {
+      "node_id": "optical_flow_is_computed_and_utilized_a_a_feature_in_a_higher_dimensional_space",
+      "disambiguation_index": 0,
+      "label": "optical flow is computed and utilized as a feature in a higher dimensional space",
+      "aliases": [
+        "optical flow is computed",
+        "optical flow is computed and utilized as a feature in a higher dimensional space"
+      ],
+      "types": [
+        "computational technique",
+        "technique",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A technique used for computing motion patterns between consecutive frames of video data, representing the apparent motion of objects within an image sequence.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "optical flow is computed and utilized as a feature in a higher dimensional space",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-optical_flow_is_computed_and_utilized_a_a_feature_in_a_higher_dimensional_space-Mention-1"
+        },
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "optical flow is computed",
+          "local_types": [
+            "methodology",
+            "computational technique"
+          ],
+          "iri": "Entity-optical_flow_is_computed_and_utilized_a_a_feature_in_a_higher_dimensional_space-Mention-2"
+        }
+      ],
+      "relevance": 0.70654296875
+    },
+    "Entity-towards_the_modeling": {
+      "node_id": "towards_the_modeling",
+      "disambiguation_index": 0,
+      "label": "Towards the modeling",
+      "aliases": [
+        "Towards the modeling"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The process of developing methods for capturing and utilizing dynamic characteristics, specifically involving optical flow computation in higher-dimensional space.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Towards the modeling",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-towards_the_modeling-Mention-1"
+        }
+      ],
+      "relevance": 0.70361328125
+    },
+    "Entity-the_dynamic_characteristic": {
+      "node_id": "the_dynamic_characteristic",
+      "disambiguation_index": 0,
+      "label": "the dynamic characteristics",
+      "aliases": [
+        "the dynamic characteristics"
+      ],
+      "types": [
+        "characteristics",
+        "dynamic"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The dynamic characteristics refer to the persistent behavior of scenes over time, which exhibits changes and movements that require modeling and subtraction in computer vision systems.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the dynamic characteristics",
+          "local_types": [
+            "characteristics",
+            "dynamic"
+          ],
+          "iri": "Entity-the_dynamic_characteristic-Mention-1"
+        }
+      ],
+      "relevance": 0.7021484375
+    },
+    "Entity-the_computation_of_feature": {
+      "node_id": "the_computation_of_feature",
+      "disambiguation_index": 0,
+      "label": "the computation of features",
+      "aliases": [
+        "the computation of features"
+      ],
+      "types": [
+        "computation",
+        "feature"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of obtaining and processing optical flow as a feature in a higher dimensional space to model dynamic characteristics.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the computation of features",
+          "local_types": [
+            "computation",
+            "feature"
+          ],
+          "iri": "Entity-the_computation_of_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.69873046875
+    },
+    "Entity-optical_flow": {
+      "node_id": "optical_flow",
+      "disambiguation_index": 0,
+      "label": "optical flow",
+      "aliases": [
+        "optical flow"
+      ],
+      "types": [
+        "feature",
+        "computer vision technique",
+        "feature extraction method",
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A technique used to measure the apparent motion of image brightness patterns between two consecutive frames, often employed as a feature in computer vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "optical flow",
+          "local_types": [
+            "feature",
+            "computer vision technique",
+            "feature extraction method",
+            "technique"
+          ],
+          "iri": "Entity-optical_flow-Mention-1"
+        }
+      ],
+      "relevance": 0.6943359375
+    },
+    "Entity-when_the_scene": {
+      "node_id": "when_the_scene",
+      "disambiguation_index": 0,
+      "label": "When the scene",
+      "aliases": [
+        "When the scene"
+      ],
+      "types": [
+        "scene"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A situation where the scene exhibits persistent dynamic behavior over time, violating assumptions and leading to deteriorated detection performance.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "When the scene",
+          "local_types": [
+            "scene"
+          ],
+          "iri": "Entity-when_the_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.673828125
+    },
+    "Entity-inherent_ambiguity_in_the_computation_of_feature_are_addressed_by_using_a_data-dependent_bandwidth_for_density_estimation_using_kernel": {
+      "node_id": "inherent_ambiguity_in_the_computation_of_feature_are_addressed_by_using_a_data-dependent_bandwidth_for_density_estimation_using_kernel",
+      "disambiguation_index": 0,
+      "label": "inherent ambiguities in the computation of features are addressed by using a data-dependent bandwidth for density estimation using kernels",
+      "aliases": [
+        "a data-dependent bandwidth for density estimation using kernels",
+        "inherent ambiguities in the computation of features are addressed by using a data-dependent bandwidth for density estimation using kernels"
+      ],
+      "types": [
+        "approach",
+        "methodology",
+        "algorithm",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method used to address inherent ambiguities in feature computation by employing data-dependent bandwidth for density estimation using kernels.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "inherent ambiguities in the computation of features are addressed by using a data-dependent bandwidth for density estimation using kernels",
+          "local_types": [
+            "approach",
+            "method"
+          ],
+          "iri": "Entity-inherent_ambiguity_in_the_computation_of_feature_are_addressed_by_using_a_data-dependent_bandwidth_for_density_estimation_using_kernel-Mention-1"
+        },
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a data-dependent bandwidth for density estimation using kernels",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-inherent_ambiguity_in_the_computation_of_feature_are_addressed_by_using_a_data-dependent_bandwidth_for_density_estimation_using_kernel-Mention-2"
+        }
+      ],
+      "relevance": 0.6728515625
+    },
+    "Entity-the_area": {
+      "node_id": "the_area",
+      "disambiguation_index": 0,
+      "label": "the area",
+      "aliases": [
+        "the area"
+      ],
+      "types": [
+        "domain",
+        "field"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The field of background modeling in computer vision, specifically addressing scenes with static or quasi-static structures.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the area",
+          "local_types": [
+            "domain",
+            "field"
+          ],
+          "iri": "Entity-the_area-Mention-1"
+        }
+      ],
+      "relevance": 0.671875
+    },
+    "Entity-persistent_dynamic_behavior_in_time": {
+      "node_id": "persistent_dynamic_behavior_in_time",
+      "disambiguation_index": 0,
+      "label": "persistent dynamic behavior in time",
+      "aliases": [
+        "persistent dynamic behavior in time"
+      ],
+      "types": [
+        "behavior",
+        "time"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The persistent movement or change of scene characteristics over time, violating assumptions made by existing background modeling methods.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "persistent dynamic behavior in time",
+          "local_types": [
+            "behavior",
+            "time"
+          ],
+          "iri": "Entity-persistent_dynamic_behavior_in_time-Mention-1"
+        }
+      ],
+      "relevance": 0.66357421875
+    },
+    "Entity-background_modeling": {
+      "node_id": "background_modeling",
+      "disambiguation_index": 0,
+      "label": "Background modeling",
+      "aliases": [
+        "Background modeling",
+        "background modeling"
+      ],
+      "types": [
+        "technique",
+        "algorithm",
+        "research area",
+        "method",
+        "concept"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A technique or method used to identify and separate the background from foreground elements in images, data, or other visual representations.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Background modeling",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "research area",
+            "method",
+            "concept"
+          ],
+          "iri": "Entity-background_modeling-Mention-1"
+        }
+      ],
+      "relevance": 0.66064453125
+    },
+    "Entity-data-dependent_bandwidth": {
+      "node_id": "data-dependent_bandwidth",
+      "disambiguation_index": 0,
+      "label": "data-dependent bandwidth",
+      "aliases": [
+        "data-dependent bandwidth"
+      ],
+      "types": [
+        "algorithmic technique",
+        "computational method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A technique used to estimate densities with inherent ambiguities in feature computations, where the bandwidth adapts to the characteristics of the input data.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "data-dependent bandwidth",
+          "local_types": [
+            "algorithmic technique",
+            "computational method"
+          ],
+          "iri": "Entity-data-dependent_bandwidth-Mention-1"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity-such_an_assumption_is_violated": {
+      "node_id": "such_an_assumption_is_violated",
+      "disambiguation_index": 0,
+      "label": "such an assumption is violated",
+      "aliases": [
+        "such an assumption is violated"
+      ],
+      "types": [
+        "assumption",
+        "violation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The assumption that scenes consist of static or quasi-static structures, which is typically made in background modeling.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "such an assumption is violated",
+          "local_types": [
+            "assumption",
+            "violation"
+          ],
+          "iri": "Entity-such_an_assumption_is_violated-Mention-1"
+        }
+      ],
+      "relevance": 0.64697265625
+    },
+    "Entity-detection_performance_deteriorates": {
+      "node_id": "detection_performance_deteriorates",
+      "disambiguation_index": 0,
+      "label": "detection performance deteriorates",
+      "aliases": [
+        "detection performance deteriorates"
+      ],
+      "types": [
+        "deterioration",
+        "performance",
+        "performance metric"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The decline in effectiveness of a visual system's ability to detect objects or events when the scene exhibits persistent dynamic behavior over time.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "detection performance deteriorates",
+          "local_types": [
+            "deterioration",
+            "performance",
+            "performance metric"
+          ],
+          "iri": "Entity-detection_performance_deteriorates-Mention-1"
+        }
+      ],
+      "relevance": 0.62841796875
+    },
+    "Entity-scene_that_consist_of_static_or_quasi-static_structure": {
+      "node_id": "scene_that_consist_of_static_or_quasi-static_structure",
+      "disambiguation_index": 0,
+      "label": "scenes that consist of static or quasi-static structures",
+      "aliases": [
+        "scenes that consist of static or quasi-static structures"
+      ],
+      "types": [
+        "structure",
+        "scene",
+        "scene type"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Types of visual scenes characterized by unchanging or slowly changing structural elements.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scenes that consist of static or quasi-static structures",
+          "local_types": [
+            "structure",
+            "scene",
+            "scene type"
+          ],
+          "iri": "Entity-scene_that_consist_of_static_or_quasi-static_structure-Mention-1"
+        }
+      ],
+      "relevance": 0.609375
+    },
+    "Entity-density_estimation_using_kernel": {
+      "node_id": "density_estimation_using_kernel",
+      "disambiguation_index": 0,
+      "label": "density estimation using kernels",
+      "aliases": [
+        "density estimation using kernels"
+      ],
+      "types": [
+        "statistical analysis",
+        "mathematical modeling"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical method that uses kernel-based techniques to estimate probability distributions or densities.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "density estimation using kernels",
+          "local_types": [
+            "statistical analysis",
+            "mathematical modeling"
+          ],
+          "iri": "Entity-density_estimation_using_kernel-Mention-1"
+        }
+      ],
+      "relevance": 0.60546875
+    },
+    "Entity-inherent_ambiguity": {
+      "node_id": "inherent_ambiguity",
+      "disambiguation_index": 0,
+      "label": "Inherent ambiguities",
+      "aliases": [
+        "Inherent ambiguities"
+      ],
+      "types": [
+        "ambiguity"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Ambiguities that arise from the inherent limitations or uncertainties in the process of computing visual features, such as optical flow.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Inherent ambiguities",
+          "local_types": [
+            "ambiguity"
+          ],
+          "iri": "Entity-inherent_ambiguity-Mention-1"
+        }
+      ],
+      "relevance": 0.5927734375
+    },
+    "Entity-extensive_experiment": {
+      "node_id": "extensive_experiment",
+      "disambiguation_index": 0,
+      "label": "Extensive experiments",
+      "aliases": [
+        "Extensive experiments"
+      ],
+      "types": [
+        "experiments"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A series of comprehensive tests or trials conducted to evaluate the effectiveness and efficiency of a newly proposed method for background modeling in computer vision.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "Extensive experiments",
+          "local_types": [
+            "experiments"
+          ],
+          "iri": "Entity-extensive_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.59228515625
+    },
+    "Entity-higher_dimensional_space": {
+      "node_id": "higher_dimensional_space",
+      "disambiguation_index": 0,
+      "label": "higher dimensional space",
+      "aliases": [
+        "higher dimensional space"
+      ],
+      "types": [
+        "mathematical concept",
+        "dimensionality reduction method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical construct or abstract framework that enables the representation of data or objects with more than three spatial dimensions, often used to facilitate complex calculations and pattern recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "higher dimensional space",
+          "local_types": [
+            "mathematical concept",
+            "dimensionality reduction method"
+          ],
+          "iri": "Entity-higher_dimensional_space-Mention-1"
+        }
+      ],
+      "relevance": 0.58740234375
+    },
+    "Entity-scene": {
+      "node_id": "scene",
+      "disambiguation_index": 0,
+      "label": "scenes",
+      "aliases": [
+        "scenes",
+        "scene"
+      ],
+      "types": [
+        "environment",
+        "image sequence",
+        "visual representation",
+        "term",
+        "visual concept",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A visual representation of a setting, environment, or situation",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scenes",
+          "local_types": [
+            "environment",
+            "image sequence",
+            "visual representation",
+            "term",
+            "visual concept",
+            "concept"
+          ],
+          "iri": "Entity-scene-Mention-1"
+        },
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "scene",
+          "local_types": [
+            "visual representation",
+            "environment"
+          ],
+          "iri": "Entity-scene-Mention-2"
+        },
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scenes",
+          "local_types": [
+            "visual representation",
+            "image sequence"
+          ],
+          "iri": "Entity-scene-Mention-3"
+        }
+      ],
+      "relevance": 0.58203125
+    },
+    "Entity-vision_system": {
+      "node_id": "vision_system",
+      "disambiguation_index": 0,
+      "label": "vision systems",
+      "aliases": [
+        "vision systems"
+      ],
+      "types": [
+        "field",
+        "technology",
+        "field of study",
+        "domain"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of technology or field that deals with the detection and interpretation of visual information from one or more sources.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "vision systems",
+          "local_types": [
+            "field",
+            "technology",
+            "field of study",
+            "domain"
+          ],
+          "iri": "Entity-vision_system-Mention-1"
+        }
+      ],
+      "relevance": 0.560546875
+    },
+    "Entity-kernel": {
+      "node_id": "kernel",
+      "disambiguation_index": 0,
+      "label": "kernels",
+      "aliases": [
+        "kernels"
+      ],
+      "types": [
+        "mathematical concept",
+        "method",
+        "algorithmic component",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical concept or algorithmic component used to transform and analyze data.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "kernels",
+          "local_types": [
+            "mathematical concept",
+            "method",
+            "algorithmic component",
+            "algorithm"
+          ],
+          "iri": "Entity-kernel-Mention-1"
+        }
+      ],
+      "relevance": 0.56005859375
+    },
+    "Entity-feature": {
+      "node_id": "feature",
+      "disambiguation_index": 0,
+      "label": "feature",
+      "aliases": [
+        "feature",
+        "features"
+      ],
+      "types": [
+        "concept",
+        "data point",
+        "attribute"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measurable characteristic or attribute used to describe an object, concept, or phenomenon.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "feature",
+          "local_types": [
+            "data point",
+            "attribute"
+          ],
+          "iri": "Entity-feature-Mention-1"
+        },
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "features",
+          "local_types": [
+            "concept",
+            "attribute"
+          ],
+          "iri": "Entity-feature-Mention-2"
+        }
+      ],
+      "relevance": 0.54345703125
+    },
+    "Entity-many_vision_system": {
+      "node_id": "many_vision_system",
+      "disambiguation_index": 0,
+      "label": "many vision systems",
+      "aliases": [
+        "many vision systems"
+      ],
+      "types": [
+        "field",
+        "vision"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A collection of various computer vision-based systems or approaches.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "many vision systems",
+          "local_types": [
+            "field",
+            "vision"
+          ],
+          "iri": "Entity-many_vision_system-Mention-1"
+        }
+      ],
+      "relevance": 0.52587890625
+    },
+    "Entity-extensive_experiment_demonstrate_the_utility_and_performance_of_the_proposed_approach": {
+      "node_id": "extensive_experiment_demonstrate_the_utility_and_performance_of_the_proposed_approach",
+      "disambiguation_index": 0,
+      "label": "Extensive experiments demonstrate the utility and performance of the proposed approach",
+      "aliases": [
+        "Extensive experiments demonstrate the utility and performance of the proposed approach"
+      ],
+      "types": [
+        "evaluation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An evaluation process that assesses the effectiveness and efficiency of a proposed method or system.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "Extensive experiments demonstrate the utility and performance of the proposed approach",
+          "local_types": [
+            "evaluation"
+          ],
+          "iri": "Entity-extensive_experiment_demonstrate_the_utility_and_performance_of_the_proposed_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.50390625
+    },
+    "Entity-area": {
+      "node_id": "area",
+      "disambiguation_index": 0,
+      "label": "area",
+      "aliases": [
+        "area"
+      ],
+      "types": [
+        "field of study",
+        "domain"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A specific region or sphere of knowledge, research, or activity",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "area",
+          "local_types": [
+            "field of study",
+            "domain"
+          ],
+          "iri": "Entity-area-Mention-1"
+        }
+      ],
+      "relevance": 0.488525390625
+    },
+    "Entity-time": {
+      "node_id": "time",
+      "disambiguation_index": 0,
+      "label": "time",
+      "aliases": [
+        "time"
+      ],
+      "types": [
+        "time",
+        "temporal dimension",
+        "duration"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measure of duration or sequence that governs events' occurrence and progression.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "time",
+          "local_types": [
+            "time",
+            "temporal dimension",
+            "duration"
+          ],
+          "iri": "Entity-time-Mention-1"
+        }
+      ],
+      "relevance": 0.482177734375
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "proposed approach",
+        "method"
+      ],
+      "types": [
+        "technique",
+        "methodology",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic procedure or approach used to achieve a specific goal or solve a particular problem.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "method",
+          "local_types": [
+            "algorithm",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "proposed approach",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-method-Mention-2"
+        }
+      ],
+      "relevance": 0.47509765625
+    },
+    "Entity-existing_work": {
+      "node_id": "existing_work",
+      "disambiguation_index": 0,
+      "label": "Existing work",
+      "aliases": [
+        "Existing work in the area",
+        "Existing work"
+      ],
+      "types": [
+        "study",
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Previous research studies",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Existing work",
+          "local_types": [
+            "study",
+            "research"
+          ],
+          "iri": "Entity-existing_work-Mention-1"
+        },
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Existing work in the area",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-existing_work-Mention-2"
+        }
+      ],
+      "relevance": 0.441650390625
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "experiments",
+      "aliases": [
+        "experiments"
+      ],
+      "types": [
+        "research study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Research studies or trials conducted to test hypotheses, gather data, or evaluate the effectiveness of a method or system.",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "experiments",
+          "local_types": [
+            "research study"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.43994140625
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "document",
+        "publication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written or printed work that presents research, information, or ideas",
+      "mentions": [
+        {
+          "reference": "Paper-97-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "paper",
+          "local_types": [
+            "document",
+            "publication"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.421630859375
+    }
+  },
+  "summary": "Background modeling is an important component of many vision systems . Existing work in the area has mostly addressed scenes that consist of static or quasi-static structures . When the scene exhibits a persistent dynamic behavior in time , such an assumption is violated and detection performance deteriorates . In this paper , we propose a new method for the modeling and subtraction of such scenes . Towards the modeling of the dynamic characteristics , optical flow is computed and utilized as a feature in a higher dimensional space . Inherent ambiguities in the computation of features are addressed by using a data-dependent bandwidth for density estimation using kernels . Extensive experiments demonstrate the utility and performance of the proposed approach .",
+  "triples": [
+    [
+      "Entity-background_modeling",
+      "Predicate-is_an_important_component_of",
+      "Entity-many_vision_system"
+    ],
+    [
+      "Entity-existing_work",
+      "Predicate-has_addressed",
+      "Entity-scene"
+    ],
+    [
+      "Entity-existing_work",
+      "Predicate-has_mostly_addressed",
+      "Entity-scene_that_consist_of_static_or_quasi-static_structure"
+    ],
+    [
+      "Entity-when_the_scene",
+      "Predicate-exhibits",
+      "Entity-persistent_dynamic_behavior_in_time"
+    ],
+    [
+      "Entity-paper",
+      "Predicate-propose",
+      "Entity-method"
+    ],
+    [
+      "Entity-we_propose_a_new_method_for_the_modeling_and_subtraction_of_such_scene",
+      "Predicate-modeling",
+      "Entity-scene"
+    ],
+    [
+      "Entity-optical_flow",
+      "Predicate-utilized_as_a_feature_in",
+      "Entity-higher_dimensional_space"
+    ],
+    [
+      "Entity-the_proposed_approach",
+      "Predicate-propose",
+      "Entity-we_propose_a_new_method_for_the_modeling_and_subtraction_of_such_scene"
+    ],
+    [
+      "Entity-the_proposed_approach",
+      "Predicate-propose",
+      "Entity-in_this_paper"
+    ],
+    [
+      "Entity-in_this_paper",
+      "Predicate-propose",
+      "Entity-we_propose_a_new_method_for_the_modeling_and_subtraction_of_such_scene"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_a_feature_in_a_higher_dimensional_space",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-we_propose_a_new_method_for_the_modeling_and_subtraction_of_such_scene",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_proposed_approach",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-in_this_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-optical_flow_is_computed_and_utilized_a_a_feature_in_a_higher_dimensional_space",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-background_modeling",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-persistent_dynamic_behavior_in_time",
+      "skos:broader",
+      "Entity-time"
+    ],
+    [
+      "Entity-extensive_experiment",
+      "skos:broader",
+      "Entity-experiment"
+    ],
+    [
+      "Entity-kernel",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-when_the_scene",
+      "skos:broader",
+      "Entity-scene"
+    ],
+    [
+      "Entity-optical_flow",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-inherent_ambiguity_in_the_computation_of_feature_are_addressed_by_using_a_data-dependent_bandwidth_for_density_estimation_using_kernel",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-optical_flow",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_computation_of_feature",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-scene_that_consist_of_static_or_quasi-static_structure",
+      "skos:broader",
+      "Entity-scene"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_an_important_component_of": {
+      "label": "is an important component of",
+      "description": "This predicate indicates a relationship between two entities where one entity (the subject) plays a crucial role or has significant influence on another entity (the object). The connection suggests that the subject is an integral part of, contributes to, or enhances the functionality or significance of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has_addressed": {
+      "label": "has addressed",
+      "description": "The predicate 'has addressed' indicates that the subject (a person or entity) has taken action to consider, discuss, or respond to a specific topic or issue represented by the object. This can include providing an explanation, offering solutions, or presenting arguments related to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has_mostly_addressed": {
+      "label": "has mostly addressed",
+      "description": "The predicate 'has mostly addressed' indicates a subject's primary focus on an object, suggesting that the majority of its attention, effort, or content has been directed towards it. This connection implies a significant relationship between the subject and the object, where the subject has devoted most of its resources to understanding, analyzing, or exploring the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-exhibits": {
+      "label": "exhibits",
+      "description": "The predicate 'exhibits' indicates a relationship where the subject (in this case, 'the scene') displays or shows certain characteristics, properties, or behaviors that are described by the object. In general, it suggests a demonstration or manifestation of something inherent to the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-propose": {
+      "label": "propose",
+      "description": "To propose means to suggest or recommend something as a potential solution, approach, or plan. It implies presenting an idea or concept for consideration and evaluation by others.",
+      "disambiguation_index": 0
+    },
+    "Predicate-modeling": {
+      "label": "modeling",
+      "description": "The predicate 'modeling' represents an act of creating or representing a conceptual framework that captures essential characteristics or patterns of its object. It implies the creation of a simplified representation, abstraction, or simulation of something complex, often for purposes such as analysis, understanding, prediction, or decision-making.",
+      "disambiguation_index": 0
+    },
+    "Predicate-utilized_as_a_feature_in": {
+      "label": "utilized as a feature in",
+      "description": "The predicate 'utilized as a feature in' indicates that the subject (a concept or entity) has been employed or leveraged to serve as an inherent characteristic, attribute, or property within the object (another concept or domain). This connection highlights how the subject contributes to or is embedded within the object's structure, functionality, or nature.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or manifestation of a more general concept or category represented by the object. The relationship between the subject and object suggests a hierarchical organization, where the subject is a subordinate part of the larger whole described by the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

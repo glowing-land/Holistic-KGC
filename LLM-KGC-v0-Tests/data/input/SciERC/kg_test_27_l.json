@@ -1,0 +1,950 @@
+{
+  "iri": "Paper-27",
+  "title": "ICCV_2013_25_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-27-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-27-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+              "text": "We present a scanning method that recovers dense sub-pixel camera-projector correspondence without requiring any photometric calibration nor preliminary knowledge of their relative geometry ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+              "text": "Subpixel accuracy is achieved by considering several zero-crossings defined by the difference between pairs of unstructured patterns ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+              "text": "We use gray-level band-pass white noise patterns that increase robustness to indirect lighting and scene discontinuities ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+              "text": "Simulated and experimental results show that our method recovers scene geometry with high subpixel precision , and that it can handle many challenges of active reconstruction systems ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+              "text": "We compare our results to state of the art methods such as mi-cro phase shifting and modulated phase shifting ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005307197570800781,
+    14.82884931564331,
+    25.084120512008667,
+    21.15349769592285,
+    0.025628089904785156,
+    8.797645568847656e-05,
+    0.00010991096496582031,
+    32.853816986083984,
+    44.808624267578125,
+    1.144975185394287,
+    24.055567026138306,
+    0.009091854095458984,
+    0.0001800060272216797,
+    29.21993923187256,
+    13.706359386444092,
+    0.013946533203125,
+    1.093338966369629,
+    3.2370831966400146,
+    3.1741552352905273,
+    3.9012792110443115,
+    31.8369619846344,
+    1.6023128032684326,
+    8.503055572509766,
+    0.8257086277008057,
+    0.00042510032653808594,
+    0.010393857955932617
+  ],
+  "nodes": {
+    "Entity-mi-cro_phase_shifting": {
+      "node_id": "mi-cro_phase_shifting",
+      "disambiguation_index": 0,
+      "label": "mi-cro phase shifting",
+      "aliases": [
+        "mi-cro phase shifting and modulated phase shifting",
+        "mi-cro phase shifting"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A state-of-the-art method for recovering dense sub-pixel camera-projector correspondence without photometric calibration or preliminary knowledge of their relative geometry.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "mi-cro phase shifting",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-mi-cro_phase_shifting-Mention-1"
+        },
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "mi-cro phase shifting and modulated phase shifting",
+          "local_types": [
+            "technique",
+            "algorithm"
+          ],
+          "iri": "Entity-mi-cro_phase_shifting-Mention-2"
+        }
+      ],
+      "relevance": 0.810546875
+    },
+    "Entity-scanning_method": {
+      "node_id": "scanning_method",
+      "disambiguation_index": 0,
+      "label": "scanning method",
+      "aliases": [
+        "scanning method",
+        "We present a scanning method",
+        "scanning method that recovers dense sub-pixel camera-projector correspondence"
+      ],
+      "types": [
+        "technique",
+        "research",
+        "algorithm",
+        "method",
+        "technology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A technique for recovering dense sub-pixel camera-projector correspondence without photometric calibration or prior knowledge of their relative geometry.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "scanning method",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-scanning_method-Mention-1"
+        },
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "scanning method that recovers dense sub-pixel camera-projector correspondence",
+          "local_types": [
+            "technology",
+            "method"
+          ],
+          "iri": "Entity-scanning_method-Mention-2"
+        },
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "We present a scanning method",
+          "local_types": [
+            "research",
+            "method"
+          ],
+          "iri": "Entity-scanning_method-Mention-3"
+        }
+      ],
+      "relevance": 0.8046875
+    },
+    "Entity-a_scanning_method_that_recovers_dense_sub-pixel_camera-projector_correspondence": {
+      "node_id": "a_scanning_method_that_recovers_dense_sub-pixel_camera-projector_correspondence",
+      "disambiguation_index": 0,
+      "label": "a scanning method that recovers dense sub-pixel camera-projector correspondence",
+      "aliases": [
+        "a scanning method that recovers dense sub-pixel camera-projector correspondence"
+      ],
+      "types": [
+        "technique",
+        "correspondence"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A technique for establishing correspondences between pixels on a camera and projector images at sub-pixel accuracy, without requiring photometric calibration or prior knowledge of their relative geometry.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a scanning method that recovers dense sub-pixel camera-projector correspondence",
+          "local_types": [
+            "technique",
+            "correspondence"
+          ],
+          "iri": "Entity-a_scanning_method_that_recovers_dense_sub-pixel_camera-projector_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.78955078125
+    },
+    "Entity-modulated_phase_shifting": {
+      "node_id": "modulated_phase_shifting",
+      "disambiguation_index": 0,
+      "label": "modulated phase shifting",
+      "aliases": [
+        "modulated phase shifting"
+      ],
+      "types": [
+        "technique",
+        "algorithm",
+        "method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A method for recovering dense sub-pixel camera-projector correspondence using gray-level band-pass white noise patterns.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "modulated phase shifting",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-modulated_phase_shifting-Mention-1"
+        }
+      ],
+      "relevance": 0.783203125
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors presenting their method for recovering dense sub-pixel camera-projector correspondence",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.75146484375
+    },
+    "Entity-without_requiring_any_photometric_calibration_nor_preliminary_knowledge_of_their_relative_geometry": {
+      "node_id": "without_requiring_any_photometric_calibration_nor_preliminary_knowledge_of_their_relative_geometry",
+      "disambiguation_index": 0,
+      "label": "without requiring any photometric calibration nor preliminary knowledge of their relative geometry",
+      "aliases": [
+        "without requiring any photometric calibration nor preliminary knowledge of their relative geometry"
+      ],
+      "types": [
+        "constraint"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A constraint on recovering dense sub-pixel camera-projector correspondence that does not require photometric calibration or prior knowledge of the relative geometry between cameras and projectors.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "without requiring any photometric calibration nor preliminary knowledge of their relative geometry",
+          "local_types": [
+            "constraint"
+          ],
+          "iri": "Entity-without_requiring_any_photometric_calibration_nor_preliminary_knowledge_of_their_relative_geometry-Mention-1"
+        }
+      ],
+      "relevance": 0.7470703125
+    },
+    "Entity-active_reconstruction_system": {
+      "node_id": "active_reconstruction_system",
+      "disambiguation_index": 0,
+      "label": "active reconstruction systems",
+      "aliases": [
+        "active reconstruction systems"
+      ],
+      "types": [
+        "reconstruction system",
+        "image processing",
+        "system",
+        "technology",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Systems capable of recovering dense camera-projector correspondence without photometric calibration or preliminary knowledge of their relative geometry, and handling various challenges.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "active reconstruction systems",
+          "local_types": [
+            "reconstruction system",
+            "image processing",
+            "system",
+            "technology",
+            "computer vision"
+          ],
+          "iri": "Entity-active_reconstruction_system-Mention-1"
+        }
+      ],
+      "relevance": 0.72265625
+    },
+    "Entity-simulated_and_experimental_result": {
+      "node_id": "simulated_and_experimental_result",
+      "disambiguation_index": 0,
+      "label": "Simulated and experimental results",
+      "aliases": [
+        "Simulated and experimental results"
+      ],
+      "types": [
+        "results"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The outcomes from both simulated and actual experiments demonstrating the effectiveness of a scanning method for recovering dense camera-projector correspondence with high subpixel precision.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Simulated and experimental results",
+          "local_types": [
+            "results"
+          ],
+          "iri": "Entity-simulated_and_experimental_result-Mention-1"
+        }
+      ],
+      "relevance": 0.71142578125
+    },
+    "Entity-camera-projector_correspondence": {
+      "node_id": "camera-projector_correspondence",
+      "disambiguation_index": 0,
+      "label": "camera-Projector correspondence",
+      "aliases": [
+        "camera-projector correspondence",
+        "camera-Projector correspondence"
+      ],
+      "types": [
+        "technology",
+        "concept",
+        "computer vision",
+        "image processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A technology or concept for recovering precise correspondences between a camera and projector, enabling sub-pixel accuracy in scene reconstruction.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "camera-Projector correspondence",
+          "local_types": [
+            "technology",
+            "concept",
+            "computer vision",
+            "image processing"
+          ],
+          "iri": "Entity-camera-projector_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.69873046875
+    },
+    "Entity-we_compare_our_result_to_state_of_the_art_method_such_a_mi-cro_phase_shifting_and_modulated_phase_shifting": {
+      "node_id": "we_compare_our_result_to_state_of_the_art_method_such_a_mi-cro_phase_shifting_and_modulated_phase_shifting",
+      "disambiguation_index": 0,
+      "label": "We compare our results to state of the art methods such as mi-cro phase shifting and modulated phase shifting",
+      "aliases": [
+        "We compare our results to state of the art methods such as mi-cro phase shifting and modulated phase shifting"
+      ],
+      "types": [
+        "comparison"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Micro-phase shifting and Modulated Phase Shifting, two state-of-the-art methods for camera-projector correspondence recovery",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "We compare our results to state of the art methods such as mi-cro phase shifting and modulated phase shifting",
+          "local_types": [
+            "comparison"
+          ],
+          "iri": "Entity-we_compare_our_result_to_state_of_the_art_method_such_a_mi-cro_phase_shifting_and_modulated_phase_shifting-Mention-1"
+        }
+      ],
+      "relevance": 0.68310546875
+    },
+    "Entity-several_zero-crossings_defined_by_the_difference_between_pair_of_unstructured_pattern": {
+      "node_id": "several_zero-crossings_defined_by_the_difference_between_pair_of_unstructured_pattern",
+      "disambiguation_index": 0,
+      "label": "several zero-crossings defined by the difference between pairs of unstructured patterns",
+      "aliases": [
+        "several zero-crossings defined by the difference between pairs of unstructured patterns"
+      ],
+      "types": [
+        "pattern",
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A set of points where the intensity differences between two random noise patterns intersect, used for achieving subpixel accuracy in camera-projector correspondence recovery.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "several zero-crossings defined by the difference between pairs of unstructured patterns",
+          "local_types": [
+            "pattern",
+            "algorithm"
+          ],
+          "iri": "Entity-several_zero-crossings_defined_by_the_difference_between_pair_of_unstructured_pattern-Mention-1"
+        }
+      ],
+      "relevance": 0.6787109375
+    },
+    "Entity-scene_geometry_with_high_subpixel_precision": {
+      "node_id": "scene_geometry_with_high_subpixel_precision",
+      "disambiguation_index": 0,
+      "label": "scene geometry with high subpixel precision",
+      "aliases": [
+        "scene geometry with high subpixel precision"
+      ],
+      "types": [
+        "geometry",
+        "precision"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A technique for accurately recovering the geometric structure of a scene at a resolution higher than one pixel.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scene geometry with high subpixel precision",
+          "local_types": [
+            "geometry",
+            "precision"
+          ],
+          "iri": "Entity-scene_geometry_with_high_subpixel_precision-Mention-1"
+        }
+      ],
+      "relevance": 0.67529296875
+    },
+    "Entity-our_method": {
+      "node_id": "our_method",
+      "disambiguation_index": 0,
+      "label": "our method",
+      "aliases": [
+        "our method"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A technique or algorithm used to recover scene geometry",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "our method",
+          "local_types": [
+            "technique",
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-our_method-Mention-1"
+        }
+      ],
+      "relevance": 0.595703125
+    },
+    "Entity-indirect_lighting_and_scene_discontinuity": {
+      "node_id": "indirect_lighting_and_scene_discontinuity",
+      "disambiguation_index": 0,
+      "label": "indirect lighting and scene discontinuities",
+      "aliases": [
+        "indirect lighting and scene discontinuities"
+      ],
+      "types": [
+        "phenomenon"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The phenomenon of using unstructured patterns with gray-level band-pass white noise to increase robustness against variations caused by indirect lighting and scene discontinuities.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "indirect lighting and scene discontinuities",
+          "local_types": [
+            "phenomenon"
+          ],
+          "iri": "Entity-indirect_lighting_and_scene_discontinuity-Mention-1"
+        }
+      ],
+      "relevance": 0.58984375
+    },
+    "Entity-gray-level_band-pass_white_noise_pattern": {
+      "node_id": "gray-level_band-pass_white_noise_pattern",
+      "disambiguation_index": 0,
+      "label": "gray-level band-pass white noise patterns",
+      "aliases": [
+        "gray-level band-pass white noise patterns",
+        "gray-level band-pass white noise patterns that increase robustness to indirect lighting and scene discontinuities"
+      ],
+      "types": [
+        "signal processing technique",
+        "image analysis",
+        "signal processing",
+        "pattern",
+        "data type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A type of signal used for increasing robustness to indirect lighting and scene discontinuities",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "gray-level band-pass white noise patterns",
+          "local_types": [
+            "signal processing technique",
+            "image analysis",
+            "signal processing",
+            "pattern",
+            "data type"
+          ],
+          "iri": "Entity-gray-level_band-pass_white_noise_pattern-Mention-1"
+        },
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "gray-level band-pass white noise patterns that increase robustness to indirect lighting and scene discontinuities",
+          "local_types": [
+            "pattern"
+          ],
+          "iri": "Entity-gray-level_band-pass_white_noise_pattern-Mention-2"
+        }
+      ],
+      "relevance": 0.5849609375
+    },
+    "Entity-photometric_calibration": {
+      "node_id": "photometric_calibration",
+      "disambiguation_index": 0,
+      "label": "photometric calibration",
+      "aliases": [
+        "photometric calibration"
+      ],
+      "types": [
+        "technique",
+        "process",
+        "measurement technique",
+        "calibration process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A process or technique used to adjust and align optical measurements, such as camera-projector correspondences, for accurate data collection.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "photometric calibration",
+          "local_types": [
+            "technique",
+            "process",
+            "measurement technique",
+            "calibration process"
+          ],
+          "iri": "Entity-photometric_calibration-Mention-1"
+        }
+      ],
+      "relevance": 0.58056640625
+    },
+    "Entity-subpixel_accuracy": {
+      "node_id": "subpixel_accuracy",
+      "disambiguation_index": 0,
+      "label": "Subpixel accuracy",
+      "aliases": [
+        "Subpixel accuracy"
+      ],
+      "types": [
+        "performance measure",
+        "metric",
+        "accuracy"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measure of how accurately an algorithm or system can distinguish and identify fine-grained details, often exceeding the resolution capabilities of traditional pixel-based methods.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Subpixel accuracy",
+          "local_types": [
+            "performance measure",
+            "metric",
+            "accuracy"
+          ],
+          "iri": "Entity-subpixel_accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.57373046875
+    },
+    "Entity-pair_of_unstructured_pattern": {
+      "node_id": "pair_of_unstructured_pattern",
+      "disambiguation_index": 0,
+      "label": "pairs of unstructured patterns",
+      "aliases": [
+        "pairs of unstructured patterns"
+      ],
+      "types": [
+        "data set",
+        "pattern recognition input"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Gray-level band-pass white noise patterns used as input for pattern recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "pairs of unstructured patterns",
+          "local_types": [
+            "data set",
+            "pattern recognition input"
+          ],
+          "iri": "Entity-pair_of_unstructured_pattern-Mention-1"
+        }
+      ],
+      "relevance": 0.5595703125
+    },
+    "Entity-scene_discontinuity": {
+      "node_id": "scene_discontinuity",
+      "disambiguation_index": 0,
+      "label": "scene discontinuities",
+      "aliases": [
+        "scene discontinuities"
+      ],
+      "types": [
+        "image processing",
+        "computer vision",
+        "image characteristic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Unwanted changes or inconsistencies between different parts of an image, caused by factors such as indirect lighting.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "scene discontinuities",
+          "local_types": [
+            "image processing",
+            "computer vision",
+            "image characteristic"
+          ],
+          "iri": "Entity-scene_discontinuity-Mention-1"
+        }
+      ],
+      "relevance": 0.55029296875
+    },
+    "Entity-zero-crossings": {
+      "node_id": "zero-crossings",
+      "disambiguation_index": 0,
+      "label": "zero-crossings",
+      "aliases": [
+        "zero-crossings"
+      ],
+      "types": [
+        "mathematical concept",
+        "signal processing technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A point in a signal where the sign or polarity changes, used as a mathematical concept and technique in signal processing.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "zero-crossings",
+          "local_types": [
+            "mathematical concept",
+            "signal processing technique"
+          ],
+          "iri": "Entity-zero-crossings-Mention-1"
+        }
+      ],
+      "relevance": 0.54931640625
+    },
+    "Entity-our_result": {
+      "node_id": "our_result",
+      "disambiguation_index": 0,
+      "label": "our results",
+      "aliases": [
+        "our results"
+      ],
+      "types": [
+        "result",
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The experimental or simulated outcomes obtained from applying the proposed scanning method, which are compared with existing state-of-the-art methods.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "our results",
+          "local_types": [
+            "result",
+            "research"
+          ],
+          "iri": "Entity-our_result-Mention-1"
+        }
+      ],
+      "relevance": 0.50439453125
+    },
+    "Entity-scene_geometry": {
+      "node_id": "scene_geometry",
+      "disambiguation_index": 0,
+      "label": "scene geometry",
+      "aliases": [
+        "scene geometry"
+      ],
+      "types": [
+        "domain knowledge",
+        "concept",
+        "mathematics",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The spatial arrangement or structure of a visual environment",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scene geometry",
+          "local_types": [
+            "domain knowledge",
+            "concept",
+            "mathematics",
+            "computer vision"
+          ],
+          "iri": "Entity-scene_geometry-Mention-1"
+        }
+      ],
+      "relevance": 0.486328125
+    },
+    "Entity-relative_geometry": {
+      "node_id": "relative_geometry",
+      "disambiguation_index": 0,
+      "label": "relative geometry",
+      "aliases": [
+        "relative geometry"
+      ],
+      "types": [
+        "geometry",
+        "mathematics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The study and application of geometric transformations between objects or reference frames, often used to describe spatial relationships.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "relative geometry",
+          "local_types": [
+            "geometry",
+            "mathematics"
+          ],
+          "iri": "Entity-relative_geometry-Mention-1"
+        }
+      ],
+      "relevance": 0.470458984375
+    },
+    "Entity-indirect_lighting": {
+      "node_id": "indirect_lighting",
+      "disambiguation_index": 0,
+      "label": "indirect lighting",
+      "aliases": [
+        "indirect lighting"
+      ],
+      "types": [
+        "physics",
+        "lighting condition",
+        "lighting technology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Light emitted or reflected from a source other than direct illumination",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "indirect lighting",
+          "local_types": [
+            "physics",
+            "lighting condition",
+            "lighting technology"
+          ],
+          "iri": "Entity-indirect_lighting-Mention-1"
+        }
+      ],
+      "relevance": 0.425048828125
+    },
+    "Entity-simulated": {
+      "node_id": "simulated",
+      "disambiguation_index": 0,
+      "label": "Simulated",
+      "aliases": [
+        "Simulated"
+      ],
+      "types": [
+        "approach",
+        "method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A simulated approach or method used to test or evaluate a system's performance.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Simulated",
+          "local_types": [
+            "approach",
+            "method"
+          ],
+          "iri": "Entity-simulated-Mention-1"
+        }
+      ],
+      "relevance": 0.4150390625
+    },
+    "Entity-state_of_the_art_method": {
+      "node_id": "state_of_the_art_method",
+      "disambiguation_index": 0,
+      "label": "state of the art methods",
+      "aliases": [
+        "state of the art methods"
+      ],
+      "types": [
+        "art",
+        "research methodology",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The most advanced or up-to-date techniques, approaches, or methodologies in a particular field.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "state of the art methods",
+          "local_types": [
+            "art",
+            "research methodology",
+            "methodology"
+          ],
+          "iri": "Entity-state_of_the_art_method-Mention-1"
+        }
+      ],
+      "relevance": 0.37451171875
+    },
+    "Entity-experimental_result": {
+      "node_id": "experimental_result",
+      "disambiguation_index": 0,
+      "label": "experimental results",
+      "aliases": [
+        "experimental results"
+      ],
+      "types": [
+        "research",
+        "research finding",
+        "data set",
+        "study",
+        "scientific experiment",
+        "measurement technique"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A set of data obtained through scientific experimentation or simulation, typically used to support research findings.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "experimental results",
+          "local_types": [
+            "research",
+            "research finding",
+            "data set",
+            "study",
+            "scientific experiment",
+            "measurement technique"
+          ],
+          "iri": "Entity-experimental_result-Mention-1"
+        }
+      ],
+      "relevance": 0.3701171875
+    }
+  },
+  "summary": "We present a scanning method that recovers dense sub-pixel camera-projector correspondence without requiring any photometric calibration nor preliminary knowledge of their relative geometry . Subpixel accuracy is achieved by considering several zero-crossings defined by the difference between pairs of unstructured patterns . We use gray-level band-pass white noise patterns that increase robustness to indirect lighting and scene discontinuities . Simulated and experimental results show that our method recovers scene geometry with high subpixel precision , and that it can handle many challenges of active reconstruction systems . We compare our results to state of the art methods such as mi-cro phase shifting and modulated phase shifting .",
+  "triples": [
+    [
+      "Entity-scanning_method",
+      "Predicate-presents",
+      "Entity-a_scanning_method_that_recovers_dense_sub-pixel_camera-projector_correspondence"
+    ],
+    [
+      "Entity-scanning_method",
+      "Predicate-presents",
+      "Entity-camera-projector_correspondence"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-recovers",
+      "Entity-scene_geometry"
+    ],
+    [
+      "Entity-simulated_and_experimental_result",
+      "Predicate-show",
+      "Entity-scene_geometry_with_high_subpixel_precision"
+    ],
+    [
+      "Entity-state_of_the_art_method",
+      "Predicate-compared_to",
+      "Entity-mi-cro_phase_shifting"
+    ],
+    [
+      "Entity-scanning_method",
+      "Predicate-achieves",
+      "Entity-subpixel_accuracy"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-mi-cro_phase_shifting",
+      "skos:broader",
+      "Entity-scanning_method"
+    ]
+  ],
+  "predicates": {
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates a relationship where the subject provides or offers an object, which can be thought of as a description, explanation, or representation. In this context, it suggests that the scanning method being referred to is providing or offering a specific way of recovering dense sub-pixel camera-projector correspondence.",
+      "disambiguation_index": 0
+    },
+    "Predicate-recovers": {
+      "label": "recovers",
+      "description": "The predicate 'recovers' indicates that the subject (in this case, a method) regains or retrieves information, structure, or functionality from the object (scene geometry), potentially correcting or repairing any damage, loss, or distortion.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show": {
+      "label": "show",
+      "description": "To 'show' means to demonstrate or illustrate a connection between two entities by providing evidence or proof. The predicate 'show' establishes a relationship where the subject (in this case, Simulated and experimental results) provides insight into or reveals information about the object (scene geometry with high subpixel precision). In general, 'show' implies that the subject is offering visual or tangible representation of the object's characteristics, properties, or features.",
+      "disambiguation_index": 0
+    },
+    "Predicate-compared_to": {
+      "label": "compared to",
+      "description": "The predicate 'compared to' indicates a relationship between two entities where one entity (the subject) is being evaluated or contrasted with another entity (the object). This connection implies that the subject and object share some common characteristics, properties, or attributes, allowing for an analysis of their similarities and differences.",
+      "disambiguation_index": 0
+    },
+    "Predicate-achieves": {
+      "label": "achieves",
+      "description": "The predicate 'achieves' indicates that the subject has successfully attained or reached a specific level of quality, precision, or performance as described by the object. It implies a sense of accomplishment or fulfillment of an expected standard.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "compares with",
+      "description": "The predicate 'compares with' indicates a relationship of similarity or equivalence between two entities (subject and object), suggesting that they share common characteristics, properties, or features.",
+      "disambiguation_index": 0
+    }
+  }
+}

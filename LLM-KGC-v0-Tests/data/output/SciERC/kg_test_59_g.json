@@ -1,0 +1,47 @@
+{
+  "iri": "Paper-59",
+  "title": "P05-1046",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-59-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-59-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-1",
+              "text": "The applicability of many current information extraction techniques is severely limited by the need for supervised training data ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-2",
+              "text": "We demonstrate that for certain field structured extraction tasks , such as classified advertisements and bibliographic citations , small amounts of prior knowledge can be used to learn effective models in a primarily unsupervised fashion ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-3",
+              "text": "Although hidden Markov models -LRB- HMMs -RRB- provide a suitable generative model for field structured text , general unsupervised HMM learning fails to learn useful structure in either of our domains ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-4",
+              "text": "However , one can dramatically improve the quality of the learned structure by exploiting simple prior knowledge of the desired solutions ."
+            },
+            {
+              "iri": "Paper-59-Section-1-Paragraph-1-Sentence-5",
+              "text": "In both domains , we found that unsupervised methods can attain accuracies with 400 unlabeled examples comparable to those attained by supervised methods on 50 labeled examples , and that semi-supervised methods can make good use of small amounts of labeled data ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "The applicability of many current information extraction techniques is severely limited by the need for supervised training data . We demonstrate that for certain field structured extraction tasks , such as classified advertisements and bibliographic citations , small amounts of prior knowledge can be used to learn effective models in a primarily unsupervised fashion . Although hidden Markov models -LRB- HMMs -RRB- provide a suitable generative model for field structured text , general unsupervised HMM learning fails to learn useful structure in either of our domains . However , one can dramatically improve the quality of the learned structure by exploiting simple prior knowledge of the desired solutions . In both domains , we found that unsupervised methods can attain accuracies with 400 unlabeled examples comparable to those attained by supervised methods on 50 labeled examples , and that semi-supervised methods can make good use of small amounts of labeled data .",
+  "kg2text": [
+    "Semi-supervised methods improve unsupervised HMM learning by effectively utilizing small amounts of labeled data. These methods can also enhance the quality of effective models, which are capable of learning unsupervised HMM learning techniques. Unsupervised HMM learning is a specific instance of hidden Markov models, which serve as a broader category of generative models. In certain field structured extraction tasks, small amounts of prior knowledge can be leveraged to learn effective models, thereby improving the overall performance. The relationship between labeled examples and supervised training data is highlighted by the fact that 50 labeled examples fall under the broader term of labeled examples, which also includes small amounts of labeled data. Both unsupervised and supervised methods attain accuracies in their respective tasks, demonstrating the effectiveness of these approaches. Furthermore, simple prior knowledge plays a crucial role in enhancing the quality of the learned structure, as it can exploit and improve this quality significantly.",
+    "Labeled examples, which include both labeled data and unlabeled examples, have a broader term known as supervised training data. This type of data is crucial for training machine learning models, as it provides the necessary input-output pairs. However, the applicability of many current information extraction techniques is limited by the availability of supervised training data. Information extraction techniques themselves also face similar limitations. In our domains, which encompass specific areas such as classified advertisements and bibliographic citations, the quality of the learned structure can be enhanced by incorporating prior knowledge. This prior knowledge can significantly improve the overall quality of the models generated through these structured extraction tasks."
+  ],
+  "times": [
+    3.8910014629364014
+  ]
+}

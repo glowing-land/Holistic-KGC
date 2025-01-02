@@ -1,0 +1,51 @@
+{
+  "iri": "Paper-52",
+  "title": "CVPR_2016_413_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-52-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-52-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+              "text": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+              "text": "However , acquiring the necessary training data is typically a tedious and time consuming task that involves manual interaction , active sensing devices and/or synthetic scenes ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+              "text": "To overcome this problem , we propose a new , flexible , and scalable way for generating training data that only requires a set of stereo images as input ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+              "text": "The key idea of our approach is to use different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-5",
+              "text": "This enables us to generate a huge amount of training data in a fully automated manner ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+              "text": "Among other experiments , we demonstrate the potential of our approach by boosting the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision . However , acquiring the necessary training data is typically a tedious and time consuming task that involves manual interaction , active sensing devices and/or synthetic scenes . To overcome this problem , we propose a new , flexible , and scalable way for generating training data that only requires a set of stereo images as input . The key idea of our approach is to use different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm . This enables us to generate a huge amount of training data in a fully automated manner . Among other experiments , we demonstrate the potential of our approach by boosting the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data .",
+  "kg2text": [
+    "To overcome the challenge of acquiring necessary training data for learning confidence measures in stereo vision, we propose a new, flexible, and scalable way for generating training data that only requires a set of stereo images as input. This approach uses the KITTI2012 dataset to automatically generate training data. The key idea is to use different viewpoints for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm. Our approach enables us to acquire the necessary training data, which involves manual interaction, active sensing devices and/or synthetic scenes. This way boosts three learned confidence measures on the KITTI2012 dataset.",
+    "Our approach, which encompasses manual interaction, active sensing devices and/or synthetic scenes, has a broader term that includes learned confidence measures. This systematic method also involves outlier removal and can be applied in both fully automated manner as well as through manual interaction."
+  ],
+  "times": [
+    9.964813232421875
+  ]
+}

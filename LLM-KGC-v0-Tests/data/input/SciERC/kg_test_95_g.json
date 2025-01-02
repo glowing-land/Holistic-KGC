@@ -1,0 +1,1298 @@
+{
+  "iri": "Paper-95",
+  "title": "INTERSPEECH_2014_40_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-95-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-95-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper deals with the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech from a text input for text-to-speech synthesis ."
+            },
+            {
+              "iri": "Paper-95-Section-1-Paragraph-1-Sentence-2",
+              "text": "We have previously introduced a statistical model describing the generating process of speech F0 contours , based on the discrete-time version of the Fujisaki model ."
+            },
+            {
+              "iri": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+              "text": "One remarkable feature of this model is that it has allowed us to derive an efficient algorithm based on powerful statistical methods for estimating the Fujisaki-model parameters from raw F0 contours ."
+            },
+            {
+              "iri": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+              "text": "To associate a sequence of the Fujisaki-model parameters with a text input based on statistical learning , this paper proposes extending this model to a context-dependent one ."
+            },
+            {
+              "iri": "Paper-95-Section-1-Paragraph-1-Sentence-5",
+              "text": "We further propose a parameter training algorithm for the present model based on a decision tree-based context clustering ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005409717559814453,
+    63.501181840896606,
+    63.895103931427,
+    55.60102391242981,
+    0.041304826736450195,
+    0.00012993812561035156,
+    0.00025391578674316406,
+    303.4612469673157,
+    299.1026246547699,
+    4.040697813034058,
+    227.0210030078888,
+    0.011348962783813477,
+    0.0002319812774658203,
+    67.80229783058167,
+    0.0013971328735351562,
+    0.03182506561279297,
+    0.000993967056274414,
+    5.464030981063843,
+    0.8212101459503174,
+    0.8073537349700928,
+    539.3576424121857,
+    7.126365900039673,
+    276.42217993736267,
+    3.655604362487793,
+    0.0008459091186523438,
+    0.009777069091796875
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper",
+        "this paper"
+      ],
+      "types": [
+        "research",
+        "research paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This paper presents a research study focused on generating the fundamental frequency (F0) contour of speech from text input for text-to-speech synthesis, utilizing an extended statistical model based on the Fujisaki model.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "this paper",
+          "local_types": [
+            "research paper"
+          ],
+          "iri": "Entity-this_paper-Mention-2"
+        }
+      ],
+      "relevance": 0.85888671875
+    },
+    "Entity-the_generating_process_of_speech_f0_contour": {
+      "node_id": "the_generating_process_of_speech_f0_contour",
+      "disambiguation_index": 0,
+      "label": "the generating process of speech F0 contours",
+      "aliases": [
+        "the generating process of speech F0 contours"
+      ],
+      "types": [
+        "speech",
+        "speech F0 contours",
+        "speech synthesis",
+        "process",
+        "F0 contours"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The generating process of speech F0 contours refers to the statistical modeling and algorithmic approach used to derive the fundamental frequency contours of speech from text input, specifically utilizing the discrete-time version of the Fujisaki model for text-to-speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the generating process of speech F0 contours",
+          "local_types": [
+            "speech",
+            "speech F0 contours",
+            "speech synthesis",
+            "process",
+            "F0 contours"
+          ],
+          "iri": "Entity-the_generating_process_of_speech_f0_contour-Mention-1"
+        }
+      ],
+      "relevance": 0.84130859375
+    },
+    "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech": {
+      "node_id": "the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech",
+      "disambiguation_index": 0,
+      "label": "the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech",
+      "aliases": [
+        "the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech"
+      ],
+      "types": [
+        "problem",
+        "speech synthesis"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The problem of generating the fundamental frequency (F0) contour of speech refers to the challenge of creating a smooth and natural pitch variation in synthesized speech based on text input, which is essential for effective text-to-speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech",
+          "local_types": [
+            "problem",
+            "speech synthesis"
+          ],
+          "iri": "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech-Mention-1"
+        }
+      ],
+      "relevance": 0.8056640625
+    },
+    "Entity-the_present_model": {
+      "node_id": "the_present_model",
+      "disambiguation_index": 0,
+      "label": "the present model",
+      "aliases": [
+        "the present model"
+      ],
+      "types": [
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The present model refers to an extended version of the Fujisaki model for generating fundamental frequency contours in text-to-speech synthesis, which incorporates context-dependent parameters and utilizes a decision tree-based context clustering algorithm for parameter training.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the present model",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-the_present_model-Mention-1"
+        }
+      ],
+      "relevance": 0.80322265625
+    },
+    "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech_from_a_text_input_for_text-to-speech_synthesis": {
+      "node_id": "the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech_from_a_text_input_for_text-to-speech_synthesis",
+      "disambiguation_index": 0,
+      "label": "the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech from a text input for text-to-speech synthesis",
+      "aliases": [
+        "the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech from a text input for text-to-speech synthesis"
+      ],
+      "types": [
+        "problem",
+        "text-to-speech synthesis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The challenge of creating a natural-sounding pitch contour for synthesized speech based on textual input.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech from a text input for text-to-speech synthesis",
+          "local_types": [
+            "problem",
+            "text-to-speech synthesis"
+          ],
+          "iri": "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech_from_a_text_input_for_text-to-speech_synthesis-Mention-1"
+        }
+      ],
+      "relevance": 0.79248046875
+    },
+    "Entity-the_discrete-time_version_of_the_fujisaki_model": {
+      "node_id": "the_discrete-time_version_of_the_fujisaki_model",
+      "disambiguation_index": 0,
+      "label": "the discrete-time version of the Fujisaki model",
+      "aliases": [
+        "the discrete-time version of the Fujisaki model"
+      ],
+      "types": [
+        "model",
+        "discrete-time version",
+        "Fujisaki model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The discrete-time version of the Fujisaki model is a statistical model used for generating the fundamental frequency (F0) contours of speech in text-to-speech synthesis, allowing for efficient parameter estimation from raw F0 data.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the discrete-time version of the Fujisaki model",
+          "local_types": [
+            "model",
+            "discrete-time version",
+            "Fujisaki model"
+          ],
+          "iri": "Entity-the_discrete-time_version_of_the_fujisaki_model-Mention-1"
+        }
+      ],
+      "relevance": 0.7724609375
+    },
+    "Entity-fujisaki_model": {
+      "node_id": "fujisaki_model",
+      "disambiguation_index": 0,
+      "label": "Fujisaki model",
+      "aliases": [
+        "Fujisaki model",
+        "Fujisaki-model"
+      ],
+      "types": [
+        "model",
+        "acoustic model",
+        "statistical model",
+        "speech model",
+        "theoretical framework"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The Fujisaki model is a theoretical framework used to describe the generation of fundamental frequency (F0) contours in speech through a statistical approach.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Fujisaki model",
+          "local_types": [
+            "model",
+            "acoustic model",
+            "statistical model",
+            "speech model",
+            "theoretical framework"
+          ],
+          "iri": "Entity-fujisaki_model-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Fujisaki-model",
+          "local_types": [
+            "model",
+            "statistical model"
+          ],
+          "iri": "Entity-fujisaki_model-Mention-2"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Fujisaki-model",
+          "local_types": [
+            "model",
+            "statistical model"
+          ],
+          "iri": "Entity-fujisaki_model-Mention-3"
+        }
+      ],
+      "relevance": 0.76806640625
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "model",
+      "aliases": [
+        "model",
+        "a statistical model",
+        "this model"
+      ],
+      "types": [
+        "model",
+        "statistical model",
+        "system",
+        "mathematical model",
+        "algorithm",
+        "statistical"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The 'model' refers to a statistical model for generating the fundamental frequency (F0) contour of speech, based on the discrete-time version of the Fujisaki model, which facilitates the estimation of its parameters using statistical methods.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "model",
+          "local_types": [
+            "statistical model",
+            "algorithm"
+          ],
+          "iri": "Entity-model-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "model",
+          "local_types": [
+            "mathematical model",
+            "system"
+          ],
+          "iri": "Entity-model-Mention-2"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a statistical model",
+          "local_types": [
+            "model",
+            "statistical model",
+            "statistical"
+          ],
+          "iri": "Entity-model-Mention-3"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this model",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-model-Mention-4"
+        }
+      ],
+      "relevance": 0.74755859375
+    },
+    "Entity-f0": {
+      "node_id": "f0",
+      "disambiguation_index": 0,
+      "label": "F0",
+      "aliases": [
+        "F0"
+      ],
+      "types": [
+        "frequency",
+        "speech parameter",
+        "acoustic feature",
+        "signal processing",
+        "parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "F0 refers to the fundamental frequency contour of speech, which is a key parameter in text-to-speech synthesis that represents the pitch variation over time.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "F0",
+          "local_types": [
+            "frequency",
+            "speech parameter",
+            "acoustic feature",
+            "signal processing",
+            "parameter"
+          ],
+          "iri": "Entity-f0-Mention-1"
+        }
+      ],
+      "relevance": 0.72998046875
+    },
+    "Entity-raw_f0_contour": {
+      "node_id": "raw_f0_contour",
+      "disambiguation_index": 0,
+      "label": "raw F0 contours",
+      "aliases": [
+        "raw F0 contours"
+      ],
+      "types": [
+        "data",
+        "F0 contours",
+        "F0 contour"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Raw F0 contours refer to the unprocessed fundamental frequency data of speech, which serves as the basis for estimating parameters in statistical models for text-to-speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "raw F0 contours",
+          "local_types": [
+            "data",
+            "F0 contours",
+            "F0 contour"
+          ],
+          "iri": "Entity-raw_f0_contour-Mention-1"
+        }
+      ],
+      "relevance": 0.72314453125
+    },
+    "Entity-parameter": {
+      "node_id": "parameter",
+      "disambiguation_index": 0,
+      "label": "parameters",
+      "aliases": [
+        "parameters"
+      ],
+      "types": [
+        "variable",
+        "statistical parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'parameters' refers to the statistical values associated with the Fujisaki model that are estimated from raw fundamental frequency contours in the context of text-to-speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "parameters",
+          "local_types": [
+            "variable",
+            "statistical parameter"
+          ],
+          "iri": "Entity-parameter-Mention-1"
+        }
+      ],
+      "relevance": 0.7158203125
+    },
+    "Entity-a_context-dependent_one": {
+      "node_id": "a_context-dependent_one",
+      "disambiguation_index": 0,
+      "label": "a context-dependent one",
+      "aliases": [
+        "a context-dependent one"
+      ],
+      "types": [
+        "model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The mention 'a context-dependent one' refers to an extension of the Fujisaki model for generating speech fundamental frequency contours that incorporates contextual information to improve the association of model parameters with text inputs in text-to-speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a context-dependent one",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-a_context-dependent_one-Mention-1"
+        }
+      ],
+      "relevance": 0.7119140625
+    },
+    "Entity-decision_tree-based_context_clustering": {
+      "node_id": "decision_tree-based_context_clustering",
+      "disambiguation_index": 0,
+      "label": "decision tree-based context clustering",
+      "aliases": [
+        "decision tree-based context clustering",
+        "a decision tree-based context clustering"
+      ],
+      "types": [
+        "clustering",
+        "machine learning technique",
+        "algorithm",
+        "method",
+        "decision tree",
+        "context clustering",
+        "clustering method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Decision tree-based context clustering is a machine learning method used to group context-dependent parameters in speech synthesis, facilitating the training of a statistical model for generating fundamental frequency contours from text input.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "decision tree-based context clustering",
+          "local_types": [
+            "clustering",
+            "machine learning technique",
+            "algorithm",
+            "method",
+            "decision tree",
+            "clustering method"
+          ],
+          "iri": "Entity-decision_tree-based_context_clustering-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a decision tree-based context clustering",
+          "local_types": [
+            "method",
+            "clustering",
+            "context clustering"
+          ],
+          "iri": "Entity-decision_tree-based_context_clustering-Mention-2"
+        }
+      ],
+      "relevance": 0.6943359375
+    },
+    "Entity-an_efficient_algorithm": {
+      "node_id": "an_efficient_algorithm",
+      "disambiguation_index": 0,
+      "label": "an efficient algorithm",
+      "aliases": [
+        "an efficient algorithm"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "An efficient algorithm refers to a computational method developed to effectively estimate the parameters of the Fujisaki model from raw fundamental frequency contours in the context of text-to-speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "an efficient algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-an_efficient_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.673828125
+    },
+    "Entity-fujisaki-model_parameter": {
+      "node_id": "fujisaki-model_parameter",
+      "disambiguation_index": 0,
+      "label": "Fujisaki-model parameters",
+      "aliases": [
+        "Fujisaki-model parameters",
+        "the Fujisaki-model parameters"
+      ],
+      "types": [
+        "parameters",
+        "Fujisaki model",
+        "Fujisaki-model parameters",
+        "speech parameters",
+        "model parameters",
+        "parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Fujisaki-model parameters are a set of numerical values that define the characteristics of the Fujisaki model, which is used to describe the intonation and pitch contour of speech in phonetics and speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Fujisaki-model parameters",
+          "local_types": [
+            "parameters",
+            "Fujisaki model",
+            "model parameters",
+            "speech parameters"
+          ],
+          "iri": "Entity-fujisaki-model_parameter-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the Fujisaki-model parameters",
+          "local_types": [
+            "Fujisaki model",
+            "Fujisaki-model parameters",
+            "parameter",
+            "parameters"
+          ],
+          "iri": "Entity-fujisaki-model_parameter-Mention-2"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Fujisaki-model parameters",
+          "local_types": [
+            "model parameters",
+            "Fujisaki model"
+          ],
+          "iri": "Entity-fujisaki-model_parameter-Mention-3"
+        }
+      ],
+      "relevance": 0.671875
+    },
+    "Entity-speech_f0_contour": {
+      "node_id": "speech_f0_contour",
+      "disambiguation_index": 0,
+      "label": "speech F0 contours",
+      "aliases": [
+        "speech F0 contours"
+      ],
+      "types": [
+        "speech signal",
+        "acoustic feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Speech F0 contours refer to the patterns of fundamental frequency variation in spoken language, which are important acoustic features that convey prosody and intonation in speech signals.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "speech F0 contours",
+          "local_types": [
+            "speech signal",
+            "acoustic feature"
+          ],
+          "iri": "Entity-speech_f0_contour-Mention-1"
+        }
+      ],
+      "relevance": 0.64892578125
+    },
+    "Entity-powerful_statistical_method": {
+      "node_id": "powerful_statistical_method",
+      "disambiguation_index": 0,
+      "label": "powerful statistical methods",
+      "aliases": [
+        "powerful statistical methods"
+      ],
+      "types": [
+        "method",
+        "statistical method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Powerful statistical methods refer to advanced analytical techniques used to estimate parameters of the Fujisaki model from raw fundamental frequency contours in speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "powerful statistical methods",
+          "local_types": [
+            "method",
+            "statistical method"
+          ],
+          "iri": "Entity-powerful_statistical_method-Mention-1"
+        }
+      ],
+      "relevance": 0.64208984375
+    },
+    "Entity-f0_contour": {
+      "node_id": "f0_contour",
+      "disambiguation_index": 0,
+      "label": "F0 contours",
+      "aliases": [
+        "F0 contours"
+      ],
+      "types": [
+        "data type",
+        "signal representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "F0 contours refer to the graphical representation of the fundamental frequency variations in speech or audio signals over time.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "F0 contours",
+          "local_types": [
+            "data type",
+            "signal representation"
+          ],
+          "iri": "Entity-f0_contour-Mention-1"
+        }
+      ],
+      "relevance": 0.6220703125
+    },
+    "Entity-speech": {
+      "node_id": "speech",
+      "disambiguation_index": 0,
+      "label": "speech",
+      "aliases": [
+        "speech"
+      ],
+      "types": [
+        "communication",
+        "linguistic phenomenon"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'speech' refers to the vocalized form of human communication that is being analyzed for its fundamental frequency (F0) contour in the process of text-to-speech synthesis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "speech",
+          "local_types": [
+            "communication",
+            "linguistic phenomenon"
+          ],
+          "iri": "Entity-speech-Mention-1"
+        }
+      ],
+      "relevance": 0.61962890625
+    },
+    "Entity-fundamental_frequency": {
+      "node_id": "fundamental_frequency",
+      "disambiguation_index": 0,
+      "label": "fundamental frequency",
+      "aliases": [
+        "fundamental frequency"
+      ],
+      "types": [
+        "speech parameter",
+        "signal processing",
+        "acoustic feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Fundamental frequency refers to the lowest frequency of a periodic waveform, which is a key parameter in speech and signal processing that determines the pitch of a sound.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "fundamental frequency",
+          "local_types": [
+            "speech parameter",
+            "signal processing",
+            "acoustic feature"
+          ],
+          "iri": "Entity-fundamental_frequency-Mention-1"
+        }
+      ],
+      "relevance": 0.59814453125
+    },
+    "Entity-text-to-speech_synthesis": {
+      "node_id": "text-to-speech_synthesis",
+      "disambiguation_index": 0,
+      "label": "text-to-speech synthesis",
+      "aliases": [
+        "text-to-speech synthesis"
+      ],
+      "types": [
+        "application",
+        "speech generation",
+        "speech processing",
+        "synthesis",
+        "text-to-speech",
+        "technology",
+        "field",
+        "process"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Text-to-speech synthesis is a technology that converts written text into spoken words using computer algorithms to generate human-like speech.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "text-to-speech synthesis",
+          "local_types": [
+            "application",
+            "speech generation",
+            "speech processing",
+            "synthesis",
+            "text-to-speech",
+            "technology",
+            "field",
+            "process"
+          ],
+          "iri": "Entity-text-to-speech_synthesis-Mention-1"
+        }
+      ],
+      "relevance": 0.57568359375
+    },
+    "Entity-parameter_training_algorithm": {
+      "node_id": "parameter_training_algorithm",
+      "disambiguation_index": 0,
+      "label": "parameter training algorithm",
+      "aliases": [
+        "a parameter training algorithm",
+        "parameter training algorithm"
+      ],
+      "types": [
+        "algorithm",
+        "training method",
+        "training algorithm",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A parameter training algorithm is a computational method used to optimize the parameters of a model through training processes, often involving techniques such as clustering or decision trees.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "parameter training algorithm",
+          "local_types": [
+            "algorithm",
+            "training method",
+            "method"
+          ],
+          "iri": "Entity-parameter_training_algorithm-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a parameter training algorithm",
+          "local_types": [
+            "algorithm",
+            "training algorithm"
+          ],
+          "iri": "Entity-parameter_training_algorithm-Mention-2"
+        }
+      ],
+      "relevance": 0.537109375
+    },
+    "Entity-statistical_learning": {
+      "node_id": "statistical_learning",
+      "disambiguation_index": 0,
+      "label": "statistical learning",
+      "aliases": [
+        "statistical learning"
+      ],
+      "types": [
+        "machine learning",
+        "learning method",
+        "learning",
+        "data analysis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Statistical learning is a framework in machine learning and data analysis that focuses on understanding and modeling the relationships between data through statistical methods.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "statistical learning",
+          "local_types": [
+            "machine learning",
+            "learning method",
+            "learning",
+            "data analysis"
+          ],
+          "iri": "Entity-statistical_learning-Mention-1"
+        }
+      ],
+      "relevance": 0.485595703125
+    },
+    "Entity-statistical_model": {
+      "node_id": "statistical_model",
+      "disambiguation_index": 0,
+      "label": "statistical model",
+      "aliases": [
+        "statistical model"
+      ],
+      "types": [
+        "statistical method",
+        "mathematical model",
+        "computational model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical model is a mathematical framework that uses statistical methods to represent and analyze complex data patterns and relationships, often employed to make predictions or infer properties about a process or phenomenon.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "statistical model",
+          "local_types": [
+            "statistical method",
+            "mathematical model",
+            "computational model"
+          ],
+          "iri": "Entity-statistical_model-Mention-1"
+        }
+      ],
+      "relevance": 0.4560546875
+    },
+    "Entity-text_input": {
+      "node_id": "text_input",
+      "disambiguation_index": 0,
+      "label": "text input",
+      "aliases": [
+        "text input"
+      ],
+      "types": [
+        "data type",
+        "data",
+        "input format",
+        "input"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "text input refers to a format or method of providing textual data to a system for processing or analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "text input",
+          "local_types": [
+            "data type",
+            "input format",
+            "input"
+          ],
+          "iri": "Entity-text_input-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "text input",
+          "local_types": [
+            "data",
+            "input"
+          ],
+          "iri": "Entity-text_input-Mention-2"
+        }
+      ],
+      "relevance": 0.455322265625
+    },
+    "Entity-algorithm": {
+      "node_id": "algorithm",
+      "disambiguation_index": 0,
+      "label": "algorithm",
+      "aliases": [
+        "algorithm"
+      ],
+      "types": [
+        "computational method",
+        "statistical method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An algorithm is a systematic procedure or set of rules used for solving a problem or performing a task, often implemented in computational or statistical contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "algorithm",
+          "local_types": [
+            "computational method",
+            "statistical method"
+          ],
+          "iri": "Entity-algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.431396484375
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "academic paper",
+        "research document",
+        "academic work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A paper is a written document that presents research findings, theories, or analyses, typically in an academic or scholarly context.",
+      "mentions": [
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "academic work",
+            "research document"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        },
+        {
+          "reference": "Paper-95-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "paper",
+          "local_types": [
+            "academic paper",
+            "research document"
+          ],
+          "iri": "Entity-paper-Mention-2"
+        }
+      ],
+      "relevance": 0.36376953125
+    }
+  },
+  "summary": "This paper deals with the problem of generating the fundamental frequency -LRB- F0 -RRB- contour of speech from a text input for text-to-speech synthesis . We have previously introduced a statistical model describing the generating process of speech F0 contours , based on the discrete-time version of the Fujisaki model . One remarkable feature of this model is that it has allowed us to derive an efficient algorithm based on powerful statistical methods for estimating the Fujisaki-model parameters from raw F0 contours . To associate a sequence of the Fujisaki-model parameters with a text input based on statistical learning , this paper proposes extending this model to a context-dependent one . We further propose a parameter training algorithm for the present model based on a decision tree-based context clustering .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-deals_with",
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech"
+    ],
+    [
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech",
+      "Predicate-involves",
+      "Entity-text-to-speech_synthesis"
+    ],
+    [
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech",
+      "Predicate-involves",
+      "Entity-text_input"
+    ],
+    [
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech",
+      "Predicate-involves",
+      "Entity-speech"
+    ],
+    [
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech",
+      "Predicate-involves",
+      "Entity-fundamental_frequency"
+    ],
+    [
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech",
+      "Predicate-involves",
+      "Entity-f0"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-deals_with",
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech_from_a_text_input_for_text-to-speech_synthesis"
+    ],
+    [
+      "Entity-statistical_model",
+      "Predicate-describes",
+      "Entity-the_generating_process_of_speech_f0_contour"
+    ],
+    [
+      "Entity-the_discrete-time_version_of_the_fujisaki_model",
+      "Predicate-is_based_on",
+      "Entity-fujisaki_model"
+    ],
+    [
+      "Entity-the_generating_process_of_speech_f0_contour",
+      "Predicate-is_described_by",
+      "Entity-model"
+    ],
+    [
+      "Entity-model",
+      "Predicate-allowed_to_derive",
+      "Entity-an_efficient_algorithm"
+    ],
+    [
+      "Entity-an_efficient_algorithm",
+      "Predicate-is_based_on",
+      "Entity-powerful_statistical_method"
+    ],
+    [
+      "Entity-fujisaki-model_parameter",
+      "Predicate-estimated_from",
+      "Entity-raw_f0_contour"
+    ],
+    [
+      "Entity-model",
+      "Predicate-allows_to_derive",
+      "Entity-an_efficient_algorithm"
+    ],
+    [
+      "Entity-model",
+      "Predicate-is_based_on",
+      "Entity-powerful_statistical_method"
+    ],
+    [
+      "Entity-fujisaki-model_parameter",
+      "Predicate-are_estimated_from",
+      "Entity-raw_f0_contour"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-proposes_extending",
+      "Entity-a_context-dependent_one"
+    ],
+    [
+      "Entity-fujisaki-model_parameter",
+      "Predicate-associated_with",
+      "Entity-text_input"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-proposes_extending",
+      "Entity-model"
+    ],
+    [
+      "Entity-the_present_model",
+      "Predicate-is_based_on",
+      "Entity-decision_tree-based_context_clustering"
+    ],
+    [
+      "Entity-parameter_training_algorithm",
+      "Predicate-is_proposed_for",
+      "Entity-the_present_model"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-proposes",
+      "Entity-parameter_training_algorithm"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-describes",
+      "Entity-the_generating_process_of_speech_f0_contour"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-this_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-raw_f0_contour",
+      "skos:broader",
+      "Entity-speech_f0_contour"
+    ],
+    [
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech",
+      "skos:broader",
+      "Entity-text-to-speech_synthesis"
+    ],
+    [
+      "Entity-fujisaki_model",
+      "skos:broader",
+      "Entity-statistical_model"
+    ],
+    [
+      "Entity-the_discrete-time_version_of_the_fujisaki_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-the_generating_process_of_speech_f0_contour",
+      "skos:broader",
+      "Entity-speech_f0_contour"
+    ],
+    [
+      "Entity-raw_f0_contour",
+      "skos:broader",
+      "Entity-f0_contour"
+    ],
+    [
+      "Entity-model",
+      "skos:broader",
+      "Entity-statistical_model"
+    ],
+    [
+      "Entity-f0",
+      "skos:broader",
+      "Entity-parameter"
+    ],
+    [
+      "Entity-decision_tree-based_context_clustering",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-parameter_training_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-the_discrete-time_version_of_the_fujisaki_model",
+      "skos:broader",
+      "Entity-fujisaki_model"
+    ],
+    [
+      "Entity-the_generating_process_of_speech_f0_contour",
+      "skos:broader",
+      "Entity-f0_contour"
+    ],
+    [
+      "Entity-a_context-dependent_one",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-fujisaki-model_parameter",
+      "skos:broader",
+      "Entity-parameter"
+    ],
+    [
+      "Entity-model",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-the_generating_process_of_speech_f0_contour",
+      "skos:broader",
+      "Entity-raw_f0_contour"
+    ],
+    [
+      "Entity-the_generating_process_of_speech_f0_contour",
+      "skos:broader",
+      "Entity-text-to-speech_synthesis"
+    ],
+    [
+      "Entity-an_efficient_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-raw_f0_contour",
+      "skos:broader",
+      "Entity-f0"
+    ],
+    [
+      "Entity-fujisaki_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-the_present_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-the_generating_process_of_speech_f0_contour",
+      "skos:broader",
+      "Entity-f0"
+    ],
+    [
+      "Entity-fujisaki-model_parameter",
+      "skos:broader",
+      "Entity-fujisaki_model"
+    ],
+    [
+      "Entity-the_problem_of_generating_the_fundamental_frequency_-lrb-_f0_-rrb-_contour_of_speech_from_a_text_input_for_text-to-speech_synthesis",
+      "skos:broader",
+      "Entity-text-to-speech_synthesis"
+    ],
+    [
+      "Entity-the_generating_process_of_speech_f0_contour",
+      "skos:broader",
+      "Entity-speech"
+    ]
+  ],
+  "predicates": {
+    "Predicate-deals_with": {
+      "label": "deals with",
+      "description": "The predicate 'deals with' establishes a relationship in which the subject is engaged in a discussion, analysis, or exploration of the object. It indicates that the subject is focused on, addresses, or provides insight into the topic represented by the object, suggesting a connection where the subject contributes to understanding or resolving the issues related to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-involves": {
+      "label": "involves",
+      "description": "The predicate 'involves' indicates a relationship where the subject is connected to the object through a process, activity, or concept that requires the object as a necessary component or aspect. It suggests that the subject cannot be fully understood or addressed without considering the object, highlighting the integral role the object plays in the context of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-describes": {
+      "label": "describes",
+      "description": "The predicate 'describes' establishes a relationship where the subject provides an explanation, representation, or account of the characteristics, properties, or mechanisms of the object. It indicates that the subject conveys information that clarifies or elucidates the nature or functioning of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_based_on": {
+      "label": "is based on",
+      "description": "The predicate 'is based on' indicates that the subject is derived from, influenced by, or constructed upon the principles, concepts, or elements represented by the object. It signifies a foundational relationship where the object serves as a source or reference point for the subject, suggesting that the subject's characteristics, structure, or functionality are informed by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_described_by": {
+      "label": "is described by",
+      "description": "The predicate 'is described by' establishes a relationship where the subject is characterized or explained through the lens of the object. It indicates that the object provides a framework, representation, or account that elucidates the nature, function, or characteristics of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allowed_to_derive": {
+      "label": "allowed to derive",
+      "description": "The predicate 'allowed to derive' indicates that the subject has the permission or capability to create, formulate, or obtain the object, which is typically a concept, method, or outcome. This relationship suggests that the subject is in a position to utilize certain rules, principles, or resources to generate the object, thereby establishing a connection between the subject's authority or ability and the resultant object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-estimated_from": {
+      "label": "estimated from",
+      "description": "The predicate 'estimated from' indicates a relationship where the subject is derived or calculated based on the information or data provided by the object. It implies that the object serves as a source or basis for the estimation process, suggesting a dependency where the characteristics or values of the subject are informed by the attributes or measurements represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allows_to_derive": {
+      "label": "allows to derive",
+      "description": "The predicate 'allows to derive' indicates that the subject provides the means, framework, or conditions necessary for the object to be obtained or inferred. It suggests a facilitative relationship where the subject enables the extraction or formulation of the object, which can be a concept, solution, or outcome, through a process of reasoning, calculation, or analysis.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_estimated_from": {
+      "label": "are estimated from",
+      "description": "The predicate 'are estimated from' indicates a relationship where the subject is derived or calculated based on the information or data provided by the object. It implies that the object serves as a source or basis for the estimation process related to the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-proposes_extending": {
+      "label": "proposes extending",
+      "description": "The predicate 'proposes extending' indicates that the subject is putting forward a suggestion or recommendation to broaden or enhance the scope, application, or characteristics of the object. It implies an intention to develop or elaborate on the object in a way that may improve its relevance, functionality, or understanding within a particular context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-associated_with": {
+      "label": "associated with",
+      "description": "The predicate 'associated with' indicates a relationship or connection between the subject and the object, suggesting that they are linked in some meaningful way. This connection can imply a variety of contexts, such as correlation, relevance, or dependency, where the subject may influence, relate to, or be connected to the object in a specific domain or field.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_proposed_for": {
+      "label": "is proposed for",
+      "description": "The predicate 'is proposed for' indicates a recommendation or suggestion that the subject is suitable or intended to be used in relation to the object. It establishes a connection where the subject is presented as a potential solution, method, or approach that could be applied to achieve, enhance, or support the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-proposes": {
+      "label": "proposes",
+      "description": "The predicate 'proposes' indicates that the subject puts forward a suggestion, idea, or plan for consideration or discussion, which is represented by the object. It implies an act of recommending or advocating for a particular course of action or concept.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or example that falls under the more general category represented by the object. This relationship implies that the object encompasses a wider scope or a more inclusive classification that includes the subject within its definition.",
+      "disambiguation_index": 0
+    }
+  }
+}

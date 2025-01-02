@@ -1,0 +1,2110 @@
+{
+  "iri": "Paper-37",
+  "title": "ECCV_2006_13_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-37-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-37-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+              "text": "In spite of over two decades of intense research , illumination and pose invariance remain prohibitively challenging aspects of face recognition for most practical applications ."
+            },
+            {
+              "iri": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+              "text": "The objective of this work is to recognize faces using video sequences both for training and recognition input , in a realistic , unconstrained setup in which lighting , pose and user motion pattern have a wide variability and face images are of low resolution ."
+            },
+            {
+              "iri": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+              "text": "In particular there are three areas of novelty : -LRB- i -RRB- we show how a photometric model of image formation can be combined with a statistical model of generic face appearance variation , learnt offline , to generalize in the presence of extreme illumination changes ; -LRB- ii -RRB- we use the smoothness of geodesically local appearance manifold structure and a robust same-identity likelihood to achieve invariance to unseen head poses ; and -LRB- iii -RRB- we introduce an accurate video sequence '' reillumination '' algorithm to achieve robustness to face motion patterns in video ."
+            },
+            {
+              "iri": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+              "text": "We describe a fully automatic recognition system based on the proposed method and an extensive evaluation on 171 individuals and over 1300 video sequences with extreme illumination , pose and head motion variation ."
+            },
+            {
+              "iri": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+              "text": "On this challenging data set our system consistently demonstrated a nearly perfect recognition rate -LRB- over 99.7 % on all three databases -RRB- , significantly out-performing state-of-the-art commercial software and methods from the literature ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0033309459686279297,
+    5.992508888244629,
+    32.05382204055786,
+    31.94938015937805,
+    0.08061599731445312,
+    0.0001461505889892578,
+    0.00019097328186035156,
+    44.043177127838135,
+    71.51066088676453,
+    7.270755767822266,
+    40.81207776069641,
+    0.020138025283813477,
+    0.00033092498779296875,
+    19.024143934249878,
+    0.0025179386138916016,
+    0.0655219554901123,
+    0.0019681453704833984,
+    5.529052972793579,
+    7.0610268115997314,
+    9.213062047958374,
+    120.07249307632446,
+    15.648040771484375,
+    62.68621587753296,
+    5.339905738830566,
+    0.00084686279296875,
+    0.016386032104492188
+  ],
+  "nodes": {
+    "Entity-illumination_and_pose_invariance": {
+      "node_id": "illumination_and_pose_invariance",
+      "disambiguation_index": 0,
+      "label": "illumination and pose invariance",
+      "aliases": [
+        "illumination and pose invariance"
+      ],
+      "types": [
+        "challenge",
+        "aspect"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Illumination and pose invariance refer to the ability of a system, particularly in computer vision and face recognition, to accurately recognize and identify subjects regardless of variations in lighting conditions and the orientation or position of the subjects.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "illumination and pose invariance",
+          "local_types": [
+            "challenge",
+            "aspect"
+          ],
+          "iri": "Entity-illumination_and_pose_invariance-Mention-1"
+        }
+      ],
+      "relevance": 0.70751953125
+    },
+    "Entity-video_sequence_with_extreme_illumination__pose_and_head_motion_variation": {
+      "node_id": "video_sequence_with_extreme_illumination__pose_and_head_motion_variation",
+      "disambiguation_index": 0,
+      "label": "video sequences with extreme illumination, pose and head motion variation",
+      "aliases": [
+        "video sequences with extreme illumination, pose and head motion variation"
+      ],
+      "types": [
+        "data set",
+        "challenge"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The entity refers to a challenging data set consisting of over 1300 video sequences that exhibit significant variations in lighting conditions, head poses, and motion patterns, used for evaluating face recognition systems.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "video sequences with extreme illumination, pose and head motion variation",
+          "local_types": [
+            "data set",
+            "challenge"
+          ],
+          "iri": "Entity-video_sequence_with_extreme_illumination__pose_and_head_motion_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.69140625
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "the proposed method",
+        "method"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The method refers to a fully automatic face recognition system that utilizes video sequences for training and recognition, designed to handle extreme variations in illumination, pose, and head motion.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "method",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the proposed method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-method-Mention-2"
+        }
+      ],
+      "relevance": 0.68896484375
+    },
+    "Entity-1300_video_sequence": {
+      "node_id": "1300_video_sequence",
+      "disambiguation_index": 0,
+      "label": "1300 video sequences",
+      "aliases": [
+        "1300 video sequences",
+        "over 1300 video sequences"
+      ],
+      "types": [
+        "dataset",
+        "media",
+        "video sequence",
+        "data set",
+        "data",
+        "video",
+        "input data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The '1300 video sequences' refer to a comprehensive data set used for evaluating a face recognition system, which includes video footage exhibiting significant variations in illumination, pose, and head motion across 171 individuals.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "1300 video sequences",
+          "local_types": [
+            "data set",
+            "input data",
+            "media"
+          ],
+          "iri": "Entity-1300_video_sequence-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "over 1300 video sequences",
+          "local_types": [
+            "data",
+            "video",
+            "dataset",
+            "video sequence"
+          ],
+          "iri": "Entity-1300_video_sequence-Mention-2"
+        }
+      ],
+      "relevance": 0.68798828125
+    },
+    "Entity-recognition_system": {
+      "node_id": "recognition_system",
+      "disambiguation_index": 0,
+      "label": "recognition system",
+      "aliases": [
+        "system",
+        "our system",
+        "recognition system",
+        "a fully automatic recognition system"
+      ],
+      "types": [
+        "system",
+        "software",
+        "recognition system",
+        "technology",
+        "automated system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The recognition system refers to a fully automatic face recognition technology that utilizes video sequences for training and recognition, designed to operate effectively under varying conditions of illumination, pose, and motion.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "recognition system",
+          "local_types": [
+            "technology",
+            "system",
+            "automated system",
+            "software"
+          ],
+          "iri": "Entity-recognition_system-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "system",
+          "local_types": [
+            "software",
+            "technology"
+          ],
+          "iri": "Entity-recognition_system-Mention-2"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a fully automatic recognition system",
+          "local_types": [
+            "system",
+            "recognition system"
+          ],
+          "iri": "Entity-recognition_system-Mention-3"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "our system",
+          "local_types": [
+            "system"
+          ],
+          "iri": "Entity-recognition_system-Mention-4"
+        }
+      ],
+      "relevance": 0.68603515625
+    },
+    "Entity-to_recognize_face": {
+      "node_id": "to_recognize_face",
+      "disambiguation_index": 0,
+      "label": "to recognize faces",
+      "aliases": [
+        "to recognize faces"
+      ],
+      "types": [
+        "objective",
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The term 'to recognize faces' refers to the process of identifying and verifying individuals based on their facial features using video sequences, particularly in challenging conditions involving variable lighting, pose, and motion.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "to recognize faces",
+          "local_types": [
+            "objective",
+            "task"
+          ],
+          "iri": "Entity-to_recognize_face-Mention-1"
+        }
+      ],
+      "relevance": 0.68310546875
+    },
+    "Entity-work": {
+      "node_id": "work",
+      "disambiguation_index": 0,
+      "label": "work",
+      "aliases": [
+        "this work",
+        "work"
+      ],
+      "types": [
+        "project",
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "This work refers to a research project aimed at developing a face recognition system that utilizes video sequences for training and recognition in challenging conditions of varying lighting, pose, and user motion.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "work",
+          "local_types": [
+            "research",
+            "project"
+          ],
+          "iri": "Entity-work-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this work",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-work-Mention-2"
+        }
+      ],
+      "relevance": 0.68212890625
+    },
+    "Entity-over_99.7__on_all_three_database": {
+      "node_id": "over_99.7__on_all_three_database",
+      "disambiguation_index": 0,
+      "label": "over 99.7% on all three databases",
+      "aliases": [
+        "over 99.7% on all three databases",
+        "over 99.7 %"
+      ],
+      "types": [
+        "performance",
+        "percentage",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The mention 'over 99.7% on all three databases' refers to the nearly perfect recognition rate achieved by the proposed face recognition system when evaluated on three distinct databases containing video sequences with extreme variations in illumination, pose, and head motion.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "over 99.7% on all three databases",
+          "local_types": [
+            "performance",
+            "metric"
+          ],
+          "iri": "Entity-over_99.7__on_all_three_database-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "over 99.7 %",
+          "local_types": [
+            "percentage"
+          ],
+          "iri": "Entity-over_99.7__on_all_three_database-Mention-2"
+        }
+      ],
+      "relevance": 0.67626953125
+    },
+    "Entity-lighting__pose_and_user_motion_pattern": {
+      "node_id": "lighting__pose_and_user_motion_pattern",
+      "disambiguation_index": 0,
+      "label": "lighting, pose and user motion pattern",
+      "aliases": [
+        "lighting, pose and user motion pattern"
+      ],
+      "types": [
+        "variable",
+        "factors"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The mention 'lighting, pose and user motion pattern' refers to the varying conditions and movements that affect face recognition in video sequences, highlighting the challenges posed by changes in illumination, the orientation of the face, and the dynamic actions of the user.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "lighting, pose and user motion pattern",
+          "local_types": [
+            "variable",
+            "factors"
+          ],
+          "iri": "Entity-lighting__pose_and_user_motion_pattern-Mention-1"
+        }
+      ],
+      "relevance": 0.6728515625
+    },
+    "Entity-recognition_input": {
+      "node_id": "recognition_input",
+      "disambiguation_index": 0,
+      "label": "recognition input",
+      "aliases": [
+        "recognition input",
+        "training and recognition input"
+      ],
+      "types": [
+        "training",
+        "input format",
+        "input",
+        "data type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Recognition input refers to the video sequences used for training and recognizing faces in a face recognition system, particularly in challenging conditions with variable lighting, pose, and motion.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "recognition input",
+          "local_types": [
+            "data type",
+            "input format"
+          ],
+          "iri": "Entity-recognition_input-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "training and recognition input",
+          "local_types": [
+            "input",
+            "training"
+          ],
+          "iri": "Entity-recognition_input-Mention-2"
+        }
+      ],
+      "relevance": 0.6708984375
+    },
+    "Entity-robustness": {
+      "node_id": "robustness",
+      "disambiguation_index": 0,
+      "label": "robustness",
+      "aliases": [
+        "robustness"
+      ],
+      "types": [
+        "property",
+        "performance metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'robustness' refers to the ability of the face recognition system to maintain accurate performance despite variations in face motion patterns during video sequences.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "robustness",
+          "local_types": [
+            "property",
+            "performance metric"
+          ],
+          "iri": "Entity-robustness-Mention-1"
+        }
+      ],
+      "relevance": 0.66552734375
+    },
+    "Entity-171_individual": {
+      "node_id": "171_individual",
+      "disambiguation_index": 0,
+      "label": "171 individuals",
+      "aliases": [
+        "individuals",
+        "171 individuals"
+      ],
+      "types": [
+        "participants",
+        "dataset",
+        "study participants",
+        "subjects",
+        "individual",
+        "sample size",
+        "population"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The mention '171 individuals' refers to the participants involved in the evaluation of a fully automatic face recognition system, which was tested using over 1300 video sequences under challenging conditions of illumination, pose, and head motion variation.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "171 individuals",
+          "local_types": [
+            "participants",
+            "dataset",
+            "study participants",
+            "individual",
+            "sample size",
+            "population"
+          ],
+          "iri": "Entity-171_individual-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "individuals",
+          "local_types": [
+            "subjects",
+            "participants"
+          ],
+          "iri": "Entity-171_individual-Mention-2"
+        }
+      ],
+      "relevance": 0.6650390625
+    },
+    "Entity-evaluation": {
+      "node_id": "evaluation",
+      "disambiguation_index": 0,
+      "label": "evaluation",
+      "aliases": [
+        "evaluation"
+      ],
+      "types": [
+        "assessment",
+        "performance measurement",
+        "analysis",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'evaluation' refers to the comprehensive assessment conducted on a fully automatic face recognition system, which involved testing the system's performance on 171 individuals and over 1300 video sequences under challenging conditions of extreme illumination, pose, and head motion variation.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "evaluation",
+          "local_types": [
+            "assessment",
+            "performance measurement",
+            "analysis",
+            "methodology"
+          ],
+          "iri": "Entity-evaluation-Mention-1"
+        }
+      ],
+      "relevance": 0.6640625
+    },
+    "Entity-extreme_illumination__pose_and_head_motion_variation": {
+      "node_id": "extreme_illumination__pose_and_head_motion_variation",
+      "disambiguation_index": 0,
+      "label": "extreme illumination, pose and head motion variation",
+      "aliases": [
+        "extreme illumination, pose and head motion variation"
+      ],
+      "types": [
+        "variation",
+        "challenge"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The phrase 'extreme illumination, pose and head motion variation' refers to the significant and challenging fluctuations in lighting conditions, head positions, and movements of subjects captured in video sequences, which complicate the task of face recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "extreme illumination, pose and head motion variation",
+          "local_types": [
+            "variation",
+            "challenge"
+          ],
+          "iri": "Entity-extreme_illumination__pose_and_head_motion_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.658203125
+    },
+    "Entity-pose_invariance": {
+      "node_id": "pose_invariance",
+      "disambiguation_index": 0,
+      "label": "pose invariance",
+      "aliases": [
+        "pose invariance"
+      ],
+      "types": [
+        "concept",
+        "challenge",
+        "aspect"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Pose invariance refers to the ability of a system, particularly in computer vision and face recognition, to accurately recognize and interpret objects or faces regardless of their orientation or position in space.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "pose invariance",
+          "local_types": [
+            "concept",
+            "challenge",
+            "aspect"
+          ],
+          "iri": "Entity-pose_invariance-Mention-1"
+        }
+      ],
+      "relevance": 0.65576171875
+    },
+    "Entity-face_motion_pattern": {
+      "node_id": "face_motion_pattern",
+      "disambiguation_index": 0,
+      "label": "face motion patterns",
+      "aliases": [
+        "face motion patterns",
+        "face motion patterns in video"
+      ],
+      "types": [
+        "phenomenon",
+        "motion pattern",
+        "pattern",
+        "face recognition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Face motion patterns refer to the variations in facial movements captured in video sequences, which pose challenges for face recognition systems, particularly under conditions of extreme illumination and pose changes.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "face motion patterns",
+          "local_types": [
+            "phenomenon",
+            "face recognition"
+          ],
+          "iri": "Entity-face_motion_pattern-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "face motion patterns in video",
+          "local_types": [
+            "pattern",
+            "motion pattern"
+          ],
+          "iri": "Entity-face_motion_pattern-Mention-2"
+        }
+      ],
+      "relevance": 0.6494140625
+    },
+    "Entity-user_motion_pattern": {
+      "node_id": "user_motion_pattern",
+      "disambiguation_index": 0,
+      "label": "user motion pattern",
+      "aliases": [
+        "user motion pattern"
+      ],
+      "types": [
+        "variable",
+        "behavioral pattern",
+        "condition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'user motion pattern' refers to the variability in the movements and actions of individuals captured in video sequences, which poses challenges for face recognition systems due to its impact on illumination and pose invariance.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "user motion pattern",
+          "local_types": [
+            "variable",
+            "behavioral pattern",
+            "condition"
+          ],
+          "iri": "Entity-user_motion_pattern-Mention-1"
+        }
+      ],
+      "relevance": 0.64697265625
+    },
+    "Entity-pose_and_head_motion_variation": {
+      "node_id": "pose_and_head_motion_variation",
+      "disambiguation_index": 0,
+      "label": "pose and head motion variation",
+      "aliases": [
+        "pose and head motion variation"
+      ],
+      "types": [
+        "variation",
+        "pose",
+        "motion"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Pose and head motion variation refers to the diverse changes in the positioning and movement of a person's head and body during video sequences, which pose significant challenges for accurate face recognition in varying lighting conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "pose and head motion variation",
+          "local_types": [
+            "variation",
+            "pose",
+            "motion"
+          ],
+          "iri": "Entity-pose_and_head_motion_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.646484375
+    },
+    "Entity-nearly_perfect_recognition_rate": {
+      "node_id": "nearly_perfect_recognition_rate",
+      "disambiguation_index": 0,
+      "label": "nearly perfect recognition rate",
+      "aliases": [
+        "nearly perfect recognition rate"
+      ],
+      "types": [
+        "performance",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'nearly perfect recognition rate' refers to the performance metric achieved by the proposed face recognition system, indicating an accuracy of over 99.7% across three databases in challenging conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "nearly perfect recognition rate",
+          "local_types": [
+            "performance",
+            "metric"
+          ],
+          "iri": "Entity-nearly_perfect_recognition_rate-Mention-1"
+        }
+      ],
+      "relevance": 0.64306640625
+    },
+    "Entity-face_recognition": {
+      "node_id": "face_recognition",
+      "disambiguation_index": 0,
+      "label": "face recognition",
+      "aliases": [
+        "face recognition"
+      ],
+      "types": [
+        "task",
+        "biometric identification",
+        "technology",
+        "recognition",
+        "application",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Face recognition is a technology and task in computer vision that involves identifying or verifying a person's identity using their facial features.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "face recognition",
+          "local_types": [
+            "task",
+            "biometric identification",
+            "technology",
+            "recognition",
+            "application",
+            "computer vision"
+          ],
+          "iri": "Entity-face_recognition-Mention-1"
+        }
+      ],
+      "relevance": 0.638671875
+    },
+    "Entity-face": {
+      "node_id": "face",
+      "disambiguation_index": 0,
+      "label": "faces",
+      "aliases": [
+        "faces"
+      ],
+      "types": [
+        "biometric feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'faces' refers to the biometric features of human faces that are being recognized and analyzed in video sequences for the purpose of face recognition under varying conditions of illumination, pose, and motion.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "faces",
+          "local_types": [
+            "biometric feature"
+          ],
+          "iri": "Entity-face-Mention-1"
+        }
+      ],
+      "relevance": 0.638671875
+    },
+    "Entity-challenging_data_set": {
+      "node_id": "challenging_data_set",
+      "disambiguation_index": 0,
+      "label": "challenging data set",
+      "aliases": [
+        "this challenging data set",
+        "challenging data set"
+      ],
+      "types": [
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'challenging data set' refers to a collection of over 1300 video sequences used for evaluating a face recognition system, characterized by extreme variations in illumination, pose, and head motion, involving 171 individuals.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "challenging data set",
+          "local_types": [
+            "data set"
+          ],
+          "iri": "Entity-challenging_data_set-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "this challenging data set",
+          "local_types": [
+            "data set"
+          ],
+          "iri": "Entity-challenging_data_set-Mention-2"
+        }
+      ],
+      "relevance": 0.6376953125
+    },
+    "Entity-realistic__unconstrained_setup": {
+      "node_id": "realistic__unconstrained_setup",
+      "disambiguation_index": 0,
+      "label": "realistic, unconstrained setup",
+      "aliases": [
+        "realistic, unconstrained setup"
+      ],
+      "types": [
+        "environment"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'realistic, unconstrained setup' refers to an environment for face recognition where there is significant variability in lighting, pose, and user motion patterns, along with low-resolution face images, simulating real-world conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "realistic, unconstrained setup",
+          "local_types": [
+            "environment"
+          ],
+          "iri": "Entity-realistic__unconstrained_setup-Mention-1"
+        }
+      ],
+      "relevance": 0.62548828125
+    },
+    "Entity-extreme_illumination": {
+      "node_id": "extreme_illumination",
+      "disambiguation_index": 0,
+      "label": "extreme illumination",
+      "aliases": [
+        "extreme illumination"
+      ],
+      "types": [
+        "condition",
+        "illumination"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Extreme illumination refers to significant variations in lighting conditions that can affect the appearance of faces in video sequences, posing challenges for face recognition systems.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "extreme illumination",
+          "local_types": [
+            "condition",
+            "illumination"
+          ],
+          "iri": "Entity-extreme_illumination-Mention-1"
+        }
+      ],
+      "relevance": 0.6220703125
+    },
+    "Entity-unseen_head_pose": {
+      "node_id": "unseen_head_pose",
+      "disambiguation_index": 0,
+      "label": "unseen head poses",
+      "aliases": [
+        "unseen head poses"
+      ],
+      "types": [
+        "phenomenon",
+        "pose",
+        "face recognition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Unseen head poses refer to the variations in head orientation that are not included in the training data, which pose challenges for face recognition systems, necessitating methods to achieve invariance to these unobserved poses.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "unseen head poses",
+          "local_types": [
+            "phenomenon",
+            "pose",
+            "face recognition"
+          ],
+          "iri": "Entity-unseen_head_pose-Mention-1"
+        }
+      ],
+      "relevance": 0.61962890625
+    },
+    "Entity-all_three_database": {
+      "node_id": "all_three_database",
+      "disambiguation_index": 0,
+      "label": "all three databases",
+      "aliases": [
+        "all three databases"
+      ],
+      "types": [
+        "database"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'all three databases' refers to the three distinct data sets used in the evaluation of the face recognition system, which includes video sequences with varying illumination, pose, and head motion conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "all three databases",
+          "local_types": [
+            "database"
+          ],
+          "iri": "Entity-all_three_database-Mention-1"
+        }
+      ],
+      "relevance": 0.61962890625
+    },
+    "Entity-generic_face_appearance_variation": {
+      "node_id": "generic_face_appearance_variation",
+      "disambiguation_index": 0,
+      "label": "generic face appearance variation",
+      "aliases": [
+        "generic face appearance variation"
+      ],
+      "types": [
+        "variation model",
+        "concept",
+        "facial recognition feature",
+        "face recognition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Generic face appearance variation refers to a statistical model that captures the diverse and variable characteristics of human facial appearances, which is utilized to enhance face recognition systems by enabling them to generalize across different lighting conditions and poses.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "generic face appearance variation",
+          "local_types": [
+            "variation model",
+            "concept",
+            "facial recognition feature",
+            "face recognition"
+          ],
+          "iri": "Entity-generic_face_appearance_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.619140625
+    },
+    "Entity-extreme_illumination_change": {
+      "node_id": "extreme_illumination_change",
+      "disambiguation_index": 0,
+      "label": "extreme illumination changes",
+      "aliases": [
+        "extreme illumination changes"
+      ],
+      "types": [
+        "image processing",
+        "challenge",
+        "illumination change",
+        "phenomenon",
+        "condition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Extreme illumination changes refer to significant variations in lighting conditions that can adversely affect the performance of face recognition systems, necessitating advanced techniques to maintain recognition accuracy under such challenging conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "extreme illumination changes",
+          "local_types": [
+            "image processing",
+            "challenge",
+            "illumination change",
+            "phenomenon",
+            "condition"
+          ],
+          "iri": "Entity-extreme_illumination_change-Mention-1"
+        }
+      ],
+      "relevance": 0.6181640625
+    },
+    "Entity-illumination": {
+      "node_id": "illumination",
+      "disambiguation_index": 0,
+      "label": "illumination",
+      "aliases": [
+        "illumination",
+        "lighting"
+      ],
+      "types": [
+        "environmental factor",
+        "condition",
+        "variable",
+        "aspect"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Illumination refers to the varying lighting conditions that affect the appearance of faces in images, posing significant challenges for face recognition systems.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "illumination",
+          "local_types": [
+            "environmental factor",
+            "aspect"
+          ],
+          "iri": "Entity-illumination-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "illumination",
+          "local_types": [
+            "environmental factor"
+          ],
+          "iri": "Entity-illumination-Mention-2"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "lighting",
+          "local_types": [
+            "environmental factor",
+            "condition",
+            "variable"
+          ],
+          "iri": "Entity-illumination-Mention-3"
+        }
+      ],
+      "relevance": 0.607421875
+    },
+    "Entity-most_practical_application": {
+      "node_id": "most_practical_application",
+      "disambiguation_index": 0,
+      "label": "most practical applications",
+      "aliases": [
+        "most practical applications"
+      ],
+      "types": [
+        "application"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'most practical applications' refers to the real-world scenarios and systems in which face recognition technology is implemented, particularly those that require robustness to variations in illumination and pose.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "most practical applications",
+          "local_types": [
+            "application"
+          ],
+          "iri": "Entity-most_practical_application-Mention-1"
+        }
+      ],
+      "relevance": 0.60205078125
+    },
+    "Entity-face_image": {
+      "node_id": "face_image",
+      "disambiguation_index": 0,
+      "label": "face images",
+      "aliases": [
+        "face images"
+      ],
+      "types": [
+        "biometric data",
+        "data",
+        "image",
+        "data type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Face images are digital representations of human faces, typically captured through photography or video, used for various applications including biometric identification and recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "face images",
+          "local_types": [
+            "biometric data",
+            "data",
+            "image",
+            "data type"
+          ],
+          "iri": "Entity-face_image-Mention-1"
+        }
+      ],
+      "relevance": 0.60107421875
+    },
+    "Entity-geodesically_local_appearance_manifold_structure": {
+      "node_id": "geodesically_local_appearance_manifold_structure",
+      "disambiguation_index": 0,
+      "label": "geodesically local appearance manifold structure",
+      "aliases": [
+        "geodesically local appearance manifold structure"
+      ],
+      "types": [
+        "manifold",
+        "mathematical structure",
+        "face recognition",
+        "model",
+        "concept",
+        "structure",
+        "geometry"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The geodesically local appearance manifold structure refers to a mathematical framework used in face recognition that captures the smooth variations in face appearance under different lighting and pose conditions, enabling the system to achieve invariance to unseen head poses.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "geodesically local appearance manifold structure",
+          "local_types": [
+            "manifold",
+            "mathematical structure",
+            "face recognition",
+            "model",
+            "concept",
+            "structure",
+            "geometry"
+          ],
+          "iri": "Entity-geodesically_local_appearance_manifold_structure-Mention-1"
+        }
+      ],
+      "relevance": 0.60009765625
+    },
+    "Entity-head_motion_variation": {
+      "node_id": "head_motion_variation",
+      "disambiguation_index": 0,
+      "label": "head motion variation",
+      "aliases": [
+        "head motion variation"
+      ],
+      "types": [
+        "movement",
+        "physical change"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Head motion variation refers to the changes in the position and orientation of a person's head during video sequences, which can significantly affect the performance of face recognition systems.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "head motion variation",
+          "local_types": [
+            "movement",
+            "physical change"
+          ],
+          "iri": "Entity-head_motion_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.599609375
+    },
+    "Entity-over_two_decade_of_intense_research": {
+      "node_id": "over_two_decade_of_intense_research",
+      "disambiguation_index": 0,
+      "label": "over two decades of intense research",
+      "aliases": [
+        "over two decades of intense research"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'over two decades of intense research' refers to the extensive and ongoing academic and practical efforts aimed at addressing the challenges of illumination and pose invariance in face recognition technology.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "over two decades of intense research",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-over_two_decade_of_intense_research-Mention-1"
+        }
+      ],
+      "relevance": 0.5966796875
+    },
+    "Entity-fully_automatic_recognition_system": {
+      "node_id": "fully_automatic_recognition_system",
+      "disambiguation_index": 0,
+      "label": "fully automatic recognition system",
+      "aliases": [
+        "fully automatic recognition system"
+      ],
+      "types": [
+        "system",
+        "recognition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A fully automatic recognition system is a technological framework designed to identify and classify objects, individuals, or patterns without human intervention, utilizing algorithms and data processing techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "fully automatic recognition system",
+          "local_types": [
+            "system",
+            "recognition"
+          ],
+          "iri": "Entity-fully_automatic_recognition_system-Mention-1"
+        }
+      ],
+      "relevance": 0.595703125
+    },
+    "Entity-photometric_model_of_image_formation": {
+      "node_id": "photometric_model_of_image_formation",
+      "disambiguation_index": 0,
+      "label": "photometric model of image formation",
+      "aliases": [
+        "photometric model of image formation"
+      ],
+      "types": [
+        "photometric",
+        "photometric model",
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The photometric model of image formation refers to a mathematical framework that describes how light interacts with surfaces to produce images, which is utilized in this paper to enhance face recognition under varying illumination conditions by integrating it with statistical models of face appearance.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "photometric model of image formation",
+          "local_types": [
+            "photometric",
+            "photometric model",
+            "model"
+          ],
+          "iri": "Entity-photometric_model_of_image_formation-Mention-1"
+        }
+      ],
+      "relevance": 0.59326171875
+    },
+    "Entity-same-identity_likelihood": {
+      "node_id": "same-identity_likelihood",
+      "disambiguation_index": 0,
+      "label": "same-identity likelihood",
+      "aliases": [
+        "same-identity likelihood"
+      ],
+      "types": [
+        "statistical",
+        "probabilistic model",
+        "concept",
+        "probability",
+        "statistical method",
+        "probability model",
+        "likelihood"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'same-identity likelihood' refers to a robust statistical measure used in face recognition systems to determine the probability that different images correspond to the same individual, particularly in the context of varying head poses and illumination conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "same-identity likelihood",
+          "local_types": [
+            "statistical",
+            "probabilistic model",
+            "concept",
+            "probability",
+            "statistical method",
+            "probability model",
+            "likelihood"
+          ],
+          "iri": "Entity-same-identity_likelihood-Mention-1"
+        }
+      ],
+      "relevance": 0.591796875
+    },
+    "Entity-pose": {
+      "node_id": "pose",
+      "disambiguation_index": 0,
+      "label": "pose",
+      "aliases": [
+        "pose"
+      ],
+      "types": [
+        "physical position",
+        "variable",
+        "body posture",
+        "body orientation",
+        "condition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of face recognition, 'pose' refers to the physical position and orientation of a person's head, which can vary significantly and poses challenges for achieving invariance in recognition systems.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "pose",
+          "local_types": [
+            "physical position",
+            "condition",
+            "body orientation"
+          ],
+          "iri": "Entity-pose-Mention-1"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "pose",
+          "local_types": [
+            "physical position",
+            "variable"
+          ],
+          "iri": "Entity-pose-Mention-2"
+        },
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "pose",
+          "local_types": [
+            "physical position",
+            "body posture"
+          ],
+          "iri": "Entity-pose-Mention-3"
+        }
+      ],
+      "relevance": 0.58837890625
+    },
+    "Entity-low_resolution": {
+      "node_id": "low_resolution",
+      "disambiguation_index": 0,
+      "label": "low resolution",
+      "aliases": [
+        "low resolution"
+      ],
+      "types": [
+        "image quality",
+        "quality"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'low resolution' refers to the quality of face images used in the study, indicating that the images have a low pixel density, which poses challenges for accurate face recognition in varying lighting and pose conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "low resolution",
+          "local_types": [
+            "image quality",
+            "quality"
+          ],
+          "iri": "Entity-low_resolution-Mention-1"
+        }
+      ],
+      "relevance": 0.58447265625
+    },
+    "Entity-recognition_rate": {
+      "node_id": "recognition_rate",
+      "disambiguation_index": 0,
+      "label": "recognition rate",
+      "aliases": [
+        "recognition rate"
+      ],
+      "types": [
+        "evaluation criterion",
+        "performance metric",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Recognition rate is a performance metric that quantifies the accuracy of a system in correctly identifying or classifying items within a given dataset.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "recognition rate",
+          "local_types": [
+            "evaluation criterion",
+            "performance metric",
+            "metric"
+          ],
+          "iri": "Entity-recognition_rate-Mention-1"
+        }
+      ],
+      "relevance": 0.572265625
+    },
+    "Entity-statistical_model_of_generic_face_appearance_variation": {
+      "node_id": "statistical_model_of_generic_face_appearance_variation",
+      "disambiguation_index": 0,
+      "label": "statistical model of generic face appearance variation",
+      "aliases": [
+        "statistical model of generic face appearance variation"
+      ],
+      "types": [
+        "statistical",
+        "statistical model",
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The statistical model of generic face appearance variation refers to a mathematical framework that captures the diverse ways in which human facial appearances can vary due to factors such as lighting, pose, and expression, and is utilized to enhance face recognition systems by enabling them to generalize across these variations.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "statistical model of generic face appearance variation",
+          "local_types": [
+            "statistical",
+            "statistical model",
+            "model"
+          ],
+          "iri": "Entity-statistical_model_of_generic_face_appearance_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.572265625
+    },
+    "Entity-video_sequence": {
+      "node_id": "video_sequence",
+      "disambiguation_index": 0,
+      "label": "video sequences",
+      "aliases": [
+        "video sequences"
+      ],
+      "types": [
+        "input format",
+        "data type",
+        "input type",
+        "data format",
+        "data",
+        "video",
+        "input"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Video sequences are a series of consecutive images or frames that capture motion over time, typically used in various applications such as video analysis, recognition, and processing.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "video sequences",
+          "local_types": [
+            "input format",
+            "data type",
+            "input type",
+            "data format",
+            "data",
+            "video",
+            "input"
+          ],
+          "iri": "Entity-video_sequence-Mention-1"
+        }
+      ],
+      "relevance": 0.56787109375
+    },
+    "Entity-method_from_the_literature": {
+      "node_id": "method_from_the_literature",
+      "disambiguation_index": 0,
+      "label": "methods from the literature",
+      "aliases": [
+        "methods from the literature"
+      ],
+      "types": [
+        "literature",
+        "research methods",
+        "methods",
+        "method",
+        "academic reference",
+        "academic techniques",
+        "academic methods"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The phrase 'methods from the literature' refers to established techniques and approaches documented in previous academic research that are used for face recognition, particularly in the context of handling challenges related to illumination, pose, and motion in video sequences.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "methods from the literature",
+          "local_types": [
+            "literature",
+            "research methods",
+            "methods",
+            "method",
+            "academic reference",
+            "academic techniques",
+            "academic methods"
+          ],
+          "iri": "Entity-method_from_the_literature-Mention-1"
+        }
+      ],
+      "relevance": 0.5625
+    },
+    "Entity-photometric_model": {
+      "node_id": "photometric_model",
+      "disambiguation_index": 0,
+      "label": "photometric model",
+      "aliases": [
+        "photometric model"
+      ],
+      "types": [
+        "image processing",
+        "model",
+        "image processing model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A photometric model is a mathematical representation used in image processing to describe how light interacts with surfaces to produce images, often incorporating factors such as illumination, reflectance, and viewing conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "photometric model",
+          "local_types": [
+            "image processing",
+            "model",
+            "image processing model"
+          ],
+          "iri": "Entity-photometric_model-Mention-1"
+        }
+      ],
+      "relevance": 0.546875
+    },
+    "Entity-image_formation": {
+      "node_id": "image_formation",
+      "disambiguation_index": 0,
+      "label": "image formation",
+      "aliases": [
+        "image formation"
+      ],
+      "types": [
+        "concept",
+        "image processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Image formation refers to the process by which an image is created from light, typically involving the interaction of light with surfaces and the subsequent capture of that light by a sensor or film.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "image formation",
+          "local_types": [
+            "concept",
+            "image processing"
+          ],
+          "iri": "Entity-image_formation-Mention-1"
+        }
+      ],
+      "relevance": 0.52978515625
+    },
+    "Entity-training": {
+      "node_id": "training",
+      "disambiguation_index": 0,
+      "label": "training",
+      "aliases": [
+        "training"
+      ],
+      "types": [
+        "process",
+        "machine learning"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Training refers to the process of teaching a machine learning model to recognize patterns or make predictions based on input data.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "training",
+          "local_types": [
+            "process",
+            "machine learning"
+          ],
+          "iri": "Entity-training-Mention-1"
+        }
+      ],
+      "relevance": 0.470703125
+    },
+    "Entity-statistical_model": {
+      "node_id": "statistical_model",
+      "disambiguation_index": 0,
+      "label": "statistical model",
+      "aliases": [
+        "statistical model"
+      ],
+      "types": [
+        "mathematical model",
+        "statistics",
+        "model",
+        "data analysis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical model is a mathematical framework that uses statistical methods to represent and analyze data, allowing for the estimation of relationships and predictions based on observed variables.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "statistical model",
+          "local_types": [
+            "mathematical model",
+            "statistics",
+            "model",
+            "data analysis"
+          ],
+          "iri": "Entity-statistical_model-Mention-1"
+        }
+      ],
+      "relevance": 0.428955078125
+    },
+    "Entity-practical_application": {
+      "node_id": "practical_application",
+      "disambiguation_index": 0,
+      "label": "practical applications",
+      "aliases": [
+        "practical applications"
+      ],
+      "types": [
+        "use case",
+        "implementation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "practical applications refer to the real-world uses or implementations of a concept, technology, or method in various fields.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "practical applications",
+          "local_types": [
+            "use case",
+            "implementation"
+          ],
+          "iri": "Entity-practical_application-Mention-1"
+        }
+      ],
+      "relevance": 0.4287109375
+    },
+    "Entity-state-of-the-art_commercial_software": {
+      "node_id": "state-of-the-art_commercial_software",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art commercial software",
+      "aliases": [
+        "state-of-the-art commercial software"
+      ],
+      "types": [
+        "commercial",
+        "commercial product",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "state-of-the-art commercial software refers to advanced software products that are widely recognized for their high performance and effectiveness in commercial applications.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "state-of-the-art commercial software",
+          "local_types": [
+            "commercial",
+            "commercial product",
+            "software"
+          ],
+          "iri": "Entity-state-of-the-art_commercial_software-Mention-1"
+        }
+      ],
+      "relevance": 0.41455078125
+    },
+    "Entity-database": {
+      "node_id": "database",
+      "disambiguation_index": 0,
+      "label": "databases",
+      "aliases": [
+        "databases"
+      ],
+      "types": [
+        "data storage",
+        "information system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Databases are organized collections of structured information or data, typically stored electronically in a computer system, that can be accessed, managed, and updated efficiently.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "databases",
+          "local_types": [
+            "data storage",
+            "information system"
+          ],
+          "iri": "Entity-database-Mention-1"
+        }
+      ],
+      "relevance": 0.411865234375
+    },
+    "Entity-research": {
+      "node_id": "research",
+      "disambiguation_index": 0,
+      "label": "research",
+      "aliases": [
+        "research"
+      ],
+      "types": [
+        "academic activity",
+        "scientific inquiry"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Research refers to a systematic investigation or study conducted to establish facts, gather knowledge, or develop new theories, often within academic or scientific contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-37-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "research",
+          "local_types": [
+            "academic activity",
+            "scientific inquiry"
+          ],
+          "iri": "Entity-research-Mention-1"
+        }
+      ],
+      "relevance": 0.399658203125
+    }
+  },
+  "summary": "In spite of over two decades of intense research , illumination and pose invariance remain prohibitively challenging aspects of face recognition for most practical applications . The objective of this work is to recognize faces using video sequences both for training and recognition input , in a realistic , unconstrained setup in which lighting , pose and user motion pattern have a wide variability and face images are of low resolution . In particular there are three areas of novelty : -LRB- i -RRB- we show how a photometric model of image formation can be combined with a statistical model of generic face appearance variation , learnt offline , to generalize in the presence of extreme illumination changes ; -LRB- ii -RRB- we use the smoothness of geodesically local appearance manifold structure and a robust same-identity likelihood to achieve invariance to unseen head poses ; and -LRB- iii -RRB- we introduce an accurate video sequence '' reillumination '' algorithm to achieve robustness to face motion patterns in video . We describe a fully automatic recognition system based on the proposed method and an extensive evaluation on 171 individuals and over 1300 video sequences with extreme illumination , pose and head motion variation . On this challenging data set our system consistently demonstrated a nearly perfect recognition rate -LRB- over 99.7 % on all three databases -RRB- , significantly out-performing state-of-the-art commercial software and methods from the literature .",
+  "triples": [
+    [
+      "Entity-illumination",
+      "Predicate-remain_challenging_for",
+      "Entity-face_recognition"
+    ],
+    [
+      "Entity-pose_invariance",
+      "Predicate-remain_challenging_for",
+      "Entity-face_recognition"
+    ],
+    [
+      "Entity-illumination_and_pose_invariance",
+      "Predicate-remain_challenging_for",
+      "Entity-face_recognition"
+    ],
+    [
+      "Entity-over_two_decade_of_intense_research",
+      "Predicate-is_related_to",
+      "Entity-research"
+    ],
+    [
+      "Entity-work",
+      "Predicate-is_to_recognize",
+      "Entity-face"
+    ],
+    [
+      "Entity-work",
+      "Predicate-uses",
+      "Entity-video_sequence"
+    ],
+    [
+      "Entity-face_image",
+      "Predicate-are_of",
+      "Entity-low_resolution"
+    ],
+    [
+      "Entity-video_sequence",
+      "Predicate-are_used_for",
+      "Entity-recognition_input"
+    ],
+    [
+      "Entity-photometric_model",
+      "Predicate-can_be_combined_with",
+      "Entity-statistical_model"
+    ],
+    [
+      "Entity-statistical_model",
+      "Predicate-is_of",
+      "Entity-generic_face_appearance_variation"
+    ],
+    [
+      "Entity-photometric_model_of_image_formation",
+      "Predicate-can_be_combined_with",
+      "Entity-statistical_model_of_generic_face_appearance_variation"
+    ],
+    [
+      "Entity-photometric_model_of_image_formation",
+      "Predicate-generalizes_in_the_presence_of",
+      "Entity-extreme_illumination_change"
+    ],
+    [
+      "Entity-recognition_system",
+      "Predicate-based_on",
+      "Entity-method"
+    ],
+    [
+      "Entity-evaluation",
+      "Predicate-on",
+      "Entity-171_individual"
+    ],
+    [
+      "Entity-evaluation",
+      "Predicate-on",
+      "Entity-1300_video_sequence"
+    ],
+    [
+      "Entity-video_sequence_with_extreme_illumination__pose_and_head_motion_variation",
+      "Predicate-with",
+      "Entity-extreme_illumination__pose_and_head_motion_variation"
+    ],
+    [
+      "Entity-evaluation",
+      "Predicate-is_on",
+      "Entity-171_individual"
+    ],
+    [
+      "Entity-evaluation",
+      "Predicate-is_on",
+      "Entity-1300_video_sequence"
+    ],
+    [
+      "Entity-recognition_system",
+      "Predicate-demonstrated",
+      "Entity-nearly_perfect_recognition_rate"
+    ],
+    [
+      "Entity-recognition_system",
+      "Predicate-out-performing",
+      "Entity-state-of-the-art_commercial_software"
+    ],
+    [
+      "Entity-recognition_system",
+      "Predicate-out-performing",
+      "Entity-method_from_the_literature"
+    ],
+    [
+      "Entity-nearly_perfect_recognition_rate",
+      "Predicate-achieved_on",
+      "Entity-over_99.7__on_all_three_database"
+    ],
+    [
+      "Entity-challenging_data_set",
+      "Predicate-has",
+      "Entity-extreme_illumination__pose_and_head_motion_variation"
+    ],
+    [
+      "Entity-video_sequence_with_extreme_illumination__pose_and_head_motion_variation",
+      "Predicate-evaluate",
+      "Entity-illumination_and_pose_invariance"
+    ],
+    [
+      "Entity-method",
+      "Predicate-addresses",
+      "Entity-illumination_and_pose_invariance"
+    ],
+    [
+      "Entity-recognition_system",
+      "Predicate-addresses",
+      "Entity-illumination_and_pose_invariance"
+    ],
+    [
+      "Entity-method",
+      "Predicate-utilizes",
+      "Entity-video_sequence_with_extreme_illumination__pose_and_head_motion_variation"
+    ],
+    [
+      "Entity-method",
+      "Predicate-describes",
+      "Entity-recognition_system"
+    ],
+    [
+      "Entity-1300_video_sequence",
+      "Predicate-evaluate",
+      "Entity-illumination_and_pose_invariance"
+    ],
+    [
+      "Entity-1300_video_sequence",
+      "Predicate-includes",
+      "Entity-video_sequence_with_extreme_illumination__pose_and_head_motion_variation"
+    ],
+    [
+      "Entity-method",
+      "Predicate-evaluates",
+      "Entity-1300_video_sequence"
+    ],
+    [
+      "Entity-recognition_system",
+      "Predicate-evaluates",
+      "Entity-1300_video_sequence"
+    ],
+    [
+      "Entity-recognition_system",
+      "Predicate-evaluates",
+      "Entity-video_sequence_with_extreme_illumination__pose_and_head_motion_variation"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-generic_face_appearance_variation",
+      "skos:broader",
+      "Entity-face"
+    ],
+    [
+      "Entity-extreme_illumination",
+      "skos:broader",
+      "Entity-illumination"
+    ],
+    [
+      "Entity-face_motion_pattern",
+      "skos:broader",
+      "Entity-face_recognition"
+    ],
+    [
+      "Entity-pose_and_head_motion_variation",
+      "skos:broader",
+      "Entity-pose"
+    ],
+    [
+      "Entity-geodesically_local_appearance_manifold_structure",
+      "skos:broader",
+      "Entity-to_recognize_face"
+    ],
+    [
+      "Entity-method_from_the_literature",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-photometric_model_of_image_formation",
+      "skos:broader",
+      "Entity-photometric_model"
+    ],
+    [
+      "Entity-unseen_head_pose",
+      "skos:broader",
+      "Entity-pose"
+    ],
+    [
+      "Entity-unseen_head_pose",
+      "skos:broader",
+      "Entity-face"
+    ],
+    [
+      "Entity-geodesically_local_appearance_manifold_structure",
+      "skos:broader",
+      "Entity-face_recognition"
+    ],
+    [
+      "Entity-face_motion_pattern",
+      "skos:broader",
+      "Entity-face"
+    ],
+    [
+      "Entity-recognition_input",
+      "skos:broader",
+      "Entity-training"
+    ],
+    [
+      "Entity-generic_face_appearance_variation",
+      "skos:broader",
+      "Entity-to_recognize_face"
+    ],
+    [
+      "Entity-geodesically_local_appearance_manifold_structure",
+      "skos:broader",
+      "Entity-face"
+    ],
+    [
+      "Entity-all_three_database",
+      "skos:broader",
+      "Entity-database"
+    ],
+    [
+      "Entity-generic_face_appearance_variation",
+      "skos:broader",
+      "Entity-face_recognition"
+    ],
+    [
+      "Entity-unseen_head_pose",
+      "skos:broader",
+      "Entity-to_recognize_face"
+    ],
+    [
+      "Entity-1300_video_sequence",
+      "skos:broader",
+      "Entity-video_sequence"
+    ],
+    [
+      "Entity-fully_automatic_recognition_system",
+      "skos:broader",
+      "Entity-recognition_system"
+    ],
+    [
+      "Entity-work",
+      "skos:broader",
+      "Entity-research"
+    ],
+    [
+      "Entity-face_motion_pattern",
+      "skos:broader",
+      "Entity-to_recognize_face"
+    ],
+    [
+      "Entity-over_two_decade_of_intense_research",
+      "skos:broader",
+      "Entity-research"
+    ],
+    [
+      "Entity-unseen_head_pose",
+      "skos:broader",
+      "Entity-face_recognition"
+    ],
+    [
+      "Entity-statistical_model_of_generic_face_appearance_variation",
+      "skos:broader",
+      "Entity-statistical_model"
+    ]
+  ],
+  "predicates": {
+    "Predicate-remain_challenging_for": {
+      "label": "remain challenging for",
+      "description": "The predicate 'remain challenging for' indicates that the subject continues to present difficulties or obstacles to the object. It suggests an ongoing state where the subject's characteristics or conditions hinder the effectiveness, performance, or success of the object in a particular context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_related_to": {
+      "label": "is related to",
+      "description": "The predicate 'is related to' establishes a connection or association between the subject and the object, indicating that they share a relevant link, influence, or correlation in a broader context. This relationship can encompass various forms of connection, such as thematic relevance, causal influence, or contextual association, suggesting that understanding one may provide insights into the other.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_to_recognize": {
+      "label": "is to recognize",
+      "description": "The predicate 'is to recognize' establishes a relationship where the subject is associated with the act of identifying or acknowledging the object. It implies that the subject has the capacity or intention to perceive, understand, or become aware of the characteristics or significance of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates that the subject actively employs or utilizes the object in some capacity. It signifies a functional relationship where the subject applies the object as a tool, resource, or method to achieve a specific purpose or outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_of": {
+      "label": "are of",
+      "description": "The predicate 'are of' establishes a relationship of classification or characterization between the subject and the object, indicating that the subject possesses a quality, attribute, or category represented by the object. It suggests that the subject can be identified or described in terms of the object, thereby linking the two in a way that conveys essential information about the nature or state of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_used_for": {
+      "label": "are used for",
+      "description": "The predicate 'are used for' indicates a functional relationship where the subject serves a specific purpose or role in relation to the object. It implies that the subject is employed or utilized in a manner that facilitates, supports, or contributes to the achievement of the object, which represents the intended outcome, application, or goal.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_combined_with": {
+      "label": "can be combined with",
+      "description": "The predicate 'can be combined with' indicates a potential relationship between the subject and the object, suggesting that the two entities can be integrated or used together in a manner that enhances their functionality, effectiveness, or applicability. This combination may lead to new insights, improved results, or a more comprehensive understanding of a particular domain or problem.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_of": {
+      "label": "is of",
+      "description": "The predicate 'is of' establishes a relationship of belonging or association between the subject and the object, indicating that the subject is a specific instance, type, or representation that relates to the broader concept or category represented by the object. It suggests that the subject embodies, exemplifies, or is characterized by the qualities or attributes of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-generalizes_in_the_presence_of": {
+      "label": "generalizes in the presence of",
+      "description": "The predicate 'generalizes in the presence of' indicates that the subject has the capability to extend its applicability or effectiveness when faced with the conditions or factors represented by the object. It suggests that the subject can adapt or maintain its relevance despite variations or challenges posed by the object, thereby demonstrating robustness or versatility in its function or performance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-based_on": {
+      "label": "based on",
+      "description": "The predicate 'based on' indicates that the subject is founded upon, derived from, or relies upon the object. It establishes a relationship where the object serves as a foundational element, principle, or source that informs, influences, or supports the subject's characteristics, functionality, or operation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-on": {
+      "label": "on",
+      "description": "The predicate 'on' indicates a relationship where the subject is focused or based upon the object, suggesting that the subject's relevance, context, or applicability is directly linked to the object. In this case, it implies that the evaluation is conducted with respect to the specified number of individuals, highlighting the connection between the assessment and the group being considered.",
+      "disambiguation_index": 0
+    },
+    "Predicate-with": {
+      "label": "with",
+      "description": "The predicate 'with' serves to indicate a relationship of association or accompaniment between the subject and the object. It suggests that the subject possesses, includes, or is characterized by the qualities, features, or elements represented by the object. In this context, 'with' connects the subject to the object by highlighting the presence or integration of the object's attributes within the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_on": {
+      "label": "is on",
+      "description": "The predicate 'is on' indicates a relationship where the subject is associated with or situated in relation to the object, often implying a state of being, presence, or focus. It connects the subject to the object by suggesting that the subject is relevant to, dependent on, or engaged with the object in some capacity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-demonstrated": {
+      "label": "demonstrated",
+      "description": "The predicate 'demonstrated' indicates that the subject has provided evidence or proof of the validity, effectiveness, or capability of the object. It implies a clear display or manifestation of the qualities or characteristics represented by the object, often through testing, observation, or practical application.",
+      "disambiguation_index": 0
+    },
+    "Predicate-out-performing": {
+      "label": "out-performing",
+      "description": "The predicate 'out-performing' indicates that the subject demonstrates superior performance or effectiveness compared to the object in a specific context or set of criteria. It implies a comparative evaluation where the subject achieves better results, efficiency, accuracy, or other relevant metrics than the object, which is typically considered a benchmark or standard in the field.",
+      "disambiguation_index": 0
+    },
+    "Predicate-achieved_on": {
+      "label": "achieved on",
+      "description": "The predicate 'achieved on' indicates a successful attainment or realization of a specific outcome or result, which is represented by the object, in relation to a particular subject. It implies that the subject has reached a certain level of performance, effectiveness, or quality as quantified or described by the object, often in the context of specific conditions or criteria.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' indicates a relationship of possession or inclusion between the subject and the object. It signifies that the subject contains, possesses, or is characterized by the attributes, features, or elements represented by the object. This relationship can encompass various forms of association, such as physical possession, inherent qualities, or contextual relevance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluate": {
+      "label": "evaluate",
+      "description": "The predicate 'evaluate' signifies the process of assessing or analyzing the subject in relation to the object. It indicates that the subject is being examined or judged based on specific criteria or characteristics represented by the object. In this context, 'evaluate' connects the subject and object by establishing a relationship where the subject's attributes or performance are measured against the standards or expectations defined by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-addresses": {
+      "label": "addresses",
+      "description": "The predicate 'addresses' indicates that the subject is concerned with, deals with, or provides solutions to the issues or aspects represented by the object. It implies a relationship where the subject actively engages with the object to tackle or consider the specified topics or challenges.",
+      "disambiguation_index": 0
+    },
+    "Predicate-utilizes": {
+      "label": "utilizes",
+      "description": "The predicate 'utilizes' indicates that the subject employs or makes use of the object in order to achieve a specific purpose or function. It establishes a relationship where the subject actively engages with the object, indicating that the object serves as a resource, tool, or method that aids the subject in accomplishing its goals or tasks.",
+      "disambiguation_index": 0
+    },
+    "Predicate-describes": {
+      "label": "describes",
+      "description": "The predicate 'describes' establishes a relationship where the subject provides an explanation, characterization, or detailed account of the object. It indicates that the subject conveys information that clarifies the nature, function, or attributes of the object, thereby enhancing understanding of the object in question.",
+      "disambiguation_index": 0
+    },
+    "Predicate-includes": {
+      "label": "includes",
+      "description": "The predicate 'includes' establishes a relationship where the subject encompasses or contains the object as a part or subset. It indicates that the object is a component or element that is part of the broader category or collection represented by the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluates": {
+      "label": "evaluates",
+      "description": "The predicate 'evaluates' signifies an action where the subject assesses, analyzes, or measures the quality, performance, or characteristics of the object. In this context, the subject applies a systematic approach or methodology to determine the value or effectiveness of the object, which can be a dataset, process, or any entity that can be subjected to scrutiny.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or variation that falls under the more general category represented by the object. This relationship implies that the object encompasses a wider range of concepts or entities, of which the subject is a part, thereby facilitating a classification or categorization of the subject within a broader context.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,1859 @@
+{
+  "iri": "Paper-81",
+  "title": "CVPR_1993_10_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-81-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-81-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-1",
+              "text": "A model-based approach to on-line cursive handwriting analysis and recognition is presented and evaluated ."
+            },
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this model , on-line handwriting is considered as a modulation of a simple cycloidal pen motion , described by two coupled oscillations with a constant linear drift along the line of the writing ."
+            },
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-3",
+              "text": "By slow modulations of the amplitudes and phase lags of the two oscillators , a general pen trajectory can be efficiently encoded ."
+            },
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-4",
+              "text": "These parameters are then quantized into a small number of values without altering the writing intelligibility ."
+            },
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+              "text": "A general procedure for the estimation and quantization of these cycloidal motion parameters for arbitrary handwriting is presented ."
+            },
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-6",
+              "text": "The result is a discrete motor control representation of the continuous pen motion , via the quantized levels of the model parameters ."
+            },
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+              "text": "This motor control representation enables successful word spotting and matching of cursive scripts ."
+            },
+            {
+              "iri": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+              "text": "Our experiments clearly indicate the potential of this dynamic representation for complete cursive handwriting recognition ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0019598007202148438,
+    88.72433400154114,
+    84.54253792762756,
+    84.06513404846191,
+    0.04202914237976074,
+    0.000171661376953125,
+    0.0002129077911376953,
+    508.8693869113922,
+    507.9694309234619,
+    6.871057033538818,
+    336.4223508834839,
+    0.01885819435119629,
+    0.0011789798736572266,
+    83.01280999183655,
+    0.0019690990447998047,
+    0.03713583946228027,
+    0.001653909683227539,
+    6.597522020339966,
+    40.4731650352478,
+    59.866535902023315,
+    735.7345950603485,
+    12.513386011123657,
+    282.1348559856415,
+    4.230471134185791,
+    0.0007488727569580078,
+    0.015318870544433594
+  ],
+  "nodes": {
+    "Entity-a_modulation_of_a_simple_cycloidal_pen_motion": {
+      "node_id": "a_modulation_of_a_simple_cycloidal_pen_motion",
+      "disambiguation_index": 0,
+      "label": "a modulation of a simple cycloidal pen motion",
+      "aliases": [
+        "a modulation of a simple cycloidal pen motion"
+      ],
+      "types": [
+        "modulation",
+        "pen motion"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A modulation of a simple cycloidal pen motion refers to the dynamic representation of on-line handwriting as variations in the parameters of a cycloidal motion model, characterized by two coupled oscillations that encode the pen's trajectory while maintaining writing intelligibility.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a modulation of a simple cycloidal pen motion",
+          "local_types": [
+            "modulation",
+            "pen motion"
+          ],
+          "iri": "Entity-a_modulation_of_a_simple_cycloidal_pen_motion-Mention-1"
+        }
+      ],
+      "relevance": 0.8310546875
+    },
+    "Entity-model-based_approach": {
+      "node_id": "model-based_approach",
+      "disambiguation_index": 0,
+      "label": "model-based approach",
+      "aliases": [
+        "model-based approach",
+        "A model-based approach"
+      ],
+      "types": [
+        "research approach",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'model-based approach' refers to a methodology for analyzing and recognizing on-line cursive handwriting by modeling it as a modulation of cycloidal pen motion, which is represented through quantized parameters for effective motor control and word recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "model-based approach",
+          "local_types": [
+            "research approach",
+            "methodology"
+          ],
+          "iri": "Entity-model-based_approach-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "A model-based approach",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-model-based_approach-Mention-2"
+        }
+      ],
+      "relevance": 0.830078125
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "model",
+      "aliases": [
+        "model",
+        "this model"
+      ],
+      "types": [
+        "theoretical framework",
+        "model",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'model' refers to a theoretical framework for analyzing and recognizing on-line cursive handwriting, which conceptualizes handwriting as a modulation of cycloidal pen motion characterized by coupled oscillations and a linear drift.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "model",
+          "local_types": [
+            "theoretical framework",
+            "concept"
+          ],
+          "iri": "Entity-model-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this model",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-model-Mention-2"
+        }
+      ],
+      "relevance": 0.81982421875
+    },
+    "Entity-cycloidal_pen_motion": {
+      "node_id": "cycloidal_pen_motion",
+      "disambiguation_index": 0,
+      "label": "cycloidal pen motion",
+      "aliases": [
+        "simple cycloidal pen motion",
+        "cycloidal pen motion"
+      ],
+      "types": [
+        "motion type",
+        "pen motion",
+        "kinematics",
+        "motion model",
+        "mechanical motion",
+        "motion",
+        "pen movement"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Cycloidal pen motion refers to a specific type of pen movement characterized by two coupled oscillations and a constant linear drift, which is used to model and analyze on-line cursive handwriting.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "cycloidal pen motion",
+          "local_types": [
+            "motion type",
+            "kinematics",
+            "motion model",
+            "mechanical motion",
+            "pen movement"
+          ],
+          "iri": "Entity-cycloidal_pen_motion-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "simple cycloidal pen motion",
+          "local_types": [
+            "motion",
+            "pen motion"
+          ],
+          "iri": "Entity-cycloidal_pen_motion-Mention-2"
+        }
+      ],
+      "relevance": 0.7998046875
+    },
+    "Entity-motor_control_representation": {
+      "node_id": "motor_control_representation",
+      "disambiguation_index": 0,
+      "label": "motor control representation",
+      "aliases": [
+        "motor control representation",
+        "This motor control representation"
+      ],
+      "types": [
+        "concept",
+        "representation model",
+        "motor control",
+        "theory",
+        "control system",
+        "representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The motor control representation refers to a discrete model that encodes the continuous motion of a pen during cursive handwriting by quantizing the parameters of cycloidal oscillations, facilitating effective recognition and analysis of handwriting.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "motor control representation",
+          "local_types": [
+            "representation model",
+            "control system",
+            "representation"
+          ],
+          "iri": "Entity-motor_control_representation-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "motor control representation",
+          "local_types": [
+            "concept",
+            "theory"
+          ],
+          "iri": "Entity-motor_control_representation-Mention-2"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "This motor control representation",
+          "local_types": [
+            "representation",
+            "motor control"
+          ],
+          "iri": "Entity-motor_control_representation-Mention-3"
+        }
+      ],
+      "relevance": 0.79736328125
+    },
+    "Entity-cycloidal_motion_parameter": {
+      "node_id": "cycloidal_motion_parameter",
+      "disambiguation_index": 0,
+      "label": "cycloidal motion parameters",
+      "aliases": [
+        "cycloidal motion parameters"
+      ],
+      "types": [
+        "motion parameters",
+        "kinematics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Cycloidal motion parameters refer to the quantifiable characteristics of a cycloidal pen motion model used in cursive handwriting analysis, which are derived from the modulation of two coupled oscillations and are essential for encoding pen trajectories in a discrete motor control representation.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "cycloidal motion parameters",
+          "local_types": [
+            "motion parameters",
+            "kinematics"
+          ],
+          "iri": "Entity-cycloidal_motion_parameter-Mention-1"
+        }
+      ],
+      "relevance": 0.7880859375
+    },
+    "Entity-two_coupled_oscillation": {
+      "node_id": "two_coupled_oscillation",
+      "disambiguation_index": 0,
+      "label": "two coupled oscillations",
+      "aliases": [
+        "two coupled oscillations"
+      ],
+      "types": [
+        "oscillation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Two coupled oscillations refer to a mathematical model used to describe the modulation of a cycloidal pen motion in on-line handwriting analysis, where the oscillations represent the dynamic movements of the pen with a constant linear drift along the writing path.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "two coupled oscillations",
+          "local_types": [
+            "oscillation"
+          ],
+          "iri": "Entity-two_coupled_oscillation-Mention-1"
+        }
+      ],
+      "relevance": 0.7763671875
+    },
+    "Entity-discrete_motor_control_representation": {
+      "node_id": "discrete_motor_control_representation",
+      "disambiguation_index": 0,
+      "label": "discrete motor control representation",
+      "aliases": [
+        "discrete motor control representation"
+      ],
+      "types": [
+        "motor control",
+        "representation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The discrete motor control representation refers to a quantized encoding of continuous pen motion parameters, derived from a model of handwriting that captures the modulation of cycloidal movements, facilitating effective analysis and recognition of cursive handwriting.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "discrete motor control representation",
+          "local_types": [
+            "motor control",
+            "representation"
+          ],
+          "iri": "Entity-discrete_motor_control_representation-Mention-1"
+        }
+      ],
+      "relevance": 0.76806640625
+    },
+    "Entity-dynamic_representation": {
+      "node_id": "dynamic_representation",
+      "disambiguation_index": 0,
+      "label": "dynamic representation",
+      "aliases": [
+        "dynamic representation",
+        "this dynamic representation"
+      ],
+      "types": [
+        "concept",
+        "model",
+        "representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The dynamic representation refers to a model-based encoding of on-line cursive handwriting that captures the modulation of pen motion through quantized parameters, facilitating effective handwriting recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "dynamic representation",
+          "local_types": [
+            "concept",
+            "model",
+            "representation"
+          ],
+          "iri": "Entity-dynamic_representation-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "this dynamic representation",
+          "local_types": [
+            "representation"
+          ],
+          "iri": "Entity-dynamic_representation-Mention-2"
+        }
+      ],
+      "relevance": 0.76123046875
+    },
+    "Entity-pen_motion": {
+      "node_id": "pen_motion",
+      "disambiguation_index": 0,
+      "label": "pen motion",
+      "aliases": [
+        "pen motion",
+        "continuous pen motion"
+      ],
+      "types": [
+        "physical action",
+        "motion",
+        "pen"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Pen motion refers to the continuous movement of a writing instrument, modeled as a modulation of a simple cycloidal motion characterized by two coupled oscillations, which is used in the analysis and recognition of cursive handwriting.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "pen motion",
+          "local_types": [
+            "motion",
+            "physical action"
+          ],
+          "iri": "Entity-pen_motion-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "continuous pen motion",
+          "local_types": [
+            "pen",
+            "motion"
+          ],
+          "iri": "Entity-pen_motion-Mention-2"
+        }
+      ],
+      "relevance": 0.75634765625
+    },
+    "Entity-oscillation": {
+      "node_id": "oscillation",
+      "disambiguation_index": 0,
+      "label": "oscillations",
+      "aliases": [
+        "oscillations"
+      ],
+      "types": [
+        "physical phenomenon",
+        "motion characteristic",
+        "dynamic system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'oscillations' refer to the two coupled dynamic motions that characterize the modulation of a cycloidal pen movement during on-line handwriting, which are essential for encoding the pen trajectory in handwriting analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "oscillations",
+          "local_types": [
+            "physical phenomenon",
+            "motion characteristic",
+            "dynamic system"
+          ],
+          "iri": "Entity-oscillation-Mention-1"
+        }
+      ],
+      "relevance": 0.75439453125
+    },
+    "Entity-the_estimation_and_quantization_of_these_cycloidal_motion_parameter": {
+      "node_id": "the_estimation_and_quantization_of_these_cycloidal_motion_parameter",
+      "disambiguation_index": 0,
+      "label": "the estimation and quantization of these cycloidal motion parameters",
+      "aliases": [
+        "the estimation and quantization of these cycloidal motion parameters"
+      ],
+      "types": [
+        "estimation",
+        "quantization",
+        "parameters"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The estimation and quantization of these cycloidal motion parameters refers to the process of determining and discretizing the values of specific parameters that describe the cycloidal motion of a pen during cursive handwriting, enabling efficient encoding and representation of the pen trajectory for improved handwriting recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the estimation and quantization of these cycloidal motion parameters",
+          "local_types": [
+            "estimation",
+            "quantization",
+            "parameters"
+          ],
+          "iri": "Entity-the_estimation_and_quantization_of_these_cycloidal_motion_parameter-Mention-1"
+        }
+      ],
+      "relevance": 0.7509765625
+    },
+    "Entity-dynamic_representation_for_complete_cursive_handwriting_recognition": {
+      "node_id": "dynamic_representation_for_complete_cursive_handwriting_recognition",
+      "disambiguation_index": 0,
+      "label": "dynamic representation for complete cursive handwriting recognition",
+      "aliases": [
+        "dynamic representation for complete cursive handwriting recognition"
+      ],
+      "types": [
+        "recognition",
+        "representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The dynamic representation for complete cursive handwriting recognition refers to a model-based approach that encodes the continuous pen motion of cursive handwriting into a discrete motor control representation, facilitating effective analysis, recognition, and matching of cursive scripts.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "dynamic representation for complete cursive handwriting recognition",
+          "local_types": [
+            "recognition",
+            "representation"
+          ],
+          "iri": "Entity-dynamic_representation_for_complete_cursive_handwriting_recognition-Mention-1"
+        }
+      ],
+      "relevance": 0.74951171875
+    },
+    "Entity-parameter": {
+      "node_id": "parameter",
+      "disambiguation_index": 0,
+      "label": "parameters",
+      "aliases": [
+        "parameters",
+        "These parameters"
+      ],
+      "types": [
+        "data",
+        "variables",
+        "parameters"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'parameters' refers to the quantifiable values derived from the modulation of amplitudes and phase lags of oscillators that describe the cycloidal pen motion in the context of on-line cursive handwriting analysis and recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "parameters",
+          "local_types": [
+            "variables",
+            "data"
+          ],
+          "iri": "Entity-parameter-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "These parameters",
+          "local_types": [
+            "parameters"
+          ],
+          "iri": "Entity-parameter-Mention-2"
+        }
+      ],
+      "relevance": 0.72509765625
+    },
+    "Entity-a_small_number_of_value": {
+      "node_id": "a_small_number_of_value",
+      "disambiguation_index": 0,
+      "label": "a small number of values",
+      "aliases": [
+        "a small number of values"
+      ],
+      "types": [
+        "values"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A small number of values refers to the discrete quantized levels of model parameters derived from the modulation of cycloidal pen motion in the context of on-line cursive handwriting analysis, which are used to represent the continuous pen motion without compromising the intelligibility of the writing.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a small number of values",
+          "local_types": [
+            "values"
+          ],
+          "iri": "Entity-a_small_number_of_value-Mention-1"
+        }
+      ],
+      "relevance": 0.7236328125
+    },
+    "Entity-quantized_level_of_the_model_parameter": {
+      "node_id": "quantized_level_of_the_model_parameter",
+      "disambiguation_index": 0,
+      "label": "quantized levels of the model parameters",
+      "aliases": [
+        "quantized levels of the model parameters"
+      ],
+      "types": [
+        "model parameters",
+        "parameter",
+        "quantized levels"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The quantized levels of the model parameters refer to the discrete values into which the continuous parameters of the cycloidal pen motion model are transformed, enabling efficient representation and processing of on-line cursive handwriting for recognition tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "quantized levels of the model parameters",
+          "local_types": [
+            "model parameters",
+            "parameter",
+            "quantized levels"
+          ],
+          "iri": "Entity-quantized_level_of_the_model_parameter-Mention-1"
+        }
+      ],
+      "relevance": 0.7158203125
+    },
+    "Entity-on-line_handwriting": {
+      "node_id": "on-line_handwriting",
+      "disambiguation_index": 0,
+      "label": "on-line handwriting",
+      "aliases": [
+        "on-line handwriting"
+      ],
+      "types": [
+        "modulation",
+        "handwriting",
+        "writing style"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "On-line handwriting refers to the process of capturing handwritten input in real-time as it is being created, typically using digital devices that track pen movements and strokes.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "on-line handwriting",
+          "local_types": [
+            "modulation",
+            "handwriting",
+            "writing style"
+          ],
+          "iri": "Entity-on-line_handwriting-Mention-1"
+        }
+      ],
+      "relevance": 0.70849609375
+    },
+    "Entity-the_amplitude_and_phase_lag_of_the_two_oscillator": {
+      "node_id": "the_amplitude_and_phase_lag_of_the_two_oscillator",
+      "disambiguation_index": 0,
+      "label": "the amplitudes and phase lags of the two oscillators",
+      "aliases": [
+        "the amplitudes and phase lags of the two oscillators"
+      ],
+      "types": [
+        "oscillator",
+        "amplitude",
+        "phase lag"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The amplitudes and phase lags of the two oscillators refer to the adjustable parameters that modulate the behavior of two coupled oscillatory systems, which are used to represent and encode the trajectory of a pen during on-line cursive handwriting.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the amplitudes and phase lags of the two oscillators",
+          "local_types": [
+            "oscillator",
+            "amplitude",
+            "phase lag"
+          ],
+          "iri": "Entity-the_amplitude_and_phase_lag_of_the_two_oscillator-Mention-1"
+        }
+      ],
+      "relevance": 0.703125
+    },
+    "Entity-successful_word_spotting": {
+      "node_id": "successful_word_spotting",
+      "disambiguation_index": 0,
+      "label": "successful word spotting",
+      "aliases": [
+        "successful word spotting"
+      ],
+      "types": [
+        "process",
+        "word spotting"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Successful word spotting refers to the effective identification and matching of words in cursive handwriting through a model-based approach that utilizes a discrete motor control representation of pen motion.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "successful word spotting",
+          "local_types": [
+            "process",
+            "word spotting"
+          ],
+          "iri": "Entity-successful_word_spotting-Mention-1"
+        }
+      ],
+      "relevance": 0.69970703125
+    },
+    "Entity-matching_of_cursive_script": {
+      "node_id": "matching_of_cursive_script",
+      "disambiguation_index": 0,
+      "label": "matching of cursive scripts",
+      "aliases": [
+        "matching of cursive scripts"
+      ],
+      "types": [
+        "process",
+        "technique",
+        "cursive scripts"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The matching of cursive scripts refers to a process in handwriting recognition that involves identifying and correlating handwritten cursive text using a model-based approach that analyzes pen motion dynamics.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "matching of cursive scripts",
+          "local_types": [
+            "process",
+            "technique",
+            "cursive scripts"
+          ],
+          "iri": "Entity-matching_of_cursive_script-Mention-1"
+        }
+      ],
+      "relevance": 0.69921875
+    },
+    "Entity-linear_drift": {
+      "node_id": "linear_drift",
+      "disambiguation_index": 0,
+      "label": "linear drift",
+      "aliases": [
+        "linear drift",
+        "constant linear drift",
+        "a constant linear drift"
+      ],
+      "types": [
+        "motion characteristic",
+        "drift"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Linear drift refers to a consistent, unidirectional movement component in the modulation of cycloidal pen motion during on-line handwriting, which influences the trajectory of the writing along the line.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "linear drift",
+          "local_types": [
+            "motion characteristic",
+            "drift"
+          ],
+          "iri": "Entity-linear_drift-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "constant linear drift",
+          "local_types": [
+            "drift"
+          ],
+          "iri": "Entity-linear_drift-Mention-2"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a constant linear drift",
+          "local_types": [
+            "drift"
+          ],
+          "iri": "Entity-linear_drift-Mention-3"
+        }
+      ],
+      "relevance": 0.6953125
+    },
+    "Entity-recognition": {
+      "node_id": "recognition",
+      "disambiguation_index": 0,
+      "label": "recognition",
+      "aliases": [
+        "recognition"
+      ],
+      "types": [
+        "process",
+        "cognitive task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Recognition refers to the process of identifying and interpreting cursive handwriting through a model-based approach that analyzes pen motion dynamics.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "recognition",
+          "local_types": [
+            "process",
+            "cognitive task"
+          ],
+          "iri": "Entity-recognition-Mention-1"
+        }
+      ],
+      "relevance": 0.6875
+    },
+    "Entity-complete_cursive_handwriting_recognition": {
+      "node_id": "complete_cursive_handwriting_recognition",
+      "disambiguation_index": 0,
+      "label": "complete cursive handwriting recognition",
+      "aliases": [
+        "complete cursive handwriting recognition"
+      ],
+      "types": [
+        "task",
+        "handwriting recognition"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Complete cursive handwriting recognition refers to the process of accurately identifying and interpreting handwritten cursive text using a model-based approach that analyzes the dynamic motion of pen strokes, enabling effective word spotting and matching.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "complete cursive handwriting recognition",
+          "local_types": [
+            "task",
+            "handwriting recognition"
+          ],
+          "iri": "Entity-complete_cursive_handwriting_recognition-Mention-1"
+        }
+      ],
+      "relevance": 0.68603515625
+    },
+    "Entity-our_experiment": {
+      "node_id": "our_experiment",
+      "disambiguation_index": 0,
+      "label": "Our experiments",
+      "aliases": [
+        "Our experiments"
+      ],
+      "types": [
+        "experiment"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our experiments refer to the evaluations conducted to assess the effectiveness of a model-based approach for on-line cursive handwriting analysis and recognition, demonstrating the potential of a dynamic representation for complete handwriting recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "Our experiments",
+          "local_types": [
+            "experiment"
+          ],
+          "iri": "Entity-our_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.681640625
+    },
+    "Entity-estimation": {
+      "node_id": "estimation",
+      "disambiguation_index": 0,
+      "label": "estimation",
+      "aliases": [
+        "estimation"
+      ],
+      "types": [
+        "statistical analysis",
+        "mathematical technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'estimation' refers to the process of determining and quantifying the parameters of cycloidal motion in handwriting analysis, which is essential for creating a discrete representation of pen movements for effective handwriting recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "estimation",
+          "local_types": [
+            "statistical analysis",
+            "mathematical technique"
+          ],
+          "iri": "Entity-estimation-Mention-1"
+        }
+      ],
+      "relevance": 0.68017578125
+    },
+    "Entity-successful_word_spotting_and_matching_of_cursive_script": {
+      "node_id": "successful_word_spotting_and_matching_of_cursive_script",
+      "disambiguation_index": 0,
+      "label": "successful word spotting and matching of cursive scripts",
+      "aliases": [
+        "successful word spotting and matching of cursive scripts"
+      ],
+      "types": [
+        "matching",
+        "word spotting"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The phrase 'successful word spotting and matching of cursive scripts' refers to the effective identification and alignment of words in cursive handwriting using a model-based approach that analyzes pen motion dynamics.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "successful word spotting and matching of cursive scripts",
+          "local_types": [
+            "matching",
+            "word spotting"
+          ],
+          "iri": "Entity-successful_word_spotting_and_matching_of_cursive_script-Mention-1"
+        }
+      ],
+      "relevance": 0.6787109375
+    },
+    "Entity-line_of_the_writing": {
+      "node_id": "line_of_the_writing",
+      "disambiguation_index": 0,
+      "label": "line of the writing",
+      "aliases": [
+        "line of the writing",
+        "the line of the writing"
+      ],
+      "types": [
+        "writing",
+        "line",
+        "writing process",
+        "trajectory"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'line of the writing' refers to the continuous path traced by a pen during the act of writing, which is modeled in the paper as a modulation of cycloidal motion with a constant linear drift.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "line of the writing",
+          "local_types": [
+            "writing process",
+            "trajectory"
+          ],
+          "iri": "Entity-line_of_the_writing-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the line of the writing",
+          "local_types": [
+            "line",
+            "writing"
+          ],
+          "iri": "Entity-line_of_the_writing-Mention-2"
+        }
+      ],
+      "relevance": 0.666015625
+    },
+    "Entity-value": {
+      "node_id": "value",
+      "disambiguation_index": 0,
+      "label": "values",
+      "aliases": [
+        "values"
+      ],
+      "types": [
+        "quantized data",
+        "numerical representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'values' refers to the quantized levels of model parameters that represent the modulation of pen motion in the context of cursive handwriting analysis and recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "values",
+          "local_types": [
+            "quantized data",
+            "numerical representation"
+          ],
+          "iri": "Entity-value-Mention-1"
+        }
+      ],
+      "relevance": 0.666015625
+    },
+    "Entity-procedure": {
+      "node_id": "procedure",
+      "disambiguation_index": 0,
+      "label": "procedure",
+      "aliases": [
+        "A general procedure",
+        "procedure"
+      ],
+      "types": [
+        "process",
+        "procedure",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The procedure refers to a systematic method for estimating and quantizing cycloidal motion parameters in arbitrary handwriting to facilitate handwriting analysis and recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "procedure",
+          "local_types": [
+            "method",
+            "process"
+          ],
+          "iri": "Entity-procedure-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "A general procedure",
+          "local_types": [
+            "procedure"
+          ],
+          "iri": "Entity-procedure-Mention-2"
+        }
+      ],
+      "relevance": 0.66455078125
+    },
+    "Entity-cursive_handwriting": {
+      "node_id": "cursive_handwriting",
+      "disambiguation_index": 0,
+      "label": "cursive handwriting",
+      "aliases": [
+        "cursive handwriting"
+      ],
+      "types": [
+        "writing style",
+        "text representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Cursive handwriting is a style of writing in which the letters are connected in a flowing manner, often used for faster writing and characterized by its fluid and continuous strokes.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "cursive handwriting",
+          "local_types": [
+            "writing style",
+            "text representation"
+          ],
+          "iri": "Entity-cursive_handwriting-Mention-1"
+        }
+      ],
+      "relevance": 0.66162109375
+    },
+    "Entity-cursive_handwriting_recognition": {
+      "node_id": "cursive_handwriting_recognition",
+      "disambiguation_index": 0,
+      "label": "cursive handwriting recognition",
+      "aliases": [
+        "cursive handwriting recognition"
+      ],
+      "types": [
+        "recognition task",
+        "technology",
+        "application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Cursive handwriting recognition is a technology and recognition task that involves the automated identification and interpretation of handwritten text written in a cursive style.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "cursive handwriting recognition",
+          "local_types": [
+            "recognition task",
+            "technology",
+            "application"
+          ],
+          "iri": "Entity-cursive_handwriting_recognition-Mention-1"
+        }
+      ],
+      "relevance": 0.66162109375
+    },
+    "Entity-cursive_handwriting_analysis": {
+      "node_id": "cursive_handwriting_analysis",
+      "disambiguation_index": 0,
+      "label": "cursive handwriting analysis",
+      "aliases": [
+        "cursive handwriting analysis",
+        "on-line cursive handwriting analysis and recognition"
+      ],
+      "types": [
+        "recognition",
+        "handwriting recognition",
+        "analysis",
+        "recognition task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Cursive handwriting analysis is the study and evaluation of the characteristics and patterns of cursive writing to interpret and recognize the written text.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "cursive handwriting analysis",
+          "local_types": [
+            "handwriting recognition",
+            "analysis",
+            "recognition task"
+          ],
+          "iri": "Entity-cursive_handwriting_analysis-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "on-line cursive handwriting analysis and recognition",
+          "local_types": [
+            "analysis",
+            "recognition"
+          ],
+          "iri": "Entity-cursive_handwriting_analysis-Mention-2"
+        }
+      ],
+      "relevance": 0.642578125
+    },
+    "Entity-pen_trajectory": {
+      "node_id": "pen_trajectory",
+      "disambiguation_index": 0,
+      "label": "pen trajectory",
+      "aliases": [
+        "pen trajectory",
+        "a general pen trajectory",
+        "general pen trajectory"
+      ],
+      "types": [
+        "drawing technique",
+        "path",
+        "trajectory",
+        "motion path",
+        "motion representation",
+        "pen"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Pen trajectory refers to the path or motion traced by a pen during drawing or writing, representing the movement and direction of the pen over a surface.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "pen trajectory",
+          "local_types": [
+            "motion representation",
+            "drawing technique",
+            "motion path",
+            "path"
+          ],
+          "iri": "Entity-pen_trajectory-Mention-1"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "general pen trajectory",
+          "local_types": [
+            "trajectory"
+          ],
+          "iri": "Entity-pen_trajectory-Mention-2"
+        },
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a general pen trajectory",
+          "local_types": [
+            "trajectory",
+            "pen"
+          ],
+          "iri": "Entity-pen_trajectory-Mention-3"
+        }
+      ],
+      "relevance": 0.63671875
+    },
+    "Entity-cursive_script": {
+      "node_id": "cursive_script",
+      "disambiguation_index": 0,
+      "label": "cursive scripts",
+      "aliases": [
+        "cursive scripts"
+      ],
+      "types": [
+        "writing style",
+        "text format",
+        "text type",
+        "text form",
+        "writing system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Cursive scripts are a style of writing characterized by flowing, connected letters that are often used for handwriting and can vary in formality and legibility.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "cursive scripts",
+          "local_types": [
+            "writing style",
+            "text format",
+            "text type",
+            "text form",
+            "writing system"
+          ],
+          "iri": "Entity-cursive_script-Mention-1"
+        }
+      ],
+      "relevance": 0.60546875
+    },
+    "Entity-handwriting_recognition": {
+      "node_id": "handwriting_recognition",
+      "disambiguation_index": 0,
+      "label": "handwriting recognition",
+      "aliases": [
+        "handwriting recognition"
+      ],
+      "types": [
+        "technology",
+        "recognition system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Handwriting recognition is a technology that enables the identification and interpretation of handwritten text by a computer system.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "handwriting recognition",
+          "local_types": [
+            "technology",
+            "recognition system"
+          ],
+          "iri": "Entity-handwriting_recognition-Mention-1"
+        }
+      ],
+      "relevance": 0.599609375
+    },
+    "Entity-writing_intelligibility": {
+      "node_id": "writing_intelligibility",
+      "disambiguation_index": 0,
+      "label": "writing intelligibility",
+      "aliases": [
+        "writing intelligibility"
+      ],
+      "types": [
+        "intelligibility",
+        "text clarity",
+        "communication quality"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Writing intelligibility refers to the clarity and comprehensibility of handwritten text, which is maintained during the quantization of handwriting parameters in a model-based approach to handwriting analysis and recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "writing intelligibility",
+          "local_types": [
+            "intelligibility",
+            "text clarity",
+            "communication quality"
+          ],
+          "iri": "Entity-writing_intelligibility-Mention-1"
+        }
+      ],
+      "relevance": 0.58349609375
+    },
+    "Entity-arbitrary_handwriting": {
+      "node_id": "arbitrary_handwriting",
+      "disambiguation_index": 0,
+      "label": "arbitrary handwriting",
+      "aliases": [
+        "arbitrary handwriting"
+      ],
+      "types": [
+        "handwriting"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Arbitrary handwriting refers to any form of handwriting that does not conform to a specific style or set of rules, allowing for a wide variety of pen trajectories and motions that can be analyzed and recognized through a model-based approach.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "arbitrary handwriting",
+          "local_types": [
+            "handwriting"
+          ],
+          "iri": "Entity-arbitrary_handwriting-Mention-1"
+        }
+      ],
+      "relevance": 0.57568359375
+    },
+    "Entity-word_spotting": {
+      "node_id": "word_spotting",
+      "disambiguation_index": 0,
+      "label": "word spotting",
+      "aliases": [
+        "word spotting"
+      ],
+      "types": [
+        "text recognition",
+        "process",
+        "technique",
+        "pattern recognition",
+        "recognition task",
+        "application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Word spotting is a technique in pattern recognition that involves identifying and locating specific words within a larger body of text or visual input.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "word spotting",
+          "local_types": [
+            "text recognition",
+            "process",
+            "technique",
+            "pattern recognition",
+            "recognition task",
+            "application"
+          ],
+          "iri": "Entity-word_spotting-Mention-1"
+        }
+      ],
+      "relevance": 0.544921875
+    },
+    "Entity-handwriting": {
+      "node_id": "handwriting",
+      "disambiguation_index": 0,
+      "label": "handwriting",
+      "aliases": [
+        "handwriting"
+      ],
+      "types": [
+        "human activity",
+        "writing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Handwriting is the act of writing done by hand, typically characterized by the unique style and form of an individual's written characters.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "handwriting",
+          "local_types": [
+            "human activity",
+            "writing"
+          ],
+          "iri": "Entity-handwriting-Mention-1"
+        }
+      ],
+      "relevance": 0.53369140625
+    },
+    "Entity-quantization": {
+      "node_id": "quantization",
+      "disambiguation_index": 0,
+      "label": "quantization",
+      "aliases": [
+        "quantization"
+      ],
+      "types": [
+        "mathematical process",
+        "data processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Quantization is a mathematical process and data processing technique that involves mapping a continuous range of values into a finite range of discrete values.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "quantization",
+          "local_types": [
+            "mathematical process",
+            "data processing"
+          ],
+          "iri": "Entity-quantization-Mention-1"
+        }
+      ],
+      "relevance": 0.51025390625
+    },
+    "Entity-coupled_oscillation": {
+      "node_id": "coupled_oscillation",
+      "disambiguation_index": 0,
+      "label": "coupled oscillations",
+      "aliases": [
+        "coupled oscillations"
+      ],
+      "types": [
+        "physical phenomenon",
+        "oscillation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Coupled oscillations refer to a physical phenomenon where two or more oscillating systems interact with each other, influencing their motion and behavior through mutual coupling.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "coupled oscillations",
+          "local_types": [
+            "physical phenomenon",
+            "oscillation"
+          ],
+          "iri": "Entity-coupled_oscillation-Mention-1"
+        }
+      ],
+      "relevance": 0.492919921875
+    },
+    "Entity-amplitude_and_phase_lag": {
+      "node_id": "amplitude_and_phase_lag",
+      "disambiguation_index": 0,
+      "label": "amplitudes and phase lags",
+      "aliases": [
+        "amplitudes and phase lags"
+      ],
+      "types": [
+        "parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Amplitudes and phase lags are parameters that describe the magnitude and timing differences of oscillatory signals in various systems.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "amplitudes and phase lags",
+          "local_types": [
+            "parameter"
+          ],
+          "iri": "Entity-amplitude_and_phase_lag-Mention-1"
+        }
+      ],
+      "relevance": 0.48388671875
+    },
+    "Entity-model_parameter": {
+      "node_id": "model_parameter",
+      "disambiguation_index": 0,
+      "label": "model parameters",
+      "aliases": [
+        "model parameters"
+      ],
+      "types": [
+        "parameters",
+        "model specification"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Model parameters refer to the numerical values and configurations that define the behavior and structure of a mathematical model, particularly in the context of machine learning and statistical modeling.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "model parameters",
+          "local_types": [
+            "parameters",
+            "model specification"
+          ],
+          "iri": "Entity-model_parameter-Mention-1"
+        }
+      ],
+      "relevance": 0.4833984375
+    },
+    "Entity-oscillator": {
+      "node_id": "oscillator",
+      "disambiguation_index": 0,
+      "label": "oscillators",
+      "aliases": [
+        "oscillators"
+      ],
+      "types": [
+        "physical system",
+        "mechanical device"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Oscillators are physical systems or mechanical devices that exhibit periodic variations in their state or output, often used to generate oscillating signals or motions.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "oscillators",
+          "local_types": [
+            "physical system",
+            "mechanical device"
+          ],
+          "iri": "Entity-oscillator-Mention-1"
+        }
+      ],
+      "relevance": 0.483154296875
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "experiments",
+      "aliases": [
+        "experiments"
+      ],
+      "types": [
+        "research method",
+        "scientific study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Experiments are systematic investigations conducted to test hypotheses, gather data, and explore the effects of variables in a controlled environment.",
+      "mentions": [
+        {
+          "reference": "Paper-81-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "experiments",
+          "local_types": [
+            "research method",
+            "scientific study"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.437255859375
+    }
+  },
+  "summary": "A model-based approach to on-line cursive handwriting analysis and recognition is presented and evaluated . In this model , on-line handwriting is considered as a modulation of a simple cycloidal pen motion , described by two coupled oscillations with a constant linear drift along the line of the writing . By slow modulations of the amplitudes and phase lags of the two oscillators , a general pen trajectory can be efficiently encoded . These parameters are then quantized into a small number of values without altering the writing intelligibility . A general procedure for the estimation and quantization of these cycloidal motion parameters for arbitrary handwriting is presented . The result is a discrete motor control representation of the continuous pen motion , via the quantized levels of the model parameters . This motor control representation enables successful word spotting and matching of cursive scripts . Our experiments clearly indicate the potential of this dynamic representation for complete cursive handwriting recognition .",
+  "triples": [
+    [
+      "Entity-model-based_approach",
+      "Predicate-is_presented_and_evaluated",
+      "Entity-cursive_handwriting_analysis"
+    ],
+    [
+      "Entity-on-line_handwriting",
+      "Predicate-is_considered_as",
+      "Entity-a_modulation_of_a_simple_cycloidal_pen_motion"
+    ],
+    [
+      "Entity-cycloidal_pen_motion",
+      "Predicate-is_described_by",
+      "Entity-two_coupled_oscillation"
+    ],
+    [
+      "Entity-two_coupled_oscillation",
+      "Predicate-has",
+      "Entity-linear_drift"
+    ],
+    [
+      "Entity-linear_drift",
+      "Predicate-is_along",
+      "Entity-line_of_the_writing"
+    ],
+    [
+      "Entity-oscillator",
+      "Predicate-modulates",
+      "Entity-amplitude_and_phase_lag"
+    ],
+    [
+      "Entity-amplitude_and_phase_lag",
+      "Predicate-encodes",
+      "Entity-pen_trajectory"
+    ],
+    [
+      "Entity-parameter",
+      "Predicate-are_quantized_into",
+      "Entity-a_small_number_of_value"
+    ],
+    [
+      "Entity-parameter",
+      "Predicate-are_quantized_into",
+      "Entity-value"
+    ],
+    [
+      "Entity-procedure",
+      "Predicate-is_presented_for",
+      "Entity-the_estimation_and_quantization_of_these_cycloidal_motion_parameter"
+    ],
+    [
+      "Entity-discrete_motor_control_representation",
+      "Predicate-is_a_representation_of",
+      "Entity-pen_motion"
+    ],
+    [
+      "Entity-quantized_level_of_the_model_parameter",
+      "Predicate-are_of",
+      "Entity-model_parameter"
+    ],
+    [
+      "Entity-motor_control_representation",
+      "Predicate-enables",
+      "Entity-successful_word_spotting_and_matching_of_cursive_script"
+    ],
+    [
+      "Entity-motor_control_representation",
+      "Predicate-enables",
+      "Entity-word_spotting"
+    ],
+    [
+      "Entity-motor_control_representation",
+      "Predicate-enables",
+      "Entity-matching_of_cursive_script"
+    ],
+    [
+      "Entity-our_experiment",
+      "Predicate-indicate_the_potential_of",
+      "Entity-dynamic_representation"
+    ],
+    [
+      "Entity-dynamic_representation",
+      "Predicate-is_for",
+      "Entity-complete_cursive_handwriting_recognition"
+    ],
+    [
+      "Entity-two_coupled_oscillation",
+      "Predicate-modulates",
+      "Entity-pen_trajectory"
+    ],
+    [
+      "Entity-model-based_approach",
+      "Predicate-is_modeled_as",
+      "Entity-a_modulation_of_a_simple_cycloidal_pen_motion"
+    ],
+    [
+      "Entity-a_modulation_of_a_simple_cycloidal_pen_motion",
+      "Predicate-is_conceptualized_as",
+      "Entity-model"
+    ],
+    [
+      "Entity-a_modulation_of_a_simple_cycloidal_pen_motion",
+      "Predicate-is_a_modulation_of",
+      "Entity-cycloidal_pen_motion"
+    ],
+    [
+      "Entity-model-based_approach",
+      "Predicate-is_utilized_in",
+      "Entity-model"
+    ],
+    [
+      "Entity-model-based_approach",
+      "Predicate-is_modeled_as",
+      "Entity-cycloidal_pen_motion"
+    ],
+    [
+      "Entity-cycloidal_pen_motion",
+      "Predicate-is_conceptualized_as",
+      "Entity-model"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_amplitude_and_phase_lag_of_the_two_oscillator",
+      "skos:broader",
+      "Entity-oscillator"
+    ],
+    [
+      "Entity-on-line_handwriting",
+      "skos:broader",
+      "Entity-handwriting"
+    ],
+    [
+      "Entity-cycloidal_pen_motion",
+      "skos:broader",
+      "Entity-pen_trajectory"
+    ],
+    [
+      "Entity-a_modulation_of_a_simple_cycloidal_pen_motion",
+      "skos:broader",
+      "Entity-pen_trajectory"
+    ],
+    [
+      "Entity-cycloidal_pen_motion",
+      "skos:broader",
+      "Entity-pen_motion"
+    ],
+    [
+      "Entity-complete_cursive_handwriting_recognition",
+      "skos:broader",
+      "Entity-cursive_handwriting_recognition"
+    ],
+    [
+      "Entity-a_modulation_of_a_simple_cycloidal_pen_motion",
+      "skos:broader",
+      "Entity-pen_motion"
+    ],
+    [
+      "Entity-quantized_level_of_the_model_parameter",
+      "skos:broader",
+      "Entity-model_parameter"
+    ],
+    [
+      "Entity-amplitude_and_phase_lag",
+      "skos:broader",
+      "Entity-parameter"
+    ],
+    [
+      "Entity-successful_word_spotting_and_matching_of_cursive_script",
+      "skos:broader",
+      "Entity-successful_word_spotting"
+    ],
+    [
+      "Entity-the_estimation_and_quantization_of_these_cycloidal_motion_parameter",
+      "skos:broader",
+      "Entity-estimation"
+    ],
+    [
+      "Entity-successful_word_spotting_and_matching_of_cursive_script",
+      "skos:broader",
+      "Entity-word_spotting"
+    ],
+    [
+      "Entity-our_experiment",
+      "skos:broader",
+      "Entity-experiment"
+    ],
+    [
+      "Entity-cursive_handwriting_analysis",
+      "skos:broader",
+      "Entity-cursive_handwriting_recognition"
+    ],
+    [
+      "Entity-complete_cursive_handwriting_recognition",
+      "skos:broader",
+      "Entity-handwriting_recognition"
+    ],
+    [
+      "Entity-two_coupled_oscillation",
+      "skos:broader",
+      "Entity-oscillation"
+    ],
+    [
+      "Entity-model_parameter",
+      "skos:broader",
+      "Entity-parameter"
+    ],
+    [
+      "Entity-the_estimation_and_quantization_of_these_cycloidal_motion_parameter",
+      "skos:broader",
+      "Entity-parameter"
+    ],
+    [
+      "Entity-the_estimation_and_quantization_of_these_cycloidal_motion_parameter",
+      "skos:broader",
+      "Entity-quantization"
+    ],
+    [
+      "Entity-quantized_level_of_the_model_parameter",
+      "skos:broader",
+      "Entity-parameter"
+    ],
+    [
+      "Entity-coupled_oscillation",
+      "skos:broader",
+      "Entity-oscillation"
+    ],
+    [
+      "Entity-successful_word_spotting",
+      "skos:broader",
+      "Entity-word_spotting"
+    ],
+    [
+      "Entity-cursive_handwriting_analysis",
+      "skos:broader",
+      "Entity-handwriting_recognition"
+    ],
+    [
+      "Entity-a_small_number_of_value",
+      "skos:broader",
+      "Entity-value"
+    ],
+    [
+      "Entity-cursive_handwriting_analysis",
+      "skos:broader",
+      "Entity-recognition"
+    ],
+    [
+      "Entity-matching_of_cursive_script",
+      "skos:broader",
+      "Entity-cursive_script"
+    ],
+    [
+      "Entity-dynamic_representation",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-arbitrary_handwriting",
+      "skos:broader",
+      "Entity-handwriting"
+    ],
+    [
+      "Entity-dynamic_representation_for_complete_cursive_handwriting_recognition",
+      "skos:broader",
+      "Entity-recognition"
+    ],
+    [
+      "Entity-matching_of_cursive_script",
+      "skos:broader",
+      "Entity-cursive_handwriting"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_presented_and_evaluated": {
+      "label": "is presented and evaluated",
+      "description": "The predicate 'is presented and evaluated' indicates a process in which the subject is introduced or demonstrated, followed by an assessment or analysis of its effectiveness, relevance, or quality in relation to the object. This implies a dual action where the subject is not only showcased but also critically examined in the context of the object, allowing for a comprehensive understanding of its implications or contributions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_considered_as": {
+      "label": "is considered as",
+      "description": "The predicate 'is considered as' establishes a relationship where the subject is evaluated or interpreted in relation to the object, suggesting that the subject embodies, represents, or functions similarly to the object in some context. This implies a perspective or viewpoint that categorizes the subject under the characteristics or qualities associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_described_by": {
+      "label": "is described by",
+      "description": "The predicate 'is described by' establishes a relationship where the subject is characterized or explained through the lens of the object. It indicates that the object provides a conceptual framework, model, or set of attributes that elucidate the nature, behavior, or properties of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' indicates a possessive relationship between the subject and the object, signifying that the subject contains, possesses, or is characterized by the object. It establishes a connection where the subject is understood to include or exhibit the qualities or attributes represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_along": {
+      "label": "is along",
+      "description": "The predicate 'is along' indicates a spatial or conceptual relationship where the subject is positioned in a manner that follows or corresponds to the direction or path defined by the object. It suggests that the subject exists in proximity to, or is aligned with, the object, often implying a continuous or linear association.",
+      "disambiguation_index": 0
+    },
+    "Predicate-modulates": {
+      "label": "modulates",
+      "description": "The predicate 'modulates' indicates a relationship where the subject exerts influence or control over the object, resulting in a variation or adjustment of its characteristics. This often involves altering parameters such as intensity, frequency, or timing, thereby affecting the behavior or state of the object in a dynamic manner.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encodes": {
+      "label": "encodes",
+      "description": "The predicate 'encodes' signifies a relationship where the subject contains or represents information that is systematically transformed or expressed in the form of the object. It implies that the subject serves as a medium or mechanism through which the characteristics, features, or data of the object are conveyed or manifested.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_quantized_into": {
+      "label": "are quantized into",
+      "description": "The predicate 'are quantized into' indicates a transformation or process whereby the subject is converted or categorized into a limited or discrete set of values or states, represented by the object. This implies a reduction from a potentially continuous or infinite range to a finite collection, often for the purpose of simplification, analysis, or representation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_presented_for": {
+      "label": "is presented for",
+      "description": "The predicate 'is presented for' indicates that the subject is being introduced or made available in relation to the object, which typically represents a purpose, function, or application. This connection suggests that the subject serves a specific role or is intended to facilitate the understanding, execution, or analysis of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_representation_of": {
+      "label": "is a representation of",
+      "description": "The predicate 'is a representation of' establishes a relationship where the subject serves as a symbolic or conceptual depiction of the object. It indicates that the subject encapsulates, illustrates, or models the characteristics, behaviors, or properties of the object, allowing for an understanding or interpretation of the object through the lens of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_of": {
+      "label": "are of",
+      "description": "The predicate 'are of' indicates a relationship of belonging or association between the subject and the object, where the subject represents a specific subset, characteristic, or derived aspect of the broader category or entity denoted by the object. It implies that the subject is a component, feature, or manifestation that is inherently linked to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enables": {
+      "label": "enables",
+      "description": "The predicate 'enables' indicates a facilitative relationship where the subject provides the necessary conditions, capabilities, or support for the object to occur or be achieved. It suggests that the subject plays a crucial role in making the action or state represented by the object possible.",
+      "disambiguation_index": 0
+    },
+    "Predicate-indicate_the_potential_of": {
+      "label": "indicate the potential of",
+      "description": "The predicate 'indicate the potential of' serves to express a relationship where the subject presents evidence, findings, or insights that suggest or reveal the capabilities, effectiveness, or future possibilities of the object. It implies that the subject has conducted an analysis or observation that leads to a conclusion about the object\u2019s inherent strengths or opportunities for development.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_for": {
+      "label": "is for",
+      "description": "The predicate 'is for' establishes a relationship of purpose or intended use between the subject and the object. It indicates that the subject serves a specific function or is designed to achieve the goal represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_modeled_as": {
+      "label": "is modeled as",
+      "description": "The predicate 'is modeled as' establishes a relationship where the subject is represented or conceptualized in terms of the object. It indicates that the subject can be understood, analyzed, or interpreted through the framework or characteristics of the object, suggesting a form of abstraction or simplification that aids in comprehension or application.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_conceptualized_as": {
+      "label": "is conceptualized as",
+      "description": "The predicate 'is conceptualized as' establishes a relationship where the subject is interpreted, understood, or represented in a particular way through the lens of the object. It indicates that the subject is being framed or categorized within the context of the object, suggesting a conceptual or theoretical alignment between the two. This predicate often implies that the object serves as a model, framework, or reference point for understanding the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_modulation_of": {
+      "label": "is a modulation of",
+      "description": "The predicate 'is a modulation of' indicates a relationship where the subject represents a variation or alteration of the object. It suggests that the subject modifies or adapts the characteristics, behavior, or properties of the object, resulting in a new form or expression that retains some foundational elements of the original object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_utilized_in": {
+      "label": "is utilized in",
+      "description": "The predicate 'is utilized in' indicates that the subject serves a functional role or purpose within the context of the object. It implies that the subject is applied, employed, or used in a manner that contributes to the effectiveness or operation of the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates a hierarchical relationship where the subject represents a specific instance or subset of a category, while the object denotes a more general category or class that encompasses the subject. This relationship implies that the subject is a specific example or component within the broader context defined by the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

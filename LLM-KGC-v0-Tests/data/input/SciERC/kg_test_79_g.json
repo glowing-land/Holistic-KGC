@@ -1,0 +1,785 @@
+{
+  "iri": "Paper-79",
+  "title": "P83-1004",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-79-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-79-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+              "text": "Metagrammatical formalisms that combine context-free phrase structure rules and metarules -LRB- MPS grammars -RRB- allow concise statement of generalizations about the syntax of natural languages ."
+            },
+            {
+              "iri": "Paper-79-Section-1-Paragraph-1-Sentence-2",
+              "text": "Unconstrained MPS grammars , unfortunately , are not computationally safe ."
+            },
+            {
+              "iri": "Paper-79-Section-1-Paragraph-1-Sentence-3",
+              "text": "We evaluate several proposals for constraining them , basing our assessment on computational tractability and explanatory adequacy ."
+            },
+            {
+              "iri": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+              "text": "We show that none of them satisfies both criteria , and suggest new directions for research on alternative metagrammatical formalisms ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0015752315521240234,
+    4.352717161178589,
+    16.44002938270569,
+    13.478454113006592,
+    0.023433923721313477,
+    0.0001232624053955078,
+    0.00016307830810546875,
+    18.45122218132019,
+    22.080469131469727,
+    2.4689109325408936,
+    5.203854084014893,
+    0.007612943649291992,
+    0.00017023086547851562,
+    14.260396003723145,
+    0.001439809799194336,
+    0.0281369686126709,
+    0.0011987686157226562,
+    4.128542900085449,
+    0.0016360282897949219,
+    0.00035572052001953125,
+    37.388866901397705,
+    5.266709089279175,
+    25.13784909248352,
+    2.293560028076172,
+    0.0010199546813964844,
+    0.023166179656982422
+  ],
+  "nodes": {
+    "Entity-unconstrained_mp_grammar": {
+      "node_id": "unconstrained_mp_grammar",
+      "disambiguation_index": 0,
+      "label": "Unconstrained MPS grammars",
+      "aliases": [
+        "Unconstrained MPS grammars"
+      ],
+      "types": [
+        "grammar",
+        "formal language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Unconstrained MPS grammars are a type of metagrammatical formalism that combines context-free phrase structure rules and metarules, but they lack computational safety.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Unconstrained MPS grammars",
+          "local_types": [
+            "grammar",
+            "formal language"
+          ],
+          "iri": "Entity-unconstrained_mp_grammar-Mention-1"
+        }
+      ],
+      "relevance": 0.83154296875
+    },
+    "Entity-mp_grammar": {
+      "node_id": "mp_grammar",
+      "disambiguation_index": 0,
+      "label": "MPS grammars",
+      "aliases": [
+        "MPS grammars"
+      ],
+      "types": [
+        "grammar type",
+        "grammar",
+        "linguistic model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "MPS grammars are a type of metagrammatical formalism that integrates context-free phrase structure rules with metarules to express generalizations about the syntax of natural languages.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "MPS grammars",
+          "local_types": [
+            "grammar type",
+            "grammar",
+            "linguistic model"
+          ],
+          "iri": "Entity-mp_grammar-Mention-1"
+        }
+      ],
+      "relevance": 0.791015625
+    },
+    "Entity-metarule": {
+      "node_id": "metarule",
+      "disambiguation_index": 0,
+      "label": "metarules",
+      "aliases": [
+        "metarules"
+      ],
+      "types": [
+        "linguistic rule",
+        "grammar rule",
+        "rule"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Metarules are linguistic rules that facilitate the formulation of generalizations about the syntax of natural languages within metagrammatical formalisms, specifically in the context of MPS grammars that integrate context-free phrase structure rules.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "metarules",
+          "local_types": [
+            "linguistic rule",
+            "grammar rule",
+            "rule"
+          ],
+          "iri": "Entity-metarule-Mention-1"
+        }
+      ],
+      "relevance": 0.7685546875
+    },
+    "Entity-metagrammatical_formalism": {
+      "node_id": "metagrammatical_formalism",
+      "disambiguation_index": 0,
+      "label": "Metagrammatical formalisms",
+      "aliases": [
+        "Metagrammatical formalisms",
+        "metagrammatical formalisms"
+      ],
+      "types": [
+        "theoretical framework",
+        "formalism",
+        "linguistic theory",
+        "linguistic model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Metagrammatical formalisms are theoretical frameworks that integrate context-free phrase structure rules with metarules, enabling concise generalizations about the syntax of natural languages.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Metagrammatical formalisms",
+          "local_types": [
+            "theoretical framework",
+            "formalism",
+            "linguistic model"
+          ],
+          "iri": "Entity-metagrammatical_formalism-Mention-1"
+        },
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "metagrammatical formalisms",
+          "local_types": [
+            "formalism",
+            "linguistic theory"
+          ],
+          "iri": "Entity-metagrammatical_formalism-Mention-2"
+        }
+      ],
+      "relevance": 0.75439453125
+    },
+    "Entity-computationally_safe": {
+      "node_id": "computationally_safe",
+      "disambiguation_index": 0,
+      "label": "computationally safe",
+      "aliases": [
+        "computationally safe"
+      ],
+      "types": [
+        "safety",
+        "computational property"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'computationally safe' refers to a property of metagrammatical formalisms, specifically indicating that certain grammars, such as unconstrained MPS grammars, do not meet the necessary criteria for computational tractability and explanatory adequacy.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "computationally safe",
+          "local_types": [
+            "safety",
+            "computational property"
+          ],
+          "iri": "Entity-computationally_safe-Mention-1"
+        }
+      ],
+      "relevance": 0.7314453125
+    },
+    "Entity-alternative_metagrammatical_formalism": {
+      "node_id": "alternative_metagrammatical_formalism",
+      "disambiguation_index": 0,
+      "label": "alternative metagrammatical formalisms",
+      "aliases": [
+        "alternative metagrammatical formalisms"
+      ],
+      "types": [
+        "theoretical framework",
+        "formalism",
+        "linguistic model",
+        "metagrammatical formalism"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Alternative metagrammatical formalisms refer to new theoretical frameworks and linguistic models that aim to provide safer and more computationally tractable alternatives to unconstrained metagrammatical formalisms, particularly those that combine context-free phrase structure rules and metarules.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "alternative metagrammatical formalisms",
+          "local_types": [
+            "theoretical framework",
+            "formalism",
+            "linguistic model",
+            "metagrammatical formalism"
+          ],
+          "iri": "Entity-alternative_metagrammatical_formalism-Mention-1"
+        }
+      ],
+      "relevance": 0.7255859375
+    },
+    "Entity-generalization_about_the_syntax_of_natural_language": {
+      "node_id": "generalization_about_the_syntax_of_natural_language",
+      "disambiguation_index": 0,
+      "label": "generalizations about the syntax of natural languages",
+      "aliases": [
+        "generalizations about the syntax of natural languages"
+      ],
+      "types": [
+        "generalization",
+        "syntax",
+        "natural language"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Generalizations about the syntax of natural languages refer to the concise statements and rules that describe the structural patterns and principles governing the formation of sentences in various natural languages, as facilitated by metagrammatical formalisms like MPS grammars.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "generalizations about the syntax of natural languages",
+          "local_types": [
+            "generalization",
+            "syntax",
+            "natural language"
+          ],
+          "iri": "Entity-generalization_about_the_syntax_of_natural_language-Mention-1"
+        }
+      ],
+      "relevance": 0.6826171875
+    },
+    "Entity-proposal": {
+      "node_id": "proposal",
+      "disambiguation_index": 0,
+      "label": "proposals",
+      "aliases": [
+        "several proposals",
+        "proposals"
+      ],
+      "types": [
+        "suggestion",
+        "research proposal",
+        "proposal"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'proposals' refers to various suggested methods or strategies aimed at constraining unconstrained metagrammatical formalisms, specifically MPS grammars, in order to enhance their computational tractability and explanatory adequacy.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "proposals",
+          "local_types": [
+            "research proposal",
+            "suggestion"
+          ],
+          "iri": "Entity-proposal-Mention-1"
+        },
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "several proposals",
+          "local_types": [
+            "proposal"
+          ],
+          "iri": "Entity-proposal-Mention-2"
+        }
+      ],
+      "relevance": 0.66943359375
+    },
+    "Entity-context-free_phrase_structure_rule": {
+      "node_id": "context-free_phrase_structure_rule",
+      "disambiguation_index": 0,
+      "label": "context-free phrase structure rules",
+      "aliases": [
+        "context-free phrase structure rules"
+      ],
+      "types": [
+        "linguistic rule",
+        "grammar rule",
+        "rule"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Context-free phrase structure rules are formal grammatical rules used in linguistics to define the syntactic structure of sentences by specifying how phrases can be generated from smaller constituents without considering the context of the phrases.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "context-free phrase structure rules",
+          "local_types": [
+            "linguistic rule",
+            "grammar rule",
+            "rule"
+          ],
+          "iri": "Entity-context-free_phrase_structure_rule-Mention-1"
+        }
+      ],
+      "relevance": 0.64794921875
+    },
+    "Entity-both_criterion": {
+      "node_id": "both_criterion",
+      "disambiguation_index": 0,
+      "label": "both criteria",
+      "aliases": [
+        "both criteria"
+      ],
+      "types": [
+        "criteria"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'both criteria' refers to the dual requirements of computational tractability and explanatory adequacy that are used to evaluate proposals for constraining metagrammatical formalisms in the context of MPS grammars.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "both criteria",
+          "local_types": [
+            "criteria"
+          ],
+          "iri": "Entity-both_criterion-Mention-1"
+        }
+      ],
+      "relevance": 0.6376953125
+    },
+    "Entity-new_direction_for_research": {
+      "node_id": "new_direction_for_research",
+      "disambiguation_index": 0,
+      "label": "new directions for research",
+      "aliases": [
+        "new directions for research"
+      ],
+      "types": [
+        "research",
+        "direction"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "New directions for research refers to proposed avenues of investigation aimed at exploring alternative metagrammatical formalisms that address the limitations of unconstrained MPS grammars in terms of computational safety and explanatory adequacy.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "new directions for research",
+          "local_types": [
+            "research",
+            "direction"
+          ],
+          "iri": "Entity-new_direction_for_research-Mention-1"
+        }
+      ],
+      "relevance": 0.6123046875
+    },
+    "Entity-none_of_them": {
+      "node_id": "none_of_them",
+      "disambiguation_index": 0,
+      "label": "none of them",
+      "aliases": [
+        "none of them"
+      ],
+      "types": [
+        "subject"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'none of them' refers to the evaluated proposals for constraining unconstrained MPS grammars, indicating that none of these proposals meet the criteria of computational tractability and explanatory adequacy.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "none of them",
+          "local_types": [
+            "subject"
+          ],
+          "iri": "Entity-none_of_them-Mention-1"
+        }
+      ],
+      "relevance": 0.57958984375
+    },
+    "Entity-direction": {
+      "node_id": "direction",
+      "disambiguation_index": 0,
+      "label": "directions",
+      "aliases": [
+        "directions"
+      ],
+      "types": [
+        "guidelines",
+        "pathways"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'directions' refers to suggested new pathways for research in the field of metagrammatical formalisms, particularly focusing on alternative approaches to MPS grammars.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "directions",
+          "local_types": [
+            "guidelines",
+            "pathways"
+          ],
+          "iri": "Entity-direction-Mention-1"
+        }
+      ],
+      "relevance": 0.57763671875
+    },
+    "Entity-natural_language": {
+      "node_id": "natural_language",
+      "disambiguation_index": 0,
+      "label": "natural languages",
+      "aliases": [
+        "natural languages"
+      ],
+      "types": [
+        "language",
+        "communication system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Natural languages are complex systems of communication that consist of spoken, written, or signed forms used by humans to convey meaning and express thoughts.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "natural languages",
+          "local_types": [
+            "language",
+            "communication system"
+          ],
+          "iri": "Entity-natural_language-Mention-1"
+        }
+      ],
+      "relevance": 0.5166015625
+    },
+    "Entity-syntax": {
+      "node_id": "syntax",
+      "disambiguation_index": 0,
+      "label": "syntax",
+      "aliases": [
+        "syntax",
+        "syntax of natural languages"
+      ],
+      "types": [
+        "natural language",
+        "linguistic concept",
+        "language structure",
+        "syntax"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Syntax is the set of rules, principles, and processes that govern the structure of sentences in a given language, determining how words and phrases are arranged to convey meaning.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "syntax",
+          "local_types": [
+            "linguistic concept",
+            "language structure"
+          ],
+          "iri": "Entity-syntax-Mention-1"
+        },
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "syntax of natural languages",
+          "local_types": [
+            "natural language",
+            "syntax"
+          ],
+          "iri": "Entity-syntax-Mention-2"
+        }
+      ],
+      "relevance": 0.51220703125
+    },
+    "Entity-computational_tractability": {
+      "node_id": "computational_tractability",
+      "disambiguation_index": 0,
+      "label": "computational tractability",
+      "aliases": [
+        "computational tractability"
+      ],
+      "types": [
+        "tractability",
+        "concept",
+        "computational property",
+        "criteria",
+        "evaluation criterion"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Computational tractability refers to the feasibility of solving a computational problem within a reasonable amount of time and resources, often assessed in terms of algorithmic efficiency and complexity.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "computational tractability",
+          "local_types": [
+            "tractability",
+            "concept",
+            "computational property",
+            "criteria",
+            "evaluation criterion"
+          ],
+          "iri": "Entity-computational_tractability-Mention-1"
+        }
+      ],
+      "relevance": 0.5048828125
+    },
+    "Entity-explanatory_adequacy": {
+      "node_id": "explanatory_adequacy",
+      "disambiguation_index": 0,
+      "label": "explanatory adequacy",
+      "aliases": [
+        "explanatory adequacy"
+      ],
+      "types": [
+        "concept",
+        "criteria",
+        "evaluation criterion",
+        "linguistic property",
+        "adequacy"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Explanatory adequacy refers to the quality of a theoretical framework or model in providing sufficient explanations for the phenomena it aims to describe, ensuring that the explanations are coherent, comprehensive, and aligned with empirical observations.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "explanatory adequacy",
+          "local_types": [
+            "concept",
+            "criteria",
+            "evaluation criterion",
+            "linguistic property",
+            "adequacy"
+          ],
+          "iri": "Entity-explanatory_adequacy-Mention-1"
+        }
+      ],
+      "relevance": 0.4853515625
+    },
+    "Entity-criterion": {
+      "node_id": "criterion",
+      "disambiguation_index": 0,
+      "label": "criteria",
+      "aliases": [
+        "criteria"
+      ],
+      "types": [
+        "evaluation standard",
+        "measurement"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Criteria are standards or principles used to evaluate or measure the quality, performance, or suitability of something.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "criteria",
+          "local_types": [
+            "evaluation standard",
+            "measurement"
+          ],
+          "iri": "Entity-criterion-Mention-1"
+        }
+      ],
+      "relevance": 0.438720703125
+    },
+    "Entity-research": {
+      "node_id": "research",
+      "disambiguation_index": 0,
+      "label": "research",
+      "aliases": [
+        "research"
+      ],
+      "types": [
+        "academic activity",
+        "investigation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Research is a systematic investigation or academic activity aimed at discovering, interpreting, or revising facts, theories, or applications in various fields of study.",
+      "mentions": [
+        {
+          "reference": "Paper-79-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "research",
+          "local_types": [
+            "academic activity",
+            "investigation"
+          ],
+          "iri": "Entity-research-Mention-1"
+        }
+      ],
+      "relevance": 0.400390625
+    }
+  },
+  "summary": "Metagrammatical formalisms that combine context-free phrase structure rules and metarules -LRB- MPS grammars -RRB- allow concise statement of generalizations about the syntax of natural languages . Unconstrained MPS grammars , unfortunately , are not computationally safe . We evaluate several proposals for constraining them , basing our assessment on computational tractability and explanatory adequacy . We show that none of them satisfies both criteria , and suggest new directions for research on alternative metagrammatical formalisms .",
+  "triples": [
+    [
+      "Entity-metagrammatical_formalism",
+      "Predicate-combine",
+      "Entity-context-free_phrase_structure_rule"
+    ],
+    [
+      "Entity-metagrammatical_formalism",
+      "Predicate-combine",
+      "Entity-metarule"
+    ],
+    [
+      "Entity-mp_grammar",
+      "Predicate-allow",
+      "Entity-generalization_about_the_syntax_of_natural_language"
+    ],
+    [
+      "Entity-unconstrained_mp_grammar",
+      "Predicate-are_not",
+      "Entity-computationally_safe"
+    ],
+    [
+      "Entity-proposal",
+      "Predicate-evaluate",
+      "Entity-proposal"
+    ],
+    [
+      "Entity-none_of_them",
+      "Predicate-satisfies",
+      "Entity-both_criterion"
+    ],
+    [
+      "Entity-research",
+      "Predicate-on",
+      "Entity-alternative_metagrammatical_formalism"
+    ],
+    [
+      "Entity-new_direction_for_research",
+      "Predicate-suggests",
+      "Entity-alternative_metagrammatical_formalism"
+    ],
+    [
+      "Entity-new_direction_for_research",
+      "Predicate-are_about",
+      "Entity-alternative_metagrammatical_formalism"
+    ],
+    [
+      "Entity-new_direction_for_research",
+      "Predicate-are_on",
+      "Entity-alternative_metagrammatical_formalism"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-generalization_about_the_syntax_of_natural_language",
+      "skos:broader",
+      "Entity-syntax"
+    ],
+    [
+      "Entity-computational_tractability",
+      "skos:broader",
+      "Entity-criterion"
+    ],
+    [
+      "Entity-syntax",
+      "skos:broader",
+      "Entity-natural_language"
+    ],
+    [
+      "Entity-both_criterion",
+      "skos:broader",
+      "Entity-criterion"
+    ],
+    [
+      "Entity-new_direction_for_research",
+      "skos:broader",
+      "Entity-direction"
+    ],
+    [
+      "Entity-new_direction_for_research",
+      "skos:broader",
+      "Entity-research"
+    ],
+    [
+      "Entity-explanatory_adequacy",
+      "skos:broader",
+      "Entity-criterion"
+    ],
+    [
+      "Entity-alternative_metagrammatical_formalism",
+      "skos:broader",
+      "Entity-metagrammatical_formalism"
+    ],
+    [
+      "Entity-generalization_about_the_syntax_of_natural_language",
+      "skos:broader",
+      "Entity-natural_language"
+    ]
+  ],
+  "predicates": {
+    "Predicate-combine": {
+      "label": "combine",
+      "description": "The predicate 'combine' indicates a process in which two or more entities, represented by the subject and object, are brought together to form a unified whole. This action suggests an integration or synthesis of the characteristics, functions, or elements of the involved entities, resulting in a new or enhanced entity that possesses properties derived from each of the original components.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allow": {
+      "label": "allow",
+      "description": "The predicate 'allow' indicates that the subject provides the necessary conditions or framework for the object to be possible, feasible, or accepted. It signifies a permissive relationship where the subject enables or facilitates the existence, occurrence, or consideration of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_not": {
+      "label": "are not",
+      "description": "The predicate 'are not' serves to establish a negation or denial relationship between the subject and the object. It indicates that the subject does not possess the qualities, characteristics, or attributes described by the object. In this context, it implies that the subject is distinctly different from or lacks the properties associated with the object, thereby clarifying the nature of the subject in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluate": {
+      "label": "evaluate",
+      "description": "The predicate 'evaluate' signifies the action of assessing or appraising the subject in relation to the object, typically involving a judgment or analysis of quality, effectiveness, or value. In the context of the triple, it indicates that the subject is undergoing a process of evaluation concerning the object, which may be the same as the subject or a different entity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-satisfies": {
+      "label": "satisfies",
+      "description": "The predicate 'satisfies' indicates that the subject meets the requirements or conditions specified by the object. It establishes a relationship where the subject fulfills the criteria or standards represented by the object, thereby confirming compliance or agreement with those criteria.",
+      "disambiguation_index": 0
+    },
+    "Predicate-on": {
+      "label": "on",
+      "description": "The predicate 'on' indicates a relationship of focus or subject matter between the subject and the object, suggesting that the subject is engaged in, studying, or concerned with the topic represented by the object. It often implies a thematic connection where the subject's actions or interests are directed towards the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-suggests": {
+      "label": "suggests",
+      "description": "The predicate 'suggests' indicates a relationship where the subject proposes or implies a recommendation, idea, or course of action that is represented by the object. It conveys a sense of offering insight or guidance, often inviting consideration or further exploration of the object in relation to the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_about": {
+      "label": "are about",
+      "description": "The predicate 'are about' establishes a relationship of relevance or focus between the subject and the object, indicating that the subject pertains to, concerns, or is centered around the themes, ideas, or topics represented by the object. It suggests that the subject provides insight, discussion, or exploration related to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_on": {
+      "label": "are on",
+      "description": "The predicate 'are on' indicates a state of being or existence where the subject is associated with or focused upon the object. It suggests that the subject is currently engaged with, concerned about, or directed towards the object, often implying a relationship of relevance or importance between the two.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or subset of the more general concept represented by the object. This relationship implies that the object encompasses a wider category or classification that includes the subject, thereby situating the subject within a broader context of understanding.",
+      "disambiguation_index": 0
+    }
+  }
+}

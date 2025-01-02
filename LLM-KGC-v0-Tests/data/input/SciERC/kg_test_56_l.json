@@ -1,0 +1,940 @@
+{
+  "iri": "Paper-56",
+  "title": "CVPR_2004_18_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-56-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-56-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+              "text": "The automated segmentation of images into semantically meaningful parts requires shape information since low-level feature analysis alone often fails to reach this goal ."
+            },
+            {
+              "iri": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+              "text": "We introduce a novel method of shape constrained image segmentation which is based on mixtures of feature distributions for color and texture as well as probabilistic shape knowledge ."
+            },
+            {
+              "iri": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+              "text": "The combined approach is formulated in the framework of Bayesian statistics to account for the robust-ness requirement in image understanding ."
+            },
+            {
+              "iri": "Paper-56-Section-1-Paragraph-1-Sentence-4",
+              "text": "Experimental evidence shows that semantically meaningful segments are inferred , even when image data alone gives rise to ambiguous segmentations ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005245208740234375,
+    10.223417282104492,
+    20.109848260879517,
+    17.248534679412842,
+    0.014533042907714844,
+    8.749961853027344e-05,
+    0.00011444091796875,
+    34.31787419319153,
+    33.06081676483154,
+    1.1654987335205078,
+    21.154523849487305,
+    0.00874018669128418,
+    0.0001780986785888672,
+    22.334295511245728,
+    4.785811901092529,
+    0.009485960006713867,
+    1.139601707458496,
+    3.1495091915130615,
+    2.947293281555176,
+    3.157177209854126,
+    35.76213455200195,
+    1.752277135848999,
+    20.880133628845215,
+    0.9010095596313477,
+    0.0006012916564941406,
+    0.00953817367553711
+  ],
+  "nodes": {
+    "Entity-a_novel_method_of_shape_constrained_image_segmentation": {
+      "node_id": "a_novel_method_of_shape_constrained_image_segmentation",
+      "disambiguation_index": 0,
+      "label": "a novel method of shape constrained image segmentation",
+      "aliases": [
+        "a novel method of shape constrained image segmentation"
+      ],
+      "types": [
+        "method",
+        "image segmentation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A Bayesian-based approach that combines feature distributions for color, texture, and shape to segment images into semantically meaningful parts.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a novel method of shape constrained image segmentation",
+          "local_types": [
+            "method",
+            "image segmentation"
+          ],
+          "iri": "Entity-a_novel_method_of_shape_constrained_image_segmentation-Mention-1"
+        }
+      ],
+      "relevance": 0.84326171875
+    },
+    "Entity-we_introduce_a_novel_method": {
+      "node_id": "we_introduce_a_novel_method",
+      "disambiguation_index": 0,
+      "label": "We introduce a novel method",
+      "aliases": [
+        "We introduce a novel method",
+        "The combined approach"
+      ],
+      "types": [
+        "approach",
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A new approach to shape-constrained image segmentation that combines Bayesian statistics with mixtures of feature distributions for color, texture, and probabilistic shape knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We introduce a novel method",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_introduce_a_novel_method-Mention-1"
+        },
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "The combined approach",
+          "local_types": [
+            "approach"
+          ],
+          "iri": "Entity-we_introduce_a_novel_method-Mention-2"
+        }
+      ],
+      "relevance": 0.83740234375
+    },
+    "Entity-the_automated_segmentation": {
+      "node_id": "the_automated_segmentation",
+      "disambiguation_index": 0,
+      "label": "The automated segmentation",
+      "aliases": [
+        "The automated segmentation"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A method for segmenting images into semantically meaningful parts that incorporates shape information and probabilistic knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "The automated segmentation",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-the_automated_segmentation-Mention-1"
+        }
+      ],
+      "relevance": 0.7958984375
+    },
+    "Entity-mixture_of_feature_distribution_for_color_and_texture_a_well_a_probabilistic_shape_knowledge": {
+      "node_id": "mixture_of_feature_distribution_for_color_and_texture_a_well_a_probabilistic_shape_knowledge",
+      "disambiguation_index": 0,
+      "label": "mixtures of feature distributions for color and texture as well as probabilistic shape knowledge",
+      "aliases": [
+        "mixtures of feature distributions for color and texture as well as probabilistic shape knowledge"
+      ],
+      "types": [
+        "technique",
+        "knowledge"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A statistical approach that combines feature distributions from color, texture, and shape to segment images into semantically meaningful parts.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "mixtures of feature distributions for color and texture as well as probabilistic shape knowledge",
+          "local_types": [
+            "technique",
+            "knowledge"
+          ],
+          "iri": "Entity-mixture_of_feature_distribution_for_color_and_texture_a_well_a_probabilistic_shape_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.77197265625
+    },
+    "Entity-to_account_for_the_robust-ness_requirement_in_image_understanding": {
+      "node_id": "to_account_for_the_robust-ness_requirement_in_image_understanding",
+      "disambiguation_index": 0,
+      "label": "to account for the robust-ness requirement in image understanding",
+      "aliases": [
+        "to account for the robust-ness requirement in image understanding"
+      ],
+      "types": [
+        "requirement",
+        "image understanding"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of formulating an approach within Bayesian statistics to ensure reliable and accurate results when segmenting images into meaningful parts.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "to account for the robust-ness requirement in image understanding",
+          "local_types": [
+            "requirement",
+            "image understanding"
+          ],
+          "iri": "Entity-to_account_for_the_robust-ness_requirement_in_image_understanding-Mention-1"
+        }
+      ],
+      "relevance": 0.7509765625
+    },
+    "Entity-shape_constrained_image_segmentation": {
+      "node_id": "shape_constrained_image_segmentation",
+      "disambiguation_index": 0,
+      "label": "shape constrained image segmentation",
+      "aliases": [
+        "novel method of shape constrained image segmentation",
+        "shape constrained image segmentation"
+      ],
+      "types": [
+        "technique",
+        "algorithm",
+        "image processing",
+        "computer vision approach",
+        "method",
+        "computer vision"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A computer vision technique that segments images while constraining shapes to specific forms or patterns.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "shape constrained image segmentation",
+          "local_types": [
+            "technique",
+            "computer vision",
+            "method",
+            "image processing"
+          ],
+          "iri": "Entity-shape_constrained_image_segmentation-Mention-1"
+        },
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "novel method of shape constrained image segmentation",
+          "local_types": [
+            "method",
+            "computer vision approach",
+            "algorithm"
+          ],
+          "iri": "Entity-shape_constrained_image_segmentation-Mention-2"
+        }
+      ],
+      "relevance": 0.74169921875
+    },
+    "Entity-probabilistic_shape_knowledge": {
+      "node_id": "probabilistic_shape_knowledge",
+      "disambiguation_index": 0,
+      "label": "probabilistic shape knowledge",
+      "aliases": [
+        "probabilistic shape knowledge"
+      ],
+      "types": [
+        "computer vision concept",
+        "image processing theory",
+        "knowledge type",
+        "attribute"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A type of knowledge that represents probability-based information about shapes, used in computer vision to constrain image segmentation.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "probabilistic shape knowledge",
+          "local_types": [
+            "computer vision concept",
+            "image processing theory",
+            "knowledge type",
+            "attribute"
+          ],
+          "iri": "Entity-probabilistic_shape_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.72509765625
+    },
+    "Entity-image_data_alone_give_rise_to_ambiguous_segmentation": {
+      "node_id": "image_data_alone_give_rise_to_ambiguous_segmentation",
+      "disambiguation_index": 0,
+      "label": "image data alone gives rise to ambiguous segmentations",
+      "aliases": [
+        "image data alone gives rise to ambiguous segmentations"
+      ],
+      "types": [
+        "data",
+        "segmentation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The phenomenon where segmentation results become unclear or uncertain solely based on analyzing image data without additional information.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "image data alone gives rise to ambiguous segmentations",
+          "local_types": [
+            "data",
+            "segmentation"
+          ],
+          "iri": "Entity-image_data_alone_give_rise_to_ambiguous_segmentation-Mention-1"
+        }
+      ],
+      "relevance": 0.71826171875
+    },
+    "Entity-automated_segmentation": {
+      "node_id": "automated_segmentation",
+      "disambiguation_index": 0,
+      "label": "automated segmentation",
+      "aliases": [
+        "The automated segmentation of images",
+        "automated segmentation"
+      ],
+      "types": [
+        "image processing technique",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method or technique for automatically dividing an image into distinct regions or segments based on their characteristics.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "automated segmentation",
+          "local_types": [
+            "image processing technique"
+          ],
+          "iri": "Entity-automated_segmentation-Mention-1"
+        },
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "The automated segmentation of images",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-automated_segmentation-Mention-2"
+        }
+      ],
+      "relevance": 0.7177734375
+    },
+    "Entity-low-level_feature_analysis_alone_often_fails_to_reach_this_goal": {
+      "node_id": "low-level_feature_analysis_alone_often_fails_to_reach_this_goal",
+      "disambiguation_index": 0,
+      "label": "low-level feature analysis alone often fails to reach this goal",
+      "aliases": [
+        "low-level feature analysis alone often fails to reach this goal"
+      ],
+      "types": [
+        "goal"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Automated image segmentation",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "low-level feature analysis alone often fails to reach this goal",
+          "local_types": [
+            "goal"
+          ],
+          "iri": "Entity-low-level_feature_analysis_alone_often_fails_to_reach_this_goal-Mention-1"
+        }
+      ],
+      "relevance": 0.6982421875
+    },
+    "Entity-image_into_semantically_meaningful_part": {
+      "node_id": "image_into_semantically_meaningful_part",
+      "disambiguation_index": 0,
+      "label": "images into semantically meaningful parts",
+      "aliases": [
+        "images into semantically meaningful parts"
+      ],
+      "types": [
+        "concept"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A concept referring to the process or result of dividing an image into its constituent, semantically meaningful parts.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "images into semantically meaningful parts",
+          "local_types": [
+            "concept"
+          ],
+          "iri": "Entity-image_into_semantically_meaningful_part-Mention-1"
+        }
+      ],
+      "relevance": 0.66357421875
+    },
+    "Entity-mixture_of_feature_distribution_for_color_and_texture": {
+      "node_id": "mixture_of_feature_distribution_for_color_and_texture",
+      "disambiguation_index": 0,
+      "label": "mixtures of feature distributions for color and texture",
+      "aliases": [
+        "mixtures of feature distributions for color and texture"
+      ],
+      "types": [
+        "statistical model",
+        "machine learning model",
+        "data analysis technique",
+        "statistical technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical model or technique used in machine learning applications, particularly in image analysis, which combines multiple probability distributions representing different features (color and texture) to analyze data.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "mixtures of feature distributions for color and texture",
+          "local_types": [
+            "statistical model",
+            "machine learning model",
+            "data analysis technique",
+            "statistical technique"
+          ],
+          "iri": "Entity-mixture_of_feature_distribution_for_color_and_texture-Mention-1"
+        }
+      ],
+      "relevance": 0.6630859375
+    },
+    "Entity-low-level_feature_analysis": {
+      "node_id": "low-level_feature_analysis",
+      "disambiguation_index": 0,
+      "label": "low-level feature analysis",
+      "aliases": [
+        "low-level feature analysis"
+      ],
+      "types": [
+        "image processing technique",
+        "analysis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method or process that examines and extracts fundamental characteristics from data, typically images.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "low-level feature analysis",
+          "local_types": [
+            "image processing technique",
+            "analysis"
+          ],
+          "iri": "Entity-low-level_feature_analysis-Mention-1"
+        }
+      ],
+      "relevance": 0.6298828125
+    },
+    "Entity-bayesian_statistic": {
+      "node_id": "bayesian_statistic",
+      "disambiguation_index": 0,
+      "label": "Bayesian statistics",
+      "aliases": [
+        "Bayesian statistics",
+        "the framework of Bayesian statistics"
+      ],
+      "types": [
+        "statistical method",
+        "statistical framework",
+        "framework",
+        "mathematical framework",
+        "mathematical discipline",
+        "statistics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical method and mathematical framework based on Bayes' theorem, used for inference and decision-making under uncertainty.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Bayesian statistics",
+          "local_types": [
+            "statistical method",
+            "statistical framework",
+            "framework",
+            "mathematical framework",
+            "mathematical discipline",
+            "statistics"
+          ],
+          "iri": "Entity-bayesian_statistic-Mention-1"
+        },
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the framework of Bayesian statistics",
+          "local_types": [
+            "framework",
+            "statistics"
+          ],
+          "iri": "Entity-bayesian_statistic-Mention-2"
+        }
+      ],
+      "relevance": 0.62548828125
+    },
+    "Entity-semantically_meaningful_segment": {
+      "node_id": "semantically_meaningful_segment",
+      "disambiguation_index": 0,
+      "label": "semantically meaningful segments",
+      "aliases": [
+        "semantically meaningful segments"
+      ],
+      "types": [
+        "segment",
+        "meaningful segment",
+        "idea",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A portion of text or content with significant meaning or significance.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "semantically meaningful segments",
+          "local_types": [
+            "segment",
+            "meaningful segment",
+            "idea",
+            "concept"
+          ],
+          "iri": "Entity-semantically_meaningful_segment-Mention-1"
+        }
+      ],
+      "relevance": 0.61669921875
+    },
+    "Entity-image_understanding": {
+      "node_id": "image_understanding",
+      "disambiguation_index": 0,
+      "label": "image understanding",
+      "aliases": [
+        "image understanding"
+      ],
+      "types": [
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or ability by which machines, particularly computers and computer systems, interpret and make sense of visual information contained in images.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "image understanding",
+          "local_types": [
+            "computer vision"
+          ],
+          "iri": "Entity-image_understanding-Mention-1"
+        }
+      ],
+      "relevance": 0.59716796875
+    },
+    "Entity-experimental_evidence_show_that_semantically_meaningful_segment_are_inferred": {
+      "node_id": "experimental_evidence_show_that_semantically_meaningful_segment_are_inferred",
+      "disambiguation_index": 0,
+      "label": "Experimental evidence shows that semantically meaningful segments are inferred",
+      "aliases": [
+        "Experimental evidence shows that semantically meaningful segments are inferred"
+      ],
+      "types": [
+        "finding"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A discovery or observation made through experimentation",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Experimental evidence shows that semantically meaningful segments are inferred",
+          "local_types": [
+            "finding"
+          ],
+          "iri": "Entity-experimental_evidence_show_that_semantically_meaningful_segment_are_inferred-Mention-1"
+        }
+      ],
+      "relevance": 0.5869140625
+    },
+    "Entity-semantically_meaningful_part": {
+      "node_id": "semantically_meaningful_part",
+      "disambiguation_index": 0,
+      "label": "semantically meaningful parts",
+      "aliases": [
+        "semantically meaningful parts"
+      ],
+      "types": [
+        "conceptual units",
+        "meaningful divisions"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Divisions or units that convey significant meaning",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "semantically meaningful parts",
+          "local_types": [
+            "conceptual units",
+            "meaningful divisions"
+          ],
+          "iri": "Entity-semantically_meaningful_part-Mention-1"
+        }
+      ],
+      "relevance": 0.57177734375
+    },
+    "Entity-shape_information": {
+      "node_id": "shape_information",
+      "disambiguation_index": 0,
+      "label": "shape information",
+      "aliases": [
+        "shape information"
+      ],
+      "types": [
+        "feature",
+        "information",
+        "attribute"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Characteristics or properties that describe an object's form, outline, or configuration.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "shape information",
+          "local_types": [
+            "feature",
+            "information",
+            "attribute"
+          ],
+          "iri": "Entity-shape_information-Mention-1"
+        }
+      ],
+      "relevance": 0.568359375
+    },
+    "Entity-image": {
+      "node_id": "image",
+      "disambiguation_index": 0,
+      "label": "images",
+      "aliases": [
+        "images",
+        "image data"
+      ],
+      "types": [
+        "data set",
+        "visual information",
+        "media",
+        "visual data",
+        "data type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Visual representations or photographs",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "images",
+          "local_types": [
+            "visual data",
+            "media",
+            "data type"
+          ],
+          "iri": "Entity-image-Mention-1"
+        },
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "image data",
+          "local_types": [
+            "data set",
+            "visual information"
+          ],
+          "iri": "Entity-image-Mention-2"
+        }
+      ],
+      "relevance": 0.54833984375
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "method"
+      ],
+      "types": [
+        "algorithm",
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic approach or procedure used to achieve a specific goal, often involving the application of mathematical or logical rules.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "method",
+          "local_types": [
+            "algorithm",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        }
+      ],
+      "relevance": 0.5390625
+    },
+    "Entity-approach": {
+      "node_id": "approach",
+      "disambiguation_index": 0,
+      "label": "approach",
+      "aliases": [
+        "approach"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A methodology or strategy used to achieve a particular goal or solve a problem.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "approach",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-approach-Mention-1"
+        }
+      ],
+      "relevance": 0.49560546875
+    },
+    "Entity-experimental_evidence": {
+      "node_id": "experimental_evidence",
+      "disambiguation_index": 0,
+      "label": "Experimental evidence",
+      "aliases": [
+        "experimental evidence",
+        "Experimental evidence"
+      ],
+      "types": [
+        "research finding",
+        "evidence",
+        "data analysis result"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A research finding or result obtained through experimentation and analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Experimental evidence",
+          "local_types": [
+            "research finding",
+            "evidence",
+            "data analysis result"
+          ],
+          "iri": "Entity-experimental_evidence-Mention-1"
+        }
+      ],
+      "relevance": 0.481689453125
+    },
+    "Entity-framework": {
+      "node_id": "framework",
+      "disambiguation_index": 0,
+      "label": "framework",
+      "aliases": [
+        "framework"
+      ],
+      "types": [
+        "structure",
+        "architecture"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A conceptual structure or organization that provides a foundation, outline, or set of rules for something",
+      "mentions": [
+        {
+          "reference": "Paper-56-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "framework",
+          "local_types": [
+            "structure",
+            "architecture"
+          ],
+          "iri": "Entity-framework-Mention-1"
+        }
+      ],
+      "relevance": 0.47021484375
+    }
+  },
+  "summary": "The automated segmentation of images into semantically meaningful parts requires shape information since low-level feature analysis alone often fails to reach this goal . We introduce a novel method of shape constrained image segmentation which is based on mixtures of feature distributions for color and texture as well as probabilistic shape knowledge . The combined approach is formulated in the framework of Bayesian statistics to account for the robust-ness requirement in image understanding . Experimental evidence shows that semantically meaningful segments are inferred , even when image data alone gives rise to ambiguous segmentations .",
+  "triples": [
+    [
+      "Entity-the_automated_segmentation",
+      "Predicate-requires",
+      "Entity-shape_information"
+    ],
+    [
+      "Entity-automated_segmentation",
+      "Predicate-requires",
+      "Entity-shape_information"
+    ],
+    [
+      "Entity-we_introduce_a_novel_method",
+      "Predicate-introduce",
+      "Entity-a_novel_method_of_shape_constrained_image_segmentation"
+    ],
+    [
+      "Entity-shape_constrained_image_segmentation",
+      "Predicate-based_on",
+      "Entity-mixture_of_feature_distribution_for_color_and_texture_a_well_a_probabilistic_shape_knowledge"
+    ],
+    [
+      "Entity-we_introduce_a_novel_method",
+      "Predicate-based_on",
+      "Entity-mixture_of_feature_distribution_for_color_and_texture_a_well_a_probabilistic_shape_knowledge"
+    ],
+    [
+      "Entity-we_introduce_a_novel_method",
+      "Predicate-is_formulated_in",
+      "Entity-bayesian_statistic"
+    ],
+    [
+      "Entity-we_introduce_a_novel_method",
+      "Predicate-is_formulated_in_the_framework_of",
+      "Entity-bayesian_statistic"
+    ],
+    [
+      "Entity-experimental_evidence_show_that_semantically_meaningful_segment_are_inferred",
+      "Predicate-are_inferred",
+      "Entity-semantically_meaningful_segment"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_novel_method_of_shape_constrained_image_segmentation",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-we_introduce_a_novel_method",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-a_novel_method_of_shape_constrained_image_segmentation",
+      "skos:broader",
+      "Entity-automated_segmentation"
+    ],
+    [
+      "Entity-a_novel_method_of_shape_constrained_image_segmentation",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-shape_constrained_image_segmentation",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-bayesian_statistic",
+      "skos:broader",
+      "Entity-framework"
+    ],
+    [
+      "Entity-to_account_for_the_robust-ness_requirement_in_image_understanding",
+      "skos:broader",
+      "Entity-image_understanding"
+    ],
+    [
+      "Entity-method",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-shape_constrained_image_segmentation",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-the_automated_segmentation",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-the_automated_segmentation",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-automated_segmentation",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-mixture_of_feature_distribution_for_color_and_texture_a_well_a_probabilistic_shape_knowledge",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-automated_segmentation",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-mixture_of_feature_distribution_for_color_and_texture_a_well_a_probabilistic_shape_knowledge",
+      "skos:broader",
+      "Entity-approach"
+    ]
+  ],
+  "predicates": {
+    "Predicate-requires": {
+      "label": "requires",
+      "description": "Indicates that something (the subject) needs or necessitates another thing (the object), often implying a condition for its proper functioning, operation, or existence.",
+      "disambiguation_index": 0
+    },
+    "Predicate-introduce": {
+      "label": "introduce",
+      "description": "To introduce means to bring forth or present something new, often for consideration, discussion, or implementation. The predicate 'introduce' connects the subject (the entity introducing) with an object that represents a novel concept, idea, method, person, etc., highlighting the act of making it known or available.",
+      "disambiguation_index": 0
+    },
+    "Predicate-based_on": {
+      "label": "based on",
+      "description": "The predicate 'based on' indicates a relationship where the subject's foundation or justification lies with the object. It suggests that the subject's existence, validity, or methodology relies heavily on the principles, concepts, or data provided by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_formulated_in": {
+      "label": "is formulated in",
+      "description": "The predicate 'is formulated in' indicates that the subject (a concept, idea, or methodology) has its underlying structure, principles, or framework defined within a specific object (e.g., mathematical theory, programming language, scientific discipline). In general, this predicate highlights the connection between an abstract entity and the formal system or paradigm that governs it.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_formulated_in_the_framework_of": {
+      "label": "is formulated in the framework of",
+      "description": "This predicate indicates that the subject's concept or idea is structured and organized according to the principles, theories, or methodologies outlined by the object. In other words, it describes how a particular approach, method, or framework has been used as a foundation for developing or understanding the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_inferred": {
+      "label": "are inferred",
+      "description": "The predicate 'are inferred' indicates a process of logical or intuitive reasoning where conclusions about the object (semantically meaningful segments) are drawn based on available information, evidence, or context. The subject (Experimental evidence shows that...) provides the foundation for making these inferences.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or example of a more general category or concept represented by the object. It establishes a relationship between the subject and the object, where the subject is a narrower or more specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

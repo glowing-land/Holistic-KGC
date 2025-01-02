@@ -1,0 +1,1541 @@
+{
+  "iri": "Paper-76",
+  "title": "INTERSPEECH_2006_21_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-76-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-76-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+              "text": "In this paper , we discuss language model adaptation methods given a word list and a raw corpus ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this situation , the general method is to segment the raw corpus automatically using a word list , correct the output sentences by hand , and build a model from the segmented corpus ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+              "text": "In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+              "text": "In this paper , we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+              "text": "This method allows us to avoid these problems and go directly to capturing the statistical behavior of specific words in the application ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+              "text": "In the experiments , we used a variety of methods for preparing a segmented corpus and compared the language models by their speech recognition accuracies ."
+            },
+            {
+              "iri": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+              "text": "The results showed the advantages of our method ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0032889842987060547,
+    71.38628888130188,
+    86.78387594223022,
+    75.4180920124054,
+    0.04382514953613281,
+    0.0001628398895263672,
+    0.00019407272338867188,
+    432.99994015693665,
+    429.1420021057129,
+    5.67574405670166,
+    251.71129989624023,
+    0.016005992889404297,
+    0.0017659664154052734,
+    77.28258109092712,
+    0.0019829273223876953,
+    0.03172779083251953,
+    0.0020318031311035156,
+    6.414771795272827,
+    19.929158926010132,
+    29.484477281570435,
+    554.9032530784607,
+    10.720193147659302,
+    244.65743803977966,
+    3.6857821941375732,
+    0.002004861831665039,
+    0.020491838455200195
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "paper",
+        "document",
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents language model adaptation methods that utilize a word list and a raw corpus, focusing on improving the segmentation and correction processes to enhance speech recognition accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "this paper",
+          "local_types": [
+            "paper",
+            "document",
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "this paper",
+          "local_types": [
+            "document",
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-2"
+        }
+      ],
+      "relevance": 0.81103515625
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "methods",
+        "method"
+      ],
+      "types": [
+        "technique",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The method refers to a technique for language model adaptation that involves automatically segmenting a raw corpus using a word list, followed by manual correction of output sentences to build a model.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "method",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "method",
+          "local_types": [
+            "technique",
+            "approach"
+          ],
+          "iri": "Entity-method-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "methods",
+          "local_types": [
+            "technique",
+            "approach"
+          ],
+          "iri": "Entity-method-Mention-3"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "method",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-4"
+        }
+      ],
+      "relevance": 0.79443359375
+    },
+    "Entity-general_method": {
+      "node_id": "general_method",
+      "disambiguation_index": 0,
+      "label": "general method",
+      "aliases": [
+        "general method",
+        "the general method"
+      ],
+      "types": [
+        "method",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'general method' refers to a process for language model adaptation that involves automatically segmenting a raw corpus using a word list, manually correcting the output sentences, and constructing a model from the segmented corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "general method",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-general_method-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the general method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-general_method-Mention-2"
+        }
+      ],
+      "relevance": 0.75830078125
+    },
+    "Entity-the_word_in_the_list": {
+      "node_id": "the_word_in_the_list",
+      "disambiguation_index": 0,
+      "label": "the words in the list",
+      "aliases": [
+        "the words in the list"
+      ],
+      "types": [
+        "words",
+        "list"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The words in the list refer to specific terms or vocabulary items that are utilized for segmenting a raw corpus in the context of language model adaptation methods discussed in the paper.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the words in the list",
+          "local_types": [
+            "words",
+            "list"
+          ],
+          "iri": "Entity-the_word_in_the_list-Mention-1"
+        }
+      ],
+      "relevance": 0.75390625
+    },
+    "Entity-a_word": {
+      "node_id": "a_word",
+      "disambiguation_index": 0,
+      "label": "a word",
+      "aliases": [
+        "a word"
+      ],
+      "types": [
+        "word"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In the context of language model adaptation, 'a word' refers to a single unit of language that is used as a correction unit for improving the accuracy of speech recognition models by focusing on specific positions in a segmented corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a word",
+          "local_types": [
+            "word"
+          ],
+          "iri": "Entity-a_word-Mention-1"
+        }
+      ],
+      "relevance": 0.73828125
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "model",
+      "aliases": [
+        "model",
+        "a model"
+      ],
+      "types": [
+        "statistical model",
+        "machine learning model",
+        "model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'model' refers to a statistical language model constructed from a segmented corpus, which is created by automatically segmenting a raw corpus using a word list and correcting the output sentences.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "model",
+          "local_types": [
+            "statistical model",
+            "machine learning model"
+          ],
+          "iri": "Entity-model-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a model",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-model-Mention-2"
+        }
+      ],
+      "relevance": 0.73779296875
+    },
+    "Entity-this_sentence-by-sentence_error_correction_method": {
+      "node_id": "this_sentence-by-sentence_error_correction_method",
+      "disambiguation_index": 0,
+      "label": "this sentence-by-sentence error correction method",
+      "aliases": [
+        "this sentence-by-sentence error correction method",
+        "This method"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This sentence-by-sentence error correction method refers to a technique in language model adaptation that focuses on correcting specific grammatical positions in sentences, using individual words as correction units to enhance productivity and improve the statistical modeling of language.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this sentence-by-sentence error correction method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-this_sentence-by-sentence_error_correction_method-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "This method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-this_sentence-by-sentence_error_correction_method-Mention-2"
+        }
+      ],
+      "relevance": 0.7353515625
+    },
+    "Entity-word": {
+      "node_id": "word",
+      "disambiguation_index": 0,
+      "label": "words",
+      "aliases": [
+        "words"
+      ],
+      "types": [
+        "language element",
+        "linguistic unit",
+        "text element"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'words' refers to individual linguistic units that are part of a specified word list used for language model adaptation and error correction in a raw corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "words",
+          "local_types": [
+            "linguistic unit",
+            "text element"
+          ],
+          "iri": "Entity-word-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "words",
+          "local_types": [
+            "linguistic unit",
+            "language element"
+          ],
+          "iri": "Entity-word-Mention-2"
+        }
+      ],
+      "relevance": 0.716796875
+    },
+    "Entity-sentence-by-sentence_error_correction_method": {
+      "node_id": "sentence-by-sentence_error_correction_method",
+      "disambiguation_index": 0,
+      "label": "sentence-by-sentence error correction method",
+      "aliases": [
+        "sentence-by-sentence error correction method"
+      ],
+      "types": [
+        "technique",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The sentence-by-sentence error correction method is a technique used in language model adaptation that involves correcting output sentences one at a time, addressing grammatical complexities that can hinder productivity.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "sentence-by-sentence error correction method",
+          "local_types": [
+            "technique",
+            "method"
+          ],
+          "iri": "Entity-sentence-by-sentence_error_correction_method-Mention-1"
+        }
+      ],
+      "relevance": 0.71435546875
+    },
+    "Entity-correction_unit": {
+      "node_id": "correction_unit",
+      "disambiguation_index": 0,
+      "label": "correction unit",
+      "aliases": [
+        "correction unit",
+        "a correction unit"
+      ],
+      "types": [
+        "unit",
+        "unit of analysis",
+        "correction",
+        "concept",
+        "linguistic term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'correction unit' refers to a specific word that is used as a focal point for error correction in the context of language model adaptation, allowing for targeted adjustments in the segmentation of a raw corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "correction unit",
+          "local_types": [
+            "concept",
+            "linguistic term",
+            "unit of analysis"
+          ],
+          "iri": "Entity-correction_unit-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a correction unit",
+          "local_types": [
+            "unit",
+            "correction"
+          ],
+          "iri": "Entity-correction_unit-Mention-2"
+        }
+      ],
+      "relevance": 0.70654296875
+    },
+    "Entity-variety_of_method_for_preparing_a_segmented_corpus": {
+      "node_id": "variety_of_method_for_preparing_a_segmented_corpus",
+      "disambiguation_index": 0,
+      "label": "variety of methods for preparing a segmented corpus",
+      "aliases": [
+        "a variety of methods",
+        "variety of methods for preparing a segmented corpus"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The entity 'variety of methods for preparing a segmented corpus' refers to different techniques employed in the segmentation of a raw corpus into a structured format suitable for language model adaptation and evaluation, particularly in the context of improving speech recognition accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "variety of methods for preparing a segmented corpus",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-variety_of_method_for_preparing_a_segmented_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a variety of methods",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-variety_of_method_for_preparing_a_segmented_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.69677734375
+    },
+    "Entity-advantage_of_our_method": {
+      "node_id": "advantage_of_our_method",
+      "disambiguation_index": 0,
+      "label": "advantages of our method",
+      "aliases": [
+        "the advantages of our method",
+        "advantages of our method"
+      ],
+      "types": [
+        "advantage",
+        "method",
+        "advantages"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The advantages of our method refer to the benefits observed from the proposed approach to language model adaptation, which focuses on correcting specific word positions to improve productivity and speech recognition accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "advantages of our method",
+          "local_types": [
+            "advantage",
+            "method"
+          ],
+          "iri": "Entity-advantage_of_our_method-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "the advantages of our method",
+          "local_types": [
+            "advantages",
+            "method"
+          ],
+          "iri": "Entity-advantage_of_our_method-Mention-2"
+        }
+      ],
+      "relevance": 0.68701171875
+    },
+    "Entity-segmented_corpus": {
+      "node_id": "segmented_corpus",
+      "disambiguation_index": 0,
+      "label": "segmented corpus",
+      "aliases": [
+        "the segmented corpus",
+        "segmented corpus",
+        "a segmented corpus"
+      ],
+      "types": [
+        "text corpus",
+        "text data",
+        "corpus",
+        "processed data",
+        "linguistic resource",
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A segmented corpus is a collection of text data that has been processed to divide it into meaningful units, such as words or phrases, often for the purpose of linguistic analysis or model training.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "segmented corpus",
+          "local_types": [
+            "text corpus",
+            "corpus",
+            "processed data",
+            "data set",
+            "text data"
+          ],
+          "iri": "Entity-segmented_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "segmented corpus",
+          "local_types": [
+            "data set",
+            "linguistic resource"
+          ],
+          "iri": "Entity-segmented_corpus-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the segmented corpus",
+          "local_types": [
+            "corpus"
+          ],
+          "iri": "Entity-segmented_corpus-Mention-3"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a segmented corpus",
+          "local_types": [
+            "corpus"
+          ],
+          "iri": "Entity-segmented_corpus-Mention-4"
+        }
+      ],
+      "relevance": 0.67822265625
+    },
+    "Entity-language_model_adaptation_method": {
+      "node_id": "language_model_adaptation_method",
+      "disambiguation_index": 0,
+      "label": "language model adaptation methods",
+      "aliases": [
+        "language model adaptation methods"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "language model",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Language model adaptation methods are techniques used to modify or fine-tune language models to improve their performance on specific tasks or datasets.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "language model adaptation methods",
+          "local_types": [
+            "technique",
+            "method",
+            "language model",
+            "methodology"
+          ],
+          "iri": "Entity-language_model_adaptation_method-Mention-1"
+        }
+      ],
+      "relevance": 0.6689453125
+    },
+    "Entity-output_sentence": {
+      "node_id": "output_sentence",
+      "disambiguation_index": 0,
+      "label": "output sentences",
+      "aliases": [
+        "the output sentences",
+        "output sentences"
+      ],
+      "types": [
+        "result",
+        "text",
+        "sentences"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'output sentences' refers to the sentences generated from a segmented corpus that require manual correction in the context of language model adaptation methods.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "output sentences",
+          "local_types": [
+            "text",
+            "result"
+          ],
+          "iri": "Entity-output_sentence-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the output sentences",
+          "local_types": [
+            "sentences"
+          ],
+          "iri": "Entity-output_sentence-Mention-2"
+        }
+      ],
+      "relevance": 0.66552734375
+    },
+    "Entity-statistical_behavior_of_specific_word": {
+      "node_id": "statistical_behavior_of_specific_word",
+      "disambiguation_index": 0,
+      "label": "statistical behavior of specific words",
+      "aliases": [
+        "statistical behavior of specific words"
+      ],
+      "types": [
+        "behavior",
+        "words",
+        "word"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The statistical behavior of specific words refers to the patterns and frequencies of usage of particular words within a given corpus, which can be analyzed to improve language model adaptation and enhance speech recognition accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "statistical behavior of specific words",
+          "local_types": [
+            "behavior",
+            "words",
+            "word"
+          ],
+          "iri": "Entity-statistical_behavior_of_specific_word-Mention-1"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity-productivity": {
+      "node_id": "productivity",
+      "disambiguation_index": 0,
+      "label": "productivity",
+      "aliases": [
+        "productivity"
+      ],
+      "types": [
+        "output measure",
+        "measure",
+        "concept",
+        "performance metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of language model adaptation, 'productivity' refers to the efficiency and effectiveness of the annotator's ability to correct output sentences, which is negatively impacted by the complexity of grammatical structures encountered during the correction process.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "productivity",
+          "local_types": [
+            "output measure",
+            "measure",
+            "concept",
+            "performance metric"
+          ],
+          "iri": "Entity-productivity-Mention-1"
+        }
+      ],
+      "relevance": 0.65234375
+    },
+    "Entity-statistical_behavior": {
+      "node_id": "statistical_behavior",
+      "disambiguation_index": 0,
+      "label": "statistical behavior",
+      "aliases": [
+        "statistical behavior"
+      ],
+      "types": [
+        "data analysis",
+        "statistical concept",
+        "concept",
+        "phenomenon"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'statistical behavior' refers to the patterns and characteristics of specific words as they are used within a language model, particularly in the context of adapting language models based on a given word list and raw corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "statistical behavior",
+          "local_types": [
+            "data analysis",
+            "statistical concept",
+            "concept",
+            "phenomenon"
+          ],
+          "iri": "Entity-statistical_behavior-Mention-1"
+        }
+      ],
+      "relevance": 0.650390625
+    },
+    "Entity-the_position": {
+      "node_id": "the_position",
+      "disambiguation_index": 0,
+      "label": "the positions",
+      "aliases": [
+        "the positions"
+      ],
+      "types": [
+        "position"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The positions refer to the specific grammatical locations within sentences where words from a given list appear, which are targeted for correction in the context of language model adaptation.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the positions",
+          "local_types": [
+            "position"
+          ],
+          "iri": "Entity-the_position-Mention-1"
+        }
+      ],
+      "relevance": 0.64404296875
+    },
+    "Entity-the_language_model": {
+      "node_id": "the_language_model",
+      "disambiguation_index": 0,
+      "label": "the language models",
+      "aliases": [
+        "the language models"
+      ],
+      "types": [
+        "language model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The language models refer to statistical models used in natural language processing that predict the likelihood of a sequence of words, which are evaluated in this paper based on their performance in speech recognition tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the language models",
+          "local_types": [
+            "language model"
+          ],
+          "iri": "Entity-the_language_model-Mention-1"
+        }
+      ],
+      "relevance": 0.6435546875
+    },
+    "Entity-a_decrease_of_productivity": {
+      "node_id": "a_decrease_of_productivity",
+      "disambiguation_index": 0,
+      "label": "a decrease of productivity",
+      "aliases": [
+        "a decrease of productivity"
+      ],
+      "types": [
+        "impact",
+        "productivity"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A decrease of productivity refers to the reduction in efficiency and output experienced by annotators when faced with grammatically complex sentence structures during the manual correction of segmented corpus data.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a decrease of productivity",
+          "local_types": [
+            "impact",
+            "productivity"
+          ],
+          "iri": "Entity-a_decrease_of_productivity-Mention-1"
+        }
+      ],
+      "relevance": 0.638671875
+    },
+    "Entity-the_experiment": {
+      "node_id": "the_experiment",
+      "disambiguation_index": 0,
+      "label": "the experiments",
+      "aliases": [
+        "the experiments"
+      ],
+      "types": [
+        "experiment"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The experiments refer to the evaluation of various methods for preparing a segmented corpus and the comparison of language models based on their speech recognition accuracies.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the experiments",
+          "local_types": [
+            "experiment"
+          ],
+          "iri": "Entity-the_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.6337890625
+    },
+    "Entity-grammatically_complicated_position": {
+      "node_id": "grammatically_complicated_position",
+      "disambiguation_index": 0,
+      "label": "grammatically complicated positions",
+      "aliases": [
+        "grammatically complicated positions"
+      ],
+      "types": [
+        "position"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Grammatically complicated positions refer to specific syntactic structures within sentences that pose challenges for annotators during the manual correction process in language model adaptation, leading to decreased productivity.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "grammatically complicated positions",
+          "local_types": [
+            "position"
+          ],
+          "iri": "Entity-grammatically_complicated_position-Mention-1"
+        }
+      ],
+      "relevance": 0.62890625
+    },
+    "Entity-language_model": {
+      "node_id": "language_model",
+      "disambiguation_index": 0,
+      "label": "language models",
+      "aliases": [
+        "language models"
+      ],
+      "types": [
+        "language model",
+        "model",
+        "artificial intelligence"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Language models are computational models designed to understand, generate, and predict human language by analyzing patterns in text data.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "language models",
+          "local_types": [
+            "language model"
+          ],
+          "iri": "Entity-language_model-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "language models",
+          "local_types": [
+            "model",
+            "artificial intelligence"
+          ],
+          "iri": "Entity-language_model-Mention-2"
+        }
+      ],
+      "relevance": 0.62548828125
+    },
+    "Entity-raw_corpus": {
+      "node_id": "raw_corpus",
+      "disambiguation_index": 0,
+      "label": "raw corpus",
+      "aliases": [
+        "the raw corpus",
+        "raw corpus",
+        "a raw corpus"
+      ],
+      "types": [
+        "text corpus",
+        "text data",
+        "resource",
+        "textual resource",
+        "corpus",
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A raw corpus is a collection of unprocessed text data used for linguistic analysis, natural language processing, or training machine learning models.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "raw corpus",
+          "local_types": [
+            "data set",
+            "corpus",
+            "text corpus",
+            "textual resource"
+          ],
+          "iri": "Entity-raw_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "raw corpus",
+          "local_types": [
+            "data set",
+            "text data"
+          ],
+          "iri": "Entity-raw_corpus-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a raw corpus",
+          "local_types": [
+            "resource",
+            "corpus"
+          ],
+          "iri": "Entity-raw_corpus-Mention-3"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the raw corpus",
+          "local_types": [
+            "corpus"
+          ],
+          "iri": "Entity-raw_corpus-Mention-4"
+        }
+      ],
+      "relevance": 0.61572265625
+    },
+    "Entity-word_list": {
+      "node_id": "word_list",
+      "disambiguation_index": 0,
+      "label": "word list",
+      "aliases": [
+        "a word list",
+        "word list"
+      ],
+      "types": [
+        "data structure",
+        "resource",
+        "lexical resource",
+        "list",
+        "data set",
+        "word",
+        "word list"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A word list is a collection of words, often organized in a specific order, used as a resource for various linguistic and computational applications.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "word list",
+          "local_types": [
+            "data structure",
+            "resource",
+            "list",
+            "data set",
+            "word"
+          ],
+          "iri": "Entity-word_list-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "word list",
+          "local_types": [
+            "resource",
+            "lexical resource"
+          ],
+          "iri": "Entity-word_list-Mention-2"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a word list",
+          "local_types": [
+            "resource",
+            "word list"
+          ],
+          "iri": "Entity-word_list-Mention-3"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a word list",
+          "local_types": [
+            "list"
+          ],
+          "iri": "Entity-word_list-Mention-4"
+        }
+      ],
+      "relevance": 0.61083984375
+    },
+    "Entity-application": {
+      "node_id": "application",
+      "disambiguation_index": 0,
+      "label": "application",
+      "aliases": [
+        "the application",
+        "application"
+      ],
+      "types": [
+        "program",
+        "application",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'application' refers to the specific use case or context in which the statistical behavior of words is analyzed for language model adaptation in speech recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "application",
+          "local_types": [
+            "software",
+            "program"
+          ],
+          "iri": "Entity-application-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the application",
+          "local_types": [
+            "application"
+          ],
+          "iri": "Entity-application-Mention-2"
+        }
+      ],
+      "relevance": 0.60693359375
+    },
+    "Entity-speech_recognition_accuracy": {
+      "node_id": "speech_recognition_accuracy",
+      "disambiguation_index": 0,
+      "label": "speech recognition accuracies",
+      "aliases": [
+        "their speech recognition accuracies",
+        "speech recognition accuracies"
+      ],
+      "types": [
+        "accuracy",
+        "evaluation criterion",
+        "evaluation measure",
+        "performance metric",
+        "speech recognition",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Speech recognition accuracies refer to the quantitative measures that evaluate the performance of speech recognition systems in correctly transcribing spoken language into text.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "speech recognition accuracies",
+          "local_types": [
+            "accuracy",
+            "evaluation criterion",
+            "evaluation measure",
+            "performance metric",
+            "speech recognition",
+            "metric"
+          ],
+          "iri": "Entity-speech_recognition_accuracy-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "their speech recognition accuracies",
+          "local_types": [
+            "accuracy",
+            "speech recognition"
+          ],
+          "iri": "Entity-speech_recognition_accuracy-Mention-2"
+        }
+      ],
+      "relevance": 0.5810546875
+    },
+    "Entity-the_result": {
+      "node_id": "the_result",
+      "disambiguation_index": 0,
+      "label": "The results",
+      "aliases": [
+        "The results"
+      ],
+      "types": [
+        "results"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The results refer to the findings from the experiments conducted in the study, which demonstrated the advantages of the proposed language model adaptation method over traditional approaches.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "The results",
+          "local_types": [
+            "results"
+          ],
+          "iri": "Entity-the_result-Mention-1"
+        }
+      ],
+      "relevance": 0.57373046875
+    },
+    "Entity-annotator": {
+      "node_id": "annotator",
+      "disambiguation_index": 0,
+      "label": "annotator",
+      "aliases": [
+        "annotator",
+        "the annotator"
+      ],
+      "types": [
+        "role",
+        "person"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An annotator is a person who adds explanatory notes or annotations to a text or dataset, often for the purpose of improving understanding or facilitating analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "annotator",
+          "local_types": [
+            "role",
+            "person"
+          ],
+          "iri": "Entity-annotator-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the annotator",
+          "local_types": [
+            "person"
+          ],
+          "iri": "Entity-annotator-Mention-2"
+        }
+      ],
+      "relevance": 0.51416015625
+    },
+    "Entity-result": {
+      "node_id": "result",
+      "disambiguation_index": 0,
+      "label": "results",
+      "aliases": [
+        "results"
+      ],
+      "types": [
+        "result",
+        "outcome",
+        "findings",
+        "outcomes"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Results refer to the outcomes or findings derived from a specific process, analysis, or experiment.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "results",
+          "local_types": [
+            "result",
+            "outcome",
+            "findings"
+          ],
+          "iri": "Entity-result-Mention-1"
+        },
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "results",
+          "local_types": [
+            "findings",
+            "outcomes"
+          ],
+          "iri": "Entity-result-Mention-2"
+        }
+      ],
+      "relevance": 0.478759765625
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "experiments",
+      "aliases": [
+        "experiments"
+      ],
+      "types": [
+        "research activity",
+        "study",
+        "methodology",
+        "research method",
+        "experiment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Experiments are systematic investigations conducted to test hypotheses, evaluate methods, or explore phenomena, often involving controlled conditions and variable manipulation.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "experiments",
+          "local_types": [
+            "research activity",
+            "study",
+            "methodology",
+            "research method",
+            "experiment"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.47265625
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "academic document",
+        "research publication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A paper is a written document that presents research findings, theories, or arguments, typically in an academic or scholarly context.",
+      "mentions": [
+        {
+          "reference": "Paper-76-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "paper",
+          "local_types": [
+            "academic document",
+            "research publication"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.46923828125
+    }
+  },
+  "summary": "In this paper , we discuss language model adaptation methods given a word list and a raw corpus . In this situation , the general method is to segment the raw corpus automatically using a word list , correct the output sentences by hand , and build a model from the segmented corpus . In this sentence-by-sentence error correction method , however , the annotator encounters grammatically complicated positions and this results in a decrease of productivity . In this paper , we propose to concentrate on correcting the positions in which the words in the list appear by taking a word as a correction unit . This method allows us to avoid these problems and go directly to capturing the statistical behavior of specific words in the application . In the experiments , we used a variety of methods for preparing a segmented corpus and compared the language models by their speech recognition accuracies . The results showed the advantages of our method .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-discusses",
+      "Entity-language_model_adaptation_method"
+    ],
+    [
+      "Entity-language_model_adaptation_method",
+      "Predicate-given",
+      "Entity-word_list"
+    ],
+    [
+      "Entity-language_model_adaptation_method",
+      "Predicate-given",
+      "Entity-raw_corpus"
+    ],
+    [
+      "Entity-general_method",
+      "Predicate-is_to_segment",
+      "Entity-raw_corpus"
+    ],
+    [
+      "Entity-general_method",
+      "Predicate-is_to_correct",
+      "Entity-output_sentence"
+    ],
+    [
+      "Entity-general_method",
+      "Predicate-is_to_build",
+      "Entity-model"
+    ],
+    [
+      "Entity-model",
+      "Predicate-is_built_from",
+      "Entity-segmented_corpus"
+    ],
+    [
+      "Entity-annotator",
+      "Predicate-encounters",
+      "Entity-grammatically_complicated_position"
+    ],
+    [
+      "Entity-this_sentence-by-sentence_error_correction_method",
+      "Predicate-results_in",
+      "Entity-a_decrease_of_productivity"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-proposes_to_concentrate_on",
+      "Entity-the_position"
+    ],
+    [
+      "Entity-the_word_in_the_list",
+      "Predicate-appear_in",
+      "Entity-the_position"
+    ],
+    [
+      "Entity-a_word",
+      "Predicate-is_taken_as",
+      "Entity-correction_unit"
+    ],
+    [
+      "Entity-this_sentence-by-sentence_error_correction_method",
+      "Predicate-allows_to_capture",
+      "Entity-statistical_behavior_of_specific_word"
+    ],
+    [
+      "Entity-language_model",
+      "Predicate-compared_by",
+      "Entity-speech_recognition_accuracy"
+    ],
+    [
+      "Entity-method",
+      "Predicate-used_in",
+      "Entity-the_experiment"
+    ],
+    [
+      "Entity-the_result",
+      "Predicate-showed",
+      "Entity-advantage_of_our_method"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-method"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-general_method"
+    ],
+    [
+      "Entity-method",
+      "Predicate-is_a_specific_instance_of",
+      "Entity-general_method"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-language_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-advantage_of_our_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_word_in_the_list",
+      "skos:broader",
+      "Entity-word"
+    ],
+    [
+      "Entity-a_decrease_of_productivity",
+      "skos:broader",
+      "Entity-productivity"
+    ],
+    [
+      "Entity-output_sentence",
+      "skos:broader",
+      "Entity-result"
+    ],
+    [
+      "Entity-statistical_behavior_of_specific_word",
+      "skos:broader",
+      "Entity-word"
+    ],
+    [
+      "Entity-general_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-this_sentence-by-sentence_error_correction_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-variety_of_method_for_preparing_a_segmented_corpus",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_experiment",
+      "skos:broader",
+      "Entity-experiment"
+    ],
+    [
+      "Entity-the_result",
+      "skos:broader",
+      "Entity-result"
+    ],
+    [
+      "Entity-this_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-language_model_adaptation_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_language_model",
+      "skos:broader",
+      "Entity-language_model"
+    ],
+    [
+      "Entity-a_word",
+      "skos:broader",
+      "Entity-word"
+    ],
+    [
+      "Entity-language_model_adaptation_method",
+      "skos:broader",
+      "Entity-the_language_model"
+    ],
+    [
+      "Entity-sentence-by-sentence_error_correction_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-language_model_adaptation_method",
+      "skos:broader",
+      "Entity-language_model"
+    ],
+    [
+      "Entity-word_list",
+      "skos:broader",
+      "Entity-word"
+    ]
+  ],
+  "predicates": {
+    "Predicate-discusses": {
+      "label": "discusses",
+      "description": "The predicate 'discusses' indicates that the subject engages in a detailed examination or conversation about the object, providing insights, analysis, or information related to the topic represented by the object. It implies an exploration of ideas, arguments, or findings concerning the object, often aiming to inform or persuade the audience.",
+      "disambiguation_index": 0
+    },
+    "Predicate-given": {
+      "label": "given",
+      "description": "The predicate 'given' establishes a relationship where the subject is provided with or is associated with the object, indicating that the object serves as a condition, context, or resource relevant to the subject's function or operation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_to_segment": {
+      "label": "is to segment",
+      "description": "The predicate 'is to segment' indicates a relationship where the subject is intended or designed to perform the action of dividing or breaking down the object into smaller, manageable parts or segments. This action typically involves analyzing the object to identify distinct components or units, facilitating further processing or understanding.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_to_correct": {
+      "label": "is to correct",
+      "description": "The predicate 'is to correct' indicates a purpose or function that connects the subject to the object, suggesting that the subject is intended or designed to rectify, improve, or amend the object in some way. In this context, it implies that the general method serves the role of ensuring that the output sentences are accurate, clear, or otherwise enhanced.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_to_build": {
+      "label": "is to build",
+      "description": "The predicate 'is to build' indicates a purpose or intention associated with the subject, suggesting that the subject is engaged in the process of creating or constructing the object. It implies a forward-looking action where the subject aims to develop or establish the object, which is typically a tangible or conceptual entity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_built_from": {
+      "label": "is built from",
+      "description": "The predicate 'is built from' indicates a foundational relationship where the subject is constructed or developed using the components or materials represented by the object. It implies that the object serves as a source or basis that contributes to the formation or creation of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encounters": {
+      "label": "encounters",
+      "description": "The predicate 'encounters' signifies an interaction or meeting between the subject and the object, where the subject comes across or faces the object in a particular context. This can imply a range of experiences, from a simple recognition to a more complex engagement, often involving challenges or notable characteristics associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-results_in": {
+      "label": "results in",
+      "description": "The predicate 'results in' indicates a causal relationship where the subject leads to or produces the outcome expressed by the object. It suggests that the action, process, or condition represented by the subject has a direct influence on the occurrence or state described by the object, implying a change or effect that arises as a consequence of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-proposes_to_concentrate_on": {
+      "label": "proposes to concentrate on",
+      "description": "The predicate 'proposes to concentrate on' indicates that the subject is suggesting a focus or emphasis on the object. It implies an intention or recommendation to direct attention, resources, or analysis towards the specified topic or area, thereby establishing a relationship where the subject aims to explore, discuss, or develop the object in greater detail.",
+      "disambiguation_index": 0
+    },
+    "Predicate-appear_in": {
+      "label": "appear in",
+      "description": "The predicate 'appear in' indicates a relationship where the subject is present or can be found within the context or scope defined by the object. It suggests that the subject is included or located at specific points or instances represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_taken_as": {
+      "label": "is taken as",
+      "description": "The predicate 'is taken as' indicates a relationship where the subject is perceived, interpreted, or understood in the context of the object. It suggests that the subject is regarded or classified in a specific manner that aligns with the characteristics or functions of the object, thereby establishing a conceptual or functional equivalence between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allows_to_capture": {
+      "label": "allows to capture",
+      "description": "The predicate 'allows to capture' indicates that the subject provides the means or capability to understand, observe, or record the characteristics, patterns, or phenomena represented by the object. It suggests a facilitative relationship where the subject enables the acquisition of knowledge or insight regarding the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-compared_by": {
+      "label": "compared by",
+      "description": "The predicate 'compared by' indicates a relationship where the subject is evaluated or assessed in relation to the object. It suggests that the subject is being measured, analyzed, or judged based on the criteria or standards represented by the object. This comparison often involves examining similarities, differences, or performance metrics between the subject and the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-used_in": {
+      "label": "used in",
+      "description": "The predicate 'used in' indicates that the subject is applied or utilized within the context of the object, suggesting a functional relationship where the subject serves a purpose or role in the activities, processes, or scenarios represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-showed": {
+      "label": "showed",
+      "description": "The predicate 'showed' indicates a relationship where the subject presents, reveals, or demonstrates information, evidence, or characteristics about the object. It implies that the subject provides clarity or insight into the object, making the object's qualities or significance apparent to the audience.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject is introducing, showcasing, or demonstrating the object. It implies a communication or exposition of information, where the subject conveys details about the object to an audience, often in a formal or structured manner.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_specific_instance_of": {
+      "label": "is a specific instance of",
+      "description": "The predicate 'is a specific instance of' establishes a relationship between a subject and an object where the subject represents a particular example or case that falls under the broader category defined by the object. This indicates that the subject shares characteristics or properties with the object, thereby demonstrating that it is a member of a larger class or type.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or category that falls under the more general category represented by the object. This relationship implies that the object encompasses a wider range of concepts or entities than the subject, thereby situating the subject within a broader context.",
+      "disambiguation_index": 0
+    }
+  }
+}

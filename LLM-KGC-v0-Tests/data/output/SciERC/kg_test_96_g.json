@@ -1,0 +1,46 @@
+{
+  "iri": "Paper-96",
+  "title": "CVPR_2010_30_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-96-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-96-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-96-Section-1-Paragraph-1-Sentence-1",
+              "text": "We introduce a method to accelerate the evaluation of object detection cascades with the help of a divide-and-conquer procedure in the space of candidate regions ."
+            },
+            {
+              "iri": "Paper-96-Section-1-Paragraph-1-Sentence-2",
+              "text": "Compared to the exhaustive procedure that thus far is the state-of-the-art for cascade evaluation , the proposed method requires fewer evaluations of the classifier functions , thereby speeding up the search ."
+            },
+            {
+              "iri": "Paper-96-Section-1-Paragraph-1-Sentence-3",
+              "text": "Furthermore , we show how the recently developed efficient subwindow search -LRB- ESS -RRB- procedure -LSB- 11 -RSB- can be integrated into the last stage of our method ."
+            },
+            {
+              "iri": "Paper-96-Section-1-Paragraph-1-Sentence-4",
+              "text": "This allows us to use our method to act not only as a faster procedure for cascade evaluation , but also as a tool to perform efficient branch-and-bound object detection with nonlinear quality functions , in particular kernel-ized support vector machines ."
+            },
+            {
+              "iri": "Paper-96-Section-1-Paragraph-1-Sentence-5",
+              "text": "Experiments on the PASCAL VOC 2006 dataset show an acceleration of more than 50 % by our method compared to standard cascade evaluation ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "We introduce a method to accelerate the evaluation of object detection cascades with the help of a divide-and-conquer procedure in the space of candidate regions . Compared to the exhaustive procedure that thus far is the state-of-the-art for cascade evaluation , the proposed method requires fewer evaluations of the classifier functions , thereby speeding up the search . Furthermore , we show how the recently developed efficient subwindow search -LRB- ESS -RRB- procedure -LSB- 11 -RSB- can be integrated into the last stage of our method . This allows us to use our method to act not only as a faster procedure for cascade evaluation , but also as a tool to perform efficient branch-and-bound object detection with nonlinear quality functions , in particular kernel-ized support vector machines . Experiments on the PASCAL VOC 2006 dataset show an acceleration of more than 50 % by our method compared to standard cascade evaluation .",
+  "kg2text": [
+    "Our method, which is a novel approach for accelerating the evaluation of object detection cascades, speeds up the search process significantly. It accelerates the evaluation of object detection cascades compared to the exhaustive procedure, which is the standard cascade evaluation method. The last stage of our method integrates efficient subwindow search, enhancing performance further. This method employs a divide-and-conquer procedure that operates in the space of candidate regions, allowing for more efficient evaluations. Additionally, kernel-ized support vector machines are utilized in branch-and-bound object detection, which is a key aspect of our method. The results from the PASCAL VOC 2006 dataset demonstrate an impressive acceleration of more than 50%, showcasing the effectiveness of our approach over traditional methods."
+  ],
+  "times": [
+    1.839548110961914
+  ]
+}

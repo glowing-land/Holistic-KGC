@@ -1,0 +1,558 @@
+{
+  "iri": "Paper-36",
+  "title": "C04-1011",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-36-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-36-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+              "text": "We consider the problem of computing the Kullback-Leibler distance , also called the relative entropy , between a probabilistic context-free grammar and a probabilistic finite automaton ."
+            },
+            {
+              "iri": "Paper-36-Section-1-Paragraph-1-Sentence-2",
+              "text": "We show that there is a closed-form -LRB- analytical -RRB- solution for one part of the Kullback-Leibler distance , viz the cross-entropy ."
+            },
+            {
+              "iri": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+              "text": "We discuss several applications of the result to the problem of distributional approximation of probabilistic context-free grammars by means of probabilistic finite automata ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0004978179931640625,
+    12.106047630310059,
+    14.709806442260742,
+    14.880817651748657,
+    0.009259700775146484,
+    9.107589721679688e-05,
+    0.00011181831359863281,
+    17.622389554977417,
+    23.10932755470276,
+    1.2731525897979736,
+    18.088798761367798,
+    0.004882335662841797,
+    0.00012040138244628906,
+    19.698493242263794,
+    4.049143075942993,
+    0.009067773818969727,
+    1.1105833053588867,
+    3.0790393352508545,
+    1.109032392501831,
+    1.0868353843688965,
+    21.5671603679657,
+    1.2524757385253906,
+    8.393929481506348,
+    0.8210010528564453,
+    0.00033974647521972656,
+    0.006189823150634766
+  ],
+  "nodes": {
+    "Entity-the_problem_of_computing": {
+      "node_id": "the_problem_of_computing",
+      "disambiguation_index": 0,
+      "label": "the problem of computing",
+      "aliases": [
+        "the problem of computing"
+      ],
+      "types": [
+        "problem"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The challenge of calculating the Kullback-Leibler distance, also known as relative entropy, between probabilistic context-free grammars and probabilistic finite automata.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the problem of computing",
+          "local_types": [
+            "problem"
+          ],
+          "iri": "Entity-the_problem_of_computing-Mention-1"
+        }
+      ],
+      "relevance": 0.8564453125
+    },
+    "Entity-we_discus": {
+      "node_id": "we_discus",
+      "disambiguation_index": 0,
+      "label": "We discuss",
+      "aliases": [
+        "several applications of the result",
+        "We discuss"
+      ],
+      "types": [
+        "author",
+        "research",
+        "application"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The discussion of various practical uses and implications of a closed-form solution for the cross-entropy part of Kullback-Leibler distance between probabilistic context-free grammars and finite automata.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "We discuss",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we_discus-Mention-1"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "several applications of the result",
+          "local_types": [
+            "research",
+            "application"
+          ],
+          "iri": "Entity-we_discus-Mention-2"
+        }
+      ],
+      "relevance": 0.83251953125
+    },
+    "Entity-the_cross-entropy": {
+      "node_id": "the_cross-entropy",
+      "disambiguation_index": 0,
+      "label": "the cross-entropy",
+      "aliases": [
+        "the cross-entropy"
+      ],
+      "types": [
+        "cross-entropy",
+        "concept",
+        "metric"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The concept or metric that represents a specific part of the Kullback-Leibler distance between a probabilistic context-free grammar and a probabilistic finite automaton.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the cross-entropy",
+          "local_types": [
+            "cross-entropy",
+            "concept",
+            "metric"
+          ],
+          "iri": "Entity-the_cross-entropy-Mention-1"
+        }
+      ],
+      "relevance": 0.7568359375
+    },
+    "Entity-distributional_approximation_of_probabilistic_context-free_grammar_by_mean_of_probabilistic_finite_automaton": {
+      "node_id": "distributional_approximation_of_probabilistic_context-free_grammar_by_mean_of_probabilistic_finite_automaton",
+      "disambiguation_index": 0,
+      "label": "distributional approximation of probabilistic context-free grammars by means of probabilistic finite automata",
+      "aliases": [
+        "distributional approximation of probabilistic context-free grammars by means of probabilistic finite automata",
+        "the problem of distributional approximation of probabilistic context-free grammars"
+      ],
+      "types": [
+        "problem",
+        "approach",
+        "grammar"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A method for approximating probabilistic context-free grammars using probabilistic finite automata.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "distributional approximation of probabilistic context-free grammars by means of probabilistic finite automata",
+          "local_types": [
+            "problem",
+            "approach"
+          ],
+          "iri": "Entity-distributional_approximation_of_probabilistic_context-free_grammar_by_mean_of_probabilistic_finite_automaton-Mention-1"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the problem of distributional approximation of probabilistic context-free grammars",
+          "local_types": [
+            "problem",
+            "grammar"
+          ],
+          "iri": "Entity-distributional_approximation_of_probabilistic_context-free_grammar_by_mean_of_probabilistic_finite_automaton-Mention-2"
+        }
+      ],
+      "relevance": 0.71484375
+    },
+    "Entity-we_show_that": {
+      "node_id": "we_show_that",
+      "disambiguation_index": 0,
+      "label": "We show that",
+      "aliases": [
+        "We show that"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The existence of a closed-form analytical solution for one part of the Kullback-Leibler distance, specifically cross-entropy.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We show that",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_show_that-Mention-1"
+        }
+      ],
+      "relevance": 0.7001953125
+    },
+    "Entity-kullback-leibler_distance": {
+      "node_id": "kullback-leibler_distance",
+      "disambiguation_index": 0,
+      "label": "Kullback-Leibler distance",
+      "aliases": [
+        "the Kullback-Leibler distance",
+        "Kullback-Leibler distance"
+      ],
+      "types": [
+        "distance",
+        "distance metric",
+        "mathematical concept",
+        "information theory concept",
+        "concept",
+        "metric"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A measure of the difference between two probability distributions.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Kullback-Leibler distance",
+          "local_types": [
+            "distance",
+            "distance metric",
+            "mathematical concept",
+            "information theory concept",
+            "concept",
+            "metric"
+          ],
+          "iri": "Entity-kullback-leibler_distance-Mention-1"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Kullback-Leibler distance",
+          "local_types": [
+            "mathematical concept"
+          ],
+          "iri": "Entity-kullback-leibler_distance-Mention-2"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the Kullback-Leibler distance",
+          "local_types": [
+            "metric"
+          ],
+          "iri": "Entity-kullback-leibler_distance-Mention-3"
+        }
+      ],
+      "relevance": 0.625
+    },
+    "Entity-probabilistic_context-free_grammar": {
+      "node_id": "probabilistic_context-free_grammar",
+      "disambiguation_index": 0,
+      "label": "probabilistic context-free grammar",
+      "aliases": [
+        "probabilistic context-free grammars",
+        "probabilistic context-free grammar",
+        "a probabilistic context-free grammar"
+      ],
+      "types": [
+        "grammar",
+        "computing term",
+        "computer science term",
+        "computational model",
+        "probabilistic model",
+        "computer science",
+        "linguistics",
+        "linguistics term",
+        "concept",
+        "mathematics"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A type of formal language that uses probability theory to generate strings according to certain rules.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "probabilistic context-free grammar",
+          "local_types": [
+            "grammar",
+            "computing term",
+            "computer science term",
+            "computational model",
+            "linguistics",
+            "linguistics term",
+            "concept"
+          ],
+          "iri": "Entity-probabilistic_context-free_grammar-Mention-1"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "probabilistic context-free grammars",
+          "local_types": [
+            "linguistics",
+            "computer science",
+            "mathematics"
+          ],
+          "iri": "Entity-probabilistic_context-free_grammar-Mention-2"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a probabilistic context-free grammar",
+          "local_types": [
+            "grammar",
+            "probabilistic model"
+          ],
+          "iri": "Entity-probabilistic_context-free_grammar-Mention-3"
+        }
+      ],
+      "relevance": 0.58154296875
+    },
+    "Entity-relative_entropy": {
+      "node_id": "relative_entropy",
+      "disambiguation_index": 0,
+      "label": "relative entropy",
+      "aliases": [
+        "relative entropy"
+      ],
+      "types": [
+        "mathematical concept",
+        "concept",
+        "information theory",
+        "entropy"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A measure of the difference between two probability distributions.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "relative entropy",
+          "local_types": [
+            "mathematical concept",
+            "concept",
+            "information theory",
+            "entropy"
+          ],
+          "iri": "Entity-relative_entropy-Mention-1"
+        }
+      ],
+      "relevance": 0.564453125
+    },
+    "Entity-cross-entropy": {
+      "node_id": "cross-entropy",
+      "disambiguation_index": 0,
+      "label": "cross-entropy",
+      "aliases": [
+        "cross-entropy"
+      ],
+      "types": [
+        "statistical measure",
+        "metric",
+        "information theory",
+        "information theory concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measure of information-theoretic divergence between two probability distributions, used in various fields such as machine learning and statistics.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "cross-entropy",
+          "local_types": [
+            "statistical measure",
+            "metric",
+            "information theory",
+            "information theory concept"
+          ],
+          "iri": "Entity-cross-entropy-Mention-1"
+        }
+      ],
+      "relevance": 0.52734375
+    },
+    "Entity-probabilistic_finite_automaton": {
+      "node_id": "probabilistic_finite_automaton",
+      "disambiguation_index": 0,
+      "label": "probabilistic finite automaton",
+      "aliases": [
+        "a probabilistic finite automaton",
+        "probabilistic finite automaton",
+        "probabilistic finite automata"
+      ],
+      "types": [
+        "computer science concept",
+        "algorithmic tool",
+        "automaton",
+        "computing term",
+        "computer science term",
+        "computational model",
+        "automata theory term",
+        "probabilistic model",
+        "computer science",
+        "technology",
+        "concept"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A mathematical model that uses probability theory to recognize patterns in strings of symbols.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "probabilistic finite automaton",
+          "local_types": [
+            "computer science concept",
+            "automaton",
+            "computing term",
+            "computer science term",
+            "computational model",
+            "automata theory term",
+            "computer science",
+            "concept"
+          ],
+          "iri": "Entity-probabilistic_finite_automaton-Mention-1"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "probabilistic finite automata",
+          "local_types": [
+            "computational model",
+            "technology",
+            "algorithmic tool",
+            "automaton"
+          ],
+          "iri": "Entity-probabilistic_finite_automaton-Mention-2"
+        },
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a probabilistic finite automaton",
+          "local_types": [
+            "automaton",
+            "probabilistic model"
+          ],
+          "iri": "Entity-probabilistic_finite_automaton-Mention-3"
+        }
+      ],
+      "relevance": 0.51123046875
+    },
+    "Entity-result": {
+      "node_id": "result",
+      "disambiguation_index": 0,
+      "label": "result",
+      "aliases": [
+        "result"
+      ],
+      "types": [
+        "finding",
+        "conclusion"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A finding or conclusion drawn from a process, investigation, or analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-36-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "result",
+          "local_types": [
+            "finding",
+            "conclusion"
+          ],
+          "iri": "Entity-result-Mention-1"
+        }
+      ],
+      "relevance": 0.43359375
+    }
+  },
+  "summary": "We consider the problem of computing the Kullback-Leibler distance , also called the relative entropy , between a probabilistic context-free grammar and a probabilistic finite automaton . We show that there is a closed-form -LRB- analytical -RRB- solution for one part of the Kullback-Leibler distance , viz the cross-entropy . We discuss several applications of the result to the problem of distributional approximation of probabilistic context-free grammars by means of probabilistic finite automata .",
+  "triples": [
+    [
+      "Entity-the_problem_of_computing",
+      "Predicate-computes",
+      "Entity-kullback-leibler_distance"
+    ],
+    [
+      "Entity-probabilistic_context-free_grammar",
+      "Predicate-has",
+      "Entity-relative_entropy"
+    ],
+    [
+      "Entity-kullback-leibler_distance",
+      "Predicate-is_also_called",
+      "Entity-relative_entropy"
+    ],
+    [
+      "Entity-probabilistic_context-free_grammar",
+      "Predicate-and",
+      "Entity-probabilistic_finite_automaton"
+    ],
+    [
+      "Entity-kullback-leibler_distance",
+      "Predicate-has_a_solution_for",
+      "Entity-the_cross-entropy"
+    ],
+    [
+      "Entity-probabilistic_context-free_grammar",
+      "Predicate-is_approximated_by_means_of",
+      "Entity-probabilistic_finite_automaton"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_cross-entropy",
+      "skos:broader",
+      "Entity-cross-entropy"
+    ]
+  ],
+  "predicates": {
+    "Predicate-computes": {
+      "label": "computes",
+      "description": "Computes refers to a process or operation that takes an input (object) and produces a result based on specific rules, algorithms, or methods. It indicates a transformation of information from one form to another, often involving mathematical or logical manipulation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' indicates a relationship of possession or association between the subject and object. It suggests that the subject possesses, contains, or is characterized by the properties or attributes described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_also_called": {
+      "label": "is also called",
+      "description": "The predicate 'is also called' indicates a synonymic relationship between the subject and object. It suggests that the subject has an alternative name or term that is equivalent to, but not necessarily identical with, the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-and": {
+      "label": "and",
+      "description": "The predicate 'and' indicates a conjunction or relationship between two entities (subject and object), suggesting that they share common characteristics, properties, or attributes. It implies an equivalence or similarity between the subject and object, highlighting their connection through shared features.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has_a_solution_for": {
+      "label": "has a solution for",
+      "description": "The predicate 'has a solution for' indicates that there exists an approach or method (the subject) that can effectively address or resolve a particular problem or challenge (the object).",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_approximated_by_means_of": {
+      "label": "is approximated by means of",
+      "description": "The predicate 'is approximated by means of' indicates a relationship between two entities where one entity (the subject) can be effectively represented or modeled using another entity (the object). The connection suggests that the subject's underlying structure, behavior, or properties are captured or simplified through the use of the object. In general, this predicate implies an approximation or simplification of the subject by leveraging the characteristics and capabilities of the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or example of a more general concept or category represented by the object. In other words, it establishes a hierarchical relationship between the two entities, where the subject is a narrower or more specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

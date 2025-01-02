@@ -1,0 +1,973 @@
+{
+  "iri": "Paper-29",
+  "title": "C04-1103",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-29-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-29-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-29-Section-1-Paragraph-1-Sentence-1",
+              "text": "Machine transliteration/back-transliteration plays an important role in many multilingual speech and language applications ."
+            },
+            {
+              "iri": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this paper , a novel framework for machine transliteration/backtransliteration that allows us to carry out direct orthographical mapping -LRB- DOM -RRB- between two different languages is presented ."
+            },
+            {
+              "iri": "Paper-29-Section-1-Paragraph-1-Sentence-3",
+              "text": "Under this framework , a joint source-channel transliteration model , also called n-gram transliteration model -LRB- n-gram TM -RRB- , is further proposed to model the transliteration process ."
+            },
+            {
+              "iri": "Paper-29-Section-1-Paragraph-1-Sentence-4",
+              "text": "We evaluate the proposed methods through several transliteration/backtransliteration experiments for English/Chinese and English/Japanese language pairs ."
+            },
+            {
+              "iri": "Paper-29-Section-1-Paragraph-1-Sentence-5",
+              "text": "Our study reveals that the proposed method not only reduces an extensive system development effort but also improves the transliteration accuracy significantly ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0007317066192626953,
+    13.44559907913208,
+    18.433674097061157,
+    17.273508071899414,
+    0.0417330265045166,
+    0.00010919570922851562,
+    0.00013494491577148438,
+    18.92480707168579,
+    27.498232126235962,
+    3.3124659061431885,
+    25.772582054138184,
+    0.009028196334838867,
+    0.0001609325408935547,
+    12.219444990158081,
+    0.0016589164733886719,
+    0.028365135192871094,
+    0.0014960765838623047,
+    4.179188013076782,
+    1.172623872756958,
+    0.9160139560699463,
+    42.28887987136841,
+    6.290140151977539,
+    35.27843904495239,
+    3.0703938007354736,
+    0.0008909702301025391,
+    0.0076749324798583984
+  ],
+  "nodes": {
+    "Entity-the_proposed_method": {
+      "node_id": "the_proposed_method",
+      "disambiguation_index": 0,
+      "label": "the proposed methods",
+      "aliases": [
+        "the proposed method",
+        "the proposed methods"
+      ],
+      "types": [
+        "methods",
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The proposed methods refer to the novel framework and the joint source-channel transliteration model (n-gram TM) developed for machine transliteration/back-transliteration between different languages, specifically evaluated through experiments involving English/Chinese and English/Japanese language pairs.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the proposed methods",
+          "local_types": [
+            "methods",
+            "method"
+          ],
+          "iri": "Entity-the_proposed_method-Mention-1"
+        }
+      ],
+      "relevance": 0.8056640625
+    },
+    "Entity-joint_source-channel_transliteration_model": {
+      "node_id": "joint_source-channel_transliteration_model",
+      "disambiguation_index": 0,
+      "label": "joint source-channel transliteration model",
+      "aliases": [
+        "joint source-channel transliteration model",
+        "the proposed method"
+      ],
+      "types": [
+        "transliteration model",
+        "model",
+        "method",
+        "transliteration"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The joint source-channel transliteration model, also known as the n-gram transliteration model, is a proposed framework for machine transliteration that utilizes a joint approach to effectively model the transliteration process between different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "joint source-channel transliteration model",
+          "local_types": [
+            "transliteration model",
+            "model",
+            "method",
+            "transliteration"
+          ],
+          "iri": "Entity-joint_source-channel_transliteration_model-Mention-1"
+        },
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the proposed method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-joint_source-channel_transliteration_model-Mention-2"
+        }
+      ],
+      "relevance": 0.76220703125
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "document"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents a novel framework for machine transliteration and back-transliteration that enables direct orthographical mapping between different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this paper",
+          "local_types": [
+            "document"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.73974609375
+    },
+    "Entity-direct_orthographical_mapping": {
+      "node_id": "direct_orthographical_mapping",
+      "disambiguation_index": 0,
+      "label": "direct orthographical mapping",
+      "aliases": [
+        "direct orthographical mapping"
+      ],
+      "types": [
+        "mapping",
+        "linguistic mapping",
+        "concept",
+        "method",
+        "process",
+        "framework",
+        "mapping technique"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Direct orthographical mapping (DOM) refers to a method within a novel framework for machine transliteration/back-transliteration that facilitates the direct conversion of written forms between two different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "direct orthographical mapping",
+          "local_types": [
+            "mapping",
+            "linguistic mapping",
+            "concept",
+            "method",
+            "process",
+            "framework",
+            "mapping technique"
+          ],
+          "iri": "Entity-direct_orthographical_mapping-Mention-1"
+        }
+      ],
+      "relevance": 0.72412109375
+    },
+    "Entity-two_different_language": {
+      "node_id": "two_different_language",
+      "disambiguation_index": 0,
+      "label": "two different languages",
+      "aliases": [
+        "two different languages"
+      ],
+      "types": [
+        "language"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'two different languages' refers to distinct linguistic systems that are utilized in the context of machine transliteration and back-transliteration processes, specifically in the framework presented for direct orthographical mapping between language pairs such as English/Chinese and English/Japanese.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "two different languages",
+          "local_types": [
+            "language"
+          ],
+          "iri": "Entity-two_different_language-Mention-1"
+        }
+      ],
+      "relevance": 0.70458984375
+    },
+    "Entity-framework": {
+      "node_id": "framework",
+      "disambiguation_index": 0,
+      "label": "framework",
+      "aliases": [
+        "framework",
+        "novel framework",
+        "a novel framework for machine transliteration/backtransliteration"
+      ],
+      "types": [
+        "system",
+        "transliteration",
+        "method",
+        "methodology",
+        "framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The 'framework' refers to a novel methodology for machine transliteration and back-transliteration that facilitates direct orthographical mapping between different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "framework",
+          "local_types": [
+            "methodology",
+            "system"
+          ],
+          "iri": "Entity-framework-Mention-1"
+        },
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "novel framework",
+          "local_types": [
+            "framework",
+            "methodology"
+          ],
+          "iri": "Entity-framework-Mention-2"
+        },
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a novel framework for machine transliteration/backtransliteration",
+          "local_types": [
+            "framework",
+            "method",
+            "transliteration"
+          ],
+          "iri": "Entity-framework-Mention-3"
+        }
+      ],
+      "relevance": 0.6982421875
+    },
+    "Entity-transliterationbacktransliteration_experiment": {
+      "node_id": "transliterationbacktransliteration_experiment",
+      "disambiguation_index": 0,
+      "label": "transliteration/backtransliteration experiments",
+      "aliases": [
+        "transliteration/backtransliteration experiments"
+      ],
+      "types": [
+        "research study",
+        "experiment",
+        "transliteration"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'transliteration/backtransliteration experiments' refer to the evaluations conducted to assess the effectiveness of a novel machine transliteration framework applied to English/Chinese and English/Japanese language pairs.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "transliteration/backtransliteration experiments",
+          "local_types": [
+            "research study",
+            "experiment",
+            "transliteration"
+          ],
+          "iri": "Entity-transliterationbacktransliteration_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.693359375
+    },
+    "Entity-machine_transliterationback-transliteration": {
+      "node_id": "machine_transliterationback-transliteration",
+      "disambiguation_index": 0,
+      "label": "Machine transliteration/back-transliteration",
+      "aliases": [
+        "Machine transliteration/back-transliteration"
+      ],
+      "types": [
+        "transliteration",
+        "language technology",
+        "technology",
+        "concept",
+        "method",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Machine transliteration/back-transliteration refers to the computational methods used to convert text from one writing system to another and vice versa, facilitating the representation of words across different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Machine transliteration/back-transliteration",
+          "local_types": [
+            "transliteration",
+            "language technology",
+            "technology",
+            "concept",
+            "method",
+            "process"
+          ],
+          "iri": "Entity-machine_transliterationback-transliteration-Mention-1"
+        }
+      ],
+      "relevance": 0.68994140625
+    },
+    "Entity-n-gram_transliteration_model": {
+      "node_id": "n-gram_transliteration_model",
+      "disambiguation_index": 0,
+      "label": "n-gram transliteration model",
+      "aliases": [
+        "n-gram TM",
+        "n-gram transliteration model"
+      ],
+      "types": [
+        "transliteration model",
+        "algorithm",
+        "transliteration",
+        "model",
+        "method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "An n-gram transliteration model is a statistical approach used in natural language processing to convert text from one script to another by analyzing sequences of n items (n-grams) in the source language.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "n-gram transliteration model",
+          "local_types": [
+            "transliteration model",
+            "algorithm",
+            "transliteration",
+            "model",
+            "method"
+          ],
+          "iri": "Entity-n-gram_transliteration_model-Mention-1"
+        },
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "n-gram TM",
+          "local_types": [
+            "model",
+            "transliteration model"
+          ],
+          "iri": "Entity-n-gram_transliteration_model-Mention-2"
+        }
+      ],
+      "relevance": 0.67529296875
+    },
+    "Entity-study": {
+      "node_id": "study",
+      "disambiguation_index": 0,
+      "label": "study",
+      "aliases": [
+        "Our study",
+        "study"
+      ],
+      "types": [
+        "project",
+        "research",
+        "research program"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The study refers to the evaluation of a novel framework for machine transliteration/back-transliteration, which demonstrates improvements in transliteration accuracy and reduces system development effort.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "study",
+          "local_types": [
+            "research program",
+            "project"
+          ],
+          "iri": "Entity-study-Mention-1"
+        },
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Our study",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-study-Mention-2"
+        }
+      ],
+      "relevance": 0.67236328125
+    },
+    "Entity-orthographical_mapping": {
+      "node_id": "orthographical_mapping",
+      "disambiguation_index": 0,
+      "label": "orthographical mapping",
+      "aliases": [
+        "orthographical mapping"
+      ],
+      "types": [
+        "linguistic process",
+        "mapping technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Orthographical mapping is a linguistic process that involves the representation of the written forms of words from one language to another, facilitating the conversion of text between different orthographies.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "orthographical mapping",
+          "local_types": [
+            "linguistic process",
+            "mapping technique"
+          ],
+          "iri": "Entity-orthographical_mapping-Mention-1"
+        }
+      ],
+      "relevance": 0.630859375
+    },
+    "Entity-language": {
+      "node_id": "language",
+      "disambiguation_index": 0,
+      "label": "languages",
+      "aliases": [
+        "languages"
+      ],
+      "types": [
+        "communication system",
+        "linguistic entities"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'languages' refers to distinct systems of communication, specifically the English, Chinese, and Japanese languages, involved in the context of machine transliteration and back-transliteration processes discussed in the paper.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "languages",
+          "local_types": [
+            "communication system",
+            "linguistic entities"
+          ],
+          "iri": "Entity-language-Mention-1"
+        }
+      ],
+      "relevance": 0.62451171875
+    },
+    "Entity-transliteration_accuracy": {
+      "node_id": "transliteration_accuracy",
+      "disambiguation_index": 0,
+      "label": "transliteration accuracy",
+      "aliases": [
+        "transliteration accuracy"
+      ],
+      "types": [
+        "accuracy",
+        "evaluation criterion",
+        "accuracy measure",
+        "performance measure",
+        "performance metric",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Transliteration accuracy refers to the degree to which a transliteration process correctly represents the sounds or characters of a source language in a target language, often evaluated as a performance metric in linguistic and computational applications.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "transliteration accuracy",
+          "local_types": [
+            "accuracy",
+            "evaluation criterion",
+            "accuracy measure",
+            "performance measure",
+            "performance metric",
+            "metric"
+          ],
+          "iri": "Entity-transliteration_accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.61474609375
+    },
+    "Entity-transliteration_process": {
+      "node_id": "transliteration_process",
+      "disambiguation_index": 0,
+      "label": "transliteration process",
+      "aliases": [
+        "the transliteration process",
+        "transliteration process"
+      ],
+      "types": [
+        "transliteration",
+        "language technology",
+        "linguistic process",
+        "process",
+        "language processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The transliteration process is a linguistic method that involves converting text from one writing system into another while preserving the original phonetic sounds.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "transliteration process",
+          "local_types": [
+            "transliteration",
+            "language technology",
+            "linguistic process",
+            "process",
+            "language processing"
+          ],
+          "iri": "Entity-transliteration_process-Mention-1"
+        },
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the transliteration process",
+          "local_types": [
+            "process",
+            "transliteration"
+          ],
+          "iri": "Entity-transliteration_process-Mention-2"
+        }
+      ],
+      "relevance": 0.611328125
+    },
+    "Entity-englishjapanese": {
+      "node_id": "englishjapanese",
+      "disambiguation_index": 0,
+      "label": "English/Japanese",
+      "aliases": [
+        "English/Japanese"
+      ],
+      "types": [
+        "language pair",
+        "language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "English/Japanese refers to a language pair used in transliteration and back-transliteration experiments, specifically involving the English and Japanese languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "English/Japanese",
+          "local_types": [
+            "language pair",
+            "language"
+          ],
+          "iri": "Entity-englishjapanese-Mention-1"
+        }
+      ],
+      "relevance": 0.6083984375
+    },
+    "Entity-englishchinese": {
+      "node_id": "englishchinese",
+      "disambiguation_index": 0,
+      "label": "English/Chinese",
+      "aliases": [
+        "English/Chinese"
+      ],
+      "types": [
+        "language pair",
+        "language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "English/Chinese refers to a language pair used in transliteration and back-transliteration experiments, specifically involving the English and Chinese languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "English/Chinese",
+          "local_types": [
+            "language pair",
+            "language"
+          ],
+          "iri": "Entity-englishchinese-Mention-1"
+        }
+      ],
+      "relevance": 0.60205078125
+    },
+    "Entity-multilingual_speech_and_language_application": {
+      "node_id": "multilingual_speech_and_language_application",
+      "disambiguation_index": 0,
+      "label": "multilingual speech and language applications",
+      "aliases": [
+        "multilingual speech and language applications"
+      ],
+      "types": [
+        "field",
+        "technology",
+        "application",
+        "speech",
+        "language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Multilingual speech and language applications are software systems or tools designed to process, analyze, and generate spoken and written language in multiple languages, facilitating communication and understanding across linguistic barriers.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "multilingual speech and language applications",
+          "local_types": [
+            "field",
+            "technology",
+            "application",
+            "speech",
+            "language"
+          ],
+          "iri": "Entity-multilingual_speech_and_language_application-Mention-1"
+        }
+      ],
+      "relevance": 0.5576171875
+    },
+    "Entity-englishchinese_and_englishjapanese_language_pair": {
+      "node_id": "englishchinese_and_englishjapanese_language_pair",
+      "disambiguation_index": 0,
+      "label": "English/Chinese and English/Japanese language pairs",
+      "aliases": [
+        "English/Chinese and English/Japanese language pairs"
+      ],
+      "types": [
+        "language pair",
+        "language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "English/Chinese and English/Japanese language pairs refer to the combinations of the English language with Chinese and Japanese languages, respectively, used for translation or linguistic studies.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "English/Chinese and English/Japanese language pairs",
+          "local_types": [
+            "language pair",
+            "language"
+          ],
+          "iri": "Entity-englishchinese_and_englishjapanese_language_pair-Mention-1"
+        }
+      ],
+      "relevance": 0.55029296875
+    },
+    "Entity-system_development_effort": {
+      "node_id": "system_development_effort",
+      "disambiguation_index": 0,
+      "label": "system development effort",
+      "aliases": [
+        "system development effort"
+      ],
+      "types": [
+        "effort",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'system development effort' refers to the resources, time, and complexity involved in creating and implementing a machine transliteration framework that enhances transliteration accuracy between different languages.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "system development effort",
+          "local_types": [
+            "effort",
+            "process"
+          ],
+          "iri": "Entity-system_development_effort-Mention-1"
+        }
+      ],
+      "relevance": 0.55029296875
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "methods",
+      "aliases": [
+        "methods",
+        "method"
+      ],
+      "types": [
+        "technique",
+        "techniques",
+        "approach",
+        "research methods"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Methods refer to systematic techniques or approaches used to conduct research or experiments in various fields.",
+      "mentions": [
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "methods",
+          "local_types": [
+            "research methods",
+            "techniques"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-29-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "method",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-2"
+        }
+      ],
+      "relevance": 0.4248046875
+    }
+  },
+  "summary": "Machine transliteration/back-transliteration plays an important role in many multilingual speech and language applications . In this paper , a novel framework for machine transliteration/backtransliteration that allows us to carry out direct orthographical mapping -LRB- DOM -RRB- between two different languages is presented . Under this framework , a joint source-channel transliteration model , also called n-gram transliteration model -LRB- n-gram TM -RRB- , is further proposed to model the transliteration process . We evaluate the proposed methods through several transliteration/backtransliteration experiments for English/Chinese and English/Japanese language pairs . Our study reveals that the proposed method not only reduces an extensive system development effort but also improves the transliteration accuracy significantly .",
+  "triples": [
+    [
+      "Entity-machine_transliterationback-transliteration",
+      "Predicate-plays_an_important_role_in",
+      "Entity-multilingual_speech_and_language_application"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-framework"
+    ],
+    [
+      "Entity-framework",
+      "Predicate-allows",
+      "Entity-direct_orthographical_mapping"
+    ],
+    [
+      "Entity-framework",
+      "Predicate-allows",
+      "Entity-two_different_language"
+    ],
+    [
+      "Entity-framework",
+      "Predicate-allows_us_to_carry_out",
+      "Entity-direct_orthographical_mapping"
+    ],
+    [
+      "Entity-joint_source-channel_transliteration_model",
+      "Predicate-is_proposed_to_model",
+      "Entity-transliteration_process"
+    ],
+    [
+      "Entity-n-gram_transliteration_model",
+      "Predicate-is_also_called",
+      "Entity-n-gram_transliteration_model"
+    ],
+    [
+      "Entity-the_proposed_method",
+      "Predicate-evaluate_through",
+      "Entity-transliterationbacktransliteration_experiment"
+    ],
+    [
+      "Entity-transliterationbacktransliteration_experiment",
+      "Predicate-for",
+      "Entity-englishchinese_and_englishjapanese_language_pair"
+    ],
+    [
+      "Entity-the_proposed_method",
+      "Predicate-evaluate",
+      "Entity-transliterationbacktransliteration_experiment"
+    ],
+    [
+      "Entity-study",
+      "Predicate-reveals",
+      "Entity-joint_source-channel_transliteration_model"
+    ],
+    [
+      "Entity-joint_source-channel_transliteration_model",
+      "Predicate-reduces",
+      "Entity-system_development_effort"
+    ],
+    [
+      "Entity-joint_source-channel_transliteration_model",
+      "Predicate-improves",
+      "Entity-transliteration_accuracy"
+    ],
+    [
+      "Entity-framework",
+      "Predicate-is_further_proposed_to_model",
+      "Entity-transliteration_process"
+    ],
+    [
+      "Entity-the_proposed_method",
+      "Predicate-evaluate",
+      "Entity-joint_source-channel_transliteration_model"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-transliterationbacktransliteration_experiment",
+      "skos:broader",
+      "Entity-transliteration_process"
+    ],
+    [
+      "Entity-machine_transliterationback-transliteration",
+      "skos:broader",
+      "Entity-transliteration_process"
+    ],
+    [
+      "Entity-direct_orthographical_mapping",
+      "skos:broader",
+      "Entity-framework"
+    ],
+    [
+      "Entity-two_different_language",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-multilingual_speech_and_language_application",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-n-gram_transliteration_model",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_proposed_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-n-gram_transliteration_model",
+      "skos:broader",
+      "Entity-transliteration_process"
+    ],
+    [
+      "Entity-englishjapanese",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-englishchinese",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-englishchinese_and_englishjapanese_language_pair",
+      "skos:broader",
+      "Entity-language"
+    ],
+    [
+      "Entity-direct_orthographical_mapping",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-joint_source-channel_transliteration_model",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-framework",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-framework",
+      "skos:broader",
+      "Entity-transliteration_process"
+    ],
+    [
+      "Entity-joint_source-channel_transliteration_model",
+      "skos:broader",
+      "Entity-transliteration_process"
+    ],
+    [
+      "Entity-n-gram_transliteration_model",
+      "skos:broader",
+      "Entity-joint_source-channel_transliteration_model"
+    ],
+    [
+      "Entity-machine_transliterationback-transliteration",
+      "skos:broader",
+      "Entity-method"
+    ]
+  ],
+  "predicates": {
+    "Predicate-plays_an_important_role_in": {
+      "label": "plays an important role in",
+      "description": "The predicate 'plays an important role in' indicates that the subject is a significant contributor or factor in the context of the object. It suggests that the subject has a crucial influence, function, or impact on the development, effectiveness, or success of the object, highlighting the interdependence between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject is introducing, showcasing, or delivering information, ideas, or concepts related to the object. It implies a formal or structured communication where the subject conveys the significance, details, or characteristics of the object to an audience.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allows": {
+      "label": "allows",
+      "description": "The predicate 'allows' indicates that the subject provides the capability, permission, or opportunity for the object to occur or be realized. It establishes a relationship where the subject facilitates or enables the action, process, or state represented by the object, suggesting a supportive or enabling role.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allows_us_to_carry_out": {
+      "label": "allows us to carry out",
+      "description": "The predicate 'allows us to carry out' indicates that the subject provides the means, capability, or permission to perform or execute the action or process described by the object. It establishes a functional relationship where the subject facilitates the realization of the object, enabling the execution of specific tasks or activities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_proposed_to_model": {
+      "label": "is proposed to model",
+      "description": "The predicate 'is proposed to model' indicates that the subject is being suggested or put forward as a theoretical or practical framework to represent, simulate, or analyze the characteristics and dynamics of the object. This connection implies that the subject serves as a conceptual or computational tool aimed at understanding or replicating the processes or phenomena described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_also_called": {
+      "label": "is also called",
+      "description": "The predicate 'is also called' establishes a synonymy or alternative naming relationship between the subject and the object, indicating that both terms refer to the same concept, entity, or phenomenon. It suggests that the object is another name or designation that can be used interchangeably with the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluate_through": {
+      "label": "evaluate through",
+      "description": "The predicate 'evaluate through' indicates a method or process by which the subject is assessed or analyzed, utilizing the object as a means or framework for this evaluation. It implies that the subject's effectiveness, performance, or quality is determined by conducting specific activities or experiments represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-for": {
+      "label": "for",
+      "description": "The predicate 'for' indicates a relationship of purpose, benefit, or relevance between the subject and the object. It connects the subject to the object by specifying the context, application, or intended audience for the subject, suggesting that the subject serves a function or is applicable in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluate": {
+      "label": "evaluate",
+      "description": "The predicate 'evaluate' signifies the action of assessing or measuring the effectiveness, performance, or quality of the subject in relation to the object. In this context, it indicates that the subject is being analyzed or tested against the criteria or outcomes represented by the object, thereby establishing a relationship where the subject's capabilities or results are scrutinized through the lens of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-reveals": {
+      "label": "reveals",
+      "description": "The predicate 'reveals' indicates that the subject provides information or insight that uncovers or makes known the characteristics, details, or existence of the object. It suggests a process of discovery or clarification where the subject contributes to understanding the object more fully.",
+      "disambiguation_index": 0
+    },
+    "Predicate-reduces": {
+      "label": "reduces",
+      "description": "The predicate 'reduces' indicates a relationship where the subject has a diminishing effect on the object, leading to a decrease in the quantity, intensity, or complexity of the object. In this context, it suggests that the subject contributes to making the object less significant or burdensome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improves": {
+      "label": "improves",
+      "description": "The predicate 'improves' indicates a positive enhancement or increase in the quality, performance, or effectiveness of the object as a result of the influence or action of the subject. It establishes a relationship where the subject contributes to making the object better or more effective in some capacity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_further_proposed_to_model": {
+      "label": "is further proposed to model",
+      "description": "The predicate 'is further proposed to model' indicates a suggestion or recommendation that the subject serves as a framework or basis for understanding, analyzing, or representing the object. It implies that the subject has qualities or characteristics that make it suitable for effectively illustrating or simulating the processes, concepts, or phenomena represented by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or concept that falls under the wider category or concept represented by the object. This relationship suggests that the object encompasses a broader scope or definition that includes the subject as a subset, thereby facilitating an understanding of the subject's place within a larger framework of related ideas or processes.",
+      "disambiguation_index": 0
+    }
+  }
+}

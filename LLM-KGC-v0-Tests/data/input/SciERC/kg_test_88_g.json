@@ -1,0 +1,2075 @@
+{
+  "iri": "Paper-88",
+  "title": "ECCV_2016_212_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-88-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-88-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-1",
+              "text": "Person re-identification is challenging due to the large variations of pose , illumination , occlusion and camera view ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+              "text": "Owing to these variations , the pedestrian data is distributed as highly-curved manifolds in the feature space , despite the current convolutional neural networks -LRB- CNN -RRB- 's capability of feature extraction ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-3",
+              "text": "However , the distribution is unknown , so it is difficult to use the geodesic distance when comparing two samples ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+              "text": "In practice , the current deep embedding methods use the Euclidean distance for the training and test ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+              "text": "On the other hand , the manifold learning methods suggest to use the Euclidean distance in the local range , combining with the graphical relationship between samples , for approximating the geodesic distance ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+              "text": "From this point of view , selecting suitable positive -LRB- i.e. intra-class -RRB- training samples within a local range is critical for training the CNN embedding , especially when the data has large intra-class variations ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+              "text": "In this paper , we propose a novel moderate positive sample mining method to train robust CNN for person re-identification , dealing with the problem of large variation ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+              "text": "In addition , we improve the learning by a metric weight constraint , so that the learned metric has a better generalization ability ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+              "text": "Experiments show that these two strategies are effective in learning robust deep metrics for person re-identification , and accordingly our deep model significantly outperforms the state-of-the-art methods on several benchmarks of person re-identification ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-10",
+              "text": "Therefore , the study presented in this paper may be useful in inspiring new designs of deep models for person re-identification ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.002785205841064453,
+    97.34390616416931,
+    112.8612470626831,
+    101.6820421218872,
+    0.08266806602478027,
+    0.0004990100860595703,
+    0.0002238750457763672,
+    532.853031873703,
+    535.2444019317627,
+    7.5920820236206055,
+    142.65811395645142,
+    0.019726991653442383,
+    0.001110076904296875,
+    110.4454460144043,
+    0.0019991397857666016,
+    0.055239200592041016,
+    0.0019609928131103516,
+    7.339751243591309,
+    69.45221304893494,
+    90.11057496070862,
+    795.2920441627502,
+    13.458127975463867,
+    343.4181499481201,
+    4.730009078979492,
+    0.0019211769104003906,
+    0.018656015396118164
+  ],
+  "nodes": {
+    "Entity-novel_moderate_positive_sample_mining_method": {
+      "node_id": "novel_moderate_positive_sample_mining_method",
+      "disambiguation_index": 0,
+      "label": "novel moderate positive sample mining method",
+      "aliases": [
+        "novel moderate positive sample mining method"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The novel moderate positive sample mining method is a technique designed to enhance the training of convolutional neural networks (CNNs) for person re-identification by effectively selecting suitable intra-class training samples within a local range, addressing the challenges posed by large variations in pedestrian data.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "novel moderate positive sample mining method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-novel_moderate_positive_sample_mining_method-Mention-1"
+        }
+      ],
+      "relevance": 0.76416015625
+    },
+    "Entity-moderate_positive_sample_mining_method": {
+      "node_id": "moderate_positive_sample_mining_method",
+      "disambiguation_index": 0,
+      "label": "moderate positive sample mining method",
+      "aliases": [
+        "this paper",
+        "moderate positive sample mining method"
+      ],
+      "types": [
+        "algorithm",
+        "research",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The moderate positive sample mining method is a novel approach proposed to enhance the training of convolutional neural networks (CNNs) for person re-identification by effectively selecting suitable intra-class training samples within a local range, addressing the challenges posed by large variations in pedestrian data.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "moderate positive sample mining method",
+          "local_types": [
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-moderate_positive_sample_mining_method-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "this paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-moderate_positive_sample_mining_method-Mention-2"
+        }
+      ],
+      "relevance": 0.76123046875
+    },
+    "Entity-learning_robust_deep_metric": {
+      "node_id": "learning_robust_deep_metric",
+      "disambiguation_index": 0,
+      "label": "learning robust deep metrics",
+      "aliases": [
+        "learning robust deep metrics"
+      ],
+      "types": [
+        "learning",
+        "metric"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Learning robust deep metrics refers to the process of developing deep learning models that effectively capture and generalize the underlying relationships in complex data distributions, particularly for tasks like person re-identification, by utilizing strategies such as positive sample mining and metric weight constraints to enhance performance against variations in pose, illumination, and occlusion.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "learning robust deep metrics",
+          "local_types": [
+            "learning",
+            "metric"
+          ],
+          "iri": "Entity-learning_robust_deep_metric-Mention-1"
+        }
+      ],
+      "relevance": 0.724609375
+    },
+    "Entity-deep_embedding_method": {
+      "node_id": "deep_embedding_method",
+      "disambiguation_index": 0,
+      "label": "deep embedding methods",
+      "aliases": [
+        "deep embedding methods",
+        "the current deep embedding methods"
+      ],
+      "types": [
+        "machine learning technique",
+        "algorithm",
+        "machine learning",
+        "method",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Deep embedding methods refer to machine learning techniques that utilize deep neural networks to learn representations of data in a high-dimensional space, often employing Euclidean distance for training and testing, particularly in the context of tasks like person re-identification.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "deep embedding methods",
+          "local_types": [
+            "machine learning technique",
+            "algorithm",
+            "machine learning",
+            "method",
+            "methodology"
+          ],
+          "iri": "Entity-deep_embedding_method-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the current deep embedding methods",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-deep_embedding_method-Mention-2"
+        }
+      ],
+      "relevance": 0.72412109375
+    },
+    "Entity-robust_cnn": {
+      "node_id": "robust_cnn",
+      "disambiguation_index": 0,
+      "label": "robust CNN",
+      "aliases": [
+        "robust CNN"
+      ],
+      "types": [
+        "model",
+        "CNN"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Robust CNN refers to a convolutional neural network model specifically designed to enhance person re-identification performance by effectively handling large variations in pose, illumination, occlusion, and camera view through novel training methods and improved metric learning.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "robust CNN",
+          "local_types": [
+            "model",
+            "CNN"
+          ],
+          "iri": "Entity-robust_cnn-Mention-1"
+        }
+      ],
+      "relevance": 0.712890625
+    },
+    "Entity-strategy": {
+      "node_id": "strategy",
+      "disambiguation_index": 0,
+      "label": "strategies",
+      "aliases": [
+        "these two strategies",
+        "strategies"
+      ],
+      "types": [
+        "approach",
+        "strategy",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'strategies' refers to two specific methods proposed in the paper for improving the training of convolutional neural networks (CNNs) in person re-identification, which include a novel moderate positive sample mining method and a metric weight constraint to enhance the learning of robust deep metrics.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "strategies",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-strategy-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "these two strategies",
+          "local_types": [
+            "strategy"
+          ],
+          "iri": "Entity-strategy-Mention-2"
+        }
+      ],
+      "relevance": 0.70751953125
+    },
+    "Entity-study": {
+      "node_id": "study",
+      "disambiguation_index": 0,
+      "label": "study",
+      "aliases": [
+        "the study presented in this paper",
+        "study"
+      ],
+      "types": [
+        "research",
+        "research program",
+        "project"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The study refers to the research presented in the paper that proposes a novel method for moderate positive sample mining to enhance the training of convolutional neural networks for person re-identification.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "study",
+          "local_types": [
+            "research",
+            "project",
+            "research program"
+          ],
+          "iri": "Entity-study-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "the study presented in this paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-study-Mention-2"
+        }
+      ],
+      "relevance": 0.6982421875
+    },
+    "Entity-our_deep_model": {
+      "node_id": "our_deep_model",
+      "disambiguation_index": 0,
+      "label": "our deep model",
+      "aliases": [
+        "our deep model"
+      ],
+      "types": [
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our deep model refers to a novel convolutional neural network (CNN) designed for person re-identification that incorporates a moderate positive sample mining method and a metric weight constraint to enhance robustness and generalization, significantly outperforming existing state-of-the-art methods.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "our deep model",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-our_deep_model-Mention-1"
+        }
+      ],
+      "relevance": 0.69140625
+    },
+    "Entity-suitable_positive_-lrb-_i.e_._intra-class_-rrb-_training_sample": {
+      "node_id": "suitable_positive_-lrb-_i.e_._intra-class_-rrb-_training_sample",
+      "disambiguation_index": 0,
+      "label": "suitable positive -LRB- i.e. intra-class -RRB- training samples",
+      "aliases": [
+        "suitable positive -LRB- i.e. intra-class -RRB- training samples"
+      ],
+      "types": [
+        "training sample",
+        "positive sample"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Suitable positive (intra-class) training samples refer to specific examples from the same class that are selected within a local range to effectively train convolutional neural networks (CNNs) for tasks like person re-identification, particularly in scenarios with significant variations among samples.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "suitable positive -LRB- i.e. intra-class -RRB- training samples",
+          "local_types": [
+            "training sample",
+            "positive sample"
+          ],
+          "iri": "Entity-suitable_positive_-lrb-_i.e_._intra-class_-rrb-_training_sample-Mention-1"
+        }
+      ],
+      "relevance": 0.68017578125
+    },
+    "Entity-local_range": {
+      "node_id": "local_range",
+      "disambiguation_index": 0,
+      "label": "local range",
+      "aliases": [
+        "local range"
+      ],
+      "types": [
+        "concept",
+        "data range",
+        "spatial concept",
+        "parameter",
+        "range"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'local range' refers to a specific subset of data points in the feature space that are used in manifold learning methods to apply Euclidean distance for approximating geodesic distance, particularly in the context of selecting suitable positive training samples for improving the performance of convolutional neural networks in person re-identification.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "local range",
+          "local_types": [
+            "concept",
+            "spatial concept",
+            "range"
+          ],
+          "iri": "Entity-local_range-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "local range",
+          "local_types": [
+            "range",
+            "parameter",
+            "data range"
+          ],
+          "iri": "Entity-local_range-Mention-2"
+        }
+      ],
+      "relevance": 0.67529296875
+    },
+    "Entity-the_training_and_test": {
+      "node_id": "the_training_and_test",
+      "disambiguation_index": 0,
+      "label": "the training and test",
+      "aliases": [
+        "the training and test"
+      ],
+      "types": [
+        "process"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The training and test refer to the processes involved in training and evaluating deep embedding methods, specifically using Euclidean distance to assess the performance of models in person re-identification tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the training and test",
+          "local_types": [
+            "process"
+          ],
+          "iri": "Entity-the_training_and_test-Mention-1"
+        }
+      ],
+      "relevance": 0.67333984375
+    },
+    "Entity-the_learned_metric": {
+      "node_id": "the_learned_metric",
+      "disambiguation_index": 0,
+      "label": "the learned metric",
+      "aliases": [
+        "the learned metric"
+      ],
+      "types": [
+        "metric"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The learned metric refers to a distance measure that is optimized during the training of a convolutional neural network (CNN) for person re-identification, incorporating a metric weight constraint to enhance its generalization ability across varying conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "the learned metric",
+          "local_types": [
+            "metric"
+          ],
+          "iri": "Entity-the_learned_metric-Mention-1"
+        }
+      ],
+      "relevance": 0.669921875
+    },
+    "Entity-positive": {
+      "node_id": "positive",
+      "disambiguation_index": 0,
+      "label": "positive",
+      "aliases": [
+        "positive"
+      ],
+      "types": [
+        "sample",
+        "data type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'positive' refers to suitable intra-class training samples that are selected within a local range, which are critical for training convolutional neural network embeddings in the context of person re-identification.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "positive",
+          "local_types": [
+            "sample",
+            "data type"
+          ],
+          "iri": "Entity-positive-Mention-1"
+        }
+      ],
+      "relevance": 0.66455078125
+    },
+    "Entity-cnn_embedding": {
+      "node_id": "cnn_embedding",
+      "disambiguation_index": 0,
+      "label": "CNN embedding",
+      "aliases": [
+        "CNN embedding"
+      ],
+      "types": [
+        "CNN",
+        "embedding",
+        "model",
+        "neural network",
+        "machine learning model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "CNN embedding refers to a representation learning technique that utilizes Convolutional Neural Networks (CNNs) to transform input data into a lower-dimensional space, capturing essential features for tasks such as classification or clustering.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "CNN embedding",
+          "local_types": [
+            "CNN",
+            "embedding",
+            "model",
+            "neural network",
+            "machine learning model"
+          ],
+          "iri": "Entity-cnn_embedding-Mention-1"
+        }
+      ],
+      "relevance": 0.6630859375
+    },
+    "Entity-sample": {
+      "node_id": "sample",
+      "disambiguation_index": 0,
+      "label": "samples",
+      "aliases": [
+        "samples"
+      ],
+      "types": [
+        "sample",
+        "data points",
+        "data set",
+        "statistical sample"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of person re-identification, 'samples' refers to data points or instances of pedestrian data used for training and testing deep learning models, particularly focusing on intra-class variations to improve the robustness of the model.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "samples",
+          "local_types": [
+            "data set",
+            "statistical sample"
+          ],
+          "iri": "Entity-sample-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "samples",
+          "local_types": [
+            "data points",
+            "sample",
+            "statistical sample"
+          ],
+          "iri": "Entity-sample-Mention-2"
+        }
+      ],
+      "relevance": 0.654296875
+    },
+    "Entity-highly-curved_manifold": {
+      "node_id": "highly-curved_manifold",
+      "disambiguation_index": 0,
+      "label": "highly-curved manifolds",
+      "aliases": [
+        "highly-curved manifolds"
+      ],
+      "types": [
+        "manifold",
+        "mathematical concept",
+        "data distribution"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Highly-curved manifolds refer to complex geometric structures in the feature space where pedestrian data is distributed, characterized by significant variations in pose, illumination, occlusion, and camera view, making traditional distance metrics like Euclidean distance inadequate for accurately comparing samples.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "highly-curved manifolds",
+          "local_types": [
+            "manifold",
+            "mathematical concept",
+            "data distribution"
+          ],
+          "iri": "Entity-highly-curved_manifold-Mention-1"
+        }
+      ],
+      "relevance": 0.6533203125
+    },
+    "Entity-data": {
+      "node_id": "data",
+      "disambiguation_index": 0,
+      "label": "data",
+      "aliases": [
+        "data"
+      ],
+      "types": [
+        "data",
+        "input",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'data' refers to the pedestrian data used in person re-identification, which is characterized by large intra-class variations and is distributed as highly-curved manifolds in the feature space.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "data",
+          "local_types": [
+            "data",
+            "input",
+            "information"
+          ],
+          "iri": "Entity-data-Mention-1"
+        }
+      ],
+      "relevance": 0.65283203125
+    },
+    "Entity-person_re-identification": {
+      "node_id": "person_re-identification",
+      "disambiguation_index": 0,
+      "label": "person re-identification",
+      "aliases": [
+        "person re-identification",
+        "Person re-identification"
+      ],
+      "types": [
+        "concept",
+        "recognition task",
+        "re-identification",
+        "computer vision",
+        "person re-identification",
+        "field of study",
+        "task",
+        "research topic"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Person re-identification is a computer vision task that involves recognizing and matching individuals across different images or video frames, often taken from various viewpoints and at different times.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "person re-identification",
+          "local_types": [
+            "concept",
+            "re-identification",
+            "computer vision",
+            "field of study",
+            "task"
+          ],
+          "iri": "Entity-person_re-identification-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Person re-identification",
+          "local_types": [
+            "concept",
+            "recognition task",
+            "computer vision",
+            "field of study",
+            "task",
+            "research topic"
+          ],
+          "iri": "Entity-person_re-identification-Mention-2"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "person re-identification",
+          "local_types": [
+            "computer vision",
+            "task"
+          ],
+          "iri": "Entity-person_re-identification-Mention-3"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "person re-identification",
+          "local_types": [
+            "computer vision",
+            "person re-identification",
+            "task"
+          ],
+          "iri": "Entity-person_re-identification-Mention-4"
+        }
+      ],
+      "relevance": 0.6494140625
+    },
+    "Entity-deep_metric": {
+      "node_id": "deep_metric",
+      "disambiguation_index": 0,
+      "label": "deep metrics",
+      "aliases": [
+        "deep metrics"
+      ],
+      "types": [
+        "concept",
+        "metric",
+        "machine learning concept",
+        "machine learning",
+        "measurement",
+        "evaluation metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Deep metrics refer to advanced evaluation metrics specifically designed for enhancing the performance of deep learning models, particularly in the context of person re-identification, by effectively measuring the similarity between samples in a high-dimensional feature space.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "deep metrics",
+          "local_types": [
+            "concept",
+            "metric",
+            "machine learning concept",
+            "machine learning",
+            "measurement",
+            "evaluation metric"
+          ],
+          "iri": "Entity-deep_metric-Mention-1"
+        }
+      ],
+      "relevance": 0.6474609375
+    },
+    "Entity-the_distribution": {
+      "node_id": "the_distribution",
+      "disambiguation_index": 0,
+      "label": "the distribution",
+      "aliases": [
+        "the distribution"
+      ],
+      "types": [
+        "statistical concept"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The distribution refers to the unknown statistical characteristics of pedestrian data, which is represented as highly-curved manifolds in the feature space, complicating the use of geodesic distance for sample comparison in person re-identification tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the distribution",
+          "local_types": [
+            "statistical concept"
+          ],
+          "iri": "Entity-the_distribution-Mention-1"
+        }
+      ],
+      "relevance": 0.64453125
+    },
+    "Entity-learning": {
+      "node_id": "learning",
+      "disambiguation_index": 0,
+      "label": "learning",
+      "aliases": [
+        "the learning",
+        "learning"
+      ],
+      "types": [
+        "process",
+        "cognitive process",
+        "educational process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'learning' refers to the process of enhancing the performance of a convolutional neural network (CNN) through the application of a metric weight constraint, aimed at improving the generalization ability of the learned metrics for person re-identification.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "learning",
+          "local_types": [
+            "educational process",
+            "cognitive process"
+          ],
+          "iri": "Entity-learning-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "the learning",
+          "local_types": [
+            "process"
+          ],
+          "iri": "Entity-learning-Mention-2"
+        }
+      ],
+      "relevance": 0.64013671875
+    },
+    "Entity-intra-class": {
+      "node_id": "intra-class",
+      "disambiguation_index": 0,
+      "label": "intra-class",
+      "aliases": [
+        "intra-class"
+      ],
+      "types": [
+        "classification",
+        "data type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'intra-class' refers to training samples that belong to the same class or category, which are crucial for training convolutional neural networks (CNNs) in the context of person re-identification, particularly when addressing large variations within that class.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "intra-class",
+          "local_types": [
+            "classification",
+            "data type"
+          ],
+          "iri": "Entity-intra-class-Mention-1"
+        }
+      ],
+      "relevance": 0.63916015625
+    },
+    "Entity-metric_weight_constraint": {
+      "node_id": "metric_weight_constraint",
+      "disambiguation_index": 0,
+      "label": "metric weight constraint",
+      "aliases": [
+        "a metric weight constraint",
+        "metric weight constraint"
+      ],
+      "types": [
+        "constraint",
+        "concept",
+        "learning constraint",
+        "optimization technique",
+        "metric",
+        "methodology",
+        "mathematical concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The metric weight constraint refers to a methodological enhancement in the learning process that aims to improve the generalization ability of the learned metric in deep learning models, particularly for tasks such as person re-identification.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "metric weight constraint",
+          "local_types": [
+            "constraint",
+            "concept",
+            "learning constraint",
+            "optimization technique",
+            "methodology",
+            "mathematical concept"
+          ],
+          "iri": "Entity-metric_weight_constraint-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "a metric weight constraint",
+          "local_types": [
+            "constraint",
+            "metric"
+          ],
+          "iri": "Entity-metric_weight_constraint-Mention-2"
+        }
+      ],
+      "relevance": 0.638671875
+    },
+    "Entity-manifold_learning_method": {
+      "node_id": "manifold_learning_method",
+      "disambiguation_index": 0,
+      "label": "manifold learning methods",
+      "aliases": [
+        "manifold learning methods"
+      ],
+      "types": [
+        "machine learning technique",
+        "mathematical method",
+        "machine learning",
+        "method",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Manifold learning methods are a class of machine learning techniques that focus on understanding and modeling the underlying structure of high-dimensional data by representing it in a lower-dimensional space while preserving its geometric properties.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "manifold learning methods",
+          "local_types": [
+            "machine learning technique",
+            "mathematical method",
+            "machine learning",
+            "method",
+            "methodology"
+          ],
+          "iri": "Entity-manifold_learning_method-Mention-1"
+        }
+      ],
+      "relevance": 0.63818359375
+    },
+    "Entity-two_sample": {
+      "node_id": "two_sample",
+      "disambiguation_index": 0,
+      "label": "two samples",
+      "aliases": [
+        "two samples"
+      ],
+      "types": [
+        "sample"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In the context of person re-identification, 'two samples' refers to pairs of data points representing individuals, which are compared to assess their similarity or difference in a feature space, particularly when evaluating the effectiveness of distance metrics like geodesic and Euclidean distances.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "two samples",
+          "local_types": [
+            "sample"
+          ],
+          "iri": "Entity-two_sample-Mention-1"
+        }
+      ],
+      "relevance": 0.63427734375
+    },
+    "Entity-large_intra-class_variation": {
+      "node_id": "large_intra-class_variation",
+      "disambiguation_index": 0,
+      "label": "large intra-class variations",
+      "aliases": [
+        "large intra-class variations"
+      ],
+      "types": [
+        "variation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Large intra-class variations refer to the significant differences in appearance among samples belonging to the same class, which complicate the training of convolutional neural networks for tasks such as person re-identification.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "large intra-class variations",
+          "local_types": [
+            "variation"
+          ],
+          "iri": "Entity-large_intra-class_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.6279296875
+    },
+    "Entity-new_design_of_deep_model": {
+      "node_id": "new_design_of_deep_model",
+      "disambiguation_index": 0,
+      "label": "new designs of deep models",
+      "aliases": [
+        "new designs of deep models"
+      ],
+      "types": [
+        "design",
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'new designs of deep models' refers to innovative architectures and methodologies for deep learning models specifically tailored to improve performance in person re-identification tasks, addressing challenges such as variations in pose, illumination, and occlusion.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "new designs of deep models",
+          "local_types": [
+            "design",
+            "model"
+          ],
+          "iri": "Entity-new_design_of_deep_model-Mention-1"
+        }
+      ],
+      "relevance": 0.62255859375
+    },
+    "Entity-benchmark_of_person_re-identification": {
+      "node_id": "benchmark_of_person_re-identification",
+      "disambiguation_index": 0,
+      "label": "benchmarks of person re-identification",
+      "aliases": [
+        "benchmarks of person re-identification",
+        "several benchmarks"
+      ],
+      "types": [
+        "evaluation standard",
+        "benchmark",
+        "dataset",
+        "field of study",
+        "evaluation metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Benchmarks of person re-identification refer to standardized datasets and evaluation metrics used to assess the performance of algorithms and models in the task of recognizing and matching individuals across different camera views.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "benchmarks of person re-identification",
+          "local_types": [
+            "evaluation standard",
+            "benchmark",
+            "dataset",
+            "field of study",
+            "evaluation metric"
+          ],
+          "iri": "Entity-benchmark_of_person_re-identification-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "several benchmarks",
+          "local_types": [
+            "benchmark"
+          ],
+          "iri": "Entity-benchmark_of_person_re-identification-Mention-2"
+        }
+      ],
+      "relevance": 0.6171875
+    },
+    "Entity-graphical_relationship": {
+      "node_id": "graphical_relationship",
+      "disambiguation_index": 0,
+      "label": "graphical relationship",
+      "aliases": [
+        "graphical relationship"
+      ],
+      "types": [
+        "relationship",
+        "data relationship",
+        "graph theory concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'graphical relationship' refers to the connections or associations between data samples in a feature space, which are utilized in manifold learning methods to approximate geodesic distances by combining local Euclidean distances.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "graphical relationship",
+          "local_types": [
+            "relationship",
+            "data relationship",
+            "graph theory concept"
+          ],
+          "iri": "Entity-graphical_relationship-Mention-1"
+        }
+      ],
+      "relevance": 0.603515625
+    },
+    "Entity-pedestrian_data": {
+      "node_id": "pedestrian_data",
+      "disambiguation_index": 0,
+      "label": "pedestrian data",
+      "aliases": [
+        "pedestrian data",
+        "the pedestrian data"
+      ],
+      "types": [
+        "data",
+        "data type",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Pedestrian data refers to the dataset containing information about individuals captured in various poses, illuminations, and occlusions, which is characterized by its complex distribution in the feature space, impacting the effectiveness of convolutional neural networks in feature extraction.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "pedestrian data",
+          "local_types": [
+            "data",
+            "data type",
+            "dataset"
+          ],
+          "iri": "Entity-pedestrian_data-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the pedestrian data",
+          "local_types": [
+            "data"
+          ],
+          "iri": "Entity-pedestrian_data-Mention-2"
+        }
+      ],
+      "relevance": 0.6015625
+    },
+    "Entity-convolutional_neural_network": {
+      "node_id": "convolutional_neural_network",
+      "disambiguation_index": 0,
+      "label": "convolutional neural networks",
+      "aliases": [
+        "convolutional neural networks",
+        "CNN"
+      ],
+      "types": [
+        "artificial intelligence",
+        "abbreviation",
+        "CNN",
+        "model",
+        "machine learning",
+        "neural network",
+        "machine learning model",
+        "technology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Convolutional neural networks are a class of deep learning models specifically designed to process and analyze visual data by mimicking the way the human brain processes images.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "convolutional neural networks",
+          "local_types": [
+            "artificial intelligence",
+            "CNN",
+            "model",
+            "machine learning",
+            "neural network",
+            "machine learning model",
+            "technology"
+          ],
+          "iri": "Entity-convolutional_neural_network-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "CNN",
+          "local_types": [
+            "artificial intelligence",
+            "abbreviation",
+            "machine learning",
+            "neural network",
+            "machine learning model",
+            "technology"
+          ],
+          "iri": "Entity-convolutional_neural_network-Mention-2"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "CNN",
+          "local_types": [
+            "model",
+            "neural network",
+            "machine learning model"
+          ],
+          "iri": "Entity-convolutional_neural_network-Mention-3"
+        }
+      ],
+      "relevance": 0.595703125
+    },
+    "Entity-large_variation": {
+      "node_id": "large_variation",
+      "disambiguation_index": 0,
+      "label": "large variation",
+      "aliases": [
+        "large variation",
+        "the problem of large variation"
+      ],
+      "types": [
+        "problem",
+        "challenge"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'large variation' refers to the significant differences in pose, illumination, occlusion, and camera view that complicate the task of person re-identification in computer vision.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "large variation",
+          "local_types": [
+            "problem",
+            "challenge"
+          ],
+          "iri": "Entity-large_variation-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "the problem of large variation",
+          "local_types": [
+            "problem"
+          ],
+          "iri": "Entity-large_variation-Mention-2"
+        }
+      ],
+      "relevance": 0.59326171875
+    },
+    "Entity-better_generalization_ability": {
+      "node_id": "better_generalization_ability",
+      "disambiguation_index": 0,
+      "label": "better generalization ability",
+      "aliases": [
+        "better generalization ability"
+      ],
+      "types": [
+        "ability",
+        "generalization"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Better generalization ability refers to the enhanced capacity of a learned metric in a convolutional neural network to perform well on unseen data, particularly in the context of person re-identification, by effectively managing variations in the data distribution.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "better generalization ability",
+          "local_types": [
+            "ability",
+            "generalization"
+          ],
+          "iri": "Entity-better_generalization_ability-Mention-1"
+        }
+      ],
+      "relevance": 0.5791015625
+    },
+    "Entity-deep_model": {
+      "node_id": "deep_model",
+      "disambiguation_index": 0,
+      "label": "deep models",
+      "aliases": [
+        "deep models",
+        "deep model"
+      ],
+      "types": [
+        "concept",
+        "model",
+        "machine learning model",
+        "machine learning",
+        "neural network",
+        "technology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Deep models are advanced machine learning architectures, particularly neural networks, that are designed to learn representations of data through multiple layers of processing.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-10",
+          "local_name": "deep models",
+          "local_types": [
+            "machine learning",
+            "concept",
+            "model",
+            "technology"
+          ],
+          "iri": "Entity-deep_model-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "deep model",
+          "local_types": [
+            "machine learning",
+            "model",
+            "neural network",
+            "machine learning model"
+          ],
+          "iri": "Entity-deep_model-Mention-2"
+        }
+      ],
+      "relevance": 0.56884765625
+    },
+    "Entity-pose": {
+      "node_id": "pose",
+      "disambiguation_index": 0,
+      "label": "pose",
+      "aliases": [
+        "pose"
+      ],
+      "types": [
+        "variation",
+        "physical attribute"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of person re-identification, 'pose' refers to the various physical orientations and positions of a person that can significantly affect the recognition process due to their variability.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "pose",
+          "local_types": [
+            "variation",
+            "physical attribute"
+          ],
+          "iri": "Entity-pose-Mention-1"
+        }
+      ],
+      "relevance": 0.564453125
+    },
+    "Entity-euclidean_distance": {
+      "node_id": "euclidean_distance",
+      "disambiguation_index": 0,
+      "label": "Euclidean distance",
+      "aliases": [
+        "Euclidean distance",
+        "the Euclidean distance"
+      ],
+      "types": [
+        "mathematical concept",
+        "metric",
+        "distance metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Euclidean distance is a mathematical concept that quantifies the straight-line distance between two points in Euclidean space, commonly used as a metric in various fields such as geometry, statistics, and machine learning.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Euclidean distance",
+          "local_types": [
+            "metric",
+            "mathematical concept",
+            "distance metric"
+          ],
+          "iri": "Entity-euclidean_distance-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Euclidean distance",
+          "local_types": [
+            "mathematical concept",
+            "distance metric"
+          ],
+          "iri": "Entity-euclidean_distance-Mention-2"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the Euclidean distance",
+          "local_types": [
+            "metric"
+          ],
+          "iri": "Entity-euclidean_distance-Mention-3"
+        }
+      ],
+      "relevance": 0.56103515625
+    },
+    "Entity-training_sample": {
+      "node_id": "training_sample",
+      "disambiguation_index": 0,
+      "label": "training samples",
+      "aliases": [
+        "training samples"
+      ],
+      "types": [
+        "data",
+        "training data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Training samples are specific instances of data used to train machine learning models, particularly in supervised learning, to help the model learn patterns and make predictions.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "training samples",
+          "local_types": [
+            "data",
+            "training data"
+          ],
+          "iri": "Entity-training_sample-Mention-1"
+        }
+      ],
+      "relevance": 0.55322265625
+    },
+    "Entity-occlusion": {
+      "node_id": "occlusion",
+      "disambiguation_index": 0,
+      "label": "occlusion",
+      "aliases": [
+        "occlusion"
+      ],
+      "types": [
+        "variation",
+        "visual obstruction"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of person re-identification, 'occlusion' refers to the visual obstruction of a person's appearance caused by various objects or environmental factors, which complicates the task of accurately identifying individuals across different camera views.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "occlusion",
+          "local_types": [
+            "variation",
+            "visual obstruction"
+          ],
+          "iri": "Entity-occlusion-Mention-1"
+        }
+      ],
+      "relevance": 0.546875
+    },
+    "Entity-feature_extraction": {
+      "node_id": "feature_extraction",
+      "disambiguation_index": 0,
+      "label": "feature extraction",
+      "aliases": [
+        "feature extraction"
+      ],
+      "types": [
+        "process",
+        "machine learning technique",
+        "data processing technique",
+        "machine learning process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Feature extraction is a process in machine learning and data processing that involves transforming raw data into a set of relevant features that can be used for analysis or model training.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "feature extraction",
+          "local_types": [
+            "process",
+            "machine learning technique",
+            "data processing technique",
+            "machine learning process"
+          ],
+          "iri": "Entity-feature_extraction-Mention-1"
+        }
+      ],
+      "relevance": 0.54296875
+    },
+    "Entity-illumination": {
+      "node_id": "illumination",
+      "disambiguation_index": 0,
+      "label": "illumination",
+      "aliases": [
+        "illumination"
+      ],
+      "types": [
+        "variation",
+        "environmental factor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of person re-identification, 'illumination' refers to the variations in lighting conditions that affect the appearance of individuals in images, posing challenges for accurate recognition and matching.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "illumination",
+          "local_types": [
+            "variation",
+            "environmental factor"
+          ],
+          "iri": "Entity-illumination-Mention-1"
+        }
+      ],
+      "relevance": 0.54248046875
+    },
+    "Entity-training": {
+      "node_id": "training",
+      "disambiguation_index": 0,
+      "label": "training",
+      "aliases": [
+        "training"
+      ],
+      "types": [
+        "process",
+        "machine learning phase"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Training refers to the process of teaching a machine learning model to recognize patterns in data by adjusting its parameters based on input examples.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "training",
+          "local_types": [
+            "process",
+            "machine learning phase"
+          ],
+          "iri": "Entity-training-Mention-1"
+        }
+      ],
+      "relevance": 0.53369140625
+    },
+    "Entity-camera_view": {
+      "node_id": "camera_view",
+      "disambiguation_index": 0,
+      "label": "camera view",
+      "aliases": [
+        "camera view"
+      ],
+      "types": [
+        "visual angle",
+        "visual perspective",
+        "perspective",
+        "variation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'camera view' refers to the specific visual perspective or angle from which a scene is captured, which can significantly affect the appearance of subjects in person re-identification tasks due to variations in pose, illumination, and occlusion.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "camera view",
+          "local_types": [
+            "visual angle",
+            "visual perspective",
+            "perspective",
+            "variation"
+          ],
+          "iri": "Entity-camera_view-Mention-1"
+        }
+      ],
+      "relevance": 0.521484375
+    },
+    "Entity-intra-class_variation": {
+      "node_id": "intra-class_variation",
+      "disambiguation_index": 0,
+      "label": "intra-class variations",
+      "aliases": [
+        "intra-class variations"
+      ],
+      "types": [
+        "variation",
+        "data characteristic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Intra-class variations refer to the differences or diversity observed among samples that belong to the same class or category in a dataset.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "intra-class variations",
+          "local_types": [
+            "variation",
+            "data characteristic"
+          ],
+          "iri": "Entity-intra-class_variation-Mention-1"
+        }
+      ],
+      "relevance": 0.5009765625
+    },
+    "Entity-geodesic_distance": {
+      "node_id": "geodesic_distance",
+      "disambiguation_index": 0,
+      "label": "geodesic distance",
+      "aliases": [
+        "geodesic distance"
+      ],
+      "types": [
+        "mathematical concept",
+        "metric",
+        "distance measure",
+        "distance metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Geodesic distance is a mathematical concept that represents the shortest path between two points on a curved surface, often used as a metric in various fields such as geometry and geography.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "geodesic distance",
+          "local_types": [
+            "metric",
+            "mathematical concept",
+            "distance measure",
+            "distance metric"
+          ],
+          "iri": "Entity-geodesic_distance-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "geodesic distance",
+          "local_types": [
+            "mathematical concept",
+            "distance metric"
+          ],
+          "iri": "Entity-geodesic_distance-Mention-2"
+        }
+      ],
+      "relevance": 0.493896484375
+    },
+    "Entity-manifold": {
+      "node_id": "manifold",
+      "disambiguation_index": 0,
+      "label": "manifolds",
+      "aliases": [
+        "manifolds"
+      ],
+      "types": [
+        "mathematical structure",
+        "geometric object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Manifolds are mathematical structures that generalize the concept of curves and surfaces to higher dimensions, allowing for the study of geometric properties and spatial relationships in a flexible and abstract manner.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "manifolds",
+          "local_types": [
+            "mathematical structure",
+            "geometric object"
+          ],
+          "iri": "Entity-manifold-Mention-1"
+        }
+      ],
+      "relevance": 0.482177734375
+    },
+    "Entity-generalization_ability": {
+      "node_id": "generalization_ability",
+      "disambiguation_index": 0,
+      "label": "generalization ability",
+      "aliases": [
+        "generalization ability"
+      ],
+      "types": [
+        "performance measure",
+        "statistical property"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "generalization ability refers to the capacity of a model or algorithm to perform well on unseen data, indicating its effectiveness in making accurate predictions beyond the training dataset.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "generalization ability",
+          "local_types": [
+            "performance measure",
+            "statistical property"
+          ],
+          "iri": "Entity-generalization_ability-Mention-1"
+        }
+      ],
+      "relevance": 0.47265625
+    },
+    "Entity-feature_space": {
+      "node_id": "feature_space",
+      "disambiguation_index": 0,
+      "label": "feature space",
+      "aliases": [
+        "feature space",
+        "the feature space"
+      ],
+      "types": [
+        "feature space",
+        "concept",
+        "mathematical space",
+        "data representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A feature space is a mathematical representation of data where each dimension corresponds to a specific feature, allowing for the analysis and visualization of data points in relation to their attributes.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "feature space",
+          "local_types": [
+            "concept",
+            "mathematical space",
+            "data representation"
+          ],
+          "iri": "Entity-feature_space-Mention-1"
+        },
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the feature space",
+          "local_types": [
+            "feature space"
+          ],
+          "iri": "Entity-feature_space-Mention-2"
+        }
+      ],
+      "relevance": 0.46923828125
+    },
+    "Entity-test": {
+      "node_id": "test",
+      "disambiguation_index": 0,
+      "label": "test",
+      "aliases": [
+        "test"
+      ],
+      "types": [
+        "process",
+        "machine learning phase"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'test' refers to the phase in machine learning where the performance of a model is evaluated using a dataset that was not used during the training phase.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "test",
+          "local_types": [
+            "process",
+            "machine learning phase"
+          ],
+          "iri": "Entity-test-Mention-1"
+        }
+      ],
+      "relevance": 0.45458984375
+    },
+    "Entity-benchmark": {
+      "node_id": "benchmark",
+      "disambiguation_index": 0,
+      "label": "benchmarks",
+      "aliases": [
+        "benchmarks"
+      ],
+      "types": [
+        "evaluation standard",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Benchmarks are standardized tests or criteria used to evaluate the performance or effectiveness of systems, methods, or models in a specific domain.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "benchmarks",
+          "local_types": [
+            "evaluation standard",
+            "metric"
+          ],
+          "iri": "Entity-benchmark-Mention-1"
+        }
+      ],
+      "relevance": 0.438720703125
+    },
+    "Entity-state-of-the-art_method": {
+      "node_id": "state-of-the-art_method",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art methods",
+      "aliases": [
+        "state-of-the-art methods"
+      ],
+      "types": [
+        "concept",
+        "research methods",
+        "technique",
+        "benchmarking",
+        "method",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "State-of-the-art methods refer to the most advanced and effective techniques or approaches currently available in a particular field, often characterized by their superior performance compared to previous methods.",
+      "mentions": [
+        {
+          "reference": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "state-of-the-art methods",
+          "local_types": [
+            "concept",
+            "research methods",
+            "technique",
+            "benchmarking",
+            "method",
+            "methodology"
+          ],
+          "iri": "Entity-state-of-the-art_method-Mention-1"
+        }
+      ],
+      "relevance": 0.436279296875
+    }
+  },
+  "summary": "Person re-identification is challenging due to the large variations of pose , illumination , occlusion and camera view . Owing to these variations , the pedestrian data is distributed as highly-curved manifolds in the feature space , despite the current convolutional neural networks -LRB- CNN -RRB- 's capability of feature extraction . However , the distribution is unknown , so it is difficult to use the geodesic distance when comparing two samples . In practice , the current deep embedding methods use the Euclidean distance for the training and test . On the other hand , the manifold learning methods suggest to use the Euclidean distance in the local range , combining with the graphical relationship between samples , for approximating the geodesic distance . From this point of view , selecting suitable positive -LRB- i.e. intra-class -RRB- training samples within a local range is critical for training the CNN embedding , especially when the data has large intra-class variations . In this paper , we propose a novel moderate positive sample mining method to train robust CNN for person re-identification , dealing with the problem of large variation . In addition , we improve the learning by a metric weight constraint , so that the learned metric has a better generalization ability . Experiments show that these two strategies are effective in learning robust deep metrics for person re-identification , and accordingly our deep model significantly outperforms the state-of-the-art methods on several benchmarks of person re-identification . Therefore , the study presented in this paper may be useful in inspiring new designs of deep models for person re-identification .",
+  "triples": [
+    [
+      "Entity-convolutional_neural_network",
+      "Predicate-capability_of",
+      "Entity-feature_extraction"
+    ],
+    [
+      "Entity-pedestrian_data",
+      "Predicate-is_distributed_as",
+      "Entity-highly-curved_manifold"
+    ],
+    [
+      "Entity-pedestrian_data",
+      "Predicate-is_distributed_in",
+      "Entity-feature_space"
+    ],
+    [
+      "Entity-deep_embedding_method",
+      "Predicate-use",
+      "Entity-euclidean_distance"
+    ],
+    [
+      "Entity-deep_embedding_method",
+      "Predicate-use",
+      "Entity-training"
+    ],
+    [
+      "Entity-deep_embedding_method",
+      "Predicate-use",
+      "Entity-test"
+    ],
+    [
+      "Entity-manifold_learning_method",
+      "Predicate-suggest_to_use",
+      "Entity-euclidean_distance"
+    ],
+    [
+      "Entity-euclidean_distance",
+      "Predicate-combines_with",
+      "Entity-graphical_relationship"
+    ],
+    [
+      "Entity-graphical_relationship",
+      "Predicate-is_between",
+      "Entity-sample"
+    ],
+    [
+      "Entity-euclidean_distance",
+      "Predicate-is_used_in",
+      "Entity-local_range"
+    ],
+    [
+      "Entity-euclidean_distance",
+      "Predicate-is_for_approximating",
+      "Entity-geodesic_distance"
+    ],
+    [
+      "Entity-data",
+      "Predicate-has",
+      "Entity-large_intra-class_variation"
+    ],
+    [
+      "Entity-moderate_positive_sample_mining_method",
+      "Predicate-proposes",
+      "Entity-novel_moderate_positive_sample_mining_method"
+    ],
+    [
+      "Entity-novel_moderate_positive_sample_mining_method",
+      "Predicate-trains",
+      "Entity-robust_cnn"
+    ],
+    [
+      "Entity-novel_moderate_positive_sample_mining_method",
+      "Predicate-deals_with",
+      "Entity-large_variation"
+    ],
+    [
+      "Entity-learning",
+      "Predicate-improves_by",
+      "Entity-metric_weight_constraint"
+    ],
+    [
+      "Entity-the_learned_metric",
+      "Predicate-has",
+      "Entity-better_generalization_ability"
+    ],
+    [
+      "Entity-our_deep_model",
+      "Predicate-significantly_outperforms",
+      "Entity-state-of-the-art_method"
+    ],
+    [
+      "Entity-our_deep_model",
+      "Predicate-significantly_outperforms",
+      "Entity-benchmark_of_person_re-identification"
+    ],
+    [
+      "Entity-study",
+      "Predicate-may_be_useful_in_inspiring",
+      "Entity-new_design_of_deep_model"
+    ],
+    [
+      "Entity-new_design_of_deep_model",
+      "Predicate-are_for",
+      "Entity-person_re-identification"
+    ],
+    [
+      "Entity-novel_moderate_positive_sample_mining_method",
+      "Predicate-is_a_specific_implementation_of",
+      "Entity-moderate_positive_sample_mining_method"
+    ],
+    [
+      "Entity-moderate_positive_sample_mining_method",
+      "Predicate-is_used_to_train",
+      "Entity-robust_cnn"
+    ],
+    [
+      "Entity-learning_robust_deep_metric",
+      "Predicate-enhances",
+      "Entity-novel_moderate_positive_sample_mining_method"
+    ],
+    [
+      "Entity-learning_robust_deep_metric",
+      "Predicate-enhances",
+      "Entity-moderate_positive_sample_mining_method"
+    ],
+    [
+      "Entity-learning_robust_deep_metric",
+      "Predicate-improves",
+      "Entity-robust_cnn"
+    ],
+    [
+      "Entity-novel_moderate_positive_sample_mining_method",
+      "Predicate-enhances_the_training_of",
+      "Entity-deep_embedding_method"
+    ],
+    [
+      "Entity-moderate_positive_sample_mining_method",
+      "Predicate-enhances_the_training_of",
+      "Entity-deep_embedding_method"
+    ],
+    [
+      "Entity-deep_embedding_method",
+      "Predicate-improves",
+      "Entity-learning_robust_deep_metric"
+    ],
+    [
+      "Entity-deep_embedding_method",
+      "Predicate-train",
+      "Entity-robust_cnn"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-state-of-the-art_method",
+      "skos:broader",
+      "Entity-benchmark"
+    ],
+    [
+      "Entity-pedestrian_data",
+      "skos:broader",
+      "Entity-data"
+    ],
+    [
+      "Entity-learning_robust_deep_metric",
+      "skos:broader",
+      "Entity-learning"
+    ],
+    [
+      "Entity-robust_cnn",
+      "skos:broader",
+      "Entity-convolutional_neural_network"
+    ],
+    [
+      "Entity-training_sample",
+      "skos:broader",
+      "Entity-data"
+    ],
+    [
+      "Entity-highly-curved_manifold",
+      "skos:broader",
+      "Entity-manifold"
+    ],
+    [
+      "Entity-benchmark_of_person_re-identification",
+      "skos:broader",
+      "Entity-benchmark"
+    ],
+    [
+      "Entity-suitable_positive_-lrb-_i.e_._intra-class_-rrb-_training_sample",
+      "skos:broader",
+      "Entity-training_sample"
+    ],
+    [
+      "Entity-cnn_embedding",
+      "skos:broader",
+      "Entity-convolutional_neural_network"
+    ],
+    [
+      "Entity-two_sample",
+      "skos:broader",
+      "Entity-sample"
+    ],
+    [
+      "Entity-positive",
+      "skos:broader",
+      "Entity-sample"
+    ]
+  ],
+  "predicates": {
+    "Predicate-capability_of": {
+      "label": "capability of",
+      "description": "The predicate 'capability of' establishes a relationship between a subject and an object, indicating that the subject possesses the ability or potential to perform the action or function represented by the object. It highlights the inherent qualities or functionalities that the subject can exhibit, thereby linking the two elements in a way that emphasizes the subject's proficiency or suitability in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_distributed_as": {
+      "label": "is distributed as",
+      "description": "The predicate 'is distributed as' establishes a relationship between a subject and an object by indicating that the subject exhibits a particular distribution pattern or structure that can be characterized or modeled by the object. This implies that the subject's characteristics or behaviors can be understood or represented in terms of the properties associated with the object, suggesting a correspondence or analogy between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_distributed_in": {
+      "label": "is distributed in",
+      "description": "The predicate 'is distributed in' indicates a relationship where the subject is allocated or spread across the dimensions or categories defined by the object. It suggests that the subject's elements or instances are organized within the framework or structure represented by the object, allowing for analysis, interpretation, or processing within that context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-use": {
+      "label": "use",
+      "description": "The predicate 'use' indicates that the subject employs or utilizes the object as a tool, method, or resource to achieve a specific purpose or function. It establishes a relationship where the subject actively engages with the object to facilitate a process, solve a problem, or enhance performance in a particular context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-suggest_to_use": {
+      "label": "suggest to use",
+      "description": "The predicate 'suggest to use' indicates a recommendation or proposal made by the subject regarding the object, implying that the subject believes the object is a suitable or beneficial choice for a particular purpose or context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-combines_with": {
+      "label": "combines with",
+      "description": "The predicate 'combines with' indicates a relationship where the subject and object are brought together or integrated in a way that enhances or creates a new understanding, functionality, or representation. It suggests that the two entities work in conjunction to produce a synergistic effect, where their interaction leads to a more comprehensive or effective outcome than either could achieve independently.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_between": {
+      "label": "is between",
+      "description": "The predicate 'is between' establishes a relational context where the subject is positioned in relation to the object, indicating that the subject occupies an intermediary or intermediary-like status in a spatial, temporal, or conceptual continuum that connects the two entities. This relationship suggests that the subject serves as a link or boundary that delineates the object from other elements, highlighting the significance of their relative placement or association.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_in": {
+      "label": "is used in",
+      "description": "The predicate 'is used in' establishes a relationship where the subject is applied or utilized within the context or framework of the object. It indicates that the subject serves a functional role or purpose in relation to the object, often implying that the subject contributes to, supports, or is relevant to the processes, operations, or concepts represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_for_approximating": {
+      "label": "is for approximating",
+      "description": "The predicate 'is for approximating' indicates that the subject serves as a method, measure, or representation that provides a close estimation or representation of the object. It implies that while the subject may not be identical to the object, it is used to derive a value or understanding that is sufficiently similar or useful for practical purposes.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' indicates a possessive relationship between the subject and the object, signifying that the subject contains, possesses, or is characterized by the qualities or attributes represented by the object. It establishes a connection where the subject is seen as the holder of certain properties or elements described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-proposes": {
+      "label": "proposes",
+      "description": "The predicate 'proposes' indicates that the subject puts forward or suggests a new idea, method, or solution, which is represented by the object. It establishes a relationship where the subject is actively recommending or advocating for the implementation or consideration of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-trains": {
+      "label": "trains",
+      "description": "The predicate 'trains' indicates a process in which the subject imparts knowledge, skills, or capabilities to the object, typically through a systematic method or set of procedures. In this context, the subject is often a model, method, or system that enhances the performance or functionality of the object, which is usually a machine learning model or algorithm. The training process involves the use of data and algorithms to improve the object's ability to perform specific tasks or make predictions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-deals_with": {
+      "label": "deals with",
+      "description": "The predicate 'deals with' indicates a relationship in which the subject is engaged in addressing, managing, or handling the object. It suggests that the subject has a focus or responsibility towards the object, often implying a process of interaction, consideration, or resolution regarding the object in question.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improves_by": {
+      "label": "improves by",
+      "description": "The predicate 'improves by' indicates a relationship where the subject experiences a positive enhancement or advancement as a result of the influence or application of the object. It suggests that the object serves as a means, method, or condition that facilitates the improvement of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-significantly_outperforms": {
+      "label": "significantly outperforms",
+      "description": "The predicate 'significantly outperforms' indicates a comparative relationship where the subject demonstrates a notably higher level of performance, effectiveness, or success in a specific context or task when compared to the object. This suggests that the subject not only exceeds the object in performance but does so to a degree that is substantial and meaningful, highlighting a clear advantage or superiority.",
+      "disambiguation_index": 0
+    },
+    "Predicate-may_be_useful_in_inspiring": {
+      "label": "may be useful in inspiring",
+      "description": "The predicate 'may be useful in inspiring' indicates a potential positive influence or contribution of the subject towards the object, suggesting that the subject has the capacity to motivate, encourage, or generate ideas related to the object. It implies that while the connection is not guaranteed, there is a possibility that the subject can lead to innovative thoughts or developments concerning the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_for": {
+      "label": "are for",
+      "description": "The predicate 'are for' indicates a purpose or intended use of the subject in relation to the object. It establishes a connection where the subject is designed, created, or utilized to achieve, support, or facilitate the object, thereby highlighting the functional relationship between them.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_specific_implementation_of": {
+      "label": "is a specific implementation of",
+      "description": "The predicate 'is a specific implementation of' establishes a relationship where the subject represents a particular version or variation of a broader concept or methodology denoted by the object. This indicates that the subject embodies the principles or characteristics of the object but is tailored or adapted in a unique way to serve specific purposes or contexts.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_to_train": {
+      "label": "is used to train",
+      "description": "The predicate 'is used to train' indicates a functional relationship where the subject serves as a method, technique, or process that facilitates the training of the object, which is typically a model, system, or algorithm. This implies that the subject provides the necessary data, strategies, or frameworks that enable the object to learn from input data, improve its performance, or enhance its capabilities in a specific task.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enhances": {
+      "label": "enhances",
+      "description": "The predicate 'enhances' indicates a relationship where the subject contributes positively to the improvement, development, or effectiveness of the object. It suggests that the subject provides additional value or quality that elevates the capabilities or performance of the object in some way.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improves": {
+      "label": "improves",
+      "description": "The predicate 'improves' indicates a positive enhancement or advancement in the quality, performance, or effectiveness of the object as a result of the influence or action of the subject. It suggests that the subject contributes to making the object better in some measurable or observable way.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enhances_the_training_of": {
+      "label": "enhances the training of",
+      "description": "The predicate 'enhances the training of' indicates that the subject contributes positively to the process of training the object, which typically refers to a model, method, or system. This enhancement can involve improving the efficiency, effectiveness, or overall performance of the training process, leading to better outcomes or results in the context of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-train": {
+      "label": "train",
+      "description": "The predicate 'train' signifies the process of teaching or developing a model, system, or method (the subject) to perform a specific task or achieve a certain level of performance, represented by the object. This involves the application of data, algorithms, and techniques to enhance the capabilities of the subject in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or category that falls under a more general classification represented by the object. This relationship implies that the object encompasses a wider scope or range of concepts than the subject, thereby situating the subject within a larger context.",
+      "disambiguation_index": 0
+    }
+  }
+}

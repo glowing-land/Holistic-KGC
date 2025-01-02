@@ -1,0 +1,664 @@
+{
+  "iri": "Paper-8",
+  "title": "P05-1039",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-8-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-8-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+              "text": "In this paper , we present an unlexicalized parser for German which employs smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2 , higher than previously reported results on the NEGRA corpus ."
+            },
+            {
+              "iri": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+              "text": "In addition to the high accuracy of the model , the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0008761882781982422,
+    4.4258458614349365,
+    9.787054061889648,
+    9.652997016906738,
+    0.0194091796875,
+    8.487701416015625e-05,
+    0.00010180473327636719,
+    11.403849840164185,
+    18.02632713317871,
+    2.4544179439544678,
+    5.458719968795776,
+    0.008051872253417969,
+    0.00030112266540527344,
+    11.513779878616333,
+    0.0015180110931396484,
+    0.029543161392211914,
+    0.0012788772583007812,
+    3.288602113723755,
+    0.0019731521606445312,
+    0.0003719329833984375,
+    30.742193937301636,
+    5.158173322677612,
+    23.544203996658325,
+    2.3643290996551514,
+    0.0004801750183105469,
+    0.005474090576171875
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "document",
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents an unlexicalized parser for the German language that utilizes smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2, surpassing previous results on the NEGRA corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "this paper",
+          "local_types": [
+            "document",
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.927734375
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "model",
+      "aliases": [
+        "model"
+      ],
+      "types": [
+        "statistical model",
+        "machine learning model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The model refers to an unlexicalized parser for German that utilizes smoothing and suffix analysis to achieve high accuracy in parsing, specifically noted for its labelled bracket F-score of 76.2.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "model",
+          "local_types": [
+            "statistical model",
+            "machine learning model"
+          ],
+          "iri": "Entity-model-Mention-1"
+        }
+      ],
+      "relevance": 0.85546875
+    },
+    "Entity-the_high_accuracy_of_the_model": {
+      "node_id": "the_high_accuracy_of_the_model",
+      "disambiguation_index": 0,
+      "label": "the high accuracy of the model",
+      "aliases": [
+        "the high accuracy of the model"
+      ],
+      "types": [
+        "accuracy",
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The high accuracy of the model refers to the effectiveness of the unlexicalized parser for German in achieving a labelled bracket F-score of 76.2, indicating its superior performance in parsing tasks compared to previous models.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the high accuracy of the model",
+          "local_types": [
+            "accuracy",
+            "model"
+          ],
+          "iri": "Entity-the_high_accuracy_of_the_model-Mention-1"
+        }
+      ],
+      "relevance": 0.76123046875
+    },
+    "Entity-76.2": {
+      "node_id": "76.2",
+      "disambiguation_index": 0,
+      "label": "76.2",
+      "aliases": [
+        "76.2"
+      ],
+      "types": [
+        "value",
+        "numerical value"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "76.2 refers to the labelled bracket F-score achieved by the unlexicalized parser for German in the study, indicating its performance in parsing accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "76.2",
+          "local_types": [
+            "value",
+            "numerical value"
+          ],
+          "iri": "Entity-76.2-Mention-1"
+        }
+      ],
+      "relevance": 0.751953125
+    },
+    "Entity-labelled_bracket_f-score": {
+      "node_id": "labelled_bracket_f-score",
+      "disambiguation_index": 0,
+      "label": "labelled bracket F-score",
+      "aliases": [
+        "labelled bracket F-score"
+      ],
+      "types": [
+        "performance measure",
+        "evaluation metric",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The labelled bracket F-score is a performance measure used to evaluate the accuracy of parsing results by comparing the predicted bracket structures of sentences to the true bracket structures, specifically in the context of an unlexicalized parser for German.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "labelled bracket F-score",
+          "local_types": [
+            "performance measure",
+            "evaluation metric",
+            "metric"
+          ],
+          "iri": "Entity-labelled_bracket_f-score-Mention-1"
+        }
+      ],
+      "relevance": 0.68994140625
+    },
+    "Entity-suffix_analysis": {
+      "node_id": "suffix_analysis",
+      "disambiguation_index": 0,
+      "label": "suffix analysis",
+      "aliases": [
+        "suffix analysis"
+      ],
+      "types": [
+        "linguistic analysis",
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Suffix analysis refers to a linguistic technique used in the context of parsing, specifically in the development of an unlexicalized parser for German, where it contributes to improving the accuracy of parsing results.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "suffix analysis",
+          "local_types": [
+            "linguistic analysis",
+            "technique"
+          ],
+          "iri": "Entity-suffix_analysis-Mention-1"
+        }
+      ],
+      "relevance": 0.6826171875
+    },
+    "Entity-smoothing_and_parsing_result": {
+      "node_id": "smoothing_and_parsing_result",
+      "disambiguation_index": 0,
+      "label": "smoothing and parsing results",
+      "aliases": [
+        "smoothing and parsing results"
+      ],
+      "types": [
+        "smoothing",
+        "parsing results"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'smoothing and parsing results' refers to the outcomes and performance metrics obtained from applying smoothing techniques in an unlexicalized parser for German, which enhance the accuracy and effectiveness of parsing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "smoothing and parsing results",
+          "local_types": [
+            "smoothing",
+            "parsing results"
+          ],
+          "iri": "Entity-smoothing_and_parsing_result-Mention-1"
+        }
+      ],
+      "relevance": 0.6806640625
+    },
+    "Entity-interplay_between_smoothing_and_parsing_result": {
+      "node_id": "interplay_between_smoothing_and_parsing_result",
+      "disambiguation_index": 0,
+      "label": "interplay between smoothing and parsing results",
+      "aliases": [
+        "interplay between smoothing and parsing results"
+      ],
+      "types": [
+        "concept",
+        "relationship"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The interplay between smoothing and parsing results refers to the relationship and effects that the application of smoothing techniques has on the outcomes and accuracy of parsing in the context of an unlexicalized parser for German.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "interplay between smoothing and parsing results",
+          "local_types": [
+            "concept",
+            "relationship"
+          ],
+          "iri": "Entity-interplay_between_smoothing_and_parsing_result-Mention-1"
+        }
+      ],
+      "relevance": 0.6630859375
+    },
+    "Entity-smoothing": {
+      "node_id": "smoothing",
+      "disambiguation_index": 0,
+      "label": "smoothing",
+      "aliases": [
+        "smoothing"
+      ],
+      "types": [
+        "technique",
+        "statistical method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Smoothing refers to a statistical technique used in the context of an unlexicalized parser for German to improve the accuracy of parsing results by addressing issues related to data sparsity.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "smoothing",
+          "local_types": [
+            "technique",
+            "statistical method"
+          ],
+          "iri": "Entity-smoothing-Mention-1"
+        },
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "smoothing",
+          "local_types": [
+            "technique",
+            "statistical method"
+          ],
+          "iri": "Entity-smoothing-Mention-2"
+        }
+      ],
+      "relevance": 0.65771484375
+    },
+    "Entity-german": {
+      "node_id": "german",
+      "disambiguation_index": 0,
+      "label": "German",
+      "aliases": [
+        "German"
+      ],
+      "types": [
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "German refers to the German language, which is the subject of an unlexicalized parser discussed in the paper.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "German",
+          "local_types": [
+            "language"
+          ],
+          "iri": "Entity-german-Mention-1"
+        }
+      ],
+      "relevance": 0.62109375
+    },
+    "Entity-unlexicalized_parser": {
+      "node_id": "unlexicalized_parser",
+      "disambiguation_index": 0,
+      "label": "unlexicalized parser",
+      "aliases": [
+        "unlexicalized parser",
+        "unlexicalized parser for German"
+      ],
+      "types": [
+        "natural language processing tool",
+        "model",
+        "language processing",
+        "parser"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An unlexicalized parser is a type of natural language processing tool that analyzes the syntactic structure of sentences without relying on specific lexical items, focusing instead on general grammatical rules and patterns.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "unlexicalized parser",
+          "local_types": [
+            "natural language processing tool",
+            "parser"
+          ],
+          "iri": "Entity-unlexicalized_parser-Mention-1"
+        },
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "unlexicalized parser",
+          "local_types": [
+            "natural language processing tool",
+            "parser"
+          ],
+          "iri": "Entity-unlexicalized_parser-Mention-2"
+        },
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "unlexicalized parser for German",
+          "local_types": [
+            "model",
+            "language processing",
+            "parser"
+          ],
+          "iri": "Entity-unlexicalized_parser-Mention-3"
+        }
+      ],
+      "relevance": 0.62109375
+    },
+    "Entity-smoothing_and_suffix_analysis": {
+      "node_id": "smoothing_and_suffix_analysis",
+      "disambiguation_index": 0,
+      "label": "smoothing and suffix analysis",
+      "aliases": [
+        "smoothing and suffix analysis"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Smoothing and suffix analysis refers to techniques used in natural language processing, particularly in the context of parsing, to enhance the accuracy of models by addressing issues related to data sparsity and morphological variations.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "smoothing and suffix analysis",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-smoothing_and_suffix_analysis-Mention-1"
+        }
+      ],
+      "relevance": 0.60107421875
+    },
+    "Entity-negra_corpus": {
+      "node_id": "negra_corpus",
+      "disambiguation_index": 0,
+      "label": "NEGRA corpus",
+      "aliases": [
+        "NEGRA corpus"
+      ],
+      "types": [
+        "dataset",
+        "linguistic resource",
+        "corpus"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The NEGRA corpus is a linguistically annotated corpus of German texts used for various natural language processing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "NEGRA corpus",
+          "local_types": [
+            "dataset",
+            "linguistic resource",
+            "corpus"
+          ],
+          "iri": "Entity-negra_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.59423828125
+    },
+    "Entity-previously_reported_result": {
+      "node_id": "previously_reported_result",
+      "disambiguation_index": 0,
+      "label": "previously reported results",
+      "aliases": [
+        "previously reported results"
+      ],
+      "types": [
+        "results"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'previously reported results' refers to the performance metrics, specifically the labelled bracket F-scores, achieved by earlier studies on the NEGRA corpus prior to the findings presented in this paper.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "previously reported results",
+          "local_types": [
+            "results"
+          ],
+          "iri": "Entity-previously_reported_result-Mention-1"
+        }
+      ],
+      "relevance": 0.55029296875
+    },
+    "Entity-parsing_result": {
+      "node_id": "parsing_result",
+      "disambiguation_index": 0,
+      "label": "parsing results",
+      "aliases": [
+        "parsing results"
+      ],
+      "types": [
+        "output",
+        "natural language processing result",
+        "analysis result"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Parsing results refer to the outcomes or outputs generated by a parsing process in natural language processing, which typically involve the syntactic structure or analysis of a given text.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "parsing results",
+          "local_types": [
+            "output",
+            "natural language processing result",
+            "analysis result"
+          ],
+          "iri": "Entity-parsing_result-Mention-1"
+        }
+      ],
+      "relevance": 0.489013671875
+    },
+    "Entity-high_accuracy_of_the_model": {
+      "node_id": "high_accuracy_of_the_model",
+      "disambiguation_index": 0,
+      "label": "high accuracy of the model",
+      "aliases": [
+        "high accuracy of the model"
+      ],
+      "types": [
+        "accuracy",
+        "performance",
+        "model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The high accuracy of the model refers to the degree to which the model's predictions or outputs align with the true values or expected outcomes, indicating its effectiveness in performing the task it was designed for.",
+      "mentions": [
+        {
+          "reference": "Paper-8-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "high accuracy of the model",
+          "local_types": [
+            "accuracy",
+            "performance",
+            "model"
+          ],
+          "iri": "Entity-high_accuracy_of_the_model-Mention-1"
+        }
+      ],
+      "relevance": 0.4228515625
+    }
+  },
+  "summary": "In this paper , we present an unlexicalized parser for German which employs smoothing and suffix analysis to achieve a labelled bracket F-score of 76.2 , higher than previously reported results on the NEGRA corpus . In addition to the high accuracy of the model , the use of smoothing in an unlexicalized parser allows us to better examine the interplay between smoothing and parsing results .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-unlexicalized_parser"
+    ],
+    [
+      "Entity-unlexicalized_parser",
+      "Predicate-employs",
+      "Entity-smoothing_and_suffix_analysis"
+    ],
+    [
+      "Entity-unlexicalized_parser",
+      "Predicate-achieves",
+      "Entity-labelled_bracket_f-score"
+    ],
+    [
+      "Entity-labelled_bracket_f-score",
+      "Predicate-is",
+      "Entity-76.2"
+    ],
+    [
+      "Entity-unlexicalized_parser",
+      "Predicate-employs",
+      "Entity-smoothing"
+    ],
+    [
+      "Entity-unlexicalized_parser",
+      "Predicate-employs",
+      "Entity-suffix_analysis"
+    ],
+    [
+      "Entity-smoothing_and_suffix_analysis",
+      "Predicate-is_used_in",
+      "Entity-unlexicalized_parser"
+    ],
+    [
+      "Entity-unlexicalized_parser",
+      "Predicate-allows_to_examine",
+      "Entity-interplay_between_smoothing_and_parsing_result"
+    ],
+    [
+      "Entity-smoothing",
+      "Predicate-interplays_with",
+      "Entity-parsing_result"
+    ],
+    [
+      "Entity-model",
+      "Predicate-has",
+      "Entity-high_accuracy_of_the_model"
+    ],
+    [
+      "Entity-smoothing_and_parsing_result",
+      "Predicate-interplays_with",
+      "Entity-smoothing"
+    ],
+    [
+      "Entity-smoothing_and_parsing_result",
+      "Predicate-interplays_with",
+      "Entity-parsing_result"
+    ],
+    [
+      "Entity-smoothing_and_suffix_analysis",
+      "Predicate-interplays_with",
+      "Entity-parsing_result"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_high_accuracy_of_the_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-smoothing_and_parsing_result",
+      "skos:broader",
+      "Entity-smoothing"
+    ],
+    [
+      "Entity-high_accuracy_of_the_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-smoothing_and_parsing_result",
+      "skos:broader",
+      "Entity-parsing_result"
+    ],
+    [
+      "Entity-unlexicalized_parser",
+      "skos:broader",
+      "Entity-model"
+    ]
+  ],
+  "predicates": {
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject is introducing, showcasing, or demonstrating the object, which typically represents an idea, concept, or item. This connection implies that the subject is providing information or evidence about the object, often in a formal or structured context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-employs": {
+      "label": "employs",
+      "description": "The predicate 'employs' indicates that the subject utilizes or applies a specific method, technique, or resource represented by the object. It signifies an active engagement where the subject incorporates the object into its operations or processes to achieve a particular goal or function.",
+      "disambiguation_index": 0
+    },
+    "Predicate-achieves": {
+      "label": "achieves",
+      "description": "The predicate 'achieves' denotes a relationship where the subject successfully reaches or attains a specific goal, outcome, or measure represented by the object. It implies a positive result or accomplishment in relation to the object, indicating that the subject has met or exceeded a certain standard or criterion.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' serves as a linking verb that establishes an identity or equivalence between the subject and the object. It indicates that the subject possesses the quality, characteristic, or value represented by the object, effectively defining or describing the subject in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_in": {
+      "label": "is used in",
+      "description": "The predicate 'is used in' indicates a functional relationship where the subject serves a role or purpose within the context of the object. It implies that the subject contributes to, supports, or is applied within the framework or operation of the object, highlighting the practical application or relevance of the subject in a specific domain or system.",
+      "disambiguation_index": 0
+    },
+    "Predicate-allows_to_examine": {
+      "label": "allows to examine",
+      "description": "The predicate 'allows to examine' indicates that the subject provides the capability or opportunity to investigate, analyze, or study the object. It suggests that the subject facilitates a process of observation or inquiry into the characteristics, relationships, or dynamics represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-interplays_with": {
+      "label": "interplays with",
+      "description": "The predicate 'interplays with' indicates a dynamic and reciprocal relationship between the subject and the object, suggesting that both elements influence and affect each other in a significant way. This interplay can involve various forms of interaction, such as enhancement, modification, or competition, highlighting the complexity and interconnectedness of the two entities within a given context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' indicates a possessive relationship between the subject and the object, signifying that the subject possesses, contains, or is characterized by the qualities or attributes described by the object. In this context, it establishes a connection where the subject is associated with the specific property or feature represented by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates a hierarchical relationship where the subject represents a specific instance or concept that falls under a more general category or concept represented by the object. This relationship suggests that the subject is a subset or a more detailed aspect of the broader term, which encompasses a wider range of instances or concepts.",
+      "disambiguation_index": 0
+    }
+  }
+}

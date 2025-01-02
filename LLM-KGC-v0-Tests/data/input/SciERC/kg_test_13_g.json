@@ -1,0 +1,1441 @@
+{
+  "iri": "Paper-13",
+  "title": "C94-1091",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-13-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-13-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper presents an algorithm for selecting an appropriate classifier word for a noun ."
+            },
+            {
+              "iri": "Paper-13-Section-1-Paragraph-1-Sentence-2",
+              "text": "In Thai language , it frequently happens that there is fluctuation in the choice of classifier for a given concrete noun , both from the point of view of the whole speech community and individual speakers ."
+            },
+            {
+              "iri": "Paper-13-Section-1-Paragraph-1-Sentence-3",
+              "text": "Basically , there is no exact rule for classifier selection ."
+            },
+            {
+              "iri": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+              "text": "As far as we can do in the rule-based approach is to give a default rule to pick up a corresponding classifier of each noun ."
+            },
+            {
+              "iri": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+              "text": "Registration of classifier for each noun is limited to the type of unit classifier because other types are open due to the meaning of representation ."
+            },
+            {
+              "iri": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+              "text": "We propose a corpus-based method -LRB- Biber ,1993 ; Nagao ,1993 ; Smadja ,1993 -RRB- which generates Noun Classifier Associations -LRB- NCA -RRB- to overcome the problems in classifier assignment and semantic construction of noun phrase ."
+            },
+            {
+              "iri": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+              "text": "The NCA is created statistically from a large corpus and recomposed under concept hierarchy constraints and frequency of occurrences ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0019459724426269531,
+    11.230813264846802,
+    25.499120235443115,
+    19.390610933303833,
+    0.0559229850769043,
+    0.00011706352233886719,
+    0.00017380714416503906,
+    28.260163068771362,
+    41.879637002944946,
+    4.786524057388306,
+    22.50102663040161,
+    0.013176918029785156,
+    0.00023603439331054688,
+    14.334625005722046,
+    0.0015611648559570312,
+    0.035218238830566406,
+    0.0015211105346679688,
+    4.921458005905151,
+    1.9972469806671143,
+    3.0246028900146484,
+    74.11909294128418,
+    9.593070030212402,
+    38.54744791984558,
+    3.7771599292755127,
+    0.0006508827209472656,
+    0.012575149536132812
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper describes a novel algorithm designed to select the appropriate classifier word for nouns in the Thai language, addressing the variability in classifier choice and proposing a corpus-based method to generate Noun Classifier Associations.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.81103515625
+    },
+    "Entity-classifier_assignment": {
+      "node_id": "classifier_assignment",
+      "disambiguation_index": 0,
+      "label": "classifier assignment",
+      "aliases": [
+        "classifier assignment"
+      ],
+      "types": [
+        "process",
+        "linguistic task",
+        "semantic task",
+        "assignment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Classifier assignment refers to the process of selecting an appropriate classifier word for a noun in the Thai language, which involves addressing the variability and lack of strict rules in classifier selection through a corpus-based method that generates Noun Classifier Associations.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "classifier assignment",
+          "local_types": [
+            "process",
+            "linguistic task",
+            "semantic task",
+            "assignment"
+          ],
+          "iri": "Entity-classifier_assignment-Mention-1"
+        }
+      ],
+      "relevance": 0.783203125
+    },
+    "Entity-noun_classifier_association": {
+      "node_id": "noun_classifier_association",
+      "disambiguation_index": 0,
+      "label": "Noun Classifier Associations",
+      "aliases": [
+        "Noun Classifier Associations",
+        "NCA",
+        "The NCA"
+      ],
+      "types": [
+        "linguistic concept",
+        "association",
+        "concept",
+        "statistical model",
+        "method",
+        "linguistic model",
+        "acronym",
+        "conceptual framework",
+        "organization"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Noun Classifier Associations (NCA) refers to a statistical method developed to generate associations between nouns and their appropriate classifier words in the Thai language, addressing the variability and lack of strict rules in classifier selection.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Noun Classifier Associations",
+          "local_types": [
+            "linguistic concept",
+            "association",
+            "concept",
+            "method",
+            "linguistic model"
+          ],
+          "iri": "Entity-noun_classifier_association-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "NCA",
+          "local_types": [
+            "organization",
+            "statistical model",
+            "acronym",
+            "conceptual framework"
+          ],
+          "iri": "Entity-noun_classifier_association-Mention-2"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "NCA",
+          "local_types": [
+            "association"
+          ],
+          "iri": "Entity-noun_classifier_association-Mention-3"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "The NCA",
+          "local_types": [
+            "concept",
+            "statistical model"
+          ],
+          "iri": "Entity-noun_classifier_association-Mention-4"
+        }
+      ],
+      "relevance": 0.77197265625
+    },
+    "Entity-classifier": {
+      "node_id": "classifier",
+      "disambiguation_index": 0,
+      "label": "classifier",
+      "aliases": [
+        "classifier"
+      ],
+      "types": [
+        "algorithm",
+        "machine learning model",
+        "linguistic element",
+        "classifier",
+        "grammatical category",
+        "linguistic term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of this paper, 'classifier' refers to a linguistic element used in the Thai language that categorizes nouns based on their semantic properties, and the paper discusses an algorithm for selecting the appropriate classifier word for a given noun.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "classifier",
+          "local_types": [
+            "classifier"
+          ],
+          "iri": "Entity-classifier-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "classifier",
+          "local_types": [
+            "grammatical category",
+            "linguistic term",
+            "linguistic element"
+          ],
+          "iri": "Entity-classifier-Mention-2"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "classifier",
+          "local_types": [
+            "algorithm",
+            "machine learning model"
+          ],
+          "iri": "Entity-classifier-Mention-3"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "classifier",
+          "local_types": [
+            "machine learning model",
+            "algorithm"
+          ],
+          "iri": "Entity-classifier-Mention-4"
+        }
+      ],
+      "relevance": 0.771484375
+    },
+    "Entity-no_exact_rule_for_classifier_selection": {
+      "node_id": "no_exact_rule_for_classifier_selection",
+      "disambiguation_index": 0,
+      "label": "no exact rule for classifier selection",
+      "aliases": [
+        "no exact rule for classifier selection"
+      ],
+      "types": [
+        "rule",
+        "classifier selection"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The phrase 'no exact rule for classifier selection' refers to the absence of a definitive guideline or standard procedure for choosing the appropriate classifier for nouns in the Thai language, highlighting the variability and contextual nature of classifier usage among speakers.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "no exact rule for classifier selection",
+          "local_types": [
+            "rule",
+            "classifier selection"
+          ],
+          "iri": "Entity-no_exact_rule_for_classifier_selection-Mention-1"
+        }
+      ],
+      "relevance": 0.73876953125
+    },
+    "Entity-a_corresponding_classifier": {
+      "node_id": "a_corresponding_classifier",
+      "disambiguation_index": 0,
+      "label": "a corresponding classifier",
+      "aliases": [
+        "a corresponding classifier"
+      ],
+      "types": [
+        "classifier"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A corresponding classifier refers to a specific classifier word that is selected based on a default rule for a given noun in the Thai language, where classifier selection can vary among speakers and contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a corresponding classifier",
+          "local_types": [
+            "classifier"
+          ],
+          "iri": "Entity-a_corresponding_classifier-Mention-1"
+        }
+      ],
+      "relevance": 0.73583984375
+    },
+    "Entity-an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun": {
+      "node_id": "an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun",
+      "disambiguation_index": 0,
+      "label": "an algorithm for selecting an appropriate classifier word for a noun",
+      "aliases": [
+        "an algorithm",
+        "an algorithm for selecting an appropriate classifier word for a noun"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The entity refers to a statistical algorithm designed to determine the most suitable classifier word for a noun in the Thai language, addressing the variability in classifier selection through a corpus-based method that generates Noun Classifier Associations.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "an algorithm for selecting an appropriate classifier word for a noun",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "an algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun-Mention-2"
+        }
+      ],
+      "relevance": 0.734375
+    },
+    "Entity-biber": {
+      "node_id": "biber",
+      "disambiguation_index": 0,
+      "label": "Biber",
+      "aliases": [
+        "Biber"
+      ],
+      "types": [
+        "author",
+        "researcher",
+        "person"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Biber refers to a researcher who proposed a corpus-based method for generating Noun Classifier Associations in the context of classifier selection in the Thai language.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Biber",
+          "local_types": [
+            "author",
+            "researcher",
+            "person"
+          ],
+          "iri": "Entity-biber-Mention-1"
+        }
+      ],
+      "relevance": 0.72900390625
+    },
+    "Entity-unit_classifier": {
+      "node_id": "unit_classifier",
+      "disambiguation_index": 0,
+      "label": "unit classifier",
+      "aliases": [
+        "unit classifier"
+      ],
+      "types": [
+        "grammatical category",
+        "machine learning model",
+        "linguistic term",
+        "specific classifier"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'unit classifier' refers to a specific type of classifier used in the Thai language that is associated with the categorization of concrete nouns, where its selection is influenced by semantic representation and contextual factors.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "unit classifier",
+          "local_types": [
+            "grammatical category",
+            "machine learning model",
+            "linguistic term",
+            "specific classifier"
+          ],
+          "iri": "Entity-unit_classifier-Mention-1"
+        }
+      ],
+      "relevance": 0.7255859375
+    },
+    "Entity-default_rule": {
+      "node_id": "default_rule",
+      "disambiguation_index": 0,
+      "label": "default rule",
+      "aliases": [
+        "a default rule",
+        "default rule"
+      ],
+      "types": [
+        "rule"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'default rule' refers to a guideline in a rule-based approach for selecting the appropriate classifier for a noun in the Thai language, used when no exact rule exists for classifier selection.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "default rule",
+          "local_types": [
+            "rule"
+          ],
+          "iri": "Entity-default_rule-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a default rule",
+          "local_types": [
+            "rule"
+          ],
+          "iri": "Entity-default_rule-Mention-2"
+        }
+      ],
+      "relevance": 0.71923828125
+    },
+    "Entity-registration_of_classifier": {
+      "node_id": "registration_of_classifier",
+      "disambiguation_index": 0,
+      "label": "Registration of classifier",
+      "aliases": [
+        "Registration of classifier"
+      ],
+      "types": [
+        "process",
+        "classifier"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The 'Registration of classifier' refers to the process of associating a specific unit classifier with a noun in the Thai language, which is influenced by semantic representation and is subject to variability among speakers.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Registration of classifier",
+          "local_types": [
+            "process",
+            "classifier"
+          ],
+          "iri": "Entity-registration_of_classifier-Mention-1"
+        }
+      ],
+      "relevance": 0.71630859375
+    },
+    "Entity-a_large_corpus": {
+      "node_id": "a_large_corpus",
+      "disambiguation_index": 0,
+      "label": "a large corpus",
+      "aliases": [
+        "a large corpus"
+      ],
+      "types": [
+        "data source",
+        "corpus"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A large corpus refers to a substantial collection of linguistic data used to statistically generate Noun Classifier Associations (NCA) for improving classifier selection in the Thai language.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "a large corpus",
+          "local_types": [
+            "data source",
+            "corpus"
+          ],
+          "iri": "Entity-a_large_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.70703125
+    },
+    "Entity-type_of_unit_classifier": {
+      "node_id": "type_of_unit_classifier",
+      "disambiguation_index": 0,
+      "label": "type of unit classifier",
+      "aliases": [
+        "type of unit classifier"
+      ],
+      "types": [
+        "type",
+        "unit classifier"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The 'type of unit classifier' refers to a specific category of classifiers used in the Thai language for registering nouns, which is constrained by the semantic representation of the nouns, as opposed to other more flexible types of classifiers.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "type of unit classifier",
+          "local_types": [
+            "type",
+            "unit classifier"
+          ],
+          "iri": "Entity-type_of_unit_classifier-Mention-1"
+        }
+      ],
+      "relevance": 0.69873046875
+    },
+    "Entity-nagao": {
+      "node_id": "nagao",
+      "disambiguation_index": 0,
+      "label": "Nagao",
+      "aliases": [
+        "Nagao"
+      ],
+      "types": [
+        "author",
+        "researcher",
+        "person"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Nagao refers to a researcher who contributed to the development of a corpus-based method for generating Noun Classifier Associations in the context of classifier selection in the Thai language.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Nagao",
+          "local_types": [
+            "author",
+            "researcher",
+            "person"
+          ],
+          "iri": "Entity-nagao-Mention-1"
+        }
+      ],
+      "relevance": 0.6875
+    },
+    "Entity-frequency_of_occurrence": {
+      "node_id": "frequency_of_occurrence",
+      "disambiguation_index": 0,
+      "label": "frequency of occurrences",
+      "aliases": [
+        "frequency of occurrences"
+      ],
+      "types": [
+        "linguistic analysis",
+        "linguistic feature",
+        "frequency",
+        "statistical measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'frequency of occurrences' refers to the statistical measure of how often specific noun classifier associations appear in a large corpus, which is used to inform the algorithm for selecting appropriate classifiers in the Thai language.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "frequency of occurrences",
+          "local_types": [
+            "linguistic analysis",
+            "linguistic feature",
+            "frequency",
+            "statistical measure"
+          ],
+          "iri": "Entity-frequency_of_occurrence-Mention-1"
+        }
+      ],
+      "relevance": 0.68701171875
+    },
+    "Entity-semantic_construction_of_noun_phrase": {
+      "node_id": "semantic_construction_of_noun_phrase",
+      "disambiguation_index": 0,
+      "label": "semantic construction of noun phrase",
+      "aliases": [
+        "semantic construction of noun phrase"
+      ],
+      "types": [
+        "noun phrase",
+        "linguistic process",
+        "process",
+        "semantic process",
+        "semantic construction"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'semantic construction of noun phrase' refers to the process of determining the appropriate classifier for a noun in the Thai language, which involves analyzing the semantic relationships and contextual usage of nouns to improve classifier assignment.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "semantic construction of noun phrase",
+          "local_types": [
+            "noun phrase",
+            "linguistic process",
+            "process",
+            "semantic process",
+            "semantic construction"
+          ],
+          "iri": "Entity-semantic_construction_of_noun_phrase-Mention-1"
+        }
+      ],
+      "relevance": 0.68115234375
+    },
+    "Entity-smadja": {
+      "node_id": "smadja",
+      "disambiguation_index": 0,
+      "label": "Smadja",
+      "aliases": [
+        "Smadja"
+      ],
+      "types": [
+        "author",
+        "researcher",
+        "person"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Smadja refers to a researcher who contributed to the development of a corpus-based method for generating Noun Classifier Associations in the context of classifier selection in the Thai language.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Smadja",
+          "local_types": [
+            "author",
+            "researcher",
+            "person"
+          ],
+          "iri": "Entity-smadja-Mention-1"
+        }
+      ],
+      "relevance": 0.666015625
+    },
+    "Entity-each_noun": {
+      "node_id": "each_noun",
+      "disambiguation_index": 0,
+      "label": "each noun",
+      "aliases": [
+        "each noun"
+      ],
+      "types": [
+        "noun"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'each noun' refers to individual concrete nouns in the Thai language for which a classifier must be selected, highlighting the variability and lack of strict rules in classifier assignment.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "each noun",
+          "local_types": [
+            "noun"
+          ],
+          "iri": "Entity-each_noun-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "each noun",
+          "local_types": [
+            "noun"
+          ],
+          "iri": "Entity-each_noun-Mention-2"
+        }
+      ],
+      "relevance": 0.6640625
+    },
+    "Entity-classifier_word": {
+      "node_id": "classifier_word",
+      "disambiguation_index": 0,
+      "label": "classifier word",
+      "aliases": [
+        "classifier word"
+      ],
+      "types": [
+        "classifier",
+        "grammatical category",
+        "term",
+        "classification term",
+        "linguistic term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A classifier word is a linguistic term used to categorize nouns based on shared characteristics, often employed in languages that utilize classifiers to convey information about the noun's properties or quantity.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "classifier word",
+          "local_types": [
+            "classifier",
+            "grammatical category",
+            "term",
+            "classification term",
+            "linguistic term"
+          ],
+          "iri": "Entity-classifier_word-Mention-1"
+        }
+      ],
+      "relevance": 0.66015625
+    },
+    "Entity-concept_hierarchy_constraint": {
+      "node_id": "concept_hierarchy_constraint",
+      "disambiguation_index": 0,
+      "label": "concept hierarchy constraints",
+      "aliases": [
+        "concept hierarchy constraints"
+      ],
+      "types": [
+        "constraint",
+        "concept hierarchy"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Concept hierarchy constraints refer to the limitations or rules applied to the organization and selection of noun classifier associations based on the hierarchical relationships between concepts in a given language, particularly in the context of classifier selection in Thai.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "concept hierarchy constraints",
+          "local_types": [
+            "constraint",
+            "concept hierarchy"
+          ],
+          "iri": "Entity-concept_hierarchy_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.65771484375
+    },
+    "Entity-representation": {
+      "node_id": "representation",
+      "disambiguation_index": 0,
+      "label": "representation",
+      "aliases": [
+        "representation"
+      ],
+      "types": [
+        "concept",
+        "meaning"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'representation' refers to the underlying meaning or semantic implications associated with different types of classifiers used for nouns in the Thai language.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "representation",
+          "local_types": [
+            "concept",
+            "meaning"
+          ],
+          "iri": "Entity-representation-Mention-1"
+        }
+      ],
+      "relevance": 0.63525390625
+    },
+    "Entity-classifier_selection": {
+      "node_id": "classifier_selection",
+      "disambiguation_index": 0,
+      "label": "classifier selection",
+      "aliases": [
+        "classifier selection"
+      ],
+      "types": [
+        "process",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Classifier selection is the process or methodology of choosing the most appropriate classification algorithm or model for a given dataset or problem.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "classifier selection",
+          "local_types": [
+            "process",
+            "methodology"
+          ],
+          "iri": "Entity-classifier_selection-Mention-1"
+        }
+      ],
+      "relevance": 0.61962890625
+    },
+    "Entity-other_type": {
+      "node_id": "other_type",
+      "disambiguation_index": 0,
+      "label": "other types",
+      "aliases": [
+        "other types"
+      ],
+      "types": [
+        "type"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'other types' refers to various classifications of nouns in the Thai language that are not limited to unit classifiers, indicating a broader range of classifier options influenced by semantic representation.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "other types",
+          "local_types": [
+            "type"
+          ],
+          "iri": "Entity-other_type-Mention-1"
+        }
+      ],
+      "relevance": 0.61669921875
+    },
+    "Entity-individual_speaker": {
+      "node_id": "individual_speaker",
+      "disambiguation_index": 0,
+      "label": "individual speakers",
+      "aliases": [
+        "individual speakers"
+      ],
+      "types": [
+        "speaker",
+        "language user",
+        "person"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Individual speakers refer to individual users of the Thai language who exhibit variability in their selection of classifier words for concrete nouns.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "individual speakers",
+          "local_types": [
+            "speaker",
+            "language user",
+            "person"
+          ],
+          "iri": "Entity-individual_speaker-Mention-1"
+        }
+      ],
+      "relevance": 0.603515625
+    },
+    "Entity-meaning_of_representation": {
+      "node_id": "meaning_of_representation",
+      "disambiguation_index": 0,
+      "label": "meaning of representation",
+      "aliases": [
+        "meaning of representation"
+      ],
+      "types": [
+        "meaning",
+        "representation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The 'meaning of representation' refers to the conceptual framework that allows for the flexibility and variability in the selection of classifier types in the Thai language, indicating that certain classifiers can be used based on their semantic associations rather than strict rules.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "meaning of representation",
+          "local_types": [
+            "meaning",
+            "representation"
+          ],
+          "iri": "Entity-meaning_of_representation-Mention-1"
+        }
+      ],
+      "relevance": 0.59521484375
+    },
+    "Entity-rule-based_approach": {
+      "node_id": "rule-based_approach",
+      "disambiguation_index": 0,
+      "label": "rule-based approach",
+      "aliases": [
+        "rule-based approach",
+        "the rule-based approach"
+      ],
+      "types": [
+        "computational approach",
+        "approach",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A rule-based approach is a methodology that relies on predefined rules and logic to make decisions or solve problems, often used in computational systems for tasks such as classification and data processing.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "rule-based approach",
+          "local_types": [
+            "computational approach",
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-rule-based_approach-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the rule-based approach",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-rule-based_approach-Mention-2"
+        }
+      ],
+      "relevance": 0.57763671875
+    },
+    "Entity-noun": {
+      "node_id": "noun",
+      "disambiguation_index": 0,
+      "label": "noun",
+      "aliases": [
+        "noun",
+        "a noun"
+      ],
+      "types": [
+        "linguistic category",
+        "part of speech",
+        "noun",
+        "term",
+        "linguistic term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A noun is a part of speech that typically denotes a person, place, thing, or idea.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "noun",
+          "local_types": [
+            "linguistic category",
+            "linguistic term",
+            "part of speech"
+          ],
+          "iri": "Entity-noun-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "noun",
+          "local_types": [
+            "part of speech",
+            "linguistic term"
+          ],
+          "iri": "Entity-noun-Mention-2"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "noun",
+          "local_types": [
+            "part of speech",
+            "linguistic category"
+          ],
+          "iri": "Entity-noun-Mention-3"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a noun",
+          "local_types": [
+            "term",
+            "noun"
+          ],
+          "iri": "Entity-noun-Mention-4"
+        }
+      ],
+      "relevance": 0.55029296875
+    },
+    "Entity-corpus-based_method": {
+      "node_id": "corpus-based_method",
+      "disambiguation_index": 0,
+      "label": "corpus-based method",
+      "aliases": [
+        "corpus-based method",
+        "a corpus-based method"
+      ],
+      "types": [
+        "research methodology",
+        "method",
+        "methodology",
+        "linguistic analysis",
+        "research method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A corpus-based method is a research methodology that utilizes a collection of written or spoken texts (corpus) to analyze language patterns and inform linguistic studies.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "corpus-based method",
+          "local_types": [
+            "research methodology",
+            "method",
+            "methodology",
+            "linguistic analysis",
+            "research method"
+          ],
+          "iri": "Entity-corpus-based_method-Mention-1"
+        },
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a corpus-based method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-corpus-based_method-Mention-2"
+        }
+      ],
+      "relevance": 0.546875
+    },
+    "Entity-thai_language": {
+      "node_id": "thai_language",
+      "disambiguation_index": 0,
+      "label": "Thai language",
+      "aliases": [
+        "Thai language"
+      ],
+      "types": [
+        "natural language",
+        "cultural entity",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The Thai language is a member of the Tai-Kadai language family, primarily spoken in Thailand and known for its unique tonal system and script.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Thai language",
+          "local_types": [
+            "natural language",
+            "cultural entity",
+            "language"
+          ],
+          "iri": "Entity-thai_language-Mention-1"
+        }
+      ],
+      "relevance": 0.51611328125
+    },
+    "Entity-algorithm": {
+      "node_id": "algorithm",
+      "disambiguation_index": 0,
+      "label": "algorithm",
+      "aliases": [
+        "algorithm"
+      ],
+      "types": [
+        "method",
+        "computational technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An algorithm is a systematic procedure or set of rules designed to perform a task or solve a problem, often implemented in computational techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "algorithm",
+          "local_types": [
+            "method",
+            "computational technique"
+          ],
+          "iri": "Entity-algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.515625
+    },
+    "Entity-corpus": {
+      "node_id": "corpus",
+      "disambiguation_index": 0,
+      "label": "corpus",
+      "aliases": [
+        "corpus"
+      ],
+      "types": [
+        "data set",
+        "linguistic resource"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A corpus is a structured collection of written or spoken texts used for linguistic analysis and research.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "corpus",
+          "local_types": [
+            "data set",
+            "linguistic resource"
+          ],
+          "iri": "Entity-corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.51416015625
+    },
+    "Entity-concept_hierarchy": {
+      "node_id": "concept_hierarchy",
+      "disambiguation_index": 0,
+      "label": "concept hierarchy",
+      "aliases": [
+        "concept hierarchy"
+      ],
+      "types": [
+        "organizational structure",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A concept hierarchy is an organizational structure that categorizes concepts in a systematic way, often used in knowledge representation and information retrieval to illustrate relationships between different concepts.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "concept hierarchy",
+          "local_types": [
+            "organizational structure",
+            "theoretical framework"
+          ],
+          "iri": "Entity-concept_hierarchy-Mention-1"
+        }
+      ],
+      "relevance": 0.46435546875
+    },
+    "Entity-concrete_noun": {
+      "node_id": "concrete_noun",
+      "disambiguation_index": 0,
+      "label": "concrete noun",
+      "aliases": [
+        "concrete noun"
+      ],
+      "types": [
+        "grammatical category",
+        "noun"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A concrete noun is a type of noun that refers to physical objects or substances that can be perceived through the senses.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "concrete noun",
+          "local_types": [
+            "grammatical category",
+            "noun"
+          ],
+          "iri": "Entity-concrete_noun-Mention-1"
+        }
+      ],
+      "relevance": 0.45654296875
+    },
+    "Entity-speech_community": {
+      "node_id": "speech_community",
+      "disambiguation_index": 0,
+      "label": "speech community",
+      "aliases": [
+        "speech community"
+      ],
+      "types": [
+        "linguistic community",
+        "community",
+        "social group"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A speech community is a group of people who share a common language or dialect and engage in regular communication, influencing each other's linguistic practices.",
+      "mentions": [
+        {
+          "reference": "Paper-13-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "speech community",
+          "local_types": [
+            "linguistic community",
+            "community",
+            "social group"
+          ],
+          "iri": "Entity-speech_community-Mention-1"
+        }
+      ],
+      "relevance": 0.44482421875
+    }
+  },
+  "summary": "This paper presents an algorithm for selecting an appropriate classifier word for a noun . In Thai language , it frequently happens that there is fluctuation in the choice of classifier for a given concrete noun , both from the point of view of the whole speech community and individual speakers . Basically , there is no exact rule for classifier selection . As far as we can do in the rule-based approach is to give a default rule to pick up a corresponding classifier of each noun . Registration of classifier for each noun is limited to the type of unit classifier because other types are open due to the meaning of representation . We propose a corpus-based method -LRB- Biber ,1993 ; Nagao ,1993 ; Smadja ,1993 -RRB- which generates Noun Classifier Associations -LRB- NCA -RRB- to overcome the problems in classifier assignment and semantic construction of noun phrase . The NCA is created statistically from a large corpus and recomposed under concept hierarchy constraints and frequency of occurrences .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun"
+    ],
+    [
+      "Entity-an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun",
+      "Predicate-is_for",
+      "Entity-classifier_word"
+    ],
+    [
+      "Entity-an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun",
+      "Predicate-is_for",
+      "Entity-noun"
+    ],
+    [
+      "Entity-classifier",
+      "Predicate-fluctuates_in_choice_for",
+      "Entity-concrete_noun"
+    ],
+    [
+      "Entity-speech_community",
+      "Predicate-influences",
+      "Entity-classifier"
+    ],
+    [
+      "Entity-individual_speaker",
+      "Predicate-influence",
+      "Entity-classifier"
+    ],
+    [
+      "Entity-rule-based_approach",
+      "Predicate-gives",
+      "Entity-default_rule"
+    ],
+    [
+      "Entity-default_rule",
+      "Predicate-picks_up",
+      "Entity-a_corresponding_classifier"
+    ],
+    [
+      "Entity-each_noun",
+      "Predicate-corresponds_to",
+      "Entity-a_corresponding_classifier"
+    ],
+    [
+      "Entity-registration_of_classifier",
+      "Predicate-is_limited_to",
+      "Entity-type_of_unit_classifier"
+    ],
+    [
+      "Entity-other_type",
+      "Predicate-are_open_due_to",
+      "Entity-meaning_of_representation"
+    ],
+    [
+      "Entity-corpus-based_method",
+      "Predicate-generates",
+      "Entity-noun_classifier_association"
+    ],
+    [
+      "Entity-noun_classifier_association",
+      "Predicate-overcome",
+      "Entity-semantic_construction_of_noun_phrase"
+    ],
+    [
+      "Entity-noun_classifier_association",
+      "Predicate-is_generated_by",
+      "Entity-corpus-based_method"
+    ],
+    [
+      "Entity-noun_classifier_association",
+      "Predicate-is_created_from",
+      "Entity-a_large_corpus"
+    ],
+    [
+      "Entity-noun_classifier_association",
+      "Predicate-is_recomposed_under",
+      "Entity-concept_hierarchy_constraint"
+    ],
+    [
+      "Entity-noun_classifier_association",
+      "Predicate-is_recomposed_under",
+      "Entity-frequency_of_occurrence"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-describes",
+      "Entity-classifier_assignment"
+    ],
+    [
+      "Entity-classifier_assignment",
+      "Predicate-generates",
+      "Entity-noun_classifier_association"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-describes_a_method_to_generate_Noun_Classifier_Associations",
+      "Entity-noun_classifier_association"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_large_corpus",
+      "skos:broader",
+      "Entity-corpus"
+    ],
+    [
+      "Entity-each_noun",
+      "skos:broader",
+      "Entity-noun"
+    ],
+    [
+      "Entity-an_algorithm_for_selecting_an_appropriate_classifier_word_for_a_noun",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-type_of_unit_classifier",
+      "skos:broader",
+      "Entity-unit_classifier"
+    ],
+    [
+      "Entity-classifier_word",
+      "skos:broader",
+      "Entity-classifier"
+    ],
+    [
+      "Entity-registration_of_classifier",
+      "skos:broader",
+      "Entity-classifier"
+    ],
+    [
+      "Entity-a_corresponding_classifier",
+      "skos:broader",
+      "Entity-classifier_word"
+    ],
+    [
+      "Entity-concept_hierarchy_constraint",
+      "skos:broader",
+      "Entity-concept_hierarchy"
+    ],
+    [
+      "Entity-meaning_of_representation",
+      "skos:broader",
+      "Entity-representation"
+    ],
+    [
+      "Entity-registration_of_classifier",
+      "skos:broader",
+      "Entity-classifier_word"
+    ],
+    [
+      "Entity-concrete_noun",
+      "skos:broader",
+      "Entity-noun"
+    ],
+    [
+      "Entity-a_corresponding_classifier",
+      "skos:broader",
+      "Entity-classifier"
+    ],
+    [
+      "Entity-classifier",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-no_exact_rule_for_classifier_selection",
+      "skos:broader",
+      "Entity-classifier_selection"
+    ]
+  ],
+  "predicates": {
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject is introducing, showcasing, or making known the object, which typically represents a concept, idea, method, or finding. This connection implies that the subject is providing information or a demonstration regarding the object, often in a formal or structured context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_for": {
+      "label": "is for",
+      "description": "The predicate 'is for' establishes a relationship of purpose or function between the subject and the object, indicating that the subject serves to achieve, facilitate, or provide the object. It implies that the subject is designed or intended to address the needs or requirements represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-fluctuates_in_choice_for": {
+      "label": "fluctuates in choice for",
+      "description": "The predicate 'fluctuates in choice for' indicates a variable or changing preference or selection made by the subject (classifier) regarding the object (concrete noun). It suggests that the subject does not maintain a consistent or stable choice, but rather experiences shifts or variations in their selection process over time or under different circumstances.",
+      "disambiguation_index": 0
+    },
+    "Predicate-influences": {
+      "label": "influences",
+      "description": "The predicate 'influences' denotes a relationship where the subject exerts an effect or impact on the object, leading to a change, development, or shaping of characteristics, behaviors, or outcomes associated with the object. This connection implies that the subject plays a significant role in determining or guiding the nature or function of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-influence": {
+      "label": "influence",
+      "description": "The predicate 'influence' denotes a relationship where the subject exerts an effect or impact on the object, leading to a change or shaping of characteristics, behaviors, or outcomes associated with the object. In this context, the subject is typically an agent or entity that has the capacity to affect the object, which can be a concept, classification, or system. The influence can manifest in various forms, such as persuasion, guidance, or alteration, and it highlights the dynamic interaction between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-gives": {
+      "label": "gives",
+      "description": "The predicate 'gives' indicates a transfer or provision of something from the subject to the object. It signifies that the subject is the source or provider of the object, which is received or obtained by the object. This relationship often implies a sense of contribution, supply, or allocation, where the subject plays an active role in delivering or offering the object to another entity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-picks_up": {
+      "label": "picks up",
+      "description": "The predicate 'picks up' indicates an action where the subject actively acquires, gathers, or retrieves the object, suggesting a process of selection or collection that results in the subject obtaining or becoming associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-corresponds_to": {
+      "label": "corresponds to",
+      "description": "The predicate 'corresponds to' indicates a relationship of equivalence or association between the subject and the object, suggesting that the subject is matched or aligned with the object in a meaningful way. This connection implies that the subject and object share a relevant characteristic or function, establishing a link that allows for the classification, categorization, or identification of the subject in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_limited_to": {
+      "label": "is limited to",
+      "description": "The predicate 'is limited to' establishes a restrictive relationship between the subject and the object, indicating that the subject is confined or restricted in scope, application, or relevance to the specific characteristics or categories defined by the object. This implies that the subject does not extend beyond the boundaries set by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_open_due_to": {
+      "label": "are open due to",
+      "description": "The predicate 'are open due to' indicates a causal or explanatory relationship between the subject and the object, suggesting that the subject is accessible or available as a result of the conditions or factors represented by the object. It implies that the state of being 'open' is contingent upon the circumstances or meanings associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-generates": {
+      "label": "generates",
+      "description": "The predicate 'generates' indicates a relationship in which the subject produces, creates, or brings about the object as a result of its function or process. It implies a causal or productive link where the subject's actions or characteristics lead to the existence or formation of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-overcome": {
+      "label": "overcome",
+      "description": "The predicate 'overcome' signifies a relationship in which the subject successfully addresses, surpasses, or conquers a challenge, obstacle, or limitation represented by the object. This connection implies a transformation or resolution where the subject's efforts lead to a positive outcome regarding the object, indicating a movement from a state of difficulty to one of achievement or mastery.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_generated_by": {
+      "label": "is generated by",
+      "description": "The predicate 'is generated by' indicates a causal or productive relationship between the subject and the object, where the subject is the result or outcome of a process or method represented by the object. It implies that the object provides the means, technique, or framework through which the subject comes into existence or is formed.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_created_from": {
+      "label": "is created from",
+      "description": "The predicate 'is created from' indicates a relationship where the subject is formed or generated as a result of the components or materials represented by the object. It implies a process of transformation or synthesis, where the subject emerges as a new entity that is derived from the foundational elements specified in the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_recomposed_under": {
+      "label": "is recomposed under",
+      "description": "The predicate 'is recomposed under' indicates a relationship where the subject is reorganized or restructured in accordance with the criteria or limitations set by the object. This suggests that the subject's components or elements are reconfigured to fit within a broader framework or system defined by the object, thereby establishing a hierarchical or systematic connection between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-describes": {
+      "label": "describes",
+      "description": "The predicate 'describes' indicates a relationship where the subject provides an explanation, account, or representation of the object. It signifies that the subject conveys information or details about the object, enhancing the understanding of the object's characteristics, functions, or significance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-describes_a_method_to_generate_Noun_Classifier_Associations": {
+      "label": "describes a method to generate Noun Classifier Associations",
+      "description": "The predicate 'describes a method to generate Noun Classifier Associations' indicates that the subject provides an explanation or outline of a systematic approach or technique aimed at creating associations between nouns and their corresponding classifiers. This connection implies that the subject is offering insights or instructions that facilitate the understanding or implementation of how noun classifier associations can be effectively generated.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or subset of the more general category represented by the object. This relationship implies that the object encompasses a wider scope or range of concepts, of which the subject is a part, thereby facilitating an understanding of classification and categorization within a given domain.",
+      "disambiguation_index": 0
+    }
+  }
+}

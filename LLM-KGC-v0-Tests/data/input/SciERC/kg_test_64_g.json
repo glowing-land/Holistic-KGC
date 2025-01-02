@@ -1,0 +1,1036 @@
+{
+  "iri": "Paper-64",
+  "title": "P01-1056",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-64-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-64-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+              "text": "Techniques for automatically training modules of a natural language generator have recently been proposed , but a fundamental concern is whether the quality of utterances produced with trainable components can compete with hand-crafted template-based or rule-based approaches ."
+            },
+            {
+              "iri": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this paper We experimentally evaluate a trainable sentence planner for a spoken dialogue system by eliciting subjective human judgments ."
+            },
+            {
+              "iri": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+              "text": "In order to perform an exhaustive comparison , we also evaluate a hand-crafted template-based generation component , two rule-based sentence planners , and two baseline sentence planners ."
+            },
+            {
+              "iri": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+              "text": "We show that the trainable sentence planner performs better than the rule-based systems and the baselines , and as well as the hand-crafted system ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0007340908050537109,
+    45.27622699737549,
+    52.79046988487244,
+    55.141562938690186,
+    0.033143043518066406,
+    0.00011706352233886719,
+    0.00015592575073242188,
+    255.7898120880127,
+    251.60794687271118,
+    4.925611972808838,
+    210.06085991859436,
+    0.010036230087280273,
+    0.00017189979553222656,
+    55.163875102996826,
+    0.0014939308166503906,
+    0.024881839752197266,
+    0.0013120174407958984,
+    4.81187891960144,
+    1.8220691680908203,
+    1.6366918087005615,
+    414.1970109939575,
+    7.89009690284729,
+    209.18620419502258,
+    3.151125192642212,
+    0.0006947517395019531,
+    0.010924100875854492
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents an experimental evaluation of a trainable sentence planner for a spoken dialogue system, comparing its performance against various hand-crafted and rule-based generation components.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.8291015625
+    },
+    "Entity-hand-crafted_template-based_generation_component": {
+      "node_id": "hand-crafted_template-based_generation_component",
+      "disambiguation_index": 0,
+      "label": "hand-crafted template-based generation component",
+      "aliases": [
+        "hand-crafted template-based generation component",
+        "a hand-crafted template-based generation component",
+        "the hand-crafted system"
+      ],
+      "types": [
+        "system",
+        "generation component",
+        "natural language processing",
+        "template system",
+        "generation",
+        "template-based",
+        "hand-crafted system",
+        "template-based system",
+        "component"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The hand-crafted template-based generation component refers to a manually designed system that generates natural language utterances using predefined templates, which is evaluated in comparison to other sentence planning approaches in a spoken dialogue system.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "hand-crafted template-based generation component",
+          "local_types": [
+            "template-based system",
+            "natural language processing",
+            "template system",
+            "template-based",
+            "generation component",
+            "component"
+          ],
+          "iri": "Entity-hand-crafted_template-based_generation_component-Mention-1"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a hand-crafted template-based generation component",
+          "local_types": [
+            "component",
+            "generation"
+          ],
+          "iri": "Entity-hand-crafted_template-based_generation_component-Mention-2"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the hand-crafted system",
+          "local_types": [
+            "system",
+            "hand-crafted system"
+          ],
+          "iri": "Entity-hand-crafted_template-based_generation_component-Mention-3"
+        }
+      ],
+      "relevance": 0.7890625
+    },
+    "Entity-trainable_sentence_planner": {
+      "node_id": "trainable_sentence_planner",
+      "disambiguation_index": 0,
+      "label": "trainable sentence planner",
+      "aliases": [
+        "trainable sentence planner",
+        "the trainable sentence planner",
+        "a trainable sentence planner"
+      ],
+      "types": [
+        "sentence planner",
+        "algorithm",
+        "system",
+        "natural language processing",
+        "method",
+        "dialogue system",
+        "component"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A trainable sentence planner is an algorithmic component designed to generate coherent and contextually appropriate sentences in natural language processing applications, particularly within dialogue systems.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "trainable sentence planner",
+          "local_types": [
+            "sentence planner",
+            "algorithm",
+            "system",
+            "natural language processing",
+            "dialogue system",
+            "component"
+          ],
+          "iri": "Entity-trainable_sentence_planner-Mention-1"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "trainable sentence planner",
+          "local_types": [
+            "system",
+            "algorithm"
+          ],
+          "iri": "Entity-trainable_sentence_planner-Mention-2"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a trainable sentence planner",
+          "local_types": [
+            "method",
+            "sentence planner"
+          ],
+          "iri": "Entity-trainable_sentence_planner-Mention-3"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the trainable sentence planner",
+          "local_types": [
+            "system",
+            "sentence planner"
+          ],
+          "iri": "Entity-trainable_sentence_planner-Mention-4"
+        }
+      ],
+      "relevance": 0.77880859375
+    },
+    "Entity-trainable_component": {
+      "node_id": "trainable_component",
+      "disambiguation_index": 0,
+      "label": "trainable components",
+      "aliases": [
+        "trainable components"
+      ],
+      "types": [
+        "software module",
+        "component",
+        "machine learning component"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Trainable components refer to software modules within a natural language generation system that can be automatically trained to produce utterances, specifically in the context of a trainable sentence planner evaluated against traditional hand-crafted and rule-based approaches.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "trainable components",
+          "local_types": [
+            "software module",
+            "component",
+            "machine learning component"
+          ],
+          "iri": "Entity-trainable_component-Mention-1"
+        }
+      ],
+      "relevance": 0.75732421875
+    },
+    "Entity-rule-based_sentence_planner": {
+      "node_id": "rule-based_sentence_planner",
+      "disambiguation_index": 0,
+      "label": "rule-based sentence planners",
+      "aliases": [
+        "rule-based sentence planners"
+      ],
+      "types": [
+        "sentence planner",
+        "algorithm",
+        "system",
+        "rule-based",
+        "natural language processing",
+        "planning system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Rule-based sentence planners are computational systems that generate natural language sentences by applying predefined linguistic rules and templates to organize and structure content.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "rule-based sentence planners",
+          "local_types": [
+            "sentence planner",
+            "algorithm",
+            "system",
+            "rule-based",
+            "natural language processing",
+            "planning system"
+          ],
+          "iri": "Entity-rule-based_sentence_planner-Mention-1"
+        }
+      ],
+      "relevance": 0.7529296875
+    },
+    "Entity-two_rule-based_sentence_planner": {
+      "node_id": "two_rule-based_sentence_planner",
+      "disambiguation_index": 0,
+      "label": "two rule-based sentence planners",
+      "aliases": [
+        "two rule-based sentence planners"
+      ],
+      "types": [
+        "planner",
+        "sentence planner"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'two rule-based sentence planners' refers to two distinct systems designed to generate sentences based on predefined rules, which are evaluated in comparison to other sentence generation methods in the context of a spoken dialogue system.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "two rule-based sentence planners",
+          "local_types": [
+            "planner",
+            "sentence planner"
+          ],
+          "iri": "Entity-two_rule-based_sentence_planner-Mention-1"
+        }
+      ],
+      "relevance": 0.74755859375
+    },
+    "Entity-hand-crafted_system": {
+      "node_id": "hand-crafted_system",
+      "disambiguation_index": 0,
+      "label": "hand-crafted system",
+      "aliases": [
+        "hand-crafted system"
+      ],
+      "types": [
+        "algorithm",
+        "system",
+        "hand-crafted",
+        "generation method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'hand-crafted system' refers to a template-based generation component used in natural language processing that relies on predefined rules and templates to produce utterances, as opposed to being generated through automated training methods.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "hand-crafted system",
+          "local_types": [
+            "algorithm",
+            "system",
+            "hand-crafted",
+            "generation method"
+          ],
+          "iri": "Entity-hand-crafted_system-Mention-1"
+        }
+      ],
+      "relevance": 0.7470703125
+    },
+    "Entity-hand-crafted_template-based_or_rule-based_approach": {
+      "node_id": "hand-crafted_template-based_or_rule-based_approach",
+      "disambiguation_index": 0,
+      "label": "hand-crafted template-based or rule-based approaches",
+      "aliases": [
+        "hand-crafted template-based or rule-based approaches"
+      ],
+      "types": [
+        "approach",
+        "template-based",
+        "rule-based"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Hand-crafted template-based or rule-based approaches refer to traditional methods in natural language generation that utilize predefined templates or explicit rules to construct utterances, contrasting with automated or trainable systems.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "hand-crafted template-based or rule-based approaches",
+          "local_types": [
+            "approach",
+            "template-based",
+            "rule-based"
+          ],
+          "iri": "Entity-hand-crafted_template-based_or_rule-based_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.7431640625
+    },
+    "Entity-the_quality_of_utterance_produced_with_trainable_component": {
+      "node_id": "the_quality_of_utterance_produced_with_trainable_component",
+      "disambiguation_index": 0,
+      "label": "the quality of utterances produced with trainable components",
+      "aliases": [
+        "the quality of utterances produced with trainable components"
+      ],
+      "types": [
+        "quality",
+        "utterance"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The quality of utterances produced with trainable components refers to the effectiveness and naturalness of sentences generated by automated systems that utilize machine learning techniques, as compared to those created through traditional hand-crafted methods.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the quality of utterances produced with trainable components",
+          "local_types": [
+            "quality",
+            "utterance"
+          ],
+          "iri": "Entity-the_quality_of_utterance_produced_with_trainable_component-Mention-1"
+        }
+      ],
+      "relevance": 0.72216796875
+    },
+    "Entity-two_baseline_sentence_planner": {
+      "node_id": "two_baseline_sentence_planner",
+      "disambiguation_index": 0,
+      "label": "two baseline sentence planners",
+      "aliases": [
+        "two baseline sentence planners",
+        "the baselines"
+      ],
+      "types": [
+        "planner",
+        "baseline",
+        "sentence planner"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'two baseline sentence planners' refers to two specific sentence planning systems used as reference points in an experimental evaluation of a trainable sentence planner for a spoken dialogue system, aimed at comparing their performance against other generation components.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "two baseline sentence planners",
+          "local_types": [
+            "planner",
+            "sentence planner"
+          ],
+          "iri": "Entity-two_baseline_sentence_planner-Mention-1"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the baselines",
+          "local_types": [
+            "baseline"
+          ],
+          "iri": "Entity-two_baseline_sentence_planner-Mention-2"
+        }
+      ],
+      "relevance": 0.71826171875
+    },
+    "Entity-baseline_sentence_planner": {
+      "node_id": "baseline_sentence_planner",
+      "disambiguation_index": 0,
+      "label": "baseline sentence planners",
+      "aliases": [
+        "baseline sentence planners"
+      ],
+      "types": [
+        "sentence planner",
+        "algorithm",
+        "system",
+        "natural language processing",
+        "baseline",
+        "comparison system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Baseline sentence planners refer to a category of sentence generation systems used as a standard for comparison in evaluating the performance of other sentence planners, particularly in the context of natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "baseline sentence planners",
+          "local_types": [
+            "sentence planner",
+            "algorithm",
+            "system",
+            "natural language processing",
+            "baseline",
+            "comparison system"
+          ],
+          "iri": "Entity-baseline_sentence_planner-Mention-1"
+        }
+      ],
+      "relevance": 0.70166015625
+    },
+    "Entity-technique_for_automatically_training_module_of_a_natural_language_generator": {
+      "node_id": "technique_for_automatically_training_module_of_a_natural_language_generator",
+      "disambiguation_index": 0,
+      "label": "Techniques for automatically training modules of a natural language generator",
+      "aliases": [
+        "Techniques for automatically training modules of a natural language generator"
+      ],
+      "types": [
+        "technique",
+        "natural language generator"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Techniques for automatically training modules of a natural language generator refer to methods designed to enhance the performance of natural language generation systems by enabling them to learn from data rather than relying solely on predefined templates or rules.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Techniques for automatically training modules of a natural language generator",
+          "local_types": [
+            "technique",
+            "natural language generator"
+          ],
+          "iri": "Entity-technique_for_automatically_training_module_of_a_natural_language_generator-Mention-1"
+        }
+      ],
+      "relevance": 0.6806640625
+    },
+    "Entity-rule-based_approach": {
+      "node_id": "rule-based_approach",
+      "disambiguation_index": 0,
+      "label": "rule-based approaches",
+      "aliases": [
+        "rule-based approaches"
+      ],
+      "types": [
+        "language generation technique",
+        "methodology",
+        "approach",
+        "rule-based"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Rule-based approaches are methodologies that utilize predefined rules and templates to generate outputs or make decisions in various applications, particularly in natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "rule-based approaches",
+          "local_types": [
+            "language generation technique",
+            "methodology",
+            "approach",
+            "rule-based"
+          ],
+          "iri": "Entity-rule-based_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.66748046875
+    },
+    "Entity-an_exhaustive_comparison": {
+      "node_id": "an_exhaustive_comparison",
+      "disambiguation_index": 0,
+      "label": "an exhaustive comparison",
+      "aliases": [
+        "an exhaustive comparison"
+      ],
+      "types": [
+        "comparison"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "An exhaustive comparison refers to a comprehensive evaluation that includes multiple approaches to natural language generation, specifically assessing a trainable sentence planner against a hand-crafted template-based generation component, two rule-based sentence planners, and two baseline sentence planners.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "an exhaustive comparison",
+          "local_types": [
+            "comparison"
+          ],
+          "iri": "Entity-an_exhaustive_comparison-Mention-1"
+        }
+      ],
+      "relevance": 0.62890625
+    },
+    "Entity-natural_language_generator": {
+      "node_id": "natural_language_generator",
+      "disambiguation_index": 0,
+      "label": "natural language generator",
+      "aliases": [
+        "natural language generator"
+      ],
+      "types": [
+        "technology",
+        "generator",
+        "language processing tool",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A natural language generator is a type of software technology that automatically produces human-like text based on input data, often used in language processing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "natural language generator",
+          "local_types": [
+            "technology",
+            "generator",
+            "language processing tool",
+            "software"
+          ],
+          "iri": "Entity-natural_language_generator-Mention-1"
+        }
+      ],
+      "relevance": 0.6220703125
+    },
+    "Entity-spoken_dialogue_system": {
+      "node_id": "spoken_dialogue_system",
+      "disambiguation_index": 0,
+      "label": "spoken dialogue system",
+      "aliases": [
+        "spoken dialogue system",
+        "a spoken dialogue system"
+      ],
+      "types": [
+        "dialogue system",
+        "system",
+        "human-computer interaction",
+        "application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A spoken dialogue system is an interactive computer system designed to communicate with users through natural language speech, enabling users to engage in conversation and perform tasks using voice commands.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "spoken dialogue system",
+          "local_types": [
+            "dialogue system",
+            "system",
+            "human-computer interaction",
+            "application"
+          ],
+          "iri": "Entity-spoken_dialogue_system-Mention-1"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a spoken dialogue system",
+          "local_types": [
+            "system",
+            "dialogue system"
+          ],
+          "iri": "Entity-spoken_dialogue_system-Mention-2"
+        }
+      ],
+      "relevance": 0.61328125
+    },
+    "Entity-quality_of_utterance": {
+      "node_id": "quality_of_utterance",
+      "disambiguation_index": 0,
+      "label": "quality of utterances",
+      "aliases": [
+        "quality of utterances"
+      ],
+      "types": [
+        "evaluation metric",
+        "linguistic quality"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'quality of utterances' refers to an evaluation metric that assesses the effectiveness and naturalness of spoken or written outputs generated by natural language processing systems, particularly in comparison to traditional hand-crafted methods.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "quality of utterances",
+          "local_types": [
+            "evaluation metric",
+            "linguistic quality"
+          ],
+          "iri": "Entity-quality_of_utterance-Mention-1"
+        }
+      ],
+      "relevance": 0.60791015625
+    },
+    "Entity-quality": {
+      "node_id": "quality",
+      "disambiguation_index": 0,
+      "label": "quality",
+      "aliases": [
+        "quality"
+      ],
+      "types": [
+        "evaluation metric",
+        "performance measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'quality' refers to the evaluation metric used to assess the effectiveness and acceptability of utterances generated by trainable components in comparison to those produced by traditional hand-crafted or rule-based methods.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "quality",
+          "local_types": [
+            "evaluation metric",
+            "performance measure"
+          ],
+          "iri": "Entity-quality-Mention-1"
+        }
+      ],
+      "relevance": 0.591796875
+    },
+    "Entity-rule-based_system": {
+      "node_id": "rule-based_system",
+      "disambiguation_index": 0,
+      "label": "rule-based systems",
+      "aliases": [
+        "rule-based systems",
+        "the rule-based systems"
+      ],
+      "types": [
+        "algorithm",
+        "system",
+        "rule-based system",
+        "rule-based"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Rule-based systems are computational systems that use predefined rules to process information and make decisions, often employed in artificial intelligence and expert systems.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "rule-based systems",
+          "local_types": [
+            "algorithm",
+            "system",
+            "rule-based"
+          ],
+          "iri": "Entity-rule-based_system-Mention-1"
+        },
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the rule-based systems",
+          "local_types": [
+            "system",
+            "rule-based system"
+          ],
+          "iri": "Entity-rule-based_system-Mention-2"
+        }
+      ],
+      "relevance": 0.57275390625
+    },
+    "Entity-utterance": {
+      "node_id": "utterance",
+      "disambiguation_index": 0,
+      "label": "utterances",
+      "aliases": [
+        "utterances"
+      ],
+      "types": [
+        "linguistic output",
+        "communication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Utterances refer to the spoken or written expressions produced during communication, often analyzed in the context of language generation and linguistic output.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "utterances",
+          "local_types": [
+            "linguistic output",
+            "communication"
+          ],
+          "iri": "Entity-utterance-Mention-1"
+        }
+      ],
+      "relevance": 0.5517578125
+    },
+    "Entity-subjective_human_judgment": {
+      "node_id": "subjective_human_judgment",
+      "disambiguation_index": 0,
+      "label": "subjective human judgments",
+      "aliases": [
+        "subjective human judgments"
+      ],
+      "types": [
+        "evaluation",
+        "judgment",
+        "human assessment",
+        "evaluation method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Subjective human judgments refer to evaluations or assessments made by individuals based on personal opinions, feelings, or interpretations rather than objective criteria.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "subjective human judgments",
+          "local_types": [
+            "evaluation",
+            "judgment",
+            "human assessment",
+            "evaluation method"
+          ],
+          "iri": "Entity-subjective_human_judgment-Mention-1"
+        }
+      ],
+      "relevance": 0.548828125
+    },
+    "Entity-human_judgment": {
+      "node_id": "human_judgment",
+      "disambiguation_index": 0,
+      "label": "human judgments",
+      "aliases": [
+        "human judgments"
+      ],
+      "types": [
+        "evaluation",
+        "subjective assessment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Human judgments refer to evaluations or assessments made by individuals based on personal opinions, feelings, or perceptions rather than objective criteria.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "human judgments",
+          "local_types": [
+            "evaluation",
+            "subjective assessment"
+          ],
+          "iri": "Entity-human_judgment-Mention-1"
+        }
+      ],
+      "relevance": 0.52587890625
+    },
+    "Entity-baseline": {
+      "node_id": "baseline",
+      "disambiguation_index": 0,
+      "label": "baselines",
+      "aliases": [
+        "baselines"
+      ],
+      "types": [
+        "system",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Baselines refer to standard reference points or comparison systems used to evaluate the performance of other systems or algorithms in a given task.",
+      "mentions": [
+        {
+          "reference": "Paper-64-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "baselines",
+          "local_types": [
+            "system",
+            "algorithm"
+          ],
+          "iri": "Entity-baseline-Mention-1"
+        }
+      ],
+      "relevance": 0.490234375
+    }
+  },
+  "summary": "Techniques for automatically training modules of a natural language generator have recently been proposed , but a fundamental concern is whether the quality of utterances produced with trainable components can compete with hand-crafted template-based or rule-based approaches . In this paper We experimentally evaluate a trainable sentence planner for a spoken dialogue system by eliciting subjective human judgments . In order to perform an exhaustive comparison , we also evaluate a hand-crafted template-based generation component , two rule-based sentence planners , and two baseline sentence planners . We show that the trainable sentence planner performs better than the rule-based systems and the baselines , and as well as the hand-crafted system .",
+  "triples": [
+    [
+      "Entity-technique_for_automatically_training_module_of_a_natural_language_generator",
+      "Predicate-have_been_proposed",
+      "Entity-trainable_component"
+    ],
+    [
+      "Entity-the_quality_of_utterance_produced_with_trainable_component",
+      "Predicate-can_compete_with",
+      "Entity-hand-crafted_template-based_or_rule-based_approach"
+    ],
+    [
+      "Entity-quality_of_utterance",
+      "Predicate-is_a_concern_for",
+      "Entity-trainable_component"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-evaluates",
+      "Entity-trainable_sentence_planner"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "Predicate-is_for",
+      "Entity-spoken_dialogue_system"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "Predicate-elicits",
+      "Entity-subjective_human_judgment"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "Predicate-evaluates",
+      "Entity-subjective_human_judgment"
+    ],
+    [
+      "Entity-hand-crafted_template-based_generation_component",
+      "Predicate-evaluates",
+      "Entity-an_exhaustive_comparison"
+    ],
+    [
+      "Entity-two_rule-based_sentence_planner",
+      "Predicate-evaluates",
+      "Entity-an_exhaustive_comparison"
+    ],
+    [
+      "Entity-two_baseline_sentence_planner",
+      "Predicate-evaluates",
+      "Entity-an_exhaustive_comparison"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "Predicate-performs_better_than",
+      "Entity-rule-based_system"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "Predicate-performs_better_than",
+      "Entity-two_baseline_sentence_planner"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "Predicate-performs_better_than",
+      "Entity-hand-crafted_template-based_generation_component"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-evaluates",
+      "Entity-hand-crafted_template-based_generation_component"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-rule-based_sentence_planner",
+      "skos:broader",
+      "Entity-trainable_sentence_planner"
+    ],
+    [
+      "Entity-the_quality_of_utterance_produced_with_trainable_component",
+      "skos:broader",
+      "Entity-utterance"
+    ],
+    [
+      "Entity-two_rule-based_sentence_planner",
+      "skos:broader",
+      "Entity-baseline_sentence_planner"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "skos:broader",
+      "Entity-spoken_dialogue_system"
+    ],
+    [
+      "Entity-two_baseline_sentence_planner",
+      "skos:broader",
+      "Entity-trainable_sentence_planner"
+    ],
+    [
+      "Entity-rule-based_sentence_planner",
+      "skos:broader",
+      "Entity-rule-based_system"
+    ],
+    [
+      "Entity-rule-based_sentence_planner",
+      "skos:broader",
+      "Entity-rule-based_approach"
+    ],
+    [
+      "Entity-baseline_sentence_planner",
+      "skos:broader",
+      "Entity-baseline"
+    ],
+    [
+      "Entity-hand-crafted_template-based_generation_component",
+      "skos:broader",
+      "Entity-hand-crafted_system"
+    ],
+    [
+      "Entity-hand-crafted_template-based_or_rule-based_approach",
+      "skos:broader",
+      "Entity-rule-based_approach"
+    ],
+    [
+      "Entity-rule-based_sentence_planner",
+      "skos:broader",
+      "Entity-baseline_sentence_planner"
+    ],
+    [
+      "Entity-hand-crafted_template-based_or_rule-based_approach",
+      "skos:broader",
+      "Entity-rule-based_system"
+    ],
+    [
+      "Entity-rule-based_system",
+      "skos:broader",
+      "Entity-rule-based_approach"
+    ],
+    [
+      "Entity-trainable_sentence_planner",
+      "skos:broader",
+      "Entity-baseline_sentence_planner"
+    ],
+    [
+      "Entity-two_rule-based_sentence_planner",
+      "skos:broader",
+      "Entity-trainable_sentence_planner"
+    ],
+    [
+      "Entity-two_baseline_sentence_planner",
+      "skos:broader",
+      "Entity-baseline_sentence_planner"
+    ],
+    [
+      "Entity-two_baseline_sentence_planner",
+      "skos:broader",
+      "Entity-baseline"
+    ],
+    [
+      "Entity-the_quality_of_utterance_produced_with_trainable_component",
+      "skos:broader",
+      "Entity-quality"
+    ],
+    [
+      "Entity-technique_for_automatically_training_module_of_a_natural_language_generator",
+      "skos:broader",
+      "Entity-natural_language_generator"
+    ]
+  ],
+  "predicates": {
+    "Predicate-have_been_proposed": {
+      "label": "have been proposed",
+      "description": "The predicate 'have been proposed' indicates that the subject has been suggested or recommended as a potential solution, method, or idea related to the object. It implies that there is a consideration or advocacy for the subject in the context of achieving, implementing, or understanding the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_compete_with": {
+      "label": "can compete with",
+      "description": "The predicate 'can compete with' indicates a relationship where the subject possesses qualities, capabilities, or performance levels that are comparable to those of the object. It suggests that the subject is able to match or rival the object in effectiveness, efficiency, or other relevant metrics, implying a level of parity or equivalence in their respective domains.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_concern_for": {
+      "label": "is a concern for",
+      "description": "The predicate 'is a concern for' establishes a relationship where the subject is identified as an issue or matter of importance that affects or is relevant to the object. It implies that the subject has implications or significance that warrant attention or consideration in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluates": {
+      "label": "evaluates",
+      "description": "The predicate 'evaluates' signifies an assessment or analysis performed by the subject on the object. It indicates that the subject is examining, measuring, or determining the quality, effectiveness, or performance of the object in a systematic manner.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_for": {
+      "label": "is for",
+      "description": "The predicate 'is for' indicates a purpose or intended use of the subject in relation to the object. It establishes a connection where the subject is designed, developed, or utilized to serve the needs or functions associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-elicits": {
+      "label": "elicits",
+      "description": "The predicate 'elicits' indicates an action or process by which the subject provokes, draws out, or stimulates a response, reaction, or information from the object. It suggests an interactive relationship where the subject actively engages with the object to generate a specific outcome or feedback.",
+      "disambiguation_index": 0
+    },
+    "Predicate-performs_better_than": {
+      "label": "performs better than",
+      "description": "The predicate 'performs better than' establishes a comparative relationship between the subject and the object, indicating that the subject exhibits superior performance, effectiveness, or efficiency in a specific context or task when compared to the object. This comparison suggests that the subject achieves more favorable outcomes, results, or capabilities than the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates a hierarchical relationship between the subject and the object, where the subject represents a specific concept or category that falls under the more general category represented by the object. This relationship suggests that the object encompasses a wider range of instances or characteristics than the subject, thereby providing a broader context or classification for understanding the subject.",
+      "disambiguation_index": 0
+    }
+  }
+}

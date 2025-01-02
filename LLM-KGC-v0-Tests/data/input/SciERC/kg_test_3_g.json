@@ -1,0 +1,1289 @@
+{
+  "iri": "Paper-3",
+  "title": "INTERSPEECH_2013_21_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-3-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-3-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+              "text": "This work proposes a new research direction to address the lack of structures in traditional n-gram models ."
+            },
+            {
+              "iri": "Paper-3-Section-1-Paragraph-1-Sentence-2",
+              "text": "It is based on a weakly supervised dependency parser that can model speech syntax without relying on any annotated training corpus ."
+            },
+            {
+              "iri": "Paper-3-Section-1-Paragraph-1-Sentence-3",
+              "text": "Labeled data is replaced by a few hand-crafted rules that encode basic syntactic knowledge ."
+            },
+            {
+              "iri": "Paper-3-Section-1-Paragraph-1-Sentence-4",
+              "text": "Bayesian inference then samples the rules , disambiguating and combining them to create complex tree structures that maximize a discriminative model 's posterior on a target unlabeled corpus ."
+            },
+            {
+              "iri": "Paper-3-Section-1-Paragraph-1-Sentence-5",
+              "text": "This posterior encodes sparse se-lectional preferences between a head word and its dependents ."
+            },
+            {
+              "iri": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+              "text": "The model is evaluated on English and Czech newspaper texts , and is then validated on French broadcast news transcriptions ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0014388561248779297,
+    9.35355281829834,
+    21.093851804733276,
+    21.809243202209473,
+    0.05607104301452637,
+    0.00041222572326660156,
+    0.00018715858459472656,
+    25.844359874725342,
+    36.16524910926819,
+    4.108969211578369,
+    10.159085273742676,
+    0.01185297966003418,
+    0.00019931793212890625,
+    15.473017930984497,
+    0.001809835433959961,
+    0.036257028579711914,
+    0.001483917236328125,
+    6.036304235458374,
+    3.2038350105285645,
+    4.6095240116119385,
+    71.94788098335266,
+    8.315814018249512,
+    31.638347148895264,
+    2.9540767669677734,
+    0.0007779598236083984,
+    0.009951114654541016
+  ],
+  "nodes": {
+    "Entity-a_new_research_direction": {
+      "node_id": "a_new_research_direction",
+      "disambiguation_index": 0,
+      "label": "a new research direction",
+      "aliases": [
+        "a new research direction"
+      ],
+      "types": [
+        "research direction"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A new research direction that utilizes a weakly supervised dependency parser to enhance traditional n-gram models by modeling speech syntax without annotated training data, employing hand-crafted rules and Bayesian inference to create complex tree structures.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a new research direction",
+          "local_types": [
+            "research direction"
+          ],
+          "iri": "Entity-a_new_research_direction-Mention-1"
+        }
+      ],
+      "relevance": 0.78125
+    },
+    "Entity-this_work": {
+      "node_id": "this_work",
+      "disambiguation_index": 0,
+      "label": "This work",
+      "aliases": [
+        "This work"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This work refers to a research initiative that introduces a novel approach to enhance traditional n-gram models by utilizing a weakly supervised dependency parser to model speech syntax without annotated training data.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This work",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_work-Mention-1"
+        }
+      ],
+      "relevance": 0.75732421875
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "model",
+      "aliases": [
+        "The model",
+        "model"
+      ],
+      "types": [
+        "machine learning model",
+        "model",
+        "evaluation subject"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The model refers to a weakly supervised dependency parser designed to analyze speech syntax by utilizing hand-crafted rules and Bayesian inference, evaluated on various text corpora.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "model",
+          "local_types": [
+            "machine learning model",
+            "evaluation subject"
+          ],
+          "iri": "Entity-model-Mention-1"
+        },
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "The model",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-model-Mention-2"
+        }
+      ],
+      "relevance": 0.7099609375
+    },
+    "Entity-structure": {
+      "node_id": "structure",
+      "disambiguation_index": 0,
+      "label": "structures",
+      "aliases": [
+        "structures"
+      ],
+      "types": [
+        "concept",
+        "framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'structures' refers to the complex tree structures created by a weakly supervised dependency parser to enhance traditional n-gram models by incorporating syntactic knowledge without the need for annotated training data.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "structures",
+          "local_types": [
+            "concept",
+            "framework"
+          ],
+          "iri": "Entity-structure-Mention-1"
+        }
+      ],
+      "relevance": 0.708984375
+    },
+    "Entity-the_lack_of_structure_in_traditional_n-gram_model": {
+      "node_id": "the_lack_of_structure_in_traditional_n-gram_model",
+      "disambiguation_index": 0,
+      "label": "the lack of structures in traditional n-gram models",
+      "aliases": [
+        "the lack of structures in traditional n-gram models"
+      ],
+      "types": [
+        "issue",
+        "n-gram model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The lack of structures in traditional n-gram models refers to the absence of syntactic organization and hierarchical relationships in the sequences of words generated by these models, which limits their ability to capture complex linguistic patterns.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the lack of structures in traditional n-gram models",
+          "local_types": [
+            "issue",
+            "n-gram model"
+          ],
+          "iri": "Entity-the_lack_of_structure_in_traditional_n-gram_model-Mention-1"
+        }
+      ],
+      "relevance": 0.68212890625
+    },
+    "Entity-work": {
+      "node_id": "work",
+      "disambiguation_index": 0,
+      "label": "work",
+      "aliases": [
+        "work"
+      ],
+      "types": [
+        "research paper",
+        "academic contribution"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'work' refers to a research paper that introduces a novel approach for enhancing traditional n-gram models by utilizing a weakly supervised dependency parser to model speech syntax without annotated training data.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "work",
+          "local_types": [
+            "research paper",
+            "academic contribution"
+          ],
+          "iri": "Entity-work-Mention-1"
+        }
+      ],
+      "relevance": 0.673828125
+    },
+    "Entity-complex_tree_structure": {
+      "node_id": "complex_tree_structure",
+      "disambiguation_index": 0,
+      "label": "complex tree structures",
+      "aliases": [
+        "complex tree structures"
+      ],
+      "types": [
+        "data structure",
+        "model representation",
+        "structure",
+        "syntactic representation",
+        "tree structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Complex tree structures refer to hierarchical representations generated by a weakly supervised dependency parser, which combine syntactic rules to model speech syntax and maximize the posterior of a discriminative model on an unlabeled corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "complex tree structures",
+          "local_types": [
+            "data structure",
+            "model representation",
+            "structure",
+            "syntactic representation",
+            "tree structure"
+          ],
+          "iri": "Entity-complex_tree_structure-Mention-1"
+        }
+      ],
+      "relevance": 0.66748046875
+    },
+    "Entity-speech_syntax": {
+      "node_id": "speech_syntax",
+      "disambiguation_index": 0,
+      "label": "speech syntax",
+      "aliases": [
+        "speech syntax"
+      ],
+      "types": [
+        "linguistic structure",
+        "syntax",
+        "language feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Speech syntax refers to the structural aspects of spoken language that can be modeled using a weakly supervised dependency parser, which does not require annotated training data and instead utilizes hand-crafted rules to capture basic syntactic knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "speech syntax",
+          "local_types": [
+            "linguistic structure",
+            "syntax",
+            "language feature"
+          ],
+          "iri": "Entity-speech_syntax-Mention-1"
+        }
+      ],
+      "relevance": 0.6572265625
+    },
+    "Entity-rule": {
+      "node_id": "rule",
+      "disambiguation_index": 0,
+      "label": "rules",
+      "aliases": [
+        "rules"
+      ],
+      "types": [
+        "concept",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'rules' refers to hand-crafted syntactic rules that encode basic syntactic knowledge, which are utilized in a weakly supervised dependency parser to model speech syntax without annotated training data.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "rules",
+          "local_types": [
+            "concept",
+            "theoretical framework"
+          ],
+          "iri": "Entity-rule-Mention-1"
+        }
+      ],
+      "relevance": 0.65673828125
+    },
+    "Entity-traditional_n-gram_model": {
+      "node_id": "traditional_n-gram_model",
+      "disambiguation_index": 0,
+      "label": "traditional n-gram models",
+      "aliases": [
+        "traditional n-gram models"
+      ],
+      "types": [
+        "language model",
+        "statistical model",
+        "n-gram model",
+        "model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Traditional n-gram models are statistical language models that predict the probability of a word based on the occurrence of its preceding n-1 words in a given text.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "traditional n-gram models",
+          "local_types": [
+            "language model",
+            "statistical model",
+            "n-gram model",
+            "model"
+          ],
+          "iri": "Entity-traditional_n-gram_model-Mention-1"
+        }
+      ],
+      "relevance": 0.65087890625
+    },
+    "Entity-target_unlabeled_corpus": {
+      "node_id": "target_unlabeled_corpus",
+      "disambiguation_index": 0,
+      "label": "target unlabeled corpus",
+      "aliases": [
+        "target unlabeled corpus"
+      ],
+      "types": [
+        "text corpus",
+        "unlabeled corpus",
+        "corpus",
+        "data set",
+        "data",
+        "unlabeled data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'target unlabeled corpus' refers to a dataset of unannotated text used to evaluate a weakly supervised dependency parser in the context of modeling speech syntax.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "target unlabeled corpus",
+          "local_types": [
+            "text corpus",
+            "unlabeled corpus",
+            "corpus",
+            "data set",
+            "data",
+            "unlabeled data"
+          ],
+          "iri": "Entity-target_unlabeled_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.64892578125
+    },
+    "Entity-n-gram_model": {
+      "node_id": "n-gram_model",
+      "disambiguation_index": 0,
+      "label": "n-gram models",
+      "aliases": [
+        "n-gram models"
+      ],
+      "types": [
+        "language model",
+        "statistical model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "N-gram models are statistical language models that predict the probability of a sequence of words based on the occurrence of n consecutive words in a given text.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "n-gram models",
+          "local_types": [
+            "language model",
+            "statistical model"
+          ],
+          "iri": "Entity-n-gram_model-Mention-1"
+        }
+      ],
+      "relevance": 0.64453125
+    },
+    "Entity-weakly_supervised_dependency_parser": {
+      "node_id": "weakly_supervised_dependency_parser",
+      "disambiguation_index": 0,
+      "label": "weakly supervised dependency parser",
+      "aliases": [
+        "weakly supervised dependency parser",
+        "a weakly supervised dependency parser"
+      ],
+      "types": [
+        "natural language processing tool",
+        "dependency parser",
+        "parser"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A weakly supervised dependency parser is a natural language processing tool that analyzes the grammatical structure of sentences by identifying dependencies between words, using limited or no annotated training data.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "weakly supervised dependency parser",
+          "local_types": [
+            "natural language processing tool",
+            "dependency parser",
+            "parser"
+          ],
+          "iri": "Entity-weakly_supervised_dependency_parser-Mention-1"
+        },
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a weakly supervised dependency parser",
+          "local_types": [
+            "parser",
+            "dependency parser"
+          ],
+          "iri": "Entity-weakly_supervised_dependency_parser-Mention-2"
+        }
+      ],
+      "relevance": 0.6318359375
+    },
+    "Entity-basic_syntactic_knowledge": {
+      "node_id": "basic_syntactic_knowledge",
+      "disambiguation_index": 0,
+      "label": "basic syntactic knowledge",
+      "aliases": [
+        "basic syntactic knowledge"
+      ],
+      "types": [
+        "knowledge",
+        "syntactic knowledge"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Basic syntactic knowledge refers to fundamental linguistic rules and structures that govern the syntax of a language, which are utilized in the development of a weakly supervised dependency parser to model speech syntax without the need for annotated training data.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "basic syntactic knowledge",
+          "local_types": [
+            "knowledge",
+            "syntactic knowledge"
+          ],
+          "iri": "Entity-basic_syntactic_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.6318359375
+    },
+    "Entity-this_posterior": {
+      "node_id": "this_posterior",
+      "disambiguation_index": 0,
+      "label": "This posterior",
+      "aliases": [
+        "This posterior"
+      ],
+      "types": [
+        "statistical model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This posterior refers to the outcome of a Bayesian inference process that captures the sparse selectional preferences between a head word and its dependents in a weakly supervised dependency parsing model.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "This posterior",
+          "local_types": [
+            "statistical model"
+          ],
+          "iri": "Entity-this_posterior-Mention-1"
+        }
+      ],
+      "relevance": 0.63134765625
+    },
+    "Entity-posterior": {
+      "node_id": "posterior",
+      "disambiguation_index": 0,
+      "label": "posterior",
+      "aliases": [
+        "posterior"
+      ],
+      "types": [
+        "statistical term",
+        "statistical concept",
+        "probability distribution"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'posterior' refers to the probability distribution that represents the updated beliefs about the parameters of a model after observing data, specifically in the framework of Bayesian inference used to enhance a discriminative model's performance on an unlabeled corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "posterior",
+          "local_types": [
+            "statistical term",
+            "statistical concept",
+            "probability distribution"
+          ],
+          "iri": "Entity-posterior-Mention-1"
+        },
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "posterior",
+          "local_types": [
+            "statistical concept",
+            "probability distribution"
+          ],
+          "iri": "Entity-posterior-Mention-2"
+        }
+      ],
+      "relevance": 0.619140625
+    },
+    "Entity-czech_newspaper_text": {
+      "node_id": "czech_newspaper_text",
+      "disambiguation_index": 0,
+      "label": "Czech newspaper texts",
+      "aliases": [
+        "Czech newspaper texts"
+      ],
+      "types": [
+        "text corpus",
+        "language data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Czech newspaper texts refer to written articles and reports published in newspapers in the Czech language, used as a corpus for evaluating a weakly supervised dependency parser in the context of speech syntax modeling.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Czech newspaper texts",
+          "local_types": [
+            "text corpus",
+            "language data"
+          ],
+          "iri": "Entity-czech_newspaper_text-Mention-1"
+        }
+      ],
+      "relevance": 0.59765625
+    },
+    "Entity-english_and_czech_newspaper_text": {
+      "node_id": "english_and_czech_newspaper_text",
+      "disambiguation_index": 0,
+      "label": "English and Czech newspaper texts",
+      "aliases": [
+        "English and Czech newspaper texts"
+      ],
+      "types": [
+        "newspaper",
+        "newspaper text",
+        "text"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "English and Czech newspaper texts refer to written articles and reports published in newspapers from England and the Czech Republic, which serve as the primary data source for evaluating a weakly supervised dependency parser in the context of speech syntax modeling.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "English and Czech newspaper texts",
+          "local_types": [
+            "newspaper",
+            "newspaper text",
+            "text"
+          ],
+          "iri": "Entity-english_and_czech_newspaper_text-Mention-1"
+        }
+      ],
+      "relevance": 0.580078125
+    },
+    "Entity-annotated_training_corpus": {
+      "node_id": "annotated_training_corpus",
+      "disambiguation_index": 0,
+      "label": "annotated training corpus",
+      "aliases": [
+        "annotated training corpus"
+      ],
+      "types": [
+        "corpus",
+        "training data",
+        "data set",
+        "training corpus",
+        "training resource"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An annotated training corpus is a collection of text data that has been labeled with specific information to facilitate the training of machine learning models, particularly in natural language processing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "annotated training corpus",
+          "local_types": [
+            "corpus",
+            "training data",
+            "data set",
+            "training corpus",
+            "training resource"
+          ],
+          "iri": "Entity-annotated_training_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.5693359375
+    },
+    "Entity-bayesian_inference": {
+      "node_id": "bayesian_inference",
+      "disambiguation_index": 0,
+      "label": "Bayesian inference",
+      "aliases": [
+        "Bayesian inference"
+      ],
+      "types": [
+        "concept",
+        "method",
+        "statistical method",
+        "inference",
+        "statistical technique",
+        "inference technique"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Bayesian inference is a statistical method that applies Bayes' theorem to update the probability of a hypothesis as more evidence or information becomes available.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Bayesian inference",
+          "local_types": [
+            "concept",
+            "method",
+            "statistical method",
+            "inference",
+            "statistical technique",
+            "inference technique"
+          ],
+          "iri": "Entity-bayesian_inference-Mention-1"
+        }
+      ],
+      "relevance": 0.5546875
+    },
+    "Entity-it_dependent": {
+      "node_id": "it_dependent",
+      "disambiguation_index": 0,
+      "label": "its dependents",
+      "aliases": [
+        "its dependents"
+      ],
+      "types": [
+        "dependent"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'its dependents' refers to the words or phrases that are syntactically related to and depend on a head word in the context of a dependency parser used for modeling speech syntax.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "its dependents",
+          "local_types": [
+            "dependent"
+          ],
+          "iri": "Entity-it_dependent-Mention-1"
+        }
+      ],
+      "relevance": 0.5546875
+    },
+    "Entity-discriminative_model": {
+      "node_id": "discriminative_model",
+      "disambiguation_index": 0,
+      "label": "discriminative model",
+      "aliases": [
+        "discriminative model"
+      ],
+      "types": [
+        "discriminative model",
+        "statistical model",
+        "machine learning model",
+        "model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A discriminative model is a type of statistical model used in machine learning that focuses on modeling the decision boundary between different classes, rather than modeling the distribution of each class.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "discriminative model",
+          "local_types": [
+            "discriminative model",
+            "statistical model",
+            "machine learning model",
+            "model"
+          ],
+          "iri": "Entity-discriminative_model-Mention-1"
+        }
+      ],
+      "relevance": 0.54345703125
+    },
+    "Entity-dependent": {
+      "node_id": "dependent",
+      "disambiguation_index": 0,
+      "label": "dependents",
+      "aliases": [
+        "dependents"
+      ],
+      "types": [
+        "syntax component",
+        "syntax",
+        "grammar",
+        "dependency",
+        "linguistic term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of dependency grammar, 'dependents' refers to the words or phrases that are syntactically related to and modify a head word within a sentence structure.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "dependents",
+          "local_types": [
+            "syntax component",
+            "syntax",
+            "grammar",
+            "dependency",
+            "linguistic term"
+          ],
+          "iri": "Entity-dependent-Mention-1"
+        }
+      ],
+      "relevance": 0.54150390625
+    },
+    "Entity-labeled_data": {
+      "node_id": "labeled_data",
+      "disambiguation_index": 0,
+      "label": "Labeled data",
+      "aliases": [
+        "Labeled data"
+      ],
+      "types": [
+        "data",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Labeled data refers to a dataset that includes input-output pairs where each input is associated with a specific label or category, used primarily for training machine learning models.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Labeled data",
+          "local_types": [
+            "data",
+            "dataset"
+          ],
+          "iri": "Entity-labeled_data-Mention-1"
+        }
+      ],
+      "relevance": 0.5087890625
+    },
+    "Entity-french": {
+      "node_id": "french",
+      "disambiguation_index": 0,
+      "label": "French",
+      "aliases": [
+        "French"
+      ],
+      "types": [
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "French refers to the French language, which is used in the context of validating a speech syntax model on broadcast news transcriptions.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "French",
+          "local_types": [
+            "language"
+          ],
+          "iri": "Entity-french-Mention-1"
+        }
+      ],
+      "relevance": 0.50830078125
+    },
+    "Entity-french_broadcast_news_transcription": {
+      "node_id": "french_broadcast_news_transcription",
+      "disambiguation_index": 0,
+      "label": "French broadcast news transcriptions",
+      "aliases": [
+        "French broadcast news transcriptions"
+      ],
+      "types": [
+        "text corpus",
+        "transcription",
+        "text",
+        "news transcription",
+        "language data",
+        "broadcast news"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "French broadcast news transcriptions are written records of spoken content from news programs aired on French television or radio, capturing the dialogue and information presented in those broadcasts.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "French broadcast news transcriptions",
+          "local_types": [
+            "text corpus",
+            "transcription",
+            "text",
+            "news transcription",
+            "language data",
+            "broadcast news"
+          ],
+          "iri": "Entity-french_broadcast_news_transcription-Mention-1"
+        }
+      ],
+      "relevance": 0.50146484375
+    },
+    "Entity-syntactic_knowledge": {
+      "node_id": "syntactic_knowledge",
+      "disambiguation_index": 0,
+      "label": "syntactic knowledge",
+      "aliases": [
+        "syntactic knowledge"
+      ],
+      "types": [
+        "linguistic knowledge",
+        "theoretical concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Syntactic knowledge refers to the understanding and awareness of the rules and structures that govern the formation of sentences in a language.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "syntactic knowledge",
+          "local_types": [
+            "linguistic knowledge",
+            "theoretical concept"
+          ],
+          "iri": "Entity-syntactic_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.498046875
+    },
+    "Entity-hand-crafted_rule": {
+      "node_id": "hand-crafted_rule",
+      "disambiguation_index": 0,
+      "label": "hand-crafted rules",
+      "aliases": [
+        "hand-crafted rules"
+      ],
+      "types": [
+        "rules",
+        "rule",
+        "syntactic knowledge",
+        "rule-based system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Hand-crafted rules are manually created guidelines or principles used to govern the behavior of a system, often based on expert knowledge or specific criteria.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "hand-crafted rules",
+          "local_types": [
+            "rules",
+            "rule",
+            "syntactic knowledge",
+            "rule-based system"
+          ],
+          "iri": "Entity-hand-crafted_rule-Mention-1"
+        }
+      ],
+      "relevance": 0.492431640625
+    },
+    "Entity-head_word": {
+      "node_id": "head_word",
+      "disambiguation_index": 0,
+      "label": "head word",
+      "aliases": [
+        "head word",
+        "a head word"
+      ],
+      "types": [
+        "syntax component",
+        "syntax",
+        "grammar",
+        "linguistic term",
+        "word"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A head word is a central word in a phrase that determines the syntactic type and meaning of the entire phrase, often serving as the main element to which other words (dependents) relate.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "head word",
+          "local_types": [
+            "syntax component",
+            "syntax",
+            "grammar",
+            "linguistic term",
+            "word"
+          ],
+          "iri": "Entity-head_word-Mention-1"
+        },
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a head word",
+          "local_types": [
+            "word"
+          ],
+          "iri": "Entity-head_word-Mention-2"
+        }
+      ],
+      "relevance": 0.482177734375
+    },
+    "Entity-broadcast_news_transcription": {
+      "node_id": "broadcast_news_transcription",
+      "disambiguation_index": 0,
+      "label": "broadcast news transcriptions",
+      "aliases": [
+        "broadcast news transcriptions"
+      ],
+      "types": [
+        "text type",
+        "media content"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Broadcast news transcriptions are written records of spoken content from news broadcasts, capturing the dialogue and information presented in television or radio news programs.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "broadcast news transcriptions",
+          "local_types": [
+            "text type",
+            "media content"
+          ],
+          "iri": "Entity-broadcast_news_transcription-Mention-1"
+        }
+      ],
+      "relevance": 0.48193359375
+    },
+    "Entity-newspaper_text": {
+      "node_id": "newspaper_text",
+      "disambiguation_index": 0,
+      "label": "newspaper texts",
+      "aliases": [
+        "newspaper texts"
+      ],
+      "types": [
+        "text type",
+        "media content"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Newspaper texts are written materials that are published in newspapers, typically containing news articles, editorials, and other information intended for public readership.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "newspaper texts",
+          "local_types": [
+            "text type",
+            "media content"
+          ],
+          "iri": "Entity-newspaper_text-Mention-1"
+        }
+      ],
+      "relevance": 0.4296875
+    },
+    "Entity-english": {
+      "node_id": "english",
+      "disambiguation_index": 0,
+      "label": "English",
+      "aliases": [
+        "English"
+      ],
+      "types": [
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "English is a West Germanic language that is primarily spoken in England and is widely used as a global lingua franca.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "English",
+          "local_types": [
+            "language"
+          ],
+          "iri": "Entity-english-Mention-1"
+        }
+      ],
+      "relevance": 0.417236328125
+    },
+    "Entity-research_direction": {
+      "node_id": "research_direction",
+      "disambiguation_index": 0,
+      "label": "research direction",
+      "aliases": [
+        "research direction"
+      ],
+      "types": [
+        "research focus",
+        "academic focus",
+        "academic strategy",
+        "research concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A research direction refers to a specific area or theme of inquiry that guides the focus and objectives of academic or scientific investigation.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "research direction",
+          "local_types": [
+            "research focus",
+            "academic focus",
+            "academic strategy",
+            "research concept"
+          ],
+          "iri": "Entity-research_direction-Mention-1"
+        }
+      ],
+      "relevance": 0.411376953125
+    },
+    "Entity-czech": {
+      "node_id": "czech",
+      "disambiguation_index": 0,
+      "label": "Czech",
+      "aliases": [
+        "Czech"
+      ],
+      "types": [
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Czech refers to the West Slavic language spoken primarily in the Czech Republic.",
+      "mentions": [
+        {
+          "reference": "Paper-3-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Czech",
+          "local_types": [
+            "language"
+          ],
+          "iri": "Entity-czech-Mention-1"
+        }
+      ],
+      "relevance": 0.383544921875
+    }
+  },
+  "summary": "This work proposes a new research direction to address the lack of structures in traditional n-gram models . It is based on a weakly supervised dependency parser that can model speech syntax without relying on any annotated training corpus . Labeled data is replaced by a few hand-crafted rules that encode basic syntactic knowledge . Bayesian inference then samples the rules , disambiguating and combining them to create complex tree structures that maximize a discriminative model 's posterior on a target unlabeled corpus . This posterior encodes sparse se-lectional preferences between a head word and its dependents . The model is evaluated on English and Czech newspaper texts , and is then validated on French broadcast news transcriptions .",
+  "triples": [
+    [
+      "Entity-this_work",
+      "Predicate-proposes",
+      "Entity-a_new_research_direction"
+    ],
+    [
+      "Entity-a_new_research_direction",
+      "Predicate-addresses",
+      "Entity-the_lack_of_structure_in_traditional_n-gram_model"
+    ],
+    [
+      "Entity-weakly_supervised_dependency_parser",
+      "Predicate-is_based_on",
+      "Entity-weakly_supervised_dependency_parser"
+    ],
+    [
+      "Entity-weakly_supervised_dependency_parser",
+      "Predicate-can_model",
+      "Entity-speech_syntax"
+    ],
+    [
+      "Entity-weakly_supervised_dependency_parser",
+      "Predicate-without_relying_on",
+      "Entity-annotated_training_corpus"
+    ],
+    [
+      "Entity-labeled_data",
+      "Predicate-is_replaced_by",
+      "Entity-hand-crafted_rule"
+    ],
+    [
+      "Entity-hand-crafted_rule",
+      "Predicate-encode",
+      "Entity-basic_syntactic_knowledge"
+    ],
+    [
+      "Entity-bayesian_inference",
+      "Predicate-creates",
+      "Entity-complex_tree_structure"
+    ],
+    [
+      "Entity-head_word",
+      "Predicate-has",
+      "Entity-it_dependent"
+    ],
+    [
+      "Entity-model",
+      "Predicate-is_evaluated_on",
+      "Entity-english_and_czech_newspaper_text"
+    ],
+    [
+      "Entity-model",
+      "Predicate-is_validated_on",
+      "Entity-french_broadcast_news_transcription"
+    ],
+    [
+      "Entity-a_new_research_direction",
+      "Predicate-proposes",
+      "Entity-model"
+    ],
+    [
+      "Entity-this_work",
+      "Predicate-introduces",
+      "Entity-model"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-complex_tree_structure",
+      "skos:broader",
+      "Entity-structure"
+    ],
+    [
+      "Entity-english_and_czech_newspaper_text",
+      "skos:broader",
+      "Entity-newspaper_text"
+    ],
+    [
+      "Entity-basic_syntactic_knowledge",
+      "skos:broader",
+      "Entity-syntactic_knowledge"
+    ],
+    [
+      "Entity-hand-crafted_rule",
+      "skos:broader",
+      "Entity-rule"
+    ],
+    [
+      "Entity-traditional_n-gram_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-a_new_research_direction",
+      "skos:broader",
+      "Entity-research_direction"
+    ],
+    [
+      "Entity-hand-crafted_rule",
+      "skos:broader",
+      "Entity-syntactic_knowledge"
+    ],
+    [
+      "Entity-it_dependent",
+      "skos:broader",
+      "Entity-dependent"
+    ],
+    [
+      "Entity-the_lack_of_structure_in_traditional_n-gram_model",
+      "skos:broader",
+      "Entity-traditional_n-gram_model"
+    ],
+    [
+      "Entity-traditional_n-gram_model",
+      "skos:broader",
+      "Entity-n-gram_model"
+    ],
+    [
+      "Entity-discriminative_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-the_lack_of_structure_in_traditional_n-gram_model",
+      "skos:broader",
+      "Entity-n-gram_model"
+    ],
+    [
+      "Entity-hand-crafted_rule",
+      "skos:broader",
+      "Entity-basic_syntactic_knowledge"
+    ]
+  ],
+  "predicates": {
+    "Predicate-proposes": {
+      "label": "proposes",
+      "description": "The predicate 'proposes' indicates that the subject puts forward an idea, plan, or suggestion for consideration, which is represented by the object. It establishes a relationship where the subject is actively suggesting something new or different, and the object is the specific concept or direction being suggested.",
+      "disambiguation_index": 0
+    },
+    "Predicate-addresses": {
+      "label": "addresses",
+      "description": "The predicate 'addresses' indicates that the subject is focused on or concerned with the object, often implying an attempt to provide a solution, explanation, or response to the issues or needs represented by the object. It establishes a relationship where the subject seeks to engage with, tackle, or illuminate the aspects of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_based_on": {
+      "label": "is based on",
+      "description": "The predicate 'is based on' indicates a foundational relationship where the subject derives its principles, methods, or structure from the object. It suggests that the subject is built upon, influenced by, or fundamentally relies on the object for its existence or functionality.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_model": {
+      "label": "can model",
+      "description": "The predicate 'can model' indicates the capability of the subject to represent, simulate, or understand the characteristics, structures, or behaviors of the object. It implies that the subject possesses the necessary features or mechanisms to effectively capture the essence of the object in a meaningful way.",
+      "disambiguation_index": 0
+    },
+    "Predicate-without_relying_on": {
+      "label": "without relying on",
+      "description": "The predicate 'without relying on' indicates that the subject operates or functions independently of the object, suggesting that the subject does not depend on the object for its effectiveness, performance, or operation. This implies an alternative approach or methodology that does not utilize the object as a resource or foundation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_replaced_by": {
+      "label": "is replaced by",
+      "description": "The predicate 'is replaced by' indicates a relationship where the subject is substituted or superseded by the object, suggesting that the object serves as an alternative or new version that takes the place of the subject in a particular context or process.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encode": {
+      "label": "encode",
+      "description": "The predicate 'encode' signifies the process of transforming or representing information from one form into another. In the context of the subject and object, it indicates that the subject takes certain elements or data and systematically converts or organizes them to convey or preserve the meaning, structure, or characteristics of the object. This transformation often involves the application of specific methods or frameworks to ensure that the essential qualities of the object are accurately captured and communicated.",
+      "disambiguation_index": 0
+    },
+    "Predicate-creates": {
+      "label": "creates",
+      "description": "The predicate 'creates' indicates an action or process by which the subject brings into existence or generates the object. It implies a transformation or production where the subject actively contributes to the formation or development of the object, resulting in something new or distinct that did not previously exist.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' establishes a relationship of possession or association between the subject and the object, indicating that the subject contains, possesses, or is linked to the object in some meaningful way. In the context of the example triple, it signifies that the 'head word' possesses or is associated with its 'dependents', which can include various elements that provide additional information or context related to the head word.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_evaluated_on": {
+      "label": "is evaluated on",
+      "description": "The predicate 'is evaluated on' establishes a relationship where the subject undergoes an assessment or analysis based on the criteria or content represented by the object. It indicates that the performance, effectiveness, or quality of the subject is measured using the specific data, materials, or contexts denoted by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_validated_on": {
+      "label": "is validated on",
+      "description": "The predicate 'is validated on' establishes a relationship where the subject, typically a model or system, is assessed or confirmed for its effectiveness, accuracy, or reliability based on the data or context provided by the object. This implies that the object serves as a benchmark or reference point against which the subject's performance or results are measured.",
+      "disambiguation_index": 0
+    },
+    "Predicate-introduces": {
+      "label": "introduces",
+      "description": "The predicate 'introduces' signifies the act of presenting or bringing something new into awareness or consideration. It connects the subject, which is typically an entity or work that is presenting, with the object, which is the new concept, idea, or model being presented. This relationship implies that the subject plays a role in making the object known to an audience or context.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a more specific instance or category within the broader category represented by the object. This relationship suggests that the object encompasses a wider range of concepts or entities than the subject, thereby providing a context in which the subject can be understood as a subset of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

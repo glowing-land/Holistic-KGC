@@ -1,0 +1,912 @@
+{
+  "iri": "Paper-27",
+  "title": "ICCV_2013_25_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-27-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-27-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+              "text": "We present a scanning method that recovers dense sub-pixel camera-projector correspondence without requiring any photometric calibration nor preliminary knowledge of their relative geometry ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+              "text": "Subpixel accuracy is achieved by considering several zero-crossings defined by the difference between pairs of unstructured patterns ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+              "text": "We use gray-level band-pass white noise patterns that increase robustness to indirect lighting and scene discontinuities ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+              "text": "Simulated and experimental results show that our method recovers scene geometry with high subpixel precision , and that it can handle many challenges of active reconstruction systems ."
+            },
+            {
+              "iri": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+              "text": "We compare our results to state of the art methods such as mi-cro phase shifting and modulated phase shifting ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0018761157989501953,
+    6.595845937728882,
+    22.18866801261902,
+    19.18334722518921,
+    0.04124808311462402,
+    0.00010991096496582031,
+    0.0001347064971923828,
+    17.355835914611816,
+    27.851684093475342,
+    3.3743538856506348,
+    14.152312994003296,
+    0.008726835250854492,
+    0.00017189979553222656,
+    15.952767133712769,
+    0.0016541481018066406,
+    0.0347900390625,
+    0.0012352466583251953,
+    3.932344913482666,
+    0.5816628932952881,
+    0.7570881843566895,
+    56.931227922439575,
+    7.79294490814209,
+    29.864541053771973,
+    2.9282009601593018,
+    0.0010170936584472656,
+    0.007754087448120117
+  ],
+  "nodes": {
+    "Entity-our_method": {
+      "node_id": "our_method",
+      "disambiguation_index": 0,
+      "label": "our method",
+      "aliases": [
+        "our method"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our method refers to a scanning technique that achieves high subpixel precision in recovering dense camera-projector correspondences without the need for photometric calibration or prior geometric knowledge, utilizing gray-level band-pass white noise patterns to enhance robustness against lighting variations and scene discontinuities.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "our method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-our_method-Mention-1"
+        }
+      ],
+      "relevance": 0.83056640625
+    },
+    "Entity-scanning_method": {
+      "node_id": "scanning_method",
+      "disambiguation_index": 0,
+      "label": "scanning method",
+      "aliases": [
+        "a scanning method",
+        "method",
+        "scanning method"
+      ],
+      "types": [
+        "algorithm",
+        "technique",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The scanning method is a technique for recovering dense sub-pixel camera-projector correspondence that operates without the need for photometric calibration or prior knowledge of the relative geometry between the camera and projector.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "scanning method",
+          "local_types": [
+            "technique",
+            "method"
+          ],
+          "iri": "Entity-scanning_method-Mention-1"
+        },
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "method",
+          "local_types": [
+            "technique",
+            "algorithm"
+          ],
+          "iri": "Entity-scanning_method-Mention-2"
+        },
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a scanning method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-scanning_method-Mention-3"
+        }
+      ],
+      "relevance": 0.81689453125
+    },
+    "Entity-high_subpixel_precision": {
+      "node_id": "high_subpixel_precision",
+      "disambiguation_index": 0,
+      "label": "high subpixel precision",
+      "aliases": [
+        "high subpixel precision"
+      ],
+      "types": [
+        "precision"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "High subpixel precision refers to the ability of a scanning method to accurately recover dense camera-projector correspondences at a resolution finer than a single pixel, enabling detailed scene geometry reconstruction without the need for prior calibration or knowledge of the system's geometry.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "high subpixel precision",
+          "local_types": [
+            "precision"
+          ],
+          "iri": "Entity-high_subpixel_precision-Mention-1"
+        }
+      ],
+      "relevance": 0.7744140625
+    },
+    "Entity-dense_sub-pixel_camera-projector_correspondence": {
+      "node_id": "dense_sub-pixel_camera-projector_correspondence",
+      "disambiguation_index": 0,
+      "label": "dense sub-pixel camera-projector correspondence",
+      "aliases": [
+        "dense sub-pixel camera-projector correspondence"
+      ],
+      "types": [
+        "correspondence"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Dense sub-pixel camera-projector correspondence refers to a technique for accurately mapping the relationship between camera and projector systems at a sub-pixel level, enabling precise scene reconstruction without the need for prior calibration or knowledge of their spatial configuration.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "dense sub-pixel camera-projector correspondence",
+          "local_types": [
+            "correspondence"
+          ],
+          "iri": "Entity-dense_sub-pixel_camera-projector_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.7607421875
+    },
+    "Entity-sub-pixel_camera-projector_correspondence": {
+      "node_id": "sub-pixel_camera-projector_correspondence",
+      "disambiguation_index": 0,
+      "label": "sub-pixel camera-projector correspondence",
+      "aliases": [
+        "sub-pixel camera-projector correspondence"
+      ],
+      "types": [
+        "optical system",
+        "image processing",
+        "correspondence"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The sub-pixel camera-projector correspondence refers to a technique in optical systems and image processing that enables the precise alignment and mapping of camera and projector pixels at a sub-pixel level, enhancing the accuracy of scene reconstruction without the need for prior calibration or knowledge of their spatial relationship.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "sub-pixel camera-projector correspondence",
+          "local_types": [
+            "optical system",
+            "image processing",
+            "correspondence"
+          ],
+          "iri": "Entity-sub-pixel_camera-projector_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.74365234375
+    },
+    "Entity-mi-cro_phase_shifting": {
+      "node_id": "mi-cro_phase_shifting",
+      "disambiguation_index": 0,
+      "label": "mi-cro phase shifting",
+      "aliases": [
+        "mi-cro phase shifting"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "phase shifting technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "mi-cro phase shifting is a state-of-the-art phase shifting technique used in active reconstruction systems to achieve high subpixel precision in recovering scene geometry.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "mi-cro phase shifting",
+          "local_types": [
+            "technique",
+            "method",
+            "phase shifting technique"
+          ],
+          "iri": "Entity-mi-cro_phase_shifting-Mention-1"
+        }
+      ],
+      "relevance": 0.69775390625
+    },
+    "Entity-unstructured_pattern": {
+      "node_id": "unstructured_pattern",
+      "disambiguation_index": 0,
+      "label": "unstructured patterns",
+      "aliases": [
+        "unstructured patterns"
+      ],
+      "types": [
+        "pattern recognition",
+        "visual pattern",
+        "data type",
+        "pattern",
+        "visual representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Unstructured patterns refer to gray-level band-pass white noise patterns used in a scanning method to achieve subpixel accuracy by analyzing zero-crossings defined by their differences.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "unstructured patterns",
+          "local_types": [
+            "pattern recognition",
+            "visual pattern",
+            "data type",
+            "pattern",
+            "visual representation"
+          ],
+          "iri": "Entity-unstructured_pattern-Mention-1"
+        }
+      ],
+      "relevance": 0.69140625
+    },
+    "Entity-robustness_to_indirect_lighting": {
+      "node_id": "robustness_to_indirect_lighting",
+      "disambiguation_index": 0,
+      "label": "robustness to indirect lighting",
+      "aliases": [
+        "robustness to indirect lighting"
+      ],
+      "types": [
+        "concept",
+        "lighting"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Robustness to indirect lighting refers to the ability of a scanning method using gray-level band-pass white noise patterns to maintain accurate performance in the presence of indirect lighting conditions and scene discontinuities during the recovery of dense sub-pixel camera-projector correspondence.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "robustness to indirect lighting",
+          "local_types": [
+            "concept",
+            "lighting"
+          ],
+          "iri": "Entity-robustness_to_indirect_lighting-Mention-1"
+        }
+      ],
+      "relevance": 0.6845703125
+    },
+    "Entity-active_reconstruction_system": {
+      "node_id": "active_reconstruction_system",
+      "disambiguation_index": 0,
+      "label": "active reconstruction systems",
+      "aliases": [
+        "active reconstruction systems"
+      ],
+      "types": [
+        "technology",
+        "reconstruction",
+        "system",
+        "reconstruction technology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Active reconstruction systems refer to technologies that utilize active sensing methods, such as projecting patterns onto a scene, to recover detailed geometric information with high precision, often addressing challenges related to lighting and scene discontinuities.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "active reconstruction systems",
+          "local_types": [
+            "technology",
+            "reconstruction",
+            "system",
+            "reconstruction technology"
+          ],
+          "iri": "Entity-active_reconstruction_system-Mention-1"
+        }
+      ],
+      "relevance": 0.63037109375
+    },
+    "Entity-modulated_phase_shifting": {
+      "node_id": "modulated_phase_shifting",
+      "disambiguation_index": 0,
+      "label": "modulated phase shifting",
+      "aliases": [
+        "modulated phase shifting"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "phase shifting technique"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Modulated phase shifting is a technique used in active reconstruction systems to enhance the precision of camera-projector correspondence by utilizing phase shifts in projected patterns.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "modulated phase shifting",
+          "local_types": [
+            "technique",
+            "method",
+            "phase shifting technique"
+          ],
+          "iri": "Entity-modulated_phase_shifting-Mention-1"
+        }
+      ],
+      "relevance": 0.62451171875
+    },
+    "Entity-subpixel_accuracy": {
+      "node_id": "subpixel_accuracy",
+      "disambiguation_index": 0,
+      "label": "Subpixel accuracy",
+      "aliases": [
+        "subpixel accuracy",
+        "Subpixel accuracy",
+        "subpixel precision"
+      ],
+      "types": [
+        "accuracy",
+        "image processing",
+        "measurement accuracy",
+        "precision",
+        "precision level",
+        "measurement",
+        "measurement quality"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Subpixel accuracy refers to the precision of measurement in image processing that allows for the determination of features or values at a resolution finer than the pixel grid, enhancing the quality and detail of the resulting images.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Subpixel accuracy",
+          "local_types": [
+            "accuracy",
+            "image processing",
+            "measurement quality",
+            "measurement"
+          ],
+          "iri": "Entity-subpixel_accuracy-Mention-1"
+        },
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "subpixel precision",
+          "local_types": [
+            "precision level",
+            "measurement accuracy",
+            "precision"
+          ],
+          "iri": "Entity-subpixel_accuracy-Mention-2"
+        }
+      ],
+      "relevance": 0.59716796875
+    },
+    "Entity-relative_geometry": {
+      "node_id": "relative_geometry",
+      "disambiguation_index": 0,
+      "label": "relative geometry",
+      "aliases": [
+        "relative geometry"
+      ],
+      "types": [
+        "spatial relationship",
+        "mathematics",
+        "geometry"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Relative geometry refers to the spatial relationship and configuration between the camera and projector in the context of a scanning method that does not require prior knowledge of their geometric arrangement.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "relative geometry",
+          "local_types": [
+            "spatial relationship",
+            "mathematics",
+            "geometry"
+          ],
+          "iri": "Entity-relative_geometry-Mention-1"
+        }
+      ],
+      "relevance": 0.5947265625
+    },
+    "Entity-gray-level_band-pass_white_noise_pattern": {
+      "node_id": "gray-level_band-pass_white_noise_pattern",
+      "disambiguation_index": 0,
+      "label": "gray-level band-pass white noise patterns",
+      "aliases": [
+        "gray-level band-pass white noise patterns"
+      ],
+      "types": [
+        "noise",
+        "signal processing technique",
+        "pattern",
+        "noise pattern"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Gray-level band-pass white noise patterns are a type of noise pattern used in signal processing to enhance the robustness of imaging techniques against indirect lighting and scene discontinuities.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "gray-level band-pass white noise patterns",
+          "local_types": [
+            "noise",
+            "signal processing technique",
+            "pattern",
+            "noise pattern"
+          ],
+          "iri": "Entity-gray-level_band-pass_white_noise_pattern-Mention-1"
+        }
+      ],
+      "relevance": 0.5859375
+    },
+    "Entity-preliminary_knowledge_of_their_relative_geometry": {
+      "node_id": "preliminary_knowledge_of_their_relative_geometry",
+      "disambiguation_index": 0,
+      "label": "preliminary knowledge of their relative geometry",
+      "aliases": [
+        "preliminary knowledge of their relative geometry"
+      ],
+      "types": [
+        "knowledge",
+        "geometry"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'preliminary knowledge of their relative geometry' refers to the initial understanding or information about the spatial arrangement and relationships between the camera and projector in a scanning method, which is not needed for the method to function effectively.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "preliminary knowledge of their relative geometry",
+          "local_types": [
+            "knowledge",
+            "geometry"
+          ],
+          "iri": "Entity-preliminary_knowledge_of_their_relative_geometry-Mention-1"
+        }
+      ],
+      "relevance": 0.5810546875
+    },
+    "Entity-simulated_and_experimental_result": {
+      "node_id": "simulated_and_experimental_result",
+      "disambiguation_index": 0,
+      "label": "Simulated and experimental results",
+      "aliases": [
+        "Simulated and experimental results"
+      ],
+      "types": [
+        "experimental",
+        "results"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Simulated and experimental results refer to the outcomes obtained from both computer-based simulations and real-world experiments that demonstrate the effectiveness of the proposed scanning method in achieving high subpixel precision in scene geometry recovery.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Simulated and experimental results",
+          "local_types": [
+            "experimental",
+            "results"
+          ],
+          "iri": "Entity-simulated_and_experimental_result-Mention-1"
+        }
+      ],
+      "relevance": 0.57958984375
+    },
+    "Entity-photometric_calibration": {
+      "node_id": "photometric_calibration",
+      "disambiguation_index": 0,
+      "label": "photometric calibration",
+      "aliases": [
+        "photometric calibration"
+      ],
+      "types": [
+        "image processing",
+        "measurement technique",
+        "calibration"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Photometric calibration is a process used in image processing to adjust and correct the brightness and color of images to ensure accurate representation of the scene being captured.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "photometric calibration",
+          "local_types": [
+            "image processing",
+            "measurement technique",
+            "calibration"
+          ],
+          "iri": "Entity-photometric_calibration-Mention-1"
+        }
+      ],
+      "relevance": 0.576171875
+    },
+    "Entity-robustness": {
+      "node_id": "robustness",
+      "disambiguation_index": 0,
+      "label": "robustness",
+      "aliases": [
+        "robustness"
+      ],
+      "types": [
+        "quality",
+        "performance metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'robustness' refers to the ability of the scanning method to maintain accurate performance and reliability in the presence of indirect lighting and scene discontinuities.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "robustness",
+          "local_types": [
+            "quality",
+            "performance metric"
+          ],
+          "iri": "Entity-robustness-Mention-1"
+        }
+      ],
+      "relevance": 0.54296875
+    },
+    "Entity-zero-crossings": {
+      "node_id": "zero-crossings",
+      "disambiguation_index": 0,
+      "label": "zero-crossings",
+      "aliases": [
+        "zero-crossings"
+      ],
+      "types": [
+        "concept",
+        "mathematical concept",
+        "signal processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Zero-crossings refer to the points in a signal or function where the value changes sign, indicating transitions between positive and negative values, commonly used in signal processing and analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "zero-crossings",
+          "local_types": [
+            "concept",
+            "mathematical concept",
+            "signal processing"
+          ],
+          "iri": "Entity-zero-crossings-Mention-1"
+        }
+      ],
+      "relevance": 0.53173828125
+    },
+    "Entity-scene_discontinuity": {
+      "node_id": "scene_discontinuity",
+      "disambiguation_index": 0,
+      "label": "scene discontinuities",
+      "aliases": [
+        "scene discontinuities"
+      ],
+      "types": [
+        "visual discontinuity",
+        "discontinuity",
+        "concept",
+        "visual phenomenon",
+        "scene feature",
+        "scene"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Scene discontinuities refer to abrupt changes or variations in the visual characteristics of a scene, which can affect the accuracy of image reconstruction methods.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "scene discontinuities",
+          "local_types": [
+            "visual discontinuity",
+            "discontinuity",
+            "concept",
+            "visual phenomenon",
+            "scene feature",
+            "scene"
+          ],
+          "iri": "Entity-scene_discontinuity-Mention-1"
+        }
+      ],
+      "relevance": 0.51513671875
+    },
+    "Entity-scene_geometry": {
+      "node_id": "scene_geometry",
+      "disambiguation_index": 0,
+      "label": "scene geometry",
+      "aliases": [
+        "scene geometry"
+      ],
+      "types": [
+        "spatial structure",
+        "geometric representation",
+        "scene",
+        "3D modeling",
+        "geometry"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Scene geometry refers to the geometric representation of a spatial structure in a three-dimensional environment, which encompasses the arrangement and relationships of objects within that space.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scene geometry",
+          "local_types": [
+            "spatial structure",
+            "geometric representation",
+            "scene",
+            "3D modeling",
+            "geometry"
+          ],
+          "iri": "Entity-scene_geometry-Mention-1"
+        }
+      ],
+      "relevance": 0.497314453125
+    },
+    "Entity-indirect_lighting": {
+      "node_id": "indirect_lighting",
+      "disambiguation_index": 0,
+      "label": "indirect lighting",
+      "aliases": [
+        "indirect lighting"
+      ],
+      "types": [
+        "environmental factor",
+        "lighting",
+        "lighting condition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Indirect lighting refers to a lighting condition where light is diffused or reflected off surfaces rather than coming directly from a light source, creating a softer and more even illumination in an environment.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "indirect lighting",
+          "local_types": [
+            "environmental factor",
+            "lighting",
+            "lighting condition"
+          ],
+          "iri": "Entity-indirect_lighting-Mention-1"
+        }
+      ],
+      "relevance": 0.46875
+    },
+    "Entity-state_of_the_art_method": {
+      "node_id": "state_of_the_art_method",
+      "disambiguation_index": 0,
+      "label": "state of the art methods",
+      "aliases": [
+        "state of the art methods"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "State of the art methods refer to the most advanced and effective techniques or methodologies currently available in a particular field, often representing the highest level of development and performance.",
+      "mentions": [
+        {
+          "reference": "Paper-27-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "state of the art methods",
+          "local_types": [
+            "technique",
+            "method",
+            "methodology"
+          ],
+          "iri": "Entity-state_of_the_art_method-Mention-1"
+        }
+      ],
+      "relevance": 0.38916015625
+    }
+  },
+  "summary": "We present a scanning method that recovers dense sub-pixel camera-projector correspondence without requiring any photometric calibration nor preliminary knowledge of their relative geometry . Subpixel accuracy is achieved by considering several zero-crossings defined by the difference between pairs of unstructured patterns . We use gray-level band-pass white noise patterns that increase robustness to indirect lighting and scene discontinuities . Simulated and experimental results show that our method recovers scene geometry with high subpixel precision , and that it can handle many challenges of active reconstruction systems . We compare our results to state of the art methods such as mi-cro phase shifting and modulated phase shifting .",
+  "triples": [
+    [
+      "Entity-scanning_method",
+      "Predicate-recovers",
+      "Entity-dense_sub-pixel_camera-projector_correspondence"
+    ],
+    [
+      "Entity-scanning_method",
+      "Predicate-requires",
+      "Entity-photometric_calibration"
+    ],
+    [
+      "Entity-scanning_method",
+      "Predicate-requires",
+      "Entity-preliminary_knowledge_of_their_relative_geometry"
+    ],
+    [
+      "Entity-scanning_method",
+      "Predicate-requires",
+      "Entity-relative_geometry"
+    ],
+    [
+      "Entity-subpixel_accuracy",
+      "Predicate-is_achieved_by_considering",
+      "Entity-zero-crossings"
+    ],
+    [
+      "Entity-zero-crossings",
+      "Predicate-defined_by_the_difference_between",
+      "Entity-unstructured_pattern"
+    ],
+    [
+      "Entity-gray-level_band-pass_white_noise_pattern",
+      "Predicate-increase",
+      "Entity-robustness_to_indirect_lighting"
+    ],
+    [
+      "Entity-simulated_and_experimental_result",
+      "Predicate-show_that",
+      "Entity-our_method"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-recovers",
+      "Entity-scene_geometry"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-achieves",
+      "Entity-high_subpixel_precision"
+    ],
+    [
+      "Entity-state_of_the_art_method",
+      "Predicate-compared_to",
+      "Entity-mi-cro_phase_shifting"
+    ],
+    [
+      "Entity-state_of_the_art_method",
+      "Predicate-compared_to",
+      "Entity-modulated_phase_shifting"
+    ],
+    [
+      "Entity-state_of_the_art_method",
+      "Predicate-include",
+      "Entity-mi-cro_phase_shifting"
+    ],
+    [
+      "Entity-state_of_the_art_method",
+      "Predicate-include",
+      "Entity-modulated_phase_shifting"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-recovers",
+      "Entity-dense_sub-pixel_camera-projector_correspondence"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-achieves",
+      "Entity-subpixel_accuracy"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-compared_to",
+      "Entity-state_of_the_art_method"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-is_a_specific_implementation_of",
+      "Entity-scanning_method"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-modulated_phase_shifting",
+      "skos:broader",
+      "Entity-scanning_method"
+    ],
+    [
+      "Entity-state_of_the_art_method",
+      "skos:broader",
+      "Entity-scanning_method"
+    ],
+    [
+      "Entity-mi-cro_phase_shifting",
+      "skos:broader",
+      "Entity-scanning_method"
+    ],
+    [
+      "Entity-our_method",
+      "skos:broader",
+      "Entity-scanning_method"
+    ]
+  ],
+  "predicates": {
+    "Predicate-recovers": {
+      "label": "recovers",
+      "description": "The predicate 'recovers' indicates a process or action by which the subject is able to retrieve, restore, or obtain the object, often implying that the object represents information, data, or a state that was previously lost, obscured, or not fully accessible. In this context, the subject employs a method or technique to effectively bring forth or reconstruct the object from available inputs or conditions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-requires": {
+      "label": "requires",
+      "description": "The predicate 'requires' establishes a relationship between a subject and an object, indicating that the subject cannot function, be completed, or be effective without the presence or fulfillment of the object. It signifies a dependency where the subject needs the object as a necessary condition or resource for its operation or existence.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_achieved_by_considering": {
+      "label": "is achieved by considering",
+      "description": "The predicate 'is achieved by considering' indicates that the subject can be realized or accomplished through the evaluation or analysis of the object. It suggests a causal or methodological relationship where the subject's attainment relies on the insights or factors provided by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-defined_by_the_difference_between": {
+      "label": "defined by the difference between",
+      "description": "The predicate 'defined by the difference between' establishes a relationship where the subject is characterized or determined by the contrast or variation that exists when comparing it to the object. This implies that the essence or nature of the subject can be understood through the distinctions or divergences that arise in relation to the object, highlighting the significance of the comparative analysis in defining the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-increase": {
+      "label": "increase",
+      "description": "The predicate 'increase' denotes a relationship where the subject contributes to a positive change or enhancement in the quality, quantity, or effectiveness of the object. It implies that the subject has a causal or supportive role in elevating the state or level of the object, leading to an improvement or augmentation in its characteristics or performance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show_that": {
+      "label": "show that",
+      "description": "The predicate 'show that' indicates a relationship where the subject provides evidence, demonstration, or proof of the truth or validity of the object. It implies that the subject has presented information or findings that substantiate or confirm the claims made about the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-achieves": {
+      "label": "achieves",
+      "description": "The predicate 'achieves' indicates a successful attainment or realization of a specified goal or outcome by the subject. It connects the subject to the object by expressing that the subject has effectively reached or fulfilled the conditions or standards represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-compared_to": {
+      "label": "compared to",
+      "description": "The predicate 'compared to' establishes a relationship of evaluation or contrast between the subject and the object. It indicates that the subject is being assessed in relation to the object, highlighting similarities, differences, or relative performance. This comparison can be qualitative or quantitative, and it serves to provide context or insight into the characteristics or effectiveness of the subject when viewed alongside the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-include": {
+      "label": "include",
+      "description": "The predicate 'include' establishes a relationship where the subject encompasses or contains the object as a part of its broader category or set. It indicates that the object is one of the elements or components that are considered within the scope of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_specific_implementation_of": {
+      "label": "is a specific implementation of",
+      "description": "The predicate 'is a specific implementation of' establishes a relationship where the subject represents a particular realization or version of a broader concept or category denoted by the object. It indicates that the subject embodies the principles, techniques, or characteristics of the object, while also suggesting that the subject may include unique features or adaptations that distinguish it from other implementations within the same category.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a more specific instance or concept that falls under the wider category represented by the object. This relationship is often used in categorization and classification systems, where the broader term encompasses a range of related concepts, including the subject.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,681 @@
+{
+  "iri": "Paper-55",
+  "title": "E99-1015",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-55-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-55-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-55-Section-1-Paragraph-1-Sentence-1",
+              "text": "In order to build robust automatic abstracting systems , there is a need for better training resources than are currently available ."
+            },
+            {
+              "iri": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this paper , we introduce an annotation scheme for scientific articles which can be used to build such a resource in a consistent way ."
+            },
+            {
+              "iri": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+              "text": "The seven categories of the scheme are based on rhetorical moves of argumentation ."
+            },
+            {
+              "iri": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+              "text": "Our experimental results show that the scheme is stable , reproducible and intuitive to use ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0029380321502685547,
+    5.030196905136108,
+    11.773374080657959,
+    12.185957908630371,
+    0.02033829689025879,
+    0.00014019012451171875,
+    0.0001659393310546875,
+    17.388281106948853,
+    24.586713075637817,
+    3.2011749744415283,
+    36.47321105003357,
+    0.008166790008544922,
+    0.00015425682067871094,
+    10.582787275314331,
+    0.0015819072723388672,
+    0.016869068145751953,
+    0.0013341903686523438,
+    3.45147705078125,
+    0.0013897418975830078,
+    0.0004010200500488281,
+    34.400482177734375,
+    5.5848400592803955,
+    22.43100595474243,
+    2.154723882675171,
+    0.0003979206085205078,
+    0.005482912063598633
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "document",
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This paper presents an annotation scheme for scientific articles designed to enhance the development of robust automatic abstracting systems.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this paper",
+          "local_types": [
+            "document",
+            "paper"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.80029296875
+    },
+    "Entity-seven_category": {
+      "node_id": "seven_category",
+      "disambiguation_index": 0,
+      "label": "seven categories",
+      "aliases": [
+        "seven categories",
+        "The seven categories of the scheme",
+        "seven categories of the scheme"
+      ],
+      "types": [
+        "scheme",
+        "category",
+        "categories",
+        "framework",
+        "classification"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'seven categories' refer to a classification framework used in an annotation scheme for scientific articles, which is based on rhetorical moves of argumentation.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "seven categories",
+          "local_types": [
+            "classification",
+            "framework"
+          ],
+          "iri": "Entity-seven_category-Mention-1"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "seven categories of the scheme",
+          "local_types": [
+            "category"
+          ],
+          "iri": "Entity-seven_category-Mention-2"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "The seven categories of the scheme",
+          "local_types": [
+            "categories",
+            "scheme"
+          ],
+          "iri": "Entity-seven_category-Mention-3"
+        }
+      ],
+      "relevance": 0.79931640625
+    },
+    "Entity-resource": {
+      "node_id": "resource",
+      "disambiguation_index": 0,
+      "label": "resource",
+      "aliases": [
+        "resource"
+      ],
+      "types": [
+        "data",
+        "repository"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'resource' refers to a training resource, specifically an annotation scheme for scientific articles designed to enhance the development of automatic abstracting systems.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "resource",
+          "local_types": [
+            "data",
+            "repository"
+          ],
+          "iri": "Entity-resource-Mention-1"
+        }
+      ],
+      "relevance": 0.73291015625
+    },
+    "Entity-annotation_scheme": {
+      "node_id": "annotation_scheme",
+      "disambiguation_index": 0,
+      "label": "annotation scheme",
+      "aliases": [
+        "the scheme",
+        "scheme",
+        "annotation scheme for scientific articles",
+        "an annotation scheme for scientific articles",
+        "annotation scheme"
+      ],
+      "types": [
+        "scientific article",
+        "scheme",
+        "approach",
+        "annotation scheme",
+        "method",
+        "methodology",
+        "framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An annotation scheme is a structured framework or methodology used to systematically categorize and label data, often in the context of research or data analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "annotation scheme",
+          "local_types": [
+            "framework",
+            "scheme",
+            "methodology"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-1"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scheme",
+          "local_types": [
+            "framework",
+            "methodology"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-2"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "scheme",
+          "local_types": [
+            "methodology",
+            "framework"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-3"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scheme",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-4"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "annotation scheme for scientific articles",
+          "local_types": [
+            "scheme",
+            "scientific article"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-5"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the scheme",
+          "local_types": [
+            "scheme"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-6"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "an annotation scheme for scientific articles",
+          "local_types": [
+            "method",
+            "annotation scheme"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-7"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the scheme",
+          "local_types": [
+            "scheme"
+          ],
+          "iri": "Entity-annotation_scheme-Mention-8"
+        }
+      ],
+      "relevance": 0.72802734375
+    },
+    "Entity-such_a_resource": {
+      "node_id": "such_a_resource",
+      "disambiguation_index": 0,
+      "label": "such a resource",
+      "aliases": [
+        "such a resource"
+      ],
+      "types": [
+        "resource"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'such a resource' refers to a training resource for automatic abstracting systems that is developed using a consistent annotation scheme for scientific articles.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "such a resource",
+          "local_types": [
+            "resource"
+          ],
+          "iri": "Entity-such_a_resource-Mention-1"
+        }
+      ],
+      "relevance": 0.72265625
+    },
+    "Entity-reproducible": {
+      "node_id": "reproducible",
+      "disambiguation_index": 0,
+      "label": "reproducible",
+      "aliases": [
+        "reproducible"
+      ],
+      "types": [
+        "property"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The term 'reproducible' refers to the property of the annotation scheme for scientific articles that allows consistent results to be obtained when the scheme is applied in similar contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "reproducible",
+          "local_types": [
+            "property"
+          ],
+          "iri": "Entity-reproducible-Mention-1"
+        }
+      ],
+      "relevance": 0.69775390625
+    },
+    "Entity-automatic_abstracting_system": {
+      "node_id": "automatic_abstracting_system",
+      "disambiguation_index": 0,
+      "label": "automatic abstracting systems",
+      "aliases": [
+        "automatic abstracting systems"
+      ],
+      "types": [
+        "technology",
+        "system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Automatic abstracting systems are technological systems designed to automatically generate concise summaries of larger texts or documents.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "automatic abstracting systems",
+          "local_types": [
+            "technology",
+            "system"
+          ],
+          "iri": "Entity-automatic_abstracting_system-Mention-1"
+        }
+      ],
+      "relevance": 0.67626953125
+    },
+    "Entity-intuitive_to_use": {
+      "node_id": "intuitive_to_use",
+      "disambiguation_index": 0,
+      "label": "intuitive to use",
+      "aliases": [
+        "intuitive to use"
+      ],
+      "types": [
+        "property"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'intuitive to use' refers to the ease of understanding and applying the proposed annotation scheme for scientific articles, indicating that users can effectively utilize it without extensive training or prior knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "intuitive to use",
+          "local_types": [
+            "property"
+          ],
+          "iri": "Entity-intuitive_to_use-Mention-1"
+        }
+      ],
+      "relevance": 0.671875
+    },
+    "Entity-stable": {
+      "node_id": "stable",
+      "disambiguation_index": 0,
+      "label": "stable",
+      "aliases": [
+        "stable"
+      ],
+      "types": [
+        "property"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In this context, 'stable' refers to the consistency and reliability of the annotation scheme for scientific articles, indicating that it produces consistent results across different applications.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "stable",
+          "local_types": [
+            "property"
+          ],
+          "iri": "Entity-stable-Mention-1"
+        }
+      ],
+      "relevance": 0.63427734375
+    },
+    "Entity-argumentation": {
+      "node_id": "argumentation",
+      "disambiguation_index": 0,
+      "label": "argumentation",
+      "aliases": [
+        "argumentation"
+      ],
+      "types": [
+        "reasoning",
+        "discourse"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Argumentation refers to the process of reasoning and presenting arguments to support a particular claim or viewpoint in discourse.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "argumentation",
+          "local_types": [
+            "reasoning",
+            "discourse"
+          ],
+          "iri": "Entity-argumentation-Mention-1"
+        }
+      ],
+      "relevance": 0.599609375
+    },
+    "Entity-scientific_article": {
+      "node_id": "scientific_article",
+      "disambiguation_index": 0,
+      "label": "scientific articles",
+      "aliases": [
+        "scientific articles"
+      ],
+      "types": [
+        "article",
+        "academic publication",
+        "document",
+        "publication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Scientific articles are written documents that present original research findings, reviews, or theoretical discussions in a specific field of study, typically published in academic journals.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scientific articles",
+          "local_types": [
+            "article",
+            "academic publication",
+            "document",
+            "publication"
+          ],
+          "iri": "Entity-scientific_article-Mention-1"
+        }
+      ],
+      "relevance": 0.58984375
+    },
+    "Entity-rhetorical_move": {
+      "node_id": "rhetorical_move",
+      "disambiguation_index": 0,
+      "label": "rhetorical moves",
+      "aliases": [
+        "rhetorical moves",
+        "rhetorical moves of argumentation"
+      ],
+      "types": [
+        "rhetorical moves",
+        "argumentation technique",
+        "rhetorical move",
+        "concept",
+        "argumentation",
+        "communication strategy"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Rhetorical moves are strategic techniques used in communication and argumentation to persuade or influence an audience.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "rhetorical moves",
+          "local_types": [
+            "communication strategy",
+            "argumentation technique"
+          ],
+          "iri": "Entity-rhetorical_move-Mention-1"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "rhetorical moves of argumentation",
+          "local_types": [
+            "rhetorical moves",
+            "rhetorical move",
+            "concept",
+            "argumentation",
+            "communication strategy"
+          ],
+          "iri": "Entity-rhetorical_move-Mention-2"
+        }
+      ],
+      "relevance": 0.5849609375
+    },
+    "Entity-training_resource": {
+      "node_id": "training_resource",
+      "disambiguation_index": 0,
+      "label": "training resources",
+      "aliases": [
+        "training resources"
+      ],
+      "types": [
+        "educational material",
+        "resource"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Training resources refer to various educational materials and tools designed to enhance learning and skill development in a specific field or subject.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "training resources",
+          "local_types": [
+            "educational material",
+            "resource"
+          ],
+          "iri": "Entity-training_resource-Mention-1"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity-experimental_result": {
+      "node_id": "experimental_result",
+      "disambiguation_index": 0,
+      "label": "experimental results",
+      "aliases": [
+        "Our experimental results",
+        "experimental results"
+      ],
+      "types": [
+        "results",
+        "research findings",
+        "experimental",
+        "findings",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Experimental results refer to the data and findings obtained from conducting experiments, which are used to evaluate hypotheses or the effectiveness of a particular method or approach.",
+      "mentions": [
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "experimental results",
+          "local_types": [
+            "data",
+            "findings",
+            "research findings",
+            "results"
+          ],
+          "iri": "Entity-experimental_result-Mention-1"
+        },
+        {
+          "reference": "Paper-55-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Our experimental results",
+          "local_types": [
+            "results",
+            "experimental"
+          ],
+          "iri": "Entity-experimental_result-Mention-2"
+        }
+      ],
+      "relevance": 0.5107421875
+    }
+  },
+  "summary": "In order to build robust automatic abstracting systems , there is a need for better training resources than are currently available . In this paper , we introduce an annotation scheme for scientific articles which can be used to build such a resource in a consistent way . The seven categories of the scheme are based on rhetorical moves of argumentation . Our experimental results show that the scheme is stable , reproducible and intuitive to use .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-introduces",
+      "Entity-annotation_scheme"
+    ],
+    [
+      "Entity-annotation_scheme",
+      "Predicate-can_be_used_to_build",
+      "Entity-such_a_resource"
+    ],
+    [
+      "Entity-seven_category",
+      "Predicate-are_based_on",
+      "Entity-rhetorical_move"
+    ],
+    [
+      "Entity-annotation_scheme",
+      "Predicate-is_based_on",
+      "Entity-rhetorical_move"
+    ],
+    [
+      "Entity-experimental_result",
+      "Predicate-show",
+      "Entity-annotation_scheme"
+    ],
+    [
+      "Entity-annotation_scheme",
+      "Predicate-is",
+      "Entity-stable"
+    ],
+    [
+      "Entity-annotation_scheme",
+      "Predicate-is",
+      "Entity-reproducible"
+    ],
+    [
+      "Entity-annotation_scheme",
+      "Predicate-is",
+      "Entity-intuitive_to_use"
+    ],
+    [
+      "Entity-experimental_result",
+      "Predicate-show_that",
+      "Entity-annotation_scheme"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-annotation_scheme",
+      "skos:broader",
+      "Entity-scientific_article"
+    ],
+    [
+      "Entity-rhetorical_move",
+      "skos:broader",
+      "Entity-argumentation"
+    ],
+    [
+      "Entity-such_a_resource",
+      "skos:broader",
+      "Entity-resource"
+    ],
+    [
+      "Entity-training_resource",
+      "skos:broader",
+      "Entity-resource"
+    ],
+    [
+      "Entity-seven_category",
+      "skos:broader",
+      "Entity-annotation_scheme"
+    ]
+  ],
+  "predicates": {
+    "Predicate-introduces": {
+      "label": "introduces",
+      "description": "The predicate 'introduces' signifies the act of presenting or bringing forth a new concept, idea, or item (the object) to the audience or context represented by the subject. It implies that the subject is providing information or insight about the object, often for the purpose of familiarizing the audience with it or highlighting its significance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_used_to_build": {
+      "label": "can be used to build",
+      "description": "The predicate 'can be used to build' indicates a functional relationship where the subject possesses the capability or utility to create, develop, or construct the object. It implies that the subject serves as a foundational or instrumental element in the process of forming the object, suggesting a potential or intended use in a constructive context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_based_on": {
+      "label": "are based on",
+      "description": "The predicate 'are based on' indicates a foundational relationship where the subject is established or derived from the principles, concepts, or elements represented by the object. It suggests that the subject relies on or is influenced by the object, highlighting a dependency or origin that informs the nature or structure of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_based_on": {
+      "label": "is based on",
+      "description": "The predicate 'is based on' establishes a foundational relationship between the subject and the object, indicating that the subject derives its principles, structure, or framework from the object. It suggests that the subject is built upon, influenced by, or fundamentally connected to the object, which serves as a source of support or reference.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show": {
+      "label": "show",
+      "description": "The predicate 'show' indicates a relationship where the subject provides evidence, demonstration, or illustration of the object. It implies that the subject reveals or makes apparent certain characteristics, findings, or aspects of the object, thereby facilitating understanding or insight into the object being referenced.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' serves as a linking verb that establishes an identity or a state of being between the subject and the object. It indicates that the subject possesses the quality or characteristic described by the object, thereby affirming a relationship of equivalence or definition.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show_that": {
+      "label": "show that",
+      "description": "The predicate 'show that' indicates a relationship where the subject provides evidence or demonstrates the validity of the object. It implies that the subject presents information or findings that support or confirm the existence, effectiveness, or relevance of the object in question.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a more specific instance or category that falls under the wider classification represented by the object. This relationship is often used in contexts such as taxonomy, classification systems, or semantic networks, where the subject is a subset or a more detailed concept related to the more general concept denoted by the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

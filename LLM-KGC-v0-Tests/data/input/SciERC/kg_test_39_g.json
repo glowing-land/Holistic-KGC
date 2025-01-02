@@ -1,0 +1,1559 @@
+{
+  "iri": "Paper-39",
+  "title": "E89-1016",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-39-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-39-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper presents a critical discussion of the various approaches that have been used in the evaluation of Natural Language systems ."
+            },
+            {
+              "iri": "Paper-39-Section-1-Paragraph-1-Sentence-2",
+              "text": "We conclude that previous approaches have neglected to evaluate systems in the context of their use , e.g. solving a task requiring data retrieval ."
+            },
+            {
+              "iri": "Paper-39-Section-1-Paragraph-1-Sentence-3",
+              "text": "This raises questions about the validity of such approaches ."
+            },
+            {
+              "iri": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+              "text": "In the second half of the paper , we report a laboratory study using the Wizard of Oz technique to identify NL requirements for carrying out this task ."
+            },
+            {
+              "iri": "Paper-39-Section-1-Paragraph-1-Sentence-5",
+              "text": "We evaluate the demands that task dialogues collected using this technique , place upon a prototype Natural Language system ."
+            },
+            {
+              "iri": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+              "text": "We identify three important requirements which arose from the task that we gave our subjects : operators specific to the task of database access , complex contextual reference and reference to the structure of the information source ."
+            },
+            {
+              "iri": "Paper-39-Section-1-Paragraph-1-Sentence-7",
+              "text": "We discuss how these might be satisfied by future Natural Language systems ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0011801719665527344,
+    10.6266450881958,
+    23.3466739654541,
+    23.546412706375122,
+    0.05074596405029297,
+    0.00014209747314453125,
+    0.00015997886657714844,
+    27.588469982147217,
+    48.30862474441528,
+    4.900511026382446,
+    23.397462129592896,
+    0.012647867202758789,
+    0.001455068588256836,
+    19.429988861083984,
+    0.0021088123321533203,
+    0.03723287582397461,
+    0.0013761520385742188,
+    5.13642692565918,
+    2.6300570964813232,
+    3.164435863494873,
+    73.62788701057434,
+    10.424828290939331,
+    59.30164289474487,
+    4.207532167434692,
+    0.0017299652099609375,
+    0.015176057815551758
+  ],
+  "nodes": {
+    "Entity-this_technique": {
+      "node_id": "this_technique",
+      "disambiguation_index": 0,
+      "label": "this technique",
+      "aliases": [
+        "this technique"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This technique refers to the Wizard of Oz technique, which is used to collect task dialogues in a laboratory study to identify natural language requirements for data retrieval tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "this technique",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-this_technique-Mention-1"
+        }
+      ],
+      "relevance": 0.794921875
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper",
+        "this paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper discusses the evaluation of Natural Language systems, highlighting the shortcomings of previous approaches and presenting findings from a laboratory study that identifies key requirements for effective task-oriented dialogue in such systems.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.77685546875
+    },
+    "Entity-this_task": {
+      "node_id": "this_task",
+      "disambiguation_index": 0,
+      "label": "this task",
+      "aliases": [
+        "this task"
+      ],
+      "types": [
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This task refers to the specific activity of data retrieval that is being evaluated in the context of Natural Language systems, as identified in a laboratory study using the Wizard of Oz technique.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "this task",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-this_task-Mention-1"
+        }
+      ],
+      "relevance": 0.7705078125
+    },
+    "Entity-the_second_half_of_the_paper": {
+      "node_id": "the_second_half_of_the_paper",
+      "disambiguation_index": 0,
+      "label": "the second half of the paper",
+      "aliases": [
+        "the second half of the paper"
+      ],
+      "types": [
+        "section",
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The second half of the paper refers to the portion where the authors present a laboratory study utilizing the Wizard of Oz technique to identify natural language requirements for a specific task, evaluate the demands on a prototype system, and discuss important requirements for future natural language systems.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the second half of the paper",
+          "local_types": [
+            "section",
+            "paper"
+          ],
+          "iri": "Entity-the_second_half_of_the_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.76611328125
+    },
+    "Entity-nl_requirement": {
+      "node_id": "nl_requirement",
+      "disambiguation_index": 0,
+      "label": "NL requirements",
+      "aliases": [
+        "NL requirements"
+      ],
+      "types": [
+        "requirement",
+        "natural language processing",
+        "NL",
+        "requirements",
+        "Natural Language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "NL requirements refer to the specific needs and criteria identified through a laboratory study that are necessary for effectively utilizing Natural Language systems in the context of data retrieval tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "NL requirements",
+          "local_types": [
+            "requirement",
+            "natural language processing",
+            "NL",
+            "requirements",
+            "Natural Language"
+          ],
+          "iri": "Entity-nl_requirement-Mention-1"
+        }
+      ],
+      "relevance": 0.73046875
+    },
+    "Entity-the_evaluation_of_natural_language_system": {
+      "node_id": "the_evaluation_of_natural_language_system",
+      "disambiguation_index": 0,
+      "label": "the evaluation of Natural Language systems",
+      "aliases": [
+        "the evaluation of Natural Language systems"
+      ],
+      "types": [
+        "evaluation",
+        "Natural Language systems"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The evaluation of Natural Language systems refers to the assessment and analysis of different methodologies used to measure the effectiveness and performance of systems designed to understand and generate human language, particularly in the context of their practical applications.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the evaluation of Natural Language systems",
+          "local_types": [
+            "evaluation",
+            "Natural Language systems"
+          ],
+          "iri": "Entity-the_evaluation_of_natural_language_system-Mention-1"
+        }
+      ],
+      "relevance": 0.7158203125
+    },
+    "Entity-wizard_of_oz_technique": {
+      "node_id": "wizard_of_oz_technique",
+      "disambiguation_index": 0,
+      "label": "Wizard of Oz technique",
+      "aliases": [
+        "Wizard of Oz technique",
+        "the Wizard of Oz technique",
+        "technique"
+      ],
+      "types": [
+        "technique",
+        "approach",
+        "method",
+        "methodology",
+        "research technique"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The Wizard of Oz technique is a research method used to simulate the functionality of a system or interface by having a human operator control it behind the scenes, allowing researchers to gather data on user interactions and requirements without the need for a fully developed system.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Wizard of Oz technique",
+          "local_types": [
+            "research technique",
+            "technique",
+            "method",
+            "methodology"
+          ],
+          "iri": "Entity-wizard_of_oz_technique-Mention-1"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "technique",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-wizard_of_oz_technique-Mention-2"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the Wizard of Oz technique",
+          "local_types": [
+            "method",
+            "technique"
+          ],
+          "iri": "Entity-wizard_of_oz_technique-Mention-3"
+        }
+      ],
+      "relevance": 0.70751953125
+    },
+    "Entity-three_important_requirement": {
+      "node_id": "three_important_requirement",
+      "disambiguation_index": 0,
+      "label": "three important requirements",
+      "aliases": [
+        "three important requirements"
+      ],
+      "types": [
+        "requirement"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'three important requirements' refers to the specific needs identified in the context of a laboratory study on Natural Language systems, which include operators for database access, the ability to handle complex contextual references, and the capability to reference the structure of the information source.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "three important requirements",
+          "local_types": [
+            "requirement"
+          ],
+          "iri": "Entity-three_important_requirement-Mention-1"
+        }
+      ],
+      "relevance": 0.70556640625
+    },
+    "Entity-prototype_natural_language_system": {
+      "node_id": "prototype_natural_language_system",
+      "disambiguation_index": 0,
+      "label": "prototype Natural Language system",
+      "aliases": [
+        "prototype Natural Language system"
+      ],
+      "types": [
+        "system",
+        "software",
+        "natural language processing",
+        "technology",
+        "Natural Language system",
+        "Natural Language",
+        "prototype"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The prototype Natural Language system refers to an experimental software designed to assess the requirements and challenges of processing natural language in the context of database access tasks, as evaluated through a laboratory study.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "prototype Natural Language system",
+          "local_types": [
+            "system",
+            "software",
+            "natural language processing",
+            "technology",
+            "Natural Language system",
+            "Natural Language",
+            "prototype"
+          ],
+          "iri": "Entity-prototype_natural_language_system-Mention-1"
+        }
+      ],
+      "relevance": 0.7041015625
+    },
+    "Entity-future_natural_language_system": {
+      "node_id": "future_natural_language_system",
+      "disambiguation_index": 0,
+      "label": "future Natural Language systems",
+      "aliases": [
+        "future Natural Language systems"
+      ],
+      "types": [
+        "system",
+        "Natural Language",
+        "Natural Language system"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Future Natural Language systems refer to advanced computational frameworks designed to effectively understand and process human language, particularly in the context of specific tasks such as data retrieval, while addressing identified requirements like task-specific operators and complex contextual references.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "future Natural Language systems",
+          "local_types": [
+            "system",
+            "Natural Language",
+            "Natural Language system"
+          ],
+          "iri": "Entity-future_natural_language_system-Mention-1"
+        }
+      ],
+      "relevance": 0.69921875
+    },
+    "Entity-the_task_that_we_gave_our_subject": {
+      "node_id": "the_task_that_we_gave_our_subject",
+      "disambiguation_index": 0,
+      "label": "the task that we gave our subjects",
+      "aliases": [
+        "the task that we gave our subjects"
+      ],
+      "types": [
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The task that we gave our subjects refers to a laboratory study focused on evaluating the requirements for a Natural Language system in the context of database access, which involved identifying specific operators, handling complex contextual references, and understanding the structure of the information source.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the task that we gave our subjects",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-the_task_that_we_gave_our_subject-Mention-1"
+        }
+      ],
+      "relevance": 0.6923828125
+    },
+    "Entity-evaluation": {
+      "node_id": "evaluation",
+      "disambiguation_index": 0,
+      "label": "evaluation",
+      "aliases": [
+        "evaluation"
+      ],
+      "types": [
+        "assessment",
+        "analysis process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'evaluation' refers to the assessment of various approaches used to analyze the effectiveness and validity of Natural Language systems, particularly in the context of their practical application in tasks such as data retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "evaluation",
+          "local_types": [
+            "assessment",
+            "analysis process"
+          ],
+          "iri": "Entity-evaluation-Mention-1"
+        }
+      ],
+      "relevance": 0.67333984375
+    },
+    "Entity-requirement": {
+      "node_id": "requirement",
+      "disambiguation_index": 0,
+      "label": "requirements",
+      "aliases": [
+        "requirements"
+      ],
+      "types": [
+        "criteria",
+        "specifications"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'requirements' refers to the essential criteria and specifications identified for a Natural Language system, specifically related to operators for database access, complex contextual references, and the structure of the information source, as derived from a laboratory study.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "requirements",
+          "local_types": [
+            "criteria",
+            "specifications"
+          ],
+          "iri": "Entity-requirement-Mention-1"
+        }
+      ],
+      "relevance": 0.67236328125
+    },
+    "Entity-the_validity_of_such_approach": {
+      "node_id": "the_validity_of_such_approach",
+      "disambiguation_index": 0,
+      "label": "the validity of such approaches",
+      "aliases": [
+        "the validity of such approaches"
+      ],
+      "types": [
+        "concept",
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The validity of such approaches refers to the effectiveness and appropriateness of previously used evaluation methods for Natural Language systems, particularly in their failure to consider the practical context of task execution.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the validity of such approaches",
+          "local_types": [
+            "concept",
+            "approach"
+          ],
+          "iri": "Entity-the_validity_of_such_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.666015625
+    },
+    "Entity-the_context_of_their_use": {
+      "node_id": "the_context_of_their_use",
+      "disambiguation_index": 0,
+      "label": "the context of their use",
+      "aliases": [
+        "the context of their use"
+      ],
+      "types": [
+        "context"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'the context of their use' refers to the specific circumstances and practical scenarios in which Natural Language systems are applied, particularly in relation to tasks such as data retrieval, highlighting the importance of evaluating these systems based on their real-world applications.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the context of their use",
+          "local_types": [
+            "context"
+          ],
+          "iri": "Entity-the_context_of_their_use-Mention-1"
+        }
+      ],
+      "relevance": 0.66259765625
+    },
+    "Entity-natural_language_system": {
+      "node_id": "natural_language_system",
+      "disambiguation_index": 0,
+      "label": "Natural Language systems",
+      "aliases": [
+        "Natural Language systems",
+        "Natural Language system"
+      ],
+      "types": [
+        "system",
+        "field",
+        "field of study",
+        "technology",
+        "computational linguistics",
+        "Natural Language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Natural Language systems refer to computational systems designed to process, understand, and generate human language, encompassing various technologies and methodologies within the field of natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Natural Language systems",
+          "local_types": [
+            "system",
+            "field",
+            "technology",
+            "computational linguistics",
+            "Natural Language"
+          ],
+          "iri": "Entity-natural_language_system-Mention-1"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Natural Language system",
+          "local_types": [
+            "technology",
+            "system"
+          ],
+          "iri": "Entity-natural_language_system-Mention-2"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "Natural Language systems",
+          "local_types": [
+            "technology",
+            "computational linguistics",
+            "system",
+            "field of study"
+          ],
+          "iri": "Entity-natural_language_system-Mention-3"
+        }
+      ],
+      "relevance": 0.662109375
+    },
+    "Entity-system": {
+      "node_id": "system",
+      "disambiguation_index": 0,
+      "label": "systems",
+      "aliases": [
+        "systems"
+      ],
+      "types": [
+        "technology",
+        "system",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'systems' refers to Natural Language systems that are evaluated in the context of their practical application, particularly in tasks involving data retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "systems",
+          "local_types": [
+            "technology",
+            "system",
+            "software"
+          ],
+          "iri": "Entity-system-Mention-1"
+        }
+      ],
+      "relevance": 0.66015625
+    },
+    "Entity-this": {
+      "node_id": "this",
+      "disambiguation_index": 0,
+      "label": "This",
+      "aliases": [
+        "This"
+      ],
+      "types": [
+        "reference"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'This' refers to the previously discussed neglect in evaluating Natural Language systems in the context of their practical use, particularly in relation to data retrieval tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "This",
+          "local_types": [
+            "reference"
+          ],
+          "iri": "Entity-this-Mention-1"
+        }
+      ],
+      "relevance": 0.658203125
+    },
+    "Entity-previous_approach": {
+      "node_id": "previous_approach",
+      "disambiguation_index": 0,
+      "label": "previous approaches",
+      "aliases": [
+        "previous approaches"
+      ],
+      "types": [
+        "research approach",
+        "approach",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'previous approaches' refers to earlier methodologies used in the evaluation of Natural Language systems that failed to consider the practical context of their application, particularly in tasks involving data retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "previous approaches",
+          "local_types": [
+            "research approach",
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-previous_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.65625
+    },
+    "Entity-approach": {
+      "node_id": "approach",
+      "disambiguation_index": 0,
+      "label": "approaches",
+      "aliases": [
+        "approaches",
+        "the various approaches"
+      ],
+      "types": [
+        "approach",
+        "strategy",
+        "strategies",
+        "methods",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'approaches' refers to the various strategies and methods employed in the evaluation of Natural Language systems, particularly in the context of their practical application and effectiveness.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "approaches",
+          "local_types": [
+            "methodology",
+            "strategy"
+          ],
+          "iri": "Entity-approach-Mention-1"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "approaches",
+          "local_types": [
+            "methods",
+            "strategies"
+          ],
+          "iri": "Entity-approach-Mention-2"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the various approaches",
+          "local_types": [
+            "approach"
+          ],
+          "iri": "Entity-approach-Mention-3"
+        }
+      ],
+      "relevance": 0.65576171875
+    },
+    "Entity-a_task_requiring_data_retrieval": {
+      "node_id": "a_task_requiring_data_retrieval",
+      "disambiguation_index": 0,
+      "label": "a task requiring data retrieval",
+      "aliases": [
+        "a task requiring data retrieval"
+      ],
+      "types": [
+        "task",
+        "data retrieval"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A task requiring data retrieval refers to the process of obtaining specific information from a database or information source, which necessitates the use of natural language systems to effectively interact with and access the required data.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a task requiring data retrieval",
+          "local_types": [
+            "task",
+            "data retrieval"
+          ],
+          "iri": "Entity-a_task_requiring_data_retrieval-Mention-1"
+        }
+      ],
+      "relevance": 0.6416015625
+    },
+    "Entity-task_dialogue": {
+      "node_id": "task_dialogue",
+      "disambiguation_index": 0,
+      "label": "task dialogues",
+      "aliases": [
+        "task dialogues"
+      ],
+      "types": [
+        "task",
+        "interaction",
+        "dialogue type",
+        "communication",
+        "dialogue",
+        "communication method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Task dialogues refer to structured interactions designed to facilitate the completion of specific tasks, particularly in the context of evaluating Natural Language systems for data retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "task dialogues",
+          "local_types": [
+            "task",
+            "interaction",
+            "dialogue type",
+            "communication",
+            "dialogue",
+            "communication method"
+          ],
+          "iri": "Entity-task_dialogue-Mention-1"
+        }
+      ],
+      "relevance": 0.640625
+    },
+    "Entity-task": {
+      "node_id": "task",
+      "disambiguation_index": 0,
+      "label": "task",
+      "aliases": [
+        "task"
+      ],
+      "types": [
+        "activity",
+        "objective"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'task' refers to the specific activity of solving a data retrieval problem within the context of evaluating Natural Language systems.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "task",
+          "local_types": [
+            "activity",
+            "objective"
+          ],
+          "iri": "Entity-task-Mention-1"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "task",
+          "local_types": [
+            "activity",
+            "objective"
+          ],
+          "iri": "Entity-task-Mention-2"
+        }
+      ],
+      "relevance": 0.63623046875
+    },
+    "Entity-complex_contextual_reference": {
+      "node_id": "complex_contextual_reference",
+      "disambiguation_index": 0,
+      "label": "complex contextual reference",
+      "aliases": [
+        "complex contextual reference"
+      ],
+      "types": [
+        "linguistic feature",
+        "context",
+        "reference",
+        "contextual information",
+        "requirement",
+        "concept",
+        "reference type",
+        "contextual reference"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'complex contextual reference' refers to a specific requirement identified in the evaluation of Natural Language systems, highlighting the need for these systems to effectively manage and interpret intricate references that depend on the surrounding context of a task, particularly in scenarios involving data retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "complex contextual reference",
+          "local_types": [
+            "linguistic feature",
+            "context",
+            "reference",
+            "contextual information",
+            "requirement",
+            "concept",
+            "reference type",
+            "contextual reference"
+          ],
+          "iri": "Entity-complex_contextual_reference-Mention-1"
+        }
+      ],
+      "relevance": 0.63330078125
+    },
+    "Entity-question": {
+      "node_id": "question",
+      "disambiguation_index": 0,
+      "label": "questions",
+      "aliases": [
+        "questions"
+      ],
+      "types": [
+        "inquiries",
+        "concerns"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'questions' refers to inquiries regarding the validity of previous evaluation approaches used in Natural Language systems, as discussed in the context of their practical application.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "questions",
+          "local_types": [
+            "inquiries",
+            "concerns"
+          ],
+          "iri": "Entity-question-Mention-1"
+        }
+      ],
+      "relevance": 0.61083984375
+    },
+    "Entity-validity": {
+      "node_id": "validity",
+      "disambiguation_index": 0,
+      "label": "validity",
+      "aliases": [
+        "validity"
+      ],
+      "types": [
+        "quality",
+        "truthfulness"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'validity' in this context refers to the soundness and reliability of the evaluation approaches used for Natural Language systems, particularly questioning their effectiveness in real-world task scenarios.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "validity",
+          "local_types": [
+            "quality",
+            "truthfulness"
+          ],
+          "iri": "Entity-validity-Mention-1"
+        }
+      ],
+      "relevance": 0.6083984375
+    },
+    "Entity-a_critical_discussion": {
+      "node_id": "a_critical_discussion",
+      "disambiguation_index": 0,
+      "label": "a critical discussion",
+      "aliases": [
+        "a critical discussion"
+      ],
+      "types": [
+        "discussion"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A critical discussion refers to a thorough examination and evaluation of the various methodologies employed in assessing Natural Language systems, highlighting their limitations and the need for context-aware evaluation.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a critical discussion",
+          "local_types": [
+            "discussion"
+          ],
+          "iri": "Entity-a_critical_discussion-Mention-1"
+        }
+      ],
+      "relevance": 0.60595703125
+    },
+    "Entity-reference_to_the_structure_of_the_information_source": {
+      "node_id": "reference_to_the_structure_of_the_information_source",
+      "disambiguation_index": 0,
+      "label": "reference to the structure of the information source",
+      "aliases": [
+        "reference to the structure of the information source"
+      ],
+      "types": [
+        "reference",
+        "information source"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'reference to the structure of the information source' refers to the requirement for Natural Language systems to understand and utilize the organizational framework and relationships within the data they access, which is essential for effective data retrieval and task execution.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "reference to the structure of the information source",
+          "local_types": [
+            "reference",
+            "information source"
+          ],
+          "iri": "Entity-reference_to_the_structure_of_the_information_source-Mention-1"
+        }
+      ],
+      "relevance": 0.5859375
+    },
+    "Entity-operator_specific_to_the_task_of_database_access": {
+      "node_id": "operator_specific_to_the_task_of_database_access",
+      "disambiguation_index": 0,
+      "label": "operators specific to the task of database access",
+      "aliases": [
+        "operators specific to the task of database access"
+      ],
+      "types": [
+        "database access",
+        "functionality",
+        "database operator",
+        "task",
+        "operator"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Operators specific to the task of database access refer to specialized functions or commands designed to facilitate the retrieval and manipulation of data within a database in the context of natural language processing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "operators specific to the task of database access",
+          "local_types": [
+            "database access",
+            "functionality",
+            "database operator",
+            "task",
+            "operator"
+          ],
+          "iri": "Entity-operator_specific_to_the_task_of_database_access-Mention-1"
+        }
+      ],
+      "relevance": 0.5576171875
+    },
+    "Entity-structure_of_the_information_source": {
+      "node_id": "structure_of_the_information_source",
+      "disambiguation_index": 0,
+      "label": "structure of the information source",
+      "aliases": [
+        "the structure of the information source",
+        "structure of the information source"
+      ],
+      "types": [
+        "information source",
+        "concept",
+        "structure",
+        "information architecture",
+        "data organization",
+        "information structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'structure of the information source' refers to the organization and arrangement of data within a database or information system that is crucial for effective data retrieval and natural language processing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "structure of the information source",
+          "local_types": [
+            "concept",
+            "data organization",
+            "information structure",
+            "information architecture"
+          ],
+          "iri": "Entity-structure_of_the_information_source-Mention-1"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the structure of the information source",
+          "local_types": [
+            "information source",
+            "structure"
+          ],
+          "iri": "Entity-structure_of_the_information_source-Mention-2"
+        }
+      ],
+      "relevance": 0.533203125
+    },
+    "Entity-data_retrieval": {
+      "node_id": "data_retrieval",
+      "disambiguation_index": 0,
+      "label": "data retrieval",
+      "aliases": [
+        "data retrieval"
+      ],
+      "types": [
+        "task",
+        "data retrieval",
+        "process",
+        "information retrieval"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Data retrieval is the process of obtaining information from a database or data source, often involving the use of specific queries to extract relevant data for analysis or decision-making.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "data retrieval",
+          "local_types": [
+            "task",
+            "data retrieval",
+            "process",
+            "information retrieval"
+          ],
+          "iri": "Entity-data_retrieval-Mention-1"
+        }
+      ],
+      "relevance": 0.53271484375
+    },
+    "Entity-database_access": {
+      "node_id": "database_access",
+      "disambiguation_index": 0,
+      "label": "database access",
+      "aliases": [
+        "database access"
+      ],
+      "types": [
+        "task",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Database access refers to the process or task of retrieving, manipulating, and managing data stored in a database system.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "database access",
+          "local_types": [
+            "task",
+            "process"
+          ],
+          "iri": "Entity-database_access-Mention-1"
+        }
+      ],
+      "relevance": 0.52099609375
+    },
+    "Entity-laboratory_study": {
+      "node_id": "laboratory_study",
+      "disambiguation_index": 0,
+      "label": "laboratory study",
+      "aliases": [
+        "a laboratory study",
+        "laboratory study"
+      ],
+      "types": [
+        "research study",
+        "experiment",
+        "study",
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A laboratory study is a controlled research investigation conducted in a structured environment, typically involving experiments to test hypotheses or gather data.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "laboratory study",
+          "local_types": [
+            "research study",
+            "experiment",
+            "study",
+            "research"
+          ],
+          "iri": "Entity-laboratory_study-Mention-1"
+        },
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a laboratory study",
+          "local_types": [
+            "study",
+            "research"
+          ],
+          "iri": "Entity-laboratory_study-Mention-2"
+        }
+      ],
+      "relevance": 0.488037109375
+    },
+    "Entity-discussion": {
+      "node_id": "discussion",
+      "disambiguation_index": 0,
+      "label": "discussion",
+      "aliases": [
+        "discussion"
+      ],
+      "types": [
+        "analysis",
+        "examination"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A discussion is a structured conversation or analysis that explores different perspectives or approaches on a particular topic.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "discussion",
+          "local_types": [
+            "analysis",
+            "examination"
+          ],
+          "iri": "Entity-discussion-Mention-1"
+        }
+      ],
+      "relevance": 0.467041015625
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "academic work",
+        "research document"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A paper is a written document that presents research findings, analyses, or discussions on a specific topic, typically in an academic or scholarly context.",
+      "mentions": [
+        {
+          "reference": "Paper-39-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "academic work",
+            "research document"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.445556640625
+    }
+  },
+  "summary": "This paper presents a critical discussion of the various approaches that have been used in the evaluation of Natural Language systems . We conclude that previous approaches have neglected to evaluate systems in the context of their use , e.g. solving a task requiring data retrieval . This raises questions about the validity of such approaches . In the second half of the paper , we report a laboratory study using the Wizard of Oz technique to identify NL requirements for carrying out this task . We evaluate the demands that task dialogues collected using this technique , place upon a prototype Natural Language system . We identify three important requirements which arose from the task that we gave our subjects : operators specific to the task of database access , complex contextual reference and reference to the structure of the information source . We discuss how these might be satisfied by future Natural Language systems .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-a_critical_discussion"
+    ],
+    [
+      "Entity-a_critical_discussion",
+      "Predicate-of",
+      "Entity-approach"
+    ],
+    [
+      "Entity-approach",
+      "Predicate-used_in",
+      "Entity-the_evaluation_of_natural_language_system"
+    ],
+    [
+      "Entity-previous_approach",
+      "Predicate-neglected_to_evaluate",
+      "Entity-system"
+    ],
+    [
+      "Entity-system",
+      "Predicate-evaluate_in_the_context_of",
+      "Entity-the_context_of_their_use"
+    ],
+    [
+      "Entity-task",
+      "Predicate-requiring",
+      "Entity-data_retrieval"
+    ],
+    [
+      "Entity-a_task_requiring_data_retrieval",
+      "Predicate-solving",
+      "Entity-data_retrieval"
+    ],
+    [
+      "Entity-this",
+      "Predicate-raises",
+      "Entity-question"
+    ],
+    [
+      "Entity-question",
+      "Predicate-about",
+      "Entity-the_validity_of_such_approach"
+    ],
+    [
+      "Entity-question",
+      "Predicate-raise_about",
+      "Entity-the_validity_of_such_approach"
+    ],
+    [
+      "Entity-laboratory_study",
+      "Predicate-uses",
+      "Entity-wizard_of_oz_technique"
+    ],
+    [
+      "Entity-laboratory_study",
+      "Predicate-identifies",
+      "Entity-nl_requirement"
+    ],
+    [
+      "Entity-nl_requirement",
+      "Predicate-for_carrying_out",
+      "Entity-this_task"
+    ],
+    [
+      "Entity-task_dialogue",
+      "Predicate-place_upon",
+      "Entity-prototype_natural_language_system"
+    ],
+    [
+      "Entity-task_dialogue",
+      "Predicate-collected_using",
+      "Entity-this_technique"
+    ],
+    [
+      "Entity-three_important_requirement",
+      "Predicate-arose_from",
+      "Entity-the_task_that_we_gave_our_subject"
+    ],
+    [
+      "Entity-requirement",
+      "Predicate-include",
+      "Entity-operator_specific_to_the_task_of_database_access"
+    ],
+    [
+      "Entity-requirement",
+      "Predicate-include",
+      "Entity-complex_contextual_reference"
+    ],
+    [
+      "Entity-requirement",
+      "Predicate-include",
+      "Entity-reference_to_the_structure_of_the_information_source"
+    ],
+    [
+      "Entity-reference_to_the_structure_of_the_information_source",
+      "Predicate-refers_to",
+      "Entity-structure_of_the_information_source"
+    ],
+    [
+      "Entity-future_natural_language_system",
+      "Predicate-satisfied_by",
+      "Entity-natural_language_system"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-concludes_that",
+      "Entity-question"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-uses",
+      "Entity-this_technique"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-evaluates",
+      "Entity-this_task"
+    ],
+    [
+      "Entity-this_task",
+      "Predicate-is_evaluated_using",
+      "Entity-this_technique"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-this_technique",
+      "skos:broader",
+      "Entity-wizard_of_oz_technique"
+    ],
+    [
+      "Entity-the_validity_of_such_approach",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-the_task_that_we_gave_our_subject",
+      "skos:broader",
+      "Entity-task"
+    ],
+    [
+      "Entity-future_natural_language_system",
+      "skos:broader",
+      "Entity-natural_language_system"
+    ],
+    [
+      "Entity-the_second_half_of_the_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-a_task_requiring_data_retrieval",
+      "skos:broader",
+      "Entity-task"
+    ],
+    [
+      "Entity-operator_specific_to_the_task_of_database_access",
+      "skos:broader",
+      "Entity-database_access"
+    ],
+    [
+      "Entity-this_task",
+      "skos:broader",
+      "Entity-task"
+    ],
+    [
+      "Entity-the_evaluation_of_natural_language_system",
+      "skos:broader",
+      "Entity-evaluation"
+    ],
+    [
+      "Entity-future_natural_language_system",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-a_task_requiring_data_retrieval",
+      "skos:broader",
+      "Entity-data_retrieval"
+    ],
+    [
+      "Entity-nl_requirement",
+      "skos:broader",
+      "Entity-requirement"
+    ],
+    [
+      "Entity-prototype_natural_language_system",
+      "skos:broader",
+      "Entity-natural_language_system"
+    ],
+    [
+      "Entity-three_important_requirement",
+      "skos:broader",
+      "Entity-requirement"
+    ],
+    [
+      "Entity-database_access",
+      "skos:broader",
+      "Entity-task"
+    ],
+    [
+      "Entity-wizard_of_oz_technique",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-prototype_natural_language_system",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-task_dialogue",
+      "skos:broader",
+      "Entity-task"
+    ],
+    [
+      "Entity-operator_specific_to_the_task_of_database_access",
+      "skos:broader",
+      "Entity-task"
+    ],
+    [
+      "Entity-complex_contextual_reference",
+      "skos:broader",
+      "Entity-requirement"
+    ],
+    [
+      "Entity-prototype_natural_language_system",
+      "skos:broader",
+      "Entity-future_natural_language_system"
+    ],
+    [
+      "Entity-the_evaluation_of_natural_language_system",
+      "skos:broader",
+      "Entity-natural_language_system"
+    ],
+    [
+      "Entity-nl_requirement",
+      "skos:broader",
+      "Entity-natural_language_system"
+    ],
+    [
+      "Entity-data_retrieval",
+      "skos:broader",
+      "Entity-task"
+    ],
+    [
+      "Entity-previous_approach",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-a_critical_discussion",
+      "skos:broader",
+      "Entity-discussion"
+    ],
+    [
+      "Entity-natural_language_system",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-the_evaluation_of_natural_language_system",
+      "skos:broader",
+      "Entity-future_natural_language_system"
+    ]
+  ],
+  "predicates": {
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates an action where the subject introduces, displays, or offers information, ideas, or arguments to the audience or reader, which is encapsulated in the object. It signifies a communicative act that conveys content from the subject to the object, often with the intention of informing, persuading, or engaging the audience.",
+      "disambiguation_index": 0
+    },
+    "Predicate-of": {
+      "label": "of",
+      "description": "The predicate 'of' serves to indicate a relationship of belonging, association, or specification between the subject and the object. It connects the subject to the object by suggesting that the subject is characterized by, related to, or derived from the object, thereby providing context or clarification about the nature or focus of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-used_in": {
+      "label": "used in",
+      "description": "The predicate 'used in' indicates that the subject is applied or utilized within the context of the object, suggesting a functional or practical relationship where the subject serves a purpose or role in the processes, activities, or domains represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-neglected_to_evaluate": {
+      "label": "neglected to evaluate",
+      "description": "The predicate 'neglected to evaluate' indicates a failure or oversight by the subject to assess or consider the object. It implies that the subject, which may represent a theory, method, or perspective, did not take the necessary steps to analyze or review the object, which could be a set of systems, processes, or outcomes. This neglect suggests a gap in understanding or a lack of thoroughness in the subject's approach.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluate_in_the_context_of": {
+      "label": "evaluate in the context of",
+      "description": "The predicate 'evaluate in the context of' signifies an assessment or analysis that is framed by specific circumstances, conditions, or environments relevant to the subject. It implies that the evaluation is not conducted in isolation but rather takes into account the particular factors or settings that influence the subject's performance, effectiveness, or relevance. This connection emphasizes the importance of context in understanding the subject's attributes or behaviors.",
+      "disambiguation_index": 0
+    },
+    "Predicate-requiring": {
+      "label": "requiring",
+      "description": "The predicate 'requiring' establishes a relationship where the subject necessitates or demands the object as a condition for its completion or execution. It indicates that the subject cannot be fulfilled or achieved without the presence or involvement of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-solving": {
+      "label": "solving",
+      "description": "The predicate 'solving' denotes the action of addressing and finding a solution to a problem or challenge presented by the subject, which is typically a task or issue. In this context, it connects the subject, which outlines the nature of the challenge, to the object, which represents the specific outcome or result that is achieved through the act of solving. This relationship emphasizes the process of transformation from a state of uncertainty or difficulty to one of resolution or clarity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-raises": {
+      "label": "raises",
+      "description": "The predicate 'raises' indicates an action or process by which the subject brings attention to, increases the prominence of, or generates a particular state or condition in the object. It suggests that the subject is actively contributing to the emergence or consideration of the object, often implying a sense of elevation or enhancement in the context of the relationship between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-about": {
+      "label": "about",
+      "description": "The predicate 'about' serves to establish a relationship of relevance or focus between the subject and the object, indicating that the subject pertains to, concerns, or is related to the information or concept expressed in the object. It implies that the subject is seeking to explore, inquire, or discuss the themes, ideas, or issues represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-raise_about": {
+      "label": "raise about",
+      "description": "The predicate 'raise about' indicates an action where the subject brings attention to, discusses, or highlights a particular topic or issue represented by the object. It suggests an inquiry or consideration regarding the object, often prompting further examination or dialogue.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates that the subject employs or utilizes the object as a means to achieve a specific purpose or outcome. It establishes a functional relationship where the subject actively incorporates the object into its processes or activities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-identifies": {
+      "label": "identifies",
+      "description": "The predicate 'identifies' denotes the action of recognizing, determining, or establishing the existence or characteristics of the object by the subject. It implies a process of analysis or observation where the subject discerns specific attributes, categories, or elements that are represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-for_carrying_out": {
+      "label": "for carrying out",
+      "description": "The predicate 'for carrying out' indicates a purpose or intention behind the subject's action or capability in relation to the object. It connects the subject, which represents an entity or set of conditions, to the object, which signifies a specific action or task that is to be executed. This predicate implies that the subject is necessary or relevant for the successful execution of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-place_upon": {
+      "label": "place upon",
+      "description": "The predicate 'place upon' indicates an action where the subject is positioned or assigned in relation to the object, suggesting a transfer of responsibility, focus, or emphasis. It implies that the subject is actively engaging with or utilizing the object in a manner that establishes a connection or hierarchy between them.",
+      "disambiguation_index": 0
+    },
+    "Predicate-collected_using": {
+      "label": "collected using",
+      "description": "The predicate 'collected using' establishes a relationship between the subject and the object by indicating the method or means through which the subject has been gathered or obtained. It implies that the subject, which is typically a set of data or information, has been acquired through the specified technique or approach represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-arose_from": {
+      "label": "arose from",
+      "description": "The predicate 'arose from' indicates a causal or originating relationship between the subject and the object, suggesting that the subject is a result or consequence of the conditions, actions, or elements represented by the object. It implies that the subject emerged or was developed as a direct outcome of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-include": {
+      "label": "include",
+      "description": "The predicate 'include' establishes a relationship where the subject encompasses or contains the object as a part of its broader context or definition. It indicates that the object is an integral component or element that contributes to the overall nature or functionality of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-refers_to": {
+      "label": "refers to",
+      "description": "The predicate 'refers to' establishes a relationship where the subject denotes, indicates, or points to the object, suggesting that the subject is a representation or mention of the object in some context. This connection implies that the subject provides information or context that is relevant to understanding or identifying the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-satisfied_by": {
+      "label": "satisfied by",
+      "description": "The predicate 'satisfied by' indicates a relationship where the subject experiences a state of contentment or fulfillment as a result of the qualities, actions, or characteristics of the object. It implies that the object meets the needs, expectations, or desires of the subject, leading to a sense of satisfaction.",
+      "disambiguation_index": 0
+    },
+    "Predicate-concludes_that": {
+      "label": "concludes that",
+      "description": "The predicate 'concludes that' indicates a relationship where the subject has reached a definitive judgment or decision regarding the object. It implies that the subject has analyzed information, evidence, or arguments and has arrived at a specific understanding or assertion about the object. This predicate often reflects a process of reasoning or deduction, culminating in a stated conclusion.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluates": {
+      "label": "evaluates",
+      "description": "The predicate 'evaluates' indicates an action where the subject assesses, analyzes, or judges the qualities, performance, or significance of the object. It establishes a relationship in which the subject engages in a critical examination of the object, often leading to conclusions or insights regarding its effectiveness, value, or characteristics.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_evaluated_using": {
+      "label": "is evaluated using",
+      "description": "The predicate 'is evaluated using' establishes a relationship where the subject undergoes an assessment or analysis through the application of the object. It indicates that the method, tool, or approach represented by the object is employed to determine the quality, effectiveness, or performance of the subject.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or example that falls under a more general category represented by the object. This relationship implies that the object encompasses a wider scope or classification that includes the subject as one of its members.",
+      "disambiguation_index": 0
+    }
+  }
+}

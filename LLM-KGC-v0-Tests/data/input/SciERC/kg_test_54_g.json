@@ -1,0 +1,577 @@
+{
+  "iri": "Paper-54",
+  "title": "P06-4007",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-54-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-54-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper describes FERRET , an interactive question-answering -LRB- Q/A -RRB- system designed to address the challenges of integrating automatic Q/A applications into real-world environments ."
+            },
+            {
+              "iri": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+              "text": "FERRET utilizes a novel approach to Q/A known as predictive questioning which attempts to identify the questions -LRB- and answers -RRB- that users need by analyzing how a user interacts with a system while gathering information related to a particular scenario ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0008270740509033203,
+    6.532556772232056,
+    9.728867053985596,
+    13.104829788208008,
+    0.021718740463256836,
+    0.00010228157043457031,
+    0.00013184547424316406,
+    12.058377981185913,
+    19.555354833602905,
+    2.350752830505371,
+    8.750940084457397,
+    0.005328178405761719,
+    0.00011110305786132812,
+    9.417479991912842,
+    0.0015079975128173828,
+    0.026172161102294922,
+    0.0010509490966796875,
+    3.0941669940948486,
+    0.0025627613067626953,
+    0.00035691261291503906,
+    34.230676889419556,
+    4.81200098991394,
+    15.454926013946533,
+    2.019986867904663,
+    0.0003273487091064453,
+    0.004660844802856445
+  ],
+  "nodes": {
+    "Entity-ferret": {
+      "node_id": "ferret",
+      "disambiguation_index": 0,
+      "label": "FERRET",
+      "aliases": [
+        "FERRET"
+      ],
+      "types": [
+        "system",
+        "tool",
+        "approach",
+        "software",
+        "interactive question-answering system",
+        "Q/A system",
+        "method",
+        "question-answering system",
+        "question-answering"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "FERRET is an interactive question-answering system that employs predictive questioning to enhance the integration of automatic Q/A applications in real-world scenarios by analyzing user interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "FERRET",
+          "local_types": [
+            "system",
+            "software",
+            "interactive question-answering system",
+            "Q/A system",
+            "question-answering system",
+            "question-answering"
+          ],
+          "iri": "Entity-ferret-Mention-1"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "FERRET",
+          "local_types": [
+            "system",
+            "tool",
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-ferret-Mention-2"
+        }
+      ],
+      "relevance": 0.87890625
+    },
+    "Entity-system": {
+      "node_id": "system",
+      "disambiguation_index": 0,
+      "label": "system",
+      "aliases": [
+        "system",
+        "a system"
+      ],
+      "types": [
+        "system",
+        "environment",
+        "technology",
+        "platform",
+        "entity"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'system' refers to FERRET, an interactive question-answering platform designed to integrate automatic Q/A applications into real-world environments.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "system",
+          "local_types": [
+            "platform",
+            "entity",
+            "environment"
+          ],
+          "iri": "Entity-system-Mention-1"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "system",
+          "local_types": [
+            "technology",
+            "platform"
+          ],
+          "iri": "Entity-system-Mention-2"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a system",
+          "local_types": [
+            "system"
+          ],
+          "iri": "Entity-system-Mention-3"
+        }
+      ],
+      "relevance": 0.8154296875
+    },
+    "Entity-interactive_question-answering": {
+      "node_id": "interactive_question-answering",
+      "disambiguation_index": 0,
+      "label": "interactive question-answering",
+      "aliases": [
+        "interactive question-answering"
+      ],
+      "types": [
+        "Q/A",
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Interactive question-answering refers to a system or method that facilitates a dynamic exchange of questions and answers between users and a system, exemplified by FERRET, which employs predictive questioning to enhance user interaction and information retrieval in real-world applications.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "interactive question-answering",
+          "local_types": [
+            "Q/A",
+            "method"
+          ],
+          "iri": "Entity-interactive_question-answering-Mention-1"
+        }
+      ],
+      "relevance": 0.8037109375
+    },
+    "Entity-question": {
+      "node_id": "question",
+      "disambiguation_index": 0,
+      "label": "questions",
+      "aliases": [
+        "questions"
+      ],
+      "types": [
+        "question"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'questions' refers to the inquiries that the FERRET interactive question-answering system aims to identify and address by analyzing user interactions to provide relevant information in real-world scenarios.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "questions",
+          "local_types": [
+            "question"
+          ],
+          "iri": "Entity-question-Mention-1"
+        }
+      ],
+      "relevance": 0.7802734375
+    },
+    "Entity-answer": {
+      "node_id": "answer",
+      "disambiguation_index": 0,
+      "label": "answers",
+      "aliases": [
+        "answers"
+      ],
+      "types": [
+        "answer"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'answers' refers to the responses generated by the FERRET interactive question-answering system, which are identified through predictive questioning based on user interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "answers",
+          "local_types": [
+            "answer"
+          ],
+          "iri": "Entity-answer-Mention-1"
+        }
+      ],
+      "relevance": 0.755859375
+    },
+    "Entity-user": {
+      "node_id": "user",
+      "disambiguation_index": 0,
+      "label": "user",
+      "aliases": [
+        "user",
+        "a user"
+      ],
+      "types": [
+        "user",
+        "actor",
+        "individual",
+        "participant",
+        "entity"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'user' refers to an individual or participant who interacts with the FERRET question-answering system, providing input and engaging with the system to gather information in a specific scenario.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "user",
+          "local_types": [
+            "actor",
+            "entity",
+            "individual",
+            "participant"
+          ],
+          "iri": "Entity-user-Mention-1"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a user",
+          "local_types": [
+            "user"
+          ],
+          "iri": "Entity-user-Mention-2"
+        }
+      ],
+      "relevance": 0.7236328125
+    },
+    "Entity-information": {
+      "node_id": "information",
+      "disambiguation_index": 0,
+      "label": "information",
+      "aliases": [
+        "information"
+      ],
+      "types": [
+        "data"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In this context, 'information' refers to the data collected by the FERRET system as it analyzes user interactions to determine relevant questions and answers in a specific scenario.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "information",
+          "local_types": [
+            "data"
+          ],
+          "iri": "Entity-information-Mention-1"
+        }
+      ],
+      "relevance": 0.7177734375
+    },
+    "Entity-predictive_questioning": {
+      "node_id": "predictive_questioning",
+      "disambiguation_index": 0,
+      "label": "predictive questioning",
+      "aliases": [
+        "predictive questioning"
+      ],
+      "types": [
+        "approach",
+        "Q/A approach",
+        "method",
+        "methodology",
+        "Q/A"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Predictive questioning is a novel approach in question-answering systems that identifies the questions and answers users need by analyzing their interactions with the system in specific scenarios.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "predictive questioning",
+          "local_types": [
+            "approach",
+            "Q/A approach",
+            "method",
+            "methodology",
+            "Q/A"
+          ],
+          "iri": "Entity-predictive_questioning-Mention-1"
+        }
+      ],
+      "relevance": 0.6689453125
+    },
+    "Entity-scenario": {
+      "node_id": "scenario",
+      "disambiguation_index": 0,
+      "label": "scenario",
+      "aliases": [
+        "scenario",
+        "a particular scenario",
+        "particular scenario"
+      ],
+      "types": [
+        "context",
+        "scenario",
+        "situation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'scenario' refers to a specific situation or context in which users interact with the FERRET question-answering system to gather information.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scenario",
+          "local_types": [
+            "context",
+            "situation"
+          ],
+          "iri": "Entity-scenario-Mention-1"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "particular scenario",
+          "local_types": [
+            "context"
+          ],
+          "iri": "Entity-scenario-Mention-2"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a particular scenario",
+          "local_types": [
+            "scenario"
+          ],
+          "iri": "Entity-scenario-Mention-3"
+        }
+      ],
+      "relevance": 0.666015625
+    },
+    "Entity-qa": {
+      "node_id": "qa",
+      "disambiguation_index": 0,
+      "label": "Q/A",
+      "aliases": [
+        "Q/A"
+      ],
+      "types": [
+        "interaction",
+        "abbreviation",
+        "application",
+        "concept",
+        "process",
+        "question-answering"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Q/A refers to an interactive question-answering system designed to integrate automatic question-answering applications into real-world environments.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Q/A",
+          "local_types": [
+            "application",
+            "concept",
+            "abbreviation",
+            "question-answering"
+          ],
+          "iri": "Entity-qa-Mention-1"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Q/A",
+          "local_types": [
+            "process",
+            "interaction"
+          ],
+          "iri": "Entity-qa-Mention-2"
+        }
+      ],
+      "relevance": 0.6552734375
+    },
+    "Entity-automatic_qa_application": {
+      "node_id": "automatic_qa_application",
+      "disambiguation_index": 0,
+      "label": "automatic Q/A applications",
+      "aliases": [
+        "automatic Q/A applications"
+      ],
+      "types": [
+        "software",
+        "Q/A",
+        "application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Automatic Q/A applications are software systems designed to automatically answer questions posed by users, utilizing various algorithms and data sources to provide accurate and relevant responses.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "automatic Q/A applications",
+          "local_types": [
+            "software",
+            "Q/A",
+            "application"
+          ],
+          "iri": "Entity-automatic_qa_application-Mention-1"
+        }
+      ],
+      "relevance": 0.6259765625
+    },
+    "Entity-real-world_environment": {
+      "node_id": "real-world_environment",
+      "disambiguation_index": 0,
+      "label": "real-world environments",
+      "aliases": [
+        "real-world environments"
+      ],
+      "types": [
+        "context",
+        "environment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "real-world environments refer to the practical, everyday settings and contexts in which users interact with systems, particularly in the implementation of automatic question-answering applications.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "real-world environments",
+          "local_types": [
+            "context",
+            "environment"
+          ],
+          "iri": "Entity-real-world_environment-Mention-1"
+        }
+      ],
+      "relevance": 0.59521484375
+    }
+  },
+  "summary": "This paper describes FERRET , an interactive question-answering -LRB- Q/A -RRB- system designed to address the challenges of integrating automatic Q/A applications into real-world environments . FERRET utilizes a novel approach to Q/A known as predictive questioning which attempts to identify the questions -LRB- and answers -RRB- that users need by analyzing how a user interacts with a system while gathering information related to a particular scenario .",
+  "triples": [
+    [
+      "Entity-ferret",
+      "Predicate-describes",
+      "Entity-interactive_question-answering"
+    ],
+    [
+      "Entity-interactive_question-answering",
+      "Predicate-is_a_type_of",
+      "Entity-system"
+    ],
+    [
+      "Entity-user",
+      "Predicate-interacts_with",
+      "Entity-system"
+    ],
+    [
+      "Entity-user",
+      "Predicate-gathers",
+      "Entity-information"
+    ],
+    [
+      "Entity-information",
+      "Predicate-related_to",
+      "Entity-scenario"
+    ],
+    [
+      "Entity-predictive_questioning",
+      "Predicate-attempts_to_identify",
+      "Entity-answer"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-ferret",
+      "skos:broader",
+      "Entity-interactive_question-answering"
+    ],
+    [
+      "Entity-predictive_questioning",
+      "skos:broader",
+      "Entity-qa"
+    ],
+    [
+      "Entity-ferret",
+      "skos:broader",
+      "Entity-qa"
+    ],
+    [
+      "Entity-ferret",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-automatic_qa_application",
+      "skos:broader",
+      "Entity-qa"
+    ],
+    [
+      "Entity-interactive_question-answering",
+      "skos:broader",
+      "Entity-qa"
+    ]
+  ],
+  "predicates": {
+    "Predicate-describes": {
+      "label": "describes",
+      "description": "The predicate 'describes' establishes a relationship where the subject provides an explanation, characterization, or representation of the object, conveying information about its attributes, functions, or nature.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_type_of": {
+      "label": "is a type of",
+      "description": "The predicate 'is a type of' establishes a hierarchical relationship between the subject and the object, indicating that the subject represents a specific category or classification that falls under the broader category defined by the object. It signifies that the subject shares common characteristics or functions with other entities that belong to the object category.",
+      "disambiguation_index": 0
+    },
+    "Predicate-interacts_with": {
+      "label": "interacts with",
+      "description": "The predicate 'interacts with' denotes a relationship in which the subject engages in a reciprocal or mutual action with the object. This interaction can involve communication, influence, or exchange of information, where both entities may affect each other's state or behavior. The nature of the interaction can vary widely depending on the context, encompassing physical, digital, or social dimensions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-gathers": {
+      "label": "gathers",
+      "description": "The predicate 'gathers' indicates an action performed by the subject that involves the collection or accumulation of items, data, or resources, which are represented by the object. This action implies an active process where the subject seeks out, collects, or brings together various elements to form a cohesive whole, often for the purpose of analysis, understanding, or utilization.",
+      "disambiguation_index": 0
+    },
+    "Predicate-related_to": {
+      "label": "related to",
+      "description": "The predicate 'related to' establishes a connection or association between the subject and the object, indicating that they share a relevant link or are connected in some meaningful way. This relationship can encompass various forms of relevance, such as thematic, contextual, or functional ties, suggesting that understanding one may provide insights into the other.",
+      "disambiguation_index": 0
+    },
+    "Predicate-attempts_to_identify": {
+      "label": "attempts to identify",
+      "description": "The predicate 'attempts to identify' signifies an action where the subject engages in a process or effort to recognize, determine, or ascertain the nature, characteristics, or specifics of the object. This connection implies that the subject is actively seeking to uncover or clarify information about the object, which is often a concept, response, or entity that requires understanding or categorization.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or concept that falls under a more general category represented by the object. This relationship suggests that the object encompasses a wider scope or range of ideas, concepts, or entities that include the subject as a subset.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,779 @@
+{
+  "iri": "Paper-86",
+  "title": "A97-1020",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-86-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-86-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-86-Section-1-Paragraph-1-Sentence-1",
+              "text": "GLOSSER is designed to support reading and learning to read in a foreign language ."
+            },
+            {
+              "iri": "Paper-86-Section-1-Paragraph-1-Sentence-2",
+              "text": "There are four language pairs currently supported by GLOSSER : English-Bulgarian , English-Estonian , English-Hungarian and French-Dutch ."
+            },
+            {
+              "iri": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+              "text": "The program is operational on UNIX and Windows '95 platforms , and has undergone a pilot user-study ."
+            },
+            {
+              "iri": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+              "text": "A demonstration -LRB- in UNIX -RRB- for Applied Natural Language Processing emphasizes components put to novel technical uses in intelligent computer-assisted morphological analysis -LRB- ICALL -RRB- , including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005443096160888672,
+    16.10921025276184,
+    21.463257551193237,
+    17.85038471221924,
+    0.021210908889770508,
+    7.343292236328125e-05,
+    0.00011014938354492188,
+    25.297820329666138,
+    31.035481691360474,
+    1.0828218460083008,
+    10.147808074951172,
+    0.0071332454681396484,
+    0.00016021728515625,
+    20.44896125793457,
+    1.092067003250122,
+    0.010657072067260742,
+    1.0902609825134277,
+    3.1372153759002686,
+    3.2254855632781982,
+    3.637455463409424,
+    22.126068830490112,
+    1.4935593605041504,
+    9.68679666519165,
+    0.7449579238891602,
+    0.00045418739318847656,
+    0.008023738861083984
+  ],
+  "nodes": {
+    "Entity-glosser": {
+      "node_id": "glosser",
+      "disambiguation_index": 0,
+      "label": "GLOSSER",
+      "aliases": [
+        "GLOSSER",
+        "Glosser"
+      ],
+      "types": [
+        "program",
+        "software",
+        "tool",
+        "system",
+        "software program"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A computer program or software that supports reading and learning to read in a foreign language, with features such as disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "GLOSSER",
+          "local_types": [
+            "program",
+            "tool",
+            "software",
+            "software program"
+          ],
+          "iri": "Entity-glosser-Mention-1"
+        },
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Glosser",
+          "local_types": [
+            "tool",
+            "system",
+            "software"
+          ],
+          "iri": "Entity-glosser-Mention-2"
+        }
+      ],
+      "relevance": 0.767578125
+    },
+    "Entity-the_program": {
+      "node_id": "the_program",
+      "disambiguation_index": 0,
+      "label": "The program",
+      "aliases": [
+        "The program"
+      ],
+      "types": [
+        "program"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A software application designed to support reading and learning to read in a foreign language, currently operational on UNIX and Windows '95 platforms.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "The program",
+          "local_types": [
+            "program"
+          ],
+          "iri": "Entity-the_program-Mention-1"
+        }
+      ],
+      "relevance": 0.66357421875
+    },
+    "Entity--lrb-_icall_-rrb-": {
+      "node_id": "-lrb-_icall_-rrb-",
+      "disambiguation_index": 0,
+      "label": "-LRB- ICALL -RRB-",
+      "aliases": [
+        "-LRB- ICALL -RRB-"
+      ],
+      "types": [
+        "project"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A computer-assisted morphological analysis system that uses intelligent techniques to analyze and index a bilingual corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "-LRB- ICALL -RRB-",
+          "local_types": [
+            "project"
+          ],
+          "iri": "Entity--lrb-_icall_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.646484375
+    },
+    "Entity-icall": {
+      "node_id": "icall",
+      "disambiguation_index": 0,
+      "label": "ICALL",
+      "aliases": [
+        "ICALL"
+      ],
+      "types": [
+        "program",
+        "computer-assisted language learning system",
+        "software",
+        "tool",
+        "computer program"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "ICALL: a computer-assisted language learning system that emphasizes intelligent morphological analysis, including disambiguated and lemmatized indexing for an aligned bilingual corpus of word examples.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "ICALL",
+          "local_types": [
+            "program",
+            "computer-assisted language learning system",
+            "software",
+            "tool",
+            "computer program"
+          ],
+          "iri": "Entity-icall-Mention-1"
+        }
+      ],
+      "relevance": 0.62939453125
+    },
+    "Entity-a_pilot_user-study": {
+      "node_id": "a_pilot_user-study",
+      "disambiguation_index": 0,
+      "label": "a pilot user-study",
+      "aliases": [
+        "a pilot user-study"
+      ],
+      "types": [
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A small-scale experiment or investigation conducted to test and evaluate the usability of GLOSSER before its full implementation.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a pilot user-study",
+          "local_types": [
+            "study"
+          ],
+          "iri": "Entity-a_pilot_user-study-Mention-1"
+        }
+      ],
+      "relevance": 0.62158203125
+    },
+    "Entity-english-hungarian": {
+      "node_id": "english-hungarian",
+      "disambiguation_index": 0,
+      "label": "English-Hungarian",
+      "aliases": [
+        "English-Hungarian"
+      ],
+      "types": [
+        "language pair",
+        "translation system",
+        "translation"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A language pair consisting of Hungarian and English languages used for translation purposes.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "English-Hungarian",
+          "local_types": [
+            "language pair",
+            "translation system",
+            "translation"
+          ],
+          "iri": "Entity-english-hungarian-Mention-1"
+        }
+      ],
+      "relevance": 0.61181640625
+    },
+    "Entity-english-bulgarian": {
+      "node_id": "english-bulgarian",
+      "disambiguation_index": 0,
+      "label": "English-Bulgarian",
+      "aliases": [
+        "English-Estonian",
+        "English-Bulgarian"
+      ],
+      "types": [
+        "translation system",
+        "language pair",
+        "translation"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A language pair used for translation between English and Bulgarian languages.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "English-Bulgarian",
+          "local_types": [
+            "language pair",
+            "translation system",
+            "translation"
+          ],
+          "iri": "Entity-english-bulgarian-Mention-1"
+        },
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "English-Estonian",
+          "local_types": [
+            "language pair",
+            "translation system",
+            "translation"
+          ],
+          "iri": "Entity-english-bulgarian-Mention-2"
+        }
+      ],
+      "relevance": 0.60986328125
+    },
+    "Entity--lrb-": {
+      "node_id": "-lrb-",
+      "disambiguation_index": 0,
+      "label": "-LRB-",
+      "aliases": [
+        "-LRB-"
+      ],
+      "types": [
+        "punctuation",
+        "symbol"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A demonstration or presentation in UNIX for Applied Natural Language Processing",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "-LRB-",
+          "local_types": [
+            "punctuation",
+            "symbol"
+          ],
+          "iri": "Entity--lrb--Mention-1"
+        }
+      ],
+      "relevance": 0.60595703125
+    },
+    "Entity-a_demonstration": {
+      "node_id": "a_demonstration",
+      "disambiguation_index": 0,
+      "label": "A demonstration",
+      "aliases": [
+        "A demonstration"
+      ],
+      "types": [
+        "demonstration"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A demonstration of novel technical uses of intelligent computer-assisted morphological analysis components, including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "A demonstration",
+          "local_types": [
+            "demonstration"
+          ],
+          "iri": "Entity-a_demonstration-Mention-1"
+        }
+      ],
+      "relevance": 0.5830078125
+    },
+    "Entity-including_disambiguated_morphological_analysis_and_lemmatized_indexing_for_an_aligned_bilingual_corpus_of_word_example": {
+      "node_id": "including_disambiguated_morphological_analysis_and_lemmatized_indexing_for_an_aligned_bilingual_corpus_of_word_example",
+      "disambiguation_index": 0,
+      "label": "including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples",
+      "aliases": [
+        "including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A methodology that combines disambiguated morphological analysis with lemmatized indexing to facilitate searching and retrieval within a bilingual corpus of word examples, where words are aligned across two languages.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-including_disambiguated_morphological_analysis_and_lemmatized_indexing_for_an_aligned_bilingual_corpus_of_word_example-Mention-1"
+        }
+      ],
+      "relevance": 0.5732421875
+    },
+    "Entity-aligned_bilingual_corpus_of_word_example": {
+      "node_id": "aligned_bilingual_corpus_of_word_example",
+      "disambiguation_index": 0,
+      "label": "aligned bilingual corpus of word examples",
+      "aliases": [
+        "aligned bilingual corpus of word examples"
+      ],
+      "types": [
+        "dataset",
+        "resource for language learning and research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of paired linguistic examples from two languages, used to facilitate language learning and research.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "aligned bilingual corpus of word examples",
+          "local_types": [
+            "dataset",
+            "resource for language learning and research"
+          ],
+          "iri": "Entity-aligned_bilingual_corpus_of_word_example-Mention-1"
+        }
+      ],
+      "relevance": 0.57275390625
+    },
+    "Entity-reading_and_learning_to_read_in_a_foreign_language": {
+      "node_id": "reading_and_learning_to_read_in_a_foreign_language",
+      "disambiguation_index": 0,
+      "label": "reading and learning to read in a foreign language",
+      "aliases": [
+        "reading and learning to read in a foreign language"
+      ],
+      "types": [
+        "process",
+        "task",
+        "learning activity"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of acquiring literacy skills in a non-native language.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "reading and learning to read in a foreign language",
+          "local_types": [
+            "process",
+            "task",
+            "learning activity"
+          ],
+          "iri": "Entity-reading_and_learning_to_read_in_a_foreign_language-Mention-1"
+        }
+      ],
+      "relevance": 0.55078125
+    },
+    "Entity-french-dutch": {
+      "node_id": "french-dutch",
+      "disambiguation_index": 0,
+      "label": "French-Dutch",
+      "aliases": [
+        "French-Dutch"
+      ],
+      "types": [
+        "language pair",
+        "translation system",
+        "translation"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A language pair consisting of French and Dutch languages used for translation purposes.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "French-Dutch",
+          "local_types": [
+            "language pair",
+            "translation system",
+            "translation"
+          ],
+          "iri": "Entity-french-dutch-Mention-1"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity-applied_natural_language_processing": {
+      "node_id": "applied_natural_language_processing",
+      "disambiguation_index": 0,
+      "label": "Applied Natural Language Processing",
+      "aliases": [
+        "Applied Natural Language Processing"
+      ],
+      "types": [
+        "research area",
+        "field of study",
+        "discipline"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The application of computational techniques to analyze, understand, and generate human language.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Applied Natural Language Processing",
+          "local_types": [
+            "research area",
+            "field of study",
+            "discipline"
+          ],
+          "iri": "Entity-applied_natural_language_processing-Mention-1"
+        }
+      ],
+      "relevance": 0.53369140625
+    },
+    "Entity-lemmatized_indexing": {
+      "node_id": "lemmatized_indexing",
+      "disambiguation_index": 0,
+      "label": "lemmatized indexing",
+      "aliases": [
+        "lemmatized indexing"
+      ],
+      "types": [
+        "computational task",
+        "information retrieval technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The process of creating a lexical index that maps words to their base or dictionary form, used in intelligent computer-assisted morphological analysis for an aligned bilingual corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "lemmatized indexing",
+          "local_types": [
+            "computational task",
+            "information retrieval technique"
+          ],
+          "iri": "Entity-lemmatized_indexing-Mention-1"
+        }
+      ],
+      "relevance": 0.52880859375
+    },
+    "Entity-morphological_analysis": {
+      "node_id": "morphological_analysis",
+      "disambiguation_index": 0,
+      "label": "morphological analysis",
+      "aliases": [
+        "disambiguated morphological analysis",
+        "morphological analysis"
+      ],
+      "types": [
+        "computational task",
+        "linguistic process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or task of analyzing words to identify their constituent parts, such as roots, prefixes, and suffixes.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "morphological analysis",
+          "local_types": [
+            "computational task",
+            "linguistic process"
+          ],
+          "iri": "Entity-morphological_analysis-Mention-1"
+        },
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "disambiguated morphological analysis",
+          "local_types": [
+            "computational task",
+            "linguistic process"
+          ],
+          "iri": "Entity-morphological_analysis-Mention-2"
+        }
+      ],
+      "relevance": 0.517578125
+    },
+    "Entity-unix": {
+      "node_id": "unix",
+      "disambiguation_index": 0,
+      "label": "UNIX",
+      "aliases": [
+        "UNIX"
+      ],
+      "types": [
+        "platform",
+        "operating system",
+        "technology",
+        "software"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A popular open-source operating system and platform",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "UNIX",
+          "local_types": [
+            "platform",
+            "operating system"
+          ],
+          "iri": "Entity-unix-Mention-1"
+        },
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "UNIX",
+          "local_types": [
+            "operating system",
+            "technology",
+            "software"
+          ],
+          "iri": "Entity-unix-Mention-2"
+        }
+      ],
+      "relevance": 0.5146484375
+    },
+    "Entity-unix_and_window_95_platform": {
+      "node_id": "unix_and_window_95_platform",
+      "disambiguation_index": 0,
+      "label": "UNIX and Windows '95 platforms",
+      "aliases": [
+        "UNIX and Windows '95 platforms"
+      ],
+      "types": [
+        "platform",
+        "platforms"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of operating systems that includes both Unix-based and Microsoft Windows '95 versions.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "UNIX and Windows '95 platforms",
+          "local_types": [
+            "platform",
+            "platforms"
+          ],
+          "iri": "Entity-unix_and_window_95_platform-Mention-1"
+        }
+      ],
+      "relevance": 0.49072265625
+    },
+    "Entity-program": {
+      "node_id": "program",
+      "disambiguation_index": 0,
+      "label": "program",
+      "aliases": [
+        "program"
+      ],
+      "types": [
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A software application or system designed to perform specific tasks or operations.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "program",
+          "local_types": [
+            "software"
+          ],
+          "iri": "Entity-program-Mention-1"
+        }
+      ],
+      "relevance": 0.4716796875
+    },
+    "Entity-pilot_user-study": {
+      "node_id": "pilot_user-study",
+      "disambiguation_index": 0,
+      "label": "pilot user-study",
+      "aliases": [
+        "pilot user-study"
+      ],
+      "types": [
+        "study",
+        "research study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A preliminary investigation or experiment conducted with human participants to test and refine research methods.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "pilot user-study",
+          "local_types": [
+            "study",
+            "research study"
+          ],
+          "iri": "Entity-pilot_user-study-Mention-1"
+        }
+      ],
+      "relevance": 0.46826171875
+    },
+    "Entity--rrb-": {
+      "node_id": "-rrb-",
+      "disambiguation_index": 0,
+      "label": "-RRB-",
+      "aliases": [
+        "-RRB-"
+      ],
+      "types": [
+        "punctuation"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A demonstration environment or platform",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "-RRB-",
+          "local_types": [
+            "punctuation"
+          ],
+          "iri": "Entity--rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.465087890625
+    },
+    "Entity-window_95": {
+      "node_id": "window_95",
+      "disambiguation_index": 0,
+      "label": "Windows '95",
+      "aliases": [
+        "Windows '95"
+      ],
+      "types": [
+        "platform",
+        "operating system",
+        "product"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A version of the Microsoft Windows operating system released in 1995.",
+      "mentions": [
+        {
+          "reference": "Paper-86-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Windows '95",
+          "local_types": [
+            "platform",
+            "operating system",
+            "product"
+          ],
+          "iri": "Entity-window_95-Mention-1"
+        }
+      ],
+      "relevance": 0.432861328125
+    }
+  },
+  "summary": "GLOSSER is designed to support reading and learning to read in a foreign language . There are four language pairs currently supported by GLOSSER : English-Bulgarian , English-Estonian , English-Hungarian and French-Dutch . The program is operational on UNIX and Windows '95 platforms , and has undergone a pilot user-study . A demonstration -LRB- in UNIX -RRB- for Applied Natural Language Processing emphasizes components put to novel technical uses in intelligent computer-assisted morphological analysis -LRB- ICALL -RRB- , including disambiguated morphological analysis and lemmatized indexing for an aligned bilingual corpus of word examples .",
+  "triples": [
+    [
+      "Entity-glosser",
+      "Predicate-support",
+      "Entity-reading_and_learning_to_read_in_a_foreign_language"
+    ],
+    [
+      "Entity-glosser",
+      "Predicate-supports",
+      "Entity-english-bulgarian"
+    ],
+    [
+      "Entity-glosser",
+      "Predicate-supports",
+      "Entity-english-hungarian"
+    ],
+    [
+      "Entity-glosser",
+      "Predicate-supports",
+      "Entity-french-dutch"
+    ],
+    [
+      "Entity-the_program",
+      "Predicate-supports",
+      "Entity-glosser"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-glosser",
+      "skos:broader",
+      "Entity-program"
+    ],
+    [
+      "Entity-unix",
+      "skos:broader",
+      "Entity-program"
+    ],
+    [
+      "Entity-icall",
+      "skos:broader",
+      "Entity-program"
+    ],
+    [
+      "Entity-the_program",
+      "skos:broader",
+      "Entity-program"
+    ]
+  ],
+  "predicates": {
+    "Predicate-support": {
+      "label": "support",
+      "description": "To support means to provide assistance or resources that enable someone or something to achieve their goals, overcome challenges, or maintain stability. In this sense, it connects the subject (the entity providing support) with the object (the activity, process, or state being supported), indicating a relationship of facilitation, empowerment, or sustenance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-supports": {
+      "label": "supports",
+      "description": "The predicate 'supports' indicates a relationship where the subject provides sustenance or backing to the object. This can be interpreted as offering resources, assistance, or validation that enables the object's existence, development, or functionality.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is related to or encompasses the object as a more general concept. This relationship suggests that the subject provides context, scope, or category for the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

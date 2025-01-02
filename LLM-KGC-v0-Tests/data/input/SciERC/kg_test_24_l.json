@@ -1,0 +1,877 @@
+{
+  "iri": "Paper-24",
+  "title": "CVPR_2006_10_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-24-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-24-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-1",
+              "text": "In this paper we discuss object detection when only a small number of training examples are given ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-2",
+              "text": "Specifically , we show how to incorporate a simple prior on the distribution of natural images into support vector machines ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-3",
+              "text": "SVMs are known to be robust to overfitting ; however , a few training examples usually do not represent well the structure of the class ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-4",
+              "text": "Thus the resulting detectors are not robust and highly depend on the choice of the training examples ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+              "text": "We incorporate the prior on natural images by requiring that the separating hyperplane will not only yield a wide margin , but also that the corresponding positive half space will have a low probability to contain natural images -LRB- the background -RRB- ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+              "text": "Our experiments on real data sets show that the resulting detector is more robust to the choice of training examples , and substantially improves both linear and kernel SVM when trained on 10 positive and 10 negative examples ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005276203155517578,
+    14.934472799301147,
+    22.253222227096558,
+    20.064263820648193,
+    0.012707710266113281,
+    8.463859558105469e-05,
+    0.0001163482666015625,
+    28.889379501342773,
+    36.58365178108215,
+    0.9897871017456055,
+    13.896973371505737,
+    0.007529497146606445,
+    0.00017309188842773438,
+    27.959617137908936,
+    8.484561443328857,
+    0.021211862564086914,
+    1.1213428974151611,
+    3.3096208572387695,
+    2.699119806289673,
+    3.564103126525879,
+    30.291990518569946,
+    1.5347893238067627,
+    13.937048435211182,
+    0.8894622325897217,
+    0.0004699230194091797,
+    0.009149312973022461
+  ],
+  "nodes": {
+    "Entity-the_resulting_detector_(1)": {
+      "node_id": "the_resulting_detector_(1)",
+      "disambiguation_index": 1,
+      "label": "the resulting detector",
+      "aliases": [
+        "the resulting detector"
+      ],
+      "types": [
+        "detector"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A support vector machine-based object detection model that is more robust to the choice of training examples, obtained by incorporating a prior on natural images into the SVM.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the resulting detector",
+          "local_types": [
+            "detector"
+          ],
+          "iri": "Entity-the_resulting_detector_(1)-Mention-1"
+        }
+      ],
+      "relevance": 0.73388671875
+    },
+    "Entity-a_simple_prior_on_the_distribution_of_natural_image": {
+      "node_id": "a_simple_prior_on_the_distribution_of_natural_image",
+      "disambiguation_index": 0,
+      "label": "a simple prior on the distribution of natural images",
+      "aliases": [
+        "the prior on natural images",
+        "a simple prior on the distribution of natural images"
+      ],
+      "types": [
+        "image",
+        "prior"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A probabilistic model that assumes a certain structure or pattern in the distribution of natural images, used as a constraint to improve object detection when only a small number of training examples are available.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a simple prior on the distribution of natural images",
+          "local_types": [
+            "prior",
+            "image"
+          ],
+          "iri": "Entity-a_simple_prior_on_the_distribution_of_natural_image-Mention-1"
+        },
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the prior on natural images",
+          "local_types": [
+            "prior"
+          ],
+          "iri": "Entity-a_simple_prior_on_the_distribution_of_natural_image-Mention-2"
+        }
+      ],
+      "relevance": 0.7138671875
+    },
+    "Entity-our_experiment": {
+      "node_id": "our_experiment",
+      "disambiguation_index": 0,
+      "label": "Our experiments",
+      "aliases": [
+        "Our experiments"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Experiments conducted by the authors using real data sets to evaluate the performance of a detector that incorporates a prior on natural images into support vector machines.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Our experiments",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-our_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.64697265625
+    },
+    "Entity-the_resulting_detector": {
+      "node_id": "the_resulting_detector",
+      "disambiguation_index": 0,
+      "label": "the resulting detectors",
+      "aliases": [
+        "the resulting detectors"
+      ],
+      "types": [
+        "detector"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Object detection models trained with a small number of positive and negative examples, which lack robustness due to overfitting.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the resulting detectors",
+          "local_types": [
+            "detector"
+          ],
+          "iri": "Entity-the_resulting_detector-Mention-1"
+        }
+      ],
+      "relevance": 0.642578125
+    },
+    "Entity-10_positive_and_10_negative_example": {
+      "node_id": "10_positive_and_10_negative_example",
+      "disambiguation_index": 0,
+      "label": "10 positive and 10 negative examples",
+      "aliases": [
+        "10 positive and 10 negative examples"
+      ],
+      "types": [
+        "dataset"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A dataset consisting of 20 labeled images (10 positive and 10 negative) used to train object detectors in support vector machines.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "10 positive and 10 negative examples",
+          "local_types": [
+            "dataset"
+          ],
+          "iri": "Entity-10_positive_and_10_negative_example-Mention-1"
+        }
+      ],
+      "relevance": 0.63037109375
+    },
+    "Entity-the_background": {
+      "node_id": "the_background",
+      "disambiguation_index": 0,
+      "label": "the background",
+      "aliases": [
+        "the background"
+      ],
+      "types": [
+        "background"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The set of all possible natural images, used as a prior in support vector machines for object detection.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the background",
+          "local_types": [
+            "background"
+          ],
+          "iri": "Entity-the_background-Mention-1"
+        }
+      ],
+      "relevance": 0.6279296875
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "we",
+      "aliases": [
+        "we"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors who are discussing object detection when only a small number of training examples are given.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "we",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.625
+    },
+    "Entity-a_few_training_example": {
+      "node_id": "a_few_training_example",
+      "disambiguation_index": 0,
+      "label": "a few training examples",
+      "aliases": [
+        "a few training examples"
+      ],
+      "types": [
+        "data"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A small number of object detection training instances",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a few training examples",
+          "local_types": [
+            "data"
+          ],
+          "iri": "Entity-a_few_training_example-Mention-1"
+        }
+      ],
+      "relevance": 0.6123046875
+    },
+    "Entity-svms": {
+      "node_id": "svms",
+      "disambiguation_index": 0,
+      "label": "SVMs",
+      "aliases": [
+        "SVM",
+        "support vector machines",
+        "SVMs"
+      ],
+      "types": [
+        "abbreviation",
+        "machine learning",
+        "computational method",
+        "algorithm",
+        "machine learning algorithm",
+        "machine learning model",
+        "supervised machine learning algorithm"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A type of machine learning algorithm that uses a hyperplane or set of hyperplanes to classify data",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "SVMs",
+          "local_types": [
+            "abbreviation",
+            "machine learning model",
+            "machine learning",
+            "algorithm"
+          ],
+          "iri": "Entity-svms-Mention-1"
+        },
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "SVM",
+          "local_types": [
+            "supervised machine learning algorithm",
+            "machine learning model",
+            "algorithm"
+          ],
+          "iri": "Entity-svms-Mention-2"
+        },
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "support vector machines",
+          "local_types": [
+            "machine learning algorithm",
+            "computational method",
+            "machine learning",
+            "algorithm"
+          ],
+          "iri": "Entity-svms-Mention-3"
+        }
+      ],
+      "relevance": 0.60205078125
+    },
+    "Entity-when_only_a_small_number_of_training_example_are_given": {
+      "node_id": "when_only_a_small_number_of_training_example_are_given",
+      "disambiguation_index": 0,
+      "label": "when only a small number of training examples are given",
+      "aliases": [
+        "when only a small number of training examples are given"
+      ],
+      "types": [
+        "condition"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A situation where there are limited available training data for an object detection task.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "when only a small number of training examples are given",
+          "local_types": [
+            "condition"
+          ],
+          "iri": "Entity-when_only_a_small_number_of_training_example_are_given-Mention-1"
+        }
+      ],
+      "relevance": 0.58837890625
+    },
+    "Entity-detector": {
+      "node_id": "detector",
+      "disambiguation_index": 0,
+      "label": "detectors",
+      "aliases": [
+        "detectors",
+        "detector"
+      ],
+      "types": [
+        "machine learning model",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Devices or systems that use machine learning algorithms to identify or detect specific patterns, objects, or phenomena.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "detectors",
+          "local_types": [
+            "algorithm",
+            "machine learning model"
+          ],
+          "iri": "Entity-detector-Mention-1"
+        },
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "detector",
+          "local_types": [
+            "algorithm",
+            "machine learning model"
+          ],
+          "iri": "Entity-detector-Mention-2"
+        }
+      ],
+      "relevance": 0.5478515625
+    },
+    "Entity-in_this_paper": {
+      "node_id": "in_this_paper",
+      "disambiguation_index": 0,
+      "label": "In this paper",
+      "aliases": [
+        "In this paper"
+      ],
+      "types": [
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This refers to the current research paper, which discusses object detection with limited training data.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "In this paper",
+          "local_types": [
+            "paper"
+          ],
+          "iri": "Entity-in_this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.54541015625
+    },
+    "Entity-overfitting": {
+      "node_id": "overfitting",
+      "disambiguation_index": 0,
+      "label": "overfitting",
+      "aliases": [
+        "overfitting"
+      ],
+      "types": [
+        "phenomenon",
+        "problem in machine learning"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The phenomenon or problem in machine learning where a model becomes too specialized to fit the training data and fails to generalize well to new, unseen instances.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "overfitting",
+          "local_types": [
+            "phenomenon",
+            "problem in machine learning"
+          ],
+          "iri": "Entity-overfitting-Mention-1"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity-object_detection": {
+      "node_id": "object_detection",
+      "disambiguation_index": 0,
+      "label": "object detection",
+      "aliases": [
+        "object detection"
+      ],
+      "types": [
+        "computer vision technique",
+        "computer vision task",
+        "technique",
+        "detection",
+        "task",
+        "field of study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or technique used to identify and locate specific objects within an image, video, or other visual data.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "object detection",
+          "local_types": [
+            "computer vision technique",
+            "computer vision task",
+            "technique",
+            "detection",
+            "task",
+            "field of study"
+          ],
+          "iri": "Entity-object_detection-Mention-1"
+        }
+      ],
+      "relevance": 0.53955078125
+    },
+    "Entity-separating_hyperplane": {
+      "node_id": "separating_hyperplane",
+      "disambiguation_index": 0,
+      "label": "separating hyperplane",
+      "aliases": [
+        "separating hyperplane"
+      ],
+      "types": [
+        "mathematical concept",
+        "algorithmic component",
+        "hyperplane"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical concept or algorithmic component that divides a space into two distinct regions, typically used for classification purposes.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "separating hyperplane",
+          "local_types": [
+            "mathematical concept",
+            "algorithmic component",
+            "hyperplane"
+          ],
+          "iri": "Entity-separating_hyperplane-Mention-1"
+        }
+      ],
+      "relevance": 0.52978515625
+    },
+    "Entity-real_data_set": {
+      "node_id": "real_data_set",
+      "disambiguation_index": 0,
+      "label": "real data sets",
+      "aliases": [
+        "real data sets"
+      ],
+      "types": [
+        "dataset"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A collection of actual datasets used in experiments to evaluate the performance of object detection algorithms.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "real data sets",
+          "local_types": [
+            "dataset"
+          ],
+          "iri": "Entity-real_data_set-Mention-1"
+        }
+      ],
+      "relevance": 0.52783203125
+    },
+    "Entity-training_example": {
+      "node_id": "training_example",
+      "disambiguation_index": 0,
+      "label": "training examples",
+      "aliases": [
+        "training examples"
+      ],
+      "types": [
+        "dataset",
+        "data set",
+        "example",
+        "input data",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of instances or data points used to train a model, algorithm, or system.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "training examples",
+          "local_types": [
+            "data set",
+            "input data",
+            "dataset",
+            "data"
+          ],
+          "iri": "Entity-training_example-Mention-1"
+        },
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "training examples",
+          "local_types": [
+            "dataset",
+            "data set"
+          ],
+          "iri": "Entity-training_example-Mention-2"
+        },
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "training examples",
+          "local_types": [
+            "data set",
+            "input data",
+            "example"
+          ],
+          "iri": "Entity-training_example-Mention-3"
+        }
+      ],
+      "relevance": 0.52685546875
+    },
+    "Entity-prior": {
+      "node_id": "prior",
+      "disambiguation_index": 0,
+      "label": "prior",
+      "aliases": [
+        "prior"
+      ],
+      "types": [
+        "mathematical concept",
+        "statistical model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical assumption or probability distribution used as a basis for inference or decision-making.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "prior",
+          "local_types": [
+            "mathematical concept",
+            "statistical model"
+          ],
+          "iri": "Entity-prior-Mention-1"
+        }
+      ],
+      "relevance": 0.51318359375
+    },
+    "Entity-the_choice_of_the_training_example": {
+      "node_id": "the_choice_of_the_training_example",
+      "disambiguation_index": 0,
+      "label": "the choice of the training examples",
+      "aliases": [
+        "the choice of the training examples"
+      ],
+      "types": [
+        "training example selection"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The selection or process of choosing which specific training examples to use.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the choice of the training examples",
+          "local_types": [
+            "training example selection"
+          ],
+          "iri": "Entity-the_choice_of_the_training_example-Mention-1"
+        }
+      ],
+      "relevance": 0.49609375
+    },
+    "Entity-natural_image": {
+      "node_id": "natural_image",
+      "disambiguation_index": 0,
+      "label": "natural images",
+      "aliases": [
+        "natural images"
+      ],
+      "types": [
+        "image type",
+        "dataset",
+        "visual data",
+        "images",
+        "data type",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Unprocessed photographs or visual data that occur naturally in the environment",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "natural images",
+          "local_types": [
+            "visual data",
+            "concept",
+            "image type"
+          ],
+          "iri": "Entity-natural_image-Mention-1"
+        },
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "natural images",
+          "local_types": [
+            "data type",
+            "images",
+            "dataset"
+          ],
+          "iri": "Entity-natural_image-Mention-2"
+        }
+      ],
+      "relevance": 0.493408203125
+    },
+    "Entity-margin": {
+      "node_id": "margin",
+      "disambiguation_index": 0,
+      "label": "margin",
+      "aliases": [
+        "margin"
+      ],
+      "types": [
+        "performance metric",
+        "evaluation criterion"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measure of separation or difference between two sets, often used as an evaluation criterion.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "margin",
+          "local_types": [
+            "performance metric",
+            "evaluation criterion"
+          ],
+          "iri": "Entity-margin-Mention-1"
+        }
+      ],
+      "relevance": 0.4599609375
+    },
+    "Entity-positive_half_space": {
+      "node_id": "positive_half_space",
+      "disambiguation_index": 0,
+      "label": "positive half space",
+      "aliases": [
+        "positive half space"
+      ],
+      "types": [
+        "geometric concept",
+        "mathematical construct"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The region of space where all points satisfy certain conditions or constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "positive half space",
+          "local_types": [
+            "geometric concept",
+            "mathematical construct"
+          ],
+          "iri": "Entity-positive_half_space-Mention-1"
+        }
+      ],
+      "relevance": 0.442138671875
+    },
+    "Entity-background": {
+      "node_id": "background",
+      "disambiguation_index": 0,
+      "label": "background",
+      "aliases": [
+        "background"
+      ],
+      "types": [
+        "contextual information",
+        "environmental factor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The setting or surroundings in which something occurs, including environmental factors and contextual information.",
+      "mentions": [
+        {
+          "reference": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "background",
+          "local_types": [
+            "contextual information",
+            "environmental factor"
+          ],
+          "iri": "Entity-background-Mention-1"
+        }
+      ],
+      "relevance": 0.4384765625
+    }
+  },
+  "summary": "In this paper we discuss object detection when only a small number of training examples are given . Specifically , we show how to incorporate a simple prior on the distribution of natural images into support vector machines . SVMs are known to be robust to overfitting ; however , a few training examples usually do not represent well the structure of the class . Thus the resulting detectors are not robust and highly depend on the choice of the training examples . We incorporate the prior on natural images by requiring that the separating hyperplane will not only yield a wide margin , but also that the corresponding positive half space will have a low probability to contain natural images -LRB- the background -RRB- . Our experiments on real data sets show that the resulting detector is more robust to the choice of training examples , and substantially improves both linear and kernel SVM when trained on 10 positive and 10 negative examples .",
+  "triples": [
+    [
+      "Entity-object_detection",
+      "Predicate-discuss",
+      "Entity-when_only_a_small_number_of_training_example_are_given"
+    ],
+    [
+      "Entity-we",
+      "Predicate-discuss",
+      "Entity-object_detection"
+    ],
+    [
+      "Entity-svms",
+      "Predicate-incorporate",
+      "Entity-a_simple_prior_on_the_distribution_of_natural_image"
+    ],
+    [
+      "Entity-svms",
+      "Predicate-are_known_to_be_robust_to",
+      "Entity-overfitting"
+    ],
+    [
+      "Entity-the_resulting_detector",
+      "Predicate-are_not_robust_due_to_dependence_on",
+      "Entity-the_choice_of_the_training_example"
+    ],
+    [
+      "Entity-svms",
+      "Predicate-improves_when_trained_on",
+      "Entity-10_positive_and_10_negative_example"
+    ],
+    [
+      "Entity-a_few_training_example",
+      "Predicate-usually_do_not_represent_well_the_structure_of_the_class",
+      "Entity-the_resulting_detector"
+    ],
+    [
+      "Entity-a_simple_prior_on_the_distribution_of_natural_image",
+      "Predicate-obtained_by",
+      "Entity-the_resulting_detector_(1)"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_background",
+      "skos:broader",
+      "Entity-background"
+    ],
+    [
+      "Entity-a_simple_prior_on_the_distribution_of_natural_image",
+      "skos:broader",
+      "Entity-prior"
+    ],
+    [
+      "Entity-the_resulting_detector",
+      "skos:broader",
+      "Entity-detector"
+    ],
+    [
+      "Entity-the_resulting_detector_(1)",
+      "skos:broader",
+      "Entity-detector"
+    ]
+  ],
+  "predicates": {
+    "Predicate-discuss": {
+      "label": "discuss",
+      "description": "To discuss means to engage in an exchange or conversation about something with someone, often involving consideration and exploration of ideas, perspectives, or challenges. In this context, it implies a thoughtful examination and analysis of the object (in this case, 'when only a small number of training examples are given') from different angles, potentially leading to insights, solutions, or new understandings.",
+      "disambiguation_index": 0
+    },
+    "Predicate-incorporate": {
+      "label": "incorporate",
+      "description": "To incorporate means to integrate or combine two entities in such a way that one becomes an inherent part of the other. This predicate suggests a process where the subject (e.g., SVMs) absorbs, assimilates, or merges with another entity (the object), resulting in a new whole that reflects the characteristics and properties of both.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_known_to_be_robust_to": {
+      "label": "are known to be robust to",
+      "description": "This predicate indicates that the subject has a property or characteristic that makes it resistant or immune to the effects of the object. In other words, the subject's robustness to the object means that it can withstand or tolerate the presence of the object without being significantly impacted.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_not_robust_due_to_dependence_on": {
+      "label": "are not robust due to dependence on",
+      "description": "This predicate indicates that a subject's property or characteristic (in this case, being 'robust') is compromised or impaired because it relies heavily on another entity or factor represented by the object. The dependence can be direct or indirect, and may involve various degrees of influence or control.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improves_when_trained_on": {
+      "label": "improves when trained on",
+      "description": "The predicate 'improves when trained on' indicates a relationship between a subject (typically an algorithm or model) and its performance outcome, which depends on the quality and quantity of training data provided. In this context, the object represents the specific set of examples used for training, and the predicate suggests that the subject's performance improves as it is exposed to more comprehensive, diverse, or well-curated training data.",
+      "disambiguation_index": 0
+    },
+    "Predicate-usually_do_not_represent_well_the_structure_of_the_class": {
+      "label": "usually do not represent well the structure of the class",
+      "description": "This predicate indicates that there is a mismatch or lack of correspondence between the subject and object in terms of representing the underlying structure or essence of a particular class. It suggests that the subject, which may be training examples, does not accurately capture the fundamental nature or characteristics of the class, resulting in an imperfect representation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-obtained_by": {
+      "label": "obtained by",
+      "description": "Indicates a causal or generative relationship between the subject and object, suggesting that the subject was derived from or arose as a result of the process described in the object. This predicate implies a sense of origin or provenance, highlighting how something came to be.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject concept is a more specific instance of the object concept. It establishes a hierarchical relationship between the two, where the subject is a narrower or more specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

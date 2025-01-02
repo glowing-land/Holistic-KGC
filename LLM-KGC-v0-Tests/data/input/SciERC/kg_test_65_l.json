@@ -1,0 +1,1777 @@
+{
+  "iri": "Paper-65",
+  "title": "ICCV_2003_151_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-65-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-65-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+              "text": "A new algorithm is proposed for novel view generation in one-to-one teleconferencing applications ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+              "text": "Given the video streams acquired by two cameras placed on either side of a computer monitor , the proposed algorithm synthesises images from a virtual camera in arbitrary position -LRB- typically located within the monitor -RRB- to facilitate eye contact ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+              "text": "Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+              "text": "The two main contributions of this paper are : i -RRB- a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii -RRB- a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+              "text": "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB- ; and a cost aggregation algorithm that acts directly on our three-dimensional matching cost space ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+              "text": "Examples are given that demonstrate the robustness of the new algorithm to spatial and temporal artefacts for long stereo video streams ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+              "text": "These include demonstrations of synthesis of cyclopean views of extended conversational sequences ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+              "text": "We further demonstrate synthesis from a freely translating virtual camera ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005254745483398438,
+    21.25825071334839,
+    31.222543001174927,
+    33.86254835128784,
+    0.04281044006347656,
+    0.00012230873107910156,
+    0.0001609325408935547,
+    57.46748614311218,
+    100.13431596755981,
+    2.0999293327331543,
+    73.78120875358582,
+    0.015562057495117188,
+    0.00029015541076660156,
+    42.036458253860474,
+    1.3804709911346436,
+    0.03195476531982422,
+    1.0920352935791016,
+    3.3657147884368896,
+    23.128913640975952,
+    23.711427450180054,
+    62.707621335983276,
+    2.447197914123535,
+    32.04656386375427,
+    1.0941355228424072,
+    0.0007405281066894531,
+    0.018125057220458984
+  ],
+  "nodes": {
+    "Entity-synthesis_of_cyclopean_view": {
+      "node_id": "synthesis_of_cyclopean_view",
+      "disambiguation_index": 0,
+      "label": "synthesis of cyclopean views",
+      "aliases": [
+        "synthesis of cyclopean views"
+      ],
+      "types": [
+        "methodology",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The novel view generation algorithm's capability to synthesize images from a virtual camera, typically located within a computer monitor, for facilitating eye contact during one-to-one teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "synthesis of cyclopean views",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-synthesis_of_cyclopean_view-Mention-1"
+        }
+      ],
+      "relevance": 0.77099609375
+    },
+    "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space": {
+      "node_id": "furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space",
+      "disambiguation_index": 0,
+      "label": "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB- ; and a cost aggregation algorithm that acts directly on our three-dimensional matching cost space",
+      "aliases": [
+        "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB- ; and a cost aggregation algorithm that acts directly on our three-dimensional matching cost space"
+      ],
+      "types": [
+        "background model",
+        "temporal maintenance",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A novel algorithm for maintaining a background model to enhance occlusion rendering and reduce temporal artefacts, as well as a cost aggregation algorithm acting directly on three-dimensional matching costs.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB- ; and a cost aggregation algorithm that acts directly on our three-dimensional matching cost space",
+          "local_types": [
+            "background model",
+            "temporal maintenance",
+            "algorithm"
+          ],
+          "iri": "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space-Mention-1"
+        }
+      ],
+      "relevance": 0.75927734375
+    },
+    "Entity-the_two_main_contribution_of_this_paper_are__i_-rrb-_a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming__that_encourages_correct_occlusion_labeling__ii_-rrb-_a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface": {
+      "node_id": "the_two_main_contribution_of_this_paper_are__i_-rrb-_a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming__that_encourages_correct_occlusion_labeling__ii_-rrb-_a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface",
+      "disambiguation_index": 0,
+      "label": "the two main contributions of this paper are : i -RRB- a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii -RRB- a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface",
+      "aliases": [
+        "the two main contributions of this paper are : i -RRB- a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii -RRB- a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface"
+      ],
+      "types": [
+        "graph",
+        "contribution",
+        "dynamic-programming",
+        "dynamic programming"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The two main contributions proposed in this paper are a new type of three-plane graph for dense-stereo dynamic-programming that encourages correct occlusion labeling and a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the two main contributions of this paper are : i -RRB- a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii -RRB- a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface",
+          "local_types": [
+            "graph",
+            "contribution",
+            "dynamic-programming",
+            "dynamic programming"
+          ],
+          "iri": "Entity-the_two_main_contribution_of_this_paper_are__i_-rrb-_a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming__that_encourages_correct_occlusion_labeling__ii_-rrb-_a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface-Mention-1"
+        }
+      ],
+      "relevance": 0.748046875
+    },
+    "Entity-the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact": {
+      "node_id": "the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact",
+      "disambiguation_index": 0,
+      "label": "the proposed algorithm synthesises images from a virtual camera in arbitrary position -LRB- typically located within the monitor -RRB- to facilitate eye contact",
+      "aliases": [
+        "the proposed algorithm synthesises images from a virtual camera in arbitrary position -LRB- typically located within the monitor -RRB- to facilitate eye contact"
+      ],
+      "types": [
+        "virtual camera",
+        "eye contact",
+        "image synthesis",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A system that generates synthetic visual data",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the proposed algorithm synthesises images from a virtual camera in arbitrary position -LRB- typically located within the monitor -RRB- to facilitate eye contact",
+          "local_types": [
+            "virtual camera",
+            "eye contact",
+            "image synthesis",
+            "algorithm"
+          ],
+          "iri": "Entity-the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact-Mention-1"
+        }
+      ],
+      "relevance": 0.7412109375
+    },
+    "Entity-novel_view_generation_in_one-to-one_teleconferencing_application": {
+      "node_id": "novel_view_generation_in_one-to-one_teleconferencing_application",
+      "disambiguation_index": 0,
+      "label": "novel view generation in one-to-one teleconferencing applications",
+      "aliases": [
+        "novel view generation in one-to-one teleconferencing applications"
+      ],
+      "types": [
+        "teleconferencing",
+        "application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "An algorithm that generates novel views from virtual cameras within a computer monitor to facilitate eye contact in one-to-one teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel view generation in one-to-one teleconferencing applications",
+          "local_types": [
+            "teleconferencing",
+            "application"
+          ],
+          "iri": "Entity-novel_view_generation_in_one-to-one_teleconferencing_application-Mention-1"
+        }
+      ],
+      "relevance": 0.7333984375
+    },
+    "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation": {
+      "node_id": "our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation",
+      "disambiguation_index": 0,
+      "label": "Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation",
+      "aliases": [
+        "Our technique",
+        "the new algorithm",
+        "Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation"
+      ],
+      "types": [
+        "novel-view generation",
+        "technique",
+        "novel view generation",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An improved dynamic-programming stereo algorithm for generating novel views efficiently",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation",
+          "local_types": [
+            "novel-view generation",
+            "technique",
+            "novel view generation",
+            "algorithm"
+          ],
+          "iri": "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Our technique",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation-Mention-2"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the new algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation-Mention-3"
+        }
+      ],
+      "relevance": 0.69189453125
+    },
+    "Entity-a_new_algorithm": {
+      "node_id": "a_new_algorithm",
+      "disambiguation_index": 0,
+      "label": "A new algorithm",
+      "aliases": [
+        "the proposed algorithm",
+        "A new algorithm"
+      ],
+      "types": [
+        "algorithm",
+        "software"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "An improved, dynamic-programming stereo algorithm for efficient novel-view generation in one-to-one teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "A new algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-a_new_algorithm-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the proposed algorithm",
+          "local_types": [
+            "algorithm",
+            "software"
+          ],
+          "iri": "Entity-a_new_algorithm-Mention-2"
+        }
+      ],
+      "relevance": 0.68896484375
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors of this paper, who are proposing an algorithm for novel view generation in one-to-one teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.6767578125
+    },
+    "Entity-novel_view_generation": {
+      "node_id": "novel_view_generation",
+      "disambiguation_index": 0,
+      "label": "novel view generation",
+      "aliases": [
+        "novel-view generation",
+        "novel view generation",
+        "novel-view synthesis"
+      ],
+      "types": [
+        "technique",
+        "computer vision technique",
+        "image processing task",
+        "image processing",
+        "image processing technique",
+        "computer vision application",
+        "process",
+        "task",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "An image processing technique that generates images from a virtual camera in arbitrary position to facilitate eye contact in one-to-one teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel view generation",
+          "local_types": [
+            "image processing technique",
+            "computer vision application",
+            "technique"
+          ],
+          "iri": "Entity-novel_view_generation-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "novel-view generation",
+          "local_types": [
+            "computer vision",
+            "process",
+            "task",
+            "image processing task"
+          ],
+          "iri": "Entity-novel_view_generation-Mention-2"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "novel-view synthesis",
+          "local_types": [
+            "computer vision technique",
+            "image processing"
+          ],
+          "iri": "Entity-novel_view_generation-Mention-3"
+        }
+      ],
+      "relevance": 0.6708984375
+    },
+    "Entity-spatial_and_temporal_artefact": {
+      "node_id": "spatial_and_temporal_artefact",
+      "disambiguation_index": 0,
+      "label": "spatial and temporal artefacts",
+      "aliases": [
+        "spatial and temporal artefacts"
+      ],
+      "types": [
+        "problem type",
+        "challenge"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The novel algorithms proposed in this paper, including those for background model maintenance and cost aggregation, are designed to reduce the impact of spatial and temporal artefacts on long stereo video streams.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "spatial and temporal artefacts",
+          "local_types": [
+            "problem type",
+            "challenge"
+          ],
+          "iri": "Entity-spatial_and_temporal_artefact-Mention-1"
+        }
+      ],
+      "relevance": 0.666015625
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This paper presents the main contributions of its novel algorithms for efficient novel-view generation, including a new type of three-plane graph and compact geometric derivation for direct projection of minimum-cost surfaces.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "this paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.6630859375
+    },
+    "Entity-the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-": {
+      "node_id": "the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-",
+      "disambiguation_index": 0,
+      "label": "the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB-",
+      "aliases": [
+        "the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB-"
+      ],
+      "types": [
+        "phenomenon"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A technique for maintaining a background model over time to reduce the appearance of flickering temporal artefacts and improve the rendering of occlusions.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB-",
+          "local_types": [
+            "phenomenon"
+          ],
+          "iri": "Entity-the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.64892578125
+    },
+    "Entity-these": {
+      "node_id": "these",
+      "disambiguation_index": 0,
+      "label": "These",
+      "aliases": [
+        "These"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Demonstrations of novel view generation for teleconferencing applications, showcasing synthesized cyclopean views and virtual camera translations.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "These",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-these-Mention-1"
+        }
+      ],
+      "relevance": 0.642578125
+    },
+    "Entity-demonstration_of_synthesis_of_cyclopean_view_of_extended_conversational_sequence": {
+      "node_id": "demonstration_of_synthesis_of_cyclopean_view_of_extended_conversational_sequence",
+      "disambiguation_index": 0,
+      "label": "demonstrations of synthesis of cyclopean views of extended conversational sequences",
+      "aliases": [
+        "demonstrations of synthesis of cyclopean views of extended conversational sequences"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Examples or visualizations that illustrate the capability to generate novel views from a virtual camera, showcasing conversations between two people with eye contact maintained.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "demonstrations of synthesis of cyclopean views of extended conversational sequences",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-demonstration_of_synthesis_of_cyclopean_view_of_extended_conversational_sequence-Mention-1"
+        }
+      ],
+      "relevance": 0.6376953125
+    },
+    "Entity-image_from_a_virtual_camera": {
+      "node_id": "image_from_a_virtual_camera",
+      "disambiguation_index": 0,
+      "label": "images from a virtual camera",
+      "aliases": [
+        "images from a virtual camera"
+      ],
+      "types": [
+        "image",
+        "virtual reality"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Synthesized visual representations generated by an algorithm that combines video streams from two cameras placed on either side of a computer monitor, allowing for arbitrary positioning and facilitating eye contact.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "images from a virtual camera",
+          "local_types": [
+            "image",
+            "virtual reality"
+          ],
+          "iri": "Entity-image_from_a_virtual_camera-Mention-1"
+        }
+      ],
+      "relevance": 0.634765625
+    },
+    "Entity-a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface": {
+      "node_id": "a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface",
+      "disambiguation_index": 0,
+      "label": "a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface",
+      "aliases": [
+        "a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A mathematical formula or procedure used to generate new views from existing images, achieved through a geometrically-derived method that projects the minimum-cost surface.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface-Mention-1"
+        }
+      ],
+      "relevance": 0.61865234375
+    },
+    "Entity-a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model": {
+      "node_id": "a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model",
+      "disambiguation_index": 0,
+      "label": "a novel algorithm for the temporal maintenance of a background model",
+      "aliases": [
+        "a novel algorithm for the temporal maintenance of a background model"
+      ],
+      "types": [
+        "algorithm",
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A novel approach for maintaining an updated background model over time, aimed at reducing temporal artefacts and enhancing the rendering of occlusions.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a novel algorithm for the temporal maintenance of a background model",
+          "local_types": [
+            "algorithm",
+            "model"
+          ],
+          "iri": "Entity-a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model-Mention-1"
+        }
+      ],
+      "relevance": 0.615234375
+    },
+    "Entity-stereo_algorithm": {
+      "node_id": "stereo_algorithm",
+      "disambiguation_index": 0,
+      "label": "stereo algorithm",
+      "aliases": [
+        "stereo algorithm"
+      ],
+      "types": [
+        "computer science technique",
+        "technique",
+        "algorithm",
+        "computer vision"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A computer vision technique used to calculate depth information from two or more images taken from different viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "stereo algorithm",
+          "local_types": [
+            "computer science technique",
+            "technique",
+            "algorithm",
+            "computer vision"
+          ],
+          "iri": "Entity-stereo_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.6083984375
+    },
+    "Entity-temporal_maintenance": {
+      "node_id": "temporal_maintenance",
+      "disambiguation_index": 0,
+      "label": "temporal maintenance",
+      "aliases": [
+        "temporal maintenance"
+      ],
+      "types": [
+        "maintenance process",
+        "algorithmic task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A novel algorithm for maintaining the background model over time to reduce temporal artefacts such as flicker and enhance occlusion rendering.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "temporal maintenance",
+          "local_types": [
+            "maintenance process",
+            "algorithmic task"
+          ],
+          "iri": "Entity-temporal_maintenance-Mention-1"
+        }
+      ],
+      "relevance": 0.603515625
+    },
+    "Entity-video_stream_acquired_by_two_camera_placed_on_either_side_of_a_computer_monitor": {
+      "node_id": "video_stream_acquired_by_two_camera_placed_on_either_side_of_a_computer_monitor",
+      "disambiguation_index": 0,
+      "label": "video streams acquired by two cameras placed on either side of a computer monitor",
+      "aliases": [
+        "video streams acquired by two cameras placed on either side of a computer monitor"
+      ],
+      "types": [
+        "camera",
+        "stream",
+        "monitor",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Video data captured simultaneously from two camera angles, positioned on either side of a computer monitor.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "video streams acquired by two cameras placed on either side of a computer monitor",
+          "local_types": [
+            "camera",
+            "stream",
+            "monitor",
+            "data"
+          ],
+          "iri": "Entity-video_stream_acquired_by_two_camera_placed_on_either_side_of_a_computer_monitor-Mention-1"
+        }
+      ],
+      "relevance": 0.5751953125
+    },
+    "Entity-three-dimensional_matching_cost_space": {
+      "node_id": "three-dimensional_matching_cost_space",
+      "disambiguation_index": 0,
+      "label": "three-dimensional matching cost space",
+      "aliases": [
+        "a cost aggregation algorithm that acts directly on our three-dimensional matching cost space",
+        "three-dimensional matching cost space"
+      ],
+      "types": [
+        "space",
+        "data structure",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A data structure representing the costs of matching pixels in three-dimensional stereo images, used for efficient novel-view generation and occlusion labeling.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "three-dimensional matching cost space",
+          "local_types": [
+            "space",
+            "data structure"
+          ],
+          "iri": "Entity-three-dimensional_matching_cost_space-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a cost aggregation algorithm that acts directly on our three-dimensional matching cost space",
+          "local_types": [
+            "algorithm",
+            "space"
+          ],
+          "iri": "Entity-three-dimensional_matching_cost_space-Mention-2"
+        }
+      ],
+      "relevance": 0.57177734375
+    },
+    "Entity-three-plane_graph": {
+      "node_id": "three-plane_graph",
+      "disambiguation_index": 0,
+      "label": "three-plane graph",
+      "aliases": [
+        "a new type of three-plane graph",
+        "three-plane graph"
+      ],
+      "types": [
+        "computer vision technique",
+        "algorithm",
+        "mathematical concept",
+        "data structure",
+        "graph",
+        "graph theory"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A type of graph used in dense-stereo dynamic-programming that encourages correct occlusion labeling.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "three-plane graph",
+          "local_types": [
+            "computer vision technique",
+            "mathematical concept",
+            "data structure",
+            "graph",
+            "graph theory"
+          ],
+          "iri": "Entity-three-plane_graph-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a new type of three-plane graph",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-three-plane_graph-Mention-2"
+        }
+      ],
+      "relevance": 0.568359375
+    },
+    "Entity-correct_occlusion_labeling": {
+      "node_id": "correct_occlusion_labeling",
+      "disambiguation_index": 0,
+      "label": "correct occlusion labeling",
+      "aliases": [
+        "correct occlusion labeling"
+      ],
+      "types": [
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process or technique of accurately identifying and labeling occlusion points in stereo images, particularly in the context of novel view generation for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "correct occlusion labeling",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-correct_occlusion_labeling-Mention-1"
+        }
+      ],
+      "relevance": 0.5673828125
+    },
+    "Entity-long_stereo_video_stream": {
+      "node_id": "long_stereo_video_stream",
+      "disambiguation_index": 0,
+      "label": "long stereo video streams",
+      "aliases": [
+        "long stereo video streams"
+      ],
+      "types": [
+        "data type",
+        "input data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A sequence of audio-visual data captured using a stereo camera setup, characterized by its length and containing both left-eye and right-eye views.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "long stereo video streams",
+          "local_types": [
+            "data type",
+            "input data"
+          ],
+          "iri": "Entity-long_stereo_video_stream-Mention-1"
+        }
+      ],
+      "relevance": 0.56201171875
+    },
+    "Entity-cost_aggregation_algorithm": {
+      "node_id": "cost_aggregation_algorithm",
+      "disambiguation_index": 0,
+      "label": "cost aggregation algorithm",
+      "aliases": [
+        "cost aggregation algorithm"
+      ],
+      "types": [
+        "computing method",
+        "computer vision technique",
+        "algorithm",
+        "image processing technique",
+        "research method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method for combining or aggregating costs, typically used in computer vision applications such as image processing and object recognition.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "cost aggregation algorithm",
+          "local_types": [
+            "computing method",
+            "computer vision technique",
+            "algorithm",
+            "image processing technique",
+            "research method"
+          ],
+          "iri": "Entity-cost_aggregation_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.55859375
+    },
+    "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera": {
+      "node_id": "we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera",
+      "disambiguation_index": 0,
+      "label": "We further demonstrate synthesis from a freely translating virtual camera",
+      "aliases": [
+        "We further demonstrate synthesis from a freely translating virtual camera",
+        "synthesis from a freely translating virtual camera"
+      ],
+      "types": [
+        "demonstration",
+        "camera",
+        "virtual camera",
+        "method",
+        "technology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A demonstration of synthesizing images from a virtual camera that can translate freely.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "We further demonstrate synthesis from a freely translating virtual camera",
+          "local_types": [
+            "demonstration",
+            "camera",
+            "virtual camera"
+          ],
+          "iri": "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "synthesis from a freely translating virtual camera",
+          "local_types": [
+            "method",
+            "technology"
+          ],
+          "iri": "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera-Mention-2"
+        }
+      ],
+      "relevance": 0.55517578125
+    },
+    "Entity-temporal_artefact": {
+      "node_id": "temporal_artefact",
+      "disambiguation_index": 0,
+      "label": "temporal artefacts",
+      "aliases": [
+        "temporal artefacts"
+      ],
+      "types": [
+        "artefact",
+        "type"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Temporal errors or distortions that occur when rendering occlusions and novel views from long stereo video streams.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "temporal artefacts",
+          "local_types": [
+            "artefact",
+            "type"
+          ],
+          "iri": "Entity-temporal_artefact-Mention-1"
+        }
+      ],
+      "relevance": 0.55517578125
+    },
+    "Entity-virtual_camera": {
+      "node_id": "virtual_camera",
+      "disambiguation_index": 0,
+      "label": "virtual camera",
+      "aliases": [
+        "virtual camera"
+      ],
+      "types": [
+        "camera",
+        "computing device",
+        "computer-generated device",
+        "camera system",
+        "technology",
+        "device",
+        "digital camera"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computer-generated device that simulates a camera's view from an arbitrary location.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "virtual camera",
+          "local_types": [
+            "camera",
+            "computing device",
+            "computer-generated device",
+            "camera system",
+            "device",
+            "digital camera"
+          ],
+          "iri": "Entity-virtual_camera-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "virtual camera",
+          "local_types": [
+            "camera",
+            "technology"
+          ],
+          "iri": "Entity-virtual_camera-Mention-2"
+        }
+      ],
+      "relevance": 0.54638671875
+    },
+    "Entity-novel_algorithm": {
+      "node_id": "novel_algorithm",
+      "disambiguation_index": 0,
+      "label": "novel algorithm",
+      "aliases": [
+        "novel algorithm"
+      ],
+      "types": [
+        "algorithm",
+        "research method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A newly developed computational method or procedure for solving a specific problem or processing data.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "novel algorithm",
+          "local_types": [
+            "algorithm",
+            "research method"
+          ],
+          "iri": "Entity-novel_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.5087890625
+    },
+    "Entity-background_model": {
+      "node_id": "background_model",
+      "disambiguation_index": 0,
+      "label": "background model",
+      "aliases": [
+        "background model"
+      ],
+      "types": [
+        "image processing data",
+        "machine learning",
+        "digital media",
+        "computing concept",
+        "computer vision data",
+        "data structure",
+        "model",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical representation or framework used to analyze, process, or understand visual data.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "background model",
+          "local_types": [
+            "image processing data",
+            "machine learning",
+            "digital media",
+            "computing concept",
+            "computer vision data",
+            "data structure",
+            "model",
+            "computer vision"
+          ],
+          "iri": "Entity-background_model-Mention-1"
+        }
+      ],
+      "relevance": 0.50537109375
+    },
+    "Entity-teleconferencing_application": {
+      "node_id": "teleconferencing_application",
+      "disambiguation_index": 0,
+      "label": "teleconferencing applications",
+      "aliases": [
+        "teleconferencing applications"
+      ],
+      "types": [
+        "communication technology",
+        "video conferencing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Software systems or platforms designed for remote video and audio communication between multiple parties.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "teleconferencing applications",
+          "local_types": [
+            "communication technology",
+            "video conferencing"
+          ],
+          "iri": "Entity-teleconferencing_application-Mention-1"
+        }
+      ],
+      "relevance": 0.498291015625
+    },
+    "Entity-camera": {
+      "node_id": "camera",
+      "disambiguation_index": 0,
+      "label": "cameras",
+      "aliases": [
+        "two cameras",
+        "cameras"
+      ],
+      "types": [
+        "optical device",
+        "device",
+        "camera"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Visual imaging devices used for capturing and recording images or video.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "cameras",
+          "local_types": [
+            "device",
+            "optical device"
+          ],
+          "iri": "Entity-camera-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "two cameras",
+          "local_types": [
+            "device",
+            "camera"
+          ],
+          "iri": "Entity-camera-Mention-2"
+        }
+      ],
+      "relevance": 0.48193359375
+    },
+    "Entity-one-to-one_teleconferencing_application": {
+      "node_id": "one-to-one_teleconferencing_application",
+      "disambiguation_index": 0,
+      "label": "one-to-one teleconferencing applications",
+      "aliases": [
+        "one-to-one teleconferencing applications"
+      ],
+      "types": [
+        "communication technology",
+        "application",
+        "teleconference",
+        "telecommunication",
+        "teleconferencing"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Real-time video conferencing services that enable direct, individual connections between two users.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "one-to-one teleconferencing applications",
+          "local_types": [
+            "communication technology",
+            "application",
+            "teleconference",
+            "telecommunication",
+            "teleconferencing"
+          ],
+          "iri": "Entity-one-to-one_teleconferencing_application-Mention-1"
+        }
+      ],
+      "relevance": 0.474853515625
+    },
+    "Entity-flicker": {
+      "node_id": "flicker",
+      "disambiguation_index": 0,
+      "label": "flicker",
+      "aliases": [
+        "flicker"
+      ],
+      "types": [
+        "phenomenon",
+        "artifact"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Temporal artefacts, such as flicker, occurring during the rendering of occlusions and reduction",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "flicker",
+          "local_types": [
+            "phenomenon",
+            "artifact"
+          ],
+          "iri": "Entity-flicker-Mention-1"
+        }
+      ],
+      "relevance": 0.46923828125
+    },
+    "Entity-video_stream": {
+      "node_id": "video_stream",
+      "disambiguation_index": 0,
+      "label": "video streams",
+      "aliases": [
+        "video streams"
+      ],
+      "types": [
+        "digital media",
+        "media",
+        "computer vision data",
+        "visual data",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A sequence of video content transmitted digitally",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "video streams",
+          "local_types": [
+            "digital media",
+            "media",
+            "computer vision data",
+            "visual data",
+            "data"
+          ],
+          "iri": "Entity-video_stream-Mention-1"
+        }
+      ],
+      "relevance": 0.46533203125
+    },
+    "Entity-dynamic-programming": {
+      "node_id": "dynamic-programming",
+      "disambiguation_index": 0,
+      "label": "dynamic-programming",
+      "aliases": [
+        "dynamic-programming"
+      ],
+      "types": [
+        "method",
+        "computational complexity"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method of solving complex problems by breaking them down into smaller subproblems and using a recursive formula to find an optimal solution.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "dynamic-programming",
+          "local_types": [
+            "method",
+            "computational complexity"
+          ],
+          "iri": "Entity-dynamic-programming-Mention-1"
+        }
+      ],
+      "relevance": 0.459716796875
+    },
+    "Entity-algorithm": {
+      "node_id": "algorithm",
+      "disambiguation_index": 0,
+      "label": "algorithm",
+      "aliases": [
+        "algorithms",
+        "algorithm"
+      ],
+      "types": [
+        "software process",
+        "computing method",
+        "technique",
+        "computational method",
+        "method",
+        "methodology",
+        "computer program"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A step-by-step procedure for solving a problem or performing a computation, typically implemented as a set of instructions or rules.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "algorithm",
+          "local_types": [
+            "computing method",
+            "computational method",
+            "method",
+            "technique"
+          ],
+          "iri": "Entity-algorithm-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "algorithm",
+          "local_types": [
+            "computational method",
+            "software process"
+          ],
+          "iri": "Entity-algorithm-Mention-2"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "algorithm",
+          "local_types": [
+            "computer program",
+            "methodology"
+          ],
+          "iri": "Entity-algorithm-Mention-3"
+        }
+      ],
+      "relevance": 0.439697265625
+    },
+    "Entity-computer_monitor": {
+      "node_id": "computer_monitor",
+      "disambiguation_index": 0,
+      "label": "computer monitor",
+      "aliases": [
+        "computer monitor",
+        "a computer monitor"
+      ],
+      "types": [
+        "computer component",
+        "monitor",
+        "electronic display",
+        "display screen",
+        "device"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A device that displays visual information, typically used as a component of a computer system.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "computer monitor",
+          "local_types": [
+            "device",
+            "electronic display",
+            "monitor",
+            "display screen"
+          ],
+          "iri": "Entity-computer_monitor-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a computer monitor",
+          "local_types": [
+            "monitor",
+            "computer component"
+          ],
+          "iri": "Entity-computer_monitor-Mention-2"
+        }
+      ],
+      "relevance": 0.437744140625
+    },
+    "Entity-minimum-cost_surface": {
+      "node_id": "minimum-cost_surface",
+      "disambiguation_index": 0,
+      "label": "minimum-cost surface",
+      "aliases": [
+        "minimum-cost surface"
+      ],
+      "types": [
+        "concept",
+        "mathematics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical concept representing the optimal surface that minimizes costs or energies.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "minimum-cost surface",
+          "local_types": [
+            "concept",
+            "mathematics"
+          ],
+          "iri": "Entity-minimum-cost_surface-Mention-1"
+        }
+      ],
+      "relevance": 0.42919921875
+    },
+    "Entity-extended_conversational_sequence": {
+      "node_id": "extended_conversational_sequence",
+      "disambiguation_index": 0,
+      "label": "extended conversational sequences",
+      "aliases": [
+        "extended conversational sequences"
+      ],
+      "types": [
+        "data set",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A collection of conversations that are prolonged and detailed, typically involving multiple speakers.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "extended conversational sequences",
+          "local_types": [
+            "data set",
+            "information"
+          ],
+          "iri": "Entity-extended_conversational_sequence-Mention-1"
+        }
+      ],
+      "relevance": 0.394775390625
+    },
+    "Entity-technique": {
+      "node_id": "technique",
+      "disambiguation_index": 0,
+      "label": "technique",
+      "aliases": [
+        "technique"
+      ],
+      "types": [
+        "methodology",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic method or approach used to achieve a specific goal, outcome, or result.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "technique",
+          "local_types": [
+            "methodology",
+            "approach"
+          ],
+          "iri": "Entity-technique-Mention-1"
+        }
+      ],
+      "relevance": 0.389404296875
+    },
+    "Entity-example": {
+      "node_id": "example",
+      "disambiguation_index": 0,
+      "label": "Examples",
+      "aliases": [
+        "Examples"
+      ],
+      "types": [
+        "dataset",
+        "example",
+        "illustration"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A collection of instances or cases used to illustrate a concept, idea, or phenomenon",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Examples",
+          "local_types": [
+            "dataset",
+            "example",
+            "illustration"
+          ],
+          "iri": "Entity-example-Mention-1"
+        }
+      ],
+      "relevance": 0.38525390625
+    },
+    "Entity-demonstration": {
+      "node_id": "demonstration",
+      "disambiguation_index": 0,
+      "label": "demonstrations",
+      "aliases": [
+        "demonstrations"
+      ],
+      "types": [
+        "research outcome"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Public displays or exhibitions that illustrate a concept, process, or outcome",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "demonstrations",
+          "local_types": [
+            "research outcome"
+          ],
+          "iri": "Entity-demonstration-Mention-1"
+        }
+      ],
+      "relevance": 0.368896484375
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "research paper",
+        "academic work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written work presenting original research or analysis in an academic field",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "paper",
+          "local_types": [
+            "research paper",
+            "academic work"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.34130859375
+    }
+  },
+  "summary": "A new algorithm is proposed for novel view generation in one-to-one teleconferencing applications . Given the video streams acquired by two cameras placed on either side of a computer monitor , the proposed algorithm synthesises images from a virtual camera in arbitrary position -LRB- typically located within the monitor -RRB- to facilitate eye contact . Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation . The two main contributions of this paper are : i -RRB- a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii -RRB- a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface . Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB- ; and a cost aggregation algorithm that acts directly on our three-dimensional matching cost space . Examples are given that demonstrate the robustness of the new algorithm to spatial and temporal artefacts for long stereo video streams . These include demonstrations of synthesis of cyclopean views of extended conversational sequences . We further demonstrate synthesis from a freely translating virtual camera .",
+  "triples": [
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-proposed_for",
+      "Entity-novel_view_generation"
+    ],
+    [
+      "Entity-one-to-one_teleconferencing_application",
+      "Predicate-uses",
+      "Entity-novel_view_generation_in_one-to-one_teleconferencing_application"
+    ],
+    [
+      "Entity-video_stream",
+      "Predicate-acquired_by",
+      "Entity-camera"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-synthesises",
+      "Entity-image_from_a_virtual_camera"
+    ],
+    [
+      "Entity-technique",
+      "Predicate-based_on",
+      "Entity-stereo_algorithm"
+    ],
+    [
+      "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation",
+      "Predicate-is",
+      "Entity-technique"
+    ],
+    [
+      "Entity-three-plane_graph",
+      "Predicate-encourages",
+      "Entity-correct_occlusion_labeling"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model"
+    ],
+    [
+      "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation",
+      "Predicate-is_robust_to",
+      "Entity-spatial_and_temporal_artefact"
+    ],
+    [
+      "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation",
+      "Predicate-works_well_with",
+      "Entity-long_stereo_video_stream"
+    ],
+    [
+      "Entity-these",
+      "Predicate-include",
+      "Entity-extended_conversational_sequence"
+    ],
+    [
+      "Entity-we",
+      "Predicate-demonstrate",
+      "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera"
+    ],
+    [
+      "Entity-the_two_main_contribution_of_this_paper_are__i_-rrb-_a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming__that_encourages_correct_occlusion_labeling__ii_-rrb-_a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface",
+      "Predicate-uses",
+      "Entity-synthesis_of_cyclopean_view"
+    ],
+    [
+      "Entity-synthesis_of_cyclopean_view",
+      "Predicate-synthesises",
+      "Entity-the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact"
+    ],
+    [
+      "Entity-synthesis_of_cyclopean_view",
+      "Predicate-presents",
+      "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space"
+    ],
+    [
+      "Entity-the_two_main_contribution_of_this_paper_are__i_-rrb-_a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming__that_encourages_correct_occlusion_labeling__ii_-rrb-_a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface",
+      "Predicate-presents",
+      "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space"
+    ],
+    [
+      "Entity-the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact",
+      "Predicate-presents",
+      "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space"
+    ],
+    [
+      "Entity-the_two_main_contribution_of_this_paper_are__i_-rrb-_a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming__that_encourages_correct_occlusion_labeling__ii_-rrb-_a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface",
+      "Predicate-facilitates",
+      "Entity-the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-virtual_camera",
+      "skos:broader",
+      "Entity-camera"
+    ],
+    [
+      "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space",
+      "skos:broader",
+      "Entity-temporal_maintenance"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-novel_view_generation",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera",
+      "skos:broader",
+      "Entity-virtual_camera"
+    ],
+    [
+      "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation",
+      "skos:broader",
+      "Entity-novel_view_generation"
+    ],
+    [
+      "Entity-a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-novel_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-synthesis_of_cyclopean_view",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-stereo_algorithm",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-algorithm",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-the_proposed_algorithm_synthesis_image_from_a_virtual_camera_in_arbitrary_position_-lrb-_typically_located_within_the_monitor_-rrb-_to_facilitate_eye_contact",
+      "skos:broader",
+      "Entity-virtual_camera"
+    ],
+    [
+      "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space",
+      "skos:broader",
+      "Entity-background_model"
+    ],
+    [
+      "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera",
+      "skos:broader",
+      "Entity-camera"
+    ],
+    [
+      "Entity-furthermore__this_paper_present_a_novel_algorithm_for_the_temporal_maintenance_of_a_background_model_to_enhance_the_rendering_of_occlusion_and_reduce_temporal_artefact_-lrb-_flicker_-rrb-__and_a_cost_aggregation_algorithm_that_act_directly_on_our_three-dimensional_matching_cost_space",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-stereo_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-cost_aggregation_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-three-dimensional_matching_cost_space",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera",
+      "skos:broader",
+      "Entity-demonstration"
+    ],
+    [
+      "Entity-video_stream_acquired_by_two_camera_placed_on_either_side_of_a_computer_monitor",
+      "skos:broader",
+      "Entity-camera"
+    ],
+    [
+      "Entity-the_two_main_contribution_of_this_paper_are__i_-rrb-_a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming__that_encourages_correct_occlusion_labeling__ii_-rrb-_a_compact_geometric_derivation_for_novel-view_synthesis_by_direct_projection_of_the_minimum-cost_surface",
+      "skos:broader",
+      "Entity-dynamic-programming"
+    ],
+    [
+      "Entity-three-plane_graph",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-we_further_demonstrate_synthesis_from_a_freely_translating_virtual_camera",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-our_technique_is_based_on_an_improved__dynamic-programming__stereo_algorithm_for_efficient_novel-view_generation",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-dynamic-programming",
+      "skos:broader",
+      "Entity-technique"
+    ]
+  ],
+  "predicates": {
+    "Predicate-proposed_for": {
+      "label": "proposed for",
+      "description": "The predicate 'proposed for' indicates a relationship where an entity (the subject) has been suggested or put forward as being suitable or applicable to achieve, accomplish, or facilitate something else (the object).",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates a relationship of utilization or employment between the subject and object. It suggests that the subject exploits, employs, or makes use of the object to achieve some purpose or goal.",
+      "disambiguation_index": 0
+    },
+    "Predicate-acquired_by": {
+      "label": "acquired by",
+      "description": "The predicate 'acquired by' indicates a relationship of possession or origin between the subject and object. It suggests that the subject has been obtained or gained through some means specified by the object, which can be an entity, process, or mechanism.",
+      "disambiguation_index": 0
+    },
+    "Predicate-synthesises": {
+      "label": "synthesises",
+      "description": "To synthesise means to combine or generate something (typically an image, sound, or data) by bringing together different elements or sources. The subject of this predicate is responsible for creating a new entity that combines features from multiple inputs.",
+      "disambiguation_index": 0
+    },
+    "Predicate-based_on": {
+      "label": "based on",
+      "description": "The predicate 'based on' indicates a relationship where the subject (e.g. technique) relies on or has its foundation in the object (e.g. stereo algorithm). It suggests that the subject's characteristics, principles, or methods are derived from or grounded in the properties of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' indicates a state of being or identity between two entities. It connects the subject to an attribute, characteristic, or quality that defines its nature or essence.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encourages": {
+      "label": "encourages",
+      "description": "The predicate 'encourages' indicates a relationship where the subject facilitates or promotes the object's occurrence, existence, or development. In general, it suggests that the subject provides support, motivation, or an environment conducive to the emergence of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject provides or offers something to someone or something else. It implies a sense of introduction, display, or exposition, where the subject brings forth or makes available the object for consideration, examination, or use.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_robust_to": {
+      "label": "is robust to",
+      "description": "The predicate 'is robust to' indicates that the subject (a technique, method, or system) can withstand or tolerate certain types of disturbances, errors, or imperfections represented by the object. It suggests a level of resilience and fault tolerance, implying that the subject is able to function effectively despite the presence of these obstacles.",
+      "disambiguation_index": 0
+    },
+    "Predicate-works_well_with": {
+      "label": "works well with",
+      "description": "Indicates a harmonious relationship or compatibility between two entities (subject and object), suggesting that the subject's properties or characteristics are suitable for or effective with the object, resulting in a positive outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-include": {
+      "label": "include",
+      "description": "The predicate 'include' indicates that the subject encompasses or comprises a part of the object. It suggests a relationship where the subject contains, embodies, or has as its scope the information, characteristics, or aspects described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-demonstrate": {
+      "label": "demonstrate",
+      "description": "To demonstrate means to show or illustrate something through action, explanation, or example. The predicate 'demonstrate' connects the subject and object by indicating that the subject (person, entity, etc.) is actively presenting or showcasing information, skills, or concepts to others, often with the intention of clarifying, illustrating, or proving a point.",
+      "disambiguation_index": 0
+    },
+    "Predicate-facilitates": {
+      "label": "facilitates",
+      "description": "The predicate 'facilitates' indicates that the subject enables or makes easier the occurrence of the object, often by providing a means or mechanism for achieving it.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or member of a more general category or class denoted by the object. In other words, it establishes a hierarchical relationship between the subject and the object, where the subject is a narrower concept within the scope of the broader term.",
+      "disambiguation_index": 0
+    }
+  }
+}

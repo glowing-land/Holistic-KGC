@@ -1,0 +1,59 @@
+{
+  "iri": "Paper-63",
+  "title": "CVPR_2008_256_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-63-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-63-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-1",
+              "text": "Given an object model and a black-box measure of similarity between the model and candidate targets , we consider visual object tracking as a numerical optimization problem ."
+            },
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-2",
+              "text": "During normal tracking conditions when the object is visible from frame to frame , local optimization is used to track the local mode of the similarity measure in a parameter space of translation , rotation and scale ."
+            },
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-3",
+              "text": "However , when the object becomes partially or totally occluded , such local tracking is prone to failure , especially when common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames ."
+            },
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-4",
+              "text": "To recover from these inevitable tracking failures , we consider object detection as a global optimization problem and solve it via Adaptive Simulated Annealing -LRB- ASA -RRB- , a method that avoids becoming trapped at local modes and is much faster than exhaustive search ."
+            },
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-5",
+              "text": "As a Monte Carlo approach , ASA stochastically samples the parameter space , in contrast to local deterministic search ."
+            },
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-6",
+              "text": "We apply cluster analysis on the sampled parameter space to redetect the object and renew the local tracker ."
+            },
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-7",
+              "text": "Our numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions ."
+            },
+            {
+              "iri": "Paper-63-Section-1-Paragraph-1-Sentence-8",
+              "text": "Our approach outperforms state-of-the-art trackers on the VIVID benchmark datasets ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Given an object model and a black-box measure of similarity between the model and candidate targets , we consider visual object tracking as a numerical optimization problem . During normal tracking conditions when the object is visible from frame to frame , local optimization is used to track the local mode of the similarity measure in a parameter space of translation , rotation and scale . However , when the object becomes partially or totally occluded , such local tracking is prone to failure , especially when common prediction techniques like the Kalman filter do not provide a good estimate of object parameters in future frames . To recover from these inevitable tracking failures , we consider object detection as a global optimization problem and solve it via Adaptive Simulated Annealing -LRB- ASA -RRB- , a method that avoids becoming trapped at local modes and is much faster than exhaustive search . As a Monte Carlo approach , ASA stochastically samples the parameter space , in contrast to local deterministic search . We apply cluster analysis on the sampled parameter space to redetect the object and renew the local tracker . Our numerical hybrid local and global mode-seeking tracker is validated on challenging airborne videos with heavy occlusion and large camera motions . Our approach outperforms state-of-the-art trackers on the VIVID benchmark datasets .",
+  "kg2text": [
+    "Adaptive Simulated Annealing (ASA) significantly improves local tracking by helping to identify the local mode of the similarity measure, which is crucial for effective tracking. Local tracking utilizes this local mode to maintain the position of the object being tracked. ASA employs a numerical hybrid local and global mode-seeking tracker, an advanced algorithm that combines local tracking with global optimization techniques, allowing it to track the local mode of the similarity measure effectively. The local tracker is renewed by the object being tracked, and local optimization is used to track the local mode of the similarity measure under various tracking conditions, particularly during normal tracking conditions when the object remains visible. This approach has been shown to outperform VIVID benchmark datasets and state-of-the-art trackers, demonstrating its robustness in challenging scenarios, such as those presented by challenging airborne videos. Additionally, ASA avoids becoming trapped at local modes, which enhances its performance in solving object detection tasks. Overall, visual object tracking is framed as a numerical optimization problem, with the local mode of the similarity measure being a broader term under the umbrella of similarity measures.",
+    "The black-box measure of similarity has a broader term known as the similarity measure, which is utilized within the parameter spaces of rotation, translation, and scale. In the context of visual object tracking, Adaptive Simulated Annealing (ASA) samples the parameter space to solve global optimization problems, making it a faster alternative to exhaustive search methods. Additionally, object detection is considered a global optimization problem and falls under the broader category of numerical optimization problems. Cluster analysis plays a crucial role in redetecting objects and is applied to the sampled parameter space, which encompasses various parameters for tracking. Common prediction techniques, such as the Kalman filter, are employed to estimate object parameters, although they may struggle under conditions of heavy occlusion and large camera motions, often present in challenging airborne videos. Furthermore, the object model has a measure of similarity with the black-box measure of similarity, highlighting the importance of these metrics in the optimization and tracking processes."
+  ],
+  "times": [
+    6.1434102058410645
+  ]
+}

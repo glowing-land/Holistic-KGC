@@ -1,0 +1,362 @@
+{
+  "iri": "Paper-TNNT_The_Named_Entity_Recognition_Toolkit",
+  "title": "TNNT: The Named Entity Recognition Toolkit",
+  "authors": [
+    "Sandaru Seneviratne",
+    "Sergio J. Rodr\u00edguez M\u00e9ndez",
+    "Xuecheng Zhang",
+    "Pouya G. Omran",
+    "Kerry Taylor",
+    "Armin Haller"
+  ],
+  "keywords": [
+    "information extraction",
+    "named entity recognition",
+    "natural language processing",
+    "knowledge graph construction pipeline"
+  ],
+  "sections": [
+    {
+      "iri": "Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-1",
+              "text": "Extraction of categorised named entities from text is a complex task given the availability of a variety of Named Entity Recognition (NER) models and the unstructured information encoded in different source document formats."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-2",
+              "text": "Processing the documents to extract text, identifying suitable NER models for a task, and obtaining statistical information is important in data analysis to make informed decisions."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-3",
+              "text": "This paper presents1 TNNT, a toolkit that automates the extraction of categorised named entities from unstructured information encoded in source documents, using diverse state-of-the-art (SOTA) Natural Language Processing (NLP) tools and NER models."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-4",
+              "text": "TNNT integrates 21 different NER models as part of a Knowledge Graph Construction Pipeline (KGCP) that takes a document set as input and processes it based on the defined settings, applying the selected blocks of NER models to output the results."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-5",
+              "text": "The toolkit generates all results with an integrated summary of the extracted entities, enabling enhanced data analysis to support the KGCP, and also, to aid further NLP tasks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-2",
+      "subtitle": "Introduction",
+      "paragraphs": [
+        {
+          "iri": "Section-2-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-1",
+              "text": "NER is a major component in NLP systems to extract information from unstructured text."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-2",
+              "text": "Recent advances in deep learning and NLP have resulted in the availability of a large number of NER tools and models for use which have enabled NER of different categories from text."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-3",
+              "text": "However, given the existence of a wide range of document formats, extracting information is difficult considering the preprocessing required prior to using NER tools and the challenge of identifying which models to use."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-4",
+              "text": "It is desirable to have a system that can provide (1) a uniform processing pipeline of different document formats, (2) easy selection of different NLP-NER models or tools, (3) an integrated summary of the entities identified by the models, and (4) basic functionalities to access the results; in order to enhance data analysis with accurate decisions and to provide a thorough overview of the data used."
+            }
+          ]
+        },
+        {
+          "iri": "Section-2-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-1",
+              "text": "This paper introduces TNNT2 ."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-2",
+              "text": "Its main goal is to automate the extraction of categorised named entities from the unstructured information encoded in the source documents, using a wide range of recent SOTA NLP-NER tools and models."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-3",
+              "text": "TNNT is integrated with the \u201cMetadata Extractor & Loader\" (MEL) [10], which enables extraction of metadata and content-based information from various file formats such as .pdf, .docx, .xlsx, .msg, .csv, .txt, and .zip."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-4",
+              "text": "We have brought together the existing SOTA NER models and NLP tools under one toolkit, enabling effortless NER analysis for unstructured content-based information."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-5",
+              "text": "The motivations of the toolkit are: (1) to be able to easily pre-process documents for NER analysis, (2) to be able to easily use documents with different formats for NER analysis, (3) to hide usage variations across NER models and NLP tools, and bring them under one uniform pipeline, and (4) to provide a framework for analysing results from different NER models and NLP tools."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-6",
+              "text": "Having several SOTA models under one umbrella provides many benefits such as their easy execution and comparison, and, most interestingly, it can help to identify the most suited block of NER models for a specific task or input domain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-3",
+      "subtitle": "Related Work",
+      "paragraphs": [
+        {
+          "iri": "Section-3-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-1",
+              "text": "There are a wide range of libraries, such as NLTK [7], spaCy3, Stanford NER [8], Stanza [9], and Flair [1], that provide models facilitating NER."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-2",
+              "text": "To the best of our knowledge, there is no toolkit or system that unifies under one uniform pipeline several SOTA tools and models for NER: TNNT fills this void."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-4",
+      "subtitle": "Core Features",
+      "paragraphs": [
+        {
+          "iri": "Section-4-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-1",
+              "text": "TNNT integrates 21 different NER models from 9 SOTA NLP tools (Table 1)."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-2",
+              "text": "Some of these models are based on rule-based and statistical approaches whereas others are based on deep learning techniques4 ."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-3",
+              "text": "These 21 models can identify up to 18 categories (Table 2) of named entities in text."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-4",
+              "text": "The system is capable of processing different models sequentially based on the input settings (processing blocks) defined by the user."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-5",
+              "text": "All textual content extracted by MEL is processable for TNNT with a hybrid processing data flow, either from/to a document store or via direct processing from the file system."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-1",
+              "text": "For data analysis tasks, TNNT keeps general statistics of the models and generates an integrated summary of all the identified entities."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-2",
+              "text": "The results are JSON files (one for each processed source document) with the list of models, categories, and identified entities."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-3",
+              "text": "For each recognised entity, the toolkit retrieves a set of information specific to the entity ."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-4",
+              "text": "A built-in RESTful API provides various features to access, expand, complement, and co-relate the NER results by performing other NLP tasks, such as Part-Of-Speech (POS) tagging, dependency parsing, and co-reference resolution."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-5",
+              "text": "This comprehensive information facilitates the apprehension of the models as well the data used for NLP tasks in general and, in particular, for tasks associated with knowledge building."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-5",
+      "subtitle": "Architecture",
+      "paragraphs": [
+        {
+          "iri": "Section-5-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-1",
+              "text": "TNNT was designed to systematically apply various NER models to analyse textual content extracted via MEL."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-2",
+              "text": "Whereas the latter implements several data extraction operations, the former provides a modular and extensible framework for NER analysis using multiple models and NLP tools."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-3",
+              "text": "In a nutshell, TNNT is fully integrated with MEL as shown in Figure 1."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-4",
+              "text": "The toolkit's processing model is depicted in Figure 2."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-5",
+              "text": "The first two blocks are orchestrated by MEL which establishes how TNNT will process a block sequence of NER models to apply over the input dataset (either from a document store or from a direct document processing immediately after the metadata extraction task)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-6",
+      "subtitle": "NER Task",
+      "paragraphs": [
+        {
+          "iri": "Section-6-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-1",
+              "text": "TNNT's inner architecture is composed of a pre-processing module and one distinct module for each implemented NLP-NER tool and models."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-2",
+              "text": "Based on the input document formats (file extensions), the pre-processing module takes the extracted text data by MEL and cleans/prepares it for the NER analysis task."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-3",
+              "text": "The core analysis task on the input data is sequentially performed for all the selected NER models."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-4",
+              "text": "TNNT's modular design enables a smooth selection and processing mechanism of the NER models."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-5",
+              "text": "For each recognised entity, the toolkit retrieves its context information, and start/end indices in the document text."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-6",
+              "text": "Furthermore, it provides statistics of the entities identified by each model for respective categories along with the start/end timestamps and the duration taken by the models to run the NER task."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-7",
+              "text": "Table 3 gives an overview of the results obtained using some of the models for two publicly available datasets: CONLL 20036 and NIST IE-ER7 ."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-8",
+              "text": "The toolkit has a set of comprehensive configuration files that specify all the required details and processing parameters for each implemented NLP tool and NER model."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-9",
+              "text": "Users can experiment with various models by simply defining the desired settings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-7",
+      "subtitle": "RESTful API for NER results",
+      "paragraphs": [
+        {
+          "iri": "Section-7-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-1",
+              "text": "TNNT's RESTful API refines and improves the NER results by adding more processing layers of abstraction to perform several useful operations, such as POS tagging, dependency parsing, coreference resolution, aggregations, descriptive stats, and browsing capabilities, as shown in Figure 3."
+            },
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-2",
+              "text": "This module allows users to smoothly traverse and retrieve the NER results."
+            },
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-3",
+              "text": "Its specifications and usage can be found at the project's w3id URI."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-8",
+      "subtitle": "Conclusion and Future Work",
+      "paragraphs": [
+        {
+          "iri": "Section-8-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-8-Paragraph-1-Sentence-1",
+              "text": "TNNT provides a simple mechanism and uniform pipeline to extract categorised named entities from unstructured data using a diverse range of SOTA NLP tools and NER models."
+            },
+            {
+              "iri": "Section-8-Paragraph-1-Sentence-2",
+              "text": "This tool is still in its early stages of development."
+            },
+            {
+              "iri": "Section-8-Paragraph-1-Sentence-3",
+              "text": "It has been tested using thousands of different document formats and datasets as part of the \u201cAustralian Government Records Interoperability Framework\" (AGRIF) project [4]."
+            },
+            {
+              "iri": "Section-8-Paragraph-1-Sentence-4",
+              "text": "There are ongoing plans to integrate more NLP-NER tools and models into the architecture along with continuing evolving the RESTful API with complementary NLP tasks to enrich the NER results, in order to support KGCP tasks."
+            },
+            {
+              "iri": "Section-8-Paragraph-1-Sentence-5",
+              "text": "The major contributions of this toolkit are: (1) the ability to process different source document formats for NER; (2) the availability of 21 different SOTA NER models integrated into one system, enabling easy selection of models for NER; (3) the provision of an integrated summary of the results from different models; and (4) a RESTful API that enables easy access to NLP tasks that enrich the NER results from the models."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Extraction of categorised named entities from text is a complex task given the availability of a variety of Named Entity Recognition (NER) models and the unstructured information encoded in different source document formats. Processing the documents to extract text, identifying suitable NER models for a task, and obtaining statistical information is important in data analysis to make informed decisions. This paper presents1 TNNT, a toolkit that automates the extraction of categorised named entities from unstructured information encoded in source documents, using diverse state-of-the-art (SOTA) Natural Language Processing (NLP) tools and NER models. TNNT integrates 21 different NER models as part of a Knowledge Graph Construction Pipeline (KGCP) that takes a document set as input and processes it based on the defined settings, applying the selected blocks of NER models to output the results. The toolkit generates all results with an integrated summary of the extracted entities, enabling enhanced data analysis to support the KGCP, and also, to aid further NLP tasks.\n\nNER is a major component in NLP systems to extract information from unstructured text. Recent advances in deep learning and NLP have resulted in the availability of a large number of NER tools and models for use which have enabled NER of different categories from text. However, given the existence of a wide range of document formats, extracting information is difficult considering the preprocessing required prior to using NER tools and the challenge of identifying which models to use. It is desirable to have a system that can provide (1) a uniform processing pipeline of different document formats, (2) easy selection of different NLP-NER models or tools, (3) an integrated summary of the entities identified by the models, and (4) basic functionalities to access the results; in order to enhance data analysis with accurate decisions and to provide a thorough overview of the data used.\n\nThis paper introduces TNNT2 . Its main goal is to automate the extraction of categorised named entities from the unstructured information encoded in the source documents, using a wide range of recent SOTA NLP-NER tools and models. TNNT is integrated with the \u201cMetadata Extractor & Loader\" (MEL) [10], which enables extraction of metadata and content-based information from various file formats such as .pdf, .docx, .xlsx, .msg, .csv, .txt, and .zip. We have brought together the existing SOTA NER models and NLP tools under one toolkit, enabling effortless NER analysis for unstructured content-based information. The motivations of the toolkit are: (1) to be able to easily pre-process documents for NER analysis, (2) to be able to easily use documents with different formats for NER analysis, (3) to hide usage variations across NER models and NLP tools, and bring them under one uniform pipeline, and (4) to provide a framework for analysing results from different NER models and NLP tools. Having several SOTA models under one umbrella provides many benefits such as their easy execution and comparison, and, most interestingly, it can help to identify the most suited block of NER models for a specific task or input domain.\n\nThere are a wide range of libraries, such as NLTK [7], spaCy3, Stanford NER [8], Stanza [9], and Flair [1], that provide models facilitating NER. To the best of our knowledge, there is no toolkit or system that unifies under one uniform pipeline several SOTA tools and models for NER: TNNT fills this void.\n\nTNNT integrates 21 different NER models from 9 SOTA NLP tools (Table 1). Some of these models are based on rule-based and statistical approaches whereas others are based on deep learning techniques4 . These 21 models can identify up to 18 categories (Table 2) of named entities in text. The system is capable of processing different models sequentially based on the input settings (processing blocks) defined by the user. All textual content extracted by MEL is processable for TNNT with a hybrid processing data flow, either from/to a document store or via direct processing from the file system.\n\nFor data analysis tasks, TNNT keeps general statistics of the models and generates an integrated summary of all the identified entities. The results are JSON files (one for each processed source document) with the list of models, categories, and identified entities. For each recognised entity, the toolkit retrieves a set of information specific to the entity . A built-in RESTful API provides various features to access, expand, complement, and co-relate the NER results by performing other NLP tasks, such as Part-Of-Speech (POS) tagging, dependency parsing, and co-reference resolution. This comprehensive information facilitates the apprehension of the models as well the data used for NLP tasks in general and, in particular, for tasks associated with knowledge building.\n\nTNNT was designed to systematically apply various NER models to analyse textual content extracted via MEL. Whereas the latter implements several data extraction operations, the former provides a modular and extensible framework for NER analysis using multiple models and NLP tools. In a nutshell, TNNT is fully integrated with MEL as shown in Figure 1. The toolkit's processing model is depicted in Figure 2. The first two blocks are orchestrated by MEL which establishes how TNNT will process a block sequence of NER models to apply over the input dataset (either from a document store or from a direct document processing immediately after the metadata extraction task).\n\nTNNT's inner architecture is composed of a pre-processing module and one distinct module for each implemented NLP-NER tool and models. Based on the input document formats (file extensions), the pre-processing module takes the extracted text data by MEL and cleans/prepares it for the NER analysis task. The core analysis task on the input data is sequentially performed for all the selected NER models. TNNT's modular design enables a smooth selection and processing mechanism of the NER models. For each recognised entity, the toolkit retrieves its context information, and start/end indices in the document text. Furthermore, it provides statistics of the entities identified by each model for respective categories along with the start/end timestamps and the duration taken by the models to run the NER task. Table 3 gives an overview of the results obtained using some of the models for two publicly available datasets: CONLL 20036 and NIST IE-ER7 . The toolkit has a set of comprehensive configuration files that specify all the required details and processing parameters for each implemented NLP tool and NER model. Users can experiment with various models by simply defining the desired settings.\n\nTNNT's RESTful API refines and improves the NER results by adding more processing layers of abstraction to perform several useful operations, such as POS tagging, dependency parsing, coreference resolution, aggregations, descriptive stats, and browsing capabilities, as shown in Figure 3. This module allows users to smoothly traverse and retrieve the NER results. Its specifications and usage can be found at the project's w3id URI.\n\nTNNT provides a simple mechanism and uniform pipeline to extract categorised named entities from unstructured data using a diverse range of SOTA NLP tools and NER models. This tool is still in its early stages of development. It has been tested using thousands of different document formats and datasets as part of the \u201cAustralian Government Records Interoperability Framework\" (AGRIF) project [4]. There are ongoing plans to integrate more NLP-NER tools and models into the architecture along with continuing evolving the RESTful API with complementary NLP tasks to enrich the NER results, in order to support KGCP tasks. The major contributions of this toolkit are: (1) the ability to process different source document formats for NER; (2) the availability of 21 different SOTA NER models integrated into one system, enabling easy selection of models for NER; (3) the provision of an integrated summary of the results from different models; and (4) a RESTful API that enables easy access to NLP tasks that enrich the NER results from the models.",
+  "kg2text": [
+    "The paper introduces TNNT, a toolkit that automates the extraction of categorized named entities from unstructured text. This toolkit integrates state-of-the-art NLP tools and models for Named Entity Recognition (NER), including nine SOTA NLP tools. The system utilizes these tools to process extracted text data and automate the extraction of entities. Furthermore, TNNT is a type of toolkit that has been designed as part of a broader project focused on named entity recognition.",
+    "The TNNT toolkit, a research initiative focused on automating the extraction of categorized named entities from unstructured text using various state-of-the-art Natural Language Processing models. This paper introduces TNNT, which integrates nine SOTA NLP tools to extract entities classified into distinct categories from diverse document formats. The framework for analysing results from different NER models and NLP tools enables users to streamline the analysis of extracted entities. The primary objective of this toolkit is to automate the extraction of categorized named entities from unstructured information in various document formats, utilizing a range of state-of-the-art Natural Language Processing and Named Entity Recognition models.",
+    "The TNNT toolkit integrates a list of models to automate the extraction of categorized named entities from unstructured documents. This paper introduces TNNT, which facilitates uniform processing pipelines for different document formats and enables seamless integration with various state-of-the-art NLP-NER tools and models. The toolkit automates the extraction of identified entities from text data and provides an integrated summary of these extracted entities. Additionally, SOTA tools and models for NER integrate multiple models and NLP tools to extract categorized named entities from unstructured information. TNNT is a component of the broader term 'tools' and enables enhanced data analysis.",
+    "The TNNT toolkit, a comprehensive system designed to automate the extraction of categorized named entities from unstructured documents. It integrates state-of-the-art NLP-NER tools and models, including nine SOTA NLP tools that process extracted text data. The toolkit provides a mechanism for extracting textual content using MEL, which enables it to be processed for named entity recognition tasks. TNNT also utilizes various NER models and NLP tools to identify and extract entities classified into distinct categories from unstructured textual data. Furthermore, the framework for analysing results from different NER models and NLP tools facilitates the evaluation and comparison of outputs generated by these state-of-the-art models and tools.",
+    "The TNNT toolkit enables a selection and processing mechanism that automates the extraction of categorized named entities from unstructured text using various state-of-the-art Natural Language Processing tools. This toolkit aids further NLP tasks by providing a framework for analysing results from different Named Entity Recognition models and Natural Language Processing tools. The goal is to automate the extraction of categorized named entities from source documents, which are processed through a uniform pipeline that integrates multiple models and NLP tools. TNNT provides a modular and extensible framework that supports various document formats, including .pdf, .docx, .xlsx, .msg, .csv, .txt, and .zip.",
+    "The TNNT toolkit, designed to automate named entity recognition (NER), integrates multiple state-of-the-art NER models and enables uniform processing pipelines for various document formats. With its comprehensive framework, users can select from a list of 21 different SOTA NER models or utilize the integrated Metadata Extractor & Loader tool to extract metadata and content-based information from diverse file types. The toolkit's capabilities facilitate seamless integration with multiple models and NLP tools, allowing for systematic analysis of extracted text data. Ultimately, TNNT provides a system that automates entity extraction from documents, offering enhanced data analysis through its uniform processing pipeline.",
+    "The TNNT toolkit generates results by applying various state-of-the-art NLP-NER tools and models to extract categorized named entities from unstructured text data. Designed to utilize multiple models and NLP tools, the project enables users to streamline analysis of extracted entities across thousands of different document formats and datasets. The system processes extracted text data using a framework for analysing results from different NER models and NLP tools, facilitating evaluation and comparison of outputs. Ultimately, the goal is to automate extraction of categorized named entities from unstructured information.",
+    "The TNNT toolkit, a comprehensive system designed to automate the extraction of categorized named entities from unstructured documents. Its primary goal is to refine and improve NER results by integrating various state-of-the-art models and tools. The toolkit processes unstructured content-based information using multiple models and NLP tools, enabling seamless integration with different document formats through its uniform processing pipeline. This framework facilitates the evaluation of outputs generated by diverse NER models and NLP tools, supporting users in streamlining their analysis of extracted entities.",
+    "The TNNT toolkit, a comprehensive system for automating named entity recognition (NER), provides a framework for analysing results from different NER models and NLP tools. This framework facilitates the extraction of categorized named entities from unstructured text data extracted from various document formats. The system's goal is to automate the extraction process using state-of-the-art NLP-NER tools and models, which are integrated within its uniform processing pipeline for seamless analysis. By leveraging multiple models and NLP tools, TNNT enables users to streamline their workflow by selecting and configuring different NER models for extracting categorized named entities from unstructured text data.",
+    "The TNNT toolkit, a comprehensive system for automating the extraction of categorized named entities from unstructured information, integrates various state-of-the-art NLP-NER models to facilitate uniform processing pipelines across different document formats. The project's primary objective is to automate the extraction of entities from source documents using these SOTA tools and models. By retrieving specific details about each recognized entity, TNNT enables users to streamline analysis tasks. Moreover, the toolkit provides a framework for analyzing results from diverse NER models and NLP tools, allowing for seamless integration with various document formats.",
+    "The TNNT toolkit automates the extraction of categorized named entities from unstructured text using various state-of-the-art Natural Language Processing tools and Named Entity Recognition models. The project implements a uniform processing pipeline for different document formats, utilizing multiple NER models to extract entities from source documents. This framework supports the goal of extracting categorized named entities from unstructured content-based information. By leveraging suitable NER models, TNNT enables users to streamline the analysis of extracted entities across various document types.",
+    "The TNNT toolkit provides a framework for analysing results from different NER models and NLP tools, which enables users to streamline the analysis of extracted entities from diverse document formats. This framework facilitates the evaluation and comparison of outputs generated by various state-of-the-art Named Entity Recognition models and Natural Language Processing tools. The toolkit also automates the extraction of categorized named entities from unstructured text data using a uniform processing pipeline of different document formats, which can be configured through a set of comprehensive configuration files. Furthermore, TNNT enables users to extract categorized named entities from documents by utilizing various state-of-the-art NLP-NER models and tools.",
+    "The uniform processing pipeline enables extraction of unstructured content-based information, which automates the categorization of named entities from documents. The goal of TNNT toolkit is to simplify document preprocessing for Named Entity Recognition (NER) analysis by integrating various models and tools within a unified framework. This toolkit has been designed with broader motivations that include standardizing NER model usage across different formats and facilitating data analysis through categorized entity extraction. By utilizing state-of-the-art SOTA tools and models, TNNT automates the process of identifying entities from unstructured text, providing an integrated summary for enhanced data analysis.",
+    "The TNNT toolkit, which integrates various state-of-the-art NLP-NER tools and models, facilitates the extraction of categorized named entities from unstructured text data. The framework for analysing results from different NER models and NLP tools enables users to streamline the analysis of extracted entities from diverse document formats. With 21 different SOTA NER models at its disposal, TNNT provides a thorough overview of the data used, making it an essential tool for natural language processing tasks.",
+    "The TNNT toolkit integrates various state-of-the-art NLP-NER tools and models to facilitate the extraction of categorized named entities from unstructured text data. The framework for analysing results from different NER models and NLP tools enables users to streamline the analysis of extracted entities, while multiple models can be applied to process input settings. TNNT's inner architecture is composed of individual modules for each implemented NLP-NER tool, facilitating the extraction and analysis of named entities. A large number of NER tools and models are available within the toolkit, including SOTA NLP-NER tools and models that enable enhanced data analysis.",
+    "The TNNT toolkit, which incorporates various state-of-the-art NER models and tools, enables users to extract categorized named entities from unstructured text data. The system provides a uniform processing pipeline that integrates multiple NLP-NER models for analyzing documents with different formats. With the MEL framework's ability to perform several data extraction operations, the toolkit can process information from various sources. Furthermore, the statistics of the extracted entities are generated and provided by the toolkit. Enhanced data analysis is supported through the integration of KGCP, which automates the construction of knowledge graphs for named entity recognition tasks.",
+    "The TNNT toolkit fills a void by providing a framework for analysing results from different NER models and NLP tools. It offers various features, including support for 21 state-of-the-art (SOTA) NER models that can be used to extract categorised named entities from unstructured text data. The toolkit's main goal is to automate the extraction of categorized named entities from information in source documents using a variety of SOTA NLP-NER tools and models, such as NLTK. By leveraging these tools and models, TNNT enables users to streamline the analysis of extracted entities from diverse document formats.",
+    "The TNNT toolkit utilizes various state-of-the-art NLP tools and models to extract categorized named entities from unstructured documents. The system integrates multiple NER models, allowing users to select and configure different approaches for identifying and classifying entities in text data. With its uniform processing pipeline of different document formats, the toolkit facilitates seamless analysis across diverse input sources. By leveraging recent advancements in deep learning and natural language processing, the TNNT system provides an integrated summary of extracted named entities, enabling enhanced data analysis.",
+    "The TNNT toolkit leverages various state-of-the-art NER tools and models to extract categorized named entities from unstructured text data. The selection and processing mechanism facilitates efficient choice and application of these models based on input document formats and user-defined settings. By integrating multiple NLP-NER tools, the modular and extensible framework enables Named Entity Recognition analysis for different categories from text. With a large number of SOTA NER tools and models available, the TNNT toolkit can process documents in various formats to generate an integrated summary of extracted entities.",
+    "The TNNT toolkit integrates various state-of-the-art NLP-NER models and tools to facilitate the extraction of categorized named entities from unstructured text data. The framework for analysing results from different NER models and NLP tools enables users to streamline the analysis of extracted entities from diverse document formats. With a large number of SOTA NER models, TNNT provides a mechanism that consolidates these models into one system, allowing for streamlined selection and processing of suitable NER models for extracting categorized named entities.",
+    "The TNNT toolkit generates an integrated summary of categorized named entities extracted from unstructured text data using various state-of-the-art NER models. These models are part of a broader set of tools and techniques for Named Entity Recognition, which involves identifying and classifying key elements in text into predefined categories such as names of people, organizations, locations, and more. The toolkit's MEL module is responsible for extracting textual content from various sources, enabling it to be processed for NER tasks. By applying multiple models and NLP tools, the TNNT toolkit facilitates the systematic analysis of textual content by categorizing named entities into predefined categories.",
+    "The TNNT toolkit provides a comprehensive framework for named entity recognition (NER) analysis, integrating multiple NER models and natural language processing tools. With its modular and extensible design, users can easily select from among 21 state-of-the-art NER models to analyze textual content. The system supports accurate decisions by facilitating the extraction of categorized entities from unstructured text across various document formats. Furthermore, it offers a thorough overview of the data used, enabling informed decision-making in the context of named entity recognition.",
+    "The TNNT toolkit integrates multiple NER models, including spaCy3 and Stanford NER, to facilitate named entity recognition tasks. The modular and extensible framework allows for suitable NER models to be selected based on specific task requirements. By combining state-of-the-art SOTA NLP-NER tools and models with recent advancements in deep learning and natural language processing, the toolkit enables efficient extraction of categorized entities from unstructured text. The results contain an integrated summary of all identified entities, providing a comprehensive compilation for enhanced data analysis.",
+    "The TNNT toolkit provides several data extraction operations, which are systematic processes implemented to extract relevant information from unstructured documents. The system offers basic functionalities to access the results generated by various state-of-the-art Named Entity Recognition models and Natural Language Processing tools. These SOTA NER models can identify named entities in text, such as names of people, organizations, locations, and other specific terms. The main goal is to automate the extraction of categorized named entities from unstructured information using a uniform pipeline and multiple models integrated within the TNNT framework for analysing results from different NER models and NLP tools.",
+    "The TNNT toolkit leverages a collection of state-of-the-art NLP tools and models, including Stanford NER, NLTK, and others. These SOTA NLP tools are integrated into an architecture that facilitates pre-processing documents for NER analysis, extracting categorized named entities, and generating an integrated summary of the extracted entities. The mechanism employed by TNNT uses these SOTA NLP tools to provide a modular and extensible framework for NER analysis tasks.",
+    "The TNNT toolkit leverages state-of-the-art NLP-NER tools and models, such as NLTK and Stanza, to facilitate named entity recognition tasks. With thousands of different document formats and datasets at its disposal, MEL extracts textual content for subsequent processing by suitable NER models. The results are categorized into predefined entities like names of people, organizations, locations, and more. This paper introduces TNNT2, a toolkit designed to automate the extraction of categorized named entities from unstructured information in various document formats.",
+    "The TNNT toolkit, which is depicted in Figure 2, provides a structured framework for orchestrating various NLP-NER tools and models to analyze unstructured text data. This processing model can identify named entities within information by leveraging state-of-the-art SOTA NER models such as spaCy3 and Flair. The toolkit's inner architecture facilitates the integration of different NLP systems, including Stanford NER, Stanza, and others, allowing for a uniform processing pipeline that hides usage variations across NER models and NLP tools. With its ability to categorize named entities into 18 distinct categories, this system is suitable for various KGCP tasks within the project.",
+    "The TNNT toolkit leverages recent advances in deep learning and NLP, enabling users to analyze textual content with a large number of state-of-the-art named entity recognition models. These models facilitate accurate decisions by identifying and categorizing entities from unstructured text into predefined categories such as names of people, organizations, locations, and more. The comprehensiveness of the information extracted is further enhanced through the use of suitable NER models that can be configured to suit specific tasks. By applying these models to analyze textual content, users can gain a deeper understanding of the relationships between entities and make informed decisions.",
+    "The TNNT toolkit provides a comprehensive framework for processing unstructured content-based information. It enables users to experiment with various models, including SOTA NER models and spaCy3, which are part of the broader category of NLP-NER tools and models. These models can be used to identify and categorize named entities in text, providing context information that includes surrounding details and start/end indices. The toolkit also facilitates the analysis task by offering a range of recent SOTA NLP-NER tools and models, such as Flair and Stanza, which are part of the broader category of NLP systems.",
+    "The TNNT toolkit facilitates the traversal and retrieval of NER results by integrating various models facilitating NER, such as spaCy3 and Flair. The comprehensive information provided by this toolkit enables an apprehension of the models, which are used for identifying named entities in text data. Pre-processing modules take extracted text data and clean it to prepare it for further analysis using Metadata Extractor & Loader, which extracts metadata and content-based information from a wide range of document formats. General statistics provide aggregated metrics on the performance of these NER models, while input settings dictate the sequence and selection of multiple models applied during processing. The toolkit also supports KGCP tasks, enabling the construction of knowledge graphs for further NLP tasks.",
+    "The TNNT toolkit automates the extraction of categorized named entities from unstructured text data, utilizing a wide range of recent SOTA NLP-NER tools and models. This process involves standardizing and simplifying the application of various Named Entity Recognition models and Natural Language Processing tools within a unified framework, thereby minimizing the complexities and differences in their usage for effective data analysis. The toolkit also facilitates the extraction of metadata and content-based information from unstructured documents, which is essential for enhancing data organization and accessibility. Furthermore, it provides a comprehensive processing pipeline that integrates various NLP-NER models and tools to produce structured outputs.",
+    "The metadata extraction task involves identifying and retrieving structured information from unstructured data sources, typically to enhance data organization and accessibility. This process relies on various NLP systems that utilize named entity recognition (NER) models to extract categorized entities from text. The TNNT toolkit provides a uniform processing pipeline of different document formats, enabling seamless integration and application of multiple NER models to extract entities from unstructured content-based information. Furthermore, the toolkit's inner architecture includes a pre-processing module that prepares raw data for further analysis or processing. Additionally, the A built-in RESTful API allows users to access and enhance NER results by performing additional NLP tasks such as Part-Of-Speech tagging, dependency parsing, and co-reference resolution.",
+    "The TNNT toolkit, a comprehensive system for automating named entity recognition (NER) tasks, integrates various NLP-NER models and tools to extract categorized entities from unstructured text. The Knowledge Graph Construction Pipeline applies blocks of NER models to process input documents, generating enhanced data analysis through the identification and classification of key entities. With its ability to co-relate NER results with other information sources, TNNT2 provides a broader understanding of system functionality. Furthermore, the toolkit includes two publicly available datasets, CONLL 2003 and NIST IE-ER7, for evaluating SOTA NER models. By leveraging libraries such as Stanford NER, TNNT enables users to analyze source documents and extract metadata using its Metadata Extractor & Loader tool.",
+    "The core analysis task involves processing input datasets using named entity recognition (NER) models, which are part of state-of-the-art natural language processing tools. These NER models can be configured through comprehensive configuration files that specify processing parameters for tasks such as dependency parsing and co-reference resolution. The TNNT toolkit automates the extraction of categorized named entities from unstructured text data, enabling further NLP tasks like Part-Of-Speech tagging and Stanford NER. In its early stages of development, the toolkit has already demonstrated promising results in extracting information from document sets using mechanisms that apply to unstructured information.",
+    "The TNNT toolkit, which leverages state-of-the-art NLP tools such as spaCy3 and NLTK, enables efficient processing of unstructured text data. By applying various Named Entity Recognition models to input settings defined by users, the system extracts categorized named entities from documents stored in a document store or file system. The extracted information can be further analyzed using comprehensive summaries generated through tasks associated with knowledge building. Moreover, the toolkit's pipeline facilitates integration with Knowledge Graph Construction Pipelines for enhanced data analysis and summarization of results.",
+    "The TNNT toolkit, designed for named entity recognition and processing unstructured information, utilizes various NLP tools such as Flair and Stanza to facilitate extraction of categorized named entities from thousands of different document formats. The desired settings define the parameters for processing documents, while Its specifications and usage provide detailed guidelines on how to use the toolkit's architecture, which supports KGCP tasks. Recent advances in deep learning and NLP have led to significant improvements in NER tools, enabling preprocessing prior to using these models. Complementary NLP tasks enhance the overall knowledge graph construction process by providing enriched results.",
+    "The TNNT toolkit, built upon libraries such as Stanza and spaCy3, enables informed decisions by extracting categorized named entities from unstructured textual content. The pre-processing module facilitates document processing, which involves traversing documents to extract text using MEL. Various NLP tools are integrated within the toolkit, including state-of-the-art models for Named Entity Recognition (NER). These SOTA models take a duration to complete their analysis tasks on input datasets like NIST IE-ER7. The results of these analyses can be accessed and enhanced through various features provided by A built-in RESTful API. Configuration files are used to configure the toolkit, which is designed to facilitate knowledge graph construction from unstructured text.",
+    "The TNNT toolkit utilizes various state-of-the-art Natural Language Processing models, including spaCy3 and Flair libraries. The tool processes unstructured text data using a pre-processing module to extract categorized entities from textual content. This process involves defining settings for processing different Named Entity Recognition models on two publicly available datasets: CONLL 20036 and NIST IE-ER. The results obtained using some of the models are presented in Table 3, demonstrating the effectiveness of these SOTA models in extracting information from unstructured text data.",
+    "The TNNT toolkit leverages two publicly available datasets, CONLL 2003 and NIST IE-ER, to evaluate state-of-the-art named entity recognition models. These models are based on statistical approaches that utilize recent advances in deep learning and natural language processing. The hybrid processing data flow involves a document store, allowing for flexible management of extracted textual content. Complementary NLP tasks enhance the primary task of named entity recognition by providing enriched results. JSON files contain categorized entities identified by 21 different SOTA models. Natural Language Processing systems process source documents to generate integrated summaries and metadata. The Knowledge Graph Construction Pipeline integrates various models and techniques to extract, organize, and represent knowledge from a set of documents into a structured knowledge graph.",
+    "The TNNT toolkit employs hybrid processing data flow, which involves file system management. This flexible method allows for seamless integration of various Named Entity Recognition models and enables users to access results through basic functionalities. The toolkit also provides benefits from integrating multiple state-of-the-art models, including simplified execution and comparative analysis. Furthermore, the Knowledge Graph Construction Pipeline takes a document set as input and generates JSON files containing general statistics about the identified entities. In addition, coreference resolution is an essential component of Natural Language Processing tasks, which include dependency parsing and Part-Of-Speech tagging.",
+    "The Australian Government Records Interoperability Framework (AGRIF) project tested using thousands of different document formats and datasets. Unstructured information is encoded in source document formats, which are used to create, store, and process documents. The specifications for Its usage can be found at the w3id URI. AGRIF also utilizes Natural Language Processing systems like TNNT2, which has a broader term as NLP systems. Rule-based and statistical approaches have been applied to named entity recognition tasks using SOTA models that provide easy execution and comparison. Input datasets are used for data analysis, helping make informed decisions. Tasks associated with knowledge building involve the extraction, analysis, and integration of information from unstructured data.",
+    "The statistical information obtained from data analysis provides valuable insights into trends and patterns within an input dataset, which comes from a document store. The RESTful API adds processing layers of abstraction to enhance named entity recognition results through various linguistic and statistical analyses, including POS tagging, dependency parsing, and coreference resolution. Additionally, the API performs aggregations to summarize and combine extracted NER results for enhanced data analysis. Furthermore, descriptive stats provide simple summaries about a dataset's main features, while statistics refer to the collection and interpretation of numerical data. The RESTful API also offers browsing capabilities, allowing users to smoothly traverse and retrieve named entity recognition results."
+  ],
+  "times": [
+    388.88552498817444
+  ]
+}

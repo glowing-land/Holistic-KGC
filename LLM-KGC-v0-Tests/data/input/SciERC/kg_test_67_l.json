@@ -1,0 +1,1161 @@
+{
+  "iri": "Paper-67",
+  "title": "J05-4003",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-67-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-67-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+              "text": "We present a novel method for discovering parallel sentences in comparable , non-parallel corpora ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+              "text": "We train a maximum entropy classifier that , given a pair of sentences , can reliably determine whether or not they are translations of each other ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+              "text": "Using this approach , we extract parallel data from large Chinese , Arabic , and English non-parallel newspaper corpora ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+              "text": "We evaluate the quality of the extracted data by showing that it improves the performance of a state-of-the-art statistical machine translation system ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+              "text": "We also show that a good-quality MT system can be built from scratch by starting with a very small parallel corpus -LRB- 100,000 words -RRB- and exploiting a large non-parallel corpus ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+              "text": "Thus , our method can be applied with great benefit to language pairs for which only scarce resources are available ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005376338958740234,
+    16.689230918884277,
+    22.209083318710327,
+    20.60484218597412,
+    0.02066206932067871,
+    0.00010204315185546875,
+    0.0001285076141357422,
+    37.53166174888611,
+    48.42019176483154,
+    1.1843459606170654,
+    27.17213225364685,
+    0.010788202285766602,
+    0.00021696090698242188,
+    24.86296010017395,
+    3.685249090194702,
+    0.010518074035644531,
+    6.931175708770752,
+    3.1503093242645264,
+    7.327464580535889,
+    8.678169012069702,
+    30.742589473724365,
+    1.6447269916534424,
+    21.844698190689087,
+    0.9599194526672363,
+    0.000701904296875,
+    0.012101411819458008
+  ],
+  "nodes": {
+    "Entity-our_method": {
+      "node_id": "our_method",
+      "disambiguation_index": 0,
+      "label": "our method",
+      "aliases": [
+        "our method"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A novel approach for discovering parallel sentences in comparable and non-parallel corpora by training a maximum entropy classifier that determines whether two given sentences are translations of each other.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "our method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-our_method-Mention-1"
+        }
+      ],
+      "relevance": 0.81494140625
+    },
+    "Entity-novel_method_for_discovering_parallel_sentence_in_comparable__non-parallel_corpus": {
+      "node_id": "novel_method_for_discovering_parallel_sentence_in_comparable__non-parallel_corpus",
+      "disambiguation_index": 0,
+      "label": "novel method for discovering parallel sentences in comparable, non-parallel corpora",
+      "aliases": [
+        "novel method for discovering parallel sentences in comparable, non-parallel corpora"
+      ],
+      "types": [
+        "method",
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A machine learning-based approach that identifies and extracts parallel sentence pairs from large collections of comparable but non-parallel texts.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel method for discovering parallel sentences in comparable, non-parallel corpora",
+          "local_types": [
+            "method",
+            "research"
+          ],
+          "iri": "Entity-novel_method_for_discovering_parallel_sentence_in_comparable__non-parallel_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.76953125
+    },
+    "Entity-the_extracted_data": {
+      "node_id": "the_extracted_data",
+      "disambiguation_index": 0,
+      "label": "the extracted data",
+      "aliases": [
+        "the extracted data"
+      ],
+      "types": [
+        "data",
+        "extracted_data"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Parallel sentences or sentence pairs discovered from large non-parallel newspaper corpora using a maximum entropy classifier.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the extracted data",
+          "local_types": [
+            "data",
+            "extracted_data"
+          ],
+          "iri": "Entity-the_extracted_data-Mention-1"
+        }
+      ],
+      "relevance": 0.7626953125
+    },
+    "Entity-using_this_approach": {
+      "node_id": "using_this_approach",
+      "disambiguation_index": 0,
+      "label": "Using this approach",
+      "aliases": [
+        "Using this approach"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The method used to extract parallel sentences from large Chinese, Arabic, and English non-parallel newspaper corpora.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Using this approach",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-using_this_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.7294921875
+    },
+    "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus": {
+      "node_id": "large_chinese__arabic__and_english_non-parallel_newspaper_corpus",
+      "disambiguation_index": 0,
+      "label": "large Chinese, Arabic, and English non-parallel newspaper corpora",
+      "aliases": [
+        "large Chinese, Arabic, and English non-parallel newspaper corpora",
+        "we extract parallel data from large Chinese, Arabic, and English non-parallel newspaper corpora"
+      ],
+      "types": [
+        "dataset",
+        "data extraction",
+        "data source",
+        "corpora"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A collection of three large datasets consisting of Chinese, Arabic, and English news articles from non-parallel sources.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "large Chinese, Arabic, and English non-parallel newspaper corpora",
+          "local_types": [
+            "data source",
+            "dataset",
+            "corpora"
+          ],
+          "iri": "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "we extract parallel data from large Chinese, Arabic, and English non-parallel newspaper corpora",
+          "local_types": [
+            "data extraction",
+            "corpora"
+          ],
+          "iri": "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.68408203125
+    },
+    "Entity-we_(1)": {
+      "node_id": "we_(1)",
+      "disambiguation_index": 1,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors of this paper, presenting their novel method for discovering parallel sentences in comparable corpora.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we_(1)-Mention-1"
+        }
+      ],
+      "relevance": 0.6826171875
+    },
+    "Entity-100000_word": {
+      "node_id": "100000_word",
+      "disambiguation_index": 0,
+      "label": "100,000 words",
+      "aliases": [
+        "100,000 words"
+      ],
+      "types": [
+        "corpus",
+        "word count"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A small parallel corpus of approximately 100,000 words used as starting point to build a good-quality machine translation system from scratch.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "100,000 words",
+          "local_types": [
+            "corpus",
+            "word count"
+          ],
+          "iri": "Entity-100000_word-Mention-1"
+        }
+      ],
+      "relevance": 0.66552734375
+    },
+    "Entity-a_good-quality_mt_system": {
+      "node_id": "a_good-quality_mt_system",
+      "disambiguation_index": 0,
+      "label": "a good-quality MT system",
+      "aliases": [
+        "a good-quality MT system"
+      ],
+      "types": [
+        "system"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A machine translation system that can accurately translate text from one language to another with high quality, built from scratch using a small parallel corpus and a large non-parallel corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a good-quality MT system",
+          "local_types": [
+            "system"
+          ],
+          "iri": "Entity-a_good-quality_mt_system-Mention-1"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity--lrb-_100000_word_-rrb-": {
+      "node_id": "-lrb-_100000_word_-rrb-",
+      "disambiguation_index": 0,
+      "label": "-LRB- 100,000 words -RRB-",
+      "aliases": [
+        "-LRB- 100,000 words -RRB-"
+      ],
+      "types": [
+        "quantity",
+        "range"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A small parallel corpus of approximately 100,000 words",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "-LRB- 100,000 words -RRB-",
+          "local_types": [
+            "quantity",
+            "range"
+          ],
+          "iri": "Entity--lrb-_100000_word_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.6435546875
+    },
+    "Entity-maximum_entropy_classifier": {
+      "node_id": "maximum_entropy_classifier",
+      "disambiguation_index": 0,
+      "label": "maximum entropy classifier",
+      "aliases": [
+        "maximum entropy classifier",
+        "a maximum entropy classifier"
+      ],
+      "types": [
+        "classifier",
+        "algorithm",
+        "machine learning model",
+        "tool",
+        "model"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A machine learning model that uses statistical methods to classify data based on probability distributions.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "maximum entropy classifier",
+          "local_types": [
+            "machine learning model",
+            "tool",
+            "model",
+            "algorithm"
+          ],
+          "iri": "Entity-maximum_entropy_classifier-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a maximum entropy classifier",
+          "local_types": [
+            "classifier",
+            "algorithm"
+          ],
+          "iri": "Entity-maximum_entropy_classifier-Mention-2"
+        }
+      ],
+      "relevance": 0.61474609375
+    },
+    "Entity-state-of-the-art_statistical_machine_translation_system": {
+      "node_id": "state-of-the-art_statistical_machine_translation_system",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art statistical machine translation system",
+      "aliases": [
+        "state-of-the-art statistical machine translation system"
+      ],
+      "types": [
+        "system",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A cutting-edge algorithm for translating text from one language to another using statistical methods.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "state-of-the-art statistical machine translation system",
+          "local_types": [
+            "system",
+            "algorithm"
+          ],
+          "iri": "Entity-state-of-the-art_statistical_machine_translation_system-Mention-1"
+        }
+      ],
+      "relevance": 0.6005859375
+    },
+    "Entity-parallel_sentence": {
+      "node_id": "parallel_sentence",
+      "disambiguation_index": 0,
+      "label": "parallel sentences",
+      "aliases": [
+        "parallel sentences"
+      ],
+      "types": [
+        "computational task",
+        "textual entity",
+        "linguistic concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of sentences that have similar structures or meanings",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "parallel sentences",
+          "local_types": [
+            "computational task",
+            "textual entity",
+            "linguistic concept"
+          ],
+          "iri": "Entity-parallel_sentence-Mention-1"
+        }
+      ],
+      "relevance": 0.59716796875
+    },
+    "Entity-non-parallel_newspaper_corpus": {
+      "node_id": "non-parallel_newspaper_corpus",
+      "disambiguation_index": 0,
+      "label": "non-parallel newspaper corpora",
+      "aliases": [
+        "non-parallel newspaper corpora",
+        "a large non-parallel corpus"
+      ],
+      "types": [
+        "corpus"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of newspapers that are not translated versions of each other.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "non-parallel newspaper corpora",
+          "local_types": [
+            "corpus"
+          ],
+          "iri": "Entity-non-parallel_newspaper_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a large non-parallel corpus",
+          "local_types": [
+            "corpus"
+          ],
+          "iri": "Entity-non-parallel_newspaper_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.59326171875
+    },
+    "Entity-parallel_data": {
+      "node_id": "parallel_data",
+      "disambiguation_index": 0,
+      "label": "parallel data",
+      "aliases": [
+        "parallel data"
+      ],
+      "types": [
+        "dataset",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of linguistic or textual materials that are similar but not identical",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "parallel data",
+          "local_types": [
+            "dataset",
+            "information"
+          ],
+          "iri": "Entity-parallel_data-Mention-1"
+        }
+      ],
+      "relevance": 0.59033203125
+    },
+    "Entity-given_a_pair_of_sentence": {
+      "node_id": "given_a_pair_of_sentence",
+      "disambiguation_index": 0,
+      "label": "given a pair of sentences",
+      "aliases": [
+        "given a pair of sentences"
+      ],
+      "types": [
+        "context"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A method for determining whether two sentences are translations of each other.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "given a pair of sentences",
+          "local_types": [
+            "context"
+          ],
+          "iri": "Entity-given_a_pair_of_sentence-Mention-1"
+        }
+      ],
+      "relevance": 0.58837890625
+    },
+    "Entity-mt_system": {
+      "node_id": "mt_system",
+      "disambiguation_index": 0,
+      "label": "MT system",
+      "aliases": [
+        "MT system"
+      ],
+      "types": [
+        "machine translation system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A machine learning-based system designed to translate text from one language to another.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "MT system",
+          "local_types": [
+            "machine translation system"
+          ],
+          "iri": "Entity-mt_system-Mention-1"
+        }
+      ],
+      "relevance": 0.57470703125
+    },
+    "Entity-translation_of_each_other": {
+      "node_id": "translation_of_each_other",
+      "disambiguation_index": 0,
+      "label": "translations of each other",
+      "aliases": [
+        "translations of each other"
+      ],
+      "types": [
+        "language processing task",
+        "natural language processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The task of determining whether two sentences are translations of each other",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "translations of each other",
+          "local_types": [
+            "language processing task",
+            "natural language processing"
+          ],
+          "iri": "Entity-translation_of_each_other-Mention-1"
+        }
+      ],
+      "relevance": 0.56982421875
+    },
+    "Entity-newspaper_corpus": {
+      "node_id": "newspaper_corpus",
+      "disambiguation_index": 0,
+      "label": "newspaper corpora",
+      "aliases": [
+        "newspaper corpora",
+        "corpus"
+      ],
+      "types": [
+        "dataset",
+        "data source",
+        "data set",
+        "corpus type",
+        "collection of texts",
+        "corpora"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of newspapers' text data used for linguistic research or analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "newspaper corpora",
+          "local_types": [
+            "data source",
+            "corpus type",
+            "dataset",
+            "corpora"
+          ],
+          "iri": "Entity-newspaper_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "corpus",
+          "local_types": [
+            "data set",
+            "collection of texts"
+          ],
+          "iri": "Entity-newspaper_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.56787109375
+    },
+    "Entity-a_state-of-the-art_statistical_machine_translation_system": {
+      "node_id": "a_state-of-the-art_statistical_machine_translation_system",
+      "disambiguation_index": 0,
+      "label": "a state-of-the-art statistical machine translation system",
+      "aliases": [
+        "a state-of-the-art statistical machine translation system"
+      ],
+      "types": [
+        "system",
+        "machine_translation_system"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A highly advanced and effective statistical machine translation system, considered to be among the best in its field.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a state-of-the-art statistical machine translation system",
+          "local_types": [
+            "system",
+            "machine_translation_system"
+          ],
+          "iri": "Entity-a_state-of-the-art_statistical_machine_translation_system-Mention-1"
+        }
+      ],
+      "relevance": 0.56787109375
+    },
+    "Entity-statistical_machine_translation_system": {
+      "node_id": "statistical_machine_translation_system",
+      "disambiguation_index": 0,
+      "label": "statistical machine translation system",
+      "aliases": [
+        "statistical machine translation system"
+      ],
+      "types": [
+        "algorithm",
+        "machine learning model",
+        "system",
+        "technology",
+        "model"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A computer-based algorithm or model that uses statistical methods to translate text from one language to another.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "statistical machine translation system",
+          "local_types": [
+            "algorithm",
+            "machine learning model",
+            "system",
+            "technology",
+            "model"
+          ],
+          "iri": "Entity-statistical_machine_translation_system-Mention-1"
+        }
+      ],
+      "relevance": 0.56494140625
+    },
+    "Entity-whether_or_not_they_are_translation_of_each_other": {
+      "node_id": "whether_or_not_they_are_translation_of_each_other",
+      "disambiguation_index": 0,
+      "label": "whether or not they are translations of each other",
+      "aliases": [
+        "whether or not they are translations of each other"
+      ],
+      "types": [
+        "translation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The relationship between two sentences as to whether one is a translation of another.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "whether or not they are translations of each other",
+          "local_types": [
+            "translation"
+          ],
+          "iri": "Entity-whether_or_not_they_are_translation_of_each_other-Mention-1"
+        }
+      ],
+      "relevance": 0.5146484375
+    },
+    "Entity-chinese__arabic__and_english": {
+      "node_id": "chinese__arabic__and_english",
+      "disambiguation_index": 0,
+      "label": "Chinese, Arabic, and English",
+      "aliases": [
+        "Chinese, Arabic, and English"
+      ],
+      "types": [
+        "languages",
+        "language pairs"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of languages",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Chinese, Arabic, and English",
+          "local_types": [
+            "languages",
+            "language pairs"
+          ],
+          "iri": "Entity-chinese__arabic__and_english-Mention-1"
+        }
+      ],
+      "relevance": 0.51123046875
+    },
+    "Entity-language_pair": {
+      "node_id": "language_pair",
+      "disambiguation_index": 0,
+      "label": "language pairs",
+      "aliases": [
+        "language pairs"
+      ],
+      "types": [
+        "language",
+        "linguistic resource",
+        "pair",
+        "natural language processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of two languages or linguistic systems that interact and exchange information.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "language pairs",
+          "local_types": [
+            "language",
+            "linguistic resource",
+            "pair",
+            "natural language processing"
+          ],
+          "iri": "Entity-language_pair-Mention-1"
+        }
+      ],
+      "relevance": 0.5068359375
+    },
+    "Entity-sentence": {
+      "node_id": "sentence",
+      "disambiguation_index": 0,
+      "label": "sentences",
+      "aliases": [
+        "sentences"
+      ],
+      "types": [
+        "textual data",
+        "linguistic input"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of written language units used for communication.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "sentences",
+          "local_types": [
+            "textual data",
+            "linguistic input"
+          ],
+          "iri": "Entity-sentence-Mention-1"
+        }
+      ],
+      "relevance": 0.482666015625
+    },
+    "Entity-we_present_a_novel_method": {
+      "node_id": "we_present_a_novel_method",
+      "disambiguation_index": 0,
+      "label": "We present a novel method",
+      "aliases": [
+        "We present a novel method"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A research presentation introducing an innovative approach",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "We present a novel method",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_present_a_novel_method-Mention-1"
+        }
+      ],
+      "relevance": 0.448486328125
+    },
+    "Entity-novel_method": {
+      "node_id": "novel_method",
+      "disambiguation_index": 0,
+      "label": "novel method",
+      "aliases": [
+        "novel method"
+      ],
+      "types": [
+        "academic contribution",
+        "research approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A new and original technique or procedure used to achieve a specific research goal.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel method",
+          "local_types": [
+            "academic contribution",
+            "research approach"
+          ],
+          "iri": "Entity-novel_method-Mention-1"
+        }
+      ],
+      "relevance": 0.447021484375
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "approach",
+        "method"
+      ],
+      "types": [
+        "technique",
+        "methodology",
+        "algorithm",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic procedure or technique used to achieve a specific goal",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "method",
+          "local_types": [
+            "algorithm",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "method",
+          "local_types": [
+            "algorithm",
+            "approach"
+          ],
+          "iri": "Entity-method-Mention-2"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "approach",
+          "local_types": [
+            "methodology",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-3"
+        }
+      ],
+      "relevance": 0.431640625
+    },
+    "Entity-chinese": {
+      "node_id": "chinese",
+      "disambiguation_index": 0,
+      "label": "Chinese",
+      "aliases": [
+        "Chinese"
+      ],
+      "types": [
+        "language",
+        "country"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A language or country originating from China",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Chinese",
+          "local_types": [
+            "language",
+            "country"
+          ],
+          "iri": "Entity-chinese-Mention-1"
+        }
+      ],
+      "relevance": 0.4296875
+    },
+    "Entity-data": {
+      "node_id": "data",
+      "disambiguation_index": 0,
+      "label": "data",
+      "aliases": [
+        "data"
+      ],
+      "types": [
+        "information",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of information or facts, typically in digital form.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "data",
+          "local_types": [
+            "information",
+            "dataset"
+          ],
+          "iri": "Entity-data-Mention-1"
+        }
+      ],
+      "relevance": 0.413330078125
+    },
+    "Entity-arabic": {
+      "node_id": "arabic",
+      "disambiguation_index": 0,
+      "label": "Arabic",
+      "aliases": [
+        "Arabic"
+      ],
+      "types": [
+        "language",
+        "country"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A Semitic language spoken primarily in the Middle East and North Africa, as well as a country with a rich cultural heritage.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Arabic",
+          "local_types": [
+            "language",
+            "country"
+          ],
+          "iri": "Entity-arabic-Mention-1"
+        }
+      ],
+      "relevance": 0.39404296875
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors of this paper",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-2"
+        }
+      ],
+      "relevance": 0.39111328125
+    }
+  },
+  "summary": "We present a novel method for discovering parallel sentences in comparable , non-parallel corpora . We train a maximum entropy classifier that , given a pair of sentences , can reliably determine whether or not they are translations of each other . Using this approach , we extract parallel data from large Chinese , Arabic , and English non-parallel newspaper corpora . We evaluate the quality of the extracted data by showing that it improves the performance of a state-of-the-art statistical machine translation system . We also show that a good-quality MT system can be built from scratch by starting with a very small parallel corpus -LRB- 100,000 words -RRB- and exploiting a large non-parallel corpus . Thus , our method can be applied with great benefit to language pairs for which only scarce resources are available .",
+  "triples": [
+    [
+      "Entity-we",
+      "Predicate-train",
+      "Entity-maximum_entropy_classifier"
+    ],
+    [
+      "Entity-maximum_entropy_classifier",
+      "Predicate-can_reliably_determine_whether_or_not_they_are_translations_of_each_other",
+      "Entity-sentence"
+    ],
+    [
+      "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus",
+      "Predicate-extract",
+      "Entity-parallel_data"
+    ],
+    [
+      "Entity-we",
+      "Predicate-show_that",
+      "Entity-a_good-quality_mt_system"
+    ],
+    [
+      "Entity-a_good-quality_mt_system",
+      "Predicate-be_built_from_scratch_by_starting_with",
+      "Entity--lrb-_100000_word_-rrb-"
+    ],
+    [
+      "Entity-a_good-quality_mt_system",
+      "Predicate-exploiting",
+      "Entity-non-parallel_newspaper_corpus"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-can_be_applied_with_great_benefit_to",
+      "Entity-language_pair"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-use",
+      "Entity-the_extracted_data"
+    ],
+    [
+      "Entity-our_method",
+      "Predicate-present",
+      "Entity-novel_method_for_discovering_parallel_sentence_in_comparable__non-parallel_corpus"
+    ],
+    [
+      "Entity-novel_method_for_discovering_parallel_sentence_in_comparable__non-parallel_corpus",
+      "Predicate-can_reliably_determine_whether_or_not_they_are_translations_of_each_other",
+      "Entity-the_extracted_data"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_state-of-the-art_statistical_machine_translation_system",
+      "skos:broader",
+      "Entity-mt_system"
+    ],
+    [
+      "Entity-chinese__arabic__and_english",
+      "skos:broader",
+      "Entity-language_pair"
+    ],
+    [
+      "Entity-100000_word",
+      "skos:broader",
+      "Entity-newspaper_corpus"
+    ],
+    [
+      "Entity-newspaper_corpus",
+      "skos:broader",
+      "Entity-data"
+    ],
+    [
+      "Entity-non-parallel_newspaper_corpus",
+      "skos:broader",
+      "Entity-newspaper_corpus"
+    ],
+    [
+      "Entity-the_extracted_data",
+      "skos:broader",
+      "Entity-data"
+    ],
+    [
+      "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus",
+      "skos:broader",
+      "Entity-newspaper_corpus"
+    ],
+    [
+      "Entity-our_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-a_state-of-the-art_statistical_machine_translation_system",
+      "skos:broader",
+      "Entity-statistical_machine_translation_system"
+    ],
+    [
+      "Entity-mt_system",
+      "skos:broader",
+      "Entity-state-of-the-art_statistical_machine_translation_system"
+    ],
+    [
+      "Entity-using_this_approach",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-parallel_data",
+      "skos:broader",
+      "Entity-data"
+    ],
+    [
+      "Entity-novel_method_for_discovering_parallel_sentence_in_comparable__non-parallel_corpus",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-mt_system",
+      "skos:broader",
+      "Entity-statistical_machine_translation_system"
+    ]
+  ],
+  "predicates": {
+    "Predicate-train": {
+      "label": "train",
+      "description": "To train means to utilize a subject's expertise or resources to develop or refine an object, often resulting in the improvement of its performance, accuracy, or effectiveness. The predicate 'train' implies a causal relationship between the subject and the object, suggesting that the subject plays a role in shaping or guiding the development of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_reliably_determine_whether_or_not_they_are_translations_of_each_other": {
+      "label": "can reliably determine whether or not they are translations of each other",
+      "description": "This predicate indicates that the subject has the ability to accurately identify and distinguish between pairs of linguistic expressions (e.g., texts or phrases), determining whether they are equivalent translations of each other. The connection between the subject and object lies in the subject's capacity for comparative analysis, allowing it to recognize similarities and differences between the two expressions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-extract": {
+      "label": "extract",
+      "description": "To obtain or derive a specific portion or aspect of something from its original form. This predicate indicates that the subject is being used to generate or produce the object, which may be a summary, key points, or other condensed representation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show_that": {
+      "label": "show that",
+      "description": "To demonstrate or prove the existence of something (typically an idea, concept, or quality), often through evidence, examples, or demonstration.",
+      "disambiguation_index": 0
+    },
+    "Predicate-be_built_from_scratch_by_starting_with": {
+      "label": "be built from scratch by starting with",
+      "description": "The predicate 'be built from scratch by starting with' indicates that the subject was created or developed using a foundation or base provided by the object. The object serves as the initial point, and the process of building or creating the subject begins with this foundation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-exploiting": {
+      "label": "exploiting",
+      "description": "The predicate 'exploiting' indicates that the subject (an entity or a process) makes use of, takes advantage of, or derives benefits from the object. It implies a relationship where the subject leverages the object's characteristics, properties, or resources to achieve its goals or purposes.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_applied_with_great_benefit_to": {
+      "label": "can be applied with great benefit to",
+      "description": "This predicate indicates that the subject has a positive impact or outcome when used on or related to the object. It suggests a direct and significant advantage or benefit resulting from applying the subject to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-use": {
+      "label": "use",
+      "description": "To employ or utilize something for a specific purpose or function. The predicate 'use' indicates that the subject (an entity, process, or system) applies its capabilities to achieve an outcome or accomplish a task with respect to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-present": {
+      "label": "present",
+      "description": "The predicate 'present' indicates that the subject and object are equivalent or identical, often implying a sense of novelty, innovation, or introduction. It suggests that what was previously unknown or absent has been brought forward into existence.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject concept is a specific instance or subclass of the object concept. It represents an is-a relationship, where the subject is more precise and detailed than the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

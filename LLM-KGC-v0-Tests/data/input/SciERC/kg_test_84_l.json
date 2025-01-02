@@ -1,0 +1,1660 @@
+{
+  "iri": "Paper-84",
+  "title": "ICCV_2013_47_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-84-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-84-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-1",
+              "text": "Light fields are image-based representations that use densely sampled rays as a scene description ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this paper , we explore geometric structures of 3D lines in ray space for improving light field triangulation and stereo matching ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+              "text": "The triangulation problem aims to fill in the ray space with continuous and non-overlapping simplices anchored at sampled points -LRB- rays -RRB- ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+              "text": "Such a triangulation provides a piecewise-linear interpolant useful for light field super-resolution ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+              "text": "We show that the light field space is largely bi-linear due to 3D line segments in the scene , and direct tri-angulation of these bilinear subspaces leads to large errors ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+              "text": "We instead present a simple but effective algorithm to first map bilinear subspaces to line constraints and then apply Constrained Delaunay Triangulation -LRB- CDT -RRB- ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+              "text": "Based on our analysis , we further develop a novel line-assisted graph-cut -LRB- LAGC -RRB- algorithm that effectively encodes 3D line constraints into light field stereo matching ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+              "text": "Experiments on synthetic and real data show that both our triangulation and LAGC algorithms outperform state-of-the-art solutions in accuracy and visual quality ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005383491516113281,
+    20.897061109542847,
+    30.450984954833984,
+    32.01781868934631,
+    0.03662252426147461,
+    0.0001163482666015625,
+    0.00016021728515625,
+    60.44796133041382,
+    92.86361622810364,
+    1.3224518299102783,
+    84.51829361915588,
+    0.015358448028564453,
+    0.0002548694610595703,
+    40.79060912132263,
+    15.0079984664917,
+    0.022840261459350586,
+    1.106658697128296,
+    3.277925968170166,
+    15.940422296524048,
+    19.630808353424072,
+    49.00705695152283,
+    2.103367567062378,
+    29.917447805404663,
+    1.0829904079437256,
+    0.0006756782531738281,
+    0.016873836517333984
+  ],
+  "nodes": {
+    "Entity-light_field_triangulation": {
+      "node_id": "light_field_triangulation",
+      "disambiguation_index": 0,
+      "label": "light field triangulation",
+      "aliases": [
+        "light field triangulation"
+      ],
+      "types": [
+        "computer vision technique",
+        "computer vision",
+        "algorithm",
+        "image processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A computer vision technique that uses densely sampled rays to improve light field triangulation and stereo matching by mapping bilinear subspaces to line constraints and applying Constrained Delaunay Triangulation.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "light field triangulation",
+          "local_types": [
+            "computer vision technique",
+            "computer vision",
+            "algorithm",
+            "image processing"
+          ],
+          "iri": "Entity-light_field_triangulation-Mention-1"
+        }
+      ],
+      "relevance": 0.7783203125
+    },
+    "Entity-constrained_delaunay_triangulation_-lrb-_cdt_-rrb-": {
+      "node_id": "constrained_delaunay_triangulation_-lrb-_cdt_-rrb-",
+      "disambiguation_index": 0,
+      "label": "Constrained Delaunay Triangulation -LRB- CDT -RRB-",
+      "aliases": [
+        "Constrained Delaunay Triangulation -LRB- CDT -RRB-",
+        "a simple but effective algorithm to first map bilinear subspaces to line constraints and then apply Constrained Delaunay Triangulation -LRB- CDT -RRB-"
+      ],
+      "types": [
+        "computer science technique",
+        "geometric algorithm",
+        "algorithm",
+        "method",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A geometric algorithm that maps bilinear subspaces to line constraints and applies constrained Delaunay triangulation for improving light field triangulation.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Constrained Delaunay Triangulation -LRB- CDT -RRB-",
+          "local_types": [
+            "computer science technique",
+            "geometric algorithm",
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-constrained_delaunay_triangulation_-lrb-_cdt_-rrb--Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a simple but effective algorithm to first map bilinear subspaces to line constraints and then apply Constrained Delaunay Triangulation -LRB- CDT -RRB-",
+          "local_types": [
+            "algorithm",
+            "methodology"
+          ],
+          "iri": "Entity-constrained_delaunay_triangulation_-lrb-_cdt_-rrb--Mention-2"
+        }
+      ],
+      "relevance": 0.76708984375
+    },
+    "Entity-direct_tri-angulation_of_these_bilinear_subspace_lead_to_large_error": {
+      "node_id": "direct_tri-angulation_of_these_bilinear_subspace_lead_to_large_error",
+      "disambiguation_index": 0,
+      "label": "direct tri-angulation of these bilinear subspaces leads to large errors",
+      "aliases": [
+        "direct tri-angulation of these bilinear subspaces leads to large errors"
+      ],
+      "types": [
+        "conclusion"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The process of directly triangulating bilinear subspaces in light field space, which is largely bi-linear due to 3D line segments in the scene.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "direct tri-angulation of these bilinear subspaces leads to large errors",
+          "local_types": [
+            "conclusion"
+          ],
+          "iri": "Entity-direct_tri-angulation_of_these_bilinear_subspace_lead_to_large_error-Mention-1"
+        }
+      ],
+      "relevance": 0.76123046875
+    },
+    "Entity-that_effectively_encodes_3d_line_constraint_into_light_field_stereo_matching": {
+      "node_id": "that_effectively_encodes_3d_line_constraint_into_light_field_stereo_matching",
+      "disambiguation_index": 0,
+      "label": "that effectively encodes 3D line constraints into light field stereo matching",
+      "aliases": [
+        "that effectively encodes 3D line constraints into light field stereo matching"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A novel graph-cut algorithm that incorporates 3D line constraints to improve light field stereo matching.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "that effectively encodes 3D line constraints into light field stereo matching",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-that_effectively_encodes_3d_line_constraint_into_light_field_stereo_matching-Mention-1"
+        }
+      ],
+      "relevance": 0.74072265625
+    },
+    "Entity-triangulation_problem": {
+      "node_id": "triangulation_problem",
+      "disambiguation_index": 0,
+      "label": "triangulation problem",
+      "aliases": [
+        "triangulation problem",
+        "The triangulation problem"
+      ],
+      "types": [
+        "mathematical concept",
+        "research area",
+        "problem"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The process of filling in a light field's ray space with continuous and non-overlapping triangles, anchored at densely sampled points (rays), to create a piecewise-linear interpolant for super-resolution.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "triangulation problem",
+          "local_types": [
+            "mathematical concept",
+            "research area",
+            "problem"
+          ],
+          "iri": "Entity-triangulation_problem-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "The triangulation problem",
+          "local_types": [
+            "problem"
+          ],
+          "iri": "Entity-triangulation_problem-Mention-2"
+        }
+      ],
+      "relevance": 0.73095703125
+    },
+    "Entity-light_field_triangulation_and_stereo_matching": {
+      "node_id": "light_field_triangulation_and_stereo_matching",
+      "disambiguation_index": 0,
+      "label": "light field triangulation and stereo matching",
+      "aliases": [
+        "improving light field triangulation and stereo matching",
+        "light field triangulation and stereo matching"
+      ],
+      "types": [
+        "computer vision",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computer vision algorithm that combines light field triangulation and stereo matching techniques to estimate depth information or reconstruct 3D scenes.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "light field triangulation and stereo matching",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-light_field_triangulation_and_stereo_matching-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "improving light field triangulation and stereo matching",
+          "local_types": [
+            "method",
+            "computer vision"
+          ],
+          "iri": "Entity-light_field_triangulation_and_stereo_matching-Mention-2"
+        }
+      ],
+      "relevance": 0.7236328125
+    },
+    "Entity-in_this_paper": {
+      "node_id": "in_this_paper",
+      "disambiguation_index": 0,
+      "label": "In this paper",
+      "aliases": [
+        "In this paper"
+      ],
+      "types": [
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This refers to a research paper that explores geometric structures of 3D lines in ray space for improving light field triangulation and stereo matching.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "In this paper",
+          "local_types": [
+            "paper"
+          ],
+          "iri": "Entity-in_this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.7197265625
+    },
+    "Entity-ray_space_with_continuous_and_non-overlapping_simplices_anchored_at_sampled_point_-lrb-_ray_-rrb-": {
+      "node_id": "ray_space_with_continuous_and_non-overlapping_simplices_anchored_at_sampled_point_-lrb-_ray_-rrb-",
+      "disambiguation_index": 0,
+      "label": "ray space with continuous and non-overlapping simplices anchored at sampled points -LRB- rays -RRB-",
+      "aliases": [
+        "ray space with continuous and non-overlapping simplices anchored at sampled points -LRB- rays -RRB-"
+      ],
+      "types": [
+        "representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A geometric representation of a light field, where the ray space is filled with continuous and non-overlapping simplices anchored at sampled points.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ray space with continuous and non-overlapping simplices anchored at sampled points -LRB- rays -RRB-",
+          "local_types": [
+            "representation"
+          ],
+          "iri": "Entity-ray_space_with_continuous_and_non-overlapping_simplices_anchored_at_sampled_point_-lrb-_ray_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.7138671875
+    },
+    "Entity-based_on_our_analysis": {
+      "node_id": "based_on_our_analysis",
+      "disambiguation_index": 0,
+      "label": "Based on our analysis",
+      "aliases": [
+        "a novel line-assisted graph-cut -LRB- LAGC -RRB- algorithm",
+        "Based on our analysis"
+      ],
+      "types": [
+        "analysis",
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The development of a novel line-assisted graph-cut (LAGC) algorithm for encoding 3D line constraints into light field stereo matching.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "Based on our analysis",
+          "local_types": [
+            "analysis"
+          ],
+          "iri": "Entity-based_on_our_analysis-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "a novel line-assisted graph-cut -LRB- LAGC -RRB- algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-based_on_our_analysis-Mention-2"
+        }
+      ],
+      "relevance": 0.7138671875
+    },
+    "Entity-line-assisted_graph-cut": {
+      "node_id": "line-assisted_graph-cut",
+      "disambiguation_index": 0,
+      "label": "line-assisted graph-cut",
+      "aliases": [
+        "line-assisted graph-cut -LRB- LAGC -RRB- algorithm",
+        "line-assisted graph-cut",
+        "LAGC algorithms"
+      ],
+      "types": [
+        "computer science",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A novel algorithm that uses 3D lines to constrain graph-cutting for improving light field stereo matching.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "line-assisted graph-cut",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-line-assisted_graph-cut-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "line-assisted graph-cut -LRB- LAGC -RRB- algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-line-assisted_graph-cut-Mention-2"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "LAGC algorithms",
+          "local_types": [
+            "computer science",
+            "algorithm"
+          ],
+          "iri": "Entity-line-assisted_graph-cut-Mention-3"
+        }
+      ],
+      "relevance": 0.7099609375
+    },
+    "Entity-such_a_triangulation": {
+      "node_id": "such_a_triangulation",
+      "disambiguation_index": 0,
+      "label": "Such a triangulation",
+      "aliases": [
+        "Such a triangulation"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A method of filling in ray space with continuous and non-overlapping simplices anchored at sampled points, providing a piecewise-linear interpolant useful for light field super-resolution.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Such a triangulation",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-such_a_triangulation-Mention-1"
+        }
+      ],
+      "relevance": 0.703125
+    },
+    "Entity-bilinear_subspace": {
+      "node_id": "bilinear_subspace",
+      "disambiguation_index": 0,
+      "label": "bilinear subspaces",
+      "aliases": [
+        "bilinear subspaces"
+      ],
+      "types": [
+        "mathematical concept",
+        "geometric structure",
+        "subspaces"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Geometric structures of three-dimensional line segments that can be triangulated to improve light field representation and stereo matching.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "bilinear subspaces",
+          "local_types": [
+            "mathematical concept",
+            "geometric structure"
+          ],
+          "iri": "Entity-bilinear_subspace-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "bilinear subspaces",
+          "local_types": [
+            "subspaces"
+          ],
+          "iri": "Entity-bilinear_subspace-Mention-2"
+        }
+      ],
+      "relevance": 0.70263671875
+    },
+    "Entity-anchored_at_sampled_point_-lrb-_ray_-rrb-": {
+      "node_id": "anchored_at_sampled_point_-lrb-_ray_-rrb-",
+      "disambiguation_index": 0,
+      "label": "anchored at sampled points -LRB- rays -RRB-",
+      "aliases": [
+        "anchored at sampled points -LRB- rays -RRB-"
+      ],
+      "types": [
+        "points",
+        "rays"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A method of filling in a ray space with continuous and non-overlapping triangles, where the triangles are anchored at sampled points.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "anchored at sampled points -LRB- rays -RRB-",
+          "local_types": [
+            "points",
+            "rays"
+          ],
+          "iri": "Entity-anchored_at_sampled_point_-lrb-_ray_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.69921875
+    },
+    "Entity-3d_line_segment_in_the_scene": {
+      "node_id": "3d_line_segment_in_the_scene",
+      "disambiguation_index": 0,
+      "label": "3D line segments in the scene",
+      "aliases": [
+        "3D line segments in the scene"
+      ],
+      "types": [
+        "scene",
+        "segments"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Geometric structures of three-dimensional lines within an image-based representation of a 3D scene, used as a basis for light field triangulation and stereo matching.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "3D line segments in the scene",
+          "local_types": [
+            "scene",
+            "segments"
+          ],
+          "iri": "Entity-3d_line_segment_in_the_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.693359375
+    },
+    "Entity-we_instead_present_a_simple_but_effective_algorithm": {
+      "node_id": "we_instead_present_a_simple_but_effective_algorithm",
+      "disambiguation_index": 0,
+      "label": "We instead present a simple but effective algorithm",
+      "aliases": [
+        "We instead present a simple but effective algorithm"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A simple but effective algorithm for mapping bilinear subspaces to line constraints and applying Constrained Delaunay Triangulation.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "We instead present a simple but effective algorithm",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_instead_present_a_simple_but_effective_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.6806640625
+    },
+    "Entity-geometric_structure_of_3d_line_in_ray_space": {
+      "node_id": "geometric_structure_of_3d_line_in_ray_space",
+      "disambiguation_index": 0,
+      "label": "geometric structures of 3D lines in ray space",
+      "aliases": [
+        "geometric structures of 3D lines in ray space"
+      ],
+      "types": [
+        "structure",
+        "mathematics"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Geometric patterns formed by three-dimensional line segments in a mathematical representation of rays, used to improve light field reconstruction and stereo matching.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "geometric structures of 3D lines in ray space",
+          "local_types": [
+            "structure",
+            "mathematics"
+          ],
+          "iri": "Entity-geometric_structure_of_3d_line_in_ray_space-Mention-1"
+        }
+      ],
+      "relevance": 0.67626953125
+    },
+    "Entity-light_field_stereo_matching": {
+      "node_id": "light_field_stereo_matching",
+      "disambiguation_index": 0,
+      "label": "light field stereo matching",
+      "aliases": [
+        "light field stereo matching"
+      ],
+      "types": [
+        "computer vision technique",
+        "image processing method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computer vision technique or image processing method used to match and align images from different viewpoints, typically involving the use of light fields.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "light field stereo matching",
+          "local_types": [
+            "computer vision technique",
+            "image processing method"
+          ],
+          "iri": "Entity-light_field_stereo_matching-Mention-1"
+        }
+      ],
+      "relevance": 0.66748046875
+    },
+    "Entity-synthetic_and_real_data_show_that_both_our_triangulation_and_lagc_algorithm_outperform_state-of-the-art_solution_in_accuracy_and_visual_quality": {
+      "node_id": "synthetic_and_real_data_show_that_both_our_triangulation_and_lagc_algorithm_outperform_state-of-the-art_solution_in_accuracy_and_visual_quality",
+      "disambiguation_index": 0,
+      "label": "synthetic and real data show that both our triangulation and LAGC algorithms outperform state-of-the-art solutions in accuracy and visual quality",
+      "aliases": [
+        "synthetic and real data show that both our triangulation and LAGC algorithms outperform state-of-the-art solutions in accuracy and visual quality"
+      ],
+      "types": [
+        "result"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Triangulation and Line-Assisted Graph-Cut (LAGC) algorithms",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "synthetic and real data show that both our triangulation and LAGC algorithms outperform state-of-the-art solutions in accuracy and visual quality",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-synthetic_and_real_data_show_that_both_our_triangulation_and_lagc_algorithm_outperform_state-of-the-art_solution_in_accuracy_and_visual_quality-Mention-1"
+        }
+      ],
+      "relevance": 0.63720703125
+    },
+    "Entity-light_field_super-resolution": {
+      "node_id": "light_field_super-resolution",
+      "disambiguation_index": 0,
+      "label": "light field super-resolution",
+      "aliases": [
+        "light field super-resolution"
+      ],
+      "types": [
+        "image processing technique",
+        "technique",
+        "field",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computer vision technique that uses light fields to improve image resolution.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "light field super-resolution",
+          "local_types": [
+            "image processing technique",
+            "technique",
+            "field",
+            "computer vision"
+          ],
+          "iri": "Entity-light_field_super-resolution-Mention-1"
+        }
+      ],
+      "relevance": 0.63623046875
+    },
+    "Entity--lrb-_ray_-rrb-": {
+      "node_id": "-lrb-_ray_-rrb-",
+      "disambiguation_index": 0,
+      "label": "-LRB- rays -RRB-",
+      "aliases": [
+        "-LRB- rays -RRB-"
+      ],
+      "types": [
+        "notation",
+        "symbolic representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of lines or line segments used to define a geometric space.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "-LRB- rays -RRB-",
+          "local_types": [
+            "notation",
+            "symbolic representation"
+          ],
+          "iri": "Entity--lrb-_ray_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.63037109375
+    },
+    "Entity-the_ray_space": {
+      "node_id": "the_ray_space",
+      "disambiguation_index": 0,
+      "label": "the ray space",
+      "aliases": [
+        "the ray space"
+      ],
+      "types": [
+        "space"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A geometric structure that represents a scene description using densely sampled rays as anchors for continuous and non-overlapping simplices.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the ray space",
+          "local_types": [
+            "space"
+          ],
+          "iri": "Entity-the_ray_space-Mention-1"
+        }
+      ],
+      "relevance": 0.6279296875
+    },
+    "Entity-piecewise-linear_interpolant_useful_for_light_field_super-resolution": {
+      "node_id": "piecewise-linear_interpolant_useful_for_light_field_super-resolution",
+      "disambiguation_index": 0,
+      "label": "piecewise-linear interpolant useful for light field super-resolution",
+      "aliases": [
+        "piecewise-linear interpolant useful for light field super-resolution"
+      ],
+      "types": [
+        "technique",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A technique or algorithm that uses piecewise-linear interpolation to improve light field resolution.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "piecewise-linear interpolant useful for light field super-resolution",
+          "local_types": [
+            "technique",
+            "algorithm"
+          ],
+          "iri": "Entity-piecewise-linear_interpolant_useful_for_light_field_super-resolution-Mention-1"
+        }
+      ],
+      "relevance": 0.623046875
+    },
+    "Entity-light_field": {
+      "node_id": "light_field",
+      "disambiguation_index": 0,
+      "label": "Light fields",
+      "aliases": [
+        "Light fields"
+      ],
+      "types": [
+        "image-based representation",
+        "technology",
+        "concept",
+        "representation"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A type of representation or technology that uses images to describe scenes.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Light fields",
+          "local_types": [
+            "image-based representation",
+            "technology",
+            "concept",
+            "representation"
+          ],
+          "iri": "Entity-light_field-Mention-1"
+        }
+      ],
+      "relevance": 0.60693359375
+    },
+    "Entity-densely_sampled_ray_a_a_scene_description": {
+      "node_id": "densely_sampled_ray_a_a_scene_description",
+      "disambiguation_index": 0,
+      "label": "densely sampled rays as a scene description",
+      "aliases": [
+        "densely sampled rays as a scene description"
+      ],
+      "types": [
+        "description"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A method of describing a scene using densely sampled light field rays.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "densely sampled rays as a scene description",
+          "local_types": [
+            "description"
+          ],
+          "iri": "Entity-densely_sampled_ray_a_a_scene_description-Mention-1"
+        }
+      ],
+      "relevance": 0.6064453125
+    },
+    "Entity-a_piecewise-linear_interpolant": {
+      "node_id": "a_piecewise-linear_interpolant",
+      "disambiguation_index": 0,
+      "label": "a piecewise-linear interpolant",
+      "aliases": [
+        "a piecewise-linear interpolant"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A mathematical function that approximates continuous values by connecting discrete points with linear segments, used in light field processing to enhance image resolution.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a piecewise-linear interpolant",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-a_piecewise-linear_interpolant-Mention-1"
+        }
+      ],
+      "relevance": 0.60400390625
+    },
+    "Entity--lrb-": {
+      "node_id": "-lrb-",
+      "disambiguation_index": 0,
+      "label": "-LRB-",
+      "aliases": [
+        "-LRB-"
+      ],
+      "types": [
+        "punctuation",
+        "bracket"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Constrained Delaunay Triangulation algorithm",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "-LRB-",
+          "local_types": [
+            "punctuation",
+            "bracket"
+          ],
+          "iri": "Entity--lrb--Mention-1"
+        }
+      ],
+      "relevance": 0.58935546875
+    },
+    "Entity-ray_space": {
+      "node_id": "ray_space",
+      "disambiguation_index": 0,
+      "label": "ray space",
+      "aliases": [
+        "Ray space",
+        "ray space"
+      ],
+      "types": [
+        "computational framework",
+        "space",
+        "computational domain",
+        "computer graphics",
+        "mathematical structure",
+        "physics",
+        "mathematical concept",
+        "geometric space",
+        "concept",
+        "mathematics"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A mathematical structure or domain that represents a conceptual framework for organizing and analyzing three-dimensional geometric data, particularly with respect to lines.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "ray space",
+          "local_types": [
+            "computational framework",
+            "space",
+            "computational domain",
+            "computer graphics",
+            "physics",
+            "mathematical concept",
+            "concept",
+            "mathematics"
+          ],
+          "iri": "Entity-ray_space-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ray space",
+          "local_types": [
+            "geometric space",
+            "mathematical structure"
+          ],
+          "iri": "Entity-ray_space-Mention-2"
+        }
+      ],
+      "relevance": 0.58642578125
+    },
+    "Entity-light_field_space": {
+      "node_id": "light_field_space",
+      "disambiguation_index": 0,
+      "label": "light field space",
+      "aliases": [
+        "light field space",
+        "the light field space"
+      ],
+      "types": [
+        "mathematical concept",
+        "space"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical representation or framework that describes the spatial distribution of light and its interactions in various scenes.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "light field space",
+          "local_types": [
+            "mathematical concept",
+            "space"
+          ],
+          "iri": "Entity-light_field_space-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the light field space",
+          "local_types": [
+            "space"
+          ],
+          "iri": "Entity-light_field_space-Mention-2"
+        }
+      ],
+      "relevance": 0.58447265625
+    },
+    "Entity-triangulation": {
+      "node_id": "triangulation",
+      "disambiguation_index": 0,
+      "label": "Triangulation",
+      "aliases": [
+        "Triangulation",
+        "triangulation"
+      ],
+      "types": [
+        "computer vision task",
+        "algorithm",
+        "mathematical concept",
+        "algorithmic technique",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method or technique that uses three distinct points to determine a location, shape, or structure.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Triangulation",
+          "local_types": [
+            "algorithmic technique",
+            "computer vision task"
+          ],
+          "iri": "Entity-triangulation-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "triangulation",
+          "local_types": [
+            "mathematical concept"
+          ],
+          "iri": "Entity-triangulation-Mention-2"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "triangulation",
+          "local_types": [
+            "algorithm",
+            "methodology"
+          ],
+          "iri": "Entity-triangulation-Mention-3"
+        }
+      ],
+      "relevance": 0.5830078125
+    },
+    "Entity-image-based_representation": {
+      "node_id": "image-based_representation",
+      "disambiguation_index": 0,
+      "label": "image-based representations",
+      "aliases": [
+        "image-based representations"
+      ],
+      "types": [
+        "representation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A type of representation that uses densely sampled rays to describe a scene, where each ray represents an image-based view.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "image-based representations",
+          "local_types": [
+            "representation"
+          ],
+          "iri": "Entity-image-based_representation-Mention-1"
+        }
+      ],
+      "relevance": 0.58056640625
+    },
+    "Entity-stereo_matching": {
+      "node_id": "stereo_matching",
+      "disambiguation_index": 0,
+      "label": "stereo matching",
+      "aliases": [
+        "stereo matching",
+        "Stereo matching"
+      ],
+      "types": [
+        "computer vision technique",
+        "computer vision task",
+        "machine learning",
+        "image processing task",
+        "image processing technique",
+        "algorithmic technique",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computer vision technique or task that involves finding corresponding points between two images taken from different viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "stereo matching",
+          "local_types": [
+            "computer vision technique",
+            "computer vision task",
+            "machine learning",
+            "image processing task",
+            "image processing technique",
+            "algorithmic technique",
+            "computer vision"
+          ],
+          "iri": "Entity-stereo_matching-Mention-1"
+        }
+      ],
+      "relevance": 0.57958984375
+    },
+    "Entity-3d_line": {
+      "node_id": "3d_line",
+      "disambiguation_index": 0,
+      "label": "3D lines",
+      "aliases": [
+        "3D line segments",
+        "3D lines"
+      ],
+      "types": [
+        "computational geometry",
+        "computer graphics",
+        "mathematical object",
+        "mathematical concept",
+        "concept",
+        "geometric shape",
+        "geometric structure",
+        "geometry",
+        "mathematics"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A set of three-dimensional line segments or curves.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "3D lines",
+          "local_types": [
+            "computational geometry",
+            "geometry",
+            "mathematical object",
+            "mathematical concept",
+            "geometric structure",
+            "concept",
+            "mathematics"
+          ],
+          "iri": "Entity-3d_line-Mention-1"
+        },
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "3D line segments",
+          "local_types": [
+            "geometric shape",
+            "computer graphics"
+          ],
+          "iri": "Entity-3d_line-Mention-2"
+        }
+      ],
+      "relevance": 0.55859375
+    },
+    "Entity-3d_line_constraint": {
+      "node_id": "3d_line_constraint",
+      "disambiguation_index": 0,
+      "label": "3D line constraints",
+      "aliases": [
+        "3D line constraints"
+      ],
+      "types": [
+        "constraint",
+        "parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Rules or limitations governing the relationships between three-dimensional lines",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "3D line constraints",
+          "local_types": [
+            "constraint",
+            "parameter"
+          ],
+          "iri": "Entity-3d_line_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.55224609375
+    },
+    "Entity-line_constraint": {
+      "node_id": "line_constraint",
+      "disambiguation_index": 0,
+      "label": "line constraints",
+      "aliases": [
+        "line constraints"
+      ],
+      "types": [
+        "mathematical constraint",
+        "computational problem"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Mathematical or computational limitations that restrict a system's behavior or solution space.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "line constraints",
+          "local_types": [
+            "mathematical constraint",
+            "computational problem"
+          ],
+          "iri": "Entity-line_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.53125
+    },
+    "Entity-continuous_and_non-overlapping_simplices": {
+      "node_id": "continuous_and_non-overlapping_simplices",
+      "disambiguation_index": 0,
+      "label": "continuous and non-overlapping simplices",
+      "aliases": [
+        "continuous and non-overlapping simplices"
+      ],
+      "types": [
+        "simplices"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of geometric shapes (simplices) that are connected to each other without overlapping and form a continuous structure in the ray space.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "continuous and non-overlapping simplices",
+          "local_types": [
+            "simplices"
+          ],
+          "iri": "Entity-continuous_and_non-overlapping_simplices-Mention-1"
+        }
+      ],
+      "relevance": 0.5234375
+    },
+    "Entity-scene": {
+      "node_id": "scene",
+      "disambiguation_index": 0,
+      "label": "scene",
+      "aliases": [
+        "scene"
+      ],
+      "types": [
+        "visual representation",
+        "environment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A visual representation or environment that can be perceived through sight, often comprising various elements such as objects, structures, and spatial relationships.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "scene",
+          "local_types": [
+            "visual representation",
+            "environment"
+          ],
+          "iri": "Entity-scene-Mention-1"
+        }
+      ],
+      "relevance": 0.50634765625
+    },
+    "Entity-interpolant": {
+      "node_id": "interpolant",
+      "disambiguation_index": 0,
+      "label": "interpolant",
+      "aliases": [
+        "interpolant"
+      ],
+      "types": [
+        "algorithm",
+        "computational method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical function or algorithm that estimates missing values by approximating unknown data points between known ones.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "interpolant",
+          "local_types": [
+            "algorithm",
+            "computational method"
+          ],
+          "iri": "Entity-interpolant-Mention-1"
+        }
+      ],
+      "relevance": 0.490234375
+    },
+    "Entity-geometric_structure": {
+      "node_id": "geometric_structure",
+      "disambiguation_index": 0,
+      "label": "geometric structures",
+      "aliases": [
+        "geometric structures"
+      ],
+      "types": [
+        "mathematics",
+        "computer science"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of mathematical concepts that describe shapes and patterns using spatial relationships, often used to analyze or model real-world objects.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "geometric structures",
+          "local_types": [
+            "mathematics",
+            "computer science"
+          ],
+          "iri": "Entity-geometric_structure-Mention-1"
+        }
+      ],
+      "relevance": 0.48681640625
+    },
+    "Entity--rrb-": {
+      "node_id": "-rrb-",
+      "disambiguation_index": 0,
+      "label": "-RRB-",
+      "aliases": [
+        "-RRB-"
+      ],
+      "types": [
+        "punctuation",
+        "bracket"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "closing right bracket",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "-RRB-",
+          "local_types": [
+            "punctuation",
+            "bracket"
+          ],
+          "iri": "Entity--rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.459228515625
+    },
+    "Entity-algorithm": {
+      "node_id": "algorithm",
+      "disambiguation_index": 0,
+      "label": "algorithm",
+      "aliases": [
+        "algorithm"
+      ],
+      "types": [
+        "computational method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computational method used for solving a specific problem or performing a particular task.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "algorithm",
+          "local_types": [
+            "computational method"
+          ],
+          "iri": "Entity-algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.452392578125
+    },
+    "Entity-state-of-the-art_solution": {
+      "node_id": "state-of-the-art_solution",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art solutions",
+      "aliases": [
+        "state-of-the-art solutions"
+      ],
+      "types": [
+        "research study",
+        "solution set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Advanced methods or techniques currently considered to be the most effective or up-to-date",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "state-of-the-art solutions",
+          "local_types": [
+            "research study",
+            "solution set"
+          ],
+          "iri": "Entity-state-of-the-art_solution-Mention-1"
+        }
+      ],
+      "relevance": 0.447998046875
+    },
+    "Entity-synthetic_and_real_data": {
+      "node_id": "synthetic_and_real_data",
+      "disambiguation_index": 0,
+      "label": "synthetic and real data",
+      "aliases": [
+        "synthetic and real data"
+      ],
+      "types": [
+        "data set",
+        "dataset",
+        "data"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A collection of data points, comprising both artificially generated examples (synthetic) and actual observations or measurements (real), used for testing, training, or evaluating models.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "synthetic and real data",
+          "local_types": [
+            "data set",
+            "dataset",
+            "data"
+          ],
+          "iri": "Entity-synthetic_and_real_data-Mention-1"
+        }
+      ],
+      "relevance": 0.443115234375
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "research paper"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written work that presents research or information on a particular topic",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "paper",
+          "local_types": [
+            "research paper"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.391357421875
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "Experiments",
+      "aliases": [
+        "Experiments"
+      ],
+      "types": [
+        "experiment",
+        "research study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic investigation or trial designed to test a hypothesis, evaluate a method, or explore a phenomenon.",
+      "mentions": [
+        {
+          "reference": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "Experiments",
+          "local_types": [
+            "experiment",
+            "research study"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.38232421875
+    }
+  },
+  "summary": "Light fields are image-based representations that use densely sampled rays as a scene description . In this paper , we explore geometric structures of 3D lines in ray space for improving light field triangulation and stereo matching . The triangulation problem aims to fill in the ray space with continuous and non-overlapping simplices anchored at sampled points -LRB- rays -RRB- . Such a triangulation provides a piecewise-linear interpolant useful for light field super-resolution . We show that the light field space is largely bi-linear due to 3D line segments in the scene , and direct tri-angulation of these bilinear subspaces leads to large errors . We instead present a simple but effective algorithm to first map bilinear subspaces to line constraints and then apply Constrained Delaunay Triangulation -LRB- CDT -RRB- . Based on our analysis , we further develop a novel line-assisted graph-cut -LRB- LAGC -RRB- algorithm that effectively encodes 3D line constraints into light field stereo matching . Experiments on synthetic and real data show that both our triangulation and LAGC algorithms outperform state-of-the-art solutions in accuracy and visual quality .",
+  "triples": [
+    [
+      "Entity-light_field",
+      "Predicate-represent",
+      "Entity-image-based_representation"
+    ],
+    [
+      "Entity-light_field",
+      "Predicate-are",
+      "Entity-image-based_representation"
+    ],
+    [
+      "Entity-geometric_structure_of_3d_line_in_ray_space",
+      "Predicate-improve",
+      "Entity-light_field_triangulation_and_stereo_matching"
+    ],
+    [
+      "Entity-triangulation_problem",
+      "Predicate-aims_to_fill_in",
+      "Entity-the_ray_space"
+    ],
+    [
+      "Entity-ray_space_with_continuous_and_non-overlapping_simplices_anchored_at_sampled_point_-lrb-_ray_-rrb-",
+      "Predicate-is_filled_by",
+      "Entity-triangulation_problem"
+    ],
+    [
+      "Entity-triangulation",
+      "Predicate-provides",
+      "Entity-interpolant"
+    ],
+    [
+      "Entity-such_a_triangulation",
+      "Predicate-is_useful_for",
+      "Entity-light_field_super-resolution"
+    ],
+    [
+      "Entity-light_field_space",
+      "Predicate-is_largely_bi-linear_due_to",
+      "Entity-3d_line"
+    ],
+    [
+      "Entity-line-assisted_graph-cut",
+      "Predicate-develops",
+      "Entity-based_on_our_analysis"
+    ],
+    [
+      "Entity-3d_line_constraint",
+      "Predicate-encodes_into",
+      "Entity-light_field_stereo_matching"
+    ],
+    [
+      "Entity-experiment",
+      "Predicate-show_that_both_our",
+      "Entity-triangulation"
+    ],
+    [
+      "Entity-that_effectively_encodes_3d_line_constraint_into_light_field_stereo_matching",
+      "Predicate-uses",
+      "Entity-light_field_triangulation"
+    ],
+    [
+      "Entity-constrained_delaunay_triangulation_-lrb-_cdt_-rrb-",
+      "Predicate-uses",
+      "Entity-light_field_triangulation"
+    ],
+    [
+      "Entity-direct_tri-angulation_of_these_bilinear_subspace_lead_to_large_error",
+      "Predicate-leads_to",
+      "Entity-constrained_delaunay_triangulation_-lrb-_cdt_-rrb-"
+    ],
+    [
+      "Entity-that_effectively_encodes_3d_line_constraint_into_light_field_stereo_matching",
+      "Predicate-applies",
+      "Entity-constrained_delaunay_triangulation_-lrb-_cdt_-rrb-"
+    ],
+    [
+      "Entity-light_field_triangulation",
+      "Predicate-leads",
+      "Entity-direct_tri-angulation_of_these_bilinear_subspace_lead_to_large_error"
+    ],
+    [
+      "Entity-direct_tri-angulation_of_these_bilinear_subspace_lead_to_large_error",
+      "Predicate-leads",
+      "Entity-that_effectively_encodes_3d_line_constraint_into_light_field_stereo_matching"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-line-assisted_graph-cut",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-light_field_triangulation",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-based_on_our_analysis",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-in_this_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-light_field",
+      "skos:broader",
+      "Entity-image-based_representation"
+    ],
+    [
+      "Entity-light_field_triangulation_and_stereo_matching",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-3d_line",
+      "skos:broader",
+      "Entity-geometric_structure"
+    ],
+    [
+      "Entity-ray_space",
+      "skos:broader",
+      "Entity-geometric_structure"
+    ],
+    [
+      "Entity-constrained_delaunay_triangulation_-lrb-_cdt_-rrb-",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-interpolant",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-3d_line_segment_in_the_scene",
+      "skos:broader",
+      "Entity-scene"
+    ],
+    [
+      "Entity-piecewise-linear_interpolant_useful_for_light_field_super-resolution",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-bilinear_subspace",
+      "skos:broader",
+      "Entity-geometric_structure"
+    ],
+    [
+      "Entity-a_piecewise-linear_interpolant",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-triangulation",
+      "skos:broader",
+      "Entity-algorithm"
+    ]
+  ],
+  "predicates": {
+    "Predicate-represent": {
+      "label": "represent",
+      "description": "To represent means to convey or depict a concept, idea, or phenomenon through a medium or form that captures its essence and characteristics. The predicate 'represent' establishes an abstract connection between the subject (the entity conveying) and the object (the representation), indicating that the former embodies or instantiates the latter.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are": {
+      "label": "are",
+      "description": "The predicate 'are' indicates a relationship of equivalence or classification between the subject and object. It suggests that the subject possesses or embodies the characteristics described by the object, implying a sense of similarity, identity, or categorization.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improve": {
+      "label": "improve",
+      "description": "To enhance or increase the quality, effectiveness, or efficiency of something. The predicate 'improve' indicates a positive transformation or enhancement from the subject to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-aims_to_fill_in": {
+      "label": "aims to fill in",
+      "description": "The predicate 'aims to fill in' indicates that the subject (a process or a task) intends to complete or satisfy some gap or deficiency represented by the object. The connection between the subject and object suggests an effort to resolve, cover, or make up for something missing.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_filled_by": {
+      "label": "is filled by",
+      "description": "The predicate 'is filled by' indicates a relationship where the subject represents an entity that has its internal structure or content determined by the object. In other words, the subject's essence or nature is defined or characterized by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-provides": {
+      "label": "provides",
+      "description": "The predicate 'provides' indicates a relationship where the subject offers or furnishes something (the object), which can be an entity, concept, resource, or service. In general, it suggests that the subject has access to or control over the object and is making it available for use or consumption.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_useful_for": {
+      "label": "is useful for",
+      "description": "The predicate 'is useful for' indicates that the subject has a practical application or purpose related to the object. It suggests a functional connection between the two entities, implying that the subject serves as a means to achieve something desirable or beneficial with respect to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_largely_bi-linear_due_to": {
+      "label": "is largely bi-linear due to",
+      "description": "The predicate 'is largely bi-linear due to' indicates a causal relationship between the subject and object. It suggests that the structure or nature of the subject is influenced by, or arises from, the presence or characteristics of the object. In this sense, the predicate highlights an underlying mechanism or factor that contributes significantly to the subject's properties.",
+      "disambiguation_index": 0
+    },
+    "Predicate-develops": {
+      "label": "develops",
+      "description": "The predicate 'develops' indicates a process of growth or maturation from an initial state to a more advanced or refined one. It suggests that the subject has undergone significant change, refinement, or improvement as a result of some influence or analysis (as indicated by the object), resulting in a new understanding, concept, or insight.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encodes_into": {
+      "label": "encodes into",
+      "description": "The predicate 'encodes into' indicates a relationship where the subject (a set of rules or principles) represents or translates into the object (a specific concept, technique, or method). This connection implies that the subject's underlying structure or patterns are mapped onto the object, allowing for a deeper understanding or representation of the object through the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show_that_both_our": {
+      "label": "show that both our",
+      "description": "The predicate 'show that both our' indicates a demonstration or presentation of evidence or proof that something belongs to or is characteristic of both individuals or entities referred to as 'our'. It suggests a connection between the subject (e.g. Experiments) and object (e.g. Triangulation), implying that the experiments provide empirical support for the concept of triangulation being applicable to both parties.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates a relationship of utilization or employment between the subject and object. It suggests that the subject makes use of, relies on, or employs the object to achieve some goal or accomplish something.",
+      "disambiguation_index": 0
+    },
+    "Predicate-leads_to": {
+      "label": "leads to",
+      "description": "The predicate 'leads to' indicates a causal relationship between the subject and object, suggesting that the action or state described by the subject has as its consequence or outcome the situation or condition denoted by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-applies": {
+      "label": "applies",
+      "description": "The predicate 'applies' indicates a relationship where a method, technique, or approach (subject) is used to achieve a specific outcome, solution, or framework (object). It suggests that the subject is utilized to produce or operate within the context of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-leads": {
+      "label": "leads",
+      "description": "The predicate 'leads' indicates a causal relationship between its subject and object. It suggests that the state or process described by the subject ultimately results in, gives rise to, or has as an outcome the situation or phenomenon denoted by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject concept is a specific instance or subclass of the object concept. It represents an is-a relationship between the two, where the subject is more specialized than the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

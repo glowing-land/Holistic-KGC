@@ -1,0 +1,1364 @@
+{
+  "iri": "Paper-50",
+  "title": "NIPS_2016_560_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-50-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-50-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+              "text": "Joint matrix triangularization is often used for estimating the joint eigenstructure of a set M of matrices , with applications in signal processing and machine learning ."
+            },
+            {
+              "iri": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+              "text": "We consider the problem of approximate joint matrix triangularization when the matrices in M are jointly diagonalizable and real , but we only observe a set M ' of noise perturbed versions of the matrices in M ."
+            },
+            {
+              "iri": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+              "text": "Our main result is a first-order upper bound on the distance between any approximate joint triangularizer of the matrices in M ' and any exact joint triangularizer of the matrices in M ."
+            },
+            {
+              "iri": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+              "text": "The bound depends only on the observable matrices in M ' and the noise level ."
+            },
+            {
+              "iri": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+              "text": "In particular , it does not depend on optimization specific properties of the triangularizer , such as its proximity to critical points , that are typical of existing bounds in the literature ."
+            },
+            {
+              "iri": "Paper-50-Section-1-Paragraph-1-Sentence-6",
+              "text": "To our knowledge , this is the first a posteriori bound for joint matrix decomposition ."
+            },
+            {
+              "iri": "Paper-50-Section-1-Paragraph-1-Sentence-7",
+              "text": "We demonstrate the bound on synthetic data for which the ground truth is known ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005166530609130859,
+    16.050862073898315,
+    27.84221601486206,
+    26.716977834701538,
+    0.02605748176574707,
+    0.00010824203491210938,
+    0.00014066696166992188,
+    47.98924684524536,
+    75.77531719207764,
+    1.2465519905090332,
+    107.73855447769165,
+    0.01360321044921875,
+    0.0002410411834716797,
+    31.63073468208313,
+    2.6032700538635254,
+    0.014387369155883789,
+    1.0872619152069092,
+    3.5285820960998535,
+    7.993213891983032,
+    8.847741842269897,
+    36.654725551605225,
+    1.805562973022461,
+    21.420349597930908,
+    0.9781622886657715,
+    0.0006382465362548828,
+    0.014068603515625
+  ],
+  "nodes": {
+    "Entity-we_consider": {
+      "node_id": "we_consider",
+      "disambiguation_index": 0,
+      "label": "We consider",
+      "aliases": [
+        "We consider"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The problem of approximate joint matrix triangularization when jointly diagonalizable and real matrices are observed with noise.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We consider",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_consider-Mention-1"
+        }
+      ],
+      "relevance": 0.80908203125
+    },
+    "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m": {
+      "node_id": "our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m",
+      "disambiguation_index": 0,
+      "label": "Our main result is a first-order upper bound on the distance between any approximate joint triangularizer of the matrices in M' and any exact joint triangularizer of the matrices in M",
+      "aliases": [
+        "a first-order upper bound on the distance between any approximate joint triangularizer of the matrices in M  ' and any exact joint triangularizer of the matrices in M",
+        "Our main result is a first-order upper bound on the distance between any approximate joint triangularizer of the matrices in M' and any exact joint triangularizer of the matrices in M",
+        "The bound"
+      ],
+      "types": [
+        "distance",
+        "result",
+        "bound",
+        "matrices",
+        "triangularizer"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A first-order upper bound on the distance between an approximate joint triangularizer of noisy matrix perturbations (M') and its corresponding exact joint triangularizer.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Our main result is a first-order upper bound on the distance between any approximate joint triangularizer of the matrices in M' and any exact joint triangularizer of the matrices in M",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a first-order upper bound on the distance between any approximate joint triangularizer of the matrices in M  ' and any exact joint triangularizer of the matrices in M",
+          "local_types": [
+            "bound",
+            "distance",
+            "triangularizer",
+            "matrices"
+          ],
+          "iri": "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m-Mention-2"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "The bound",
+          "local_types": [
+            "bound"
+          ],
+          "iri": "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m-Mention-3"
+        }
+      ],
+      "relevance": 0.80810546875
+    },
+    "Entity-a_posteriori_bound_for_joint_matrix_decomposition": {
+      "node_id": "a_posteriori_bound_for_joint_matrix_decomposition",
+      "disambiguation_index": 0,
+      "label": "a posteriori bound for joint matrix decomposition",
+      "aliases": [
+        "this is the first a posteriori bound for joint matrix decomposition",
+        "a posteriori bound for joint matrix decomposition",
+        "the first a posteriori bound for joint matrix decomposition"
+      ],
+      "types": [
+        "algorithm",
+        "result",
+        "bound",
+        "mathematical concept",
+        "computer science",
+        "mathematics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A mathematical concept and algorithm providing an upper limit on the distance between approximate and exact solutions in joint matrix triangularization, with applications in signal processing and machine learning.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a posteriori bound for joint matrix decomposition",
+          "local_types": [
+            "mathematical concept",
+            "algorithm",
+            "computer science"
+          ],
+          "iri": "Entity-a_posteriori_bound_for_joint_matrix_decomposition-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "this is the first a posteriori bound for joint matrix decomposition",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-a_posteriori_bound_for_joint_matrix_decomposition-Mention-2"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the first a posteriori bound for joint matrix decomposition",
+          "local_types": [
+            "bound",
+            "algorithm",
+            "mathematics"
+          ],
+          "iri": "Entity-a_posteriori_bound_for_joint_matrix_decomposition-Mention-3"
+        }
+      ],
+      "relevance": 0.76025390625
+    },
+    "Entity-the_bound_on_synthetic_data_for_which_the_ground_truth_is_known": {
+      "node_id": "the_bound_on_synthetic_data_for_which_the_ground_truth_is_known",
+      "disambiguation_index": 0,
+      "label": "the bound on synthetic data for which the ground truth is known",
+      "aliases": [
+        "the bound on synthetic data for which the ground truth is known"
+      ],
+      "types": [
+        "research",
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A first-order upper bound used in demonstrating the accuracy of joint matrix triangularization methods.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "the bound on synthetic data for which the ground truth is known",
+          "local_types": [
+            "research",
+            "study"
+          ],
+          "iri": "Entity-the_bound_on_synthetic_data_for_which_the_ground_truth_is_known-Mention-1"
+        }
+      ],
+      "relevance": 0.7373046875
+    },
+    "Entity-approximate_joint_triangularizer": {
+      "node_id": "approximate_joint_triangularizer",
+      "disambiguation_index": 0,
+      "label": "approximate joint triangularizer",
+      "aliases": [
+        "the problem of approximate joint matrix triangularization",
+        "approximate joint triangularizer"
+      ],
+      "types": [
+        "mathematical concept",
+        "problem",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A mathematical concept or algorithm used for estimating the approximate eigenstructure of a set of matrices, given noisy observations.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "approximate joint triangularizer",
+          "local_types": [
+            "mathematical concept",
+            "algorithm"
+          ],
+          "iri": "Entity-approximate_joint_triangularizer-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the problem of approximate joint matrix triangularization",
+          "local_types": [
+            "problem",
+            "algorithm"
+          ],
+          "iri": "Entity-approximate_joint_triangularizer-Mention-2"
+        }
+      ],
+      "relevance": 0.73681640625
+    },
+    "Entity-exact_joint_triangularizer": {
+      "node_id": "exact_joint_triangularizer",
+      "disambiguation_index": 0,
+      "label": "exact joint triangularizer",
+      "aliases": [
+        "the triangularizer",
+        "exact joint triangularizer"
+      ],
+      "types": [
+        "mathematical concept",
+        "triangularizer",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "An algorithm or mathematical concept used for estimating the joint eigenstructure of a set of matrices, which is jointly diagonalizable and real.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "exact joint triangularizer",
+          "local_types": [
+            "mathematical concept",
+            "algorithm"
+          ],
+          "iri": "Entity-exact_joint_triangularizer-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the triangularizer",
+          "local_types": [
+            "triangularizer"
+          ],
+          "iri": "Entity-exact_joint_triangularizer-Mention-2"
+        }
+      ],
+      "relevance": 0.73486328125
+    },
+    "Entity-joint_matrix_triangularization": {
+      "node_id": "joint_matrix_triangularization",
+      "disambiguation_index": 0,
+      "label": "Joint matrix triangularization",
+      "aliases": [
+        "approximate joint matrix triangularization",
+        "Joint matrix triangularization"
+      ],
+      "types": [
+        "mathematical concept",
+        "algorithm",
+        "method",
+        "computational method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A method for estimating the joint eigenstructure of a set of matrices, used in signal processing and machine learning.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Joint matrix triangularization",
+          "local_types": [
+            "mathematical concept",
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-joint_matrix_triangularization-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "approximate joint matrix triangularization",
+          "local_types": [
+            "algorithm",
+            "computational method",
+            "method"
+          ],
+          "iri": "Entity-joint_matrix_triangularization-Mention-2"
+        }
+      ],
+      "relevance": 0.72412109375
+    },
+    "Entity-first-order_upper_bound": {
+      "node_id": "first-order_upper_bound",
+      "disambiguation_index": 0,
+      "label": "first-order upper bound",
+      "aliases": [
+        "first-order upper bound"
+      ],
+      "types": [
+        "mathematical concept",
+        "bound"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A mathematical concept representing an upper limit on the distance between approximate and exact joint triangularizers of matrices in M' and M, respectively.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "first-order upper bound",
+          "local_types": [
+            "mathematical concept",
+            "bound"
+          ],
+          "iri": "Entity-first-order_upper_bound-Mention-1"
+        }
+      ],
+      "relevance": 0.70849609375
+    },
+    "Entity-the_observable_matrix_in_m__and_the_noise_level": {
+      "node_id": "the_observable_matrix_in_m__and_the_noise_level",
+      "disambiguation_index": 0,
+      "label": "the observable matrices in M ' and the noise level",
+      "aliases": [
+        "the observable matrices in M ' and the noise level",
+        "the observable matrices in M '"
+      ],
+      "types": [
+        "matrices",
+        "parameter",
+        "M'"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The input parameters for estimating the joint eigenstructure of a set of real, jointly diagonalizable matrices, consisting of noisy versions of the original matrices and their corresponding perturbation levels.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the observable matrices in M ' and the noise level",
+          "local_types": [
+            "parameter"
+          ],
+          "iri": "Entity-the_observable_matrix_in_m__and_the_noise_level-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the observable matrices in M '",
+          "local_types": [
+            "matrices",
+            "M'"
+          ],
+          "iri": "Entity-the_observable_matrix_in_m__and_the_noise_level-Mention-2"
+        }
+      ],
+      "relevance": 0.6982421875
+    },
+    "Entity-the_noise_level": {
+      "node_id": "the_noise_level",
+      "disambiguation_index": 0,
+      "label": "the noise level",
+      "aliases": [
+        "the noise level"
+      ],
+      "types": [
+        "noise level"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The amount of random variation or error present in the observed matrices M', which affects the accuracy of approximate joint matrix triangularization.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the noise level",
+          "local_types": [
+            "noise level"
+          ],
+          "iri": "Entity-the_noise_level-Mention-1"
+        }
+      ],
+      "relevance": 0.69580078125
+    },
+    "Entity-triangularizer": {
+      "node_id": "triangularizer",
+      "disambiguation_index": 0,
+      "label": "triangularizer",
+      "aliases": [
+        "triangularizer"
+      ],
+      "types": [
+        "algorithm",
+        "mathematical concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A mathematical concept or algorithm for estimating the joint eigenstructure of a set of matrices.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "triangularizer",
+          "local_types": [
+            "algorithm",
+            "mathematical concept"
+          ],
+          "iri": "Entity-triangularizer-Mention-1"
+        }
+      ],
+      "relevance": 0.68115234375
+    },
+    "Entity-it": {
+      "node_id": "it",
+      "disambiguation_index": 0,
+      "label": "it",
+      "aliases": [
+        "it"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A first-order upper bound for joint matrix decomposition",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "it",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-it-Mention-1"
+        }
+      ],
+      "relevance": 0.6611328125
+    },
+    "Entity-the_matrix_in_m_are_jointly_diagonalizable_and_real": {
+      "node_id": "the_matrix_in_m_are_jointly_diagonalizable_and_real",
+      "disambiguation_index": 0,
+      "label": "the matrices in M are jointly diagonalizable and real",
+      "aliases": [
+        "when the matrices in M are jointly diagonalizable and real",
+        "the matrices in M are jointly diagonalizable and real"
+      ],
+      "types": [
+        "condition",
+        "property"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A property that describes the joint diagonalizability and reality of multiple square matrices.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the matrices in M are jointly diagonalizable and real",
+          "local_types": [
+            "property"
+          ],
+          "iri": "Entity-the_matrix_in_m_are_jointly_diagonalizable_and_real-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "when the matrices in M are jointly diagonalizable and real",
+          "local_types": [
+            "condition",
+            "property"
+          ],
+          "iri": "Entity-the_matrix_in_m_are_jointly_diagonalizable_and_real-Mention-2"
+        }
+      ],
+      "relevance": 0.62158203125
+    },
+    "Entity-optimization_specific_property_of_the_triangularizer__such_a_it_proximity_to_critical_point": {
+      "node_id": "optimization_specific_property_of_the_triangularizer__such_a_it_proximity_to_critical_point",
+      "disambiguation_index": 0,
+      "label": "optimization specific properties of the triangularizer, such as its proximity to critical points",
+      "aliases": [
+        "optimization specific properties of the triangularizer, such as its proximity to critical points"
+      ],
+      "types": [
+        "property"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The triangularizer's optimization-specific properties, including its proximity to critical points.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "optimization specific properties of the triangularizer, such as its proximity to critical points",
+          "local_types": [
+            "property"
+          ],
+          "iri": "Entity-optimization_specific_property_of_the_triangularizer__such_a_it_proximity_to_critical_point-Mention-1"
+        }
+      ],
+      "relevance": 0.6044921875
+    },
+    "Entity-signal_processing_and_machine_learning": {
+      "node_id": "signal_processing_and_machine_learning",
+      "disambiguation_index": 0,
+      "label": "signal processing and machine learning",
+      "aliases": [
+        "signal processing and machine learning"
+      ],
+      "types": [
+        "field",
+        "domain"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The application of mathematical techniques from computer science, particularly in estimating joint eigenstructures of matrices.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "signal processing and machine learning",
+          "local_types": [
+            "field",
+            "domain"
+          ],
+          "iri": "Entity-signal_processing_and_machine_learning-Mention-1"
+        }
+      ],
+      "relevance": 0.59521484375
+    },
+    "Entity-this": {
+      "node_id": "this",
+      "disambiguation_index": 0,
+      "label": "this",
+      "aliases": [
+        "this"
+      ],
+      "types": [
+        "study",
+        "research",
+        "paper"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A research paper or study on joint matrix decomposition",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "this",
+          "local_types": [
+            "study",
+            "research",
+            "paper"
+          ],
+          "iri": "Entity-this-Mention-1"
+        }
+      ],
+      "relevance": 0.57861328125
+    },
+    "Entity-but_we_only_observe_a_set_m__of_noise_perturbed_version_of_the_matrix_in_m": {
+      "node_id": "but_we_only_observe_a_set_m__of_noise_perturbed_version_of_the_matrix_in_m",
+      "disambiguation_index": 0,
+      "label": "but we only observe a set M  ' of noise perturbed versions of the matrices in M",
+      "aliases": [
+        "but we only observe a set M  ' of noise perturbed versions of the matrices in M"
+      ],
+      "types": [
+        "data",
+        "observation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A set of noisy observations of matrix versions that are perturbations of original matrices.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "but we only observe a set M  ' of noise perturbed versions of the matrices in M",
+          "local_types": [
+            "data",
+            "observation"
+          ],
+          "iri": "Entity-but_we_only_observe_a_set_m__of_noise_perturbed_version_of_the_matrix_in_m-Mention-1"
+        }
+      ],
+      "relevance": 0.57421875
+    },
+    "Entity-m_": {
+      "node_id": "m_",
+      "disambiguation_index": 0,
+      "label": "M'",
+      "aliases": [
+        "M'",
+        "M '"
+      ],
+      "types": [
+        "notation",
+        "collection",
+        "set of matrices",
+        "set",
+        "variable name",
+        "collection of matrices"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection or set of matrices that can be jointly diagonalized and are real-valued.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "M'",
+          "local_types": [
+            "collection",
+            "set of matrices",
+            "collection of matrices",
+            "set"
+          ],
+          "iri": "Entity-m_-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "M '",
+          "local_types": [
+            "variable name",
+            "notation"
+          ],
+          "iri": "Entity-m_-Mention-2"
+        }
+      ],
+      "relevance": 0.5673828125
+    },
+    "Entity-the_joint_eigenstructure_of_a_set_m_of_matrix": {
+      "node_id": "the_joint_eigenstructure_of_a_set_m_of_matrix",
+      "disambiguation_index": 0,
+      "label": "the joint eigenstructure of a set M of matrices",
+      "aliases": [
+        "the joint eigenstructure of a set M of matrices"
+      ],
+      "types": [
+        "eigenstructure"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The collective eigenvectors and their corresponding eigenvalues shared by multiple matrices in a given set.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the joint eigenstructure of a set M of matrices",
+          "local_types": [
+            "eigenstructure"
+          ],
+          "iri": "Entity-the_joint_eigenstructure_of_a_set_m_of_matrix-Mention-1"
+        }
+      ],
+      "relevance": 0.53759765625
+    },
+    "Entity-matrix_in_m": {
+      "node_id": "matrix_in_m",
+      "disambiguation_index": 0,
+      "label": "matrices in M",
+      "aliases": [
+        "matrices in M"
+      ],
+      "types": [
+        "matrix",
+        "linear algebra object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of square arrays that can be combined using linear algebra operations.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "matrices in M",
+          "local_types": [
+            "matrix",
+            "linear algebra object"
+          ],
+          "iri": "Entity-matrix_in_m-Mention-1"
+        }
+      ],
+      "relevance": 0.51611328125
+    },
+    "Entity-observable_matrix": {
+      "node_id": "observable_matrix",
+      "disambiguation_index": 0,
+      "label": "observable matrices",
+      "aliases": [
+        "observable matrices"
+      ],
+      "types": [
+        "mathematical concept",
+        "matrix theory"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Matrices whose elements can be measured or observed",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "observable matrices",
+          "local_types": [
+            "mathematical concept",
+            "matrix theory"
+          ],
+          "iri": "Entity-observable_matrix-Mention-1"
+        }
+      ],
+      "relevance": 0.50927734375
+    },
+    "Entity-synthetic_data": {
+      "node_id": "synthetic_data",
+      "disambiguation_index": 0,
+      "label": "synthetic data",
+      "aliases": [
+        "synthetic data"
+      ],
+      "types": [
+        "data set",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of artificial records or samples used to train, test, or validate machine learning models.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "synthetic data",
+          "local_types": [
+            "data set",
+            "dataset"
+          ],
+          "iri": "Entity-synthetic_data-Mention-1"
+        }
+      ],
+      "relevance": 0.4912109375
+    },
+    "Entity-m_of_matrix": {
+      "node_id": "m_of_matrix",
+      "disambiguation_index": 0,
+      "label": "M of matrices",
+      "aliases": [
+        "M",
+        "M of matrices"
+      ],
+      "types": [
+        "set of matrices",
+        "collection",
+        "set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection or set of square matrices",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "M of matrices",
+          "local_types": [
+            "set",
+            "collection"
+          ],
+          "iri": "Entity-m_of_matrix-Mention-1"
+        },
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "M",
+          "local_types": [
+            "collection",
+            "set of matrices"
+          ],
+          "iri": "Entity-m_of_matrix-Mention-2"
+        }
+      ],
+      "relevance": 0.487060546875
+    },
+    "Entity-problem": {
+      "node_id": "problem",
+      "disambiguation_index": 0,
+      "label": "problem",
+      "aliases": [
+        "problem"
+      ],
+      "types": [
+        "research question",
+        "mathematical problem"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical or research question that requires finding an approximate solution to a complex issue.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "problem",
+          "local_types": [
+            "research question",
+            "mathematical problem"
+          ],
+          "iri": "Entity-problem-Mention-1"
+        }
+      ],
+      "relevance": 0.486083984375
+    },
+    "Entity-matrix": {
+      "node_id": "matrix",
+      "disambiguation_index": 0,
+      "label": "matrices",
+      "aliases": [
+        "matrices"
+      ],
+      "types": [
+        "mathematical object",
+        "array"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of mathematical arrays or tables of numbers, often used to represent data or perform calculations.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "matrices",
+          "local_types": [
+            "mathematical object",
+            "array"
+          ],
+          "iri": "Entity-matrix-Mention-1"
+        }
+      ],
+      "relevance": 0.48193359375
+    },
+    "Entity-ground_truth": {
+      "node_id": "ground_truth",
+      "disambiguation_index": 0,
+      "label": "ground truth",
+      "aliases": [
+        "ground truth"
+      ],
+      "types": [
+        "truth value",
+        "reference point"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A standard or expected outcome, serving as a reference against which actual results can be measured.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "ground truth",
+          "local_types": [
+            "truth value",
+            "reference point"
+          ],
+          "iri": "Entity-ground_truth-Mention-1"
+        }
+      ],
+      "relevance": 0.467529296875
+    },
+    "Entity-machine_learning": {
+      "node_id": "machine_learning",
+      "disambiguation_index": 0,
+      "label": "machine learning",
+      "aliases": [
+        "machine learning"
+      ],
+      "types": [
+        "field",
+        "field of study",
+        "domain"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A subfield of artificial intelligence concerned with developing algorithms and statistical models that enable computers to learn from data without being explicitly programmed.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "machine learning",
+          "local_types": [
+            "field",
+            "field of study",
+            "domain"
+          ],
+          "iri": "Entity-machine_learning-Mention-1"
+        }
+      ],
+      "relevance": 0.462158203125
+    },
+    "Entity-existing_bound_in_the_literature": {
+      "node_id": "existing_bound_in_the_literature",
+      "disambiguation_index": 0,
+      "label": "existing bounds in the literature",
+      "aliases": [
+        "existing bounds in the literature"
+      ],
+      "types": [
+        "reference",
+        "literature"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Previous or established limits or constraints reported in previous research studies",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "existing bounds in the literature",
+          "local_types": [
+            "reference",
+            "literature"
+          ],
+          "iri": "Entity-existing_bound_in_the_literature-Mention-1"
+        }
+      ],
+      "relevance": 0.460205078125
+    },
+    "Entity-noise_level": {
+      "node_id": "noise_level",
+      "disambiguation_index": 0,
+      "label": "noise level",
+      "aliases": [
+        "noise level"
+      ],
+      "types": [
+        "parameter",
+        "statistical term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measure of the intensity or volume of unwanted sounds.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "noise level",
+          "local_types": [
+            "parameter",
+            "statistical term"
+          ],
+          "iri": "Entity-noise_level-Mention-1"
+        }
+      ],
+      "relevance": 0.458740234375
+    },
+    "Entity-signal_processing": {
+      "node_id": "signal_processing",
+      "disambiguation_index": 0,
+      "label": "signal processing",
+      "aliases": [
+        "signal processing"
+      ],
+      "types": [
+        "field",
+        "field of study",
+        "domain"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or field of study concerned with analyzing, modifying, and interpreting signals in various forms, such as audio, image, or data.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "signal processing",
+          "local_types": [
+            "field",
+            "field of study",
+            "domain"
+          ],
+          "iri": "Entity-signal_processing-Mention-1"
+        }
+      ],
+      "relevance": 0.45751953125
+    },
+    "Entity-synthetic_data_for_which_the_ground_truth_is_known": {
+      "node_id": "synthetic_data_for_which_the_ground_truth_is_known",
+      "disambiguation_index": 0,
+      "label": "synthetic data for which the ground truth is known",
+      "aliases": [
+        "synthetic data for which the ground truth is known"
+      ],
+      "types": [
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A dataset created artificially, with its true values or labels being well-defined and available.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "synthetic data for which the ground truth is known",
+          "local_types": [
+            "data"
+          ],
+          "iri": "Entity-synthetic_data_for_which_the_ground_truth_is_known-Mention-1"
+        }
+      ],
+      "relevance": 0.455322265625
+    },
+    "Entity-bound": {
+      "node_id": "bound",
+      "disambiguation_index": 0,
+      "label": "bound",
+      "aliases": [
+        "bound"
+      ],
+      "types": [
+        "constraint",
+        "limit"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A constraint or limit that restricts something's scope, extent, or freedom.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "bound",
+          "local_types": [
+            "constraint",
+            "limit"
+          ],
+          "iri": "Entity-bound-Mention-1"
+        }
+      ],
+      "relevance": 0.443115234375
+    },
+    "Entity-noise_perturbed_version": {
+      "node_id": "noise_perturbed_version",
+      "disambiguation_index": 0,
+      "label": "noise perturbed versions",
+      "aliases": [
+        "noise perturbed versions"
+      ],
+      "types": [
+        "phenomenon",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Randomly corrupted or distorted instances of something",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "noise perturbed versions",
+          "local_types": [
+            "phenomenon",
+            "concept"
+          ],
+          "iri": "Entity-noise_perturbed_version-Mention-1"
+        }
+      ],
+      "relevance": 0.435302734375
+    },
+    "Entity-our_main_result": {
+      "node_id": "our_main_result",
+      "disambiguation_index": 0,
+      "label": "Our main result",
+      "aliases": [
+        "Our main result"
+      ],
+      "types": [
+        "result",
+        "research finding"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A significant outcome or finding from research, providing insight into a particular phenomenon or problem.",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Our main result",
+          "local_types": [
+            "result",
+            "research finding"
+          ],
+          "iri": "Entity-our_main_result-Mention-1"
+        }
+      ],
+      "relevance": 0.40234375
+    },
+    "Entity-critical_point": {
+      "node_id": "critical_point",
+      "disambiguation_index": 0,
+      "label": "critical points",
+      "aliases": [
+        "critical points"
+      ],
+      "types": [
+        "concept",
+        "mathematics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Key moments or turning points in a mathematical process or system",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "critical points",
+          "local_types": [
+            "concept",
+            "mathematics"
+          ],
+          "iri": "Entity-critical_point-Mention-1"
+        }
+      ],
+      "relevance": 0.402099609375
+    },
+    "Entity-literature": {
+      "node_id": "literature",
+      "disambiguation_index": 0,
+      "label": "literature",
+      "aliases": [
+        "literature"
+      ],
+      "types": [
+        "academic field",
+        "research area"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Written works or scholarly publications",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "literature",
+          "local_types": [
+            "academic field",
+            "research area"
+          ],
+          "iri": "Entity-literature-Mention-1"
+        }
+      ],
+      "relevance": 0.336669921875
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors of this paper",
+      "mentions": [
+        {
+          "reference": "Paper-50-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.319580078125
+    }
+  },
+  "summary": "Joint matrix triangularization is often used for estimating the joint eigenstructure of a set M of matrices , with applications in signal processing and machine learning . We consider the problem of approximate joint matrix triangularization when the matrices in M are jointly diagonalizable and real , but we only observe a set M ' of noise perturbed versions of the matrices in M . Our main result is a first-order upper bound on the distance between any approximate joint triangularizer of the matrices in M ' and any exact joint triangularizer of the matrices in M . The bound depends only on the observable matrices in M ' and the noise level . In particular , it does not depend on optimization specific properties of the triangularizer , such as its proximity to critical points , that are typical of existing bounds in the literature . To our knowledge , this is the first a posteriori bound for joint matrix decomposition . We demonstrate the bound on synthetic data for which the ground truth is known .",
+  "triples": [
+    [
+      "Entity-joint_matrix_triangularization",
+      "Predicate-is_used_for_estimating",
+      "Entity-the_joint_eigenstructure_of_a_set_m_of_matrix"
+    ],
+    [
+      "Entity-we_consider",
+      "Predicate-consider",
+      "Entity-approximate_joint_triangularizer"
+    ],
+    [
+      "Entity-the_matrix_in_m_are_jointly_diagonalizable_and_real",
+      "Predicate-are",
+      "Entity-the_matrix_in_m_are_jointly_diagonalizable_and_real"
+    ],
+    [
+      "Entity-we",
+      "Predicate-consider",
+      "Entity-approximate_joint_triangularizer"
+    ],
+    [
+      "Entity-this",
+      "Predicate-is",
+      "Entity-a_posteriori_bound_for_joint_matrix_decomposition"
+    ],
+    [
+      "Entity-we",
+      "Predicate-demonstrate",
+      "Entity-the_bound_on_synthetic_data_for_which_the_ground_truth_is_known"
+    ],
+    [
+      "Entity-we_consider",
+      "Predicate-introduce",
+      "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m"
+    ],
+    [
+      "Entity-we_consider",
+      "Predicate-provide",
+      "Entity-a_posteriori_bound_for_joint_matrix_decomposition"
+    ],
+    [
+      "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m",
+      "Predicate-provides",
+      "Entity-a_posteriori_bound_for_joint_matrix_decomposition"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m",
+      "skos:broader",
+      "Entity-matrix"
+    ],
+    [
+      "Entity-m_",
+      "skos:broader",
+      "Entity-matrix"
+    ],
+    [
+      "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m",
+      "skos:broader",
+      "Entity-bound"
+    ],
+    [
+      "Entity-the_observable_matrix_in_m__and_the_noise_level",
+      "skos:broader",
+      "Entity-matrix"
+    ],
+    [
+      "Entity-exact_joint_triangularizer",
+      "skos:broader",
+      "Entity-triangularizer"
+    ],
+    [
+      "Entity-the_observable_matrix_in_m__and_the_noise_level",
+      "skos:broader",
+      "Entity-m_"
+    ],
+    [
+      "Entity-approximate_joint_triangularizer",
+      "skos:broader",
+      "Entity-problem"
+    ],
+    [
+      "Entity-matrix_in_m",
+      "skos:broader",
+      "Entity-matrix"
+    ],
+    [
+      "Entity-existing_bound_in_the_literature",
+      "skos:broader",
+      "Entity-literature"
+    ],
+    [
+      "Entity-m_of_matrix",
+      "skos:broader",
+      "Entity-matrix"
+    ],
+    [
+      "Entity-our_main_result_is_a_first-order_upper_bound_on_the_distance_between_any_approximate_joint_triangularizer_of_the_matrix_in_m__and_any_exact_joint_triangularizer_of_the_matrix_in_m",
+      "skos:broader",
+      "Entity-triangularizer"
+    ],
+    [
+      "Entity-a_posteriori_bound_for_joint_matrix_decomposition",
+      "skos:broader",
+      "Entity-bound"
+    ],
+    [
+      "Entity-first-order_upper_bound",
+      "skos:broader",
+      "Entity-bound"
+    ],
+    [
+      "Entity-the_noise_level",
+      "skos:broader",
+      "Entity-noise_level"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_used_for_estimating": {
+      "label": "is used for estimating",
+      "description": "The predicate 'is used for estimating' indicates that the subject (a method or process) is employed to calculate, approximate, or determine the value of the object (typically an unknown quantity or property). This connection implies that the subject plays a crucial role in obtaining information about the object, which may involve simplification, approximation, or refinement.",
+      "disambiguation_index": 0
+    },
+    "Predicate-consider": {
+      "label": "consider",
+      "description": "To consider a predicate as connecting two entities by mentally evaluating or examining one's thoughts about another entity. This connection implies that the subject has given thought to, reflected on, or pondered over the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are": {
+      "label": "are",
+      "description": "The predicate 'are' indicates a state of being or equivalence between two entities. It connects the subject to itself by affirming that they share a common property, characteristic, or quality.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' establishes an identification or equivalence relationship between its subject and object. It indicates that the subject refers to, represents, or has a specific quality or characteristic described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-demonstrate": {
+      "label": "demonstrate",
+      "description": "To demonstrate means to show or illustrate something through evidence, examples, or proof. It implies a connection between the subject and object where the subject provides insight into the nature of the object by presenting it in a way that makes its characteristics or properties clear.",
+      "disambiguation_index": 0
+    },
+    "Predicate-introduce": {
+      "label": "introduce",
+      "description": "To introduce means to bring forth or present something, often with a sense of formalization or official recognition. It implies connecting the subject (the entity introducing) with an idea, concept, method, or result that is being presented for consideration or acceptance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-provide": {
+      "label": "provide",
+      "description": "To provide means to offer or make available something (e.g. information, resources, constraints) that enables or facilitates an action, process, or understanding between the subject and object. It implies a sense of enabling or supporting the relationship between them.",
+      "disambiguation_index": 0
+    },
+    "Predicate-provides": {
+      "label": "provides",
+      "description": "The predicate 'provides' indicates that the subject offers or furnishes something (the object), often implying a connection between the two. In general, it suggests that the subject has made available, offered, or given rise to the object in some way.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is related to or encompasses the object at a higher level of abstraction. It suggests that the subject provides a more general context, category, or framework within which the object can be understood.",
+      "disambiguation_index": 0
+    }
+  }
+}

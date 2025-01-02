@@ -1,0 +1,1148 @@
+{
+  "iri": "Paper-2",
+  "title": "ICCV_2001_47_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-2-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-2-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-2-Section-1-Paragraph-1-Sentence-1",
+              "text": "We propose to incorporate a priori geometric constraints in a 3 -- D stereo reconstruction scheme to cope with the many cases where image information alone is not sufficient to accurately recover 3 -- D shape ."
+            },
+            {
+              "iri": "Paper-2-Section-1-Paragraph-1-Sentence-2",
+              "text": "Our approach is based on the iterative deformation of a 3 -- D surface mesh to minimize an objective function ."
+            },
+            {
+              "iri": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+              "text": "We show that combining anisotropic meshing with a non-quadratic approach to regularization enables us to obtain satisfactory reconstruction results using triangulations with few vertices ."
+            },
+            {
+              "iri": "Paper-2-Section-1-Paragraph-1-Sentence-4",
+              "text": "Structural or numerical constraints can then be added locally to the reconstruction process through a constrained optimization scheme ."
+            },
+            {
+              "iri": "Paper-2-Section-1-Paragraph-1-Sentence-5",
+              "text": "They improve the reconstruction results and enforce their consistency with a priori knowledge about object shape ."
+            },
+            {
+              "iri": "Paper-2-Section-1-Paragraph-1-Sentence-6",
+              "text": "The strong description and modeling properties of differential features make them useful tools that can be efficiently used as constraints for 3 -- D reconstruction ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0007159709930419922,
+    6.062526226043701,
+    20.81912922859192,
+    22.873115062713623,
+    0.048085927963256836,
+    0.00012803077697753906,
+    0.00013899803161621094,
+    20.130964994430542,
+    31.23178005218506,
+    3.869277000427246,
+    15.436840772628784,
+    0.01031494140625,
+    0.0002009868621826172,
+    16.410835027694702,
+    0.0017571449279785156,
+    0.04216599464416504,
+    0.0016281604766845703,
+    6.053417921066284,
+    1.2319729328155518,
+    0.8123149871826172,
+    72.80446815490723,
+    7.687175989151001,
+    35.554166078567505,
+    3.0116958618164062,
+    0.0022280216217041016,
+    0.009765148162841797
+  ],
+  "nodes": {
+    "Entity-a_priori_geometric_constraint": {
+      "node_id": "a_priori_geometric_constraint",
+      "disambiguation_index": 0,
+      "label": "a priori geometric constraints",
+      "aliases": [
+        "a priori geometric constraints"
+      ],
+      "types": [
+        "constraint",
+        "mathematical concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A priori geometric constraints refer to predefined rules or conditions regarding the shape and structure of objects that are utilized in 3-D stereo reconstruction to enhance the accuracy of shape recovery when image data is insufficient.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a priori geometric constraints",
+          "local_types": [
+            "constraint",
+            "mathematical concept"
+          ],
+          "iri": "Entity-a_priori_geometric_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.78466796875
+    },
+    "Entity-our_approach": {
+      "node_id": "our_approach",
+      "disambiguation_index": 0,
+      "label": "Our approach",
+      "aliases": [
+        "Our approach"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our approach refers to a methodology for 3-D stereo reconstruction that utilizes iterative deformation of a 3-D surface mesh to minimize an objective function, incorporating a priori geometric constraints to enhance accuracy and consistency in shape recovery.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Our approach",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-our_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.75146484375
+    },
+    "Entity-satisfactory_reconstruction_result": {
+      "node_id": "satisfactory_reconstruction_result",
+      "disambiguation_index": 0,
+      "label": "satisfactory reconstruction results",
+      "aliases": [
+        "satisfactory reconstruction results"
+      ],
+      "types": [
+        "results"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Satisfactory reconstruction results refer to the effective recovery of 3-D shapes in a stereo reconstruction scheme, achieved through the combination of anisotropic meshing and non-quadratic regularization techniques, even when using triangulations with a limited number of vertices.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "satisfactory reconstruction results",
+          "local_types": [
+            "results"
+          ],
+          "iri": "Entity-satisfactory_reconstruction_result-Mention-1"
+        }
+      ],
+      "relevance": 0.75
+    },
+    "Entity-iterative_deformation": {
+      "node_id": "iterative_deformation",
+      "disambiguation_index": 0,
+      "label": "iterative deformation",
+      "aliases": [
+        "iterative deformation"
+      ],
+      "types": [
+        "algorithm",
+        "method",
+        "optimization technique",
+        "mathematical process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Iterative deformation refers to a method used in 3-D stereo reconstruction that involves the repeated adjustment of a 3-D surface mesh to minimize an objective function, thereby improving the accuracy of shape recovery by incorporating geometric constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "iterative deformation",
+          "local_types": [
+            "algorithm",
+            "method",
+            "optimization technique",
+            "mathematical process"
+          ],
+          "iri": "Entity-iterative_deformation-Mention-1"
+        }
+      ],
+      "relevance": 0.74560546875
+    },
+    "Entity-non-quadratic_approach": {
+      "node_id": "non-quadratic_approach",
+      "disambiguation_index": 0,
+      "label": "non-quadratic approach",
+      "aliases": [
+        "non-quadratic approach to regularization",
+        "non-quadratic approach"
+      ],
+      "types": [
+        "regularization technique",
+        "mathematical method",
+        "method",
+        "regularization"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'non-quadratic approach' refers to a regularization technique used in 3-D stereo reconstruction that enhances the reconstruction results by minimizing an objective function through the iterative deformation of a 3-D surface mesh, particularly when combined with anisotropic meshing.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "non-quadratic approach",
+          "local_types": [
+            "method",
+            "regularization technique"
+          ],
+          "iri": "Entity-non-quadratic_approach-Mention-1"
+        },
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "non-quadratic approach to regularization",
+          "local_types": [
+            "regularization technique",
+            "mathematical method",
+            "method",
+            "regularization"
+          ],
+          "iri": "Entity-non-quadratic_approach-Mention-2"
+        }
+      ],
+      "relevance": 0.74169921875
+    },
+    "Entity-iterative_deformation_of_a_3_--_d_surface_mesh": {
+      "node_id": "iterative_deformation_of_a_3_--_d_surface_mesh",
+      "disambiguation_index": 0,
+      "label": "iterative deformation of a 3 -- D surface mesh",
+      "aliases": [
+        "iterative deformation of a 3 -- D surface mesh"
+      ],
+      "types": [
+        "process",
+        "3D surface mesh"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The iterative deformation of a 3-D surface mesh refers to a computational process used in 3-D stereo reconstruction that involves progressively adjusting the vertices of a mesh to minimize a specific objective function, thereby improving the accuracy of the reconstructed 3-D shape by incorporating geometric constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "iterative deformation of a 3 -- D surface mesh",
+          "local_types": [
+            "process",
+            "3D surface mesh"
+          ],
+          "iri": "Entity-iterative_deformation_of_a_3_--_d_surface_mesh-Mention-1"
+        }
+      ],
+      "relevance": 0.73779296875
+    },
+    "Entity-numerical_constraint": {
+      "node_id": "numerical_constraint",
+      "disambiguation_index": 0,
+      "label": "numerical constraints",
+      "aliases": [
+        "numerical constraints"
+      ],
+      "types": [
+        "constraint",
+        "optimization parameter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Numerical constraints refer to specific limitations or conditions applied to the optimization process in 3-D stereo reconstruction, which enhance the accuracy and consistency of the reconstructed shape by incorporating quantitative criteria.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "numerical constraints",
+          "local_types": [
+            "constraint",
+            "optimization parameter"
+          ],
+          "iri": "Entity-numerical_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.73095703125
+    },
+    "Entity-reconstruction_result": {
+      "node_id": "reconstruction_result",
+      "disambiguation_index": 0,
+      "label": "reconstruction results",
+      "aliases": [
+        "the reconstruction results",
+        "reconstruction results"
+      ],
+      "types": [
+        "output data",
+        "outcome",
+        "results",
+        "result",
+        "output",
+        "result analysis",
+        "performance metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'reconstruction results' refers to the outcomes of a 3-D stereo reconstruction process that successfully recovers 3-D shape using a combination of anisotropic meshing and non-quadratic regularization techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "reconstruction results",
+          "local_types": [
+            "output data",
+            "outcome",
+            "results",
+            "output",
+            "result analysis",
+            "performance metric"
+          ],
+          "iri": "Entity-reconstruction_result-Mention-1"
+        },
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "reconstruction results",
+          "local_types": [
+            "outcome",
+            "result"
+          ],
+          "iri": "Entity-reconstruction_result-Mention-2"
+        },
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the reconstruction results",
+          "local_types": [
+            "results"
+          ],
+          "iri": "Entity-reconstruction_result-Mention-3"
+        }
+      ],
+      "relevance": 0.7255859375
+    },
+    "Entity-reconstruction_process": {
+      "node_id": "reconstruction_process",
+      "disambiguation_index": 0,
+      "label": "reconstruction process",
+      "aliases": [
+        "the reconstruction process",
+        "reconstruction process"
+      ],
+      "types": [
+        "methodology",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The reconstruction process refers to the iterative method of 3-D surface mesh deformation used to recover 3-D shape by minimizing an objective function, while incorporating a priori geometric constraints and optimization techniques to enhance the accuracy and consistency of the results.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "reconstruction process",
+          "local_types": [
+            "process",
+            "methodology"
+          ],
+          "iri": "Entity-reconstruction_process-Mention-1"
+        },
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the reconstruction process",
+          "local_types": [
+            "process"
+          ],
+          "iri": "Entity-reconstruction_process-Mention-2"
+        }
+      ],
+      "relevance": 0.72216796875
+    },
+    "Entity-3_--_d_shape": {
+      "node_id": "3_--_d_shape",
+      "disambiguation_index": 0,
+      "label": "3 -- D shape",
+      "aliases": [
+        "3 -- D shape"
+      ],
+      "types": [
+        "3D",
+        "shape",
+        "geometric shape",
+        "3D model",
+        "geometric representation",
+        "3D shape"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term '3 -- D shape' refers to the three-dimensional geometric representation of an object that is reconstructed using stereo vision techniques, incorporating geometric constraints to enhance accuracy in the recovery process.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "3 -- D shape",
+          "local_types": [
+            "3D",
+            "shape",
+            "geometric shape",
+            "3D model",
+            "geometric representation",
+            "3D shape"
+          ],
+          "iri": "Entity-3_--_d_shape-Mention-1"
+        }
+      ],
+      "relevance": 0.71875
+    },
+    "Entity-triangulation_with_few_vertex": {
+      "node_id": "triangulation_with_few_vertex",
+      "disambiguation_index": 0,
+      "label": "triangulations with few vertices",
+      "aliases": [
+        "triangulations with few vertices"
+      ],
+      "types": [
+        "technique",
+        "3D model",
+        "triangulation",
+        "mesh"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Triangulations with few vertices refer to a technique in 3D surface reconstruction that utilizes a minimal number of vertices in a mesh to achieve satisfactory results while incorporating geometric constraints and optimization methods.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "triangulations with few vertices",
+          "local_types": [
+            "technique",
+            "3D model",
+            "triangulation",
+            "mesh"
+          ],
+          "iri": "Entity-triangulation_with_few_vertex-Mention-1"
+        }
+      ],
+      "relevance": 0.70263671875
+    },
+    "Entity-structural_or_numerical_constraint": {
+      "node_id": "structural_or_numerical_constraint",
+      "disambiguation_index": 0,
+      "label": "structural or numerical constraints",
+      "aliases": [
+        "Structural or numerical constraints",
+        "structural or numerical constraints"
+      ],
+      "types": [
+        "constraint",
+        "optimization constraint",
+        "constraint type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Structural or numerical constraints refer to specific limitations or requirements that can be applied during the 3-D reconstruction process to enhance the accuracy and consistency of the reconstructed shape with prior geometric knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "structural or numerical constraints",
+          "local_types": [
+            "constraint",
+            "optimization constraint",
+            "constraint type"
+          ],
+          "iri": "Entity-structural_or_numerical_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.69873046875
+    },
+    "Entity-3_--_d_stereo_reconstruction_scheme": {
+      "node_id": "3_--_d_stereo_reconstruction_scheme",
+      "disambiguation_index": 0,
+      "label": "3 -- D stereo reconstruction scheme",
+      "aliases": [
+        "3 -- D stereo reconstruction scheme"
+      ],
+      "types": [
+        "3D technology",
+        "reconstruction scheme",
+        "reconstruction method",
+        "3D",
+        "3D reconstruction"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A 3D stereo reconstruction scheme is a method used to create a three-dimensional representation of a scene or object from two-dimensional images by analyzing the disparity between the images.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "3 -- D stereo reconstruction scheme",
+          "local_types": [
+            "3D technology",
+            "reconstruction scheme",
+            "reconstruction method",
+            "3D",
+            "3D reconstruction"
+          ],
+          "iri": "Entity-3_--_d_stereo_reconstruction_scheme-Mention-1"
+        }
+      ],
+      "relevance": 0.693359375
+    },
+    "Entity-triangulation": {
+      "node_id": "triangulation",
+      "disambiguation_index": 0,
+      "label": "triangulations",
+      "aliases": [
+        "triangulations"
+      ],
+      "types": [
+        "geometric structure",
+        "mathematical concept",
+        "geometric representation",
+        "mesh structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Triangulations refer to geometric structures used in 3-D surface meshes, consisting of triangular elements that facilitate the reconstruction of 3-D shapes by minimizing an objective function through iterative deformation.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "triangulations",
+          "local_types": [
+            "geometric structure",
+            "mathematical concept",
+            "geometric representation",
+            "mesh structure"
+          ],
+          "iri": "Entity-triangulation-Mention-1"
+        }
+      ],
+      "relevance": 0.6826171875
+    },
+    "Entity-object_shape": {
+      "node_id": "object_shape",
+      "disambiguation_index": 0,
+      "label": "object shape",
+      "aliases": [
+        "object shape"
+      ],
+      "types": [
+        "shape",
+        "concept",
+        "physical property",
+        "object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'object shape' refers to the geometric configuration or form of an object, which is utilized as a prior knowledge constraint in 3-D stereo reconstruction to enhance the accuracy and consistency of the reconstructed 3-D models.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "object shape",
+          "local_types": [
+            "shape",
+            "concept",
+            "physical property",
+            "object"
+          ],
+          "iri": "Entity-object_shape-Mention-1"
+        }
+      ],
+      "relevance": 0.66259765625
+    },
+    "Entity-a_priori_knowledge_about_object_shape": {
+      "node_id": "a_priori_knowledge_about_object_shape",
+      "disambiguation_index": 0,
+      "label": "a priori knowledge about object shape",
+      "aliases": [
+        "a priori knowledge about object shape"
+      ],
+      "types": [
+        "geometric information",
+        "knowledge",
+        "object shape",
+        "prior knowledge"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A priori knowledge about object shape refers to the pre-existing geometric constraints and information regarding the form of objects that are utilized to enhance the accuracy of 3-D shape reconstruction in computer vision, particularly when image data alone is insufficient.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a priori knowledge about object shape",
+          "local_types": [
+            "geometric information",
+            "knowledge",
+            "object shape",
+            "prior knowledge"
+          ],
+          "iri": "Entity-a_priori_knowledge_about_object_shape-Mention-1"
+        }
+      ],
+      "relevance": 0.63330078125
+    },
+    "Entity-anisotropic_meshing": {
+      "node_id": "anisotropic_meshing",
+      "disambiguation_index": 0,
+      "label": "anisotropic meshing",
+      "aliases": [
+        "anisotropic meshing"
+      ],
+      "types": [
+        "technique",
+        "meshing technique",
+        "geometric modeling",
+        "method",
+        "geometric processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Anisotropic meshing is a geometric modeling technique that generates meshes with varying element sizes and shapes to better capture the features of a given geometric domain.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "anisotropic meshing",
+          "local_types": [
+            "technique",
+            "meshing technique",
+            "geometric modeling",
+            "method",
+            "geometric processing"
+          ],
+          "iri": "Entity-anisotropic_meshing-Mention-1"
+        }
+      ],
+      "relevance": 0.62451171875
+    },
+    "Entity-their_consistency": {
+      "node_id": "their_consistency",
+      "disambiguation_index": 0,
+      "label": "their consistency",
+      "aliases": [
+        "their consistency"
+      ],
+      "types": [
+        "consistency"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'their consistency' refers to the alignment and adherence of the reconstruction results in a 3-D stereo reconstruction scheme with the a priori geometric constraints and knowledge about the object's shape.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "their consistency",
+          "local_types": [
+            "consistency"
+          ],
+          "iri": "Entity-their_consistency-Mention-1"
+        }
+      ],
+      "relevance": 0.62255859375
+    },
+    "Entity-3_--_d_reconstruction": {
+      "node_id": "3_--_d_reconstruction",
+      "disambiguation_index": 0,
+      "label": "3 -- D reconstruction",
+      "aliases": [
+        "3 -- D reconstruction"
+      ],
+      "types": [
+        "3D reconstruction",
+        "reconstruction process",
+        "process",
+        "reconstruction",
+        "computer vision",
+        "3D modeling"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "3D reconstruction is a process in computer vision and modeling that involves creating a three-dimensional representation of a physical object or scene from two-dimensional images or other data.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "3 -- D reconstruction",
+          "local_types": [
+            "3D reconstruction",
+            "reconstruction process",
+            "process",
+            "reconstruction",
+            "computer vision",
+            "3D modeling"
+          ],
+          "iri": "Entity-3_--_d_reconstruction-Mention-1"
+        }
+      ],
+      "relevance": 0.61669921875
+    },
+    "Entity-differential_feature": {
+      "node_id": "differential_feature",
+      "disambiguation_index": 0,
+      "label": "differential features",
+      "aliases": [
+        "differential features"
+      ],
+      "types": [
+        "mathematical concept",
+        "tool",
+        "feature",
+        "geometric property",
+        "mathematical feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Differential features are geometric properties that provide strong descriptive and modeling capabilities, making them effective tools for imposing constraints in 3-D reconstruction processes.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "differential features",
+          "local_types": [
+            "mathematical concept",
+            "tool",
+            "feature",
+            "geometric property",
+            "mathematical feature"
+          ],
+          "iri": "Entity-differential_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.611328125
+    },
+    "Entity-image_information": {
+      "node_id": "image_information",
+      "disambiguation_index": 0,
+      "label": "image information",
+      "aliases": [
+        "image information"
+      ],
+      "types": [
+        "image data",
+        "information",
+        "data type",
+        "visual data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Image information refers to the visual data derived from images that is utilized in 3-D stereo reconstruction processes, which may require additional geometric constraints to accurately recover 3-D shapes.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "image information",
+          "local_types": [
+            "image data",
+            "information",
+            "data type",
+            "visual data"
+          ],
+          "iri": "Entity-image_information-Mention-1"
+        }
+      ],
+      "relevance": 0.59228515625
+    },
+    "Entity-3_--_d_surface_mesh": {
+      "node_id": "3_--_d_surface_mesh",
+      "disambiguation_index": 0,
+      "label": "3 -- D surface mesh",
+      "aliases": [
+        "3 -- D surface mesh"
+      ],
+      "types": [
+        "geometric structure",
+        "3D model",
+        "geometric representation",
+        "mesh"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A 3-D surface mesh is a geometric representation consisting of interconnected vertices, edges, and faces that defines the shape of a three-dimensional object.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "3 -- D surface mesh",
+          "local_types": [
+            "geometric structure",
+            "3D model",
+            "geometric representation",
+            "mesh"
+          ],
+          "iri": "Entity-3_--_d_surface_mesh-Mention-1"
+        }
+      ],
+      "relevance": 0.58984375
+    },
+    "Entity-constrained_optimization_scheme": {
+      "node_id": "constrained_optimization_scheme",
+      "disambiguation_index": 0,
+      "label": "constrained optimization scheme",
+      "aliases": [
+        "a constrained optimization scheme",
+        "constrained optimization scheme"
+      ],
+      "types": [
+        "optimization method",
+        "optimization technique",
+        "optimization scheme",
+        "method",
+        "mathematical technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A constrained optimization scheme is a mathematical technique used to find the best solution to a problem while adhering to specific limitations or constraints on the variables involved.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "constrained optimization scheme",
+          "local_types": [
+            "optimization method",
+            "method",
+            "mathematical technique",
+            "optimization technique"
+          ],
+          "iri": "Entity-constrained_optimization_scheme-Mention-1"
+        },
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a constrained optimization scheme",
+          "local_types": [
+            "optimization scheme"
+          ],
+          "iri": "Entity-constrained_optimization_scheme-Mention-2"
+        }
+      ],
+      "relevance": 0.5888671875
+    },
+    "Entity-vertex": {
+      "node_id": "vertex",
+      "disambiguation_index": 0,
+      "label": "vertices",
+      "aliases": [
+        "vertices"
+      ],
+      "types": [
+        "mathematical concept",
+        "geometric element",
+        "mesh component",
+        "geometric point"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Vertices are the distinct points in a geometric figure or mesh where two or more edges meet, serving as fundamental components in various mathematical and geometric contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "vertices",
+          "local_types": [
+            "mathematical concept",
+            "geometric element",
+            "mesh component",
+            "geometric point"
+          ],
+          "iri": "Entity-vertex-Mention-1"
+        }
+      ],
+      "relevance": 0.457763671875
+    },
+    "Entity-objective_function": {
+      "node_id": "objective_function",
+      "disambiguation_index": 0,
+      "label": "objective function",
+      "aliases": [
+        "objective function"
+      ],
+      "types": [
+        "function",
+        "optimization criterion",
+        "mathematical concept",
+        "mathematical function"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An objective function is a mathematical function that quantifies the goal of an optimization problem, typically representing the value to be minimized or maximized.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "objective function",
+          "local_types": [
+            "function",
+            "optimization criterion",
+            "mathematical concept",
+            "mathematical function"
+          ],
+          "iri": "Entity-objective_function-Mention-1"
+        }
+      ],
+      "relevance": 0.410888671875
+    },
+    "Entity-a_priori_knowledge": {
+      "node_id": "a_priori_knowledge",
+      "disambiguation_index": 0,
+      "label": "a priori knowledge",
+      "aliases": [
+        "a priori knowledge"
+      ],
+      "types": [
+        "knowledge",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A priori knowledge refers to information or understanding that is independent of experience, often considered to be universally valid and derived from reasoning or theoretical frameworks.",
+      "mentions": [
+        {
+          "reference": "Paper-2-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a priori knowledge",
+          "local_types": [
+            "knowledge",
+            "theoretical framework"
+          ],
+          "iri": "Entity-a_priori_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.37939453125
+    }
+  },
+  "summary": "We propose to incorporate a priori geometric constraints in a 3 -- D stereo reconstruction scheme to cope with the many cases where image information alone is not sufficient to accurately recover 3 -- D shape . Our approach is based on the iterative deformation of a 3 -- D surface mesh to minimize an objective function . We show that combining anisotropic meshing with a non-quadratic approach to regularization enables us to obtain satisfactory reconstruction results using triangulations with few vertices . Structural or numerical constraints can then be added locally to the reconstruction process through a constrained optimization scheme . They improve the reconstruction results and enforce their consistency with a priori knowledge about object shape . The strong description and modeling properties of differential features make them useful tools that can be efficiently used as constraints for 3 -- D reconstruction .",
+  "triples": [
+    [
+      "Entity-a_priori_geometric_constraint",
+      "Predicate-incorporate_in",
+      "Entity-3_--_d_stereo_reconstruction_scheme"
+    ],
+    [
+      "Entity-image_information",
+      "Predicate-is_not_sufficient_to_accurately_recover",
+      "Entity-3_--_d_shape"
+    ],
+    [
+      "Entity-our_approach",
+      "Predicate-is_based_on",
+      "Entity-iterative_deformation_of_a_3_--_d_surface_mesh"
+    ],
+    [
+      "Entity-iterative_deformation_of_a_3_--_d_surface_mesh",
+      "Predicate-minimizes",
+      "Entity-objective_function"
+    ],
+    [
+      "Entity-iterative_deformation_of_a_3_--_d_surface_mesh",
+      "Predicate-minimize",
+      "Entity-objective_function"
+    ],
+    [
+      "Entity-anisotropic_meshing",
+      "Predicate-combines_with",
+      "Entity-non-quadratic_approach"
+    ],
+    [
+      "Entity-non-quadratic_approach",
+      "Predicate-enables",
+      "Entity-satisfactory_reconstruction_result"
+    ],
+    [
+      "Entity-triangulation",
+      "Predicate-uses",
+      "Entity-vertex"
+    ],
+    [
+      "Entity-triangulation_with_few_vertex",
+      "Predicate-obtains",
+      "Entity-satisfactory_reconstruction_result"
+    ],
+    [
+      "Entity-non-quadratic_approach",
+      "Predicate-enables_to_obtain",
+      "Entity-satisfactory_reconstruction_result"
+    ],
+    [
+      "Entity-triangulation_with_few_vertex",
+      "Predicate-are_used_for",
+      "Entity-reconstruction_result"
+    ],
+    [
+      "Entity-numerical_constraint",
+      "Predicate-added_to",
+      "Entity-reconstruction_process"
+    ],
+    [
+      "Entity-structural_or_numerical_constraint",
+      "Predicate-added_to",
+      "Entity-reconstruction_process"
+    ],
+    [
+      "Entity-constrained_optimization_scheme",
+      "Predicate-used_in",
+      "Entity-reconstruction_process"
+    ],
+    [
+      "Entity-structural_or_numerical_constraint",
+      "Predicate-can_be_added_to",
+      "Entity-reconstruction_process"
+    ],
+    [
+      "Entity-reconstruction_result",
+      "Predicate-improve",
+      "Entity-their_consistency"
+    ],
+    [
+      "Entity-their_consistency",
+      "Predicate-enforce_consistency_with",
+      "Entity-a_priori_knowledge_about_object_shape"
+    ],
+    [
+      "Entity-reconstruction_result",
+      "Predicate-enforce_consistency_with",
+      "Entity-a_priori_knowledge_about_object_shape"
+    ],
+    [
+      "Entity-differential_feature",
+      "Predicate-make",
+      "Entity-3_--_d_reconstruction"
+    ],
+    [
+      "Entity-differential_feature",
+      "Predicate-make_useful_tools_for",
+      "Entity-3_--_d_reconstruction"
+    ],
+    [
+      "Entity-numerical_constraint",
+      "Predicate-improve",
+      "Entity-reconstruction_result"
+    ],
+    [
+      "Entity-our_approach",
+      "Predicate-incorporates",
+      "Entity-a_priori_geometric_constraint"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-3_--_d_stereo_reconstruction_scheme",
+      "skos:broader",
+      "Entity-3_--_d_reconstruction"
+    ],
+    [
+      "Entity-3_--_d_reconstruction",
+      "skos:broader",
+      "Entity-reconstruction_process"
+    ],
+    [
+      "Entity-iterative_deformation_of_a_3_--_d_surface_mesh",
+      "skos:broader",
+      "Entity-3_--_d_surface_mesh"
+    ],
+    [
+      "Entity-a_priori_knowledge_about_object_shape",
+      "skos:broader",
+      "Entity-object_shape"
+    ],
+    [
+      "Entity-triangulation_with_few_vertex",
+      "skos:broader",
+      "Entity-triangulation"
+    ]
+  ],
+  "predicates": {
+    "Predicate-incorporate_in": {
+      "label": "incorporate in",
+      "description": "The predicate 'incorporate in' signifies the action of integrating or including a subject within a broader context or framework represented by the object. It implies that the subject contributes to or becomes part of the object, enhancing its functionality, structure, or understanding.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_not_sufficient_to_accurately_recover": {
+      "label": "is not sufficient to accurately recover",
+      "description": "The predicate 'is not sufficient to accurately recover' indicates that the subject lacks the necessary qualities, details, or completeness required to fully restore or represent the object. It implies a deficiency in the subject's ability to provide an accurate or complete representation of the object, suggesting that additional information or context is needed for a proper recovery.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_based_on": {
+      "label": "is based on",
+      "description": "The predicate 'is based on' establishes a foundational relationship between the subject and the object, indicating that the subject derives its principles, methods, or framework from the object. It suggests that the subject's validity, functionality, or effectiveness is contingent upon the underlying concepts or processes represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-minimizes": {
+      "label": "minimizes",
+      "description": "The predicate 'minimizes' indicates a relationship where the subject actively reduces the value or impact of the object, typically in the context of optimization. It suggests that the subject's actions or processes are aimed at achieving the lowest possible level of the object, which is often a measurable quantity or criterion that reflects performance, error, or cost.",
+      "disambiguation_index": 0
+    },
+    "Predicate-minimize": {
+      "label": "minimize",
+      "description": "The predicate 'minimize' denotes an action or process where the subject seeks to reduce the value or impact of the object, typically an objective function or criterion. This involves optimizing the subject's parameters or characteristics to achieve the lowest possible outcome for the object, thereby enhancing efficiency, performance, or effectiveness in a given context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-combines_with": {
+      "label": "combines with",
+      "description": "The predicate 'combines with' indicates a relationship where the subject and object are brought together or integrated in a way that enhances or creates a new entity, concept, or process. This relationship suggests that both elements contribute distinct characteristics or functionalities that, when merged, result in a synergistic effect or a more complex system.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enables": {
+      "label": "enables",
+      "description": "The predicate 'enables' indicates a facilitative relationship where the subject provides the means, capability, or opportunity for the object to occur or be achieved. It suggests that the subject plays a crucial role in making the object possible, often implying a positive outcome or enhancement resulting from this relationship.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates a relationship where the subject employs or utilizes the object as a resource, tool, or component in a process or function. It signifies that the subject actively incorporates the object to achieve a specific purpose or outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-obtains": {
+      "label": "obtains",
+      "description": "The predicate 'obtains' indicates a relationship where the subject successfully acquires or achieves the object, suggesting a process of gaining or securing a desired outcome or result.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enables_to_obtain": {
+      "label": "enables to obtain",
+      "description": "The predicate 'enables to obtain' indicates a facilitative relationship where the subject provides the means, methods, or conditions necessary for achieving or acquiring the object. It suggests that the subject plays a crucial role in making it possible to reach or realize the outcomes represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_used_for": {
+      "label": "are used for",
+      "description": "The predicate 'are used for' indicates a functional relationship where the subject serves a specific purpose or application that is fulfilled by the object. It connects the subject, which represents a method, tool, or concept, to the object, which denotes the outcome, result, or context in which the subject is applied.",
+      "disambiguation_index": 0
+    },
+    "Predicate-added_to": {
+      "label": "added to",
+      "description": "The predicate 'added to' indicates a relationship where the subject is incorporated or included within the object, suggesting an enhancement, modification, or extension of the object by the subject. This connection implies that the subject contributes additional elements, features, or conditions that influence or augment the nature or functionality of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-used_in": {
+      "label": "used in",
+      "description": "The predicate 'used in' indicates that the subject is applied or utilized within the context of the object, signifying a functional relationship where the subject serves a purpose or contributes to the processes, activities, or systems represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_added_to": {
+      "label": "can be added to",
+      "description": "The predicate 'can be added to' indicates a relationship where the subject has the potential to be incorporated or included within the framework, system, or context represented by the object. This suggests that the subject enhances, modifies, or contributes to the characteristics or functionality of the object, allowing for an expansion or enrichment of the object's capabilities or scope.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improve": {
+      "label": "improve",
+      "description": "The predicate 'improve' indicates a positive change or enhancement in the quality, performance, or state of the subject, resulting in a more favorable or effective condition represented by the object. It signifies an action or process that leads to better outcomes or increased effectiveness in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enforce_consistency_with": {
+      "label": "enforce consistency with",
+      "description": "The predicate 'enforce consistency with' indicates a relationship where the subject is required to align or conform to the standards, principles, or information represented by the object. This implies that the subject must maintain coherence or uniformity in relation to the object, ensuring that any assertions or behaviors associated with the subject are compatible with the established criteria or knowledge denoted by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-make": {
+      "label": "make",
+      "description": "The predicate 'make' indicates a process or action in which the subject is responsible for creating, producing, or causing the object to exist or come into being. It establishes a relationship where the subject actively contributes to the formation or realization of the object, often implying a transformation or construction from one state to another.",
+      "disambiguation_index": 0
+    },
+    "Predicate-make_useful_tools_for": {
+      "label": "make useful tools for",
+      "description": "The predicate 'make useful tools for' indicates a relationship where the subject is involved in the creation or development of instruments, methods, or resources that serve a practical purpose or enhance the effectiveness of the object. This implies that the subject contributes to the functionality or utility of the object, enabling it to be applied in a meaningful way.",
+      "disambiguation_index": 0
+    },
+    "Predicate-incorporates": {
+      "label": "incorporates",
+      "description": "The predicate 'incorporates' indicates that the subject includes or integrates the object as a fundamental part of its structure, function, or methodology. It suggests a relationship where the subject actively combines or assimilates the object into its framework, enhancing its overall composition or effectiveness.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or subset of the more general concept represented by the object. This relationship suggests that the object encompasses a wider category or classification that includes the subject, thereby providing context and a framework for understanding the subject within a larger domain.",
+      "disambiguation_index": 0
+    }
+  }
+}

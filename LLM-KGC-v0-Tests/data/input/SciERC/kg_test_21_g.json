@@ -1,0 +1,917 @@
+{
+  "iri": "Paper-21",
+  "title": "N06-1037",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-21-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-21-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper proposes to use a convolution kernel over parse trees to model syntactic structure information for relation extraction ."
+            },
+            {
+              "iri": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+              "text": "Our study reveals that the syntactic structure features embedded in a parse tree are very effective for relation extraction and these features can be well captured by the convolution tree kernel ."
+            },
+            {
+              "iri": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+              "text": "Evaluation on the ACE 2003 corpus shows that the convolution kernel over parse trees can achieve comparable performance with the previous best-reported feature-based methods on the 24 ACE relation subtypes ."
+            },
+            {
+              "iri": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+              "text": "It also shows that our method significantly outperforms the previous two dependency tree kernels on the 5 ACE relation major types ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0020122528076171875,
+    7.376566171646118,
+    16.415897846221924,
+    14.101928949356079,
+    0.03206920623779297,
+    0.0001327991485595703,
+    0.00017213821411132812,
+    17.980957984924316,
+    27.357502937316895,
+    3.7983241081237793,
+    58.299184799194336,
+    0.010585784912109375,
+    0.0002460479736328125,
+    10.433718919754028,
+    0.0018320083618164062,
+    0.024439096450805664,
+    0.0014960765838623047,
+    3.9871270656585693,
+    0.0016047954559326172,
+    0.0004551410675048828,
+    40.196871757507324,
+    6.855724096298218,
+    34.058786153793335,
+    3.248749017715454,
+    0.0018658638000488281,
+    0.00749516487121582
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This paper presents a research study that introduces a convolution kernel applied to parse trees for effectively modeling syntactic structure information in the context of relation extraction.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.83642578125
+    },
+    "Entity-convolution_tree_kernel": {
+      "node_id": "convolution_tree_kernel",
+      "disambiguation_index": 0,
+      "label": "convolution tree kernel",
+      "aliases": [
+        "convolution tree kernel",
+        "the convolution tree kernel"
+      ],
+      "types": [
+        "kernel",
+        "algorithm",
+        "machine learning model",
+        "method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The convolution tree kernel is a machine learning method that utilizes the hierarchical structure of parse trees to effectively capture and analyze syntactic features for various tasks, such as relation extraction.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "convolution tree kernel",
+          "local_types": [
+            "algorithm",
+            "machine learning model",
+            "method"
+          ],
+          "iri": "Entity-convolution_tree_kernel-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the convolution tree kernel",
+          "local_types": [
+            "method",
+            "kernel"
+          ],
+          "iri": "Entity-convolution_tree_kernel-Mention-2"
+        }
+      ],
+      "relevance": 0.81982421875
+    },
+    "Entity-the_previous_two_dependency_tree_kernel": {
+      "node_id": "the_previous_two_dependency_tree_kernel",
+      "disambiguation_index": 0,
+      "label": "the previous two dependency tree kernels",
+      "aliases": [
+        "the previous two dependency tree kernels"
+      ],
+      "types": [
+        "dependency tree kernel"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The previous two dependency tree kernels refer to two specific kernel methods used for extracting syntactic features from dependency parse trees in the context of relation extraction tasks, which the proposed convolution kernel outperforms.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the previous two dependency tree kernels",
+          "local_types": [
+            "dependency tree kernel"
+          ],
+          "iri": "Entity-the_previous_two_dependency_tree_kernel-Mention-1"
+        }
+      ],
+      "relevance": 0.7861328125
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "a convolution kernel",
+        "our method",
+        "method",
+        "convolution kernel over parse trees"
+      ],
+      "types": [
+        "algorithm",
+        "technique",
+        "kernel",
+        "method",
+        "research method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The 'method' refers to the convolution kernel over parse trees, which is a research technique used to model syntactic structure information for relation extraction.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "method",
+          "local_types": [
+            "research method",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a convolution kernel",
+          "local_types": [
+            "method",
+            "kernel"
+          ],
+          "iri": "Entity-method-Mention-2"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "convolution kernel over parse trees",
+          "local_types": [
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-method-Mention-3"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "our method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-method-Mention-4"
+        }
+      ],
+      "relevance": 0.77734375
+    },
+    "Entity-study": {
+      "node_id": "study",
+      "disambiguation_index": 0,
+      "label": "study",
+      "aliases": [
+        "Our study",
+        "study"
+      ],
+      "types": [
+        "project",
+        "research",
+        "research program"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The study refers to a research program that investigates the effectiveness of syntactic structure features in parse trees for relation extraction using a convolution tree kernel.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "study",
+          "local_types": [
+            "research program",
+            "project"
+          ],
+          "iri": "Entity-study-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Our study",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-study-Mention-2"
+        }
+      ],
+      "relevance": 0.74853515625
+    },
+    "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree": {
+      "node_id": "the_syntactic_structure_feature_embedded_in_a_parse_tree",
+      "disambiguation_index": 0,
+      "label": "the syntactic structure features embedded in a parse tree",
+      "aliases": [
+        "the syntactic structure features embedded in a parse tree"
+      ],
+      "types": [
+        "feature",
+        "syntactic structure",
+        "parse tree"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The syntactic structure features embedded in a parse tree refer to the specific linguistic characteristics and relationships represented within a parse tree that are utilized to enhance the performance of relation extraction tasks in natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the syntactic structure features embedded in a parse tree",
+          "local_types": [
+            "feature",
+            "syntactic structure",
+            "parse tree"
+          ],
+          "iri": "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree-Mention-1"
+        }
+      ],
+      "relevance": 0.72119140625
+    },
+    "Entity-convolution_kernel": {
+      "node_id": "convolution_kernel",
+      "disambiguation_index": 0,
+      "label": "convolution kernel",
+      "aliases": [
+        "convolution kernel"
+      ],
+      "types": [
+        "algorithm",
+        "mathematical concept",
+        "machine learning model",
+        "kernel",
+        "method",
+        "machine learning method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A convolution kernel is a mathematical function used in machine learning and pattern recognition that applies convolution operations to extract features from structured data, such as images or trees.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "convolution kernel",
+          "local_types": [
+            "algorithm",
+            "mathematical concept",
+            "machine learning model",
+            "kernel",
+            "method"
+          ],
+          "iri": "Entity-convolution_kernel-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "convolution kernel",
+          "local_types": [
+            "algorithm",
+            "machine learning method"
+          ],
+          "iri": "Entity-convolution_kernel-Mention-2"
+        }
+      ],
+      "relevance": 0.71728515625
+    },
+    "Entity-syntactic_structure_information": {
+      "node_id": "syntactic_structure_information",
+      "disambiguation_index": 0,
+      "label": "syntactic structure information",
+      "aliases": [
+        "syntactic structure information"
+      ],
+      "types": [
+        "linguistic feature",
+        "information type",
+        "syntactic structure",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Syntactic structure information refers to the features and relationships represented in parse trees that are utilized to enhance the process of relation extraction in natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "syntactic structure information",
+          "local_types": [
+            "linguistic feature",
+            "information type",
+            "syntactic structure",
+            "information"
+          ],
+          "iri": "Entity-syntactic_structure_information-Mention-1"
+        }
+      ],
+      "relevance": 0.7080078125
+    },
+    "Entity-syntactic_structure_feature": {
+      "node_id": "syntactic_structure_feature",
+      "disambiguation_index": 0,
+      "label": "syntactic structure features",
+      "aliases": [
+        "syntactic structure features"
+      ],
+      "types": [
+        "linguistic feature",
+        "data representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Syntactic structure features refer to the characteristics derived from the arrangement and relationships of words in a parse tree, which are utilized to enhance the performance of relation extraction tasks in natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "syntactic structure features",
+          "local_types": [
+            "linguistic feature",
+            "data representation"
+          ],
+          "iri": "Entity-syntactic_structure_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.68798828125
+    },
+    "Entity-5_ace_relation_major_type": {
+      "node_id": "5_ace_relation_major_type",
+      "disambiguation_index": 0,
+      "label": "5 ACE relation major types",
+      "aliases": [
+        "the 5 ACE relation major types",
+        "5 ACE relation major types",
+        "ACE relation major types"
+      ],
+      "types": [
+        "ACE",
+        "classification",
+        "data type",
+        "relation type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The '5 ACE relation major types' refers to a classification of five primary types of relations identified in the ACE (Automatic Content Extraction) framework, which are used for evaluating relation extraction methods in natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "5 ACE relation major types",
+          "local_types": [
+            "ACE",
+            "classification",
+            "data type",
+            "relation type"
+          ],
+          "iri": "Entity-5_ace_relation_major_type-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "ACE relation major types",
+          "local_types": [
+            "classification",
+            "relation type"
+          ],
+          "iri": "Entity-5_ace_relation_major_type-Mention-2"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the 5 ACE relation major types",
+          "local_types": [
+            "relation type",
+            "ACE"
+          ],
+          "iri": "Entity-5_ace_relation_major_type-Mention-3"
+        }
+      ],
+      "relevance": 0.66650390625
+    },
+    "Entity-dependency_tree_kernel": {
+      "node_id": "dependency_tree_kernel",
+      "disambiguation_index": 0,
+      "label": "dependency tree kernels",
+      "aliases": [
+        "dependency tree kernels"
+      ],
+      "types": [
+        "kernel",
+        "algorithm",
+        "machine learning model",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Dependency tree kernels are a class of kernel functions used in machine learning that operate on structured data represented as dependency trees, enabling the comparison and classification of such structures.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "dependency tree kernels",
+          "local_types": [
+            "kernel",
+            "algorithm",
+            "machine learning model",
+            "method"
+          ],
+          "iri": "Entity-dependency_tree_kernel-Mention-1"
+        }
+      ],
+      "relevance": 0.6455078125
+    },
+    "Entity-parse_tree": {
+      "node_id": "parse_tree",
+      "disambiguation_index": 0,
+      "label": "parse trees",
+      "aliases": [
+        "parse trees",
+        "parse tree"
+      ],
+      "types": [
+        "linguistic representation",
+        "data structure",
+        "parse tree",
+        "tree",
+        "syntactic structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Parse trees are hierarchical structures that represent the syntactic organization of sentences, illustrating the relationships between words and phrases according to a specific grammar.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "parse trees",
+          "local_types": [
+            "linguistic representation",
+            "data structure",
+            "parse tree",
+            "tree",
+            "syntactic structure"
+          ],
+          "iri": "Entity-parse_tree-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "parse tree",
+          "local_types": [
+            "data structure",
+            "linguistic representation"
+          ],
+          "iri": "Entity-parse_tree-Mention-2"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "parse trees",
+          "local_types": [
+            "data structure",
+            "linguistic representation"
+          ],
+          "iri": "Entity-parse_tree-Mention-3"
+        }
+      ],
+      "relevance": 0.64404296875
+    },
+    "Entity-ace_relation_subtypes": {
+      "node_id": "ace_relation_subtypes",
+      "disambiguation_index": 0,
+      "label": "ACE relation subtypes",
+      "aliases": [
+        "ACE relation subtypes",
+        "24 ACE relation subtypes"
+      ],
+      "types": [
+        "ACE",
+        "classification",
+        "relation subtype",
+        "relation type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "ACE relation subtypes refer to the 24 specific categories of relationships defined in the ACE 2003 corpus, which are used for evaluating relation extraction methods.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ACE relation subtypes",
+          "local_types": [
+            "classification",
+            "relation type"
+          ],
+          "iri": "Entity-ace_relation_subtypes-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "24 ACE relation subtypes",
+          "local_types": [
+            "ACE",
+            "relation subtype"
+          ],
+          "iri": "Entity-ace_relation_subtypes-Mention-2"
+        }
+      ],
+      "relevance": 0.64306640625
+    },
+    "Entity-ace_2003": {
+      "node_id": "ace_2003",
+      "disambiguation_index": 0,
+      "label": "ACE 2003",
+      "aliases": [
+        "ACE 2003",
+        "ACE 2003 corpus"
+      ],
+      "types": [
+        "dataset",
+        "corpus"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "ACE 2003 refers to a dataset or corpus used for evaluating relation extraction methods, specifically containing annotated data for various relation subtypes.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ACE 2003",
+          "local_types": [
+            "dataset",
+            "corpus"
+          ],
+          "iri": "Entity-ace_2003-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ACE 2003 corpus",
+          "local_types": [
+            "dataset",
+            "corpus"
+          ],
+          "iri": "Entity-ace_2003-Mention-2"
+        }
+      ],
+      "relevance": 0.63916015625
+    },
+    "Entity-ace": {
+      "node_id": "ace",
+      "disambiguation_index": 0,
+      "label": "ACE",
+      "aliases": [
+        "ACE"
+      ],
+      "types": [
+        "organization",
+        "dataset"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "ACE refers to the Automatic Content Extraction program, which includes a dataset used for evaluating relation extraction methods, specifically the ACE 2003 corpus that contains various relation subtypes.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "ACE",
+          "local_types": [
+            "organization",
+            "dataset"
+          ],
+          "iri": "Entity-ace-Mention-1"
+        }
+      ],
+      "relevance": 0.63525390625
+    },
+    "Entity-relation_extraction": {
+      "node_id": "relation_extraction",
+      "disambiguation_index": 0,
+      "label": "relation extraction",
+      "aliases": [
+        "relation extraction"
+      ],
+      "types": [
+        "information extraction",
+        "natural language processing task",
+        "task",
+        "natural language processing",
+        "extraction"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Relation extraction is a natural language processing task that involves identifying and classifying relationships between entities in text.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "relation extraction",
+          "local_types": [
+            "information extraction",
+            "natural language processing task",
+            "task",
+            "natural language processing",
+            "extraction"
+          ],
+          "iri": "Entity-relation_extraction-Mention-1"
+        },
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "relation extraction",
+          "local_types": [
+            "natural language processing task",
+            "information extraction",
+            "extraction",
+            "task"
+          ],
+          "iri": "Entity-relation_extraction-Mention-2"
+        }
+      ],
+      "relevance": 0.63427734375
+    },
+    "Entity-feature-based_method": {
+      "node_id": "feature-based_method",
+      "disambiguation_index": 0,
+      "label": "feature-based methods",
+      "aliases": [
+        "feature-based methods"
+      ],
+      "types": [
+        "feature-based",
+        "method",
+        "approach",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Feature-based methods are approaches in machine learning and data analysis that utilize specific characteristics or attributes of data to inform decision-making and improve model performance.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "feature-based methods",
+          "local_types": [
+            "feature-based",
+            "method",
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-feature-based_method-Mention-1"
+        }
+      ],
+      "relevance": 0.50732421875
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "academic work",
+        "research document"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A paper is a written academic work that presents research findings, theories, or analyses, typically published in a journal or conference proceedings.",
+      "mentions": [
+        {
+          "reference": "Paper-21-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "academic work",
+            "research document"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.42919921875
+    }
+  },
+  "summary": "This paper proposes to use a convolution kernel over parse trees to model syntactic structure information for relation extraction . Our study reveals that the syntactic structure features embedded in a parse tree are very effective for relation extraction and these features can be well captured by the convolution tree kernel . Evaluation on the ACE 2003 corpus shows that the convolution kernel over parse trees can achieve comparable performance with the previous best-reported feature-based methods on the 24 ACE relation subtypes . It also shows that our method significantly outperforms the previous two dependency tree kernels on the 5 ACE relation major types .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-proposes_to_use",
+      "Entity-method"
+    ],
+    [
+      "Entity-method",
+      "Predicate-models",
+      "Entity-syntactic_structure_information"
+    ],
+    [
+      "Entity-syntactic_structure_information",
+      "Predicate-is_used_for",
+      "Entity-relation_extraction"
+    ],
+    [
+      "Entity-study",
+      "Predicate-reveals",
+      "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree"
+    ],
+    [
+      "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree",
+      "Predicate-are_effective_for",
+      "Entity-relation_extraction"
+    ],
+    [
+      "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree",
+      "Predicate-can_be_well_captured_by",
+      "Entity-convolution_tree_kernel"
+    ],
+    [
+      "Entity-ace_2003",
+      "Predicate-shows",
+      "Entity-method"
+    ],
+    [
+      "Entity-feature-based_method",
+      "Predicate-relates_to",
+      "Entity-ace_relation_subtypes"
+    ],
+    [
+      "Entity-method",
+      "Predicate-outperforms",
+      "Entity-the_previous_two_dependency_tree_kernel"
+    ],
+    [
+      "Entity-method",
+      "Predicate-outperforms",
+      "Entity-dependency_tree_kernel"
+    ],
+    [
+      "Entity-method",
+      "Predicate-outperforms",
+      "Entity-5_ace_relation_major_type"
+    ],
+    [
+      "Entity-method",
+      "Predicate-significantly_outperforms",
+      "Entity-the_previous_two_dependency_tree_kernel"
+    ],
+    [
+      "Entity-the_previous_two_dependency_tree_kernel",
+      "Predicate-are",
+      "Entity-5_ace_relation_major_type"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree",
+      "skos:broader",
+      "Entity-syntactic_structure_information"
+    ],
+    [
+      "Entity-feature-based_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-parse_tree",
+      "skos:broader",
+      "Entity-syntactic_structure_feature"
+    ],
+    [
+      "Entity-parse_tree",
+      "skos:broader",
+      "Entity-syntactic_structure_information"
+    ],
+    [
+      "Entity-convolution_tree_kernel",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree",
+      "skos:broader",
+      "Entity-syntactic_structure_feature"
+    ],
+    [
+      "Entity-dependency_tree_kernel",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-syntactic_structure_information",
+      "skos:broader",
+      "Entity-syntactic_structure_feature"
+    ],
+    [
+      "Entity-ace_relation_subtypes",
+      "skos:broader",
+      "Entity-ace"
+    ],
+    [
+      "Entity-the_previous_two_dependency_tree_kernel",
+      "skos:broader",
+      "Entity-dependency_tree_kernel"
+    ],
+    [
+      "Entity-the_syntactic_structure_feature_embedded_in_a_parse_tree",
+      "skos:broader",
+      "Entity-parse_tree"
+    ],
+    [
+      "Entity-5_ace_relation_major_type",
+      "skos:broader",
+      "Entity-ace"
+    ],
+    [
+      "Entity-convolution_kernel",
+      "skos:broader",
+      "Entity-method"
+    ]
+  ],
+  "predicates": {
+    "Predicate-proposes_to_use": {
+      "label": "proposes to use",
+      "description": "The predicate 'proposes to use' indicates a suggestion or recommendation made by the subject regarding the application or implementation of the object. It connects the subject, which is typically a person, group, or document, to the object, which represents a method, technique, or approach that is being advocated for use. This relationship implies that the subject believes the object is beneficial or suitable for a particular purpose or context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-models": {
+      "label": "models",
+      "description": "The predicate 'models' indicates a relationship where the subject serves as a representation or framework that captures, simulates, or illustrates the characteristics, behaviors, or properties of the object. In this context, the subject provides a systematic approach or methodology that helps to understand, analyze, or predict aspects of the object, which is typically a concept, phenomenon, or data set.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_for": {
+      "label": "is used for",
+      "description": "The predicate 'is used for' indicates a functional relationship where the subject serves a purpose or fulfills a role that facilitates the achievement or execution of the object. It implies that the subject provides necessary support, resources, or context that enables the object to be realized or performed effectively.",
+      "disambiguation_index": 0
+    },
+    "Predicate-reveals": {
+      "label": "reveals",
+      "description": "The predicate 'reveals' indicates a relationship where the subject provides information or insight that uncovers or makes known the characteristics, details, or underlying aspects of the object. It suggests a process of discovery or clarification, where the subject's actions or findings bring to light what was previously hidden or not fully understood about the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_effective_for": {
+      "label": "are effective for",
+      "description": "The predicate 'are effective for' indicates that the subject possesses qualities, characteristics, or functionalities that contribute positively to achieving or enhancing the outcomes related to the object. It suggests a causal or supportive relationship where the subject plays a significant role in facilitating or improving the processes, tasks, or goals represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_well_captured_by": {
+      "label": "can be well captured by",
+      "description": "The predicate 'can be well captured by' indicates that the subject possesses characteristics or properties that can be effectively represented, modeled, or understood through the methods, tools, or frameworks denoted by the object. It suggests a strong correspondence or suitability between the subject and the object, implying that the object provides a reliable means of analysis or interpretation for the subject's features.",
+      "disambiguation_index": 0
+    },
+    "Predicate-shows": {
+      "label": "shows",
+      "description": "The predicate 'shows' indicates that the subject presents, demonstrates, or reveals information, characteristics, or results related to the object. It establishes a relationship where the subject provides evidence or clarity about the object, often implying a form of communication or illustration.",
+      "disambiguation_index": 0
+    },
+    "Predicate-relates_to": {
+      "label": "relates to",
+      "description": "The predicate 'relates to' establishes a connection or association between the subject and the object, indicating that the subject has a relevant or significant link to the object. This relationship can encompass various forms of interaction, influence, or relevance, suggesting that the subject is in some way connected to, or has implications for, the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-outperforms": {
+      "label": "outperforms",
+      "description": "The predicate 'outperforms' indicates that the subject demonstrates superior performance or effectiveness compared to the object in a specific context or evaluation. It suggests a comparative analysis where the subject is assessed against the object, highlighting that the subject achieves better results, efficiency, or success in the relevant criteria.",
+      "disambiguation_index": 0
+    },
+    "Predicate-significantly_outperforms": {
+      "label": "significantly outperforms",
+      "description": "The predicate 'significantly outperforms' indicates that the subject demonstrates a notably superior level of performance or effectiveness compared to the object. This suggests a measurable and substantial advantage in capabilities, results, or efficiency, highlighting a clear distinction in quality or success between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are": {
+      "label": "are",
+      "description": "The predicate 'are' serves as a linking verb that connects the subject to the object by indicating a state of being or existence. It establishes an equivalence or relationship between the two, suggesting that the subject is defined or characterized by the object. In this context, 'are' implies that the subject embodies or represents the qualities or categories described by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or subset of the more general concept represented by the object. This relationship implies that the object encompasses a wider category or classification that includes the subject, thereby facilitating an understanding of the subject's place within a broader conceptual framework.",
+      "disambiguation_index": 0
+    }
+  }
+}

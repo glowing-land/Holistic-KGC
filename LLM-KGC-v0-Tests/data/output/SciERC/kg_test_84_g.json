@@ -1,0 +1,61 @@
+{
+  "iri": "Paper-84",
+  "title": "ICCV_2013_47_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-84-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-84-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-1",
+              "text": "Light fields are image-based representations that use densely sampled rays as a scene description ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this paper , we explore geometric structures of 3D lines in ray space for improving light field triangulation and stereo matching ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-3",
+              "text": "The triangulation problem aims to fill in the ray space with continuous and non-overlapping simplices anchored at sampled points -LRB- rays -RRB- ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-4",
+              "text": "Such a triangulation provides a piecewise-linear interpolant useful for light field super-resolution ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-5",
+              "text": "We show that the light field space is largely bi-linear due to 3D line segments in the scene , and direct tri-angulation of these bilinear subspaces leads to large errors ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-6",
+              "text": "We instead present a simple but effective algorithm to first map bilinear subspaces to line constraints and then apply Constrained Delaunay Triangulation -LRB- CDT -RRB- ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-7",
+              "text": "Based on our analysis , we further develop a novel line-assisted graph-cut -LRB- LAGC -RRB- algorithm that effectively encodes 3D line constraints into light field stereo matching ."
+            },
+            {
+              "iri": "Paper-84-Section-1-Paragraph-1-Sentence-8",
+              "text": "Experiments on synthetic and real data show that both our triangulation and LAGC algorithms outperform state-of-the-art solutions in accuracy and visual quality ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Light fields are image-based representations that use densely sampled rays as a scene description . In this paper , we explore geometric structures of 3D lines in ray space for improving light field triangulation and stereo matching . The triangulation problem aims to fill in the ray space with continuous and non-overlapping simplices anchored at sampled points -LRB- rays -RRB- . Such a triangulation provides a piecewise-linear interpolant useful for light field super-resolution . We show that the light field space is largely bi-linear due to 3D line segments in the scene , and direct tri-angulation of these bilinear subspaces leads to large errors . We instead present a simple but effective algorithm to first map bilinear subspaces to line constraints and then apply Constrained Delaunay Triangulation -LRB- CDT -RRB- . Based on our analysis , we further develop a novel line-assisted graph-cut -LRB- LAGC -RRB- algorithm that effectively encodes 3D line constraints into light field stereo matching . Experiments on synthetic and real data show that both our triangulation and LAGC algorithms outperform state-of-the-art solutions in accuracy and visual quality .",
+  "kg2text": [
+    "The light field space plays a crucial role in improving triangulation and LAGC algorithms, which are designed to enhance light field triangulation and stereo matching. This paper presents these algorithms while exploring the geometric structures of the light field space. The triangulation and LAGC algorithms significantly enhance triangulation, which aims to fill in ray space with continuous and non-overlapping simplices. Furthermore, the light field triangulation and light field stereo matching techniques are broader terms that encompass the light field space. The triangulation problem also aims to fill in ray space, highlighting the importance of this geometric representation. Additionally, LAGC encodes 3D line constraints, which are essential for improving the accuracy of light field processing. Bilinear subspaces are mapped to line constraints, further complicating the triangulation process. The triangulation and LAGC algorithms demonstrate notable improvements in accuracy and visual quality, showcasing their effectiveness in light field applications. Overall, the relationship between these entities underscores the advancements in light field processing techniques.",
+    "This paper explores the geometric structures of 3D lines, which improve light field triangulation. Experiments on synthetic and real data show the effectiveness of the triangulation and LAGC algorithms, with LAGC specifically applying to light field stereo matching. The light field triangulation technique has a broader term known as Light fields, which utilize densely sampled rays for capturing detailed scene information. Additionally, 3D line constraints, which are a broader term for 3D lines, play a crucial role in enhancing the accuracy of these processes. However, the triangulation problem aims to fill in continuous and non-overlapping simplices anchored at rays, as bilinear subspaces can lead to large errors. These large errors are a subset of general errors that arise from the complexities of triangulating bilinear subspaces. The Constrained Delaunay Triangulation method is a broader technique that aids in triangulation, while light field super-resolution is also encompassed within the broader category of Light fields.",
+    "3D lines are a specific type of geometric structures, which also encompass the broader category of geometric structures of 3D lines. In the context of light field processing, the light field space is characterized by bi-linear structures. Continuous and non-overlapping simplices are crucial as they are anchored at sampled points, facilitating the triangulation process. Light field stereo matching, a technique that falls under the broader term of stereo matching, utilizes densely sampled rays that serve as a detailed scene description, effectively describing the scene itself. These densely sampled rays enhance the representation of the scene. Furthermore, 3D line segments are a subset of 3D lines, contributing to the overall geometric structures. The triangulation and LAGC algorithms have been shown to outperform state-of-the-art solutions, while the geometric structures of 3D lines significantly improve stereo matching. Triangulation provides a piecewise-linear interpolant, which is essential for accurate light field representations. Such triangulation also offers a piecewise-linear interpolant, enhancing light field super-resolution. Ray space, which is a broader term for image-based representations, plays a vital role in these processes. Light fields themselves are a form of image-based representations, capturing the light rays from a scene, and they also have a broader classification within image-based representations. Lastly, LAGC algorithms are categorized under algorithms, emphasizing their role in enhancing light field stereo matching.",
+    "Light field triangulation, LAGC, a simple but effective algorithm, CDT, and stereo matching all fall under the broader category of algorithms. These algorithms are essential in various computational tasks, including the use of image-based representations that utilize densely sampled rays to convey detailed scene information. Additionally, a piecewise-linear interpolant is particularly useful for enhancing light field super-resolution, which aims to improve the quality of images derived from lower-resolution light field data. The concept of continuous and non-overlapping simplices is also integral to the field, as it relates to the geometric structures known as simplices, which are foundational in triangulation methods. Furthermore, the algorithm known as Constrained Delaunay Triangulation is applied within these contexts to optimize the triangulation process."
+  ],
+  "times": [
+    10.752520322799683
+  ]
+}

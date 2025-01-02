@@ -1,0 +1,1907 @@
+{
+  "iri": "Paper-57",
+  "title": "J86-4002",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-57-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-57-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+              "text": "The goal of this work is the enrichment of human-machine interactions in a natural language environment ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+              "text": "Because a speaker and listener can not be assured to have the same beliefs , contexts , perceptions , backgrounds , or goals , at each point in a conversation , difficulties and mistakes arise when a listener interprets a speaker 's utterance ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+              "text": "These mistakes can lead to various kinds of misunderstandings between speaker and listener , including reference failures or failure to understand the speaker 's intention ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-4",
+              "text": "We call these misunderstandings miscommunication ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-5",
+              "text": "Such mistakes can slow , and possibly break down , communication ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-6",
+              "text": "Our goal is to recognize and isolate such miscommunications and circumvent them ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+              "text": "This paper highlights a particular class of miscommunication -- reference problems -- by describing a case study and techniques for avoiding failures of reference ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+              "text": "We want to illustrate a framework less restrictive than earlier ones by allowing a speaker leeway in forming an utterance about a task and in determining the conversational vehicle to deliver it ."
+            },
+            {
+              "iri": "Paper-57-Section-1-Paragraph-1-Sentence-9",
+              "text": "The paper also promotes a new view for extensional reference ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0007240772247314453,
+    12.969413042068481,
+    29.359277963638306,
+    21.913277864456177,
+    0.05179595947265625,
+    0.00014400482177734375,
+    0.0002307891845703125,
+    38.56459403038025,
+    60.78068685531616,
+    6.395214080810547,
+    56.73418402671814,
+    0.017508983612060547,
+    0.0013499259948730469,
+    25.282305002212524,
+    0.0017659664154052734,
+    0.06124401092529297,
+    0.0015568733215332031,
+    5.2130210399627686,
+    4.403885126113892,
+    5.587294340133667,
+    87.06934094429016,
+    11.85172724723816,
+    65.34758591651917,
+    5.007814884185791,
+    0.0008177757263183594,
+    0.01604008674621582
+  ],
+  "nodes": {
+    "Entity-reference_problem": {
+      "node_id": "reference_problem",
+      "disambiguation_index": 0,
+      "label": "reference problems",
+      "aliases": [
+        "reference problems",
+        "failures of reference"
+      ],
+      "types": [
+        "miscommunication",
+        "problem",
+        "reference",
+        "issue",
+        "specific type of miscommunication",
+        "communication error",
+        "miscommunication type",
+        "communication issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Reference problems refer to a specific type of miscommunication that occurs when a listener fails to accurately interpret a speaker's utterance due to differences in beliefs, contexts, or intentions, leading to misunderstandings in human-machine interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "reference problems",
+          "local_types": [
+            "miscommunication",
+            "problem",
+            "reference",
+            "communication issue",
+            "issue",
+            "specific type of miscommunication",
+            "miscommunication type",
+            "communication error"
+          ],
+          "iri": "Entity-reference_problem-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "failures of reference",
+          "local_types": [
+            "communication issue",
+            "specific type of miscommunication"
+          ],
+          "iri": "Entity-reference_problem-Mention-2"
+        }
+      ],
+      "relevance": 0.828125
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents a study on reference problems in human-machine interactions, focusing on miscommunication and proposing techniques to avoid failures of reference.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.82470703125
+    },
+    "Entity-this_work": {
+      "node_id": "this_work",
+      "disambiguation_index": 0,
+      "label": "this work",
+      "aliases": [
+        "this work"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This work refers to a research effort aimed at enhancing human-machine interactions within natural language environments by addressing and mitigating miscommunications, particularly reference problems, that arise during conversations.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "this work",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_work-Mention-1"
+        }
+      ],
+      "relevance": 0.80029296875
+    },
+    "Entity-a_particular_class_of_miscommunication": {
+      "node_id": "a_particular_class_of_miscommunication",
+      "disambiguation_index": 0,
+      "label": "a particular class of miscommunication",
+      "aliases": [
+        "a particular class of miscommunication"
+      ],
+      "types": [
+        "concept",
+        "miscommunication"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A particular class of miscommunication refers specifically to reference problems, which occur when a listener fails to correctly interpret the speaker's intended reference during communication.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "a particular class of miscommunication",
+          "local_types": [
+            "concept",
+            "miscommunication"
+          ],
+          "iri": "Entity-a_particular_class_of_miscommunication-Mention-1"
+        }
+      ],
+      "relevance": 0.794921875
+    },
+    "Entity-reference_failure": {
+      "node_id": "reference_failure",
+      "disambiguation_index": 0,
+      "label": "reference failures",
+      "aliases": [
+        "reference failures"
+      ],
+      "types": [
+        "failure",
+        "misunderstanding",
+        "communication issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Reference failures refer to misunderstandings that occur in communication when a listener misinterprets a speaker's utterance, leading to a failure in understanding the intended reference or meaning.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "reference failures",
+          "local_types": [
+            "failure",
+            "misunderstanding",
+            "communication issue"
+          ],
+          "iri": "Entity-reference_failure-Mention-1"
+        }
+      ],
+      "relevance": 0.77099609375
+    },
+    "Entity-technique": {
+      "node_id": "technique",
+      "disambiguation_index": 0,
+      "label": "techniques",
+      "aliases": [
+        "techniques"
+      ],
+      "types": [
+        "strategies",
+        "approach",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'techniques' refers to specific methods and strategies developed in the paper to prevent miscommunication, particularly failures of reference, in human-machine interactions within a natural language environment.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "techniques",
+          "local_types": [
+            "strategies",
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-technique-Mention-1"
+        }
+      ],
+      "relevance": 0.7705078125
+    },
+    "Entity-difficulty_and_mistake": {
+      "node_id": "difficulty_and_mistake",
+      "disambiguation_index": 0,
+      "label": "difficulties and mistakes",
+      "aliases": [
+        "difficulties and mistakes"
+      ],
+      "types": [
+        "issue"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'difficulties and mistakes' refers to the challenges and errors that occur in communication when a listener misinterprets a speaker's utterance due to differing beliefs, contexts, perceptions, backgrounds, or goals, leading to misunderstandings and miscommunication.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "difficulties and mistakes",
+          "local_types": [
+            "issue"
+          ],
+          "iri": "Entity-difficulty_and_mistake-Mention-1"
+        }
+      ],
+      "relevance": 0.7568359375
+    },
+    "Entity-misunderstanding": {
+      "node_id": "misunderstanding",
+      "disambiguation_index": 0,
+      "label": "misunderstandings",
+      "aliases": [
+        "misunderstandings"
+      ],
+      "types": [
+        "communication issue",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Misunderstandings refer to the difficulties and mistakes that arise in communication between a speaker and listener, particularly when the listener fails to accurately interpret the speaker's utterance, leading to miscommunication.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "misunderstandings",
+          "local_types": [
+            "communication issue",
+            "concept"
+          ],
+          "iri": "Entity-misunderstanding-Mention-1"
+        }
+      ],
+      "relevance": 0.75537109375
+    },
+    "Entity-technique_for_avoiding_failure_of_reference": {
+      "node_id": "technique_for_avoiding_failure_of_reference",
+      "disambiguation_index": 0,
+      "label": "techniques for avoiding failures of reference",
+      "aliases": [
+        "techniques for avoiding failures of reference"
+      ],
+      "types": [
+        "technique",
+        "communication strategy",
+        "reference",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The phrase 'techniques for avoiding failures of reference' refers to specific strategies and methodologies aimed at mitigating misunderstandings in communication, particularly those related to reference problems in human-machine interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "techniques for avoiding failures of reference",
+          "local_types": [
+            "technique",
+            "communication strategy",
+            "reference",
+            "methodology"
+          ],
+          "iri": "Entity-technique_for_avoiding_failure_of_reference-Mention-1"
+        }
+      ],
+      "relevance": 0.75439453125
+    },
+    "Entity-our_goal": {
+      "node_id": "our_goal",
+      "disambiguation_index": 0,
+      "label": "Our goal",
+      "aliases": [
+        "Our goal"
+      ],
+      "types": [
+        "objective"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'Our goal' refers to the objective of recognizing and isolating miscommunications in human-machine interactions to circumvent misunderstandings, particularly focusing on reference problems.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Our goal",
+          "local_types": [
+            "objective"
+          ],
+          "iri": "Entity-our_goal-Mention-1"
+        }
+      ],
+      "relevance": 0.75341796875
+    },
+    "Entity-the_paper": {
+      "node_id": "the_paper",
+      "disambiguation_index": 0,
+      "label": "The paper",
+      "aliases": [
+        "The paper"
+      ],
+      "types": [
+        "document",
+        "academic paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The paper is an academic document that discusses the enrichment of human-machine interactions by addressing miscommunications, particularly reference problems, and proposes a new framework for understanding extensional reference in conversations.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "The paper",
+          "local_types": [
+            "document",
+            "academic paper"
+          ],
+          "iri": "Entity-the_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.75
+    },
+    "Entity-various_kind_of_misunderstanding": {
+      "node_id": "various_kind_of_misunderstanding",
+      "disambiguation_index": 0,
+      "label": "various kinds of misunderstandings",
+      "aliases": [
+        "various kinds of misunderstandings"
+      ],
+      "types": [
+        "misunderstanding"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Various kinds of misunderstandings refer to the different types of miscommunication that can occur between a speaker and listener during a conversation, particularly arising from differences in beliefs, contexts, perceptions, backgrounds, or goals, which may include issues like reference failures or misinterpretation of the speaker's intentions.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "various kinds of misunderstandings",
+          "local_types": [
+            "misunderstanding"
+          ],
+          "iri": "Entity-various_kind_of_misunderstanding-Mention-1"
+        }
+      ],
+      "relevance": 0.74853515625
+    },
+    "Entity-the_enrichment_of_human-machine_interaction": {
+      "node_id": "the_enrichment_of_human-machine_interaction",
+      "disambiguation_index": 0,
+      "label": "the enrichment of human-machine interactions",
+      "aliases": [
+        "the enrichment of human-machine interactions"
+      ],
+      "types": [
+        "goal",
+        "interaction"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The enrichment of human-machine interactions refers to the enhancement of communication effectiveness and understanding between humans and machines in a natural language context, aiming to reduce miscommunication and improve the interpretation of utterances by addressing various misunderstandings that may arise during interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the enrichment of human-machine interactions",
+          "local_types": [
+            "goal",
+            "interaction"
+          ],
+          "iri": "Entity-the_enrichment_of_human-machine_interaction-Mention-1"
+        }
+      ],
+      "relevance": 0.748046875
+    },
+    "Entity-failure_to_understand_the_speaker_s_intention": {
+      "node_id": "failure_to_understand_the_speaker_s_intention",
+      "disambiguation_index": 0,
+      "label": "failure to understand the speaker's intention",
+      "aliases": [
+        "failure to understand the speaker's intention"
+      ],
+      "types": [
+        "intention",
+        "failure",
+        "misunderstanding",
+        "communication issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The phrase 'failure to understand the speaker's intention' refers to a specific type of miscommunication that occurs when a listener incorrectly interprets or does not grasp the intended meaning or purpose behind a speaker's utterance, leading to misunderstandings in the communication process.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "failure to understand the speaker's intention",
+          "local_types": [
+            "intention",
+            "failure",
+            "misunderstanding",
+            "communication issue"
+          ],
+          "iri": "Entity-failure_to_understand_the_speaker_s_intention-Mention-1"
+        }
+      ],
+      "relevance": 0.74658203125
+    },
+    "Entity-a_case_study": {
+      "node_id": "a_case_study",
+      "disambiguation_index": 0,
+      "label": "a case study",
+      "aliases": [
+        "a case study"
+      ],
+      "types": [
+        "methodology",
+        "case study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A case study refers to a detailed examination of a specific instance of miscommunication, particularly focusing on reference problems in human-machine interactions, to illustrate techniques for avoiding failures of reference.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "a case study",
+          "local_types": [
+            "methodology",
+            "case study"
+          ],
+          "iri": "Entity-a_case_study-Mention-1"
+        }
+      ],
+      "relevance": 0.74560546875
+    },
+    "Entity-mistake": {
+      "node_id": "mistake",
+      "disambiguation_index": 0,
+      "label": "mistakes",
+      "aliases": [
+        "mistakes",
+        "These mistakes"
+      ],
+      "types": [
+        "error",
+        "mistake",
+        "communication issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'mistakes' refers to errors or communication issues that occur during the interpretation of a speaker's utterance by a listener, leading to misunderstandings in human-machine interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "mistakes",
+          "local_types": [
+            "error",
+            "communication issue"
+          ],
+          "iri": "Entity-mistake-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "mistakes",
+          "local_types": [
+            "error",
+            "communication issue"
+          ],
+          "iri": "Entity-mistake-Mention-2"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "mistakes",
+          "local_types": [
+            "error",
+            "communication issue"
+          ],
+          "iri": "Entity-mistake-Mention-3"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "These mistakes",
+          "local_types": [
+            "mistake"
+          ],
+          "iri": "Entity-mistake-Mention-4"
+        }
+      ],
+      "relevance": 0.73828125
+    },
+    "Entity-miscommunication": {
+      "node_id": "miscommunication",
+      "disambiguation_index": 0,
+      "label": "miscommunication",
+      "aliases": [
+        "miscommunication"
+      ],
+      "types": [
+        "social phenomenon",
+        "communication issue",
+        "misunderstanding",
+        "concept",
+        "interaction issue",
+        "communication error",
+        "phenomenon"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Miscommunication refers to a failure to communicate ideas or intentions effectively, leading to misunderstandings or errors in interaction.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "miscommunication",
+          "local_types": [
+            "communication issue",
+            "misunderstanding",
+            "concept",
+            "interaction issue",
+            "communication error",
+            "phenomenon"
+          ],
+          "iri": "Entity-miscommunication-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "miscommunication",
+          "local_types": [
+            "communication issue",
+            "social phenomenon"
+          ],
+          "iri": "Entity-miscommunication-Mention-2"
+        }
+      ],
+      "relevance": 0.734375
+    },
+    "Entity-a_new_view_for_extensional_reference": {
+      "node_id": "a_new_view_for_extensional_reference",
+      "disambiguation_index": 0,
+      "label": "a new view for extensional reference",
+      "aliases": [
+        "a new view for extensional reference"
+      ],
+      "types": [
+        "concept",
+        "theory"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A new view for extensional reference refers to an innovative framework that allows for greater flexibility in how speakers formulate utterances and convey meaning in conversations, particularly addressing and mitigating reference problems that can lead to miscommunication in human-machine interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "a new view for extensional reference",
+          "local_types": [
+            "concept",
+            "theory"
+          ],
+          "iri": "Entity-a_new_view_for_extensional_reference-Mention-1"
+        }
+      ],
+      "relevance": 0.734375
+    },
+    "Entity-miscommunications": {
+      "node_id": "miscommunications",
+      "disambiguation_index": 0,
+      "label": "miscommunications",
+      "aliases": [
+        "these misunderstandings",
+        "miscommunications"
+      ],
+      "types": [
+        "problem",
+        "misunderstanding",
+        "issue",
+        "communication issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Miscommunications refer to misunderstandings or failures in communication that lead to incorrect interpretations or responses between individuals or groups.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "miscommunications",
+          "local_types": [
+            "problem",
+            "issue",
+            "communication issue"
+          ],
+          "iri": "Entity-miscommunications-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "these misunderstandings",
+          "local_types": [
+            "misunderstanding"
+          ],
+          "iri": "Entity-miscommunications-Mention-2"
+        }
+      ],
+      "relevance": 0.73388671875
+    },
+    "Entity-such_mistake": {
+      "node_id": "such_mistake",
+      "disambiguation_index": 0,
+      "label": "Such mistakes",
+      "aliases": [
+        "Such mistakes"
+      ],
+      "types": [
+        "mistake"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Such mistakes refer to misunderstandings in communication that arise from difficulties in interpreting a speaker's utterance, particularly due to differences in beliefs, contexts, and intentions between the speaker and listener.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Such mistakes",
+          "local_types": [
+            "mistake"
+          ],
+          "iri": "Entity-such_mistake-Mention-1"
+        }
+      ],
+      "relevance": 0.72998046875
+    },
+    "Entity-work": {
+      "node_id": "work",
+      "disambiguation_index": 0,
+      "label": "work",
+      "aliases": [
+        "work"
+      ],
+      "types": [
+        "research",
+        "project"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'work' refers to the research project aimed at enhancing human-machine interactions within a natural language context, focusing on identifying and mitigating miscommunications that arise during conversations.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "work",
+          "local_types": [
+            "research",
+            "project"
+          ],
+          "iri": "Entity-work-Mention-1"
+        }
+      ],
+      "relevance": 0.720703125
+    },
+    "Entity-communication": {
+      "node_id": "communication",
+      "disambiguation_index": 0,
+      "label": "communication",
+      "aliases": [
+        "communication"
+      ],
+      "types": [
+        "interaction",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Communication refers to the process of exchanging information between a speaker and a listener, which can be hindered by misunderstandings and misinterpretations during interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "communication",
+          "local_types": [
+            "interaction",
+            "process"
+          ],
+          "iri": "Entity-communication-Mention-1"
+        }
+      ],
+      "relevance": 0.7021484375
+    },
+    "Entity-difficulty": {
+      "node_id": "difficulty",
+      "disambiguation_index": 0,
+      "label": "difficulties",
+      "aliases": [
+        "difficulties"
+      ],
+      "types": [
+        "challenge",
+        "problem"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'difficulties' refers to the challenges and problems that arise in communication due to differences in beliefs, contexts, perceptions, backgrounds, or goals between a speaker and listener, leading to misunderstandings during the interpretation of utterances.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "difficulties",
+          "local_types": [
+            "challenge",
+            "problem"
+          ],
+          "iri": "Entity-difficulty-Mention-1"
+        }
+      ],
+      "relevance": 0.68798828125
+    },
+    "Entity-speaker": {
+      "node_id": "speaker",
+      "disambiguation_index": 0,
+      "label": "speaker",
+      "aliases": [
+        "speaker",
+        "a speaker"
+      ],
+      "types": [
+        "communicator",
+        "person",
+        "role in communication",
+        "participant",
+        "role"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'speaker' refers to an individual who communicates or conveys information in a conversation, particularly in the context of human-machine interactions, where their utterances may be subject to misinterpretation due to differing beliefs, contexts, and goals.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "speaker",
+          "local_types": [
+            "role",
+            "role in communication",
+            "participant"
+          ],
+          "iri": "Entity-speaker-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "speaker",
+          "local_types": [
+            "participant",
+            "communicator"
+          ],
+          "iri": "Entity-speaker-Mention-2"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "speaker",
+          "local_types": [
+            "participant",
+            "communicator"
+          ],
+          "iri": "Entity-speaker-Mention-3"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a speaker",
+          "local_types": [
+            "role",
+            "person"
+          ],
+          "iri": "Entity-speaker-Mention-4"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "a speaker",
+          "local_types": [
+            "participant"
+          ],
+          "iri": "Entity-speaker-Mention-5"
+        }
+      ],
+      "relevance": 0.67529296875
+    },
+    "Entity-conversation": {
+      "node_id": "conversation",
+      "disambiguation_index": 0,
+      "label": "conversation",
+      "aliases": [
+        "conversation",
+        "a conversation"
+      ],
+      "types": [
+        "interaction",
+        "communication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'conversation' refers to the interactive communication process between a speaker and a listener, where misunderstandings may occur due to differing beliefs, contexts, and goals.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "conversation",
+          "local_types": [
+            "communication",
+            "interaction"
+          ],
+          "iri": "Entity-conversation-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a conversation",
+          "local_types": [
+            "interaction"
+          ],
+          "iri": "Entity-conversation-Mention-2"
+        }
+      ],
+      "relevance": 0.673828125
+    },
+    "Entity-framework": {
+      "node_id": "framework",
+      "disambiguation_index": 0,
+      "label": "framework",
+      "aliases": [
+        "framework",
+        "a framework"
+      ],
+      "types": [
+        "structure",
+        "concept",
+        "theoretical model",
+        "framework",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'framework' refers to a theoretical model designed to enhance human-machine interactions by providing flexibility for speakers in constructing utterances and selecting conversational methods, thereby addressing reference problems and miscommunication.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "framework",
+          "local_types": [
+            "concept",
+            "structure",
+            "theoretical model",
+            "theoretical framework"
+          ],
+          "iri": "Entity-framework-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "a framework",
+          "local_types": [
+            "framework"
+          ],
+          "iri": "Entity-framework-Mention-2"
+        }
+      ],
+      "relevance": 0.6611328125
+    },
+    "Entity-conversational_vehicle": {
+      "node_id": "conversational_vehicle",
+      "disambiguation_index": 0,
+      "label": "conversational vehicle",
+      "aliases": [
+        "the conversational vehicle",
+        "conversational vehicle"
+      ],
+      "types": [
+        "medium",
+        "communication method",
+        "vehicle",
+        "communication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'conversational vehicle' refers to the method or medium through which a speaker conveys an utterance in a conversation, allowing for flexibility in communication to enhance understanding and reduce miscommunication.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "conversational vehicle",
+          "local_types": [
+            "communication method",
+            "medium"
+          ],
+          "iri": "Entity-conversational_vehicle-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "the conversational vehicle",
+          "local_types": [
+            "vehicle",
+            "communication"
+          ],
+          "iri": "Entity-conversational_vehicle-Mention-2"
+        }
+      ],
+      "relevance": 0.65625
+    },
+    "Entity-natural_language_environment": {
+      "node_id": "natural_language_environment",
+      "disambiguation_index": 0,
+      "label": "natural language environment",
+      "aliases": [
+        "a natural language environment",
+        "natural language environment"
+      ],
+      "types": [
+        "environment",
+        "natural language",
+        "computational linguistics",
+        "language processing",
+        "language"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A natural language environment refers to a context in which human-machine interactions occur using natural language, allowing for the complexities of communication, including variations in beliefs, contexts, and intentions between speakers and listeners.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "natural language environment",
+          "local_types": [
+            "computational linguistics",
+            "language processing",
+            "environment",
+            "language"
+          ],
+          "iri": "Entity-natural_language_environment-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a natural language environment",
+          "local_types": [
+            "environment",
+            "natural language"
+          ],
+          "iri": "Entity-natural_language_environment-Mention-2"
+        }
+      ],
+      "relevance": 0.65478515625
+    },
+    "Entity-context": {
+      "node_id": "context",
+      "disambiguation_index": 0,
+      "label": "contexts",
+      "aliases": [
+        "contexts"
+      ],
+      "types": [
+        "environment",
+        "concept",
+        "context",
+        "situational factor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'contexts' refers to the varying beliefs, perceptions, backgrounds, and goals that influence the understanding and interpretation of utterances in human-machine interactions during conversations.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "contexts",
+          "local_types": [
+            "environment",
+            "concept",
+            "context",
+            "situational factor"
+          ],
+          "iri": "Entity-context-Mention-1"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity-a_speaker_s_utterance": {
+      "node_id": "a_speaker_s_utterance",
+      "disambiguation_index": 0,
+      "label": "a speaker's utterance",
+      "aliases": [
+        "a speaker's utterance"
+      ],
+      "types": [
+        "utterance",
+        "communication"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A speaker's utterance refers to the verbal expression or statement made by an individual during a conversation, which may be subject to misinterpretation due to differing beliefs, contexts, and intentions between the speaker and listener.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a speaker's utterance",
+          "local_types": [
+            "utterance",
+            "communication"
+          ],
+          "iri": "Entity-a_speaker_s_utterance-Mention-1"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity-perception": {
+      "node_id": "perception",
+      "disambiguation_index": 0,
+      "label": "perceptions",
+      "aliases": [
+        "perceptions"
+      ],
+      "types": [
+        "concept",
+        "mental state",
+        "cognitive state",
+        "cognitive aspect"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of human-machine interactions, 'perceptions' refer to the subjective interpretations and understandings that individuals hold, which can differ significantly between speakers and listeners, thereby influencing communication and potentially leading to misunderstandings.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "perceptions",
+          "local_types": [
+            "concept",
+            "mental state",
+            "cognitive state",
+            "cognitive aspect"
+          ],
+          "iri": "Entity-perception-Mention-1"
+        }
+      ],
+      "relevance": 0.6533203125
+    },
+    "Entity-goal": {
+      "node_id": "goal",
+      "disambiguation_index": 0,
+      "label": "goals",
+      "aliases": [
+        "goals",
+        "goal"
+      ],
+      "types": [
+        "aim",
+        "concept",
+        "objective",
+        "intention"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this paper, 'goals' refers to the intended outcomes or objectives of enhancing human-machine interactions within a natural language processing framework.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "goals",
+          "local_types": [
+            "objective"
+          ],
+          "iri": "Entity-goal-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "goals",
+          "local_types": [
+            "concept",
+            "intention",
+            "objective"
+          ],
+          "iri": "Entity-goal-Mention-2"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "goal",
+          "local_types": [
+            "objective",
+            "aim"
+          ],
+          "iri": "Entity-goal-Mention-3"
+        }
+      ],
+      "relevance": 0.650390625
+    },
+    "Entity-listener": {
+      "node_id": "listener",
+      "disambiguation_index": 0,
+      "label": "listener",
+      "aliases": [
+        "listener"
+      ],
+      "types": [
+        "communicator",
+        "person",
+        "role in communication",
+        "participant",
+        "role"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of human-machine interactions, a 'listener' refers to the participant in a conversation who interprets the utterances of a speaker, potentially facing challenges due to differing beliefs, contexts, and goals.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "listener",
+          "local_types": [
+            "role",
+            "role in communication",
+            "participant",
+            "person"
+          ],
+          "iri": "Entity-listener-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "listener",
+          "local_types": [
+            "participant",
+            "communicator"
+          ],
+          "iri": "Entity-listener-Mention-2"
+        }
+      ],
+      "relevance": 0.64794921875
+    },
+    "Entity-circumvent_them": {
+      "node_id": "circumvent_them",
+      "disambiguation_index": 0,
+      "label": "circumvent them",
+      "aliases": [
+        "circumvent them"
+      ],
+      "types": [
+        "action"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'circumvent them' refers to the action of recognizing and isolating miscommunications in human-machine interactions to prevent misunderstandings, particularly those related to reference problems.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "circumvent them",
+          "local_types": [
+            "action"
+          ],
+          "iri": "Entity-circumvent_them-Mention-1"
+        }
+      ],
+      "relevance": 0.63623046875
+    },
+    "Entity-extensional_reference": {
+      "node_id": "extensional_reference",
+      "disambiguation_index": 0,
+      "label": "extensional reference",
+      "aliases": [
+        "extensional reference"
+      ],
+      "types": [
+        "linguistic concept",
+        "reference theory",
+        "philosophical concept",
+        "concept",
+        "reference type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Extensional reference is a linguistic and philosophical concept that pertains to the relationship between language and the actual entities or objects in the world that a term or expression refers to, as opposed to its intension or meaning.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "extensional reference",
+          "local_types": [
+            "linguistic concept",
+            "reference theory",
+            "philosophical concept",
+            "concept",
+            "reference type"
+          ],
+          "iri": "Entity-extensional_reference-Mention-1"
+        }
+      ],
+      "relevance": 0.6337890625
+    },
+    "Entity-task": {
+      "node_id": "task",
+      "disambiguation_index": 0,
+      "label": "task",
+      "aliases": [
+        "task",
+        "a task"
+      ],
+      "types": [
+        "task",
+        "activity",
+        "objective"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'task' refers to the subject or activity that a speaker discusses in a conversation, which may involve various interpretations and requires careful communication to avoid misunderstandings.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "task",
+          "local_types": [
+            "activity",
+            "objective"
+          ],
+          "iri": "Entity-task-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "a task",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-task-Mention-2"
+        }
+      ],
+      "relevance": 0.61767578125
+    },
+    "Entity-belief": {
+      "node_id": "belief",
+      "disambiguation_index": 0,
+      "label": "beliefs",
+      "aliases": [
+        "beliefs"
+      ],
+      "types": [
+        "concept",
+        "mental state",
+        "cognitive state",
+        "cognitive aspect"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of human-machine interactions, 'beliefs' refer to the individual mental states or cognitive aspects that influence how a speaker and listener perceive and interpret each other's utterances during a conversation.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "beliefs",
+          "local_types": [
+            "concept",
+            "mental state",
+            "cognitive state",
+            "cognitive aspect"
+          ],
+          "iri": "Entity-belief-Mention-1"
+        }
+      ],
+      "relevance": 0.599609375
+    },
+    "Entity-background": {
+      "node_id": "background",
+      "disambiguation_index": 0,
+      "label": "backgrounds",
+      "aliases": [
+        "backgrounds"
+      ],
+      "types": [
+        "context",
+        "contextual factor",
+        "socio-cultural factor",
+        "concept",
+        "personal history"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'backgrounds' refers to the diverse personal histories, beliefs, contexts, and perceptions that individuals bring to a conversation, which can influence their understanding and interpretation of each other's utterances.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "backgrounds",
+          "local_types": [
+            "context",
+            "contextual factor",
+            "socio-cultural factor",
+            "concept",
+            "personal history"
+          ],
+          "iri": "Entity-background-Mention-1"
+        }
+      ],
+      "relevance": 0.59423828125
+    },
+    "Entity-human-machine_interaction": {
+      "node_id": "human-machine_interaction",
+      "disambiguation_index": 0,
+      "label": "human-machine interactions",
+      "aliases": [
+        "human-machine interactions"
+      ],
+      "types": [
+        "interaction",
+        "communication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Human-machine interactions refer to the various ways in which humans and machines communicate and collaborate, encompassing both physical and digital interfaces.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "human-machine interactions",
+          "local_types": [
+            "interaction",
+            "communication"
+          ],
+          "iri": "Entity-human-machine_interaction-Mention-1"
+        }
+      ],
+      "relevance": 0.5927734375
+    },
+    "Entity-earlier_one": {
+      "node_id": "earlier_one",
+      "disambiguation_index": 0,
+      "label": "earlier ones",
+      "aliases": [
+        "earlier ones"
+      ],
+      "types": [
+        "framework"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'earlier ones' refers to previous frameworks for human-machine interaction that were more restrictive in allowing speakers flexibility in their utterances and the means of communication.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "earlier ones",
+          "local_types": [
+            "framework"
+          ],
+          "iri": "Entity-earlier_one-Mention-1"
+        }
+      ],
+      "relevance": 0.58447265625
+    },
+    "Entity-utterance": {
+      "node_id": "utterance",
+      "disambiguation_index": 0,
+      "label": "utterance",
+      "aliases": [
+        "utterance",
+        "an utterance"
+      ],
+      "types": [
+        "speech act",
+        "utterance",
+        "communication",
+        "linguistic expression"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An utterance is a spoken or written expression that conveys meaning in a communicative context.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "utterance",
+          "local_types": [
+            "speech act",
+            "communication"
+          ],
+          "iri": "Entity-utterance-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "utterance",
+          "local_types": [
+            "speech act",
+            "linguistic expression"
+          ],
+          "iri": "Entity-utterance-Mention-2"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "an utterance",
+          "local_types": [
+            "utterance"
+          ],
+          "iri": "Entity-utterance-Mention-3"
+        }
+      ],
+      "relevance": 0.56640625
+    },
+    "Entity-case_study": {
+      "node_id": "case_study",
+      "disambiguation_index": 0,
+      "label": "case study",
+      "aliases": [
+        "case study"
+      ],
+      "types": [
+        "research method",
+        "qualitative research",
+        "research",
+        "analysis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A case study is a research method that involves an in-depth analysis of a specific instance, event, or phenomenon to gain insights and understanding of broader principles or issues.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "case study",
+          "local_types": [
+            "research method",
+            "qualitative research",
+            "research",
+            "analysis"
+          ],
+          "iri": "Entity-case_study-Mention-1"
+        }
+      ],
+      "relevance": 0.5029296875
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "publication",
+        "research document",
+        "academic work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A paper is a written work that presents research findings, analyses, or arguments, typically published in an academic or professional context.",
+      "mentions": [
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "paper",
+          "local_types": [
+            "academic work",
+            "research document"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        },
+        {
+          "reference": "Paper-57-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "paper",
+          "local_types": [
+            "academic work",
+            "publication"
+          ],
+          "iri": "Entity-paper-Mention-2"
+        }
+      ],
+      "relevance": 0.48388671875
+    }
+  },
+  "summary": "The goal of this work is the enrichment of human-machine interactions in a natural language environment . Because a speaker and listener can not be assured to have the same beliefs , contexts , perceptions , backgrounds , or goals , at each point in a conversation , difficulties and mistakes arise when a listener interprets a speaker 's utterance . These mistakes can lead to various kinds of misunderstandings between speaker and listener , including reference failures or failure to understand the speaker 's intention . We call these misunderstandings miscommunication . Such mistakes can slow , and possibly break down , communication . Our goal is to recognize and isolate such miscommunications and circumvent them . This paper highlights a particular class of miscommunication -- reference problems -- by describing a case study and techniques for avoiding failures of reference . We want to illustrate a framework less restrictive than earlier ones by allowing a speaker leeway in forming an utterance about a task and in determining the conversational vehicle to deliver it . The paper also promotes a new view for extensional reference .",
+  "triples": [
+    [
+      "Entity-this_work",
+      "Predicate-is_the_enrichment_of",
+      "Entity-human-machine_interaction"
+    ],
+    [
+      "Entity-this_work",
+      "Predicate-is_in",
+      "Entity-natural_language_environment"
+    ],
+    [
+      "Entity-listener",
+      "Predicate-interprets",
+      "Entity-a_speaker_s_utterance"
+    ],
+    [
+      "Entity-speaker",
+      "Predicate-can_not_be_assured_to_have_the_same",
+      "Entity-belief"
+    ],
+    [
+      "Entity-speaker",
+      "Predicate-can_not_be_assured_to_have_the_same",
+      "Entity-context"
+    ],
+    [
+      "Entity-speaker",
+      "Predicate-can_not_be_assured_to_have_the_same",
+      "Entity-perception"
+    ],
+    [
+      "Entity-speaker",
+      "Predicate-can_not_be_assured_to_have_the_same",
+      "Entity-background"
+    ],
+    [
+      "Entity-speaker",
+      "Predicate-can_not_be_assured_to_have_the_same",
+      "Entity-goal"
+    ],
+    [
+      "Entity-mistake",
+      "Predicate-lead_to",
+      "Entity-various_kind_of_misunderstanding"
+    ],
+    [
+      "Entity-various_kind_of_misunderstanding",
+      "Predicate-include",
+      "Entity-reference_failure"
+    ],
+    [
+      "Entity-various_kind_of_misunderstanding",
+      "Predicate-include",
+      "Entity-failure_to_understand_the_speaker_s_intention"
+    ],
+    [
+      "Entity-mistake",
+      "Predicate-can_lead_to",
+      "Entity-various_kind_of_misunderstanding"
+    ],
+    [
+      "Entity-miscommunications",
+      "Predicate-are_called",
+      "Entity-miscommunication"
+    ],
+    [
+      "Entity-misunderstanding",
+      "Predicate-are_called",
+      "Entity-miscommunication"
+    ],
+    [
+      "Entity-such_mistake",
+      "Predicate-can_slow_down",
+      "Entity-communication"
+    ],
+    [
+      "Entity-such_mistake",
+      "Predicate-can_possibly_break_down",
+      "Entity-communication"
+    ],
+    [
+      "Entity-our_goal",
+      "Predicate-is_to_recognize_and_isolate",
+      "Entity-miscommunications"
+    ],
+    [
+      "Entity-our_goal",
+      "Predicate-circumvent",
+      "Entity-miscommunications"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-highlights",
+      "Entity-a_particular_class_of_miscommunication"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-describes",
+      "Entity-a_case_study"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-describes",
+      "Entity-technique_for_avoiding_failure_of_reference"
+    ],
+    [
+      "Entity-a_particular_class_of_miscommunication",
+      "Predicate-include",
+      "Entity-reference_problem"
+    ],
+    [
+      "Entity-technique_for_avoiding_failure_of_reference",
+      "Predicate-avoids",
+      "Entity-reference_problem"
+    ],
+    [
+      "Entity-framework",
+      "Predicate-is_less_restrictive_than",
+      "Entity-earlier_one"
+    ],
+    [
+      "Entity-speaker",
+      "Predicate-has_leeway_in_forming",
+      "Entity-utterance"
+    ],
+    [
+      "Entity-speaker",
+      "Predicate-determines",
+      "Entity-conversational_vehicle"
+    ],
+    [
+      "Entity-the_paper",
+      "Predicate-promotes",
+      "Entity-a_new_view_for_extensional_reference"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-highlights",
+      "Entity-reference_problem"
+    ],
+    [
+      "Entity-this_work",
+      "Predicate-addresses",
+      "Entity-reference_problem"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-addresses",
+      "Entity-this_work"
+    ],
+    [
+      "Entity-a_particular_class_of_miscommunication",
+      "Predicate-refers_to",
+      "Entity-reference_problem"
+    ],
+    [
+      "Entity-this_work",
+      "Predicate-highlights",
+      "Entity-a_particular_class_of_miscommunication"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-conversational_vehicle",
+      "skos:broader",
+      "Entity-communication"
+    ],
+    [
+      "Entity-the_enrichment_of_human-machine_interaction",
+      "skos:broader",
+      "Entity-goal"
+    ],
+    [
+      "Entity-a_particular_class_of_miscommunication",
+      "skos:broader",
+      "Entity-miscommunication"
+    ],
+    [
+      "Entity-various_kind_of_misunderstanding",
+      "skos:broader",
+      "Entity-misunderstanding"
+    ],
+    [
+      "Entity-the_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-reference_problem",
+      "skos:broader",
+      "Entity-a_particular_class_of_miscommunication"
+    ],
+    [
+      "Entity-conversation",
+      "skos:broader",
+      "Entity-communication"
+    ],
+    [
+      "Entity-human-machine_interaction",
+      "skos:broader",
+      "Entity-communication"
+    ],
+    [
+      "Entity-reference_problem",
+      "skos:broader",
+      "Entity-miscommunication"
+    ],
+    [
+      "Entity-a_case_study",
+      "skos:broader",
+      "Entity-case_study"
+    ],
+    [
+      "Entity-a_particular_class_of_miscommunication",
+      "skos:broader",
+      "Entity-miscommunications"
+    ],
+    [
+      "Entity-such_mistake",
+      "skos:broader",
+      "Entity-mistake"
+    ],
+    [
+      "Entity-utterance",
+      "skos:broader",
+      "Entity-communication"
+    ],
+    [
+      "Entity-technique_for_avoiding_failure_of_reference",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-reference_problem",
+      "skos:broader",
+      "Entity-miscommunications"
+    ],
+    [
+      "Entity-failure_to_understand_the_speaker_s_intention",
+      "skos:broader",
+      "Entity-misunderstanding"
+    ],
+    [
+      "Entity-background",
+      "skos:broader",
+      "Entity-context"
+    ],
+    [
+      "Entity-a_speaker_s_utterance",
+      "skos:broader",
+      "Entity-utterance"
+    ],
+    [
+      "Entity-miscommunication",
+      "skos:broader",
+      "Entity-misunderstanding"
+    ],
+    [
+      "Entity-a_speaker_s_utterance",
+      "skos:broader",
+      "Entity-communication"
+    ],
+    [
+      "Entity-miscommunications",
+      "skos:broader",
+      "Entity-misunderstanding"
+    ],
+    [
+      "Entity-earlier_one",
+      "skos:broader",
+      "Entity-framework"
+    ],
+    [
+      "Entity-reference_failure",
+      "skos:broader",
+      "Entity-misunderstanding"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_the_enrichment_of": {
+      "label": "is the enrichment of",
+      "description": "The predicate 'is the enrichment of' indicates a relationship where the subject contributes positively to the development, enhancement, or improvement of the object. It suggests that the subject adds value, depth, or quality to the object, thereby making it more comprehensive or effective. This relationship implies a transformative or augmentative effect, where the subject plays a crucial role in advancing the understanding or functionality of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_in": {
+      "label": "is in",
+      "description": "The predicate 'is in' establishes a relationship of inclusion or presence between the subject and the object, indicating that the subject exists within the context, category, or environment defined by the object. It suggests that the subject is part of, located within, or associated with the broader framework or setting represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-interprets": {
+      "label": "interprets",
+      "description": "The predicate 'interprets' denotes the action of understanding or explaining the meaning of something, typically involving a subject that actively engages with and processes information conveyed by an object. In the context of the example triple, it implies that the listener is analyzing and deriving meaning from the utterance made by the speaker, thereby establishing a communicative connection between the two parties.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_not_be_assured_to_have_the_same": {
+      "label": "can not be assured to have the same",
+      "description": "The predicate 'can not be assured to have the same' indicates a lack of certainty or guarantee regarding the equivalence or similarity between the subject and the object. It suggests that while there may be a possibility of shared characteristics or qualities, there is no definitive assurance that they are identical or comparable in that regard.",
+      "disambiguation_index": 0
+    },
+    "Predicate-lead_to": {
+      "label": "lead to",
+      "description": "The predicate 'lead to' indicates a causal relationship where the subject is a factor or event that results in or contributes to the occurrence of the object. It suggests that the subject has a direct influence or effect on the object, often implying a progression from one state or condition to another.",
+      "disambiguation_index": 0
+    },
+    "Predicate-include": {
+      "label": "include",
+      "description": "The predicate 'include' establishes a relationship where the subject encompasses or contains the object as a part or component. It indicates that the object is one of the elements that can be found within the broader category or context represented by the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_lead_to": {
+      "label": "can lead to",
+      "description": "The predicate 'can lead to' indicates a potential causal relationship between the subject and the object, suggesting that the occurrence or existence of the subject may result in, contribute to, or facilitate the emergence of the object. It implies that while the connection is not guaranteed, there is a possibility that the subject may influence or bring about the object in certain contexts.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_called": {
+      "label": "are called",
+      "description": "The predicate 'are called' serves to establish a naming or identification relationship between the subject and the object. It indicates that the subject is referred to or designated by the term represented by the object, thereby linking the two in a way that conveys the meaning or label associated with the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_slow_down": {
+      "label": "can slow down",
+      "description": "The predicate 'can slow down' indicates the potential or ability of the subject to reduce the speed, efficiency, or progress of the object. It suggests that the subject has an impact that may hinder or delay the normal functioning or flow of the object, leading to a decrease in its effectiveness or pace.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_possibly_break_down": {
+      "label": "can possibly break down",
+      "description": "The predicate 'can possibly break down' indicates a potential or likelihood that the subject may cause a disruption or failure in the functioning or effectiveness of the object. It suggests that under certain circumstances, the subject has the capacity to negatively impact the object, leading to a breakdown or deterioration in its normal state or operation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_to_recognize_and_isolate": {
+      "label": "is to recognize and isolate",
+      "description": "The predicate 'is to recognize and isolate' serves to define the purpose or objective of the subject in relation to the object. It indicates an intention or aim to identify and separate the object from other elements, highlighting a process of discernment and clarity. This predicate emphasizes the active role of the subject in understanding and addressing the complexities associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-circumvent": {
+      "label": "circumvent",
+      "description": "The predicate 'circumvent' indicates an action where the subject seeks to avoid, bypass, or find a way around the object, often implying a strategic or clever approach to overcoming obstacles or challenges associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-highlights": {
+      "label": "highlights",
+      "description": "The predicate 'highlights' indicates that the subject brings attention to, emphasizes, or underscores the significance of the object. It suggests that the subject presents the object in a way that makes it more noticeable or important, often aiming to inform or draw the audience's focus towards a specific aspect or detail.",
+      "disambiguation_index": 0
+    },
+    "Predicate-describes": {
+      "label": "describes",
+      "description": "The predicate 'describes' indicates a relationship where the subject provides an account, explanation, or representation of the object. It signifies that the subject conveys information or details about the object, allowing the reader or listener to understand or visualize the characteristics, features, or context of the object being described.",
+      "disambiguation_index": 0
+    },
+    "Predicate-avoids": {
+      "label": "avoids",
+      "description": "The predicate 'avoids' indicates a relationship where the subject actively seeks to prevent or evade the occurrence of the object. It implies a proactive stance taken by the subject to mitigate or eliminate potential issues, challenges, or undesirable outcomes represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_less_restrictive_than": {
+      "label": "is less restrictive than",
+      "description": "The predicate 'is less restrictive than' establishes a comparative relationship between the subject and the object, indicating that the subject imposes fewer limitations, constraints, or requirements compared to the object. This suggests a degree of flexibility or openness in the subject relative to the object, which is characterized by greater restrictions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has_leeway_in_forming": {
+      "label": "has leeway in forming",
+      "description": "The predicate 'has leeway in forming' indicates that the subject possesses the flexibility or freedom to create, construct, or develop the object in various ways. It suggests that there are multiple possible approaches or interpretations available to the subject when it comes to the formation of the object, allowing for creativity, variation, or adaptation in the process.",
+      "disambiguation_index": 0
+    },
+    "Predicate-determines": {
+      "label": "determines",
+      "description": "The predicate 'determines' indicates a relationship in which the subject exerts influence or control over the object, leading to a specific outcome or state. In this context, it suggests that the subject has the authority or capability to shape, define, or dictate the characteristics, nature, or functioning of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-promotes": {
+      "label": "promotes",
+      "description": "The predicate 'promotes' indicates an action or process by which the subject actively supports, advocates for, or encourages the acceptance or development of the object. It implies a positive endorsement or facilitation of the ideas, concepts, or practices represented by the object, suggesting that the subject plays a role in enhancing visibility, understanding, or adoption of the object within a particular context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-addresses": {
+      "label": "addresses",
+      "description": "The predicate 'addresses' indicates that the subject engages with, discusses, or provides solutions to the issues or topics represented by the object. It implies a focus on the subject's intention to confront or consider the matters at hand, thereby establishing a relationship where the subject is actively involved in dealing with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-refers_to": {
+      "label": "refers to",
+      "description": "The predicate 'refers to' establishes a relationship in which the subject is associated with or denotes the object, indicating that the subject is a representation, example, or specific instance of the concept or category defined by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or category that falls under a more general classification represented by the object. This relationship suggests that the object encompasses a wider range of concepts or entities than the subject, thereby providing a context in which the subject can be understood as part of a larger framework.",
+      "disambiguation_index": 0
+    }
+  }
+}

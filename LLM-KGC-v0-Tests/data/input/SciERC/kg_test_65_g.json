@@ -1,0 +1,2001 @@
+{
+  "iri": "Paper-65",
+  "title": "ICCV_2003_151_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-65-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-65-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+              "text": "A new algorithm is proposed for novel view generation in one-to-one teleconferencing applications ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+              "text": "Given the video streams acquired by two cameras placed on either side of a computer monitor , the proposed algorithm synthesises images from a virtual camera in arbitrary position -LRB- typically located within the monitor -RRB- to facilitate eye contact ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+              "text": "Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+              "text": "The two main contributions of this paper are : i -RRB- a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii -RRB- a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+              "text": "Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB- ; and a cost aggregation algorithm that acts directly on our three-dimensional matching cost space ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+              "text": "Examples are given that demonstrate the robustness of the new algorithm to spatial and temporal artefacts for long stereo video streams ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+              "text": "These include demonstrations of synthesis of cyclopean views of extended conversational sequences ."
+            },
+            {
+              "iri": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+              "text": "We further demonstrate synthesis from a freely translating virtual camera ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0022797584533691406,
+    82.6335220336914,
+    93.18467092514038,
+    86.95515298843384,
+    0.08048701286315918,
+    0.00012803077697753906,
+    0.00023984909057617188,
+    492.5358898639679,
+    505.64403796195984,
+    6.687709808349609,
+    275.0588331222534,
+    0.0181577205657959,
+    0.000308990478515625,
+    96.82402896881104,
+    0.0025339126586914062,
+    0.04675889015197754,
+    0.0030798912048339844,
+    7.103235721588135,
+    31.52292799949646,
+    51.395604848861694,
+    808.5452921390533,
+    13.921661138534546,
+    338.1450071334839,
+    4.4203550815582275,
+    0.0008709430694580078,
+    0.017657041549682617
+  ],
+  "nodes": {
+    "Entity-a_new_algorithm": {
+      "node_id": "a_new_algorithm",
+      "disambiguation_index": 0,
+      "label": "A new algorithm",
+      "aliases": [
+        "A new algorithm",
+        "the new algorithm",
+        "the proposed algorithm",
+        "a new algorithm"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A new algorithm for novel view generation in one-to-one teleconferencing applications that synthesizes images from a virtual camera using an improved dynamic-programming stereo approach.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "A new algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-a_new_algorithm-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the proposed algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-a_new_algorithm-Mention-2"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the new algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-a_new_algorithm-Mention-3"
+        }
+      ],
+      "relevance": 0.779296875
+    },
+    "Entity-efficient_novel-view_generation": {
+      "node_id": "efficient_novel-view_generation",
+      "disambiguation_index": 0,
+      "label": "efficient novel-view generation",
+      "aliases": [
+        "efficient novel-view generation"
+      ],
+      "types": [
+        "process",
+        "generation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Efficient novel-view generation refers to the process of synthesizing images from a virtual camera position using an improved dynamic-programming stereo algorithm, aimed at creating realistic views in teleconferencing applications by leveraging video streams from multiple cameras.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "efficient novel-view generation",
+          "local_types": [
+            "process",
+            "generation"
+          ],
+          "iri": "Entity-efficient_novel-view_generation-Mention-1"
+        }
+      ],
+      "relevance": 0.7392578125
+    },
+    "Entity-stereo_algorithm": {
+      "node_id": "stereo_algorithm",
+      "disambiguation_index": 0,
+      "label": "stereo algorithm",
+      "aliases": [
+        "stereo algorithm"
+      ],
+      "types": [
+        "image processing technique",
+        "stereoscopic processing",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The stereo algorithm refers to an improved dynamic-programming method used for efficient novel-view generation in teleconferencing applications, synthesizing images from video streams captured by two cameras.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "stereo algorithm",
+          "local_types": [
+            "image processing technique",
+            "stereoscopic processing",
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-stereo_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.72509765625
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents a novel algorithm for temporal maintenance of a background model to enhance occlusion rendering and reduce temporal artifacts in the context of novel view generation for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "this paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.703125
+    },
+    "Entity-robustness_of_the_new_algorithm": {
+      "node_id": "robustness_of_the_new_algorithm",
+      "disambiguation_index": 0,
+      "label": "robustness of the new algorithm",
+      "aliases": [
+        "robustness of the new algorithm"
+      ],
+      "types": [
+        "quality",
+        "property"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The robustness of the new algorithm refers to its ability to effectively handle spatial and temporal artefacts in long stereo video streams during the synthesis of images for novel view generation in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "robustness of the new algorithm",
+          "local_types": [
+            "quality",
+            "property"
+          ],
+          "iri": "Entity-robustness_of_the_new_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.69580078125
+    },
+    "Entity-a_novel_algorithm": {
+      "node_id": "a_novel_algorithm",
+      "disambiguation_index": 0,
+      "label": "a novel algorithm",
+      "aliases": [
+        "a novel algorithm"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The novel algorithm refers to a method developed for the temporal maintenance of a background model in teleconferencing applications, aimed at improving occlusion rendering and minimizing temporal artifacts such as flicker.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a novel algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-a_novel_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.693359375
+    },
+    "Entity-cost_aggregation_algorithm": {
+      "node_id": "cost_aggregation_algorithm",
+      "disambiguation_index": 0,
+      "label": "cost aggregation algorithm",
+      "aliases": [
+        "cost aggregation algorithm",
+        "a cost aggregation algorithm"
+      ],
+      "types": [
+        "optimization method",
+        "computational method",
+        "algorithm",
+        "optimization technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The cost aggregation algorithm is a computational method that operates on a three-dimensional matching cost space to improve the accuracy of occlusion rendering and reduce temporal artifacts in novel view synthesis for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "cost aggregation algorithm",
+          "local_types": [
+            "optimization method",
+            "computational method",
+            "optimization technique",
+            "algorithm"
+          ],
+          "iri": "Entity-cost_aggregation_algorithm-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a cost aggregation algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-cost_aggregation_algorithm-Mention-2"
+        }
+      ],
+      "relevance": 0.6650390625
+    },
+    "Entity-image": {
+      "node_id": "image",
+      "disambiguation_index": 0,
+      "label": "images",
+      "aliases": [
+        "images"
+      ],
+      "types": [
+        "data type",
+        "media"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'images' refers to the visual outputs synthesized by a novel algorithm from video streams captured by two cameras, aimed at generating views from a virtual camera to enhance eye contact in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "images",
+          "local_types": [
+            "data type",
+            "media"
+          ],
+          "iri": "Entity-image-Mention-1"
+        }
+      ],
+      "relevance": 0.65966796875
+    },
+    "Entity-novel-view_synthesis": {
+      "node_id": "novel-view_synthesis",
+      "disambiguation_index": 0,
+      "label": "novel-view synthesis",
+      "aliases": [
+        "novel-view synthesis"
+      ],
+      "types": [
+        "computer graphics",
+        "image synthesis",
+        "synthesis",
+        "concept",
+        "process",
+        "computer vision"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Novel-view synthesis is a process in computer graphics and computer vision that involves generating new images of a scene from different viewpoints based on existing images.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "novel-view synthesis",
+          "local_types": [
+            "computer graphics",
+            "image synthesis",
+            "synthesis",
+            "concept",
+            "process",
+            "computer vision"
+          ],
+          "iri": "Entity-novel-view_synthesis-Mention-1"
+        }
+      ],
+      "relevance": 0.65478515625
+    },
+    "Entity-image_from_a_virtual_camera": {
+      "node_id": "image_from_a_virtual_camera",
+      "disambiguation_index": 0,
+      "label": "images from a virtual camera",
+      "aliases": [
+        "images from a virtual camera"
+      ],
+      "types": [
+        "image",
+        "virtual camera"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Images from a virtual camera refer to synthesized visual representations generated by an algorithm that creates novel views from video streams captured by physical cameras, typically positioned to enhance eye contact in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "images from a virtual camera",
+          "local_types": [
+            "image",
+            "virtual camera"
+          ],
+          "iri": "Entity-image_from_a_virtual_camera-Mention-1"
+        }
+      ],
+      "relevance": 0.6533203125
+    },
+    "Entity-novel_view_generation": {
+      "node_id": "novel_view_generation",
+      "disambiguation_index": 0,
+      "label": "novel view generation",
+      "aliases": [
+        "novel view generation",
+        "novel-view generation"
+      ],
+      "types": [
+        "technique",
+        "image synthesis",
+        "view generation",
+        "process",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Novel view generation refers to the process of creating new visual perspectives or images from existing data, often utilizing techniques in image synthesis and computer vision.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel view generation",
+          "local_types": [
+            "image synthesis",
+            "technique",
+            "view generation",
+            "process"
+          ],
+          "iri": "Entity-novel_view_generation-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "novel-view generation",
+          "local_types": [
+            "computer vision",
+            "view generation",
+            "process"
+          ],
+          "iri": "Entity-novel_view_generation-Mention-2"
+        }
+      ],
+      "relevance": 0.64794921875
+    },
+    "Entity-temporal_maintenance": {
+      "node_id": "temporal_maintenance",
+      "disambiguation_index": 0,
+      "label": "temporal maintenance",
+      "aliases": [
+        "the temporal maintenance of a background model",
+        "temporal maintenance",
+        "temporal maintenance of a background model"
+      ],
+      "types": [
+        "background model",
+        "model",
+        "process",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Temporal maintenance refers to a novel algorithm designed to manage a background model in order to improve the rendering of occlusions and minimize temporal artifacts, such as flicker, in the context of novel view generation for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "temporal maintenance",
+          "local_types": [
+            "process",
+            "methodology"
+          ],
+          "iri": "Entity-temporal_maintenance-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "temporal maintenance of a background model",
+          "local_types": [
+            "background model",
+            "process"
+          ],
+          "iri": "Entity-temporal_maintenance-Mention-2"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the temporal maintenance of a background model",
+          "local_types": [
+            "process",
+            "model"
+          ],
+          "iri": "Entity-temporal_maintenance-Mention-3"
+        }
+      ],
+      "relevance": 0.64306640625
+    },
+    "Entity-dense-stereo_dynamic-programming": {
+      "node_id": "dense-stereo_dynamic-programming",
+      "disambiguation_index": 0,
+      "label": "dense-stereo dynamic-programming",
+      "aliases": [
+        "dense-stereo dynamic-programming"
+      ],
+      "types": [
+        "image processing technique",
+        "algorithm",
+        "method",
+        "computational method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Dense-stereo dynamic-programming refers to an advanced algorithmic approach that utilizes a three-plane graph structure to improve occlusion labeling in stereo image processing, specifically for synthesizing novel views in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "dense-stereo dynamic-programming",
+          "local_types": [
+            "image processing technique",
+            "algorithm",
+            "method",
+            "computational method"
+          ],
+          "iri": "Entity-dense-stereo_dynamic-programming-Mention-1"
+        }
+      ],
+      "relevance": 0.642578125
+    },
+    "Entity-synthesis_of_cyclopean_view": {
+      "node_id": "synthesis_of_cyclopean_view",
+      "disambiguation_index": 0,
+      "label": "synthesis of cyclopean views",
+      "aliases": [
+        "synthesis of cyclopean views"
+      ],
+      "types": [
+        "synthesis",
+        "view synthesis",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'synthesis of cyclopean views' refers to the process of generating a unified visual representation from multiple camera perspectives to create a seamless and immersive view, particularly in the context of extended conversational sequences in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "synthesis of cyclopean views",
+          "local_types": [
+            "synthesis",
+            "view synthesis",
+            "process"
+          ],
+          "iri": "Entity-synthesis_of_cyclopean_view-Mention-1"
+        }
+      ],
+      "relevance": 0.6416015625
+    },
+    "Entity-synthesis": {
+      "node_id": "synthesis",
+      "disambiguation_index": 0,
+      "label": "synthesis",
+      "aliases": [
+        "synthesis"
+      ],
+      "types": [
+        "method",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'synthesis' refers to the process of generating new images or views, specifically cyclopean views, from video streams captured by multiple cameras in order to enhance visual representation and facilitate eye contact in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "synthesis",
+          "local_types": [
+            "process",
+            "method"
+          ],
+          "iri": "Entity-synthesis-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "synthesis",
+          "local_types": [
+            "method",
+            "process"
+          ],
+          "iri": "Entity-synthesis-Mention-2"
+        }
+      ],
+      "relevance": 0.64111328125
+    },
+    "Entity-the_two_main_contribution_of_this_paper": {
+      "node_id": "the_two_main_contribution_of_this_paper",
+      "disambiguation_index": 0,
+      "label": "the two main contributions of this paper",
+      "aliases": [
+        "the two main contributions of this paper"
+      ],
+      "types": [
+        "contribution",
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The two main contributions of this paper are the introduction of a new type of three-plane graph for dense-stereo dynamic programming that improves occlusion labeling, and a compact geometric derivation for novel-view synthesis through direct projection of the minimum-cost surface.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the two main contributions of this paper",
+          "local_types": [
+            "contribution",
+            "paper"
+          ],
+          "iri": "Entity-the_two_main_contribution_of_this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.63818359375
+    },
+    "Entity-technique": {
+      "node_id": "technique",
+      "disambiguation_index": 0,
+      "label": "technique",
+      "aliases": [
+        "technique",
+        "Our technique"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The technique refers to an improved dynamic-programming stereo algorithm designed for efficient novel-view generation in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "technique",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-technique-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Our technique",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-technique-Mention-2"
+        }
+      ],
+      "relevance": 0.63623046875
+    },
+    "Entity-background_model": {
+      "node_id": "background_model",
+      "disambiguation_index": 0,
+      "label": "background model",
+      "aliases": [
+        "background model"
+      ],
+      "types": [
+        "concept",
+        "image processing",
+        "model",
+        "representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'background model' refers to a temporal maintenance algorithm designed to improve the rendering of occlusions and minimize temporal artifacts, such as flicker, in the context of novel view generation for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "background model",
+          "local_types": [
+            "concept",
+            "image processing",
+            "model",
+            "representation"
+          ],
+          "iri": "Entity-background_model-Mention-1"
+        }
+      ],
+      "relevance": 0.634765625
+    },
+    "Entity-rendering": {
+      "node_id": "rendering",
+      "disambiguation_index": 0,
+      "label": "rendering",
+      "aliases": [
+        "rendering"
+      ],
+      "types": [
+        "graphics process",
+        "visualization technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'rendering' refers to the process of generating visual representations of occlusions in video streams, specifically aimed at improving the visual quality and reducing temporal artifacts such as flicker in the synthesized images for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "rendering",
+          "local_types": [
+            "graphics process",
+            "visualization technique"
+          ],
+          "iri": "Entity-rendering-Mention-1"
+        }
+      ],
+      "relevance": 0.63232421875
+    },
+    "Entity-a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming": {
+      "node_id": "a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming",
+      "disambiguation_index": 0,
+      "label": "a new type of three-plane graph for dense-stereo dynamic-programming",
+      "aliases": [
+        "a new type of three-plane graph for dense-stereo dynamic-programming"
+      ],
+      "types": [
+        "method",
+        "graph"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A new type of three-plane graph designed to enhance dense-stereo dynamic programming by improving occlusion labeling in the context of novel view generation for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a new type of three-plane graph for dense-stereo dynamic-programming",
+          "local_types": [
+            "method",
+            "graph"
+          ],
+          "iri": "Entity-a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming-Mention-1"
+        }
+      ],
+      "relevance": 0.62841796875
+    },
+    "Entity-cyclopean_view": {
+      "node_id": "cyclopean_view",
+      "disambiguation_index": 0,
+      "label": "cyclopean views",
+      "aliases": [
+        "cyclopean views"
+      ],
+      "types": [
+        "view",
+        "concept",
+        "visual representation",
+        "image synthesis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Cyclopean views refer to synthesized images that create a unified perspective from multiple camera inputs, particularly in the context of teleconferencing, allowing for a more immersive and natural visual experience during extended conversational sequences.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "cyclopean views",
+          "local_types": [
+            "view",
+            "concept",
+            "visual representation",
+            "image synthesis"
+          ],
+          "iri": "Entity-cyclopean_view-Mention-1"
+        }
+      ],
+      "relevance": 0.6279296875
+    },
+    "Entity-minimum-cost_surface": {
+      "node_id": "minimum-cost_surface",
+      "disambiguation_index": 0,
+      "label": "minimum-cost surface",
+      "aliases": [
+        "minimum-cost surface"
+      ],
+      "types": [
+        "concept",
+        "geometric concept",
+        "optimization problem",
+        "optimization"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "The minimum-cost surface refers to a geometric construct used in the context of novel-view synthesis, representing the optimal projection of costs associated with image synthesis in stereo vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "minimum-cost surface",
+          "local_types": [
+            "concept",
+            "geometric concept",
+            "optimization problem",
+            "optimization"
+          ],
+          "iri": "Entity-minimum-cost_surface-Mention-1"
+        }
+      ],
+      "relevance": 0.62451171875
+    },
+    "Entity-rendering_of_occlusion": {
+      "node_id": "rendering_of_occlusion",
+      "disambiguation_index": 0,
+      "label": "rendering of occlusions",
+      "aliases": [
+        "rendering of occlusions",
+        "the rendering of occlusions"
+      ],
+      "types": [
+        "rendering",
+        "occlusion",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The 'rendering of occlusions' refers to the process of visually representing areas in a synthesized image where objects obstruct the view of other objects, which is enhanced by a novel algorithm for maintaining a background model to minimize temporal artifacts in video streams.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "rendering of occlusions",
+          "local_types": [
+            "rendering",
+            "process"
+          ],
+          "iri": "Entity-rendering_of_occlusion-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the rendering of occlusions",
+          "local_types": [
+            "process",
+            "occlusion"
+          ],
+          "iri": "Entity-rendering_of_occlusion-Mention-2"
+        }
+      ],
+      "relevance": 0.61962890625
+    },
+    "Entity-compact_geometric_derivation": {
+      "node_id": "compact_geometric_derivation",
+      "disambiguation_index": 0,
+      "label": "compact geometric derivation",
+      "aliases": [
+        "compact geometric derivation",
+        "a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface"
+      ],
+      "types": [
+        "derivation",
+        "mathematical derivation",
+        "method",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'compact geometric derivation' refers to a theoretical framework for novel-view synthesis that utilizes direct projection of the minimum-cost surface to enhance image generation in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "compact geometric derivation",
+          "local_types": [
+            "mathematical derivation",
+            "method",
+            "theoretical framework"
+          ],
+          "iri": "Entity-compact_geometric_derivation-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface",
+          "local_types": [
+            "method",
+            "derivation"
+          ],
+          "iri": "Entity-compact_geometric_derivation-Mention-2"
+        }
+      ],
+      "relevance": 0.60693359375
+    },
+    "Entity-three-dimensional_matching_cost_space": {
+      "node_id": "three-dimensional_matching_cost_space",
+      "disambiguation_index": 0,
+      "label": "three-dimensional matching cost space",
+      "aliases": [
+        "our three-dimensional matching cost space",
+        "three-dimensional matching cost space"
+      ],
+      "types": [
+        "image processing",
+        "cost",
+        "data structure",
+        "computational space",
+        "concept",
+        "space"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The three-dimensional matching cost space refers to a computational framework used in image processing that organizes and aggregates cost values for matching pixels across multiple views in stereo vision, facilitating the synthesis of novel views in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "three-dimensional matching cost space",
+          "local_types": [
+            "computational space",
+            "image processing",
+            "concept",
+            "data structure"
+          ],
+          "iri": "Entity-three-dimensional_matching_cost_space-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "our three-dimensional matching cost space",
+          "local_types": [
+            "space",
+            "cost"
+          ],
+          "iri": "Entity-three-dimensional_matching_cost_space-Mention-2"
+        }
+      ],
+      "relevance": 0.60595703125
+    },
+    "Entity-demonstration_of_synthesis": {
+      "node_id": "demonstration_of_synthesis",
+      "disambiguation_index": 0,
+      "label": "demonstrations of synthesis",
+      "aliases": [
+        "demonstrations of synthesis"
+      ],
+      "types": [
+        "demonstration",
+        "synthesis"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Demonstrations of synthesis refer to the practical examples showcasing the generation of cyclopean views from stereo video streams, illustrating the effectiveness of the proposed algorithm in creating coherent visual representations for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "demonstrations of synthesis",
+          "local_types": [
+            "demonstration",
+            "synthesis"
+          ],
+          "iri": "Entity-demonstration_of_synthesis-Mention-1"
+        }
+      ],
+      "relevance": 0.60400390625
+    },
+    "Entity-temporal_artefact": {
+      "node_id": "temporal_artefact",
+      "disambiguation_index": 0,
+      "label": "temporal artefacts",
+      "aliases": [
+        "temporal artefacts"
+      ],
+      "types": [
+        "image processing",
+        "video quality",
+        "artefact",
+        "image processing issue",
+        "time-related distortion",
+        "issue",
+        "visual phenomenon",
+        "phenomenon",
+        "graphics issue",
+        "visual error"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Temporal artefacts refer to visual distortions or flickering effects that occur in video streams, particularly during the synthesis of images from a virtual camera, which can negatively impact the quality of the rendered output in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "temporal artefacts",
+          "local_types": [
+            "image processing",
+            "video quality",
+            "artefact",
+            "image processing issue",
+            "issue",
+            "visual phenomenon",
+            "graphics issue",
+            "visual error"
+          ],
+          "iri": "Entity-temporal_artefact-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "temporal artefacts",
+          "local_types": [
+            "phenomenon",
+            "time-related distortion"
+          ],
+          "iri": "Entity-temporal_artefact-Mention-2"
+        }
+      ],
+      "relevance": 0.60107421875
+    },
+    "Entity-geometric_derivation": {
+      "node_id": "geometric_derivation",
+      "disambiguation_index": 0,
+      "label": "geometric derivation",
+      "aliases": [
+        "geometric derivation"
+      ],
+      "types": [
+        "mathematical concept",
+        "geometry"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'geometric derivation' refers to a concise mathematical formulation used in the paper to facilitate novel-view synthesis by directly projecting the minimum-cost surface in the context of stereo vision algorithms.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "geometric derivation",
+          "local_types": [
+            "mathematical concept",
+            "geometry"
+          ],
+          "iri": "Entity-geometric_derivation-Mention-1"
+        }
+      ],
+      "relevance": 0.5986328125
+    },
+    "Entity-three-plane_graph": {
+      "node_id": "three-plane_graph",
+      "disambiguation_index": 0,
+      "label": "three-plane graph",
+      "aliases": [
+        "three-plane graph"
+      ],
+      "types": [
+        "graph structure",
+        "graph",
+        "data structure",
+        "mathematical model",
+        "concept",
+        "structure",
+        "graph theory"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A three-plane graph is a novel graph structure introduced for dense-stereo dynamic programming that facilitates accurate occlusion labeling in the context of image synthesis for teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "three-plane graph",
+          "local_types": [
+            "graph structure",
+            "graph",
+            "data structure",
+            "mathematical model",
+            "concept",
+            "structure",
+            "graph theory"
+          ],
+          "iri": "Entity-three-plane_graph-Mention-1"
+        }
+      ],
+      "relevance": 0.59521484375
+    },
+    "Entity-long_stereo_video_stream": {
+      "node_id": "long_stereo_video_stream",
+      "disambiguation_index": 0,
+      "label": "long stereo video streams",
+      "aliases": [
+        "long stereo video streams"
+      ],
+      "types": [
+        "video content",
+        "media format",
+        "data",
+        "video",
+        "video stream"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Long stereo video streams refer to video content captured from two cameras that provide depth perception and are used in applications such as teleconferencing to create immersive views and facilitate eye contact.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "long stereo video streams",
+          "local_types": [
+            "video content",
+            "media format",
+            "data",
+            "video",
+            "video stream"
+          ],
+          "iri": "Entity-long_stereo_video_stream-Mention-1"
+        }
+      ],
+      "relevance": 0.587890625
+    },
+    "Entity-freely_translating_virtual_camera": {
+      "node_id": "freely_translating_virtual_camera",
+      "disambiguation_index": 0,
+      "label": "freely translating virtual camera",
+      "aliases": [
+        "freely translating virtual camera"
+      ],
+      "types": [
+        "camera",
+        "concept",
+        "image synthesis tool",
+        "simulation",
+        "device"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A freely translating virtual camera refers to a conceptual imaging tool that allows for the synthesis of images from a dynamically positioned virtual viewpoint, facilitating novel view generation in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "freely translating virtual camera",
+          "local_types": [
+            "camera",
+            "concept",
+            "image synthesis tool",
+            "simulation",
+            "device"
+          ],
+          "iri": "Entity-freely_translating_virtual_camera-Mention-1"
+        }
+      ],
+      "relevance": 0.578125
+    },
+    "Entity-spatial_and_temporal_artefact": {
+      "node_id": "spatial_and_temporal_artefact",
+      "disambiguation_index": 0,
+      "label": "spatial and temporal artefacts",
+      "aliases": [
+        "spatial and temporal artefacts"
+      ],
+      "types": [
+        "issue",
+        "artefact"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Spatial and temporal artefacts refer to visual distortions and inconsistencies that occur in video streams over time and space, particularly in the context of stereo video processing, which can affect the quality of synthesized images in applications like teleconferencing.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "spatial and temporal artefacts",
+          "local_types": [
+            "issue",
+            "artefact"
+          ],
+          "iri": "Entity-spatial_and_temporal_artefact-Mention-1"
+        }
+      ],
+      "relevance": 0.5712890625
+    },
+    "Entity-virtual_camera": {
+      "node_id": "virtual_camera",
+      "disambiguation_index": 0,
+      "label": "virtual camera",
+      "aliases": [
+        "virtual camera"
+      ],
+      "types": [
+        "software",
+        "camera",
+        "technology",
+        "concept",
+        "image synthesis tool",
+        "simulation",
+        "device"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A virtual camera is a software-based tool that simulates a camera's functionality to create or manipulate images and video streams in a digital environment.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "virtual camera",
+          "local_types": [
+            "software",
+            "camera",
+            "concept",
+            "image synthesis tool",
+            "simulation",
+            "device"
+          ],
+          "iri": "Entity-virtual_camera-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "virtual camera",
+          "local_types": [
+            "device",
+            "technology"
+          ],
+          "iri": "Entity-virtual_camera-Mention-2"
+        }
+      ],
+      "relevance": 0.5556640625
+    },
+    "Entity-conversational_sequence": {
+      "node_id": "conversational_sequence",
+      "disambiguation_index": 0,
+      "label": "conversational sequences",
+      "aliases": [
+        "conversational sequences"
+      ],
+      "types": [
+        "interaction",
+        "communication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Conversational sequences refer to extended interactions captured in video streams during teleconferencing, which are synthesized into cyclopean views to enhance the perception of eye contact and continuity in communication.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "conversational sequences",
+          "local_types": [
+            "interaction",
+            "communication"
+          ],
+          "iri": "Entity-conversational_sequence-Mention-1"
+        }
+      ],
+      "relevance": 0.5546875
+    },
+    "Entity-camera": {
+      "node_id": "camera",
+      "disambiguation_index": 0,
+      "label": "cameras",
+      "aliases": [
+        "cameras",
+        "two cameras"
+      ],
+      "types": [
+        "camera",
+        "device",
+        "hardware"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Cameras refer to the two video capture devices positioned on either side of a computer monitor, used to acquire video streams for synthesizing images in teleconferencing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "cameras",
+          "local_types": [
+            "device",
+            "hardware"
+          ],
+          "iri": "Entity-camera-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "two cameras",
+          "local_types": [
+            "camera",
+            "device"
+          ],
+          "iri": "Entity-camera-Mention-2"
+        }
+      ],
+      "relevance": 0.55419921875
+    },
+    "Entity-correct_occlusion_labeling": {
+      "node_id": "correct_occlusion_labeling",
+      "disambiguation_index": 0,
+      "label": "correct occlusion labeling",
+      "aliases": [
+        "correct occlusion labeling"
+      ],
+      "types": [
+        "concept",
+        "labeling"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Correct occlusion labeling refers to the accurate identification and representation of occlusions in stereo image processing, which is essential for generating realistic novel views in applications such as teleconferencing.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "correct occlusion labeling",
+          "local_types": [
+            "concept",
+            "labeling"
+          ],
+          "iri": "Entity-correct_occlusion_labeling-Mention-1"
+        }
+      ],
+      "relevance": 0.5537109375
+    },
+    "Entity-extended_conversational_sequence": {
+      "node_id": "extended_conversational_sequence",
+      "disambiguation_index": 0,
+      "label": "extended conversational sequences",
+      "aliases": [
+        "extended conversational sequences"
+      ],
+      "types": [
+        "interaction",
+        "sequence",
+        "concept",
+        "conversation",
+        "communication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Extended conversational sequences refer to prolonged interactions captured in video streams during teleconferencing, which are synthesized into cyclopean views to enhance the perception of eye contact and engagement between participants.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "extended conversational sequences",
+          "local_types": [
+            "interaction",
+            "sequence",
+            "concept",
+            "conversation",
+            "communication"
+          ],
+          "iri": "Entity-extended_conversational_sequence-Mention-1"
+        }
+      ],
+      "relevance": 0.5390625
+    },
+    "Entity-occlusion": {
+      "node_id": "occlusion",
+      "disambiguation_index": 0,
+      "label": "occlusions",
+      "aliases": [
+        "occlusions"
+      ],
+      "types": [
+        "image processing",
+        "image processing phenomenon",
+        "visual phenomenon",
+        "graphics issue",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Occlusions refer to the visual phenomenon in image processing where certain parts of a scene are hidden or blocked from view, which is crucial for accurate image synthesis and rendering in computer vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "occlusions",
+          "local_types": [
+            "computer vision",
+            "image processing",
+            "image processing phenomenon",
+            "visual phenomenon"
+          ],
+          "iri": "Entity-occlusion-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "occlusions",
+          "local_types": [
+            "visual phenomenon",
+            "graphics issue"
+          ],
+          "iri": "Entity-occlusion-Mention-2"
+        }
+      ],
+      "relevance": 0.5263671875
+    },
+    "Entity-flicker": {
+      "node_id": "flicker",
+      "disambiguation_index": 0,
+      "label": "flicker",
+      "aliases": [
+        "flicker"
+      ],
+      "types": [
+        "image processing",
+        "issue",
+        "visual artefact",
+        "graphics issue",
+        "video quality issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Flicker refers to a temporal artefact in video processing that can disrupt the visual quality of synthesized images, particularly in the context of maintaining a background model for occlusion rendering.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "flicker",
+          "local_types": [
+            "image processing",
+            "issue",
+            "visual artefact",
+            "graphics issue",
+            "video quality issue"
+          ],
+          "iri": "Entity-flicker-Mention-1"
+        }
+      ],
+      "relevance": 0.51220703125
+    },
+    "Entity-occlusion_labeling": {
+      "node_id": "occlusion_labeling",
+      "disambiguation_index": 0,
+      "label": "occlusion labeling",
+      "aliases": [
+        "occlusion labeling"
+      ],
+      "types": [
+        "image processing",
+        "labeling",
+        "concept",
+        "image processing concept",
+        "process",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Occlusion labeling refers to the process of identifying and marking areas in images where objects are obscured or blocked by other objects, which is crucial for accurate depth perception and image synthesis in computer vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "occlusion labeling",
+          "local_types": [
+            "image processing",
+            "labeling",
+            "concept",
+            "image processing concept",
+            "process",
+            "computer vision"
+          ],
+          "iri": "Entity-occlusion_labeling-Mention-1"
+        }
+      ],
+      "relevance": 0.498291015625
+    },
+    "Entity-one-to-one_teleconferencing_application": {
+      "node_id": "one-to-one_teleconferencing_application",
+      "disambiguation_index": 0,
+      "label": "one-to-one teleconferencing applications",
+      "aliases": [
+        "one-to-one teleconferencing applications"
+      ],
+      "types": [
+        "teleconferencing",
+        "communication technology",
+        "application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "One-to-one teleconferencing applications are software tools that facilitate real-time audio and video communication between two users over the internet.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "one-to-one teleconferencing applications",
+          "local_types": [
+            "teleconferencing",
+            "communication technology",
+            "application"
+          ],
+          "iri": "Entity-one-to-one_teleconferencing_application-Mention-1"
+        }
+      ],
+      "relevance": 0.48046875
+    },
+    "Entity-teleconferencing_application": {
+      "node_id": "teleconferencing_application",
+      "disambiguation_index": 0,
+      "label": "teleconferencing applications",
+      "aliases": [
+        "teleconferencing applications"
+      ],
+      "types": [
+        "communication technology",
+        "application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Teleconferencing applications are software tools that enable real-time audio and video communication between users over the internet, facilitating virtual meetings and collaboration.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "teleconferencing applications",
+          "local_types": [
+            "communication technology",
+            "application"
+          ],
+          "iri": "Entity-teleconferencing_application-Mention-1"
+        }
+      ],
+      "relevance": 0.47412109375
+    },
+    "Entity-video_stream": {
+      "node_id": "video_stream",
+      "disambiguation_index": 0,
+      "label": "video streams",
+      "aliases": [
+        "video streams"
+      ],
+      "types": [
+        "data",
+        "video",
+        "data type",
+        "media"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Video streams refer to continuous sequences of video data transmitted over a network or recorded for playback, typically used in applications such as video conferencing, surveillance, or media broadcasting.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "video streams",
+          "local_types": [
+            "data",
+            "video",
+            "data type",
+            "media"
+          ],
+          "iri": "Entity-video_stream-Mention-1"
+        }
+      ],
+      "relevance": 0.471923828125
+    },
+    "Entity-dynamic-programming": {
+      "node_id": "dynamic-programming",
+      "disambiguation_index": 0,
+      "label": "dynamic-programming",
+      "aliases": [
+        "dynamic-programming"
+      ],
+      "types": [
+        "optimization method",
+        "algorithm",
+        "algorithmic technique",
+        "method",
+        "computational method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems, which can be solved independently and combined to find the overall solution.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "dynamic-programming",
+          "local_types": [
+            "optimization method",
+            "algorithm",
+            "algorithmic technique",
+            "method",
+            "computational method"
+          ],
+          "iri": "Entity-dynamic-programming-Mention-1"
+        }
+      ],
+      "relevance": 0.47021484375
+    },
+    "Entity-algorithm": {
+      "node_id": "algorithm",
+      "disambiguation_index": 0,
+      "label": "algorithm",
+      "aliases": [
+        "algorithm"
+      ],
+      "types": [
+        "software",
+        "mathematical model",
+        "method",
+        "computational method",
+        "computational technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An algorithm is a systematic procedure or set of rules designed to perform a task or solve a problem, often implemented in software or as a mathematical model.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "algorithm",
+          "local_types": [
+            "method",
+            "computational technique"
+          ],
+          "iri": "Entity-algorithm-Mention-1"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "algorithm",
+          "local_types": [
+            "computational method",
+            "software"
+          ],
+          "iri": "Entity-algorithm-Mention-2"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "algorithm",
+          "local_types": [
+            "computational method",
+            "mathematical model"
+          ],
+          "iri": "Entity-algorithm-Mention-3"
+        },
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "algorithm",
+          "local_types": [
+            "method",
+            "computational technique"
+          ],
+          "iri": "Entity-algorithm-Mention-4"
+        }
+      ],
+      "relevance": 0.4609375
+    },
+    "Entity-computer_monitor": {
+      "node_id": "computer_monitor",
+      "disambiguation_index": 0,
+      "label": "computer monitor",
+      "aliases": [
+        "computer monitor"
+      ],
+      "types": [
+        "device",
+        "hardware",
+        "monitor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computer monitor is an electronic display device used to present visual output from a computer, typically consisting of a screen and associated circuitry.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "computer monitor",
+          "local_types": [
+            "device",
+            "hardware",
+            "monitor"
+          ],
+          "iri": "Entity-computer_monitor-Mention-1"
+        }
+      ],
+      "relevance": 0.431884765625
+    },
+    "Entity-eye_contact": {
+      "node_id": "eye_contact",
+      "disambiguation_index": 0,
+      "label": "eye contact",
+      "aliases": [
+        "eye contact"
+      ],
+      "types": [
+        "concept",
+        "interaction",
+        "social interaction",
+        "communication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Eye contact is a form of nonverbal communication where two individuals look at each other's eyes, often used to convey attention, interest, and connection during social interactions.",
+      "mentions": [
+        {
+          "reference": "Paper-65-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "eye contact",
+          "local_types": [
+            "concept",
+            "interaction",
+            "social interaction",
+            "communication"
+          ],
+          "iri": "Entity-eye_contact-Mention-1"
+        }
+      ],
+      "relevance": 0.431640625
+    }
+  },
+  "summary": "A new algorithm is proposed for novel view generation in one-to-one teleconferencing applications . Given the video streams acquired by two cameras placed on either side of a computer monitor , the proposed algorithm synthesises images from a virtual camera in arbitrary position -LRB- typically located within the monitor -RRB- to facilitate eye contact . Our technique is based on an improved , dynamic-programming , stereo algorithm for efficient novel-view generation . The two main contributions of this paper are : i -RRB- a new type of three-plane graph for dense-stereo dynamic-programming , that encourages correct occlusion labeling ; ii -RRB- a compact geometric derivation for novel-view synthesis by direct projection of the minimum-cost surface . Furthermore , this paper presents a novel algorithm for the temporal maintenance of a background model to enhance the rendering of occlusions and reduce temporal artefacts -LRB- flicker -RRB- ; and a cost aggregation algorithm that acts directly on our three-dimensional matching cost space . Examples are given that demonstrate the robustness of the new algorithm to spatial and temporal artefacts for long stereo video streams . These include demonstrations of synthesis of cyclopean views of extended conversational sequences . We further demonstrate synthesis from a freely translating virtual camera .",
+  "triples": [
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-is_proposed_for",
+      "Entity-novel_view_generation"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-is_proposed_for",
+      "Entity-one-to-one_teleconferencing_application"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-synthesises",
+      "Entity-image_from_a_virtual_camera"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-facilitates",
+      "Entity-eye_contact"
+    ],
+    [
+      "Entity-technique",
+      "Predicate-is_based_on",
+      "Entity-dynamic-programming"
+    ],
+    [
+      "Entity-technique",
+      "Predicate-is_based_on",
+      "Entity-stereo_algorithm"
+    ],
+    [
+      "Entity-technique",
+      "Predicate-is_based_on",
+      "Entity-novel_view_generation"
+    ],
+    [
+      "Entity-technique",
+      "Predicate-is_based_on",
+      "Entity-efficient_novel-view_generation"
+    ],
+    [
+      "Entity-the_two_main_contribution_of_this_paper",
+      "Predicate-are",
+      "Entity-a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming"
+    ],
+    [
+      "Entity-the_two_main_contribution_of_this_paper",
+      "Predicate-are",
+      "Entity-compact_geometric_derivation"
+    ],
+    [
+      "Entity-a_new_type_of_three-plane_graph_for_dense-stereo_dynamic-programming",
+      "Predicate-encourages",
+      "Entity-correct_occlusion_labeling"
+    ],
+    [
+      "Entity-compact_geometric_derivation",
+      "Predicate-is_for",
+      "Entity-novel-view_synthesis"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-a_novel_algorithm"
+    ],
+    [
+      "Entity-a_novel_algorithm",
+      "Predicate-enhances",
+      "Entity-rendering_of_occlusion"
+    ],
+    [
+      "Entity-a_novel_algorithm",
+      "Predicate-reduces",
+      "Entity-temporal_artefact"
+    ],
+    [
+      "Entity-cost_aggregation_algorithm",
+      "Predicate-acts_directly_on",
+      "Entity-three-dimensional_matching_cost_space"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-demonstrates",
+      "Entity-robustness_of_the_new_algorithm"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-is_robust_to",
+      "Entity-spatial_and_temporal_artefact"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-is_robust_to",
+      "Entity-temporal_artefact"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-is_robust_to",
+      "Entity-long_stereo_video_stream"
+    ],
+    [
+      "Entity-demonstration_of_synthesis",
+      "Predicate-include",
+      "Entity-synthesis_of_cyclopean_view"
+    ],
+    [
+      "Entity-demonstration_of_synthesis",
+      "Predicate-include",
+      "Entity-cyclopean_view"
+    ],
+    [
+      "Entity-demonstration_of_synthesis",
+      "Predicate-include",
+      "Entity-extended_conversational_sequence"
+    ],
+    [
+      "Entity-demonstration_of_synthesis",
+      "Predicate-include",
+      "Entity-conversational_sequence"
+    ],
+    [
+      "Entity-freely_translating_virtual_camera",
+      "Predicate-demonstrates",
+      "Entity-synthesis"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-enables",
+      "Entity-efficient_novel-view_generation"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "Predicate-is_based_on",
+      "Entity-stereo_algorithm"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-a_new_algorithm"
+    ],
+    [
+      "Entity-efficient_novel-view_generation",
+      "Predicate-is_based_on",
+      "Entity-stereo_algorithm"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-efficient_novel-view_generation"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents_an_improved_dynamic-programming_method_based_on_the_stereo_algorithm",
+      "Entity-stereo_algorithm"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-demonstration_of_synthesis",
+      "skos:broader",
+      "Entity-synthesis"
+    ],
+    [
+      "Entity-stereo_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-temporal_maintenance",
+      "skos:broader",
+      "Entity-background_model"
+    ],
+    [
+      "Entity-rendering_of_occlusion",
+      "skos:broader",
+      "Entity-rendering"
+    ],
+    [
+      "Entity-dense-stereo_dynamic-programming",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-synthesis_of_cyclopean_view",
+      "skos:broader",
+      "Entity-novel-view_synthesis"
+    ],
+    [
+      "Entity-cost_aggregation_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-dynamic-programming",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-a_novel_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-image_from_a_virtual_camera",
+      "skos:broader",
+      "Entity-image"
+    ],
+    [
+      "Entity-novel_view_generation",
+      "skos:broader",
+      "Entity-technique"
+    ],
+    [
+      "Entity-long_stereo_video_stream",
+      "skos:broader",
+      "Entity-video_stream"
+    ],
+    [
+      "Entity-rendering_of_occlusion",
+      "skos:broader",
+      "Entity-occlusion"
+    ],
+    [
+      "Entity-freely_translating_virtual_camera",
+      "skos:broader",
+      "Entity-camera"
+    ],
+    [
+      "Entity-synthesis_of_cyclopean_view",
+      "skos:broader",
+      "Entity-synthesis"
+    ],
+    [
+      "Entity-a_new_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-image_from_a_virtual_camera",
+      "skos:broader",
+      "Entity-virtual_camera"
+    ],
+    [
+      "Entity-novel-view_synthesis",
+      "skos:broader",
+      "Entity-synthesis"
+    ],
+    [
+      "Entity-virtual_camera",
+      "skos:broader",
+      "Entity-camera"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_proposed_for": {
+      "label": "is proposed for",
+      "description": "The predicate 'is proposed for' indicates that the subject is being suggested or recommended as a solution, method, or approach to achieve or address the objective or purpose represented by the object. It establishes a relationship where the subject is positioned as a potential means to fulfill the needs or requirements associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-synthesises": {
+      "label": "synthesises",
+      "description": "The predicate 'synthesises' indicates a process in which the subject creates, combines, or generates the object through a systematic or algorithmic method. It implies that the subject has the capability to produce the object as a result of its operations or functions, often involving the integration of various components or data to form a cohesive whole.",
+      "disambiguation_index": 0
+    },
+    "Predicate-facilitates": {
+      "label": "facilitates",
+      "description": "The predicate 'facilitates' indicates that the subject enables, promotes, or makes easier the occurrence or realization of the object. It suggests a supportive role where the subject contributes positively to the process or action represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_based_on": {
+      "label": "is based on",
+      "description": "The predicate 'is based on' establishes a foundational relationship between the subject and the object, indicating that the subject derives its principles, methods, or framework from the object. It suggests that the subject's validity, functionality, or effectiveness is contingent upon the underlying concepts or theories represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are": {
+      "label": "are",
+      "description": "The predicate 'are' serves as a linking verb that connects the subject to its complement, indicating that the subject is being defined or described by the object. It establishes a relationship of identity or equivalence, suggesting that the subject possesses the characteristics or qualities represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encourages": {
+      "label": "encourages",
+      "description": "The predicate 'encourages' indicates a supportive or motivational relationship between the subject and the object, where the subject promotes, fosters, or enhances the likelihood of the object occurring or being achieved. In this context, the subject actively contributes to the development, acceptance, or implementation of the object, leading to a positive influence on its realization or effectiveness.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_for": {
+      "label": "is for",
+      "description": "The predicate 'is for' establishes a relationship of purpose or intended use between the subject and the object. It indicates that the subject serves a specific function, goal, or benefit that is realized through the object. In this context, the subject is typically a concept, method, or tool, while the object represents the application, outcome, or area of focus that the subject is designed to address or facilitate.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject is introducing, showcasing, or making known the object to an audience. It implies a formal or structured delivery of information, findings, or concepts, often in a context where the subject aims to inform, educate, or persuade the audience regarding the significance or utility of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enhances": {
+      "label": "enhances",
+      "description": "The predicate 'enhances' indicates that the subject contributes positively to the improvement or augmentation of the object, suggesting a relationship where the subject adds value, quality, or effectiveness to the object in some manner.",
+      "disambiguation_index": 0
+    },
+    "Predicate-reduces": {
+      "label": "reduces",
+      "description": "The predicate 'reduces' indicates a relationship where the subject actively diminishes, lessens, or mitigates the extent, intensity, or presence of the object. It implies a causal effect where the subject's action or characteristic leads to a decrease in the object, suggesting an improvement or optimization in the context of the subject's application.",
+      "disambiguation_index": 0
+    },
+    "Predicate-acts_directly_on": {
+      "label": "acts directly on",
+      "description": "The predicate 'acts directly on' indicates a direct influence or interaction between the subject and the object, where the subject exerts a significant effect or performs an operation that modifies, utilizes, or engages with the object in a tangible manner. This relationship suggests that the subject is actively involved in shaping or determining the characteristics or behavior of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-demonstrates": {
+      "label": "demonstrates",
+      "description": "The predicate 'demonstrates' indicates that the subject provides evidence or proof of the characteristics, qualities, or attributes expressed in the object. It establishes a relationship where the subject serves as a practical example or case that illustrates the validity or existence of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_robust_to": {
+      "label": "is robust to",
+      "description": "The predicate 'is robust to' indicates that the subject possesses a strong resilience or effectiveness in the presence of the conditions or challenges represented by the object. It suggests that the subject can maintain its performance or integrity despite potential disturbances, variations, or adverse factors associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-include": {
+      "label": "include",
+      "description": "The predicate 'include' establishes a relationship where the subject encompasses or contains the object as a part of its broader context or category. It indicates that the object is one of the elements or components that are part of the subject, suggesting a relationship of belonging or incorporation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enables": {
+      "label": "enables",
+      "description": "The predicate 'enables' indicates that the subject provides the means, capability, or opportunity for the object to occur or be realized. It suggests a facilitative relationship where the subject contributes to the effectiveness or possibility of the object being achieved or executed.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents_an_improved_dynamic-programming_method_based_on_the_stereo_algorithm": {
+      "label": "presents an improved dynamic-programming method based on the stereo algorithm",
+      "description": "The predicate 'presents an improved dynamic-programming method based on the stereo algorithm' indicates that the subject is introducing or showcasing a new or enhanced approach to dynamic programming that utilizes the principles or techniques derived from the stereo algorithm. This connection implies that the object, the stereo algorithm, serves as a foundational element or inspiration for the method being presented, highlighting the relationship between the theoretical framework and its practical application.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or example that falls under the wider category or concept represented by the object. This relationship implies that the object encompasses a broader scope or definition that includes the subject as a subset.",
+      "disambiguation_index": 0
+    }
+  }
+}

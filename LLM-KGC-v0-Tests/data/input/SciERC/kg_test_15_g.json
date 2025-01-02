@@ -1,0 +1,2047 @@
+{
+  "iri": "Paper-15",
+  "title": "CVPR_2009_10_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-15-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-15-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+              "text": "We propose a novel probabilistic framework for learning visual models of 3D object categories by combining appearance information and geometric constraints ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-2",
+              "text": "Objects are represented as a coherent ensemble of parts that are consistent under 3D viewpoint transformations ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-3",
+              "text": "Each part is a collection of salient image features ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+              "text": "A generative framework is used for learning a model that captures the relative position of parts within each of the discretized viewpoints ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+              "text": "Contrary to most of the existing mixture of viewpoints models , our model establishes explicit correspondences of parts across different viewpoints of the object class ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+              "text": "Given a new image , detection and classification are achieved by determining the position and viewpoint of the model that maximize recognition scores of the candidate objects ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-7",
+              "text": "Our approach is among the first to propose a generative proba-bilistic framework for 3D object categorization ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+              "text": "We test our algorithm on the detection task and the viewpoint classification task by using '' car '' category from both the Savarese et al. 2007 and PASCAL VOC 2006 datasets ."
+            },
+            {
+              "iri": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+              "text": "We show promising results in both the detection and viewpoint classification tasks on these two challenging datasets ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0022020339965820312,
+    15.274726152420044,
+    28.858304023742676,
+    26.74552011489868,
+    0.0780801773071289,
+    0.0005881786346435547,
+    0.00021314620971679688,
+    42.305073976516724,
+    65.84116721153259,
+    6.576122760772705,
+    45.8671669960022,
+    0.018279075622558594,
+    0.0012271404266357422,
+    23.146169900894165,
+    0.002043008804321289,
+    0.05324578285217285,
+    0.0034198760986328125,
+    6.179558038711548,
+    4.047510862350464,
+    6.042923927307129,
+    73.56450200080872,
+    11.798816919326782,
+    61.04963684082031,
+    4.82457709312439,
+    0.0009598731994628906,
+    0.018194913864135742
+  ],
+  "nodes": {
+    "Entity-novel_probabilistic_framework": {
+      "node_id": "novel_probabilistic_framework",
+      "disambiguation_index": 0,
+      "label": "novel probabilistic framework",
+      "aliases": [
+        "a novel probabilistic framework",
+        "novel probabilistic framework"
+      ],
+      "types": [
+        "framework",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'novel probabilistic framework' refers to a generative model designed for learning visual representations of 3D object categories by integrating appearance features and geometric constraints, enabling effective detection and classification of objects from various viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel probabilistic framework",
+          "local_types": [
+            "framework",
+            "methodology"
+          ],
+          "iri": "Entity-novel_probabilistic_framework-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a novel probabilistic framework",
+          "local_types": [
+            "framework"
+          ],
+          "iri": "Entity-novel_probabilistic_framework-Mention-2"
+        }
+      ],
+      "relevance": 0.81884765625
+    },
+    "Entity-generative_framework": {
+      "node_id": "generative_framework",
+      "disambiguation_index": 0,
+      "label": "generative framework",
+      "aliases": [
+        "A generative framework",
+        "generative framework"
+      ],
+      "types": [
+        "framework",
+        "model",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The generative framework refers to a probabilistic model designed for learning the spatial relationships of parts in 3D object categories by utilizing appearance information and geometric constraints across different viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "generative framework",
+          "local_types": [
+            "framework",
+            "model",
+            "methodology"
+          ],
+          "iri": "Entity-generative_framework-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "A generative framework",
+          "local_types": [
+            "framework"
+          ],
+          "iri": "Entity-generative_framework-Mention-2"
+        }
+      ],
+      "relevance": 0.80517578125
+    },
+    "Entity-visual_model": {
+      "node_id": "visual_model",
+      "disambiguation_index": 0,
+      "label": "visual models",
+      "aliases": [
+        "visual models of 3D object categories",
+        "visual models"
+      ],
+      "types": [
+        "3D object category",
+        "model",
+        "visual representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Visual models refer to probabilistic frameworks designed for learning representations of 3D object categories by integrating appearance information and geometric constraints, enabling the detection and classification of objects based on their parts and viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "visual models",
+          "local_types": [
+            "model",
+            "visual representation"
+          ],
+          "iri": "Entity-visual_model-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "visual models of 3D object categories",
+          "local_types": [
+            "3D object category",
+            "model"
+          ],
+          "iri": "Entity-visual_model-Mention-2"
+        }
+      ],
+      "relevance": 0.78955078125
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "model",
+      "aliases": [
+        "model"
+      ],
+      "types": [
+        "algorithm",
+        "system",
+        "machine learning model",
+        "representation",
+        "statistical model",
+        "mathematical representation",
+        "theoretical construct",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'model' refers to a generative probabilistic framework designed for learning visual representations of 3D object categories by integrating appearance information and geometric constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "model",
+          "local_types": [
+            "representation",
+            "theoretical construct"
+          ],
+          "iri": "Entity-model-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "model",
+          "local_types": [
+            "statistical model",
+            "mathematical representation"
+          ],
+          "iri": "Entity-model-Mention-2"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "model",
+          "local_types": [
+            "theoretical framework",
+            "system"
+          ],
+          "iri": "Entity-model-Mention-3"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "model",
+          "local_types": [
+            "algorithm",
+            "machine learning model"
+          ],
+          "iri": "Entity-model-Mention-4"
+        }
+      ],
+      "relevance": 0.77880859375
+    },
+    "Entity-our_model": {
+      "node_id": "our_model",
+      "disambiguation_index": 0,
+      "label": "our model",
+      "aliases": [
+        "our model"
+      ],
+      "types": [
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our model refers to a novel probabilistic framework for learning visual models of 3D object categories that establishes explicit correspondences of parts across different viewpoints, enhancing detection and classification of objects in new images.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "our model",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-our_model-Mention-1"
+        }
+      ],
+      "relevance": 0.76708984375
+    },
+    "Entity-our_approach": {
+      "node_id": "our_approach",
+      "disambiguation_index": 0,
+      "label": "Our approach",
+      "aliases": [
+        "Our approach"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our approach refers to a novel generative probabilistic framework designed for 3D object categorization, which integrates appearance information and geometric constraints to establish explicit correspondences of object parts across different viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "Our approach",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-our_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.763671875
+    },
+    "Entity-mixture_of_viewpoint_model": {
+      "node_id": "mixture_of_viewpoint_model",
+      "disambiguation_index": 0,
+      "label": "mixture of viewpoints models",
+      "aliases": [
+        "mixture of viewpoints models"
+      ],
+      "types": [
+        "model",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'mixture of viewpoints models' refers to a class of probabilistic models used for learning visual representations of 3D object categories by integrating appearance and geometric information, typically focusing on the relationships between parts of objects as they appear from different viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "mixture of viewpoints models",
+          "local_types": [
+            "model",
+            "theoretical framework"
+          ],
+          "iri": "Entity-mixture_of_viewpoint_model-Mention-1"
+        }
+      ],
+      "relevance": 0.76220703125
+    },
+    "Entity-learning_a_model": {
+      "node_id": "learning_a_model",
+      "disambiguation_index": 0,
+      "label": "learning a model",
+      "aliases": [
+        "learning a model"
+      ],
+      "types": [
+        "process",
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Learning a model refers to the process of developing a generative probabilistic framework that captures the spatial relationships of parts of 3D objects across various viewpoints, enabling effective detection and classification of these objects in images.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "learning a model",
+          "local_types": [
+            "process",
+            "model"
+          ],
+          "iri": "Entity-learning_a_model-Mention-1"
+        }
+      ],
+      "relevance": 0.76220703125
+    },
+    "Entity-our_algorithm": {
+      "node_id": "our_algorithm",
+      "disambiguation_index": 0,
+      "label": "our algorithm",
+      "aliases": [
+        "our algorithm"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our algorithm refers to a novel probabilistic framework designed for learning visual models of 3D object categories, which combines appearance information and geometric constraints to achieve detection and classification of objects by maximizing recognition scores across different viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "our algorithm",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-our_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.76220703125
+    },
+    "Entity-viewpoint_classification_task": {
+      "node_id": "viewpoint_classification_task",
+      "disambiguation_index": 0,
+      "label": "viewpoint classification task",
+      "aliases": [
+        "viewpoint classification task"
+      ],
+      "types": [
+        "task",
+        "classification task",
+        "computer vision",
+        "evaluation task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The viewpoint classification task refers to the process of determining the specific viewpoint from which a 3D object, such as a car, is observed, using a probabilistic framework that combines appearance and geometric information.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "viewpoint classification task",
+          "local_types": [
+            "task",
+            "classification task",
+            "computer vision",
+            "evaluation task"
+          ],
+          "iri": "Entity-viewpoint_classification_task-Mention-1"
+        }
+      ],
+      "relevance": 0.74365234375
+    },
+    "Entity-discretized_viewpoint": {
+      "node_id": "discretized_viewpoint",
+      "disambiguation_index": 0,
+      "label": "discretized viewpoints",
+      "aliases": [
+        "discretized viewpoints"
+      ],
+      "types": [
+        "perspective",
+        "viewpoint",
+        "data representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Discretized viewpoints refer to specific, distinct orientations or perspectives of 3D objects used in a probabilistic framework for learning visual models, allowing for the capture of relative positions of object parts under varying viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "discretized viewpoints",
+          "local_types": [
+            "perspective",
+            "viewpoint",
+            "data representation"
+          ],
+          "iri": "Entity-discretized_viewpoint-Mention-1"
+        }
+      ],
+      "relevance": 0.73095703125
+    },
+    "Entity-position_and_viewpoint_of_the_model": {
+      "node_id": "position_and_viewpoint_of_the_model",
+      "disambiguation_index": 0,
+      "label": "position and viewpoint of the model",
+      "aliases": [
+        "position and viewpoint of the model",
+        "the position and viewpoint of the model"
+      ],
+      "types": [
+        "model",
+        "position",
+        "viewpoint"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'position and viewpoint of the model' refers to the specific spatial arrangement and orientation of a learned visual model of a 3D object category that is used to optimize recognition scores during the detection and classification of objects in new images.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "position and viewpoint of the model",
+          "local_types": [
+            "position",
+            "viewpoint",
+            "model"
+          ],
+          "iri": "Entity-position_and_viewpoint_of_the_model-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the position and viewpoint of the model",
+          "local_types": [
+            "model",
+            "position",
+            "viewpoint"
+          ],
+          "iri": "Entity-position_and_viewpoint_of_the_model-Mention-2"
+        }
+      ],
+      "relevance": 0.72607421875
+    },
+    "Entity-new_image": {
+      "node_id": "new_image",
+      "disambiguation_index": 0,
+      "label": "new image",
+      "aliases": [
+        "a new image",
+        "new image"
+      ],
+      "types": [
+        "image"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'new image' refers to an input image used in the proposed probabilistic framework for detecting and classifying 3D object categories by analyzing its position and viewpoint to maximize recognition scores.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "new image",
+          "local_types": [
+            "image"
+          ],
+          "iri": "Entity-new_image-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a new image",
+          "local_types": [
+            "image"
+          ],
+          "iri": "Entity-new_image-Mention-2"
+        }
+      ],
+      "relevance": 0.720703125
+    },
+    "Entity-promising_result": {
+      "node_id": "promising_result",
+      "disambiguation_index": 0,
+      "label": "promising results",
+      "aliases": [
+        "promising results"
+      ],
+      "types": [
+        "results"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'promising results' refers to the successful performance of the proposed probabilistic framework in accurately detecting and classifying 3D object categories, specifically in the 'car' category, as evaluated on the Savarese et al. 2007 and PASCAL VOC 2006 datasets.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "promising results",
+          "local_types": [
+            "results"
+          ],
+          "iri": "Entity-promising_result-Mention-1"
+        }
+      ],
+      "relevance": 0.7197265625
+    },
+    "Entity-viewpoint": {
+      "node_id": "viewpoint",
+      "disambiguation_index": 0,
+      "label": "viewpoints",
+      "aliases": [
+        "viewpoints"
+      ],
+      "types": [
+        "perspective",
+        "3D representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'viewpoints' refers to the specific orientations or perspectives from which 3D objects are represented and analyzed, particularly in relation to the geometric transformations and the arrangement of parts within a probabilistic framework for 3D object categorization.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "viewpoints",
+          "local_types": [
+            "perspective",
+            "3D representation"
+          ],
+          "iri": "Entity-viewpoint-Mention-1"
+        }
+      ],
+      "relevance": 0.71630859375
+    },
+    "Entity-different_viewpoint_of_the_object_class": {
+      "node_id": "different_viewpoint_of_the_object_class",
+      "disambiguation_index": 0,
+      "label": "different viewpoints of the object class",
+      "aliases": [
+        "different viewpoints of the object class"
+      ],
+      "types": [
+        "viewpoint",
+        "object class"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'different viewpoints of the object class' refers to the various perspectives or angles from which a 3D object category can be observed and represented, allowing for the establishment of correspondences between parts of the object across these perspectives in a probabilistic framework for visual model learning.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "different viewpoints of the object class",
+          "local_types": [
+            "viewpoint",
+            "object class"
+          ],
+          "iri": "Entity-different_viewpoint_of_the_object_class-Mention-1"
+        }
+      ],
+      "relevance": 0.7041015625
+    },
+    "Entity-detection_and_viewpoint_classification_task": {
+      "node_id": "detection_and_viewpoint_classification_task",
+      "disambiguation_index": 0,
+      "label": "detection and viewpoint classification tasks",
+      "aliases": [
+        "detection and viewpoint classification tasks"
+      ],
+      "types": [
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Detection and viewpoint classification tasks refer to the processes of identifying objects within images and determining their 3D orientations, respectively, using a probabilistic framework that integrates appearance and geometric information.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "detection and viewpoint classification tasks",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-detection_and_viewpoint_classification_task-Mention-1"
+        }
+      ],
+      "relevance": 0.7021484375
+    },
+    "Entity-detection_and_classification": {
+      "node_id": "detection_and_classification",
+      "disambiguation_index": 0,
+      "label": "detection and classification",
+      "aliases": [
+        "detection and classification"
+      ],
+      "types": [
+        "task",
+        "process"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Detection and classification refer to the processes of identifying and categorizing objects within images by determining their position and viewpoint to maximize recognition scores in a probabilistic framework for 3D object categorization.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "detection and classification",
+          "local_types": [
+            "task",
+            "process"
+          ],
+          "iri": "Entity-detection_and_classification-Mention-1"
+        }
+      ],
+      "relevance": 0.69970703125
+    },
+    "Entity-viewpoint_classification": {
+      "node_id": "viewpoint_classification",
+      "disambiguation_index": 0,
+      "label": "viewpoint classification",
+      "aliases": [
+        "viewpoint classification",
+        "the viewpoint classification task"
+      ],
+      "types": [
+        "task",
+        "classification task",
+        "viewpoint classification"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Viewpoint classification refers to the task of determining the specific viewpoint or perspective from which a 3D object is observed, as part of a framework for recognizing and categorizing objects in images.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "viewpoint classification",
+          "local_types": [
+            "task",
+            "classification task"
+          ],
+          "iri": "Entity-viewpoint_classification-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "the viewpoint classification task",
+          "local_types": [
+            "task",
+            "viewpoint classification"
+          ],
+          "iri": "Entity-viewpoint_classification-Mention-2"
+        }
+      ],
+      "relevance": 0.6962890625
+    },
+    "Entity-relative_position_of_part": {
+      "node_id": "relative_position_of_part",
+      "disambiguation_index": 0,
+      "label": "relative position of parts",
+      "aliases": [
+        "relative position of parts"
+      ],
+      "types": [
+        "concept",
+        "parts",
+        "position"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'relative position of parts' refers to the spatial arrangement and relationships of distinct components of 3D objects as modeled within a probabilistic framework, which is essential for recognizing and categorizing objects from various viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "relative position of parts",
+          "local_types": [
+            "concept",
+            "parts",
+            "position"
+          ],
+          "iri": "Entity-relative_position_of_part-Mention-1"
+        }
+      ],
+      "relevance": 0.69580078125
+    },
+    "Entity-candidate_object": {
+      "node_id": "candidate_object",
+      "disambiguation_index": 0,
+      "label": "candidate objects",
+      "aliases": [
+        "candidate objects"
+      ],
+      "types": [
+        "entities",
+        "targets",
+        "object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Candidate objects refer to the 3D objects that are being detected and classified in the proposed probabilistic framework, which aims to maximize recognition scores based on their position and viewpoint in a new image.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "candidate objects",
+          "local_types": [
+            "entities",
+            "targets",
+            "object"
+          ],
+          "iri": "Entity-candidate_object-Mention-1"
+        }
+      ],
+      "relevance": 0.6923828125
+    },
+    "Entity-relative_position": {
+      "node_id": "relative_position",
+      "disambiguation_index": 0,
+      "label": "relative position",
+      "aliases": [
+        "relative position"
+      ],
+      "types": [
+        "spatial relationship"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'relative position' refers to the spatial arrangement of parts of 3D objects as learned by a generative framework, specifically in relation to different discretized viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "relative position",
+          "local_types": [
+            "spatial relationship"
+          ],
+          "iri": "Entity-relative_position-Mention-1"
+        }
+      ],
+      "relevance": 0.67919921875
+    },
+    "Entity-car": {
+      "node_id": "car",
+      "disambiguation_index": 0,
+      "label": "car",
+      "aliases": [
+        "car"
+      ],
+      "types": [
+        "object category",
+        "category",
+        "object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The mention 'car' refers to a specific category of 3D objects used in visual recognition tasks, particularly in the context of detecting and classifying vehicles in images from datasets such as Savarese et al. 2007 and PASCAL VOC 2006.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "car",
+          "local_types": [
+            "object category",
+            "category",
+            "object"
+          ],
+          "iri": "Entity-car-Mention-1"
+        }
+      ],
+      "relevance": 0.677734375
+    },
+    "Entity-3d_object_categorization": {
+      "node_id": "3d_object_categorization",
+      "disambiguation_index": 0,
+      "label": "3D object categorization",
+      "aliases": [
+        "3D object categorization"
+      ],
+      "types": [
+        "task",
+        "computer vision",
+        "categorization"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "3D object categorization is the process of identifying and classifying three-dimensional objects based on their geometric and visual features using computational methods.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "3D object categorization",
+          "local_types": [
+            "task",
+            "computer vision",
+            "categorization"
+          ],
+          "iri": "Entity-3d_object_categorization-Mention-1"
+        }
+      ],
+      "relevance": 0.6728515625
+    },
+    "Entity-each_part": {
+      "node_id": "each_part",
+      "disambiguation_index": 0,
+      "label": "Each part",
+      "aliases": [
+        "Each part"
+      ],
+      "types": [
+        "component"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Each part refers to a collection of salient image features that represent components of 3D object categories in a probabilistic framework for visual model learning.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Each part",
+          "local_types": [
+            "component"
+          ],
+          "iri": "Entity-each_part-Mention-1"
+        }
+      ],
+      "relevance": 0.6728515625
+    },
+    "Entity-recognition_score_of_the_candidate_object": {
+      "node_id": "recognition_score_of_the_candidate_object",
+      "disambiguation_index": 0,
+      "label": "recognition scores of the candidate objects",
+      "aliases": [
+        "recognition scores of the candidate objects"
+      ],
+      "types": [
+        "score",
+        "object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The recognition scores of the candidate objects refer to the numerical values that indicate the likelihood of correctly identifying and classifying potential 3D object categories in a given image based on a probabilistic model.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "recognition scores of the candidate objects",
+          "local_types": [
+            "score",
+            "object"
+          ],
+          "iri": "Entity-recognition_score_of_the_candidate_object-Mention-1"
+        }
+      ],
+      "relevance": 0.666015625
+    },
+    "Entity-most_of_the_existing_mixture_of_viewpoint_model": {
+      "node_id": "most_of_the_existing_mixture_of_viewpoint_model",
+      "disambiguation_index": 0,
+      "label": "most of the existing mixture of viewpoints models",
+      "aliases": [
+        "most of the existing mixture of viewpoints models"
+      ],
+      "types": [
+        "model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Most of the existing mixture of viewpoints models refer to probabilistic frameworks that combine multiple viewpoints of objects without establishing explicit correspondences between the parts of the objects across these viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "most of the existing mixture of viewpoints models",
+          "local_types": [
+            "model"
+          ],
+          "iri": "Entity-most_of_the_existing_mixture_of_viewpoint_model-Mention-1"
+        }
+      ],
+      "relevance": 0.66357421875
+    },
+    "Entity-challenging_datasets": {
+      "node_id": "challenging_datasets",
+      "disambiguation_index": 0,
+      "label": "challenging datasets",
+      "aliases": [
+        "challenging datasets",
+        "these two challenging datasets"
+      ],
+      "types": [
+        "evaluation set",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'challenging datasets' refers to the Savarese et al. 2007 and PASCAL VOC 2006 datasets, which are used to evaluate the performance of the proposed probabilistic framework for 3D object categorization in detection and viewpoint classification tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "challenging datasets",
+          "local_types": [
+            "evaluation set",
+            "dataset"
+          ],
+          "iri": "Entity-challenging_datasets-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "these two challenging datasets",
+          "local_types": [
+            "dataset"
+          ],
+          "iri": "Entity-challenging_datasets-Mention-2"
+        }
+      ],
+      "relevance": 0.662109375
+    },
+    "Entity-3d_object_category": {
+      "node_id": "3d_object_category",
+      "disambiguation_index": 0,
+      "label": "3D object categories",
+      "aliases": [
+        "3D object categories"
+      ],
+      "types": [
+        "concept",
+        "3D model",
+        "category",
+        "object category"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "3D object categories refer to classifications of three-dimensional shapes or models that share common characteristics and can be used in various applications such as computer vision, robotics, and virtual reality.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "3D object categories",
+          "local_types": [
+            "concept",
+            "3D model",
+            "category",
+            "object category"
+          ],
+          "iri": "Entity-3d_object_category-Mention-1"
+        }
+      ],
+      "relevance": 0.65478515625
+    },
+    "Entity-object": {
+      "node_id": "object",
+      "disambiguation_index": 0,
+      "label": "Objects",
+      "aliases": [
+        "Objects"
+      ],
+      "types": [
+        "entity",
+        "concept",
+        "object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'Objects' refers to 3D object categories that are modeled as coherent ensembles of parts, which maintain consistency under various 3D viewpoint transformations.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Objects",
+          "local_types": [
+            "entity",
+            "concept",
+            "object"
+          ],
+          "iri": "Entity-object-Mention-1"
+        }
+      ],
+      "relevance": 0.65380859375
+    },
+    "Entity-detection": {
+      "node_id": "detection",
+      "disambiguation_index": 0,
+      "label": "detection",
+      "aliases": [
+        "detection"
+      ],
+      "types": [
+        "task",
+        "classification task",
+        "computer vision",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Detection refers to the process of identifying and locating objects within an image by determining their position and viewpoint to maximize recognition scores.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "detection",
+          "local_types": [
+            "task",
+            "computer vision",
+            "process"
+          ],
+          "iri": "Entity-detection-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "detection",
+          "local_types": [
+            "task",
+            "classification task"
+          ],
+          "iri": "Entity-detection-Mention-2"
+        }
+      ],
+      "relevance": 0.64794921875
+    },
+    "Entity-appearance_information": {
+      "node_id": "appearance_information",
+      "disambiguation_index": 0,
+      "label": "appearance information",
+      "aliases": [
+        "appearance information"
+      ],
+      "types": [
+        "information",
+        "data type",
+        "feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Appearance information refers to the visual characteristics and salient image features of objects that are utilized in a probabilistic framework for learning models of 3D object categories.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "appearance information",
+          "local_types": [
+            "information",
+            "data type",
+            "feature"
+          ],
+          "iri": "Entity-appearance_information-Mention-1"
+        }
+      ],
+      "relevance": 0.6416015625
+    },
+    "Entity-part": {
+      "node_id": "part",
+      "disambiguation_index": 0,
+      "label": "parts",
+      "aliases": [
+        "parts"
+      ],
+      "types": [
+        "component",
+        "components",
+        "feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'parts' refers to distinct components of 3D objects that are represented as collections of salient image features, which maintain consistency across different 3D viewpoints.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "parts",
+          "local_types": [
+            "component",
+            "feature"
+          ],
+          "iri": "Entity-part-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "parts",
+          "local_types": [
+            "components"
+          ],
+          "iri": "Entity-part-Mention-2"
+        }
+      ],
+      "relevance": 0.6396484375
+    },
+    "Entity-explicit_correspondence_of_part": {
+      "node_id": "explicit_correspondence_of_part",
+      "disambiguation_index": 0,
+      "label": "explicit correspondences of parts",
+      "aliases": [
+        "explicit correspondences of parts"
+      ],
+      "types": [
+        "parts",
+        "correspondence"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'explicit correspondences of parts' refers to the established relationships between the positions of object parts as viewed from different angles in a probabilistic framework for 3D object categorization.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "explicit correspondences of parts",
+          "local_types": [
+            "parts",
+            "correspondence"
+          ],
+          "iri": "Entity-explicit_correspondence_of_part-Mention-1"
+        }
+      ],
+      "relevance": 0.63916015625
+    },
+    "Entity-recognition_score": {
+      "node_id": "recognition_score",
+      "disambiguation_index": 0,
+      "label": "recognition scores",
+      "aliases": [
+        "recognition scores"
+      ],
+      "types": [
+        "score",
+        "evaluation criterion",
+        "metric",
+        "evaluation measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Recognition scores refer to the quantitative measures used to evaluate the effectiveness of a model in detecting and classifying objects by maximizing the likelihood of correctly identifying the position and viewpoint of candidate objects in a given image.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "recognition scores",
+          "local_types": [
+            "score",
+            "evaluation criterion",
+            "metric",
+            "evaluation measure"
+          ],
+          "iri": "Entity-recognition_score-Mention-1"
+        }
+      ],
+      "relevance": 0.634765625
+    },
+    "Entity-coherent_ensemble_of_part": {
+      "node_id": "coherent_ensemble_of_part",
+      "disambiguation_index": 0,
+      "label": "coherent ensemble of parts",
+      "aliases": [
+        "coherent ensemble of parts",
+        "a coherent ensemble of parts"
+      ],
+      "types": [
+        "structure",
+        "parts",
+        "composition",
+        "ensemble"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'coherent ensemble of parts' refers to a structured representation of 3D objects, where each object is composed of distinct parts that maintain consistent relationships and configurations when viewed from different angles.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "coherent ensemble of parts",
+          "local_types": [
+            "structure",
+            "parts",
+            "composition",
+            "ensemble"
+          ],
+          "iri": "Entity-coherent_ensemble_of_part-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a coherent ensemble of parts",
+          "local_types": [
+            "ensemble",
+            "parts"
+          ],
+          "iri": "Entity-coherent_ensemble_of_part-Mention-2"
+        }
+      ],
+      "relevance": 0.6279296875
+    },
+    "Entity-image": {
+      "node_id": "image",
+      "disambiguation_index": 0,
+      "label": "image",
+      "aliases": [
+        "image"
+      ],
+      "types": [
+        "visual data",
+        "media"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'image' refers to a visual representation or photograph used as input for detection and classification tasks in the context of 3D object categorization.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "image",
+          "local_types": [
+            "visual data",
+            "media"
+          ],
+          "iri": "Entity-image-Mention-1"
+        }
+      ],
+      "relevance": 0.6279296875
+    },
+    "Entity-probabilistic_framework": {
+      "node_id": "probabilistic_framework",
+      "disambiguation_index": 0,
+      "label": "probabilistic framework",
+      "aliases": [
+        "probabilistic framework"
+      ],
+      "types": [
+        "framework",
+        "statistical model",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A probabilistic framework is a structured approach that utilizes probability theory to model uncertainty and make inferences in various domains, often integrating statistical methods and methodologies to analyze complex data.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "probabilistic framework",
+          "local_types": [
+            "framework",
+            "statistical model",
+            "methodology"
+          ],
+          "iri": "Entity-probabilistic_framework-Mention-1"
+        }
+      ],
+      "relevance": 0.62451171875
+    },
+    "Entity-detection_task": {
+      "node_id": "detection_task",
+      "disambiguation_index": 0,
+      "label": "detection task",
+      "aliases": [
+        "the detection task",
+        "detection task"
+      ],
+      "types": [
+        "evaluation task",
+        "task",
+        "detection",
+        "classification task",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A detection task is a type of computational task focused on identifying and locating objects within images or video data, often used in the fields of computer vision and machine learning.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "detection task",
+          "local_types": [
+            "task",
+            "classification task",
+            "computer vision",
+            "evaluation task"
+          ],
+          "iri": "Entity-detection_task-Mention-1"
+        },
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "the detection task",
+          "local_types": [
+            "task",
+            "detection"
+          ],
+          "iri": "Entity-detection_task-Mention-2"
+        }
+      ],
+      "relevance": 0.62109375
+    },
+    "Entity-savarese_et_al_._2007": {
+      "node_id": "savarese_et_al_._2007",
+      "disambiguation_index": 0,
+      "label": "Savarese et al. 2007",
+      "aliases": [
+        "Savarese et al. 2007"
+      ],
+      "types": [
+        "publication",
+        "dataset",
+        "reference",
+        "research paper"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Savarese et al. 2007 refers to a dataset used for testing algorithms in the context of 3D object categorization, specifically involving the 'car' category.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "Savarese et al. 2007",
+          "local_types": [
+            "publication",
+            "dataset",
+            "reference",
+            "research paper"
+          ],
+          "iri": "Entity-savarese_et_al_._2007-Mention-1"
+        }
+      ],
+      "relevance": 0.61865234375
+    },
+    "Entity-3d_viewpoint_transformation": {
+      "node_id": "3d_viewpoint_transformation",
+      "disambiguation_index": 0,
+      "label": "3D viewpoint transformations",
+      "aliases": [
+        "3D viewpoint transformations"
+      ],
+      "types": [
+        "3D",
+        "transformation",
+        "geometry"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "3D viewpoint transformations refer to the mathematical processes or techniques used to change the perspective from which a three-dimensional object or scene is viewed, allowing for the simulation of different angles and positions in a 3D space.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "3D viewpoint transformations",
+          "local_types": [
+            "3D",
+            "transformation",
+            "geometry"
+          ],
+          "iri": "Entity-3d_viewpoint_transformation-Mention-1"
+        }
+      ],
+      "relevance": 0.61376953125
+    },
+    "Entity-pascal_voc_2006_datasets": {
+      "node_id": "pascal_voc_2006_datasets",
+      "disambiguation_index": 0,
+      "label": "PASCAL VOC 2006 datasets",
+      "aliases": [
+        "PASCAL VOC 2006 datasets"
+      ],
+      "types": [
+        "dataset",
+        "PASCAL VOC"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The PASCAL VOC 2006 datasets are a collection of benchmark datasets used for evaluating object detection and classification algorithms, specifically containing annotated images for various object categories.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "PASCAL VOC 2006 datasets",
+          "local_types": [
+            "dataset",
+            "PASCAL VOC"
+          ],
+          "iri": "Entity-pascal_voc_2006_datasets-Mention-1"
+        }
+      ],
+      "relevance": 0.6064453125
+    },
+    "Entity-pascal_voc_2006": {
+      "node_id": "pascal_voc_2006",
+      "disambiguation_index": 0,
+      "label": "PASCAL VOC 2006",
+      "aliases": [
+        "PASCAL VOC 2006"
+      ],
+      "types": [
+        "reference",
+        "dataset",
+        "benchmark"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "PASCAL VOC 2006 is a benchmark dataset used for evaluating object detection and image segmentation algorithms, part of the PASCAL Visual Object Classes challenge.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "PASCAL VOC 2006",
+          "local_types": [
+            "reference",
+            "dataset",
+            "benchmark"
+          ],
+          "iri": "Entity-pascal_voc_2006-Mention-1"
+        }
+      ],
+      "relevance": 0.60400390625
+    },
+    "Entity-object_class": {
+      "node_id": "object_class",
+      "disambiguation_index": 0,
+      "label": "object class",
+      "aliases": [
+        "object class"
+      ],
+      "types": [
+        "category",
+        "classification"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An object class is a category or classification that groups together objects sharing common characteristics or features.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "object class",
+          "local_types": [
+            "category",
+            "classification"
+          ],
+          "iri": "Entity-object_class-Mention-1"
+        }
+      ],
+      "relevance": 0.58984375
+    },
+    "Entity-classification": {
+      "node_id": "classification",
+      "disambiguation_index": 0,
+      "label": "classification",
+      "aliases": [
+        "classification"
+      ],
+      "types": [
+        "task",
+        "machine learning",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Classification is a process or task in machine learning that involves assigning labels or categories to data based on its features.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "classification",
+          "local_types": [
+            "task",
+            "machine learning",
+            "process"
+          ],
+          "iri": "Entity-classification-Mention-1"
+        }
+      ],
+      "relevance": 0.580078125
+    },
+    "Entity-salient_image_feature": {
+      "node_id": "salient_image_feature",
+      "disambiguation_index": 0,
+      "label": "salient image features",
+      "aliases": [
+        "salient image features"
+      ],
+      "types": [
+        "visual feature",
+        "image processing",
+        "image feature",
+        "feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Salient image features are distinct and prominent characteristics or elements within an image that draw attention and are significant for visual perception and analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "salient image features",
+          "local_types": [
+            "visual feature",
+            "image processing",
+            "image feature",
+            "feature"
+          ],
+          "iri": "Entity-salient_image_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.54833984375
+    },
+    "Entity-geometric_constraint": {
+      "node_id": "geometric_constraint",
+      "disambiguation_index": 0,
+      "label": "geometric constraints",
+      "aliases": [
+        "geometric constraints"
+      ],
+      "types": [
+        "mathematical condition",
+        "constraint",
+        "mathematical concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Geometric constraints are mathematical conditions that restrict the possible configurations or relationships of geometric entities in a given space.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "geometric constraints",
+          "local_types": [
+            "mathematical condition",
+            "constraint",
+            "mathematical concept"
+          ],
+          "iri": "Entity-geometric_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.492431640625
+    },
+    "Entity-algorithm": {
+      "node_id": "algorithm",
+      "disambiguation_index": 0,
+      "label": "algorithm",
+      "aliases": [
+        "algorithm"
+      ],
+      "types": [
+        "method",
+        "computational technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An algorithm is a systematic procedure or set of rules used for solving a problem or performing a task, often implemented in computational techniques to process data and produce outputs.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "algorithm",
+          "local_types": [
+            "method",
+            "computational technique"
+          ],
+          "iri": "Entity-algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.490234375
+    },
+    "Entity-datasets": {
+      "node_id": "datasets",
+      "disambiguation_index": 0,
+      "label": "datasets",
+      "aliases": [
+        "datasets"
+      ],
+      "types": [
+        "data collection",
+        "resource"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Datasets are structured collections of data, typically organized for analysis, research, or training purposes in various fields.",
+      "mentions": [
+        {
+          "reference": "Paper-15-Section-1-Paragraph-1-Sentence-9",
+          "local_name": "datasets",
+          "local_types": [
+            "data collection",
+            "resource"
+          ],
+          "iri": "Entity-datasets-Mention-1"
+        }
+      ],
+      "relevance": 0.486083984375
+    }
+  },
+  "summary": "We propose a novel probabilistic framework for learning visual models of 3D object categories by combining appearance information and geometric constraints . Objects are represented as a coherent ensemble of parts that are consistent under 3D viewpoint transformations . Each part is a collection of salient image features . A generative framework is used for learning a model that captures the relative position of parts within each of the discretized viewpoints . Contrary to most of the existing mixture of viewpoints models , our model establishes explicit correspondences of parts across different viewpoints of the object class . Given a new image , detection and classification are achieved by determining the position and viewpoint of the model that maximize recognition scores of the candidate objects . Our approach is among the first to propose a generative proba-bilistic framework for 3D object categorization . We test our algorithm on the detection task and the viewpoint classification task by using '' car '' category from both the Savarese et al. 2007 and PASCAL VOC 2006 datasets . We show promising results in both the detection and viewpoint classification tasks on these two challenging datasets .",
+  "triples": [
+    [
+      "Entity-novel_probabilistic_framework",
+      "Predicate-proposes",
+      "Entity-visual_model"
+    ],
+    [
+      "Entity-visual_model",
+      "Predicate-combines",
+      "Entity-appearance_information"
+    ],
+    [
+      "Entity-visual_model",
+      "Predicate-combines",
+      "Entity-geometric_constraint"
+    ],
+    [
+      "Entity-object",
+      "Predicate-are_represented_as",
+      "Entity-coherent_ensemble_of_part"
+    ],
+    [
+      "Entity-coherent_ensemble_of_part",
+      "Predicate-are_consistent_under",
+      "Entity-3d_viewpoint_transformation"
+    ],
+    [
+      "Entity-each_part",
+      "Predicate-is_a_collection_of",
+      "Entity-salient_image_feature"
+    ],
+    [
+      "Entity-generative_framework",
+      "Predicate-is_used_for",
+      "Entity-learning_a_model"
+    ],
+    [
+      "Entity-learning_a_model",
+      "Predicate-captures",
+      "Entity-relative_position_of_part"
+    ],
+    [
+      "Entity-relative_position_of_part",
+      "Predicate-within",
+      "Entity-discretized_viewpoint"
+    ],
+    [
+      "Entity-our_model",
+      "Predicate-establishes",
+      "Entity-explicit_correspondence_of_part"
+    ],
+    [
+      "Entity-our_model",
+      "Predicate-establishes",
+      "Entity-different_viewpoint_of_the_object_class"
+    ],
+    [
+      "Entity-our_model",
+      "Predicate-establishes",
+      "Entity-most_of_the_existing_mixture_of_viewpoint_model"
+    ],
+    [
+      "Entity-detection",
+      "Predicate-achieved_by",
+      "Entity-classification"
+    ],
+    [
+      "Entity-position_and_viewpoint_of_the_model",
+      "Predicate-maximize",
+      "Entity-recognition_score_of_the_candidate_object"
+    ],
+    [
+      "Entity-detection_and_classification",
+      "Predicate-are_achieved_by_determining",
+      "Entity-position_and_viewpoint_of_the_model"
+    ],
+    [
+      "Entity-our_approach",
+      "Predicate-proposes",
+      "Entity-3d_object_categorization"
+    ],
+    [
+      "Entity-our_algorithm",
+      "Predicate-tests_on",
+      "Entity-detection_task"
+    ],
+    [
+      "Entity-our_algorithm",
+      "Predicate-tests_on",
+      "Entity-viewpoint_classification"
+    ],
+    [
+      "Entity-detection_task",
+      "Predicate-uses",
+      "Entity-car"
+    ],
+    [
+      "Entity-viewpoint_classification",
+      "Predicate-uses",
+      "Entity-car"
+    ],
+    [
+      "Entity-detection_task",
+      "Predicate-uses_from",
+      "Entity-savarese_et_al_._2007"
+    ],
+    [
+      "Entity-detection_task",
+      "Predicate-uses_from",
+      "Entity-pascal_voc_2006"
+    ],
+    [
+      "Entity-viewpoint_classification",
+      "Predicate-uses_from",
+      "Entity-savarese_et_al_._2007"
+    ],
+    [
+      "Entity-viewpoint_classification",
+      "Predicate-uses_from",
+      "Entity-pascal_voc_2006"
+    ],
+    [
+      "Entity-algorithm",
+      "Predicate-is_tested_on",
+      "Entity-detection_task"
+    ],
+    [
+      "Entity-algorithm",
+      "Predicate-is_tested_on",
+      "Entity-viewpoint_classification"
+    ],
+    [
+      "Entity-promising_result",
+      "Predicate-show",
+      "Entity-detection_and_viewpoint_classification_task"
+    ],
+    [
+      "Entity-promising_result",
+      "Predicate-show",
+      "Entity-challenging_datasets"
+    ],
+    [
+      "Entity-promising_result",
+      "Predicate-are_shown_in",
+      "Entity-detection_and_viewpoint_classification_task"
+    ],
+    [
+      "Entity-novel_probabilistic_framework",
+      "Predicate-is_used_for_learning",
+      "Entity-visual_model"
+    ],
+    [
+      "Entity-novel_probabilistic_framework",
+      "Predicate-is_a_specific_instance_of",
+      "Entity-generative_framework"
+    ],
+    [
+      "Entity-generative_framework",
+      "Predicate-is_used_for_learning",
+      "Entity-visual_model"
+    ],
+    [
+      "Entity-model",
+      "Predicate-is_used_for_learning",
+      "Entity-generative_framework"
+    ],
+    [
+      "Entity-novel_probabilistic_framework",
+      "Predicate-is_a_type_of",
+      "Entity-model"
+    ],
+    [
+      "Entity-visual_model",
+      "Predicate-is_a_type_of",
+      "Entity-model"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-detection_task",
+      "skos:broader",
+      "Entity-detection"
+    ],
+    [
+      "Entity-detection",
+      "skos:broader",
+      "Entity-classification"
+    ],
+    [
+      "Entity-mixture_of_viewpoint_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-generative_framework",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-position_and_viewpoint_of_the_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-savarese_et_al_._2007",
+      "skos:broader",
+      "Entity-datasets"
+    ],
+    [
+      "Entity-discretized_viewpoint",
+      "skos:broader",
+      "Entity-viewpoint"
+    ],
+    [
+      "Entity-new_image",
+      "skos:broader",
+      "Entity-image"
+    ],
+    [
+      "Entity-position_and_viewpoint_of_the_model",
+      "skos:broader",
+      "Entity-viewpoint"
+    ],
+    [
+      "Entity-viewpoint_classification",
+      "skos:broader",
+      "Entity-classification"
+    ],
+    [
+      "Entity-our_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-object_class",
+      "skos:broader",
+      "Entity-classification"
+    ],
+    [
+      "Entity-coherent_ensemble_of_part",
+      "skos:broader",
+      "Entity-part"
+    ],
+    [
+      "Entity-visual_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-visual_model",
+      "skos:broader",
+      "Entity-3d_object_category"
+    ],
+    [
+      "Entity-visual_model",
+      "skos:broader",
+      "Entity-3d_object_categorization"
+    ],
+    [
+      "Entity-model",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-relative_position_of_part",
+      "skos:broader",
+      "Entity-part"
+    ],
+    [
+      "Entity-our_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-candidate_object",
+      "skos:broader",
+      "Entity-object"
+    ],
+    [
+      "Entity-most_of_the_existing_mixture_of_viewpoint_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-pascal_voc_2006_datasets",
+      "skos:broader",
+      "Entity-pascal_voc_2006"
+    ],
+    [
+      "Entity-different_viewpoint_of_the_object_class",
+      "skos:broader",
+      "Entity-object_class"
+    ],
+    [
+      "Entity-explicit_correspondence_of_part",
+      "skos:broader",
+      "Entity-part"
+    ],
+    [
+      "Entity-learning_a_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-recognition_score_of_the_candidate_object",
+      "skos:broader",
+      "Entity-object"
+    ],
+    [
+      "Entity-car",
+      "skos:broader",
+      "Entity-object"
+    ],
+    [
+      "Entity-viewpoint_classification_task",
+      "skos:broader",
+      "Entity-classification"
+    ],
+    [
+      "Entity-pascal_voc_2006",
+      "skos:broader",
+      "Entity-datasets"
+    ],
+    [
+      "Entity-challenging_datasets",
+      "skos:broader",
+      "Entity-datasets"
+    ],
+    [
+      "Entity-different_viewpoint_of_the_object_class",
+      "skos:broader",
+      "Entity-viewpoint"
+    ],
+    [
+      "Entity-pascal_voc_2006_datasets",
+      "skos:broader",
+      "Entity-datasets"
+    ],
+    [
+      "Entity-detection_task",
+      "skos:broader",
+      "Entity-classification"
+    ]
+  ],
+  "predicates": {
+    "Predicate-proposes": {
+      "label": "proposes",
+      "description": "The predicate 'proposes' indicates that the subject puts forward an idea, plan, or suggestion regarding the object. It signifies an act of recommending or advocating for a particular concept, theory, or method, often with the intention of prompting consideration, discussion, or further exploration of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-combines": {
+      "label": "combines",
+      "description": "The predicate 'combines' indicates a relationship where the subject integrates or merges with the object, resulting in a unified entity or concept. This action suggests that the characteristics or elements of the object are incorporated into the subject, enhancing or altering its properties or functionality.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_represented_as": {
+      "label": "are represented as",
+      "description": "The predicate 'are represented as' establishes a relationship in which the subject is depicted or characterized in a specific manner by the object. It indicates that the subject is understood or conceptualized through the lens of the object, suggesting a form of equivalence or analogy that conveys how the subject can be perceived or interpreted in relation to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_consistent_under": {
+      "label": "are consistent under",
+      "description": "The predicate 'are consistent under' establishes a relationship between a subject and an object, indicating that the subject maintains a coherent or stable state when subjected to the conditions or transformations represented by the object. This implies that despite changes or variations introduced by the object, the essential characteristics or properties of the subject remain unchanged or valid.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_collection_of": {
+      "label": "is a collection of",
+      "description": "The predicate 'is a collection of' establishes a relationship where the subject is identified as a grouping or aggregation that encompasses multiple individual elements or components represented by the object. This indicates that the subject consists of various parts that collectively form a whole, highlighting the nature of the subject as being made up of the specified items in the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_for": {
+      "label": "is used for",
+      "description": "The predicate 'is used for' establishes a functional relationship between the subject and the object, indicating that the subject serves a specific purpose or function that facilitates, enables, or contributes to the action or process described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-captures": {
+      "label": "captures",
+      "description": "The predicate 'captures' indicates that the subject effectively represents, embodies, or conveys the essence or characteristics of the object. It suggests a relationship where the subject encompasses or includes the object in a meaningful way, often implying that the subject has the ability to understand, interpret, or reflect the qualities or features of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-within": {
+      "label": "within",
+      "description": "The predicate 'within' indicates a spatial or conceptual relationship where the subject is contained or situated inside the boundaries or limits defined by the object. It suggests an inclusion or an internal positioning of the subject relative to the object, emphasizing the idea that the subject exists as part of or is encompassed by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-establishes": {
+      "label": "establishes",
+      "description": "The predicate 'establishes' indicates the action of creating, defining, or formalizing a relationship or connection between the subject and the object. It implies that the subject is actively setting up or confirming the existence of the object in a specific context, thereby providing clarity, structure, or understanding regarding the nature of the relationship.",
+      "disambiguation_index": 0
+    },
+    "Predicate-achieved_by": {
+      "label": "achieved by",
+      "description": "The predicate 'achieved by' indicates a relationship where the subject is the result or outcome of a process or action performed by the object. It signifies that the object is the means or method through which the subject is realized or accomplished.",
+      "disambiguation_index": 0
+    },
+    "Predicate-maximize": {
+      "label": "maximize",
+      "description": "The predicate 'maximize' indicates an action or process where the subject seeks to increase or enhance the value, effectiveness, or performance of the object to its highest possible level. In this context, it implies that the subject is actively working to optimize the conditions or parameters related to the object, resulting in improved outcomes or results.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_achieved_by_determining": {
+      "label": "are achieved by determining",
+      "description": "The predicate 'are achieved by determining' indicates a causal or functional relationship where the subject is realized or accomplished through the process of identifying or establishing the characteristics or parameters specified in the object. It implies that the successful attainment of the subject relies on the analysis or assessment of the elements described in the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-tests_on": {
+      "label": "tests on",
+      "description": "The predicate 'tests on' indicates that the subject is conducting an evaluation or assessment related to the object. It implies that the subject is applying a method, tool, or process to examine the effectiveness, performance, or characteristics of the object in a specific context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates a functional relationship where the subject employs or utilizes the object as a means to achieve a specific purpose or goal. It signifies that the subject actively engages with the object to perform a task or fulfill a requirement.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses_from": {
+      "label": "uses from",
+      "description": "The predicate 'uses from' indicates that the subject is utilizing or drawing upon the resources, methods, findings, or frameworks provided by the object. It establishes a relationship where the subject benefits from or relies on the contributions of the object, which is typically a source of knowledge, research, or methodology.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_tested_on": {
+      "label": "is tested on",
+      "description": "The predicate 'is tested on' establishes a relationship where the subject undergoes evaluation or assessment in relation to the object, which represents a specific task, scenario, or condition. This indicates that the subject's performance, effectiveness, or functionality is being examined within the context defined by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show": {
+      "label": "show",
+      "description": "The predicate 'show' serves to indicate that the subject provides evidence, demonstration, or illustration of the object. It establishes a relationship where the subject reveals or makes apparent certain characteristics, outcomes, or phenomena related to the object, thereby facilitating understanding or insight into the object being discussed.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_shown_in": {
+      "label": "are shown in",
+      "description": "The predicate 'are shown in' indicates that the subject is demonstrated, illustrated, or evidenced within the context of the object. It establishes a relationship where the subject's presence or significance is highlighted or evidenced through the specific scenarios, applications, or domains represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_for_learning": {
+      "label": "is used for learning",
+      "description": "The predicate 'is used for learning' indicates that the subject serves a purpose or function that facilitates the acquisition of knowledge, skills, or understanding related to the object. It implies that the subject provides a method, tool, or framework that aids in the educational process or enhances the comprehension of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_specific_instance_of": {
+      "label": "is a specific instance of",
+      "description": "The predicate 'is a specific instance of' establishes a relationship where the subject represents a particular example or case that falls under the broader category defined by the object. It indicates that the subject shares characteristics or properties with the object, thereby classifying the subject as a member of the group or type represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_type_of": {
+      "label": "is a type of",
+      "description": "The predicate 'is a type of' establishes a hierarchical relationship between the subject and the object, indicating that the subject belongs to a broader category represented by the object. It signifies that the subject shares common characteristics or features with other entities classified under the object, thus providing a way to categorize or classify the subject within a specific domain or framework.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or category that falls under a more general classification represented by the object. This relationship suggests that the object encompasses a wider scope or range of concepts, of which the subject is a part.",
+      "disambiguation_index": 0
+    }
+  }
+}

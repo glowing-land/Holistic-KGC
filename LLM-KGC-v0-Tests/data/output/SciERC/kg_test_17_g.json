@@ -1,0 +1,56 @@
+{
+  "iri": "Paper-17",
+  "title": "ICML_2016_11_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-17-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-17-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-17-Section-1-Paragraph-1-Sentence-1",
+              "text": "The robust principal component analysis -LRB- robust PCA -RRB- problem has been considered in many machine learning applications , where the goal is to decompose the data matrix to a low rank part plus a sparse residual ."
+            },
+            {
+              "iri": "Paper-17-Section-1-Paragraph-1-Sentence-2",
+              "text": "While current approaches are developed by only considering the low rank plus sparse structure , in many applications , side information of row and/or column entities may also be given , and it is still unclear to what extent could such information help robust PCA ."
+            },
+            {
+              "iri": "Paper-17-Section-1-Paragraph-1-Sentence-3",
+              "text": "Thus , in this paper , we study the problem of robust PCA with side information , where both prior structure and features of entities are exploited for recovery ."
+            },
+            {
+              "iri": "Paper-17-Section-1-Paragraph-1-Sentence-4",
+              "text": "We propose a convex problem to incorporate side information in robust PCA and show that the low rank matrix can be exactly recovered via the proposed method under certain conditions ."
+            },
+            {
+              "iri": "Paper-17-Section-1-Paragraph-1-Sentence-5",
+              "text": "In particular , our guarantee suggests that a substantial amount of low rank matrices , which can not be recovered by standard robust PCA , become re-coverable by our proposed method ."
+            },
+            {
+              "iri": "Paper-17-Section-1-Paragraph-1-Sentence-6",
+              "text": "The result theoretically justifies the effectiveness of features in robust PCA ."
+            },
+            {
+              "iri": "Paper-17-Section-1-Paragraph-1-Sentence-7",
+              "text": "In addition , we conduct synthetic experiments as well as a real application on noisy image classification to show that our method also improves the performance in practice by exploiting side information ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "The robust principal component analysis -LRB- robust PCA -RRB- problem has been considered in many machine learning applications , where the goal is to decompose the data matrix to a low rank part plus a sparse residual . While current approaches are developed by only considering the low rank plus sparse structure , in many applications , side information of row and/or column entities may also be given , and it is still unclear to what extent could such information help robust PCA . Thus , in this paper , we study the problem of robust PCA with side information , where both prior structure and features of entities are exploited for recovery . We propose a convex problem to incorporate side information in robust PCA and show that the low rank matrix can be exactly recovered via the proposed method under certain conditions . In particular , our guarantee suggests that a substantial amount of low rank matrices , which can not be recovered by standard robust PCA , become re-coverable by our proposed method . The result theoretically justifies the effectiveness of features in robust PCA . In addition , we conduct synthetic experiments as well as a real application on noisy image classification to show that our method also improves the performance in practice by exploiting side information .",
+  "kg2text": [
+    "This paper studies the problem of robust PCA with side information, investigating how additional contextual information can enhance the recovery of low rank matrices. It improves upon standard robust PCA, which addresses the same problem but may not effectively recover certain low rank matrices. The effectiveness of features in robust PCA has a broader term that encompasses the problem of robust PCA with side information, indicating its relevance in enhancing recovery processes. Furthermore, robust PCA leads to recovery, allowing a substantial amount of low rank matrices to become re-coverable by the proposed method. This method is proposed under certain conditions and exploits prior structure to achieve better results. The real application on noisy image classification demonstrates the practical benefits of this approach, showcasing its ability to improve classification performance in challenging scenarios.",
+    "The side information of row and/or column entities may help robust PCA by providing additional context that enhances its performance. In a real application, the proposed method conducts robust PCA, which improves performance significantly. This method is a specific approach within the broader term of principal component analysis, which also encompasses current approaches that are developed by considering the low rank plus sparse structure of data. The result of the research justifies the effectiveness of features in robust PCA, which is a concept that has a broader term known as features of entities. Through synthetic experiments, the method demonstrates its capability to recover low rank matrices, which can become re-coverable thanks to the incorporation of side information. Our guarantee suggests that a substantial amount of low rank matrices, which are typically difficult to recover using standard methods, can be successfully retrieved by this method. Furthermore, robust PCA exploits the features of entities, indicating that the low rank part of a data matrix is effectively decomposed to enhance the analysis of the underlying data structure.",
+    "Robust PCA exploits side information to enhance its performance in various applications. This method decomposes a data matrix into its underlying components, specifically yielding a sparse residual that captures deviations from a low rank approximation. The theoretical result justifies the importance of incorporating features of entities, which are critical for improving the recovery of low rank matrices. Additionally, robust PCA has been considered in numerous machine learning applications, demonstrating its versatility. Furthermore, the approach to solving a convex problem also incorporates side information, highlighting the interconnectedness of these concepts in statistical analysis."
+  ],
+  "times": [
+    6.757720947265625
+  ]
+}

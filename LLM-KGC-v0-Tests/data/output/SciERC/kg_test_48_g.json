@@ -1,0 +1,52 @@
+{
+  "iri": "Paper-48",
+  "title": "ICML_2006_119_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-48-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-48-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-48-Section-1-Paragraph-1-Sentence-1",
+              "text": "We investigate the problem of learning to predict moves in the board game of Go from game records of expert players ."
+            },
+            {
+              "iri": "Paper-48-Section-1-Paragraph-1-Sentence-2",
+              "text": "In particular , we obtain a probability distribution over legal moves for professional play in a given position ."
+            },
+            {
+              "iri": "Paper-48-Section-1-Paragraph-1-Sentence-3",
+              "text": "This distribution has numerous applications in computer Go , including serving as an efficient stand-alone Go player ."
+            },
+            {
+              "iri": "Paper-48-Section-1-Paragraph-1-Sentence-4",
+              "text": "It would also be effective as a move selector and move sorter for game tree search and as a training tool for Go players ."
+            },
+            {
+              "iri": "Paper-48-Section-1-Paragraph-1-Sentence-5",
+              "text": "Our method has two major components : a -RRB- a pattern extraction scheme for efficiently harvesting patterns of given size and shape from expert game records and b -RRB- a Bayesian learning algorithm -LRB- in two variants -RRB- that learns a distribution over the values of a move given a board position based on the local pattern context ."
+            },
+            {
+              "iri": "Paper-48-Section-1-Paragraph-1-Sentence-6",
+              "text": "The system is trained on 181,000 expert games and shows excellent prediction performance as indicated by its ability to perfectly predict the moves made by professional Go players in 34 % of test positions ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "We investigate the problem of learning to predict moves in the board game of Go from game records of expert players . In particular , we obtain a probability distribution over legal moves for professional play in a given position . This distribution has numerous applications in computer Go , including serving as an efficient stand-alone Go player . It would also be effective as a move selector and move sorter for game tree search and as a training tool for Go players . Our method has two major components : a -RRB- a pattern extraction scheme for efficiently harvesting patterns of given size and shape from expert game records and b -RRB- a Bayesian learning algorithm -LRB- in two variants -RRB- that learns a distribution over the values of a move given a board position based on the local pattern context . The system is trained on 181,000 expert games and shows excellent prediction performance as indicated by its ability to perfectly predict the moves made by professional Go players in 34 % of test positions .",
+  "kg2text": [
+    "The task of learning to predict moves in the board game of Go is a significant problem that involves investigating various strategies and methodologies. Our method specifically addresses this challenge by implementing a system that utilizes game records from expert players to enhance predictive accuracy. This system is designed to predict moves effectively, achieving a success rate of 34% in test positions. It is trained on a dataset of 181,000 expert games, which allows it to learn a probability distribution over legal moves. This distribution not only serves as a training tool for Go players but also functions as a move selector and a move sorter, demonstrating its numerous applications in the realm of computer Go. Furthermore, the distribution over the values of a move is derived from the same expert game records, reinforcing the system's capability to analyze and predict the moves made by professional Go players based on the current board position.",
+    "The task of learning to predict moves is closely related to the board game of Go, which serves as a broader context for this machine learning challenge. Expert players provide valuable game records, which include a vast dataset of expert games, essential for training predictive models. These game records encompass the documented strategies and moves made by professional Go players, forming the foundation for developing a training tool for Go players. This tool is designed to enhance the decision-making capabilities of Go players by utilizing a probability distribution over legal moves, specifically tailored for professional play. The Bayesian learning algorithm plays a crucial role in this process, as it learns from the local pattern context and the distribution over the values of a move, thereby improving the accuracy of move selection. In evaluating the effectiveness of these predictive models, test positions are used, with the system achieving a notable accuracy of 34% in predicting moves made by professional players. Ultimately, the stand-alone Go player, which operates independently, leverages these insights to engage in strategic gameplay, demonstrating the practical applications of these advanced predictive techniques.",
+    "Computer Go, which refers to the use of artificial intelligence in the board game Go, has a broader term that encompasses the strategic game itself. Within this context, the concept of a distribution over the values of a move is a specific type of probability distribution, which quantifies the likelihood of various moves based on the current game state. This distribution is crucial for creating a probability distribution over legal moves for professional play, which is essential for high-level gameplay. Additionally, a training tool for Go players, which is a broader category of training tools, utilizes these probability distributions to enhance the skills of Go players. Furthermore, a move sorter for game tree search is a specialized tool that falls under the broader category of game tree search, aimed at improving decision-making efficiency in strategic games. Overall, these tools and concepts are designed to support Go players in their strategic decision-making processes."
+  ],
+  "times": [
+    7.884981632232666
+  ]
+}

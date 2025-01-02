@@ -1,0 +1,1564 @@
+{
+  "iri": "Paper-90",
+  "title": "INTERSPEECH_2008_28_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-90-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-90-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-90-Section-1-Paragraph-1-Sentence-1",
+              "text": "A critical step in encoding sound for neuronal processing occurs when the analog pressure wave is coded into discrete nerve-action potentials ."
+            },
+            {
+              "iri": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+              "text": "Recent pool models of the inner hair cell synapse do not reproduce the dead time period after an intense stimulus , so we used visual inspection and automatic speech recognition -LRB- ASR -RRB- to investigate an offset adaptation -LRB- OA -RRB- model proposed by Zhang et al. -LSB- 1 -RSB- ."
+            },
+            {
+              "iri": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+              "text": "OA improved phase locking in the auditory nerve -LRB- AN -RRB- and raised ASR accuracy for features derived from AN fibers -LRB- ANFs -RRB- ."
+            },
+            {
+              "iri": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+              "text": "We also found that OA is crucial for auditory processing by onset neurons -LRB- ONs -RRB- in the next neuronal stage , the auditory brainstem ."
+            },
+            {
+              "iri": "Paper-90-Section-1-Paragraph-1-Sentence-5",
+              "text": "Multi-layer perceptrons -LRB- MLPs -RRB- performed much better than standard Gaussian mixture models -LRB- GMMs -RRB- for both our ANF-based and ON-based auditory features ."
+            },
+            {
+              "iri": "Paper-90-Section-1-Paragraph-1-Sentence-6",
+              "text": "Similar results were previously obtained with MSG -LRB- Modulation-filtered Spec-troGram -RRB- auditory features -LSB- 2 -RSB- ."
+            },
+            {
+              "iri": "Paper-90-Section-1-Paragraph-1-Sentence-7",
+              "text": "Thus we believe researchers working with novel features should consider trying MLPs ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0008900165557861328,
+    54.899641036987305,
+    81.68161988258362,
+    71.50646781921387,
+    0.07853102684020996,
+    0.0001220703125,
+    0.00026106834411621094,
+    384.67502188682556,
+    392.4674210548401,
+    5.867167949676514,
+    116.81886601448059,
+    0.014269828796386719,
+    0.00027489662170410156,
+    79.29287385940552,
+    0.002187013626098633,
+    0.044981956481933594,
+    0.0016510486602783203,
+    6.0084452629089355,
+    19.791637897491455,
+    21.562092781066895,
+    659.6302230358124,
+    10.699751138687134,
+    245.11960005760193,
+    3.6357340812683105,
+    0.0009481906890869141,
+    0.014319658279418945
+  ],
+  "nodes": {
+    "Entity-offset_adaptation": {
+      "node_id": "offset_adaptation",
+      "disambiguation_index": 0,
+      "label": "offset adaptation",
+      "aliases": [
+        "offset adaptation"
+      ],
+      "types": [
+        "phenomenon",
+        "theoretical concept",
+        "model",
+        "auditory processing",
+        "neuroscience concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Offset adaptation (OA) refers to a model proposed by Zhang et al. that enhances phase locking in the auditory nerve and improves automatic speech recognition accuracy by addressing the dead time period in inner hair cell synapse models.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "offset adaptation",
+          "local_types": [
+            "phenomenon",
+            "theoretical concept",
+            "model",
+            "auditory processing",
+            "neuroscience concept"
+          ],
+          "iri": "Entity-offset_adaptation-Mention-1"
+        }
+      ],
+      "relevance": 0.72119140625
+    },
+    "Entity-auditory_processing_by_onset_neuron": {
+      "node_id": "auditory_processing_by_onset_neuron",
+      "disambiguation_index": 0,
+      "label": "auditory processing by onset neurons",
+      "aliases": [
+        "auditory processing by onset neurons"
+      ],
+      "types": [
+        "process",
+        "neuron"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Auditory processing by onset neurons refers to the critical role that onset neurons play in the auditory brainstem for encoding sound information, particularly in relation to offset adaptation mechanisms that enhance auditory nerve phase locking.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "auditory processing by onset neurons",
+          "local_types": [
+            "process",
+            "neuron"
+          ],
+          "iri": "Entity-auditory_processing_by_onset_neuron-Mention-1"
+        }
+      ],
+      "relevance": 0.6943359375
+    },
+    "Entity-oa": {
+      "node_id": "oa",
+      "disambiguation_index": 0,
+      "label": "OA",
+      "aliases": [
+        "OA"
+      ],
+      "types": [
+        "concept",
+        "abbreviation",
+        "treatment",
+        "model",
+        "entity",
+        "neuroanatomical structure",
+        "offset adaptation",
+        "intervention",
+        "biological entity"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "OA refers to an offset adaptation model that enhances phase locking in the auditory nerve and improves automatic speech recognition accuracy for features derived from auditory nerve fibers.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "OA",
+          "local_types": [
+            "concept",
+            "abbreviation",
+            "treatment",
+            "entity",
+            "intervention"
+          ],
+          "iri": "Entity-oa-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "OA",
+          "local_types": [
+            "biological entity",
+            "concept",
+            "abbreviation",
+            "neuroanatomical structure"
+          ],
+          "iri": "Entity-oa-Mention-2"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "OA",
+          "local_types": [
+            "concept",
+            "model",
+            "offset adaptation"
+          ],
+          "iri": "Entity-oa-Mention-3"
+        }
+      ],
+      "relevance": 0.66650390625
+    },
+    "Entity-on-based_auditory_feature": {
+      "node_id": "on-based_auditory_feature",
+      "disambiguation_index": 0,
+      "label": "ON-based auditory features",
+      "aliases": [
+        "ON-based auditory features"
+      ],
+      "types": [
+        "auditory",
+        "feature extraction",
+        "feature",
+        "auditory feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "ON-based auditory features refer to auditory features derived from the processing of sound by onset neurons in the auditory brainstem, which are utilized in multi-layer perceptron models for improved performance in auditory tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "ON-based auditory features",
+          "local_types": [
+            "auditory",
+            "feature extraction",
+            "feature",
+            "auditory feature"
+          ],
+          "iri": "Entity-on-based_auditory_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.6416015625
+    },
+    "Entity-encoding_sound": {
+      "node_id": "encoding_sound",
+      "disambiguation_index": 0,
+      "label": "encoding sound",
+      "aliases": [
+        "encoding sound for neuronal processing",
+        "encoding sound"
+      ],
+      "types": [
+        "process",
+        "neuroscience",
+        "neuronal processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Encoding sound refers to the process of converting analog pressure waves into discrete nerve-action potentials for neuronal processing in the auditory system.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "encoding sound",
+          "local_types": [
+            "process",
+            "neuroscience"
+          ],
+          "iri": "Entity-encoding_sound-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "encoding sound for neuronal processing",
+          "local_types": [
+            "process",
+            "neuronal processing"
+          ],
+          "iri": "Entity-encoding_sound-Mention-2"
+        }
+      ],
+      "relevance": 0.63671875
+    },
+    "Entity-msg_-lrb-_modulation-filtered_spec-trogram_-rrb-": {
+      "node_id": "msg_-lrb-_modulation-filtered_spec-trogram_-rrb-",
+      "disambiguation_index": 0,
+      "label": "MSG -LRB- Modulation-filtered Spec-troGram -RRB-",
+      "aliases": [
+        "MSG -LRB- Modulation-filtered Spec-troGram -RRB-"
+      ],
+      "types": [
+        "auditory feature",
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "MSG (Modulation-filtered Spectrogram) refers to an auditory feature extraction method that enhances the representation of sound signals by filtering them based on modulation characteristics, thereby improving the performance of auditory processing models.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "MSG -LRB- Modulation-filtered Spec-troGram -RRB-",
+          "local_types": [
+            "auditory feature",
+            "method"
+          ],
+          "iri": "Entity-msg_-lrb-_modulation-filtered_spec-trogram_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.63037109375
+    },
+    "Entity-feature": {
+      "node_id": "feature",
+      "disambiguation_index": 0,
+      "label": "features",
+      "aliases": [
+        "features"
+      ],
+      "types": [
+        "data characteristic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'features' refers to the auditory characteristics derived from auditory nerve fibers (ANFs) that are used in automatic speech recognition (ASR) to enhance accuracy in sound encoding for neuronal processing.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "features",
+          "local_types": [
+            "data characteristic"
+          ],
+          "iri": "Entity-feature-Mention-1"
+        }
+      ],
+      "relevance": 0.62890625
+    },
+    "Entity-an": {
+      "node_id": "an",
+      "disambiguation_index": 0,
+      "label": "AN",
+      "aliases": [
+        "AN"
+      ],
+      "types": [
+        "auditory nerve",
+        "concept",
+        "abbreviation",
+        "anatomy"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "AN refers to the auditory nerve, which is involved in encoding sound for neuronal processing and is crucial for phase locking and auditory feature extraction.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "AN",
+          "local_types": [
+            "concept",
+            "abbreviation",
+            "anatomy"
+          ],
+          "iri": "Entity-an-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "AN",
+          "local_types": [
+            "auditory nerve",
+            "anatomy"
+          ],
+          "iri": "Entity-an-Mention-2"
+        }
+      ],
+      "relevance": 0.625
+    },
+    "Entity-novel_feature": {
+      "node_id": "novel_feature",
+      "disambiguation_index": 0,
+      "label": "novel features",
+      "aliases": [
+        "novel features"
+      ],
+      "types": [
+        "concept",
+        "innovation",
+        "feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'novel features' refers to innovative auditory features derived from auditory nerve fibers and onset neurons that researchers are encouraged to explore using multi-layer perceptrons for improved performance in sound encoding and processing.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "novel features",
+          "local_types": [
+            "concept",
+            "innovation",
+            "feature"
+          ],
+          "iri": "Entity-novel_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.60986328125
+    },
+    "Entity-onset_neuron": {
+      "node_id": "onset_neuron",
+      "disambiguation_index": 0,
+      "label": "onset neurons",
+      "aliases": [
+        "ONs",
+        "onset neurons"
+      ],
+      "types": [
+        "biological structure",
+        "neuroanatomical structure",
+        "neuroscience",
+        "neuron",
+        "neuron type",
+        "onset neurons",
+        "biological entity",
+        "anatomy"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Onset neurons (ONs) are a type of neuron in the auditory brainstem that play a critical role in processing auditory information, particularly in relation to the timing of sound onset.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "onset neurons",
+          "local_types": [
+            "biological structure",
+            "neuroanatomical structure",
+            "neuroscience",
+            "neuron",
+            "neuron type",
+            "biological entity"
+          ],
+          "iri": "Entity-onset_neuron-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "ONs",
+          "local_types": [
+            "onset neurons",
+            "anatomy"
+          ],
+          "iri": "Entity-onset_neuron-Mention-2"
+        }
+      ],
+      "relevance": 0.6064453125
+    },
+    "Entity-phase_locking": {
+      "node_id": "phase_locking",
+      "disambiguation_index": 0,
+      "label": "phase locking",
+      "aliases": [
+        "phase locking",
+        "phase locking in the auditory nerve"
+      ],
+      "types": [
+        "auditory",
+        "phenomenon",
+        "neuroscience concept",
+        "auditory processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Phase locking is a phenomenon in auditory processing where the firing of neurons in response to sound waves is synchronized with the phase of the sound wave, allowing for precise timing of auditory signals in the nervous system.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "phase locking",
+          "local_types": [
+            "phenomenon",
+            "auditory processing",
+            "neuroscience concept"
+          ],
+          "iri": "Entity-phase_locking-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "phase locking in the auditory nerve",
+          "local_types": [
+            "phenomenon",
+            "auditory"
+          ],
+          "iri": "Entity-phase_locking-Mention-2"
+        }
+      ],
+      "relevance": 0.60595703125
+    },
+    "Entity-pool_model_of_the_inner_hair_cell_synapse": {
+      "node_id": "pool_model_of_the_inner_hair_cell_synapse",
+      "disambiguation_index": 0,
+      "label": "pool models of the inner hair cell synapse",
+      "aliases": [
+        "Recent pool models of the inner hair cell synapse",
+        "pool models of the inner hair cell synapse"
+      ],
+      "types": [
+        "biological structure",
+        "model",
+        "synapse",
+        "biological model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'pool models of the inner hair cell synapse' refer to theoretical frameworks used to simulate the synaptic behavior of inner hair cells in the auditory system, particularly in relation to their response to intense stimuli and the associated dead time in neural signaling.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "pool models of the inner hair cell synapse",
+          "local_types": [
+            "model",
+            "biological model",
+            "synapse"
+          ],
+          "iri": "Entity-pool_model_of_the_inner_hair_cell_synapse-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Recent pool models of the inner hair cell synapse",
+          "local_types": [
+            "model",
+            "biological structure"
+          ],
+          "iri": "Entity-pool_model_of_the_inner_hair_cell_synapse-Mention-2"
+        }
+      ],
+      "relevance": 0.5966796875
+    },
+    "Entity-asr": {
+      "node_id": "asr",
+      "disambiguation_index": 0,
+      "label": "ASR",
+      "aliases": [
+        "automatic speech recognition",
+        "ASR"
+      ],
+      "types": [
+        "automatic speech recognition",
+        "concept",
+        "abbreviation",
+        "artificial intelligence",
+        "method",
+        "methodology",
+        "speech recognition",
+        "technology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "ASR refers to automatic speech recognition, a technology used to convert spoken language into text, which in this context is utilized to enhance the accuracy of auditory processing features derived from auditory nerve fibers.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ASR",
+          "local_types": [
+            "abbreviation",
+            "concept"
+          ],
+          "iri": "Entity-asr-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "ASR",
+          "local_types": [
+            "automatic speech recognition",
+            "speech recognition",
+            "technology"
+          ],
+          "iri": "Entity-asr-Mention-2"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "automatic speech recognition",
+          "local_types": [
+            "artificial intelligence",
+            "methodology",
+            "technology",
+            "method"
+          ],
+          "iri": "Entity-asr-Mention-3"
+        }
+      ],
+      "relevance": 0.5869140625
+    },
+    "Entity-analog_pressure_wave": {
+      "node_id": "analog_pressure_wave",
+      "disambiguation_index": 0,
+      "label": "analog pressure wave",
+      "aliases": [
+        "analog pressure wave"
+      ],
+      "types": [
+        "pressure wave",
+        "physical phenomenon",
+        "sound",
+        "signal"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The analog pressure wave refers to the continuous physical phenomenon of sound waves that are converted into discrete nerve-action potentials for neuronal processing in the auditory system.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "analog pressure wave",
+          "local_types": [
+            "pressure wave",
+            "physical phenomenon",
+            "sound",
+            "signal"
+          ],
+          "iri": "Entity-analog_pressure_wave-Mention-1"
+        }
+      ],
+      "relevance": 0.583984375
+    },
+    "Entity-feature_derived_from_an_fiber": {
+      "node_id": "feature_derived_from_an_fiber",
+      "disambiguation_index": 0,
+      "label": "features derived from AN fibers",
+      "aliases": [
+        "features derived from AN fibers"
+      ],
+      "types": [
+        "feature",
+        "auditory",
+        "biological feature",
+        "AN fibers",
+        "features"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Features derived from AN fibers refer to auditory characteristics or metrics that are extracted from the action potentials generated by auditory nerve fibers, which are crucial for sound encoding and processing in the auditory system.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "features derived from AN fibers",
+          "local_types": [
+            "feature",
+            "auditory",
+            "biological feature",
+            "AN fibers",
+            "features"
+          ],
+          "iri": "Entity-feature_derived_from_an_fiber-Mention-1"
+        }
+      ],
+      "relevance": 0.58349609375
+    },
+    "Entity-an_fiber": {
+      "node_id": "an_fiber",
+      "disambiguation_index": 0,
+      "label": "AN fibers",
+      "aliases": [
+        "AN fibers",
+        "ANFs"
+      ],
+      "types": [
+        "biological structure",
+        "concept",
+        "abbreviation",
+        "entity",
+        "nervous system",
+        "auditory nerve fibers",
+        "neuroscience",
+        "anatomy",
+        "AN fibers"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "AN fibers, or auditory nerve fibers (ANFs), are specialized nerve fibers in the auditory system that transmit sound information from the inner hair cells of the cochlea to the brain, playing a crucial role in auditory processing.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "AN fibers",
+          "local_types": [
+            "biological structure",
+            "neuroscience",
+            "nervous system",
+            "anatomy"
+          ],
+          "iri": "Entity-an_fiber-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ANFs",
+          "local_types": [
+            "concept",
+            "abbreviation",
+            "entity",
+            "auditory nerve fibers",
+            "anatomy",
+            "AN fibers"
+          ],
+          "iri": "Entity-an_fiber-Mention-2"
+        }
+      ],
+      "relevance": 0.58203125
+    },
+    "Entity-auditory_processing": {
+      "node_id": "auditory_processing",
+      "disambiguation_index": 0,
+      "label": "auditory processing",
+      "aliases": [
+        "auditory processing"
+      ],
+      "types": [
+        "process",
+        "field",
+        "biological process",
+        "neuroscience",
+        "cognitive function"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Auditory processing refers to the neurological and cognitive processes involved in the perception, interpretation, and understanding of sound, particularly in how the brain processes auditory information.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "auditory processing",
+          "local_types": [
+            "process",
+            "field",
+            "biological process",
+            "neuroscience",
+            "cognitive function"
+          ],
+          "iri": "Entity-auditory_processing-Mention-1"
+        }
+      ],
+      "relevance": 0.56982421875
+    },
+    "Entity-discrete_nerve-action_potential": {
+      "node_id": "discrete_nerve-action_potential",
+      "disambiguation_index": 0,
+      "label": "discrete nerve-action potentials",
+      "aliases": [
+        "discrete nerve-action potentials"
+      ],
+      "types": [
+        "nerve-action potential",
+        "neural signal",
+        "signal"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Discrete nerve-action potentials refer to the quantized electrical signals generated by neurons in response to stimuli, which are essential for encoding sound for neuronal processing.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "discrete nerve-action potentials",
+          "local_types": [
+            "nerve-action potential",
+            "neural signal",
+            "signal"
+          ],
+          "iri": "Entity-discrete_nerve-action_potential-Mention-1"
+        }
+      ],
+      "relevance": 0.5576171875
+    },
+    "Entity-inner_hair_cell_synapse": {
+      "node_id": "inner_hair_cell_synapse",
+      "disambiguation_index": 0,
+      "label": "inner hair cell synapse",
+      "aliases": [
+        "inner hair cell synapse"
+      ],
+      "types": [
+        "biological structure",
+        "neuroscience"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The inner hair cell synapse is a specialized junction in the auditory system where inner hair cells of the cochlea communicate with afferent neurons, playing a crucial role in the transmission of sound signals to the brain.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "inner hair cell synapse",
+          "local_types": [
+            "biological structure",
+            "neuroscience"
+          ],
+          "iri": "Entity-inner_hair_cell_synapse-Mention-1"
+        }
+      ],
+      "relevance": 0.55517578125
+    },
+    "Entity-auditory_feature": {
+      "node_id": "auditory_feature",
+      "disambiguation_index": 0,
+      "label": "auditory features",
+      "aliases": [
+        "auditory features"
+      ],
+      "types": [
+        "feature",
+        "feature type",
+        "signal processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Auditory features refer to the characteristics or attributes of sound that can be analyzed and processed, often used in the context of signal processing and auditory perception.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "auditory features",
+          "local_types": [
+            "feature",
+            "feature type",
+            "signal processing"
+          ],
+          "iri": "Entity-auditory_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.55322265625
+    },
+    "Entity-asr_accuracy": {
+      "node_id": "asr_accuracy",
+      "disambiguation_index": 0,
+      "label": "ASR accuracy",
+      "aliases": [
+        "ASR accuracy"
+      ],
+      "types": [
+        "performance metric",
+        "metric",
+        "accuracy",
+        "signal processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "ASR accuracy refers to the measure of how accurately an Automatic Speech Recognition (ASR) system can transcribe spoken language into text.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ASR accuracy",
+          "local_types": [
+            "performance metric",
+            "metric",
+            "accuracy",
+            "signal processing"
+          ],
+          "iri": "Entity-asr_accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.54833984375
+    },
+    "Entity-zhang_et_al_.": {
+      "node_id": "zhang_et_al_.",
+      "disambiguation_index": 0,
+      "label": "Zhang et al.",
+      "aliases": [
+        "Zhang et al."
+      ],
+      "types": [
+        "researcher",
+        "author"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Zhang et al. refers to a group of researchers or authors who have contributed to the study of auditory processing and synaptic models in the context of inner hair cells.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Zhang et al.",
+          "local_types": [
+            "researcher",
+            "author"
+          ],
+          "iri": "Entity-zhang_et_al_.-Mention-1"
+        }
+      ],
+      "relevance": 0.5458984375
+    },
+    "Entity-dead_time_period": {
+      "node_id": "dead_time_period",
+      "disambiguation_index": 0,
+      "label": "dead time period",
+      "aliases": [
+        "the dead time period after an intense stimulus",
+        "dead time period"
+      ],
+      "types": [
+        "biological response",
+        "phenomenon"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'dead time period' refers to a specific interval following an intense stimulus during which the inner hair cell synapse is unable to respond to further stimuli, a phenomenon critical for understanding neuronal processing in auditory systems.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "dead time period",
+          "local_types": [
+            "biological response",
+            "phenomenon"
+          ],
+          "iri": "Entity-dead_time_period-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the dead time period after an intense stimulus",
+          "local_types": [
+            "phenomenon"
+          ],
+          "iri": "Entity-dead_time_period-Mention-2"
+        }
+      ],
+      "relevance": 0.5458984375
+    },
+    "Entity-multi-layer_perceptrons": {
+      "node_id": "multi-layer_perceptrons",
+      "disambiguation_index": 0,
+      "label": "Multi-layer perceptrons",
+      "aliases": [
+        "Multi-layer perceptrons",
+        "MLPs"
+      ],
+      "types": [
+        "artificial intelligence",
+        "model",
+        "multi-layer perceptrons",
+        "algorithm",
+        "machine learning",
+        "neural network",
+        "machine learning model"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Multi-layer perceptrons are a class of artificial neural networks that consist of multiple layers of nodes, where each layer is fully connected to the next, and are commonly used for supervised learning tasks in machine learning.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Multi-layer perceptrons",
+          "local_types": [
+            "artificial intelligence",
+            "model",
+            "neural network",
+            "machine learning model"
+          ],
+          "iri": "Entity-multi-layer_perceptrons-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "MLPs",
+          "local_types": [
+            "multi-layer perceptrons",
+            "model",
+            "neural network",
+            "machine learning model"
+          ],
+          "iri": "Entity-multi-layer_perceptrons-Mention-2"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "MLPs",
+          "local_types": [
+            "machine learning",
+            "algorithm",
+            "model",
+            "machine learning model"
+          ],
+          "iri": "Entity-multi-layer_perceptrons-Mention-3"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity-msg": {
+      "node_id": "msg",
+      "disambiguation_index": 0,
+      "label": "MSG",
+      "aliases": [
+        "Modulation-filtered Spec-troGram",
+        "MSG"
+      ],
+      "types": [
+        "model",
+        "auditory processing",
+        "Modulation-filtered Spec-troGram",
+        "feature",
+        "method",
+        "feature extraction method",
+        "signal processing technique",
+        "auditory feature"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "MSG refers to Modulation-filtered Spec-troGram, an auditory feature extraction method used in signal processing for analyzing sound and improving auditory processing accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "MSG",
+          "local_types": [
+            "model",
+            "auditory processing",
+            "Modulation-filtered Spec-troGram",
+            "feature",
+            "method",
+            "feature extraction method",
+            "signal processing technique",
+            "auditory feature"
+          ],
+          "iri": "Entity-msg-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Modulation-filtered Spec-troGram",
+          "local_types": [
+            "feature extraction method",
+            "auditory processing",
+            "method"
+          ],
+          "iri": "Entity-msg-Mention-2"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity-auditory_brainstem": {
+      "node_id": "auditory_brainstem",
+      "disambiguation_index": 0,
+      "label": "auditory brainstem",
+      "aliases": [
+        "auditory brainstem",
+        "the auditory brainstem"
+      ],
+      "types": [
+        "biological structure",
+        "anatomical structure",
+        "brain structure",
+        "brain region",
+        "neuroanatomical structure",
+        "neuroscience",
+        "anatomy",
+        "biological entity"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The auditory brainstem is a collection of neural structures located in the brainstem that are involved in processing auditory information from the ears before it is relayed to higher brain centers.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "auditory brainstem",
+          "local_types": [
+            "biological structure",
+            "anatomical structure",
+            "brain structure",
+            "brain region",
+            "neuroanatomical structure",
+            "neuroscience",
+            "anatomy",
+            "biological entity"
+          ],
+          "iri": "Entity-auditory_brainstem-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the auditory brainstem",
+          "local_types": [
+            "anatomical structure",
+            "brain structure"
+          ],
+          "iri": "Entity-auditory_brainstem-Mention-2"
+        }
+      ],
+      "relevance": 0.53515625
+    },
+    "Entity-auditory_nerve": {
+      "node_id": "auditory_nerve",
+      "disambiguation_index": 0,
+      "label": "auditory nerve",
+      "aliases": [
+        "auditory nerve"
+      ],
+      "types": [
+        "biological structure",
+        "nervous system",
+        "neuroscience",
+        "anatomy",
+        "nerve"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The auditory nerve is a bundle of nerve fibers that transmits auditory information from the inner ear to the brain, playing a crucial role in the sense of hearing.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "auditory nerve",
+          "local_types": [
+            "biological structure",
+            "nervous system",
+            "neuroscience",
+            "anatomy",
+            "nerve"
+          ],
+          "iri": "Entity-auditory_nerve-Mention-1"
+        }
+      ],
+      "relevance": 0.53125
+    },
+    "Entity-researcher_working_with_novel_feature": {
+      "node_id": "researcher_working_with_novel_feature",
+      "disambiguation_index": 0,
+      "label": "researchers working with novel features",
+      "aliases": [
+        "researchers working with novel features"
+      ],
+      "types": [
+        "researcher"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Researchers who are developing or utilizing innovative auditory features for sound processing and analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "researchers working with novel features",
+          "local_types": [
+            "researcher"
+          ],
+          "iri": "Entity-researcher_working_with_novel_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.51171875
+    },
+    "Entity-neuronal_processing": {
+      "node_id": "neuronal_processing",
+      "disambiguation_index": 0,
+      "label": "neuronal processing",
+      "aliases": [
+        "neuronal processing"
+      ],
+      "types": [
+        "biological process",
+        "neuroscience"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Neuronal processing refers to the biological processes by which neurons encode, transmit, and interpret information through electrical and chemical signals.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "neuronal processing",
+          "local_types": [
+            "biological process",
+            "neuroscience"
+          ],
+          "iri": "Entity-neuronal_processing-Mention-1"
+        }
+      ],
+      "relevance": 0.51025390625
+    },
+    "Entity-nerve-action_potential": {
+      "node_id": "nerve-action_potential",
+      "disambiguation_index": 0,
+      "label": "nerve-action potentials",
+      "aliases": [
+        "nerve-action potentials"
+      ],
+      "types": [
+        "neuroscience",
+        "biological signal"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Nerve-action potentials are rapid electrical signals that are generated by neurons to transmit information along their axons, facilitating communication within the nervous system.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "nerve-action potentials",
+          "local_types": [
+            "neuroscience",
+            "biological signal"
+          ],
+          "iri": "Entity-nerve-action_potential-Mention-1"
+        }
+      ],
+      "relevance": 0.488525390625
+    },
+    "Entity-researcher": {
+      "node_id": "researcher",
+      "disambiguation_index": 0,
+      "label": "researchers",
+      "aliases": [
+        "researchers"
+      ],
+      "types": [
+        "academic",
+        "researcher",
+        "person",
+        "individual"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Individuals engaged in systematic investigation and study to establish facts and reach new conclusions, typically within an academic or scientific context.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "researchers",
+          "local_types": [
+            "academic",
+            "researcher",
+            "person",
+            "individual"
+          ],
+          "iri": "Entity-researcher-Mention-1"
+        }
+      ],
+      "relevance": 0.379638671875
+    },
+    "Entity-gaussian_mixture_model": {
+      "node_id": "gaussian_mixture_model",
+      "disambiguation_index": 0,
+      "label": "Gaussian mixture models",
+      "aliases": [
+        "GMMs",
+        "standard Gaussian mixture models",
+        "Gaussian mixture models"
+      ],
+      "types": [
+        "model",
+        "Gaussian mixture models",
+        "statistical model",
+        "machine learning model"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Gaussian mixture models are probabilistic models that represent a distribution of data as a mixture of multiple Gaussian distributions, commonly used in statistical analysis and machine learning for clustering and density estimation.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Gaussian mixture models",
+          "local_types": [
+            "model",
+            "statistical model",
+            "machine learning model"
+          ],
+          "iri": "Entity-gaussian_mixture_model-Mention-1"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "GMMs",
+          "local_types": [
+            "model",
+            "Gaussian mixture models",
+            "statistical model",
+            "machine learning model"
+          ],
+          "iri": "Entity-gaussian_mixture_model-Mention-2"
+        },
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "standard Gaussian mixture models",
+          "local_types": [
+            "statistical model",
+            "model"
+          ],
+          "iri": "Entity-gaussian_mixture_model-Mention-3"
+        }
+      ],
+      "relevance": 0.370849609375
+    },
+    "Entity-visual_inspection": {
+      "node_id": "visual_inspection",
+      "disambiguation_index": 0,
+      "label": "visual inspection",
+      "aliases": [
+        "visual inspection"
+      ],
+      "types": [
+        "methodology",
+        "research technique",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Visual inspection is a qualitative assessment method that involves examining an object or phenomenon directly to gather information or evaluate its condition without the use of specialized instruments.",
+      "mentions": [
+        {
+          "reference": "Paper-90-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "visual inspection",
+          "local_types": [
+            "methodology",
+            "research technique",
+            "method"
+          ],
+          "iri": "Entity-visual_inspection-Mention-1"
+        }
+      ],
+      "relevance": 0.35498046875
+    }
+  },
+  "summary": "A critical step in encoding sound for neuronal processing occurs when the analog pressure wave is coded into discrete nerve-action potentials . Recent pool models of the inner hair cell synapse do not reproduce the dead time period after an intense stimulus , so we used visual inspection and automatic speech recognition -LRB- ASR -RRB- to investigate an offset adaptation -LRB- OA -RRB- model proposed by Zhang et al. -LSB- 1 -RSB- . OA improved phase locking in the auditory nerve -LRB- AN -RRB- and raised ASR accuracy for features derived from AN fibers -LRB- ANFs -RRB- . We also found that OA is crucial for auditory processing by onset neurons -LRB- ONs -RRB- in the next neuronal stage , the auditory brainstem . Multi-layer perceptrons -LRB- MLPs -RRB- performed much better than standard Gaussian mixture models -LRB- GMMs -RRB- for both our ANF-based and ON-based auditory features . Similar results were previously obtained with MSG -LRB- Modulation-filtered Spec-troGram -RRB- auditory features -LSB- 2 -RSB- . Thus we believe researchers working with novel features should consider trying MLPs .",
+  "triples": [
+    [
+      "Entity-analog_pressure_wave",
+      "Predicate-is_coded_into",
+      "Entity-discrete_nerve-action_potential"
+    ],
+    [
+      "Entity-encoding_sound",
+      "Predicate-occurs_when",
+      "Entity-analog_pressure_wave"
+    ],
+    [
+      "Entity-analog_pressure_wave",
+      "Predicate-is_coded_into",
+      "Entity-nerve-action_potential"
+    ],
+    [
+      "Entity-pool_model_of_the_inner_hair_cell_synapse",
+      "Predicate-do_not_reproduce",
+      "Entity-dead_time_period"
+    ],
+    [
+      "Entity-offset_adaptation",
+      "Predicate-model_proposed_by",
+      "Entity-zhang_et_al_."
+    ],
+    [
+      "Entity-zhang_et_al_.",
+      "Predicate-proposed",
+      "Entity-offset_adaptation"
+    ],
+    [
+      "Entity-asr",
+      "Predicate-is",
+      "Entity-asr"
+    ],
+    [
+      "Entity-oa",
+      "Predicate-improved",
+      "Entity-phase_locking"
+    ],
+    [
+      "Entity-oa",
+      "Predicate-raised",
+      "Entity-asr_accuracy"
+    ],
+    [
+      "Entity-asr_accuracy",
+      "Predicate-for_features_derived_from",
+      "Entity-an_fiber"
+    ],
+    [
+      "Entity-oa",
+      "Predicate-is_crucial_for",
+      "Entity-auditory_processing"
+    ],
+    [
+      "Entity-auditory_processing",
+      "Predicate-by",
+      "Entity-onset_neuron"
+    ],
+    [
+      "Entity-onset_neuron",
+      "Predicate-in_the_next_neuronal_stage",
+      "Entity-auditory_brainstem"
+    ],
+    [
+      "Entity-oa",
+      "Predicate-is_crucial_for",
+      "Entity-auditory_processing_by_onset_neuron"
+    ],
+    [
+      "Entity-multi-layer_perceptrons",
+      "Predicate-performed_better_than",
+      "Entity-gaussian_mixture_model"
+    ],
+    [
+      "Entity-msg_-lrb-_modulation-filtered_spec-trogram_-rrb-",
+      "Predicate-obtained_with",
+      "Entity-auditory_feature"
+    ],
+    [
+      "Entity-researcher_working_with_novel_feature",
+      "Predicate-should_consider_trying",
+      "Entity-multi-layer_perceptrons"
+    ],
+    [
+      "Entity-offset_adaptation",
+      "Predicate-is_crucial_for",
+      "Entity-auditory_processing_by_onset_neuron"
+    ],
+    [
+      "Entity-auditory_processing_by_onset_neuron",
+      "Predicate-is_crucial_for",
+      "Entity-oa"
+    ],
+    [
+      "Entity-offset_adaptation",
+      "Predicate-is_a_model_of",
+      "Entity-oa"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-feature_derived_from_an_fiber",
+      "skos:broader",
+      "Entity-an_fiber"
+    ],
+    [
+      "Entity-an",
+      "skos:broader",
+      "Entity-auditory_nerve"
+    ],
+    [
+      "Entity-an_fiber",
+      "skos:broader",
+      "Entity-auditory_nerve"
+    ],
+    [
+      "Entity-oa",
+      "skos:broader",
+      "Entity-offset_adaptation"
+    ],
+    [
+      "Entity-onset_neuron",
+      "skos:broader",
+      "Entity-auditory_processing_by_onset_neuron"
+    ],
+    [
+      "Entity-msg",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-msg",
+      "skos:broader",
+      "Entity-auditory_feature"
+    ],
+    [
+      "Entity-zhang_et_al_.",
+      "skos:broader",
+      "Entity-researcher"
+    ],
+    [
+      "Entity-msg",
+      "skos:broader",
+      "Entity-auditory_processing"
+    ],
+    [
+      "Entity-encoding_sound",
+      "skos:broader",
+      "Entity-neuronal_processing"
+    ],
+    [
+      "Entity-msg_-lrb-_modulation-filtered_spec-trogram_-rrb-",
+      "skos:broader",
+      "Entity-auditory_feature"
+    ],
+    [
+      "Entity-on-based_auditory_feature",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-researcher_working_with_novel_feature",
+      "skos:broader",
+      "Entity-researcher"
+    ],
+    [
+      "Entity-novel_feature",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-phase_locking",
+      "skos:broader",
+      "Entity-auditory_processing"
+    ],
+    [
+      "Entity-auditory_feature",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-on-based_auditory_feature",
+      "skos:broader",
+      "Entity-auditory_feature"
+    ],
+    [
+      "Entity-feature_derived_from_an_fiber",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-offset_adaptation",
+      "skos:broader",
+      "Entity-auditory_processing"
+    ],
+    [
+      "Entity-discrete_nerve-action_potential",
+      "skos:broader",
+      "Entity-nerve-action_potential"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_coded_into": {
+      "label": "is coded into",
+      "description": "The predicate 'is coded into' indicates a transformation or representation process where the subject is converted or encoded into a different form or format represented by the object. This implies that the original entity (subject) is translated into a new structure or signal (object) that retains essential information or characteristics of the original, often for the purpose of communication, processing, or interpretation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-occurs_when": {
+      "label": "occurs when",
+      "description": "The predicate 'occurs when' establishes a temporal or conditional relationship between the subject and the object, indicating that the event or process represented by the subject takes place in response to, or as a result of, the conditions or phenomena represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-do_not_reproduce": {
+      "label": "do not reproduce",
+      "description": "The predicate 'do not reproduce' indicates a relationship where the subject is unable or not permitted to generate or create a copy or equivalent of the object. In this context, it suggests that the subject's processes or behaviors are restricted in such a way that they cannot lead to the replication or manifestation of the object in question.",
+      "disambiguation_index": 0
+    },
+    "Predicate-model_proposed_by": {
+      "label": "model proposed by",
+      "description": "The predicate 'model proposed by' establishes a relationship where the subject represents a specific concept, method, or framework that has been introduced or suggested, while the object identifies the individual or group responsible for the proposal. This connection indicates that the subject is a result of the intellectual contribution or research efforts of the entity mentioned in the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-proposed": {
+      "label": "proposed",
+      "description": "The predicate 'proposed' indicates that the subject has put forward a suggestion, idea, or plan regarding the object. It signifies an act of recommending or advocating for a particular concept, method, or approach, often in a formal or academic context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' serves as a linking verb that establishes an identity or equivalence between the subject and the object. It indicates that the subject possesses the qualities, characteristics, or identity represented by the object, effectively asserting that both refer to the same entity or concept.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improved": {
+      "label": "improved",
+      "description": "The predicate 'improved' indicates a positive change or enhancement in the quality, performance, or effectiveness of the subject in relation to the object. It suggests that the subject has undergone a process that has led to a better state or condition concerning the object, thereby signifying progress or advancement.",
+      "disambiguation_index": 0
+    },
+    "Predicate-raised": {
+      "label": "raised",
+      "description": "The predicate 'raised' indicates an action or process by which the subject (OA) has increased, improved, or elevated the state, level, or quality of the object (ASR accuracy). This suggests a positive change or enhancement resulting from the subject's influence or intervention.",
+      "disambiguation_index": 0
+    },
+    "Predicate-for_features_derived_from": {
+      "label": "for features derived from",
+      "description": "The predicate 'for features derived from' indicates a relationship where the subject is associated with or influenced by specific characteristics or attributes that originate from the object. It suggests that the subject's qualities, performance, or metrics are contingent upon or enhanced by the features that are obtained or extracted from the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_crucial_for": {
+      "label": "is crucial for",
+      "description": "The predicate 'is crucial for' indicates that the subject plays an essential role in enabling, supporting, or facilitating the object. It suggests that the object cannot be effectively achieved, understood, or performed without the presence or influence of the subject, highlighting the importance of the relationship between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-by": {
+      "label": "by",
+      "description": "The predicate 'by' indicates a means, method, or agent through which the subject is achieved or influenced by the object. It establishes a relationship where the object serves as a facilitator or contributor to the action or state represented by the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-in_the_next_neuronal_stage": {
+      "label": "in the next neuronal stage",
+      "description": "The predicate 'in the next neuronal stage' indicates a sequential progression or transition in the development or functioning of neuronal elements, linking a subject (such as a type of neuron) to an object (such as a specific brain region or neuronal structure) that represents the subsequent phase in a neural pathway or process.",
+      "disambiguation_index": 0
+    },
+    "Predicate-performed_better_than": {
+      "label": "performed better than",
+      "description": "The predicate 'performed better than' establishes a comparative relationship between the subject and the object, indicating that the subject achieved superior results or outcomes in a specific context or evaluation compared to the object. This comparison often pertains to performance metrics, effectiveness, or efficiency in a given task or set of criteria.",
+      "disambiguation_index": 0
+    },
+    "Predicate-obtained_with": {
+      "label": "obtained with",
+      "description": "The predicate 'obtained with' indicates a relationship where the subject is derived or produced through the use of the object. It suggests that the object serves as a means, method, or tool that facilitates the acquisition or generation of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-should_consider_trying": {
+      "label": "should consider trying",
+      "description": "The predicate 'should consider trying' indicates a recommendation or suggestion for the subject to explore or experiment with the object. It implies that the subject may benefit from evaluating the object as a potential option or approach, encouraging an open-minded attitude towards new possibilities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_a_model_of": {
+      "label": "is a model of",
+      "description": "The predicate 'is a model of' establishes a relationship where the subject represents a conceptual or theoretical framework that exemplifies, illustrates, or serves as a representation of the object. This indicates that the subject can be used to understand, analyze, or replicate the characteristics or behaviors associated with the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a more specific instance or subset of the concept represented by the object. This relationship implies that the object encompasses a wider category or classification that includes the subject, thereby providing a context in which the subject can be understood as part of a larger framework.",
+      "disambiguation_index": 0
+    }
+  }
+}

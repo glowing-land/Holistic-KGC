@@ -1,0 +1,1112 @@
+{
+  "iri": "Paper-46",
+  "title": "ECCV_2012_30_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-46-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-46-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper considers the problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+              "text": "Hitherto , smooth motion has been encouraged using a trajectory basis , yielding a hard combinatorial problem with time complexity growing exponentially in the number of frames ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-3",
+              "text": "Branch and bound strategies have previously attempted to curb this complexity whilst maintaining global optimality ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-4",
+              "text": "However , they provide no guarantee of being more efficient than exhaustive search ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+              "text": "Inspired by recent work which reconstructs general trajectories using compact high-pass filters , we develop a dynamic programming approach which scales linearly in the number of frames , leveraging the intrinsically local nature of filter interactions ."
+            },
+            {
+              "iri": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+              "text": "Extension to affine projection enables reconstruction without estimating cameras ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005133152008056641,
+    16.488322257995605,
+    22.86289954185486,
+    20.93908190727234,
+    0.022087574005126953,
+    9.465217590332031e-05,
+    0.00012922286987304688,
+    38.90549564361572,
+    44.01209902763367,
+    1.2022676467895508,
+    15.232380151748657,
+    0.009920120239257812,
+    0.0001990795135498047,
+    29.4876811504364,
+    1.1138672828674316,
+    0.016500473022460938,
+    1.0848286151885986,
+    3.170867681503296,
+    8.291873931884766,
+    9.240458011627197,
+    41.10288953781128,
+    1.7897906303405762,
+    17.872825145721436,
+    0.8041830062866211,
+    0.0005178451538085938,
+    0.011690616607666016
+  ],
+  "nodes": {
+    "Entity-with_time_complexity_growing_exponentially_in_the_number_of_frame": {
+      "node_id": "with_time_complexity_growing_exponentially_in_the_number_of_frame",
+      "disambiguation_index": 0,
+      "label": "with time complexity growing exponentially in the number of frames",
+      "aliases": [
+        "with time complexity growing exponentially in the number of frames"
+      ],
+      "types": [
+        "complexity",
+        "phenomenon"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences, which becomes increasingly computationally complex as the number of input frames increases.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "with time complexity growing exponentially in the number of frames",
+          "local_types": [
+            "complexity",
+            "phenomenon"
+          ],
+          "iri": "Entity-with_time_complexity_growing_exponentially_in_the_number_of_frame-Mention-1"
+        }
+      ],
+      "relevance": 0.78125
+    },
+    "Entity-yielding_a_hard_combinatorial_problem": {
+      "node_id": "yielding_a_hard_combinatorial_problem",
+      "disambiguation_index": 0,
+      "label": "yielding a hard combinatorial problem",
+      "aliases": [
+        "yielding a hard combinatorial problem"
+      ],
+      "types": [
+        "problem",
+        "challenge"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The use of trajectory basis for encouraging smooth motion in reconstructing 3D articulated tree motion from 2D point correspondences, resulting in an exponentially growing time complexity.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "yielding a hard combinatorial problem",
+          "local_types": [
+            "problem",
+            "challenge"
+          ],
+          "iri": "Entity-yielding_a_hard_combinatorial_problem-Mention-1"
+        }
+      ],
+      "relevance": 0.7705078125
+    },
+    "Entity-reconstruction_without_estimating_camera": {
+      "node_id": "reconstruction_without_estimating_camera",
+      "disambiguation_index": 0,
+      "label": "reconstruction without estimating cameras",
+      "aliases": [
+        "reconstruction without estimating cameras"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A technique for reconstructing motion of a 3D articulated tree from 2D point correspondences, which extends traditional approaches by leveraging affine projection and eliminating the need to estimate camera parameters.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "reconstruction without estimating cameras",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-reconstruction_without_estimating_camera-Mention-1"
+        }
+      ],
+      "relevance": 0.76171875
+    },
+    "Entity-problem_of_reconstructing_the_motion_of_a_3d_articulated_tree_from_2d_point_correspondence_subject_to_some_temporal_prior": {
+      "node_id": "problem_of_reconstructing_the_motion_of_a_3d_articulated_tree_from_2d_point_correspondence_subject_to_some_temporal_prior",
+      "disambiguation_index": 0,
+      "label": "problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior",
+      "aliases": [
+        "the problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior",
+        "problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior"
+      ],
+      "types": [
+        "problem",
+        "motion reconstruction",
+        "computational challenge",
+        "mathematical problem"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The task of estimating the movement of a three-dimensional tree-like structure with interconnected parts (articulated tree) based on two-dimensional image data and considering previous time-related information.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior",
+          "local_types": [
+            "computational challenge",
+            "mathematical problem"
+          ],
+          "iri": "Entity-problem_of_reconstructing_the_motion_of_a_3d_articulated_tree_from_2d_point_correspondence_subject_to_some_temporal_prior-Mention-1"
+        },
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior",
+          "local_types": [
+            "problem",
+            "motion reconstruction"
+          ],
+          "iri": "Entity-problem_of_reconstructing_the_motion_of_a_3d_articulated_tree_from_2d_point_correspondence_subject_to_some_temporal_prior-Mention-2"
+        }
+      ],
+      "relevance": 0.7509765625
+    },
+    "Entity-this_complexity": {
+      "node_id": "this_complexity",
+      "disambiguation_index": 0,
+      "label": "this complexity",
+      "aliases": [
+        "this complexity"
+      ],
+      "types": [
+        "complexity"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The exponential growth of time complexity when reconstructing the motion of a 3D articulated tree from 2D point correspondences.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this complexity",
+          "local_types": [
+            "complexity"
+          ],
+          "iri": "Entity-this_complexity-Mention-1"
+        }
+      ],
+      "relevance": 0.69580078125
+    },
+    "Entity-trajectory_basis": {
+      "node_id": "trajectory_basis",
+      "disambiguation_index": 0,
+      "label": "trajectory basis",
+      "aliases": [
+        "trajectory basis",
+        "a trajectory basis"
+      ],
+      "types": [
+        "approach",
+        "basis",
+        "mathematics",
+        "algorithm",
+        "methodology",
+        "algorithmic approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A mathematical approach or framework used to encourage smooth motion and reconstruct the trajectory of an articulated tree from 2D point correspondences.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "trajectory basis",
+          "local_types": [
+            "approach",
+            "mathematics",
+            "algorithm",
+            "methodology",
+            "algorithmic approach"
+          ],
+          "iri": "Entity-trajectory_basis-Mention-1"
+        },
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a trajectory basis",
+          "local_types": [
+            "approach",
+            "methodology",
+            "basis"
+          ],
+          "iri": "Entity-trajectory_basis-Mention-2"
+        }
+      ],
+      "relevance": 0.6884765625
+    },
+    "Entity-motion_of_a_3d_articulated_tree": {
+      "node_id": "motion_of_a_3d_articulated_tree",
+      "disambiguation_index": 0,
+      "label": "motion of a 3D articulated tree",
+      "aliases": [
+        "motion of a 3D articulated tree"
+      ],
+      "types": [
+        "computer vision task",
+        "machine learning application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of tracking and describing the movement patterns of a three-dimensional structure composed of interconnected parts.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "motion of a 3D articulated tree",
+          "local_types": [
+            "computer vision task",
+            "machine learning application"
+          ],
+          "iri": "Entity-motion_of_a_3d_articulated_tree-Mention-1"
+        }
+      ],
+      "relevance": 0.66162109375
+    },
+    "Entity-recent_work_which_reconstructs_general_trajectory_using_compact_high-pass_filter": {
+      "node_id": "recent_work_which_reconstructs_general_trajectory_using_compact_high-pass_filter",
+      "disambiguation_index": 0,
+      "label": "recent work which reconstructs general trajectories using compact high-pass filters",
+      "aliases": [
+        "recent work which reconstructs general trajectories using compact high-pass filters"
+      ],
+      "types": [
+        "work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A previous research study that developed an approach for reconstructing general motion trajectories by applying compact high-pass filters.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "recent work which reconstructs general trajectories using compact high-pass filters",
+          "local_types": [
+            "work"
+          ],
+          "iri": "Entity-recent_work_which_reconstructs_general_trajectory_using_compact_high-pass_filter-Mention-1"
+        }
+      ],
+      "relevance": 0.6591796875
+    },
+    "Entity-3d_articulated_tree": {
+      "node_id": "3d_articulated_tree",
+      "disambiguation_index": 0,
+      "label": "3D articulated tree",
+      "aliases": [
+        "3D articulated tree"
+      ],
+      "types": [
+        "object",
+        "concept",
+        "tree"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A three-dimensional representation of a tree-like structure with movable parts or joints.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "3D articulated tree",
+          "local_types": [
+            "object",
+            "concept",
+            "tree"
+          ],
+          "iri": "Entity-3d_articulated_tree-Mention-1"
+        }
+      ],
+      "relevance": 0.58984375
+    },
+    "Entity-extension_to_affine_projection_enables_reconstruction_without_estimating_camera": {
+      "node_id": "extension_to_affine_projection_enables_reconstruction_without_estimating_camera",
+      "disambiguation_index": 0,
+      "label": "Extension to affine projection enables reconstruction without estimating cameras",
+      "aliases": [
+        "Extension to affine projection",
+        "Extension to affine projection enables reconstruction without estimating cameras"
+      ],
+      "types": [
+        "method",
+        "extension"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method or technique that extends the concept of affine projection, enabling reconstruction without estimating cameras.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Extension to affine projection enables reconstruction without estimating cameras",
+          "local_types": [
+            "extension"
+          ],
+          "iri": "Entity-extension_to_affine_projection_enables_reconstruction_without_estimating_camera-Mention-1"
+        },
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Extension to affine projection",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-extension_to_affine_projection_enables_reconstruction_without_estimating_camera-Mention-2"
+        }
+      ],
+      "relevance": 0.57177734375
+    },
+    "Entity-dynamic_programming_approach": {
+      "node_id": "dynamic_programming_approach",
+      "disambiguation_index": 0,
+      "label": "dynamic programming approach",
+      "aliases": [
+        "a dynamic programming approach",
+        "dynamic programming approach"
+      ],
+      "types": [
+        "approach",
+        "computational methodology",
+        "computational complexity",
+        "algorithm",
+        "algorithmic solution",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computational methodology that solves complex problems by breaking them down into smaller subproblems and solving each one recursively.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "dynamic programming approach",
+          "local_types": [
+            "approach",
+            "computational methodology",
+            "algorithm",
+            "computational complexity",
+            "algorithmic solution",
+            "methodology"
+          ],
+          "iri": "Entity-dynamic_programming_approach-Mention-1"
+        },
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a dynamic programming approach",
+          "local_types": [
+            "approach"
+          ],
+          "iri": "Entity-dynamic_programming_approach-Mention-2"
+        }
+      ],
+      "relevance": 0.5400390625
+    },
+    "Entity-branch_and_bound_strategy": {
+      "node_id": "branch_and_bound_strategy",
+      "disambiguation_index": 0,
+      "label": "Branch and bound strategies",
+      "aliases": [
+        "Branch and bound strategies",
+        "branch and bound strategies"
+      ],
+      "types": [
+        "optimization",
+        "algorithm",
+        "problem-solving method",
+        "algorithms",
+        "method",
+        "optimization technique",
+        "strategy"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A family of optimization algorithms that use a combination of branching and bounding techniques to efficiently search for optimal solutions.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Branch and bound strategies",
+          "local_types": [
+            "optimization",
+            "algorithm",
+            "problem-solving method",
+            "algorithms",
+            "method",
+            "optimization technique",
+            "strategy"
+          ],
+          "iri": "Entity-branch_and_bound_strategy-Mention-1"
+        }
+      ],
+      "relevance": 0.525390625
+    },
+    "Entity-affine_projection": {
+      "node_id": "affine_projection",
+      "disambiguation_index": 0,
+      "label": "affine projection",
+      "aliases": [
+        "affine projection"
+      ],
+      "types": [
+        "mathematical concept",
+        "geometric transformation",
+        "projection technique",
+        "algorithm"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A geometric transformation that maps a point or set of points from one coordinate system to another, preserving straight lines and ratios.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "affine projection",
+          "local_types": [
+            "mathematical concept",
+            "geometric transformation",
+            "projection technique",
+            "algorithm"
+          ],
+          "iri": "Entity-affine_projection-Mention-1"
+        }
+      ],
+      "relevance": 0.525390625
+    },
+    "Entity-temporal_prior": {
+      "node_id": "temporal_prior",
+      "disambiguation_index": 0,
+      "label": "temporal prior",
+      "aliases": [
+        "temporal prior"
+      ],
+      "types": [
+        "mathematical constraint",
+        "algorithmic consideration"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A constraint or consideration that takes into account the sequence and ordering of events over time.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "temporal prior",
+          "local_types": [
+            "mathematical constraint",
+            "algorithmic consideration"
+          ],
+          "iri": "Entity-temporal_prior-Mention-1"
+        }
+      ],
+      "relevance": 0.50439453125
+    },
+    "Entity-2d_point_correspondence": {
+      "node_id": "2d_point_correspondence",
+      "disambiguation_index": 0,
+      "label": "2D point correspondences",
+      "aliases": [
+        "2D point correspondences"
+      ],
+      "types": [
+        "data structure",
+        "image processing concept",
+        "points",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of pairs of two-dimensional points that have been matched or associated with each other, often used in image processing and computer vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "2D point correspondences",
+          "local_types": [
+            "data structure",
+            "image processing concept",
+            "points",
+            "data"
+          ],
+          "iri": "Entity-2d_point_correspondence-Mention-1"
+        }
+      ],
+      "relevance": 0.498779296875
+    },
+    "Entity-compact_high-pass_filter": {
+      "node_id": "compact_high-pass_filter",
+      "disambiguation_index": 0,
+      "label": "compact high-pass filters",
+      "aliases": [
+        "compact high-pass filters"
+      ],
+      "types": [
+        "technique",
+        "algorithm",
+        "filter",
+        "filtering",
+        "signal processing tool",
+        "signal processing",
+        "filtering algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of signal processing tool that removes low-frequency components from a signal.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "compact high-pass filters",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "filter",
+            "filtering",
+            "signal processing tool",
+            "signal processing",
+            "filtering algorithm"
+          ],
+          "iri": "Entity-compact_high-pass_filter-Mention-1"
+        }
+      ],
+      "relevance": 0.484130859375
+    },
+    "Entity-frame": {
+      "node_id": "frame",
+      "disambiguation_index": 0,
+      "label": "frames",
+      "aliases": [
+        "frames"
+      ],
+      "types": [
+        "unit of measurement",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A unit of measurement or data structure representing individual instances of time-stamped motion in a sequence.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "frames",
+          "local_types": [
+            "unit of measurement",
+            "data structure"
+          ],
+          "iri": "Entity-frame-Mention-1"
+        },
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "frames",
+          "local_types": [
+            "unit of measurement",
+            "data structure"
+          ],
+          "iri": "Entity-frame-Mention-2"
+        }
+      ],
+      "relevance": 0.48193359375
+    },
+    "Entity-general_trajectory": {
+      "node_id": "general_trajectory",
+      "disambiguation_index": 0,
+      "label": "general trajectories",
+      "aliases": [
+        "general trajectories"
+      ],
+      "types": [
+        "concept",
+        "idea"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A conceptual or abstract path or direction that something follows",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "general trajectories",
+          "local_types": [
+            "concept",
+            "idea"
+          ],
+          "iri": "Entity-general_trajectory-Mention-1"
+        }
+      ],
+      "relevance": 0.461181640625
+    },
+    "Entity-extension": {
+      "node_id": "extension",
+      "disambiguation_index": 0,
+      "label": "Extension",
+      "aliases": [
+        "Extension"
+      ],
+      "types": [
+        "concept",
+        "algorithm",
+        "method"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A technique or approach for extending or modifying a process, algorithm, or system.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Extension",
+          "local_types": [
+            "concept",
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-extension-Mention-1"
+        }
+      ],
+      "relevance": 0.456298828125
+    },
+    "Entity-exhaustive_search": {
+      "node_id": "exhaustive_search",
+      "disambiguation_index": 0,
+      "label": "exhaustive search",
+      "aliases": [
+        "exhaustive search"
+      ],
+      "types": [
+        "search algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic and thorough investigation or examination method that considers all possible options or solutions.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "exhaustive search",
+          "local_types": [
+            "search algorithm"
+          ],
+          "iri": "Entity-exhaustive_search-Mention-1"
+        }
+      ],
+      "relevance": 0.43505859375
+    },
+    "Entity-smooth_motion": {
+      "node_id": "smooth_motion",
+      "disambiguation_index": 0,
+      "label": "smooth motion",
+      "aliases": [
+        "smooth motion"
+      ],
+      "types": [
+        "motion",
+        "phenomenon",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A continuous and uninterrupted movement or flow",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "smooth motion",
+          "local_types": [
+            "motion",
+            "phenomenon",
+            "concept"
+          ],
+          "iri": "Entity-smooth_motion-Mention-1"
+        }
+      ],
+      "relevance": 0.433349609375
+    },
+    "Entity-the_number_of_frame": {
+      "node_id": "the_number_of_frame",
+      "disambiguation_index": 0,
+      "label": "the number of frames",
+      "aliases": [
+        "the number of frames"
+      ],
+      "types": [
+        "parameter"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The total quantity or count of individual video frame images.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the number of frames",
+          "local_types": [
+            "parameter"
+          ],
+          "iri": "Entity-the_number_of_frame-Mention-1"
+        }
+      ],
+      "relevance": 0.432373046875
+    },
+    "Entity-complexity": {
+      "node_id": "complexity",
+      "disambiguation_index": 0,
+      "label": "complexity",
+      "aliases": [
+        "complexity"
+      ],
+      "types": [
+        "problem size",
+        "computational difficulty"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The degree of intricacy or difficulty that makes a problem challenging to solve.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "complexity",
+          "local_types": [
+            "problem size",
+            "computational difficulty"
+          ],
+          "iri": "Entity-complexity-Mention-1"
+        }
+      ],
+      "relevance": 0.40185546875
+    },
+    "Entity-problem": {
+      "node_id": "problem",
+      "disambiguation_index": 0,
+      "label": "problem",
+      "aliases": [
+        "problem"
+      ],
+      "types": [
+        "mathematical problem",
+        "computational challenge"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical or computational challenge that requires finding a solution or solving an equation.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "problem",
+          "local_types": [
+            "mathematical problem",
+            "computational challenge"
+          ],
+          "iri": "Entity-problem-Mention-1"
+        }
+      ],
+      "relevance": 0.39697265625
+    },
+    "Entity-they": {
+      "node_id": "they",
+      "disambiguation_index": 0,
+      "label": "they",
+      "aliases": [
+        "they"
+      ],
+      "types": [
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An algorithm",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "they",
+          "local_types": [
+            "algorithm"
+          ],
+          "iri": "Entity-they-Mention-1"
+        }
+      ],
+      "relevance": 0.379638671875
+    },
+    "Entity-camera": {
+      "node_id": "camera",
+      "disambiguation_index": 0,
+      "label": "cameras",
+      "aliases": [
+        "cameras"
+      ],
+      "types": [
+        "optical device",
+        "photography equipment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Visual imaging devices used for capturing and recording images or videos",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "cameras",
+          "local_types": [
+            "optical device",
+            "photography equipment"
+          ],
+          "iri": "Entity-camera-Mention-1"
+        }
+      ],
+      "relevance": 0.366455078125
+    },
+    "Entity-hitherto": {
+      "node_id": "hitherto",
+      "disambiguation_index": 0,
+      "label": "Hitherto",
+      "aliases": [
+        "Hitherto"
+      ],
+      "types": [
+        "timeframe",
+        "phrase",
+        "term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A phrase used to indicate that something has happened up until a certain point or moment.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Hitherto",
+          "local_types": [
+            "timeframe",
+            "phrase",
+            "term"
+          ],
+          "iri": "Entity-hitherto-Mention-1"
+        }
+      ],
+      "relevance": 0.364013671875
+    },
+    "Entity-recent_work": {
+      "node_id": "recent_work",
+      "disambiguation_index": 0,
+      "label": "recent work",
+      "aliases": [
+        "recent work"
+      ],
+      "types": [
+        "study",
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A study or research effort that has been conducted recently",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "recent work",
+          "local_types": [
+            "study",
+            "research"
+          ],
+          "iri": "Entity-recent_work-Mention-1"
+        }
+      ],
+      "relevance": 0.362060546875
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "research paper",
+        "academic work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written work presenting research or scholarly findings, typically in an academic setting.",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "research paper",
+            "academic work"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.3525390625
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The current research paper being discussed",
+      "mentions": [
+        {
+          "reference": "Paper-46-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.344970703125
+    }
+  },
+  "summary": "This paper considers the problem of reconstructing the motion of a 3D articulated tree from 2D point correspondences subject to some temporal prior . Hitherto , smooth motion has been encouraged using a trajectory basis , yielding a hard combinatorial problem with time complexity growing exponentially in the number of frames . Branch and bound strategies have previously attempted to curb this complexity whilst maintaining global optimality . However , they provide no guarantee of being more efficient than exhaustive search . Inspired by recent work which reconstructs general trajectories using compact high-pass filters , we develop a dynamic programming approach which scales linearly in the number of frames , leveraging the intrinsically local nature of filter interactions . Extension to affine projection enables reconstruction without estimating cameras .",
+  "triples": [
+    [
+      "Entity-paper",
+      "Predicate-considers",
+      "Entity-problem"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-considers",
+      "Entity-problem_of_reconstructing_the_motion_of_a_3d_articulated_tree_from_2d_point_correspondence_subject_to_some_temporal_prior"
+    ],
+    [
+      "Entity-hitherto",
+      "Predicate-encourages",
+      "Entity-smooth_motion"
+    ],
+    [
+      "Entity-branch_and_bound_strategy",
+      "Predicate-attempted_to_curb",
+      "Entity-this_complexity"
+    ],
+    [
+      "Entity-they",
+      "Predicate-provide_no_guarantee_of_being_more_efficient_than",
+      "Entity-exhaustive_search"
+    ],
+    [
+      "Entity-the_number_of_frame",
+      "Predicate-scales_linearly_with",
+      "Entity-dynamic_programming_approach"
+    ],
+    [
+      "Entity-affine_projection",
+      "Predicate-without_estimating_cameras",
+      "Entity-camera"
+    ],
+    [
+      "Entity-extension_to_affine_projection_enables_reconstruction_without_estimating_camera",
+      "Predicate-enables",
+      "Entity-reconstruction_without_estimating_camera"
+    ],
+    [
+      "Entity-with_time_complexity_growing_exponentially_in_the_number_of_frame",
+      "Predicate-resulting",
+      "Entity-yielding_a_hard_combinatorial_problem"
+    ],
+    [
+      "Entity-reconstruction_without_estimating_camera",
+      "Predicate-extends_traditional_approaches_by_leveraging_affine_projection",
+      "Entity-with_time_complexity_growing_exponentially_in_the_number_of_frame"
+    ],
+    [
+      "Entity-reconstruction_without_estimating_camera",
+      "Predicate-extends_traditional_approaches_by_leveraging_affine_projection_and_eliminating_the_need_to_estimate_camera_parameters_yielding",
+      "Entity-yielding_a_hard_combinatorial_problem"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-problem_of_reconstructing_the_motion_of_a_3d_articulated_tree_from_2d_point_correspondence_subject_to_some_temporal_prior",
+      "skos:broader",
+      "Entity-problem"
+    ],
+    [
+      "Entity-this_complexity",
+      "skos:broader",
+      "Entity-complexity"
+    ],
+    [
+      "Entity-yielding_a_hard_combinatorial_problem",
+      "skos:broader",
+      "Entity-problem"
+    ],
+    [
+      "Entity-extension_to_affine_projection_enables_reconstruction_without_estimating_camera",
+      "skos:broader",
+      "Entity-extension"
+    ],
+    [
+      "Entity-with_time_complexity_growing_exponentially_in_the_number_of_frame",
+      "skos:broader",
+      "Entity-complexity"
+    ]
+  ],
+  "predicates": {
+    "Predicate-considers": {
+      "label": "considers",
+      "description": "To consider something means to think about it carefully and weigh its significance or implications. The subject of the predicate 'considers' is engaging in a mental process that involves evaluating, analyzing, or pondering the object, which can be an idea, issue, problem, or other concept.",
+      "disambiguation_index": 0
+    },
+    "Predicate-encourages": {
+      "label": "encourages",
+      "description": "The predicate 'encourages' indicates a relationship where the subject promotes or supports the object's development, progress, or achievement. It suggests that the subject fosters an environment conducive to the object's growth, success, or continuation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-attempted_to_curb": {
+      "label": "attempted to curb",
+      "description": "The predicate 'attempted to curb' indicates that the subject (a method or approach) tried to reduce or control the magnitude of something (the object), often with a sense of limitation, constraint, or regulation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-provide_no_guarantee_of_being_more_efficient_than": {
+      "label": "provide no guarantee of being more efficient than",
+      "description": "This predicate indicates that the subject does not offer any assurance or promise to be more efficient compared to the object. It implies a lack of superiority or advantage over the object, suggesting that both are equivalent in terms of efficiency.",
+      "disambiguation_index": 0
+    },
+    "Predicate-scales_linearly_with": {
+      "label": "scales linearly with",
+      "description": "The predicate 'scales linearly with' indicates a relationship between two entities where an increase or decrease in one entity (the subject) results in a proportional change in another entity (the object), typically describing a scaling factor that maintains proportionality.",
+      "disambiguation_index": 0
+    },
+    "Predicate-without_estimating_cameras": {
+      "label": "without estimating cameras",
+      "description": "The predicate 'without estimating cameras' indicates that a process or method does not involve calculating or determining camera positions or orientations. It suggests an absence of estimation or calculation related to cameras, which can be used to distinguish it from other processes that do estimate or calculate camera information.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enables": {
+      "label": "enables",
+      "description": "The predicate 'enables' indicates that the subject has the capability or authority to facilitate or make possible the occurrence of the object. It suggests a causal relationship where the subject's presence, action, or property allows for or permits the existence or achievement of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-resulting": {
+      "label": "resulting",
+      "description": "The predicate 'resulting' indicates that the subject has led to or brought about the object. It implies a causal relationship between the two entities, suggesting that the subject's existence, state, or behavior has contributed to the emergence of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-extends_traditional_approaches_by_leveraging_affine_projection": {
+      "label": "extends traditional approaches by leveraging affine projection",
+      "description": "This predicate indicates that a novel approach or method (subject) modifies and improves upon existing methods (traditional approaches) by incorporating affine projection techniques, resulting in an innovative solution that builds upon established foundations.",
+      "disambiguation_index": 0
+    },
+    "Predicate-extends_traditional_approaches_by_leveraging_affine_projection_and_eliminating_the_need_to_estimate_camera_parameters_yielding": {
+      "label": "extends traditional approaches by leveraging affine projection and eliminating the need to estimate camera parameters, yielding",
+      "description": "This predicate indicates that the subject's approach or method deviates from traditional methods by utilizing affine projection and eliminating the need to estimate camera parameters, resulting in a specific outcome or consequence described by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject concept is a specific instance or subcategory of a more general category or domain represented by the object. In other words, it establishes a hierarchical relationship between the two concepts, where the subject is a narrower or more specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

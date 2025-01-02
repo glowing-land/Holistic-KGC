@@ -1,0 +1,962 @@
+{
+  "iri": "Paper-43",
+  "title": "C04-1035",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-43-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-43-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper presents a machine learning approach to bare slice disambiguation in dialogue ."
+            },
+            {
+              "iri": "Paper-43-Section-1-Paragraph-1-Sentence-2",
+              "text": "We extract a set of heuristic principles from a corpus-based sample and formulate them as probabilistic Horn clauses ."
+            },
+            {
+              "iri": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+              "text": "We then use the predicates of such clauses to create a set of domain independent features to annotate an input dataset , and run two different machine learning algorithms : SLIPPER , a rule-based learning algorithm , and TiMBL , a memory-based system ."
+            },
+            {
+              "iri": "Paper-43-Section-1-Paragraph-1-Sentence-4",
+              "text": "Both learners perform well , yielding similar success rates of approx 90 % ."
+            },
+            {
+              "iri": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+              "text": "The results show that the features in terms of which we formulate our heuristic principles have significant predictive power , and that rules that closely resemble our Horn clauses can be learnt automatically from these features ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005104541778564453,
+    11.33967900276184,
+    21.390214443206787,
+    19.962450742721558,
+    0.019058942794799805,
+    8.7738037109375e-05,
+    0.00011134147644042969,
+    33.93257117271423,
+    44.055824279785156,
+    1.0741856098175049,
+    19.484261989593506,
+    0.009900569915771484,
+    0.00019860267639160156,
+    26.306432008743286,
+    13.480859756469727,
+    0.023946523666381836,
+    1.1130433082580566,
+    3.074467182159424,
+    3.2354536056518555,
+    3.3636417388916016,
+    39.20957827568054,
+    1.6893997192382812,
+    12.470851421356201,
+    0.7857193946838379,
+    0.00046753883361816406,
+    0.010396003723144531
+  ],
+  "nodes": {
+    "Entity-machine_learning_approach_to_bare_slice_disambiguation_in_dialogue": {
+      "node_id": "machine_learning_approach_to_bare_slice_disambiguation_in_dialogue",
+      "disambiguation_index": 0,
+      "label": "machine learning approach to bare slice disambiguation in dialogue",
+      "aliases": [
+        "machine learning approach to bare slice disambiguation in dialogue",
+        "a machine learning approach to bare slice disambiguation in dialogue"
+      ],
+      "types": [
+        "approach",
+        "methodology",
+        "machine learning",
+        "disambiguation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A methodology that uses machine learning algorithms, such as SLIPPER and TiMBL, to automatically learn rules for bare slice disambiguation in dialogue.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "machine learning approach to bare slice disambiguation in dialogue",
+          "local_types": [
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-machine_learning_approach_to_bare_slice_disambiguation_in_dialogue-Mention-1"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a machine learning approach to bare slice disambiguation in dialogue",
+          "local_types": [
+            "approach",
+            "machine learning",
+            "disambiguation"
+          ],
+          "iri": "Entity-machine_learning_approach_to_bare_slice_disambiguation_in_dialogue-Mention-2"
+        }
+      ],
+      "relevance": 0.80712890625
+    },
+    "Entity-the_result": {
+      "node_id": "the_result",
+      "disambiguation_index": 0,
+      "label": "the results",
+      "aliases": [
+        "the results"
+      ],
+      "types": [
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The outcomes or findings of the machine learning approach to bare slice disambiguation in dialogue, including the performance and predictive power of the two algorithms SLIPPER and TiMBL.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the results",
+          "local_types": [
+            "study"
+          ],
+          "iri": "Entity-the_result-Mention-1"
+        }
+      ],
+      "relevance": 0.80419921875
+    },
+    "Entity-our_heuristic_principle": {
+      "node_id": "our_heuristic_principle",
+      "disambiguation_index": 0,
+      "label": "our heuristic principles",
+      "aliases": [
+        "our heuristic principles"
+      ],
+      "types": [
+        "theory"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of probabilistic Horn clauses extracted from a corpus-based sample to guide machine learning algorithms in bare slice disambiguation.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "our heuristic principles",
+          "local_types": [
+            "theory"
+          ],
+          "iri": "Entity-our_heuristic_principle-Mention-1"
+        }
+      ],
+      "relevance": 0.80419921875
+    },
+    "Entity-slipper": {
+      "node_id": "slipper",
+      "disambiguation_index": 0,
+      "label": "SLIPPER",
+      "aliases": [
+        "SLIPPER, a rule-based learning algorithm",
+        "SLIPPER"
+      ],
+      "types": [
+        "rule_based_algorithm",
+        "algorithm",
+        "rule-based system",
+        "machine learning algorithm",
+        "rule-based learning algorithm",
+        "system"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A rule-based learning algorithm used for machine learning approach to bare slice disambiguation in dialogue.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "SLIPPER",
+          "local_types": [
+            "algorithm",
+            "rule-based system",
+            "machine learning algorithm",
+            "rule-based learning algorithm",
+            "system"
+          ],
+          "iri": "Entity-slipper-Mention-1"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "SLIPPER, a rule-based learning algorithm",
+          "local_types": [
+            "algorithm",
+            "rule_based_algorithm"
+          ],
+          "iri": "Entity-slipper-Mention-2"
+        }
+      ],
+      "relevance": 0.7890625
+    },
+    "Entity-both_learner": {
+      "node_id": "both_learner",
+      "disambiguation_index": 0,
+      "label": "Both learners",
+      "aliases": [
+        "Both learners"
+      ],
+      "types": [
+        "learners"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The two machine learning algorithms (SLIPPER and TiMBL) used to disambiguate bare slices in dialogue.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Both learners",
+          "local_types": [
+            "learners"
+          ],
+          "iri": "Entity-both_learner-Mention-1"
+        }
+      ],
+      "relevance": 0.76513671875
+    },
+    "Entity-the_predicate_of_such_clause": {
+      "node_id": "the_predicate_of_such_clause",
+      "disambiguation_index": 0,
+      "label": "the predicates of such clauses",
+      "aliases": [
+        "the predicates of such clauses"
+      ],
+      "types": [
+        "predicate"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The predicates of probabilistic Horn clauses used to formulate heuristic principles for bare slice disambiguation in dialogue.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the predicates of such clauses",
+          "local_types": [
+            "predicate"
+          ],
+          "iri": "Entity-the_predicate_of_such_clause-Mention-1"
+        }
+      ],
+      "relevance": 0.7490234375
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors who are presenting this machine learning approach to bare slice disambiguation in dialogue.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.68408203125
+    },
+    "Entity-probabilistic_horn_clause": {
+      "node_id": "probabilistic_horn_clause",
+      "disambiguation_index": 0,
+      "label": "probabilistic Horn clauses",
+      "aliases": [
+        "and formulate them as probabilistic Horn clauses",
+        "probabilistic Horn clauses"
+      ],
+      "types": [
+        "logical formula",
+        "mathematical concept",
+        "mathematical expression",
+        "algorithmic framework",
+        "methodology",
+        "logic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of logical formulas that combines probability theory with Horn clause logic, used to represent uncertain knowledge or make predictions.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "probabilistic Horn clauses",
+          "local_types": [
+            "mathematical expression",
+            "algorithmic framework",
+            "mathematical concept",
+            "logical formula"
+          ],
+          "iri": "Entity-probabilistic_horn_clause-Mention-1"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "and formulate them as probabilistic Horn clauses",
+          "local_types": [
+            "methodology",
+            "logic"
+          ],
+          "iri": "Entity-probabilistic_horn_clause-Mention-2"
+        }
+      ],
+      "relevance": 0.6591796875
+    },
+    "Entity-yielding_similar_success_rate_of_approx_90_": {
+      "node_id": "yielding_similar_success_rate_of_approx_90_",
+      "disambiguation_index": 0,
+      "label": "yielding similar success rates of approx 90 %",
+      "aliases": [
+        "yielding similar success rates of approx 90 %"
+      ],
+      "types": [
+        "result"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The machine learning algorithms SLIPPER and TiMBL",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "yielding similar success rates of approx 90 %",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-yielding_similar_success_rate_of_approx_90_-Mention-1"
+        }
+      ],
+      "relevance": 0.65673828125
+    },
+    "Entity-bare_slice_disambiguation": {
+      "node_id": "bare_slice_disambiguation",
+      "disambiguation_index": 0,
+      "label": "bare slice disambiguation",
+      "aliases": [
+        "bare slice disambiguation"
+      ],
+      "types": [
+        "problem",
+        "information retrieval technique",
+        "natural language processing task",
+        "task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The task of identifying and distinguishing between different types of slices or segments within a conversation, particularly when they are not explicitly labeled.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "bare slice disambiguation",
+          "local_types": [
+            "problem",
+            "information retrieval technique",
+            "natural language processing task",
+            "task"
+          ],
+          "iri": "Entity-bare_slice_disambiguation-Mention-1"
+        }
+      ],
+      "relevance": 0.62451171875
+    },
+    "Entity-horn_clause": {
+      "node_id": "horn_clause",
+      "disambiguation_index": 0,
+      "label": "Horn clauses",
+      "aliases": [
+        "Horn clauses"
+      ],
+      "types": [
+        "rule format",
+        "logic concept",
+        "logical statement"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of logical statement in the form '\u00aca1 \u2227 \u00aca2 \u2227 \u2026 \u2228 a' where each ai represents an atomic formula, used to represent rules or constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Horn clauses",
+          "local_types": [
+            "rule format",
+            "logic concept",
+            "logical statement"
+          ],
+          "iri": "Entity-horn_clause-Mention-1"
+        }
+      ],
+      "relevance": 0.6064453125
+    },
+    "Entity-machine_learning_approach": {
+      "node_id": "machine_learning_approach",
+      "disambiguation_index": 0,
+      "label": "machine learning approach",
+      "aliases": [
+        "machine learning approach"
+      ],
+      "types": [
+        "methodology",
+        "algorithm",
+        "research method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic and analytical process for training models on data, using algorithms that enable computers to learn from experience without being explicitly programmed.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "machine learning approach",
+          "local_types": [
+            "methodology",
+            "algorithm",
+            "research method"
+          ],
+          "iri": "Entity-machine_learning_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.5888671875
+    },
+    "Entity-timbl": {
+      "node_id": "timbl",
+      "disambiguation_index": 0,
+      "label": "TiMBL",
+      "aliases": [
+        "TiMBL, a memory-based system",
+        "TiMBL"
+      ],
+      "types": [
+        "memory- based system",
+        "algorithm",
+        "memory_based_system",
+        "machine learning algorithm",
+        "machine learning system",
+        "system"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "TiMBL is a memory-based machine learning system.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "TiMBL",
+          "local_types": [
+            "memory- based system",
+            "algorithm",
+            "machine learning algorithm",
+            "machine learning system",
+            "system"
+          ],
+          "iri": "Entity-timbl-Mention-1"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "TiMBL, a memory-based system",
+          "local_types": [
+            "system",
+            "memory_based_system"
+          ],
+          "iri": "Entity-timbl-Mention-2"
+        }
+      ],
+      "relevance": 0.5849609375
+    },
+    "Entity-heuristic_principle": {
+      "node_id": "heuristic_principle",
+      "disambiguation_index": 0,
+      "label": "heuristic principles",
+      "aliases": [
+        "a set of heuristic principles",
+        "heuristic principles"
+      ],
+      "types": [
+        "rule of thumb",
+        "approach",
+        "principles",
+        "guideline",
+        "methodology",
+        "heuristics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of general rules or guidelines used to make decisions, solve problems, or approach tasks",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "heuristic principles",
+          "local_types": [
+            "guideline",
+            "rule of thumb"
+          ],
+          "iri": "Entity-heuristic_principle-Mention-1"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "heuristic principles",
+          "local_types": [
+            "methodology",
+            "approach"
+          ],
+          "iri": "Entity-heuristic_principle-Mention-2"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a set of heuristic principles",
+          "local_types": [
+            "principles",
+            "heuristics"
+          ],
+          "iri": "Entity-heuristic_principle-Mention-3"
+        }
+      ],
+      "relevance": 0.556640625
+    },
+    "Entity-to_annotate_an_input_dataset": {
+      "node_id": "to_annotate_an_input_dataset",
+      "disambiguation_index": 0,
+      "label": "to annotate an input dataset",
+      "aliases": [
+        "to annotate an input dataset"
+      ],
+      "types": [
+        "annotation_task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of adding domain-independent features to an input dataset for use in machine learning algorithms.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "to annotate an input dataset",
+          "local_types": [
+            "annotation_task"
+          ],
+          "iri": "Entity-to_annotate_an_input_dataset-Mention-1"
+        }
+      ],
+      "relevance": 0.529296875
+    },
+    "Entity-a_set_of_domain_independent_feature": {
+      "node_id": "a_set_of_domain_independent_feature",
+      "disambiguation_index": 0,
+      "label": "a set of domain independent features",
+      "aliases": [
+        "these features",
+        "a set of domain independent features"
+      ],
+      "types": [
+        "feature",
+        "feature_set"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of characteristics that can be applied to annotate an input dataset without being specific to any particular domain or field.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a set of domain independent features",
+          "local_types": [
+            "feature_set"
+          ],
+          "iri": "Entity-a_set_of_domain_independent_feature-Mention-1"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "these features",
+          "local_types": [
+            "feature"
+          ],
+          "iri": "Entity-a_set_of_domain_independent_feature-Mention-2"
+        }
+      ],
+      "relevance": 0.493896484375
+    },
+    "Entity-dialogue": {
+      "node_id": "dialogue",
+      "disambiguation_index": 0,
+      "label": "dialogue",
+      "aliases": [
+        "dialogue"
+      ],
+      "types": [
+        "communication process",
+        "human-computer interaction"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A conversation or exchange of spoken words between two or more individuals, including humans and computers.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "dialogue",
+          "local_types": [
+            "communication process",
+            "human-computer interaction"
+          ],
+          "iri": "Entity-dialogue-Mention-1"
+        }
+      ],
+      "relevance": 0.49072265625
+    },
+    "Entity-input_dataset": {
+      "node_id": "input_dataset",
+      "disambiguation_index": 0,
+      "label": "input dataset",
+      "aliases": [
+        "input dataset"
+      ],
+      "types": [
+        "resource",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of data used for machine learning or other computational purposes",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "input dataset",
+          "local_types": [
+            "resource",
+            "dataset"
+          ],
+          "iri": "Entity-input_dataset-Mention-1"
+        }
+      ],
+      "relevance": 0.477783203125
+    },
+    "Entity-learner": {
+      "node_id": "learner",
+      "disambiguation_index": 0,
+      "label": "learners",
+      "aliases": [
+        "learners"
+      ],
+      "types": [
+        "individuals"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Individuals who are acquiring knowledge or skills",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "learners",
+          "local_types": [
+            "individuals"
+          ],
+          "iri": "Entity-learner-Mention-1"
+        }
+      ],
+      "relevance": 0.477294921875
+    },
+    "Entity-feature": {
+      "node_id": "feature",
+      "disambiguation_index": 0,
+      "label": "features",
+      "aliases": [
+        "features"
+      ],
+      "types": [
+        "attribute",
+        "characteristic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A property or quality that characterizes something",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "features",
+          "local_types": [
+            "attribute",
+            "characteristic"
+          ],
+          "iri": "Entity-feature-Mention-1"
+        }
+      ],
+      "relevance": 0.46142578125
+    },
+    "Entity-domain_independent_feature": {
+      "node_id": "domain_independent_feature",
+      "disambiguation_index": 0,
+      "label": "domain independent features",
+      "aliases": [
+        "domain independent features"
+      ],
+      "types": [
+        "data characteristic",
+        "attribute"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Characteristics or attributes that are not specific to any particular domain or field of study.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "domain independent features",
+          "local_types": [
+            "data characteristic",
+            "attribute"
+          ],
+          "iri": "Entity-domain_independent_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.45751953125
+    },
+    "Entity-set": {
+      "node_id": "set",
+      "disambiguation_index": 0,
+      "label": "set",
+      "aliases": [
+        "set"
+      ],
+      "types": [
+        "collection",
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection or group of data items, often used to organize and structure information.",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "set",
+          "local_types": [
+            "collection",
+            "data set"
+          ],
+          "iri": "Entity-set-Mention-1"
+        }
+      ],
+      "relevance": 0.447998046875
+    },
+    "Entity-result": {
+      "node_id": "result",
+      "disambiguation_index": 0,
+      "label": "results",
+      "aliases": [
+        "results"
+      ],
+      "types": [
+        "research finding",
+        "study outcome"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A conclusion or outcome drawn from a research study or investigation",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "results",
+          "local_types": [
+            "research finding",
+            "study outcome"
+          ],
+          "iri": "Entity-result-Mention-1"
+        }
+      ],
+      "relevance": 0.43310546875
+    },
+    "Entity-success_rate": {
+      "node_id": "success_rate",
+      "disambiguation_index": 0,
+      "label": "success rates",
+      "aliases": [
+        "success rates"
+      ],
+      "types": [
+        "performance metrics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measure of achievement or accomplishment",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "success rates",
+          "local_types": [
+            "performance metrics"
+          ],
+          "iri": "Entity-success_rate-Mention-1"
+        }
+      ],
+      "relevance": 0.423095703125
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper",
+        "paper"
+      ],
+      "types": [
+        "publication",
+        "research publication",
+        "research",
+        "paper"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A written work presenting research or findings",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "publication",
+            "research",
+            "paper"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        },
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "research publication"
+          ],
+          "iri": "Entity-this_paper-Mention-2"
+        }
+      ],
+      "relevance": 0.417724609375
+    },
+    "Entity-we_(1)": {
+      "node_id": "we_(1)",
+      "disambiguation_index": 1,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors of this paper",
+      "mentions": [
+        {
+          "reference": "Paper-43-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we_(1)-Mention-1"
+        }
+      ],
+      "relevance": 0.3984375
+    }
+  },
+  "summary": "This paper presents a machine learning approach to bare slice disambiguation in dialogue . We extract a set of heuristic principles from a corpus-based sample and formulate them as probabilistic Horn clauses . We then use the predicates of such clauses to create a set of domain independent features to annotate an input dataset , and run two different machine learning algorithms : SLIPPER , a rule-based learning algorithm , and TiMBL , a memory-based system . Both learners perform well , yielding similar success rates of approx 90 % . The results show that the features in terms of which we formulate our heuristic principles have significant predictive power , and that rules that closely resemble our Horn clauses can be learnt automatically from these features .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-machine_learning_approach_to_bare_slice_disambiguation_in_dialogue"
+    ],
+    [
+      "Entity-we",
+      "Predicate-extract",
+      "Entity-heuristic_principle"
+    ],
+    [
+      "Entity-heuristic_principle",
+      "Predicate-formulate_as",
+      "Entity-probabilistic_horn_clause"
+    ],
+    [
+      "Entity-we_(1)",
+      "Predicate-use",
+      "Entity-the_predicate_of_such_clause"
+    ],
+    [
+      "Entity-both_learner",
+      "Predicate-yielding_similar_success_rates_of_approx_90_",
+      "Entity-success_rate"
+    ],
+    [
+      "Entity-machine_learning_approach_to_bare_slice_disambiguation_in_dialogue",
+      "Predicate-yield",
+      "Entity-the_result"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-both_learner",
+      "skos:broader",
+      "Entity-learner"
+    ],
+    [
+      "Entity-machine_learning_approach_to_bare_slice_disambiguation_in_dialogue",
+      "skos:broader",
+      "Entity-machine_learning_approach"
+    ],
+    [
+      "Entity-domain_independent_feature",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-a_set_of_domain_independent_feature",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-yielding_similar_success_rate_of_approx_90_",
+      "skos:broader",
+      "Entity-result"
+    ]
+  ],
+  "predicates": {
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject provides or offers a specific idea, concept, method, or solution (represented by the object), often in an academic, professional, or creative context. It suggests a sense of introduction, exposition, or demonstration, where the subject is responsible for bringing forth and sharing the information contained in the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-extract": {
+      "label": "extract",
+      "description": "To extract means to obtain or derive something from a source, often in the form of abstract concepts, rules, or guidelines. The subject extracts the object by identifying and isolating its essential features, principles, or patterns.",
+      "disambiguation_index": 0
+    },
+    "Predicate-formulate_as": {
+      "label": "formulate as",
+      "description": "To 'formulate as' means to express or represent a concept, principle, or idea using a specific formalism, framework, or notation. This predicate indicates that the subject (e.g., heuristic principles) is being rephrased or restated in terms of another system, language, or structure (e.g., probabilistic Horn clauses), allowing for a deeper understanding and manipulation of the original concept.",
+      "disambiguation_index": 0
+    },
+    "Predicate-use": {
+      "label": "use",
+      "description": "To employ or utilize something for a specific purpose or function. The predicate 'use' indicates that the subject is actively utilizing or exploiting the object to achieve some goal, fulfill a need, or accomplish an action.",
+      "disambiguation_index": 0
+    },
+    "Predicate-yielding_similar_success_rates_of_approx_90_": {
+      "label": "yielding similar success rates of approx 90 %",
+      "description": "The predicate 'yielding similar success rates of approx 90 %' indicates a relationship between the subject and object, suggesting that both entities share comparable levels of achievement or effectiveness. The phrase emphasizes the similarity in performance or outcome between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-yield": {
+      "label": "yield",
+      "description": "To produce or generate a specified outcome or quantity. The predicate 'yield' indicates that the subject has produced or generated something, which is described by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or member of a more general category or class denoted by the object. In other words, it establishes an is-a relationship between the subject and the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

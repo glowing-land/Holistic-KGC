@@ -1,0 +1,1203 @@
+{
+  "iri": "Paper-52",
+  "title": "CVPR_2016_413_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-52-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-52-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+              "text": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+              "text": "However , acquiring the necessary training data is typically a tedious and time consuming task that involves manual interaction , active sensing devices and/or synthetic scenes ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+              "text": "To overcome this problem , we propose a new , flexible , and scalable way for generating training data that only requires a set of stereo images as input ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+              "text": "The key idea of our approach is to use different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-5",
+              "text": "This enables us to generate a huge amount of training data in a fully automated manner ."
+            },
+            {
+              "iri": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+              "text": "Among other experiments , we demonstrate the potential of our approach by boosting the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005331039428710938,
+    14.267086267471313,
+    24.45341467857361,
+    21.778144359588623,
+    0.021275997161865234,
+    9.703636169433594e-05,
+    0.000125885009765625,
+    41.690051317214966,
+    50.65288066864014,
+    1.2681286334991455,
+    31.929268836975098,
+    0.010679244995117188,
+    0.00020599365234375,
+    31.050665378570557,
+    1.1209113597869873,
+    0.020560026168823242,
+    1.1017112731933594,
+    3.2748100757598877,
+    7.232929468154907,
+    8.534363746643066,
+    36.735177993774414,
+    1.9408960342407227,
+    22.659729719161987,
+    1.0987203121185303,
+    0.0006628036499023438,
+    0.012229681015014648
+  ],
+  "nodes": {
+    "Entity-the_kitti2012_dataset": {
+      "node_id": "the_kitti2012_dataset",
+      "disambiguation_index": 0,
+      "label": "the KITTI2012 dataset",
+      "aliases": [
+        "the KITTI2012 dataset"
+      ],
+      "types": [
+        "dataset"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The KITTI2012 dataset refers to a collection of stereo images used for evaluating the performance of learned confidence measures in outlier removal and quality improvement tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the KITTI2012 dataset",
+          "local_types": [
+            "dataset"
+          ],
+          "iri": "Entity-the_kitti2012_dataset-Mention-1"
+        }
+      ],
+      "relevance": 0.71875
+    },
+    "Entity-we_propose_a_new__flexible__and_scalable_way_for_generating_training_data_that_only_requires_a_set_of_stereo_image_a_input": {
+      "node_id": "we_propose_a_new__flexible__and_scalable_way_for_generating_training_data_that_only_requires_a_set_of_stereo_image_a_input",
+      "disambiguation_index": 0,
+      "label": "we propose a new, flexible, and scalable way for generating training data that only requires a set of stereo images as input",
+      "aliases": [
+        "we propose a new, flexible, and scalable way for generating training data that only requires a set of stereo images as input"
+      ],
+      "types": [
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A methodology for automatically generating training data using a set of stereo images.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "we propose a new, flexible, and scalable way for generating training data that only requires a set of stereo images as input",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-we_propose_a_new__flexible__and_scalable_way_for_generating_training_data_that_only_requires_a_set_of_stereo_image_a_input-Mention-1"
+        }
+      ],
+      "relevance": 0.71337890625
+    },
+    "Entity-to_overcome_this_problem": {
+      "node_id": "to_overcome_this_problem",
+      "disambiguation_index": 0,
+      "label": "To overcome this problem",
+      "aliases": [
+        "To overcome this problem"
+      ],
+      "types": [
+        "problem"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The challenge of acquiring necessary training data for learning confidence measures in stereo vision.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "To overcome this problem",
+          "local_types": [
+            "problem"
+          ],
+          "iri": "Entity-to_overcome_this_problem-Mention-1"
+        }
+      ],
+      "relevance": 0.70703125
+    },
+    "Entity-a_new__flexible__and_scalable_way_for_generating_training_data": {
+      "node_id": "a_new__flexible__and_scalable_way_for_generating_training_data",
+      "disambiguation_index": 0,
+      "label": "a new, flexible, and scalable way for generating training data",
+      "aliases": [
+        "a new, flexible, and scalable way for generating training data"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A method for automatically generating training data using stereo images.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a new, flexible, and scalable way for generating training data",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-a_new__flexible__and_scalable_way_for_generating_training_data-Mention-1"
+        }
+      ],
+      "relevance": 0.66162109375
+    },
+    "Entity-three_learned_confidence_measure_on_the_kitti2012_dataset": {
+      "node_id": "three_learned_confidence_measure_on_the_kitti2012_dataset",
+      "disambiguation_index": 0,
+      "label": "three learned confidence measures on the KITTI2012 dataset",
+      "aliases": [
+        "the performance of three learned confidence measures",
+        "three learned confidence measures on the KITTI2012 dataset"
+      ],
+      "types": [
+        "experiment",
+        "performance"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Three learned confidence measures that were trained and evaluated on the KITTI2012 dataset.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "three learned confidence measures on the KITTI2012 dataset",
+          "local_types": [
+            "experiment"
+          ],
+          "iri": "Entity-three_learned_confidence_measure_on_the_kitti2012_dataset-Mention-1"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the performance of three learned confidence measures",
+          "local_types": [
+            "performance"
+          ],
+          "iri": "Entity-three_learned_confidence_measure_on_the_kitti2012_dataset-Mention-2"
+        }
+      ],
+      "relevance": 0.6611328125
+    },
+    "Entity-way": {
+      "node_id": "way",
+      "disambiguation_index": 0,
+      "label": "way",
+      "aliases": [
+        "way",
+        "This"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method for generating training data for stereo vision using sets of stereo images.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "way",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-way-Mention-1"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "This",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-way-Mention-2"
+        }
+      ],
+      "relevance": 0.6455078125
+    },
+    "Entity-active_sensing_device_andor_synthetic_scene": {
+      "node_id": "active_sensing_device_andor_synthetic_scene",
+      "disambiguation_index": 0,
+      "label": "active sensing devices and/or synthetic scenes",
+      "aliases": [
+        "active sensing devices and/or synthetic scenes"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Methods or tools used to generate training data for stereo vision algorithms, either through manual interaction with physical sensors (devices) or simulated environments (scenes).",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "active sensing devices and/or synthetic scenes",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-active_sensing_device_andor_synthetic_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.6337890625
+    },
+    "Entity-the_key_idea_of_our_approach": {
+      "node_id": "the_key_idea_of_our_approach",
+      "disambiguation_index": 0,
+      "label": "The key idea of our approach",
+      "aliases": [
+        "different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm",
+        "The key idea of our approach"
+      ],
+      "types": [
+        "idea",
+        "methodology",
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Using different viewpoints for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "The key idea of our approach",
+          "local_types": [
+            "idea"
+          ],
+          "iri": "Entity-the_key_idea_of_our_approach-Mention-1"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm",
+          "local_types": [
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-the_key_idea_of_our_approach-Mention-2"
+        }
+      ],
+      "relevance": 0.6328125
+    },
+    "Entity-manual_interaction__active_sensing_device_andor_synthetic_scene": {
+      "node_id": "manual_interaction__active_sensing_device_andor_synthetic_scene",
+      "disambiguation_index": 0,
+      "label": "manual interaction, active sensing devices and/or synthetic scenes",
+      "aliases": [
+        "manual interaction, active sensing devices and/or synthetic scenes"
+      ],
+      "types": [
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Methods or techniques used to acquire training data in stereo vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "manual interaction, active sensing devices and/or synthetic scenes",
+          "local_types": [
+            "approach"
+          ],
+          "iri": "Entity-manual_interaction__active_sensing_device_andor_synthetic_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.62255859375
+    },
+    "Entity-stereo_algorithm": {
+      "node_id": "stereo_algorithm",
+      "disambiguation_index": 0,
+      "label": "stereo algorithm",
+      "aliases": [
+        "stereo algorithm"
+      ],
+      "types": [
+        "computational method",
+        "computer vision technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computational method used in computer vision for estimating depth information from multiple images or views.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "stereo algorithm",
+          "local_types": [
+            "computational method",
+            "computer vision technique"
+          ],
+          "iri": "Entity-stereo_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.61328125
+    },
+    "Entity-stereo_vision": {
+      "node_id": "stereo_vision",
+      "disambiguation_index": 0,
+      "label": "stereo vision",
+      "aliases": [
+        "stereo vision"
+      ],
+      "types": [
+        "field",
+        "image processing",
+        "technology",
+        "field of study",
+        "computer vision"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A computer-based technology that uses two cameras or sensors to capture and process visual information from different viewpoints, allowing for depth perception and three-dimensional imaging.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "stereo vision",
+          "local_types": [
+            "field",
+            "image processing",
+            "technology",
+            "field of study",
+            "computer vision"
+          ],
+          "iri": "Entity-stereo_vision-Mention-1"
+        }
+      ],
+      "relevance": 0.59912109375
+    },
+    "Entity-stereo_image": {
+      "node_id": "stereo_image",
+      "disambiguation_index": 0,
+      "label": "stereo images",
+      "aliases": [
+        "stereo images as input",
+        "stereo images"
+      ],
+      "types": [
+        "data type",
+        "visual data",
+        "resource",
+        "input",
+        "image dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A pair or collection of two-dimensional visual representations taken from different angles or perspectives, typically used to create a sense of depth and dimensionality.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "stereo images",
+          "local_types": [
+            "visual data",
+            "resource",
+            "data type",
+            "image dataset"
+          ],
+          "iri": "Entity-stereo_image-Mention-1"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "stereo images as input",
+          "local_types": [
+            "input"
+          ],
+          "iri": "Entity-stereo_image-Mention-2"
+        }
+      ],
+      "relevance": 0.58935546875
+    },
+    "Entity-learned_confidence_measure": {
+      "node_id": "learned_confidence_measure",
+      "disambiguation_index": 0,
+      "label": "Learned confidence measures",
+      "aliases": [
+        "Learned confidence measures"
+      ],
+      "types": [
+        "technique",
+        "concept",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A method or technique used to quantify and evaluate the level of certainty or trustworthiness associated with a particular outcome, result, or prediction.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Learned confidence measures",
+          "local_types": [
+            "technique",
+            "concept",
+            "method",
+            "algorithm"
+          ],
+          "iri": "Entity-learned_confidence_measure-Mention-1"
+        }
+      ],
+      "relevance": 0.5849609375
+    },
+    "Entity-acquiring_the_necessary_training_data": {
+      "node_id": "acquiring_the_necessary_training_data",
+      "disambiguation_index": 0,
+      "label": "acquiring the necessary training data",
+      "aliases": [
+        "acquiring the necessary training data"
+      ],
+      "types": [
+        "problem",
+        "task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of obtaining or generating the required dataset for training machine learning models.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "acquiring the necessary training data",
+          "local_types": [
+            "problem",
+            "task"
+          ],
+          "iri": "Entity-acquiring_the_necessary_training_data-Mention-1"
+        }
+      ],
+      "relevance": 0.5751953125
+    },
+    "Entity-approach": {
+      "node_id": "approach",
+      "disambiguation_index": 0,
+      "label": "approach",
+      "aliases": [
+        "approach"
+      ],
+      "types": [
+        "methodology",
+        "research approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A methodology or research approach for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "approach",
+          "local_types": [
+            "methodology",
+            "research approach"
+          ],
+          "iri": "Entity-approach-Mention-1"
+        }
+      ],
+      "relevance": 0.5732421875
+    },
+    "Entity-kitti2012": {
+      "node_id": "kitti2012",
+      "disambiguation_index": 0,
+      "label": "KITTI2012",
+      "aliases": [
+        "KITTI2012 dataset",
+        "KITTI2012"
+      ],
+      "types": [
+        "resource",
+        "dataset",
+        "benchmarking tool"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The KITTI2012 dataset, a collection of benchmarking data for computer vision and autonomous driving applications.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "KITTI2012",
+          "local_types": [
+            "dataset"
+          ],
+          "iri": "Entity-kitti2012-Mention-1"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "KITTI2012 dataset",
+          "local_types": [
+            "resource",
+            "dataset",
+            "benchmarking tool"
+          ],
+          "iri": "Entity-kitti2012-Mention-2"
+        }
+      ],
+      "relevance": 0.56884765625
+    },
+    "Entity-outlier_removal_and_quality_improvement_in_stereo_vision": {
+      "node_id": "outlier_removal_and_quality_improvement_in_stereo_vision",
+      "disambiguation_index": 0,
+      "label": "outlier removal and quality improvement in stereo vision",
+      "aliases": [
+        "outlier removal and quality improvement in stereo vision"
+      ],
+      "types": [
+        "application",
+        "stereo vision"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A technique or process that removes outliers and improves the quality of data generated from stereo vision systems.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "outlier removal and quality improvement in stereo vision",
+          "local_types": [
+            "application",
+            "stereo vision"
+          ],
+          "iri": "Entity-outlier_removal_and_quality_improvement_in_stereo_vision-Mention-1"
+        }
+      ],
+      "relevance": 0.5654296875
+    },
+    "Entity-laser_ground_truth_data": {
+      "node_id": "laser_ground_truth_data",
+      "disambiguation_index": 0,
+      "label": "laser ground truth data",
+      "aliases": [
+        "laser ground truth data"
+      ],
+      "types": [
+        "data source",
+        "ground truth"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of accurate and reliable reference measurements or annotations used to evaluate the performance of algorithms, particularly in computer vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "laser ground truth data",
+          "local_types": [
+            "data source",
+            "ground truth"
+          ],
+          "iri": "Entity-laser_ground_truth_data-Mention-1"
+        }
+      ],
+      "relevance": 0.5634765625
+    },
+    "Entity-quality_improvement_in_stereo_vision": {
+      "node_id": "quality_improvement_in_stereo_vision",
+      "disambiguation_index": 0,
+      "label": "quality improvement in stereo vision",
+      "aliases": [
+        "quality improvement in stereo vision"
+      ],
+      "types": [
+        "goal"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The enhancement or optimization of stereoscopic imaging capabilities to achieve better visual results.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "quality improvement in stereo vision",
+          "local_types": [
+            "goal"
+          ],
+          "iri": "Entity-quality_improvement_in_stereo_vision-Mention-1"
+        }
+      ],
+      "relevance": 0.5419921875
+    },
+    "Entity-multiple_depth_map": {
+      "node_id": "multiple_depth_map",
+      "disambiguation_index": 0,
+      "label": "multiple depth maps",
+      "aliases": [
+        "multiple depth maps"
+      ],
+      "types": [
+        "data set",
+        "image collection"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of images or data representing different levels of spatial information, typically used for computer vision applications.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "multiple depth maps",
+          "local_types": [
+            "data set",
+            "image collection"
+          ],
+          "iri": "Entity-multiple_depth_map-Mention-1"
+        }
+      ],
+      "relevance": 0.537109375
+    },
+    "Entity-training_data": {
+      "node_id": "training_data",
+      "disambiguation_index": 0,
+      "label": "training data",
+      "aliases": [
+        "a huge amount of training data",
+        "training data"
+      ],
+      "types": [
+        "data collection",
+        "dataset",
+        "data set",
+        "resource",
+        "data",
+        "training_data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of examples or instances used to train machine learning models",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "training data",
+          "local_types": [
+            "data set",
+            "resource",
+            "data collection",
+            "dataset"
+          ],
+          "iri": "Entity-training_data-Mention-1"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "training data",
+          "local_types": [
+            "dataset",
+            "data set"
+          ],
+          "iri": "Entity-training_data-Mention-2"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "training data",
+          "local_types": [
+            "dataset"
+          ],
+          "iri": "Entity-training_data-Mention-3"
+        },
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a huge amount of training data",
+          "local_types": [
+            "data",
+            "training_data"
+          ],
+          "iri": "Entity-training_data-Mention-4"
+        }
+      ],
+      "relevance": 0.52490234375
+    },
+    "Entity-synthetic_scene": {
+      "node_id": "synthetic_scene",
+      "disambiguation_index": 0,
+      "label": "synthetic scenes",
+      "aliases": [
+        "synthetic scenes"
+      ],
+      "types": [
+        "dataset",
+        "computer-generated imagery",
+        "visual data",
+        "resource",
+        "digital content"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Computer-generated visual environments or datasets created to simulate real-world scenarios.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "synthetic scenes",
+          "local_types": [
+            "dataset",
+            "computer-generated imagery",
+            "visual data",
+            "resource",
+            "digital content"
+          ],
+          "iri": "Entity-synthetic_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.493896484375
+    },
+    "Entity-outlier_removal": {
+      "node_id": "outlier_removal",
+      "disambiguation_index": 0,
+      "label": "outlier removal",
+      "aliases": [
+        "outlier removal"
+      ],
+      "types": [
+        "quality control",
+        "process",
+        "task",
+        "method",
+        "data processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of identifying and eliminating data points that do not conform to expected patterns or norms.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "outlier removal",
+          "local_types": [
+            "quality control",
+            "process",
+            "task",
+            "method",
+            "data processing"
+          ],
+          "iri": "Entity-outlier_removal-Mention-1"
+        }
+      ],
+      "relevance": 0.447509765625
+    },
+    "Entity-active_sensing_device": {
+      "node_id": "active_sensing_device",
+      "disambiguation_index": 0,
+      "label": "active sensing devices",
+      "aliases": [
+        "active sensing devices"
+      ],
+      "types": [
+        "sensing technology",
+        "technology",
+        "device",
+        "tool"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Devices or technologies that actively gather information about their environment through various means.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "active sensing devices",
+          "local_types": [
+            "sensing technology",
+            "technology",
+            "device",
+            "tool"
+          ],
+          "iri": "Entity-active_sensing_device-Mention-1"
+        }
+      ],
+      "relevance": 0.4404296875
+    },
+    "Entity-our_approach": {
+      "node_id": "our_approach",
+      "disambiguation_index": 0,
+      "label": "our approach",
+      "aliases": [
+        "our approach"
+      ],
+      "types": [
+        "approach",
+        "methodology",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic method or strategy for achieving a specific goal or solving a particular problem.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "our approach",
+          "local_types": [
+            "approach",
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-our_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.434814453125
+    },
+    "Entity-quality_improvement": {
+      "node_id": "quality_improvement",
+      "disambiguation_index": 0,
+      "label": "quality improvement",
+      "aliases": [
+        "quality improvement"
+      ],
+      "types": [
+        "goal",
+        "objective"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An effort or initiative aimed at enhancing or optimizing a particular aspect, standard, or level of performance.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "quality improvement",
+          "local_types": [
+            "goal",
+            "objective"
+          ],
+          "iri": "Entity-quality_improvement-Mention-1"
+        }
+      ],
+      "relevance": 0.4345703125
+    },
+    "Entity-fully_automated_manner": {
+      "node_id": "fully_automated_manner",
+      "disambiguation_index": 0,
+      "label": "fully automated manner",
+      "aliases": [
+        "fully automated manner"
+      ],
+      "types": [
+        "methodology",
+        "process",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic and mechanized approach or procedure",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "fully automated manner",
+          "local_types": [
+            "methodology",
+            "process",
+            "method"
+          ],
+          "iri": "Entity-fully_automated_manner-Mention-1"
+        }
+      ],
+      "relevance": 0.4296875
+    },
+    "Entity-reasoning": {
+      "node_id": "reasoning",
+      "disambiguation_index": 0,
+      "label": "reasoning",
+      "aliases": [
+        "reasoning"
+      ],
+      "types": [
+        "logical process",
+        "inference"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of drawing conclusions or making logical connections between pieces of information.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "reasoning",
+          "local_types": [
+            "logical process",
+            "inference"
+          ],
+          "iri": "Entity-reasoning-Mention-1"
+        }
+      ],
+      "relevance": 0.421630859375
+    },
+    "Entity-contradiction_and_consistency": {
+      "node_id": "contradiction_and_consistency",
+      "disambiguation_index": 0,
+      "label": "contradictions and consistencies",
+      "aliases": [
+        "contradictions and consistencies"
+      ],
+      "types": [
+        "conceptual conflict",
+        "coherence issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A conceptual conflict or coherence issue arising from inconsistencies between different perspectives, viewpoints, or representations.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "contradictions and consistencies",
+          "local_types": [
+            "conceptual conflict",
+            "coherence issue"
+          ],
+          "iri": "Entity-contradiction_and_consistency-Mention-1"
+        }
+      ],
+      "relevance": 0.417724609375
+    },
+    "Entity-view_point": {
+      "node_id": "view_point",
+      "disambiguation_index": 0,
+      "label": "view points",
+      "aliases": [
+        "view points"
+      ],
+      "types": [
+        "perspective",
+        "point of view"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A perspective or point of view from which something is considered, evaluated, or understood.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "view points",
+          "local_types": [
+            "perspective",
+            "point of view"
+          ],
+          "iri": "Entity-view_point-Mention-1"
+        }
+      ],
+      "relevance": 0.40673828125
+    },
+    "Entity-manual_interaction": {
+      "node_id": "manual_interaction",
+      "disambiguation_index": 0,
+      "label": "manual interaction",
+      "aliases": [
+        "manual interaction"
+      ],
+      "types": [
+        "human-computer interaction",
+        "process",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The act of performing tasks or operations using one's hands or physical manipulation.",
+      "mentions": [
+        {
+          "reference": "Paper-52-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "manual interaction",
+          "local_types": [
+            "human-computer interaction",
+            "process",
+            "method"
+          ],
+          "iri": "Entity-manual_interaction-Mention-1"
+        }
+      ],
+      "relevance": 0.382080078125
+    }
+  },
+  "summary": "Learned confidence measures gain increasing importance for outlier removal and quality improvement in stereo vision . However , acquiring the necessary training data is typically a tedious and time consuming task that involves manual interaction , active sensing devices and/or synthetic scenes . To overcome this problem , we propose a new , flexible , and scalable way for generating training data that only requires a set of stereo images as input . The key idea of our approach is to use different view points for reasoning about contradictions and consistencies between multiple depth maps generated with the same stereo algorithm . This enables us to generate a huge amount of training data in a fully automated manner . Among other experiments , we demonstrate the potential of our approach by boosting the performance of three learned confidence measures on the KITTI2012 dataset by simply training them on a vast amount of automatically generated training data rather than a limited amount of laser ground truth data .",
+  "triples": [
+    [
+      "Entity-learned_confidence_measure",
+      "Predicate-are_important_for",
+      "Entity-outlier_removal_and_quality_improvement_in_stereo_vision"
+    ],
+    [
+      "Entity-acquiring_the_necessary_training_data",
+      "Predicate-involves",
+      "Entity-manual_interaction__active_sensing_device_andor_synthetic_scene"
+    ],
+    [
+      "Entity-to_overcome_this_problem",
+      "Predicate-propose",
+      "Entity-a_new__flexible__and_scalable_way_for_generating_training_data"
+    ],
+    [
+      "Entity-we_propose_a_new__flexible__and_scalable_way_for_generating_training_data_that_only_requires_a_set_of_stereo_image_a_input",
+      "Predicate-requires",
+      "Entity-stereo_image"
+    ],
+    [
+      "Entity-the_key_idea_of_our_approach",
+      "Predicate-is_to_use",
+      "Entity-the_key_idea_of_our_approach"
+    ],
+    [
+      "Entity-approach",
+      "Predicate-use",
+      "Entity-the_key_idea_of_our_approach"
+    ],
+    [
+      "Entity-our_approach",
+      "Predicate-use",
+      "Entity-the_key_idea_of_our_approach"
+    ],
+    [
+      "Entity-way",
+      "Predicate-enables_us_to_generate",
+      "Entity-training_data"
+    ],
+    [
+      "Entity-our_approach",
+      "Predicate-boosts",
+      "Entity-three_learned_confidence_measure_on_the_kitti2012_dataset"
+    ],
+    [
+      "Entity-we_propose_a_new__flexible__and_scalable_way_for_generating_training_data_that_only_requires_a_set_of_stereo_image_a_input",
+      "Predicate-use",
+      "Entity-the_kitti2012_dataset"
+    ],
+    [
+      "Entity-to_overcome_this_problem",
+      "Predicate-is_addressed_by",
+      "Entity-the_kitti2012_dataset"
+    ],
+    [
+      "Entity-to_overcome_this_problem",
+      "Predicate-solve",
+      "Entity-we_propose_a_new__flexible__and_scalable_way_for_generating_training_data_that_only_requires_a_set_of_stereo_image_a_input"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-outlier_removal_and_quality_improvement_in_stereo_vision",
+      "skos:broader",
+      "Entity-stereo_image"
+    ],
+    [
+      "Entity-way",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-fully_automated_manner",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-outlier_removal",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-manual_interaction",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-manual_interaction__active_sensing_device_andor_synthetic_scene",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-learned_confidence_measure",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-manual_interaction__active_sensing_device_andor_synthetic_scene",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-outlier_removal_and_quality_improvement_in_stereo_vision",
+      "skos:broader",
+      "Entity-stereo_vision"
+    ],
+    [
+      "Entity-our_approach",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-the_key_idea_of_our_approach",
+      "skos:broader",
+      "Entity-approach"
+    ],
+    [
+      "Entity-the_key_idea_of_our_approach",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-a_new__flexible__and_scalable_way_for_generating_training_data",
+      "skos:broader",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-active_sensing_device_andor_synthetic_scene",
+      "skos:broader",
+      "Entity-our_approach"
+    ]
+  ],
+  "predicates": {
+    "Predicate-are_important_for": {
+      "label": "are important for",
+      "description": "The predicate 'are important for' indicates a causal relationship between the subject (the thing or concept being described) and the object (a process, outcome, or goal). It suggests that the existence or state of the subject has a significant impact on achieving or realizing the object. In other words, the subject plays a crucial role in making the object possible, effective, or meaningful.",
+      "disambiguation_index": 0
+    },
+    "Predicate-involves": {
+      "label": "involves",
+      "description": "The predicate 'involves' indicates that the subject (an activity or process) requires or necessitates the object(s), which can be entities, actions, or concepts. It suggests a causal relationship between the subject and the object(s), implying that the presence of the object(s) is essential for the subject to occur or take place.",
+      "disambiguation_index": 0
+    },
+    "Predicate-propose": {
+      "label": "propose",
+      "description": "Propose connects the subject to an idea or solution that addresses a particular issue or challenge. It implies offering or suggesting something as a potential remedy, alternative, or approach.",
+      "disambiguation_index": 0
+    },
+    "Predicate-requires": {
+      "label": "requires",
+      "description": "The predicate 'requires' indicates that something (typically an action or process) necessitates the presence or existence of a specific condition, resource, or input to function properly. It implies a necessary relationship between the subject and object, where the subject needs or depends on the object in order to operate effectively.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_to_use": {
+      "label": "is to use",
+      "description": "Indicates a purpose or intention for using something. It establishes a relationship between the subject and object, suggesting that the subject is intended to be employed or utilized in some way.",
+      "disambiguation_index": 0
+    },
+    "Predicate-use": {
+      "label": "use",
+      "description": "To employ or apply something (e.g. an approach, a method, a resource) for a specific purpose or goal.",
+      "disambiguation_index": 0
+    },
+    "Predicate-enables_us_to_generate": {
+      "label": "enables us to generate",
+      "description": "This predicate indicates that the subject provides a means or mechanism for generating something (the object), allowing for the creation of new information, ideas, or concepts.",
+      "disambiguation_index": 0
+    },
+    "Predicate-boosts": {
+      "label": "boosts",
+      "description": "The predicate 'boosts' indicates a relationship where the subject enhances or increases the quantity, quality, or effectiveness of the object. It suggests that the subject has a positive impact on the object, leading to improved performance, accuracy, or confidence.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_addressed_by": {
+      "label": "is addressed by",
+      "description": "The predicate 'is addressed by' indicates a relationship where an issue or challenge (subject) has been dealt with or responded to through some means, and the object represents the entity that provided this solution or response.",
+      "disambiguation_index": 0
+    },
+    "Predicate-solve": {
+      "label": "solve",
+      "description": "The predicate 'solve' indicates a relationship where the subject takes action to address or overcome an issue, challenge, or problem described by the object. The object typically represents a solution, approach, method, or strategy that helps resolve or mitigate the situation.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject concept is a specific instance or subclass of the object concept. It establishes a hierarchical relationship between the two concepts, where the subject is more focused and detailed than the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,1163 @@
+{
+  "iri": "Paper-A_Pipeline_For_Analysing_Grant_Applications",
+  "title": "A Pipeline For Analysing Grant Applications",
+  "authors": [
+    "Shuaiqun Pan",
+    "Sergio J. Rodr\u00edguez M\u00e9ndez",
+    "Kerry Taylor"
+  ],
+  "keywords": [
+    "Grant applications",
+    "Random Forest classifier",
+    "TF-IDF algorithm"
+  ],
+  "sections": [
+    {
+      "iri": "Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-1",
+              "text": "Data mining techniques can transform massive amounts of unstructured data into quantitative data that quickly reveal insights, trends, and patterns behind the original data."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-2",
+              "text": "In this paper, a data mining model is applied to analyse the 2019 grant applications submitted to an Australian Government research funding agency to investigate whether grant schemes successfully identifies innovative project proposals, as intended."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-3",
+              "text": "The grant applications are peer-reviewed research proposals that include specific 'innovation and creativity' (IC) scores assigned by reviewers."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-4",
+              "text": "In addition to predicting the IC score for each research proposal, we are particularly interested in understanding the vocabulary of innovative proposals."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-5",
+              "text": "In order to solve this problem, various data mining models and feature encoding algorithms are studied and explored."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-6",
+              "text": "As a result, we propose a model with the best performance, a Random Forest (RF) classifier over documents encoded with features denoting the presence or absence of unigrams."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-7",
+              "text": "In specific, the unigram terms are encoded by a modified Term Frequency - Inverse Document Frequency (TF-IDF) algorithm, which only implements the IDF part of TF-IDF."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-8",
+              "text": "Besides the proposed model, this paper also presents a rigorous experimental pipeline for analysing grant applications, and the experimental results prove its feasibility."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-2",
+      "subtitle": "Introduction",
+      "paragraphs": [
+        {
+          "iri": "Section-2-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-1",
+              "text": "In the 21st century, the importance of developing cutting-edge scientific research is self-evident for every country."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-2",
+              "text": "Therefore, each country's government research funding agencies are willing to provide much scientific research funding to support essential and cutting-edge scientific research each year."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-3",
+              "text": "Determining whether a scientific research project is worthy of funding is a significant and rigorous step for funding agencies."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-4",
+              "text": "To obtain financial support, scientists and researchers always write research proposals to present their research plans and explain the significance of the project to the funding agencies."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-5",
+              "text": "Usually, the government research funding agencies receive thousands of research proposals each year, which are reviewed only by expert panels."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-6",
+              "text": "However, with the increase in the number of research proposals and the development of data mining techniques, funding agencies are increasingly using data mining models to assist in the manual review of research proposals."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-7",
+              "text": "At the same time, it must be made clear that relying solely on data mining models to replace manual checks is not reliable."
+            }
+          ]
+        },
+        {
+          "iri": "Section-2-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-1",
+              "text": "Applying data mining models to a research proposal has several benefits."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-2",
+              "text": "First, data mining models can briefly introduce the essential features of the research proposals to help human evaluators better screen the excellent research proposals, such as the influential features of the data mining models across all the research proposals."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-3",
+              "text": "Second, an effective data mining model can help human evaluators understand the research proposals\u2019 strengths and weaknesses during the manual review process."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-4",
+              "text": "Next, a high-quality data mining model can be applied to develop procedures and guidelines for human assessors to evaluate future research proposals to improve the quality of assessments."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-5",
+              "text": "Fourth, for government or funding agencies, different funding projects should be established to improve the quality of various types of research."
+            },
+            {
+              "iri": "Section-2-Paragraph-2-Sentence-6",
+              "text": "Data mining models can better understand how to ensure that human evaluators respond to these necessary qualities."
+            }
+          ]
+        },
+        {
+          "iri": "Section-2-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-3-Sentence-1",
+              "text": "Based on the benefits and motivations mentioned above, we hope to apply a data mining model with an appropriate feature extraction technique to predict high IC-score research proposals based on the IC scores assigned by the expert reviewers."
+            },
+            {
+              "iri": "Section-2-Paragraph-3-Sentence-2",
+              "text": "Meanwhile, the other primary goal of the project is to develop a predictive vocabulary for contemporaneous proposals and to understand how the model inferred research proposals with high IC scores from the data features."
+            },
+            {
+              "iri": "Section-2-Paragraph-3-Sentence-3",
+              "text": "In addition, we focus on proposing an efficient feature extraction technique rather than the choice of classifiers, so we choose the very common Decision Tree (DT) and RF classifiers for experimental comparison."
+            }
+          ]
+        },
+        {
+          "iri": "Section-2-Paragraph-4",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-1",
+              "text": "The contributions of this paper are listed as follows:"
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-2",
+              "text": "A strict experimental pipeline for analysing grant applications is given, and the experimental results prove its feasibility."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-3",
+              "text": "A model is proposed with a Random Forest classifier over documents encoded with features denoting the presence or absence of unigram terms."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-4",
+              "text": "The unigram terms are encoded by a modified Term Frequency - Inverse Document Frequency (TF-IDF) algorithm, which only implements the IDF part of TF-IDF."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-5",
+              "text": "The proposed model for predicting high IC-score research proposals can achieve an accuracy of 84.17% across all types of grant applications."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-6",
+              "text": "This paper is divided into six sections."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-7",
+              "text": "In the first section, the project's motivation and problem statement are briefly introduced."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-8",
+              "text": "In section 2, the background and related work of this project are introduced."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-9",
+              "text": "The methodology section mainly describes the pipeline we apply for this research project."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-10",
+              "text": "Section 4 brings the overall design of the project."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-11",
+              "text": "Then, the experimental settings and implementations with the hardware platforms are introduced in this section."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-12",
+              "text": "The fifth section gives the experimental results of this project and carries on the further analysis."
+            },
+            {
+              "iri": "Section-2-Paragraph-4-Sentence-13",
+              "text": "Conclusions and future work are described in section 6."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-3",
+      "subtitle": "Related Work",
+      "paragraphs": [
+        {
+          "iri": "Section-3-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-1",
+              "text": "2.1 Computer science in evaluating grant applications."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-2",
+              "text": "Oztaysi et al. [2] proposed a multi-criteria approach to evaluate research proposals based on interval-valued intuitionistic fuzzy sets."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-3",
+              "text": "In this method, a fuzzy preference relation matrix was used to determine the relative importance of criteria."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-4",
+              "text": "The Preference Selection Index (PSI) was another interesting method to evaluate research grant applications [3]."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-5",
+              "text": "One advantage of applying the PSI method was that the researcher did not need to determine the weight criteria."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-6",
+              "text": "Another similar and recently related work was the research paper classification system built based on the TF-IDF and LDA schemes [4]."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-7",
+              "text": "This system used a Latent Dirichlet allocation (LDA) scheme to extract representative keywords from the abstract of each paper [5]."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-8",
+              "text": "The K-means clustering algorithm [6] was applied to group papers with similar topics based on the TF-IDF vector encoding of each paper."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-9",
+              "text": "The results showed that the LDA with 30 keywords using TF-IDF obtained the best F-score compared with the LDA with fewer keywords."
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-1",
+              "text": "2.2 Term vectors and statistical measures in text representation."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-2",
+              "text": "TF-IDF is commonly used in data mining and information retrieval."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-3",
+              "text": "TF indicates the frequency of a word in a document or a collection of documents."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-4",
+              "text": "When calculating TF, all the words from documents are treated as equally important."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-5",
+              "text": "However, in practice, people only pay attention to a certain of words."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-6",
+              "text": "For example, \u201cthis\", \u201care\", and \u201cit\" usually do not represent important in most cases."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-7",
+              "text": "Then, the IDF is implemented to adjust the term weights in documents which can increase the weights of those rare but important words and weigh down those frequent words but less important."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-8",
+              "text": "In 2016, Guo and Yang [7] analysed the shortcomings of the TF-IDF algorithm."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-9",
+              "text": "Then, an intra-class dispersion algorithm based on TF-IDF was proposed."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-10",
+              "text": "Chen et al. [8] proposed a new term weighting technique called Term Frequency & Inverse Gravity Moment (TF-IGM), which was mainly used to measure the class discrimination of a term."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-11",
+              "text": "The experimental results showed that the TF-IGM performed better than the traditional TF-IDF in three standard corpora."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-12",
+              "text": "Das and Chakraborty [9] proposed a text sentiment classification technique based on the TF-IDF algorithm and Next Word Negation (NWN)."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-13",
+              "text": "In addition, this study also compared the binary bag of words, TF-IDF, and TF-IDF with NWN algorithms."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-14",
+              "text": "Fan and Qin [10] proposed another improved TF-IDF algorithm, TF-IDCRF, which focused on the relationship between classes in the classification model."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-15",
+              "text": "In 2019, an improved TF-IDF algorithm based on classification discrimination strength was proposed for text classification [11]."
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-1",
+              "text": "2.3 Data mining models in text classification."
+            },
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-2",
+              "text": "In the field of data mining, the DT classifier is widely welcome for its advantage of showing how models make decisions according to the data features [12]."
+            },
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-3",
+              "text": "RF classifier is another popular data mining model."
+            },
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-4",
+              "text": "The term forest can be interpreted to mean that each classifier in the ensemble is a DT classifier, while all combinations of classifiers are a forest [13]."
+            },
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-5",
+              "text": "In the RF classifier, each decision tree also selects the optimal attribute based on the Attribute Selection Measures (ASM)."
+            },
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-6",
+              "text": "At the same time, each decision tree depends independently on a random sample."
+            },
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-7",
+              "text": "The RF classifier votes on each tree in specific classification problems and selects the most popular category as the final result."
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-4",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-1",
+              "text": "In 2016, a news classification method was proposed based on the TF-IDF algorithm and Support Vector Machine (SVM) [14]."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-2",
+              "text": "Based on a different number of n-grams and various data sets, five data mining classifiers were built and compared [15]."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-3",
+              "text": "The results can guide researchers to select an appropriate data mining model according to the size of the data set."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-4",
+              "text": "Four different data mining models were implemented with five different ensemble methods, and the experimental results showed that the RF classifier with the Bagging ensemble method achieved the best performance [16]."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-5",
+              "text": "Wongso et al. [17] applied TF-IDF and SVD algorithms [18] to the feature selection step and compare the two algorithms."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-6",
+              "text": "At the same time, the Multivariate Bernoulli Naive Bayes [19], and SVM were compared in this study."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-7",
+              "text": "Finally, with the combination of TF-IDF and Multivariate Bernoulli Naive Bayes, news articles in the Indonesian Language corpus were classified, and the best result was obtained [17]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-4",
+      "subtitle": "Methodology",
+      "paragraphs": [
+        {
+          "iri": "Section-4-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-1",
+              "text": "This section details the workflow of our proposed pipeline and the data mining model."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-2",
+              "text": "Fig. 1 shows the pipeline of analysing grant applications."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-3",
+              "text": "3.1 Data set."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-4",
+              "text": "The data set used to analyse the grant applications is the 2019 grant applications submitted to an Australian Government research funding agency."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-5",
+              "text": "3,805 research proposals are given in this data set with peer-reviewed IC scores (1 - 7)."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-6",
+              "text": "In addition, the entire data set contains different types of grant applications, such as Synergy Grants, Standard Project Grants, and Ideas Grants."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-7",
+              "text": "Besides the IC score, reviewers also score several other assessment scores, such as \u201cFeasibility Score\u201d or \u201cSignificance Score.\u201d"
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-8",
+              "text": "Since all research proposals are saved in PDF format, extracting the text from PDF files is necessary."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-9",
+              "text": "A Metadata Extractor & Loader (MEL) [20] tool is applied to extract text from PDF research proposals and save it in a JSON file with metadata sets and content."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-10",
+              "text": "By default, all JSON files are stored in CouchDB database [21] based on the proposal index."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-11",
+              "text": "Before designing the whole pipeline, a statistical analysis is required based on the IC scores of research proposals."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-12",
+              "text": "At the same time, some fundamental values are also the basis of designing the entire pipeline, such as the median IC score and mode IC score."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-13",
+              "text": "Table 1 shows a statistic of IC scores, showing that 3,693 research proposals have valid IC scores."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-14",
+              "text": "In addition, 99 research proposals do not contain an IC score, 13 of which have an IC score below 1.0, and these research proposals therefore not be used in this project."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-15",
+              "text": "Table 1 also shows the median IC score, 5.0, the most frequent IC score."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-1",
+              "text": "3.2 Text pre-processing for grant applications."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-2",
+              "text": "HaCohen-Kerner et al. [22] proved that text pre-processing techniques could make the model achieve better performance than without the text pre-processing step."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-3",
+              "text": "After all the text is extracted, all characters, whether uppercase or lowercase, are converted to lowercase."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-4",
+              "text": "Then, the numbers are also removed because the numbers in the research proposals are not relevant for future analysis."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-5",
+              "text": "Thirdly, removing punctuations and tokenizing by whitespace are also adopted, which make the text into small pieces called tokens."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-6",
+              "text": "In addition, the deletion of stop words is one of the most crucial text pre-processing techniques."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-7",
+              "text": "Fani et al. [23] have shown that deleting stop words can improve the performance of data mining tasks."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-8",
+              "text": "Therefore, we create a list of custom stop words according to the IDF formula and delete the IDF value of the term from the text lower than 1.0."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-9",
+              "text": "The reason for choosing 1.0 is that after implementation some preliminary experiments, we confirm that the feature words considered as important by DT and RF classifiers will less than 1000 words."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-10",
+              "text": "Meanwhile, the words whose IDF value are less than 1.0 only account for 0.2% of the total words, and they are all common words such as \u201cnext\u201d, \u201cshift\u201d and \u201cother\u201d."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-11",
+              "text": "We believe that these words appear too frequently and have no influence on the experimental results."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-12",
+              "text": "Finally, text stemming is the last technique we apply in the text pre-processing step."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-13",
+              "text": "Text stemming is a technique for reducing each word to its root format [24]."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-14",
+              "text": "It helps to reduce the vocabulary and surface syntax to get closer to the meaning of each term, and the Porter Stemming algorithm [25] is implemented in this step."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-1",
+              "text": "This section details the workflow of our proposed pipeline and the data mining model."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-2",
+              "text": "Fig. 1 shows the pipeline of analysing grant applications."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-3",
+              "text": "3.1 Data set."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-4",
+              "text": "The data set used to analyse the grant applications is the 2019 grant applications submitted to an Australian Government research funding agency."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-5",
+              "text": "3,805 research proposals are given in this data set with peer-reviewed IC scores (1 - 7)."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-6",
+              "text": "In addition, the entire data set contains different types of grant applications, such as Synergy Grants, Standard Project Grants, and Ideas Grants."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-7",
+              "text": "Besides the IC score, reviewers also score several other assessment scores, such as \u201cFeasibility Score\u201d or \u201cSignificance Score.\u201d"
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-8",
+              "text": "Since all research proposals are saved in PDF format, extracting the text from PDF files is necessary."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-9",
+              "text": "A Metadata Extractor & Loader (MEL) [20] tool is applied to extract text from PDF research proposals and save it in a JSON file with metadata sets and content."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-10",
+              "text": "By default, all JSON files are stored in CouchDB database [21] based on the proposal index."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-11",
+              "text": "Before designing the whole pipeline, a statistical analysis is required based on the IC scores of research proposals."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-12",
+              "text": "At the same time, some fundamental values are also the basis of designing the entire pipeline, such as the median IC score and mode IC score."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-13",
+              "text": "Table 1 shows a statistic of IC scores, showing that 3,693 research proposals have valid IC scores."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-14",
+              "text": "In addition, 99 research proposals do not contain an IC score, 13 of which have an IC score below 1.0, and these research proposals therefore not be used in this project."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-15",
+              "text": "Table 1 also shows the median IC score, 5.0, the most frequent IC score."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-4",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-1",
+              "text": "3.4 Design and apply the feature extraction technique."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-2",
+              "text": "We propose a modified TF-IDF algorithm, which only implements the IDF part of TF-IDF as the feature extraction technique."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-3",
+              "text": "In specific, if the term exists at least once in the documents, specify the IDF value for this term directly."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-4",
+              "text": "In addition, if a term does not exist in the documents, then the term is assigned a value of 0."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-5",
+              "text": "The design of this modified feature extraction algorithm follows the idea that rare terms can define innovativeness."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-6",
+              "text": "The experiment also considers the n-grams [26]."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-7",
+              "text": "Unigram is the most common choice for text classification tasks, but bigram and trigram may better represent scientific terms, where bigram is two consecutive words in a sentence, and trigram is three consecutive words in a sentence."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-8",
+              "text": "At the same time, when collecting proposals, we also consider deleting the words that only exist once or twice, because very rare terms tend not to be predictive."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-9",
+              "text": "In addition, the bigram mentioned in this paper denotes a combination of the unigrams and bigrams."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-10",
+              "text": "The trigram denotes a combination of the unigrams, bigrams, and trigrams."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-5",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-1",
+              "text": "3.5 Apply data mining models with grant applications."
+            },
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-2",
+              "text": "This paper uses DT and RF classifiers for text classification because we would like to find out the most influential terms and understood how the data mining model predicts high and low IC-score research proposals."
+            },
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-3",
+              "text": "The DT and RF classifiers are convenient to present this valuable information."
+            },
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-4",
+              "text": "Based on the experimental result of the high and low IC-score research proposals selection, all experiments are conducted with the low IC-score research proposals (IC score 0~15%) and the high IC-score research proposals (IC score 85%~100%)."
+            },
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-5",
+              "text": "In the comparison study of feature extraction techniques, 400 research proposals for each low and high IC score are randomly selected for model training, and the training data is 85%, and the test data is 15%."
+            },
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-6",
+              "text": "In order to analyse the proposed model in the end, the 100 most influential terms from the collections of research proposals are extracted by the function from scikit-learn library [27], which bring us an intuitive understanding of how much each term contributes to reducing the weighted impurities."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-6",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-1",
+              "text": "3.6 Analyse moderate IC-score grant applications."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-2",
+              "text": "We also conduct several experiments to analyse moderate IC-score research proposals based on the proposed model."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-3",
+              "text": "The purpose of this series of experiments is to determine whether there is a relation between proposals with moderate IC scores and that of high and low IC scores."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-4",
+              "text": "Since the proposed model is trained based on the low IC-score proposals of 0~15% and high IC-score proposals of 85~100%, the range of research proposals with moderate IC score is 15%~85%."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-5",
+              "text": "Based on the median IC score, the selection range of testing moderate IC score by testing several cut-off options, such as 20, 25, 30, 35, 40, 45, and 50."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-6",
+              "text": "Table 4 shows a list of experiments used to analyse the research proposals of moderate IC score."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-7",
+              "text": "Considering the symmetric distribution of the IC scores, new research proposals with low and high IC scores are selected in each experiment, and performance analysis is conducted based on the proposed training model."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-8",
+              "text": "In addition to the experiments in Table 4, another experiment is designed to check the median IC-score research proposals (IC score = 5.0) to predict the proportion of high or low IC-score research proposals rather than calculate the test accuracy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-5",
+      "subtitle": "Experimental Settings",
+      "paragraphs": [
+        {
+          "iri": "Section-5-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-1",
+              "text": "This section describes all experimental settings for this paper."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-2",
+              "text": "Initially, MEL [20] is implemented through a set of Python-based methods to extract metadata for all supported file types."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-3",
+              "text": "To extract metadata from the PDF version of a file, the Tesseract-OCR method [28] and pdftotext tool [29] are applied."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-4",
+              "text": "In the statistical analysis of grant applications, the Python language and Numpy library [30] are used to calculate the median, mode, and other statistical measurements of IC score."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-5",
+              "text": "In the experiments of selecting high, low, and moderate IC-score research proposals and implementing the data mining models, the scikit-learn library [27] is applied to implement the DT and RF classifiers."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-6",
+              "text": "The python library gensim [31] is used to implement the TF-IDF algorithm and the newly proposed modified TF-IDF algorithm."
+            }
+          ]
+        },
+        {
+          "iri": "Section-5-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-1",
+              "text": "Hyper-parameter tuning is a significant step in applying data mining models, and the Bayesian Optimization tool [32] is applied."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-2",
+              "text": "The first step to implement Bayesian Optimization is to define the data mining model, such as the RF classifier and its parameters and corresponding bounds."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-3",
+              "text": "In addition, we also need to implement the scoring method and the cross-validation setup."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-4",
+              "text": "Secondly, the maximize method is used to run the technique with n_iter and init_points parameters."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-5",
+              "text": "The n_iter is defined for the number of steps to run the optimization function."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-6",
+              "text": "The more steps, the easier it is to find the best accuracy value."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-7",
+              "text": "The init_points is defined for random exploration on the parameter space, which helps to explore the diversity of the space."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-8",
+              "text": "Finally, the parameter values for each accuracy are listed, highlighting the best combination of the parameter and the target value."
+            }
+          ]
+        },
+        {
+          "iri": "Section-5-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-1",
+              "text": "To find the hyper-parameters of the RF classifier, the range of each parameter is set as follows: max_depth = (5, 60), min_samples_split = (10, 100), max_features = (0.1, 0.999), max_samples_leaf = (10, 50) and n_estimation = (100, 400)."
+            },
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-2",
+              "text": "For the DT classifier, the range settings for finding hyper-parameters are as follows: max_depth = (3, 10), min_samples_split = (3, 10), max_features = (0.1, 0.999),and max_samples_leaf = (3, 10)."
+            },
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-3",
+              "text": "The max_depth parameter indicates the maximum depth of the tree, and the max_features denotes the number of features to consider when finding the best split [27]."
+            },
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-4",
+              "text": "The parameters min_samples_leaf, min_samples_split, and n_estimators are defined as the minimum number of samples needed on a leaf node, the minimum number of samples needed to split an internal node, and the number of trees in the forest, respectively."
+            },
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-5",
+              "text": "All experiments related to RF classifier and DT classifier adopt the same setting of the hyper-parameter range."
+            },
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-6",
+              "text": "Meanwhile, the 10-fold cross-validation method is also applied in finding the hyper-parameters."
+            }
+          ]
+        },
+        {
+          "iri": "Section-5-Paragraph-4",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-4-Sentence-1",
+              "text": "To evaluate the performance of the newly proposed modified TF-IDF algorithm and the TF-IDF algorithm with different data mining classifiers, the classification accuracy (Acc), F1 score are selected as the evaluation metrics."
+            },
+            {
+              "iri": "Section-5-Paragraph-4-Sentence-2",
+              "text": "The hardware platform is MacBook Pro with Intel Core i7 2.9 GHz Quard-Core processor."
+            },
+            {
+              "iri": "Section-5-Paragraph-4-Sentence-3",
+              "text": "The memory configuration is 16GB 2133 MHz LPDDR3."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-6",
+      "subtitle": "Experimental Result",
+      "paragraphs": [
+        {
+          "iri": "Section-6-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-1",
+              "text": "Table 5 shows the performance of the TF-IDF algorithm with DT and RF classifiers."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-2",
+              "text": "It can be found that the RF classifier can consistently achieve better performance than the DT classifier under the different settings of the n-grams and deletion of rare terms."
+            }
+          ]
+        },
+        {
+          "iri": "Section-6-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-2-Sentence-1",
+              "text": "Table 6 shows the performance of the newly proposed modified TF-IDF algorithm with DT and RF classifiers."
+            },
+            {
+              "iri": "Section-6-Paragraph-2-Sentence-2",
+              "text": "Based on the comparison of Table 5 and Table 6, the best performance is achieved with 84.17% accuracy by the RF classifier with the newly proposed modified TF-IDF algorithm except the No.14 model combination in Table 6."
+            },
+            {
+              "iri": "Section-6-Paragraph-2-Sentence-3",
+              "text": "The hyper-parameters are max_depth = 22, max_features = 0.9931, min_samples_leaf = 11, min_samples_split = 67 and n_estimation = 102."
+            },
+            {
+              "iri": "Section-6-Paragraph-2-Sentence-4",
+              "text": "To include all the terms from the corpus, we choose the RF classifier based on unigram and the modified TF-IDF algorithm as the final proposed model."
+            },
+            {
+              "iri": "Section-6-Paragraph-2-Sentence-5",
+              "text": "Another reason why we do not choose the bigram and trigram combinations as the proposed model is the bigram and trigram terms are in fact not regarded as essential features by DT and RF classifiers."
+            },
+            {
+              "iri": "Section-6-Paragraph-2-Sentence-6",
+              "text": "Features extracted from the proposed model shows that only 618 features are considered significant, based on tens of thousands of features in the research proposals."
+            }
+          ]
+        },
+        {
+          "iri": "Section-6-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-3-Sentence-1",
+              "text": "Based on the comparison of the two tables, it can be found that the proposed modified TF-IDF algorithm is practical and effective despite two or three exceptions exist."
+            },
+            {
+              "iri": "Section-6-Paragraph-3-Sentence-2",
+              "text": "At the same time, the experimental results prove that the core idea of defining the modified TF-IDF algorithm is meaningful and show the rare terms associated with innovativeness."
+            },
+            {
+              "iri": "Section-6-Paragraph-3-Sentence-3",
+              "text": "It should also be noted that the newly proposed modified TF-IDF algorithm can be understood as a simple encoding technique, such as taking the value 0 or the IDF value of the term depending on whether the term exists in the research proposals."
+            },
+            {
+              "iri": "Section-6-Paragraph-3-Sentence-4",
+              "text": "Based on the decision tree plots generated by the best performance model, it can be found that the modified TF-IDF algorithm does not affect the shape of the tree as seen in the tree graph, helping to understand whether the chosen split term is rare or common."
+            }
+          ]
+        },
+        {
+          "iri": "Section-6-Paragraph-4",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-4-Sentence-1",
+              "text": "From the result of finding hyper-parameters, it can be found that the best performing model does not use all the features to apply with the data mining algorithms, such as the RF classifier only uses 99.31% features."
+            },
+            {
+              "iri": "Section-6-Paragraph-4-Sentence-2",
+              "text": "In addition, although we consider different n-grams, especially bigram and trigram, with removing scarce words, Table 5 and Table 6 could prove that it might help but not always."
+            },
+            {
+              "iri": "Section-6-Paragraph-4-Sentence-3",
+              "text": "Moreover, based on the same feature extraction algorithm, the classification accuracy of the RF classifier is always better than that of the DT classifier."
+            },
+            {
+              "iri": "Section-6-Paragraph-4-Sentence-4",
+              "text": "Nevertheless, the results of the DT classifier are still crucial because the plot of DT classifier contains all the decisions."
+            }
+          ]
+        },
+        {
+          "iri": "Section-6-Paragraph-5",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-5-Sentence-1",
+              "text": "Fig. 2 shows the confusion matrix of the proposed model for the \u201cunseen\u201d test data."
+            },
+            {
+              "iri": "Section-6-Paragraph-5-Sentence-2",
+              "text": "It shows 13 high IC-score research proposals are incorrectly predicted as low IC-score proposals."
+            },
+            {
+              "iri": "Section-6-Paragraph-5-Sentence-3",
+              "text": "In addition, 6 research proposals with low IC scores are guessed wrongly which they are predicted as high IC-score proposals."
+            },
+            {
+              "iri": "Section-6-Paragraph-5-Sentence-4",
+              "text": "The number 59 denotes that the proposed model correctly predicts 59 research proposals with low IC scores and 42 with high IC scores."
+            }
+          ]
+        },
+        {
+          "iri": "Section-6-Paragraph-6",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-6-Sentence-1",
+              "text": "In addition to analysing the confusion matrix, we also extract the 100 most influential features from the proposed model, which gives an intuitive understanding of how much each feature contributes to reducing the weighted impurities."
+            },
+            {
+              "iri": "Section-6-Paragraph-6-Sentence-2",
+              "text": "The top 100 features give us a better understanding of what is going on inside the black box."
+            },
+            {
+              "iri": "Section-6-Paragraph-6-Sentence-3",
+              "text": "A measure of the feature importance is valuable for internal model development purposes by showing to what extent features contribute to test data."
+            },
+            {
+              "iri": "Section-6-Paragraph-6-Sentence-4",
+              "text": "Although the classifier is only established for the 2019 grant applications and may not predict the high research proposals for future applications, these unique terms are still valuable and meaningful as a reference for evaluators."
+            }
+          ]
+        },
+        {
+          "iri": "Section-6-Paragraph-7",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-7-Sentence-1",
+              "text": "Table 7 brings the performance of checking research proposals of moderate IC scores based on the proposed model."
+            },
+            {
+              "iri": "Section-6-Paragraph-7-Sentence-2",
+              "text": "Based on the test accuracy, it can be concluded that there is a correlation between the moderate IC-score research proposals and high/low IC-score research proposals."
+            },
+            {
+              "iri": "Section-6-Paragraph-7-Sentence-3",
+              "text": "Moreover, it is easy to find that the proposed model can better predict the research proposals close to the original training set settings (0~15% for low IC score and 85%~100% for high IC score)."
+            }
+          ]
+        },
+        {
+          "iri": "Section-6-Paragraph-8",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-1",
+              "text": "Based on the confusion matrix above and the experimental results of checking moderate IC-score research proposals, it can be found that the model is always more accurate in predicting research proposals with low IC scores than with high IC scores."
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-2",
+              "text": "Meanwhile, the research proposals with the median IC score of 5.0 are predicted to be about 37.2% with high-IC score research proposals and about 62.8% with low-IC score research proposals."
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-3",
+              "text": "Therefore, it can be concluded that research proposals with high IC scores use more diverse language than those with low IC-score."
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-4",
+              "text": "In addition to the experiments analysing all grant applications, we follow the same pipeline and establish a new model to evaluate Ideas Grant applications only, the one with innovation criteria."
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-5",
+              "text": "Applying the same method but with different hyper-parameters, the best performing model for analysing the Ideas Grants can reach an accuracy of 82.5%."
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-6",
+              "text": "In every Ideas Grant application, there is a section called \u201cInnovation and Creativity statement.\u201d"
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-7",
+              "text": "We also extract this part from each Ideas grant and analyse using the proposed pipeline."
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-8",
+              "text": "The experimental result shows that the proposed method can achieve 68.33% accuracy on analysing \u201cInnovation and Creativity statement\u201d sections only from Ideas Grants."
+            },
+            {
+              "iri": "Section-6-Paragraph-8-Sentence-9",
+              "text": "Although we guess the IC score is more relevant to the \u201cInnovation and Creativity statement\u201d compared with other sections, as evaluators may describe their innovation in this section, the experimental result does not support our guess."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-7",
+      "subtitle": "Conclusion",
+      "paragraphs": [
+        {
+          "iri": "Section-7-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-1",
+              "text": "In summary, a pipeline for analysing grant applications has been proposed with several crucial steps."
+            },
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-2",
+              "text": "The proposed data mining model is an RF classifier over documents encoded with features denoting the presence or absence of unigrams."
+            },
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-3",
+              "text": "Specifically, the unigram terms are encoded by a modified Term Frequency - Inverse Document Frequency(TF-IDF) algorithm, which only implements the IDF part of TF-IDF."
+            },
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-4",
+              "text": "As a result, the proposed model achieves an accuracy of 84.17% based on all types of grant applications."
+            },
+            {
+              "iri": "Section-7-Paragraph-1-Sentence-5",
+              "text": "In addition, we also build experiments for Ideas Grants only and \u201cInnovation and Creativity statement\u201d single section."
+            }
+          ]
+        },
+        {
+          "iri": "Section-7-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-7-Paragraph-2-Sentence-1",
+              "text": "The future work can be carried out from different perspectives."
+            },
+            {
+              "iri": "Section-7-Paragraph-2-Sentence-2",
+              "text": "Firstly, innovation should not be the only evaluation criterion."
+            },
+            {
+              "iri": "Section-7-Paragraph-2-Sentence-3",
+              "text": "In order to better evaluate the entire grant application, we should consider other evaluation scores and establish a more comprehensive system that can predict a grant application based on multiple criteria."
+            },
+            {
+              "iri": "Section-7-Paragraph-2-Sentence-4",
+              "text": "Secondly, in the future, this project can also apply some other effective data mining models, such as SVM, AdaBoost, and Xgboost."
+            },
+            {
+              "iri": "Section-7-Paragraph-2-Sentence-5",
+              "text": "In addition, the pre-trained language models in the Natural Language Processing (NLP) field perform well in understanding text semantics, which can also be our next research focus."
+            },
+            {
+              "iri": "Section-7-Paragraph-2-Sentence-6",
+              "text": "Thirdly, our proposed method cannot predict future grant applications because the current data set contains only key terms for 2019 and does not represent future grant applications."
+            },
+            {
+              "iri": "Section-7-Paragraph-2-Sentence-7",
+              "text": "Therefore, it is an important research topic to consider building a long-term data mining model to predict future grant applications."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Data mining techniques can transform massive amounts of unstructured data into quantitative data that quickly reveal insights, trends, and patterns behind the original data. In this paper, a data mining model is applied to analyse the 2019 grant applications submitted to an Australian Government research funding agency to investigate whether grant schemes successfully identifies innovative project proposals, as intended. The grant applications are peer-reviewed research proposals that include specific 'innovation and creativity' (IC) scores assigned by reviewers. In addition to predicting the IC score for each research proposal, we are particularly interested in understanding the vocabulary of innovative proposals. In order to solve this problem, various data mining models and feature encoding algorithms are studied and explored. As a result, we propose a model with the best performance, a Random Forest (RF) classifier over documents encoded with features denoting the presence or absence of unigrams. In specific, the unigram terms are encoded by a modified Term Frequency - Inverse Document Frequency (TF-IDF) algorithm, which only implements the IDF part of TF-IDF. Besides the proposed model, this paper also presents a rigorous experimental pipeline for analysing grant applications, and the experimental results prove its feasibility.\n\nIn the 21st century, developing advanced scientific research is crucial for countries, leading government funding agencies to provide substantial financial support. Evaluating research proposals for funding is a rigorous process, often involving expert panels. With the rising number of proposals, agencies are increasingly using data mining models to assist in reviews, although these models cannot fully replace manual checks. Data mining offers benefits such as highlighting key features of proposals, aiding evaluators in assessing strengths and weaknesses, and establishing guidelines for future evaluations. This project aims to apply a data mining model with effective feature extraction to predict high IC-score proposals and develop a predictive vocabulary. The study employs Decision Tree and Random Forest classifiers for comparison. Key contributions include a strict experimental pipeline, a model using a Random Forest classifier with unigram term features encoded by a modified TF-IDF algorithm, achieving 84.17% accuracy. The paper is structured into six sections covering motivation, background, methodology, project design, experimental results, and conclusions.\n\nOztaysi et al. proposed a multi-criteria evaluation method for research proposals using interval-valued intuitionistic fuzzy sets and a fuzzy preference relation matrix. The Preference Selection Index (PSI) method allows evaluation without needing to determine weight criteria. A related system utilized TF-IDF and LDA for research paper classification, achieving the best F-score with 30 keywords. TF-IDF is a common text representation method, but its limitations were noted by Guo and Yang, leading to the development of new techniques like TF-IGM, which outperformed traditional TF-IDF. Various sentiment classification techniques based on TF-IDF were also proposed. In data mining, decision tree (DT) and random forest (RF) classifiers are popular, with RF utilizing multiple DTs for improved decision-making. A news classification method combining TF-IDF and Support Vector Machine (SVM) was introduced, and comparisons of different classifiers indicated that RF with Bagging performed best. Wongso et al. compared TF-IDF and SVD for feature selection, achieving optimal results with Multivariate Bernoulli Naive Bayes.\n\nThis section outlines the workflow of our proposed pipeline for analyzing grant applications, specifically using the 2019 submissions to an Australian Government research funding agency, which includes 3,805 proposals with peer-reviewed IC scores (1-7). The dataset encompasses various grant types and includes additional assessment scores. Text extraction from PDF proposals is performed using a Metadata Extractor & Loader (MEL), with data stored in a CouchDB database. A statistical analysis of IC scores is conducted, revealing that 3,693 proposals have valid scores, with a median score of 5.0. Text pre-processing techniques, such as converting text to lowercase, removing numbers and punctuation, deleting stop words, and stemming, are applied to enhance model performance. A modified TF-IDF algorithm is proposed for feature extraction, focusing on rare terms to define innovativeness. Decision Tree (DT) and Random Forest (RF) classifiers are utilized to classify proposals based on their IC scores, with experiments conducted on low (0-15%) and high (85-100%) IC-score proposals. Additionally, moderate IC-score proposals (15-85%) are analyzed to explore their relationship with high and low scores, using various cut-off options for testing.\n\nThis section outlines the experimental settings for the paper, detailing the implementation of MEL using Python methods to extract metadata from various file types, including PDFs via Tesseract-OCR and pdftotext. Statistical analysis of grant applications employs Python and Numpy for calculating IC score metrics. Data mining models utilize the scikit-learn library for DT and RF classifiers, while gensim implements the TF-IDF algorithm. Hyper-parameter tuning is conducted using Bayesian Optimization, defining model parameters and bounds, with n_iter for optimization steps and init_points for random exploration. The RF classifier's parameters include max_depth, min_samples_split, max_features, max_samples_leaf, and n_estimators, while DT classifier parameters are similarly defined. Both classifiers use 10-fold cross-validation. Performance evaluation of the modified TF-IDF and TF-IDF algorithms is based on classification accuracy and F1 score, with experiments conducted on a MacBook Pro with Intel Core i7 and 16GB memory.\n\nThe performance of the TF-IDF algorithm with Decision Tree (DT) and Random Forest (RF) classifiers is compared, showing that the RF classifier consistently outperforms the DT classifier across various n-gram settings. The modified TF-IDF algorithm achieves the highest accuracy of 84.17% with the RF classifier, using specific hyper-parameters. The model focuses on unigrams and identifies only 618 significant features from a larger set. Despite some exceptions, the modified TF-IDF algorithm proves effective, indicating that rare terms are linked to innovativeness. The confusion matrix reveals misclassifications between high and low IC-score proposals, with the model performing better on low IC scores. Additionally, the model shows a correlation between moderate IC scores and high/low IC scores, predicting low IC scores more accurately. A separate model for Ideas Grant applications achieves 82.5% accuracy, while analyzing the 'Innovation and Creativity statement' sections yields 68.33% accuracy, suggesting that the IC score may not be as relevant to this section as anticipated.\n\nIn summary, a pipeline for analysing grant applications has been proposed with several crucial steps. The proposed data mining model is an RF classifier over documents encoded with features denoting the presence or absence of unigrams. Specifically, the unigram terms are encoded by a modified Term Frequency - Inverse Document Frequency(TF-IDF) algorithm, which only implements the IDF part of TF-IDF. As a result, the proposed model achieves an accuracy of 84.17% based on all types of grant applications. In addition, we also build experiments for Ideas Grants only and \u201cInnovation and Creativity statement\u201d single section.\n\nThe future work can be carried out from different perspectives. Firstly, innovation should not be the only evaluation criterion. In order to better evaluate the entire grant application, we should consider other evaluation scores and establish a more comprehensive system that can predict a grant application based on multiple criteria. Secondly, in the future, this project can also apply some other effective data mining models, such as SVM, AdaBoost, and Xgboost. In addition, the pre-trained language models in the Natural Language Processing (NLP) field perform well in understanding text semantics, which can also be our next research focus. Thirdly, our proposed method cannot predict future grant applications because the current data set contains only key terms for 2019 and does not represent future grant applications. Therefore, it is an important research topic to consider building a long-term data mining model to predict future grant applications.",
+  "kg2text": [
+    "This paper presents a data mining approach that analyzes grant applications using a Random Forest classifier, which is designed to predict innovation and creativity scores based on unigram features encoded by a modified TF-IDF algorithm. The proposed method includes contributions such as presenting a rigorous experimental pipeline for analyzing grant applications and proposing a Random Forest classifier model utilizing a modified TF-IDF algorithm for feature encoding. This approach achieves an accuracy of 84.17% in predicting high IC-score research proposals, demonstrating the effectiveness of this data mining model.",
+    "The proposed method addresses the problem of analyzing grant applications to determine whether grant schemes effectively identify innovative project proposals. The experiments analysing all grant applications apply this method, which utilizes data features extracted from research proposals using a modified Term Frequency-Inverse Document Frequency (TF-IDF) algorithm. This paper presents a Random Forest classifier model that is trained on 2019 grant applications and achieves an accuracy of 84.17% in predicting high innovation and creativity scores for research proposals.",
+    "This paper presents a data mining model for analyzing grant applications submitted to an Australian Government research funding agency, focusing on predicting innovation and creativity scores. The proposed model utilizes a modified Term Frequency-Inverse Document Frequency (TF-IDF) algorithm based on unigram features, selected for its superior performance in analyzing grant applications. The contributions of this paper include the presentation of a rigorous experimental pipeline for analyzing grant applications, the proposal of a Random Forest classifier model utilizing a modified TF-IDF algorithm for feature encoding, and the achievement of an accuracy of 84.17% in predicting high IC-score research proposals.",
+    "The TF-IDF algorithm has a broader term, method. The proposed training model is trained using The proposed model and utilizes feature words to analyze grant applications submitted to an Australian Government research funding agency. This paper presents a data mining approach that employs a Random Forest classifier and a modified Term Frequency - Inverse Document Frequency (TF-IDF) algorithm to predict innovation and creativity scores of grant proposals, addressing the problem of analyzing grant applications effectively identify innovative project proposals. The proposed model utilizes feature words encoded by a modified TF-IDF algorithm, achieving an accuracy of 84.17% in predicting high IC-score research proposals. This paper also presents a pipeline for analysing grant applications that employs data mining techniques to systematically evaluate and predict the innovation and creativity scores of grant applications submitted to a research funding agency.",
+    "The proposed training model utilizes specific characteristics or attributes extracted from research proposals, particularly the presence or absence of unigram terms. This project applies a data mining model to analyze grant applications submitted to an Australian Government research funding agency, with the goal of predicting high innovation and creativity scores for research proposals. The final proposed model is a Random Forest classifier that encodes individual words or phrases used in the research proposals based on their presence or absence in documents. An effective data mining model refers to a computational framework that utilizes data mining techniques, such as the Random Forest classifier, to analyze research proposals and assist human evaluators in identifying the strengths and weaknesses of these proposals during the review process. The proposed model achieves an accuracy of 84.17% across various grant applications by utilizing a modified Term Frequency-Inverse Document Frequency (TF-IDF) algorithm for feature extraction.",
+    "This paper presents a Random Forest classifier, known as the proposed training model, which utilizes a modified TF-IDF algorithm to analyze and predict innovation and creativity scores for grant applications. The data mining model analyzes the 2019 grant applications submitted to an Australian Government research funding agency, focusing on predicting high IC-score proposals. This project applies the proposed model to address the problem of analyzing grant applications effectively identify innovative project proposals. The contributions of this paper include presenting a rigorous experimental pipeline and achieving an accuracy of 84.17% in predicting innovation and creativity scores for grant applications.",
+    "The proposed model, which utilizes a modified TF-IDF algorithm and Random Forest classifier pipeline, addresses the problem of analyzing grant applications to determine whether they effectively identify innovative project proposals. This paper presents a rigorous experimental pipeline for analyzing grant applications, achieving an accuracy of 84.17% in predicting high IC-score research proposals. The proposed model is specifically designed to analyze grant applications submitted to an Australian Government research funding agency and utilizes the term frequency-inverse document frequency (TF-IDF) algorithm to encode unigram features.",
+    "The 'problem' of analyzing grant applications was addressed through the exploration of various data features. The best performance model, which utilizes a modified TF-IDF algorithm, achieves an accuracy of 84.17% in predicting innovation and creativity scores for research proposals submitted to an Australian Government research funding agency. In this project, we proposed a pipeline for analysing grant applications that employs a Random Forest classifier and the data features extracted from research proposals. The contributions of this paper include the presentation of a rigorous experimental pipeline for analyzing grant applications, the proposal of a Random Forest classifier model utilizing a modified TF-IDF algorithm for feature encoding, and the achievement of an accuracy of 84.17% in predicting high IC-score research proposals.",
+    "This paper presents a data mining approach that analyzes grant applications, focusing on predicting innovation and creativity scores. The experiments analyzing all grant applications refer to the systematic evaluation of data mining techniques applied to assess the 2019 grant applications submitted to an Australian Government research funding agency. The contributions of this paper include presenting a rigorous experimental pipeline for analyzing grant applications, proposing a Random Forest classifier model utilizing a modified TF-IDF algorithm for feature encoding, and achieving an accuracy of 84.17% in predicting high IC-score research proposals. An effective data mining model is proposed to analyze and predict the innovation and creativity scores of grant applications submitted to a research funding agency. The best performance model utilizes a modified Term Frequency-Inverse Document Frequency (TF-IDF) algorithm, which assigns values based on term presence or absence in documents. Future grant applications require predictive modeling to assess their potential based on criteria beyond existing datasets.",
+    "The experiments analysing all grant applications employ feature words, which are significant terms identified through a modified TF-IDF algorithm. This pipeline for analysing grant applications uses data mining techniques to systematically evaluate and predict innovation and creativity scores of grant proposals submitted in 2019. The best performance model, a Random Forest classifier that utilises the modified TF-IDF algorithm, achieves an accuracy of 84.17% in predicting these scores. An effective data mining model is proposed, which applies feature words and addresses the problem of identifying innovative project proposals. This project utilises the pipeline for analysing grant applications to predict innovation and creativity scores.",
+    "The study explores four different data mining models, which were evaluated alongside five ensemble methods to determine their effectiveness in classifying grant applications. The best performance model was found to be a Random Forest classifier that utilizes a modified Term Frequency-Inverse Document Frequency (TF-IDF) algorithm, achieving an accuracy of 84.17% in predicting innovation and creativity scores for grant proposals. This project addresses the problem of analyzing grant applications to determine whether grant schemes effectively identify innovative project proposals. The proposed model analyzes the 100 most influential terms extracted from research proposals using a feature extraction technique. An effective data mining model is applied to analyze grant applications, which are encoded by the term. The study also applies an effective data mining model to pipeline for analyzing grant applications and addresses the problem of understanding vocabulary used in innovative proposals.",
+    "The proposed Random Forest classifier, which utilizes a modified Term Frequency - Inverse Document Frequency (TF-IDF) algorithm to analyze grant applications, effectively predicts innovation and creativity scores. The model was applied to analyze all grant applications submitted in 2019, addressing the problem of identifying innovative project proposals. By extracting key features from these applications, such as unigram terms that indicate innovativeness, the proposed data mining approach accurately classified research proposals with low IC scores. Furthermore, the experiments analyzing all grant applications demonstrated the performance of checking research proposals of moderate IC scores based on this model.",
+    "The modified TF-IDF algorithm, which exclusively utilizes Inverse Document Frequency (IDF) to assign values to terms based on their presence in documents, aims to highlight rare terms that may indicate innovativeness. This paper proposes a data mining model using Random Forest classifier and the proposed method analyzes grant applications by predicting innovation and creativity scores. The traditional TF-IDF algorithm is broader than the modified TF-IDF algorithm, which is used by RF based on the modified TF-IDF algorithm. A better understanding of feature contributions and decision-making processes can be gained through data mining models like Random Forest classifier. This paper wants to find out influential terms that significantly contribute to classification and prediction of innovative research proposals.",
+    "The proposed model presents an experimental pipeline for analysing grant applications, which predicts high innovation and creativity scores. The core idea of defining a modified TF-IDF algorithm has a broader term as TF-IDF, used to evaluate the importance of terms in documents. Various data mining models are studied and explored to address the problem of analyzing grant applications. The proposed model implements an IDF part of TF-IDF, which is based on Table 5. It achieves better performance by predicting new research proposals with low and high IC scores. Additionally, it infers a high IC score for these proposals.",
+    "This study presents a rigorous experimental pipeline for analyzing grant applications, utilizing a Random Forest classifier that incorporates a modified Term Frequency-Inverse Document Frequency (TF-IDF) algorithm. The proposed model can achieve an accuracy of 68.33% in predicting high IC-score research proposals. Furthermore, the paper demonstrates the effectiveness of the maximize method and Preference Selection Index in evaluating innovative proposals. Additionally, it highlights the importance of understanding the vocabulary of innovative proposals through predictive models like Decision Tree (DT) and Random Forest (RF). The contributions of this paper include a rigorous experimental pipeline for analyzing grant applications, proposing a modified TF-IDF algorithm-based Random Forest classifier model, and achieving an accuracy of 84.17% in predicting high IC-score research proposals.",
+    "The modified TF-IDF algorithm, which exclusively utilizes the IDF component of traditional TF-IDF method to assign values based on term presence or absence in documents. This approach has been proposed with several crucial steps and applied with data mining algorithms such as Decision Tree (DT) and Random Forest (RF). The core idea of defining this modified TF-IDF algorithm is a simplified encoding technique that focuses on identifying rare terms, which are considered important by DT and RF classifiers. In the analysis of grant applications submitted in 2019, high-quality data mining models were developed to extract valuable insights from text pre-processing techniques. This study shows that the best performance model achieved an accuracy of 84.17% using a Random Forest classifier with modified TF-IDF algorithm feature encoding.",
+    "The modified TF-IDF algorithm, which exclusively utilizes Inverse Document Frequency (IDF) to assign values to terms based on their presence in documents, aims to highlight rare terms that may indicate innovativeness. This approach can be understood as a simple encoding technique. The proposed model predicts the innovation and creativity scores of grant applications with high accuracy using this algorithm. Additionally, the deletion of stop words is an effective text pre-processing technique used to enhance data mining tasks by focusing on more meaningful terms. Furthermore, Bagging ensemble method improves the performance of models like Random Forest classifier in predicting innovativeness. The best performing model achieved 84.17% accuracy in predicting innovation and creativity scores for grant applications.",
+    "The proposed method, which combines encoding techniques and data mining models, has been shown to be effective in analyzing grant applications. The modified TF-IDF algorithm plays a crucial role in this process by identifying rare terms related to innovativeness. This approach can apply to various research proposals, including those with low IC scores. In fact, the experimental results prove that the core idea of defining the modified TF-IDF algorithm is sound. Furthermore, an effective data mining model like Random Forest classifier has been used in this study to analyze and predict innovation and creativity scores based on extracted text features.",
+    "The traditional TF-IDF algorithm has been improved by introducing the modified TF-IDCRF, which emphasizes relationships between classes. This new approach was applied to analyze grant applications from 2019 and compared with other data mining models such as Random Forest (RF) classifiers. The study found that RF performed well in predicting innovation and creativity scores based on unigram feature encoding. Furthermore, it demonstrated the effectiveness of combining TF-IDF algorithm with different data mining classifiers for text representation. In addition, the paper explored various data mining techniques, including decision trees and random forests, to analyze grant proposals.",
+    "The proposed model, a Random Forest classifier, was established for analyzing 2019 grant applications. It utilizes the TF-IDF algorithm with different data mining classifiers to analyze and predict innovation and creativity scores of these proposals. The TF-IDF algorithm has been shown to outperform other term weighting techniques like TF-IGM in various standard corpora. Feature words were identified through a modified TF-IDF algorithm, which are deemed important for predicting the innovation and creativity scores of grant applications. Research proposals were analyzed based on this proposed model, which can better predict their innovation and creativity scores than traditional methods. The Random Forest classifier is an effective data mining model that utilizes decision trees to analyze large sets of data.",
+    "The analysis of grant applications involves encoding documents with features denoting the presence or absence of unigrams. The core idea of defining a modified TF-IDF algorithm focuses on identifying and utilizing rare terms to enhance the analysis of innovativeness, by implementing only the Inverse Document Frequency (IDF) component. Insights, trends, and patterns are derived from analyzing large volumes of unstructured data, particularly in relation to grant applications. A proposed Random Forest classifier is designed to analyze these documents by predicting innovation and creativity scores based on unigram feature encoding. The TF-IDF algorithm with different data mining classifiers refers to a method that combines the Term Frequency-Inverse Document Frequency technique for text representation with various classification algorithms to categorize textual data. Different data mining classifiers, such as Decision Trees (DT) and Random Forest (RF), are evaluated for their performance in analyzing grant applications. The features extracted from the proposed model show that 618 significant features were identified by the Random Forest classifier using a modified TF-IDF algorithm, which were derived from a large dataset of research proposals to analyze their innovation and creativity scores.",
+    "The TF-IGM technique has been shown to outperform traditional TF-IDF algorithms. The IDF part of TF-IDF provides a broader term, while the LDA with 30 keywords using TF-IDF also falls under this category. The proposed model utilizes a modified TF-IDF algorithm and is designed for predicting innovation and creativity scores based on unigram features encoded by MEL. In contrast to black box models, our approach uses Python-based methods to extract metadata from various file types. RF classifiers only use 99.31% of the available features, indicating that they are efficient in extracting relevant information. The proposed model is also compared with different data mining algorithms and has been shown to be effective in analyzing grant applications.",
+    "The TF-IDF algorithm with different data mining classifiers has been applied to analyze massive amounts of unstructured data, revealing trends and patterns. Ensemble methods have been used to combine multiple models, improving predictive performance. The modified TF-IDF algorithm was found to be effective in extracting influential terms from research proposals. A pipeline for analyzing grant applications was developed using a Random Forest classifier, which achieved the best performance model. Data mining techniques were applied to extract insights and patterns from large datasets.",
+    "The modified TF-IDF algorithm, a feature extraction technique, exclusively utilizes the Inverse Document Frequency (IDF) component of the traditional TF-IDF method to assign values to terms based on their presence in documents. This approach aims to highlight rare terms that may indicate innovativeness in grant applications. The proposed model, which combines Random Forest classifier with modified TF-IDF algorithm, achieves an accuracy of 84.17% across various grant applications. Additionally, the study highlights the importance of IDF value and its role in evaluating the importance of a term within a collection of documents.",
+    "The Random Forest (RF) classifier, which utilizes a modified Term Frequency - Inverse Document Frequency (TF-IDF) algorithm to analyze grant applications, achieved an accuracy of 84.17%. This proposed model is another type of data mining model that includes RF and has broader terms such as various data mining models and data mining itself. The TF-IDF algorithm is used to encode unigrams, which are then analyzed by the Random Forest classifier. In addition, the best performing model for analyzing Ideas Grant applications uses a modified TF-IDF algorithm with 30 keywords extracted using Latent Dirichlet Allocation (LDA). Furthermore, Xgboost and Decision Tree (DT) classifiers were used in this study to analyze grant proposals.",
+    "The modified TF-IDF algorithm, a feature extraction technique, was used to analyze massive amounts of unstructured data and extract insights, trends, and patterns. The proposed model, which utilized this algorithm, can better predict innovation and creativity scores in grant applications by identifying rare terms associated with innovativeness. This approach has been shown to be effective in evaluating excellent research proposals, providing a better understanding of the feature contributions and decision-making processes involved.",
+    "The study compares various text representation algorithms, specifically TF-IDF and its modified versions. A new model evaluates Ideas Grant applications using a long-term data mining approach that focuses on innovation criteria. The experimental pipeline for analysing grant applications demonstrates the effectiveness of this project's results. Data mining techniques are used to extract patterns from large datasets, including feature extraction methods like TF-IDF with NWN and LDA with 30 keywords. Random Forest is applied over documents to classify research proposals based on their IC scores. This valuable information highlights the importance of influential features in data mining models.",
+    "The proposed pipeline for analyzing grant applications utilizes influential features derived from data mining models, which are computational frameworks or algorithms used to extract patterns and insights from large datasets. The method involves model training using a Random Forest classifier designed to predict innovation and creativity scores based on unigram feature encoding. Experimental comparison reveals that the best performing model achieves an accuracy of 82.5% in analyzing Ideas Grant applications. Furthermore, data mining techniques have several benefits, including enhancing the screening process for evaluators, understanding the strengths and weaknesses of proposals, and improving the quality of assessments and funding project strategies.",
+    "The long-term data mining model has been applied to analyze massive amounts of unstructured data from grant applications. The influential features extracted by this model have helped identify innovative project proposals, such as those submitted under Ideas Grants. By leveraging feature extraction techniques like TF-IDF and IDF formula, the model can uncover valuable insights, trends, and patterns in the data. In fact, a recent experiment showed that using TF-IGM instead of traditional TF-IDF led to improved performance metrics. Furthermore, the Random Forest classifier has been shown to be particularly effective in predicting IC scores for research proposals. Overall, this project demonstrates the power of data mining techniques like LDA with 30 keywords and four different models in extracting meaningful information from large datasets.",
+    "The Random Forest classifiers have a broader term, 'classifier', which refers to an ensemble method used for text classification tasks. The LDA with fewer keywords has a broader term, 'model', designed to analyze grant applications by predicting innovation and creativity scores based on unigram feature encoding. A pipeline for analyzing grant applications involves data mining techniques, including Random Forest classifiers and modified TF-IDF algorithms. Influential features of the data mining models refer to key characteristics derived from research proposals that assist human evaluators in identifying high-quality proposals during the review process.",
+    "The proposed pipeline analyzes each Ideas grant, utilizing a modified TF-IDF algorithm and Random Forest classifier to evaluate innovation and creativity scores. The experiments analyzing all 2019 grant applications reveal insights into the vocabulary used in innovative proposals. A best performance model was developed, achieving an accuracy of 84.17% in predicting these scores. Decision tree plots were generated by this model, illustrating its decision-making process. Pre-trained language models can be applied to improve feature extraction and classification tasks.",
+    "Our proposed pipeline systematically analyzes grant applications using data mining techniques, including steps such as data extraction and feature extraction. The classifier, a Random Forest model, was developed to analyze and predict innovation and creativity scores of research proposals based on extracted text features. Experimental comparison revealed that Decision Tree and RF classifiers performed better than other models in predicting high IC-score research proposals. Moreover, the modified TF-IDF algorithm effectively evaluated F-scores for feature extraction techniques. The data mining model applied to high research proposals predicted their potential for innovative contributions.",
+    "The study analyzed PDF research proposals, which are formal grant applications submitted to an Australian Government research funding agency. The data mining model used a modified TF-IDF algorithm and extracted key terms from the current dataset containing only unigram features denoting presence or absence of specific vocabulary related to innovative project proposals. The high-quality data mining model was designed to predict innovation and creativity scores, with better performance achieved through preprocessing steps such as stop word removal. In each experiment, innovative project proposals were selected based on their essential features extracted from the 100 most influential features identified by the Random Forest classifier.",
+    "The proposed model, based on Random Forest classifier, utilizes historical data and advanced data mining techniques to analyze grant applications. The accuracy of this model has been evaluated through test accuracy, which indicates its effectiveness in predicting high innovation and creativity scores for research proposals. Additionally, the frequency of a word in documents or collections is an important feature used by the proposed model. Furthermore, influential features such as 100 most influential terms contribute to reducing weighted impurities in data mining models. The performance of these models relies on various algorithms like TF-IDF algorithm, which uses n-grams and term frequencies to analyze text data.",
+    "The proposed data mining model, a high-quality Random Forest (RF) classifier, was designed to analyze grant applications by predicting innovation and creativity scores. The RF classifier uses Decision Trees as its base models, which are combined through ensemble learning to improve predictive performance. In this study, the RF classifier achieved an accuracy of 84.17% in distinguishing between low and high IC-score research proposals. Furthermore, the model was able to identify influential features that assist human evaluators in screening high-quality research proposals. The experimental results showed that moderate IC-score research proposals were incorrectly predicted by the proposed data mining model, highlighting the need for further improvement of predictive models.",
+    "The performance of data mining tasks refers to the effectiveness and efficiency of various techniques and models in extracting meaningful insights from large datasets. The DT classifier, a type of machine learning model, was found to be effective when applied to grant application data, as demonstrated by its superior results compared to other models. This project aimed at applying data mining models to analyze grant applications submitted to an Australian Government agency, with the goal of predicting high innovation and creativity scores for research proposals. The workflow of our proposed pipeline involves steps such as data extraction, statistical analysis, text pre-processing, feature extraction, and the application of classification models to evaluate the innovative potential of research proposals. Decision Tree (DT) and RF classifiers were found not to rely on bigram and trigram combinations in their performance. A modified TF-IDF algorithm was used for feature extraction, which is a part of Text pre-processing. The study also explored the use of an improved TF-IDF algorithm based on classification discrimination strength. Future grant applications require predictive modeling to assess their potential beyond existing datasets.",
+    "The proposed training model, which combines TF-IDF with Random Forest (RF) classifier, was trained on research proposals and evaluated based on its performance. The RF classifier achieved excellent results when applied to grant applications, particularly those deemed 'excellent' by reviewers. In contrast, the DT classifier performed poorly due to its inability to capture complex relationships between features. Furthermore, the modified TF-IDF algorithm proved effective in extracting relevant information from documents, leading to improved classification accuracy. Overall, this study demonstrates that high-quality data mining models can be used to analyze grant applications and identify innovative project proposals.",
+    "The Random Forest (RF) classifier, which consists of multiple decision trees that operate independently on a random sample of data and select optimal attributes based on specific measures. The RF classifier was used to analyze grant applications submitted for funding in 2019, with an experimental pipeline developed to utilize data mining techniques for evaluating the quality of research proposals. In this study, five different data mining classifiers were compared, including the DT classifier which achieved superior performance when applied to check research proposals with moderate IC scores. The comparison study also evaluated various feature extraction techniques and found that TF-IGM outperformed traditional TF-IDF in three standard corpora. Additionally, text pre-processing techniques are crucial for preparing textual data for analysis or modeling.",
+    "The experiments analysing all grant applications follow the same pipeline, which includes data extraction and statistical analysis. The goal of this project is to develop a predictive vocabulary for contemporary research proposals by applying machine learning models such as Decision Tree (DT) and RF classifiers. Specifically, the modified TF-IDF algorithm was used to extract features from text documents, while gensim implemented the algorithm. This project aims to predict high innovation and creativity scores in grant applications using data mining techniques. The proposed training model is a Random Forest classifier that correctly predicted 13 research proposals with low IC scores as having low IC scores, but incorrectly classified 6 research proposals with low IC scores as having high IC scores. Furthermore, the statistical analysis of grant applications revealed correlations between moderate IC-score research proposals and new research proposals with low and high IC scores. An experiment was conducted based on the proposed training model to evaluate its performance.",
+    "The comprehensive pipeline for analyzing grant applications involves data extraction, statistical analysis of research proposals with high innovation and creativity scores. The modified TF-IDF algorithm was used to extract relevant features from documents, which were then classified using a Random Forest classifier. This project aimed at predicting the IC scores of research proposals submitted to an Australian Government funding agency. A total of 3,805 research proposals were analyzed, including 13 high IC-score proposals that were incorrectly classified by the proposed data mining model. The results showed that excellent research proposals with high innovation and creativity scores can be identified using this pipeline.",
+    "The proposed data mining model, which utilizes a modified Term Frequency-Inverse Document Frequency (TF-IDF) algorithm and Random Forest classifier, demonstrates excellent performance in predicting innovation and creativity scores for grant applications. The best-performing model achieves an accuracy of 84.17%, outperforming other models including the Decision Tree classifier. Notably, high IC-score research proposals are characterized by a strong level of perceived innovativeness and creativity, as assessed by reviewers. Furthermore, the number of research proposals has been increasing significantly in recent years due to advancements in data mining techniques.",
+    "The data set, comprising 3,693 grant applications submitted to an Australian Government research funding agency in 2019, contains different types of grant applications. The high IC score has a broader term, 'IC score', which refers to the innovation and creativity scores assigned by peer reviewers. Support Vector Machine is a type of algorithm used for data mining, while modified TF-IDF algorithms are designed to highlight rare terms indicating innovativeness in research proposals. Grant schemes successfully identify innovative project proposals with high IC scores. The essential features of research proposals refer to key characteristics that assist human evaluators in assessing the quality of grant applications. High IC-score research proposals have a broader term, 'IC score', which is used as an evaluation metric for innovation and creativity. The two algorithms compared are TF-IDF and SVD, while TF-IDCRF focuses on relationships between classes in classification models. The term has a broader term, also referring to the concept of terms. The contributions of this paper include presenting a rigorous experimental pipeline for analyzing grant applications, proposing a Random Forest classifier model using modified TF-IDF algorithms, and achieving an accuracy of 84.17% in predicting high IC-score research proposals.",
+    "The proposed model accurately predicts low Innovation and Creativity (IC) scores for research proposals, with a median IC-score of 5.0. This study compares various text representation algorithms, including binary bag of words, TF-IDF, and TF-IDF with Next Word Negation (NWN), to classify grant applications based on their innovation and creativity scores. The Random Forest classifier is used to analyze the data set of peer-reviewed research proposals submitted in 2019, which includes documents in PDF format. The study highlights the importance of efficient feature extraction techniques for predicting high or low IC-score research proposals.",
+    "The paper discusses the importance of data mining models, specifically the TF-IDF algorithm with different classifiers, to analyze grant applications. The authors highlight the limitations of a proposed data mining model that incorrectly classified high IC-score research proposals as having low scores. They demonstrate how testing several cut-off options can improve classification accuracy using Random Forest and Decision Tree classifiers. Furthermore, they introduce predictive vocabulary for identifying innovative research proposals. Overall, this study showcases the potential of data mining techniques to enhance grant application evaluation.",
+    "The analysis of grant applications involves evaluating different types of proposals, including Ideas Grants and moderate IC-score research proposals. The innovation and creativity (IC) score plays a crucial role in assessing the quality of these proposals. In fact, median IC-score research proposals have been found to be particularly innovative, with 5.0 being the most frequent IC score assigned. To better understand the relationships between entities, massive amounts of unstructured data were analyzed using techniques like Term Frequency - Inverse Document Frequency (TF-IDF) and Random Forest (RF). The results showed that new research proposals with low and high IC scores have distinct characteristics, with those having a high IC score being more innovative. Furthermore, AdaBoost was used to improve the performance of RF in predicting the quality of grant applications.",
+    "The analysis of grant applications involves evaluating research proposals with high IC-scores, such as 'high IC-score research proposals', which have received a peer-reviewed innovation and creativity score. The development of data mining techniques, like AdaBoost, has led to improved performance in predicting innovative potential. In the context of Ideas Grants, procedures and guidelines are essential for human assessors to evaluate future research proposals effectively. Data mining models, such as Decision Trees, can be applied to grant applications to identify patterns and trends. The whole pipeline involves several crucial steps, including model training using a subset of 400 research proposals selected from the 2019 dataset.",
+    "The Australian Government's Ideas Grant applications require an 'Innovation and Creativity' statement, which is evaluated using IC scores. Researchers submit grant proposals to secure funding for innovative projects. To analyze these proposals, data mining algorithms like the maximize method are used to optimize model performance. The Random Forest classifier was trained on a dataset of 3,805 research proposals, with features contributing to reducing weighted impurities. Experimental results showed that the proposed pipeline accurately predicted IC scores and distinguished between low- and high-scoring proposals. Additionally, LDA schemes were applied for topic modeling in research paper classification systems.",
+    "The proposed data mining model, based on the TF-IDF algorithm and different classifiers, was used to analyze grant applications. The results showed that the system accurately classified research proposals with low IC scores, moderate IC-score proposals, and innovative project proposals. Additionally, the study demonstrated the effectiveness of using key terms for 2019 in identifying keywords relevant to the analysis. Furthermore, the experimental pipeline for analyzing grant applications revealed a high classification accuracy (Acc) when evaluating IC scores of research proposals. The findings highlight the potential of data mining techniques, such as AdaBoost and TF-IDCRF, in optimizing model performance.",
+    "The study analyzed a dataset of 3,805 peer-reviewed grant applications submitted to an Australian Government research funding agency. The data set contained IC scores below 1.0, which were excluded from further analysis. Researchers used various text representation algorithms, including TF-IDF and Unigram, to analyze the Innovation and Creativity statements in Ideas Grants proposals. Preliminary experiments confirmed that feature words are important for predicting innovation and creativity scores. New research proposals with low and high IC scores were categorized based on their IC scores. The study also explored different data mining models, such as Random Forest (RF), which achieved a classification accuracy of 85%. Overall, the results demonstrated the effectiveness of TF-IDF algorithm in encoding textual features for classification tasks.",
+    "In this project, we analyzed 3,805 grant applications submitted to an Australian Government research funding agency. We found that low-IC score research proposals have a broader term of IC-score, indicating a perceived lack of innovative quality. The 100 most influential terms in these proposals are related to data sets and TF-IDF algorithms used for text classification. Our analysis also revealed that very rare terms tend not to be predictive, while the best F-score was achieved using an improved TF-IDF algorithm with 30 keywords. Each decision tree in our model has a broader term of 'tree', which is used to classify research proposals based on their IC scores. We found that 85%~100% of high IC score proposals were correctly classified, and the data set submitted to the Australian Government research funding agency was analyzed using manual review of research proposals.",
+    "The proposed model, implemented using scikit-learn and Xgboost, analyzed tens of thousands of features extracted from research proposals to predict high IC scores. The top 100 features were identified as the most influential data attributes contributing significantly to classification performance. A pipeline for analyzing grant applications was developed, employing a Random Forest classifier and modified TF-IDF algorithm to evaluate innovation and creativity scores. Decision tree plots illustrated the decision-making process in the DT classifier, while Bayesian Optimization optimized hyper-parameters for better model performance. The results of the DT classifier showed high accuracy in predicting innovative project proposals with high IC scores.",
+    "This study aims to apply data mining models to analyze grant applications submitted to an Australian Government research funding agency. The 'pipeline for analysing grant applications' refers to a structured methodology that employs data mining techniques, specifically Xgboost and TF-IDF algorithm, to systematically evaluate and predict the innovation and creativity scores of grant proposals. The study compares various text representation algorithms, including binary bag of words, TF-IDF, and TF-IDF with Next Word Negation (NWN) algorithms. The experimental results show that a new model specifically developed for Ideas Grant applications can effectively predict high IC-score research proposals.",
+    "The study analyzed grant applications, focusing on research proposals with low IC scores. The TF-IDF algorithm was implemented using gensim to extract features from text data. A DT classifier and RF were used for classification tasks. Feature extraction techniques were compared based on their performance in classifying moderate IC-score research proposals. The size of the data set influenced the selection of a suitable data mining model. Contemporaneous proposals with low IC scores were analyzed, along with feature extraction algorithms like TF-IDF. Information retrieval and IDFs played crucial roles in understanding innovation and creativity scores. A comparison study was conducted on 400 research proposals to evaluate their characteristics. The results showed that different n-grams considered the significance of terms in text analysis.",
+    "Future grant applications refer to prospective research funding proposals that have not yet been submitted, which require predictive modeling to assess their potential based on criteria beyond the existing dataset of past applications. Research grant applications are formal requests submitted by researchers to funding organizations, seeking financial support for their proposed research projects. Hyper-parameter tuning is a significant step in applying data mining models, such as decision trees and Random Forest classifiers, to analyze grant proposals. New research proposals with low and high IC scores have been categorized based on their innovation and creativity (IC) scores, specifically those that fall into the low (0-15%) and high (85-100%) scoring ranges. The median IC score refers to the middle value of the innovation and creativity scores assigned to research proposals, which is used as a fundamental statistic in the analysis of grant applications.",
+    "The experimental results of this project demonstrate the effectiveness of applying data mining models to analyze grant applications. The findings show that a combination of unigrams and bigrams can be used as features to identify influential terms related to innovativeness in research proposals. Furthermore, the study highlights the importance of cut-off options in selecting moderate IC scores for evaluating excellent research proposals. Additionally, the proposed model utilizes ensemble methods, including Random Forest classifiers with optimized hyper-parameters, to improve text classification performance.",
+    "The proposed data mining model, which combines predictive vocabulary and high-quality text representation techniques, has been applied to develop procedures and guidelines for human assessors. The system uses a simple encoding technique based on trigrams and features extracted from research proposals. Intra-class dispersion algorithms were used to enhance the performance of Decision Tree (DT) and RF classifiers in text classification tasks. Table 4 shows that the model can accurately predict high IC-score research proposals, with rare terms associated with innovativeness playing a crucial role. The black box nature of the Random Forest classifier obscures individual feature contributions, but overall, the system has demonstrated its potential to improve grant application evaluation.",
+    "The analysis of grant applications involves evaluating research proposals based on their innovation and creativity scores. IC scores of research proposals refer to peer-reviewed scores that assess the level of innovation and creativity, ranging from 1 to 7. A research proposal outlines a planned project with objectives, methodology, and significance. Tables represent data formats used in papers to display performance results of various algorithms applied to grant application analysis. The LDA with 30 keywords using TF-IDF is a Latent Dirichlet Allocation model that extracts representative keywords from text data, utilizing the Term Frequency-Inverse Document Frequency algorithm for improved performance metrics such as F-score. An effective data mining model helps human evaluators identify strengths and weaknesses of research proposals during review processes.",
+    "Funding agencies are using a data mining model that extracts patterns and insights from large datasets. The words whose IDF value are less than 1.0 account for only 0.2% of the total words, indicating they are not significant in distinguishing between different research proposals. Cut-off options include values such as 20, 25, 30, 35, 40, 45, and 50 used to categorize moderate IC scores into low and high groups. A data mining model like Multivariate Bernoulli Naive Bayes has a broader term of classifier that is part of an ensemble method known as Random Forest (RF) classifier. The selection range of testing moderate IC score refers to the defined interval of innovation and creativity (IC) scores, specifically between 15% and 85%, used to evaluate research proposals. Contemporaneous proposals are research proposals submitted simultaneously or within the same timeframe, which aim to analyze grant applications. Moderate IC-score research proposals have a relation with low and high IC score categories. The one with innovation criteria refers to Ideas Grant applications that include a dedicated section for 'Innovation and Creativity' that is analyzed using a tailored data mining model. Low-IC score research proposals are those assigned an innovation and creativity (IC) score below 1.0, indicating a perceived lack of innovative quality. RF selects the most popular category based on the majority vote from multiple decision trees in the ensemble. TF-IDF vector encoding has a broader term of encoding technique that is used to convert data into a specific format for efficient processing.",
+    "The study analyzed different types of grant applications, including Standard Project Grants. The experimental results demonstrated that a combination of unigrams and bigrams was not essential for predicting innovation scores using decision tree and random forest classifiers. AdaBoost was used as one of five ensemble methods to improve classification performance. Table 6 presented the best accuracy achieved by the modified TF-IDF algorithm with Random Forest classifier, highlighting its potential in evaluating grant applications. The study also explored text representation techniques, including bigram and trigram combinations, which were found non-essential for model performance. Additionally, an improved TF-IDF algorithm was proposed to enhance term weighting. Furthermore, cut-off options were used to categorize research proposals with moderate IC scores into low and high IC-score groups.",
+    "The study analyzed 3,693 research proposals to identify key terms related to innovativeness. Decision Trees were used to select optimal attributes and classify grant applications into different types. The experimental results showed that an improved TF-IDF algorithm can effectively extract rare terms from text data. Another experiment was designed to check the correlation between moderate IC-score research proposals and high/low IC-score research proposals, revealing a significant relationship. Feature extraction techniques were applied to identify relevant features in grant applications, while stop words were deleted to enhance performance. The study also explored the role of IC scores in evaluating innovation and creativity statements.",
+    "The project aims to develop a predictive vocabulary for contemporary research proposals, focusing on the optimization function used to determine the best parameter values for a data mining model. The experimental pipeline for analysing grant applications involves feature extraction techniques such as bigrams and decision trees, which are classified using algorithms like TF-IGM. The results show that the methodology is effective in predicting high IC-score research proposals, with Synergy Grants being one type of funding application included. Furthermore, the comparison study highlights the importance of selecting the right hyperparameters for data mining models, such as max_features and different feature extraction techniques.",
+    "The study analyzed thousands of research proposals, leveraging different hyper-parameters and Hyper-parameter tuning to optimize their performance. The experimental results showed that a tree graph can be used to visualize hierarchical relationships between terms, with trigrams serving as a feature extraction algorithm for identifying rare terms in the vocabulary of innovative proposals. Statistical analysis was required based on IC scores of research proposals, which were evaluated using an experimental pipeline for analyzing grant applications. This methodology demonstrated its effectiveness through rigorous testing and evaluation, highlighting the importance of workflow management in ensuring accurate results.",
+    "Research proposals are formal documents that outline planned research projects, including their objectives and methodology. Low-IC score research proposals refer to grant applications with a perceived lack of innovative quality. Data mining models use algorithms like Term Frequency & Inverse Gravity Moment (TF-IGM) and Random Forest to analyze grant applications. Section 4 outlines the overall design of the project, detailing its methodology and experimental settings. The Innovation and Creativity statement is an essential part of Ideas Grant applications. Keywords are significant terms that represent main topics or concepts in texts. Different types of grant applications include Synergy Grants, Standard Project Grants, and Ideas Grants. All types of grant applications refer to various research proposals submitted for funding. Statistical analysis is required based on the IC score assigned by reviewers.",
+    "In the context of data mining, a classifier refers to a model that is part of an ensemble method known as Random Forest (RF) classifier. The study compares various text representation algorithms, specifically binary bag of words, TF-IDF, and TF-IDF with Next Word Negation (NWN). Extracting the text from PDF files is necessary for 3,805 research proposals submitted to funding agencies. A bigram is a sequence of two consecutive words in a text used in natural language processing and text analysis. The high IC score refers to a quantitative evaluation metric indicating strong innovation and creativity assigned to research proposals. Scientific research involves systematic investigation and study of natural phenomena aimed at discovering new knowledge, validating existing theories, and solving practical problems through empirical methods and experimentation. Table 7 presents the performance metrics for evaluating research proposals with moderate Innovation and Creativity (IC) scores using a proposed data mining model. The grant applications refer to peer-reviewed research proposals submitted to funding agencies, which include assigned 'innovation and creativity' scores by reviewers.",
+    "The analysis of grant applications involves various research proposals, which are evaluated based on their innovation and creativity scores. The process starts with text representation techniques such as TF-IDF vector encoding to convert textual data into a structured format. Bigram and trigram combinations were found non-essential for predicting high IC-score research proposals using decision tree classifiers. Modified TF-IDF algorithms improved the representation of document relevance, while peer-reviewed research proposals undergo manual review by experts in the field. The same pipeline was applied to evaluate Ideas Grant applications specifically focusing on innovation criteria. Experimental comparison revealed that Random Forest classifier achieved an accuracy of 82.5% for predicting high IC-score research proposals.",
+    "Grant applications are formal requests submitted to funding organizations seeking financial support for specific projects or research initiatives. The entire grant application refers to the complete set of documents and information submitted for funding consideration, which includes various evaluation scores and criteria beyond just innovation, necessitating a comprehensive assessment system. To evaluate these proposals, researchers employ text pre-processing steps such as converting text to lowercase, removing numbers and punctuation, tokenizing, deleting stop words, and stemming aimed at enhancing the performance of data mining models in analyzing grant applications. Moreover, innovative ideas are often represented using n-grams, including bigrams and trigrams, which can be used to identify patterns and relationships within research proposals. Furthermore, a comprehensive system is proposed for evaluating grant applications by integrating multiple evaluation scores beyond just innovation, such as the IC score, moderate IC scores, and others. This system utilizes data mining techniques like Decision Trees based on Attribute Selection Measures and ensemble methods including Bagging with n_estimation = 102 to improve classification performance.",
+    "The analysis of grant applications involves various data mining models and techniques. The Random Forest classifier, for instance, can be used to categorize text into predefined labels or classes based on its content. Different hyper-parameters, such as max_features = 0.9931, are adjustable settings that can be modified to optimize the performance of machine learning models like classification discrimination strength. Feature encoding algorithms and combinations of classifiers can also enhance predictive performance. The median IC score of 5.0 is a metric used to evaluate the innovation potential of research proposals. In addition, K-means clustering was applied to papers with similar topics to group them based on their thematic similarities. Experimental settings and implementations were utilized in the analysis of grant applications. Future work includes exploring additional evaluation criteria and developing predictive models for future grant applications.",
+    "The Random Forest classifier, comprising multiple decision trees, was used to analyze grant applications. Each decision tree operates independently on a random sample of the data and selects optimal attributes based on specific measures. Decision tree plots are graphical representations that illustrate the decision-making process and relationships between features and outcomes in a dataset. The DT classifier achieved high classification accuracy. Weighted impurities refer to statistical measures quantifying influential terms' contribution to overall impurity, aiding evaluation of data quality. Text pre-processing techniques were applied to prepare grant applications for analysis. Next Word Negation is an optimization technique used in Bayesian Optimization to determine the best hyper-parameters. An experimental pipeline was designed to systematically conduct experiments and analyze data to evaluate hypotheses or models. The maximize method refers to a technique used to optimize model performance by iteratively exploring parameter space with specified parameters. Chen et al. proposed Term Frequency & Inverse Gravity Moment (TF-IGM) as an improved term weighting technique. IC scores refer to the innovation and creativity score assigned to research proposals, which is used as an evaluation metric. News articles are written compositions reporting on current events, providing information, analysis, and commentary. Wongso et al. compared TF-IDF and SVD algorithms for feature selection in text classification tasks. PDF files preserve document formatting across different platforms and devices. The forest refers to the ensemble of decision tree classifiers used in Random Forest. Human evaluators assess research proposals based on specific criteria.",
+    "The paper discusses various concepts and techniques used to analyze grant applications. It highlights the importance of considering different hyper-parameters, such as max_features which denotes the number of features considered by a model like DT classifier implemented using scikit-learn. The experimental pipeline involves procedures and guidelines that are broader terms for manual review of research proposals. High-scoring research proposals can be evaluated based on their innovativeness, defined by rare terms in TF-IDF vector encoding. The text pre-processing step includes techniques such as stemming to enhance the performance of data mining models.",
+    "In this study, text stemming was used as part of the pre-processing step to analyze grant applications. Decision tree plots were generated from the classification model's predictions, which evaluated research proposals based on their innovation and creativity scores. The Random Forest classifier tuned its parameters using Bayesian Optimization, with min_samples_leaf set to 11. Representative keywords extracted by Latent Dirichlet Allocation (LDA) captured the main topics of academic papers. Performance evaluation was assessed through an IC score range from 0-15%. A strict experimental pipeline ensured reliable analysis and insights into grant applications' innovation potential.",
+    "The proposed data mining model has its roots in methodology section, which outlines the approaches used to analyze grant applications. The innovative proposals submitted for funding projects are evaluated based on their vocabulary and quality of various types of research. To enhance the performance of these models, text pre-processing techniques such as Next Word Negation are applied to refine the input features. In addition, feature extraction technique is employed to identify relevant attributes from raw data. Furthermore, government or funding agencies should establish funding projects that support innovative proposals with high median IC scores. The maximize method and AdaBoost ensemble learning algorithm can be used to optimize hyper-parameters of DT classifier for classification model.",
+    "Government research funding agencies receive thousands of research proposals. The system has a broader term, methodology, which outlines the approaches and techniques used to collect and analyze data. Low IC scores have a broader term, evaluation scores, indicating innovation and creativity levels. An experimental pipeline for analyzing grant applications is proposed as an alternative method to manual checks. This pipeline utilizes text pre-processing techniques, such as custom stop words removal, to enhance the quality of assessments. The best combination of parameters was found through Bayesian Optimization, which maximizes the accuracy of Random Forest classifiers in evaluating grant proposals. In conclusion, data mining models can help human evaluators by providing a more accurate and efficient way to assess research proposal qualities.",
+    "The forest refers to an ensemble of decision tree classifiers used in Random Forest, where each tree contributes to the final classification decision. Text pre-processing techniques are methods used to prepare and clean textual data for analysis or modeling, enhancing the quality and effectiveness of subsequent data processing tasks. Next Word Negation is a text sentiment classification technique that enhances traditional TF-IDF algorithm by incorporating method to account for negation of words in context of sentiment analysis. Each country's government research funding agencies are willing to provide essential and cutting-edge scientific research. Das and Chakraborty proposed a text sentiment classification technique that utilizes the TF-IDF algorithm combined with Next Word Negation. The LDA with fewer keywords refers to variant of Latent Dirichlet Allocation model that uses reduced number of keywords for topic modeling, which was compared to version using 30 keywords in context of analyzing grant applications.",
+    "The LDA with fewer keywords and LDA schemes are variants of Latent Dirichlet Allocation models used for topic modeling. This series of experiments analyzed research proposals submitted by scientists and researchers, evaluating their innovation criteria scores using statistical measures such as mode and median. The maximize method was employed to optimize hyper-parameters in the Random Forest classifier, which is a type of ensemble method that combines multiple decision trees. Different hyper-parameters were explored, including max_features and max_depth 22, to improve model performance. Text sentiment classification techniques like Next Word Negation were used to analyze grant applications. The scoring method was based on methodology, and the results showed that feature selection steps played a crucial role in improving accuracy. Further analysis revealed insights into the effectiveness of various ensemble methods.",
+    "The maximize method, which stems from text stemming, helps researchers optimize their data mining models. This study compares Support Vector Machine with Multivariate Bernoulli Naive Bayes for text classification tasks. The significance score of research proposals plays a crucial role in evaluating grant applications. Scientists use Python to analyze the median and mode of IC scores. Experiments for Ideas Grants involve assessing innovation and creativity statements, which are key terms that can be categorized using bigrams. Data mining models like Unigram help classify texts into predefined classes.",
+    "The feasibility score, an assessment of research proposals' practicality and viability, can be influenced by various algorithms such as feature extraction algorithm and intra-class dispersion algorithm. The maximize method used for text sentiment classification technique may also impact the accuracy of grant applications. In Bayesian Optimization, hyper-parameters are crucial settings that require optimization to achieve high accuracy scores like 68.33%. Text pre-processing techniques, including Porter Stemming algorithm and the deletion of stop words, can enhance data quality by removing irrelevant information. Decision Trees classify proposals based on necessary qualities such as innovation and creativity, while term weights in information retrieval help identify relevant terms.",
+    "In the context of machine learning, 'forest' refers to an ensemble of decision tree classifiers used in Random Forest classifier. The term 'ensemble methods' encompasses various techniques that combine multiple models for improved predictive performance and robustness. Synergy Grants are a specific type of research funding application submitted to Australian Government agencies. Fuzzy preference relation matrices were used to determine the relative importance of criteria, while human evaluators understand the strengths and weaknesses of research proposals. The Preference Selection Index did not require predetermined weight criteria, whereas pipelines involve workflows that facilitate data analysis. SVD is a feature extraction technique for dimensionality reduction in machine learning models. Hyper-parameter tuning optimizes model parameters without relying on training data. Peer-reviewed research proposals undergo evaluation by experts to assess their quality and feasibility. Conclusions and future work outline potential directions for further study. Reviewers assign IC-scores based on innovation and creativity, while Oztaysi et al. proposed a multi-criteria approach for evaluating grant applications. Original training set settings involve data sets with defined ranges of IC scores for low and high classifications. News classification methods use Support Vector Machines to categorize news articles into predefined classes.",
+    "The Preference Selection Index (PSI) method was advantageous for the researcher, allowing them to assess research grant applications without needing predetermined weight criteria. Experimental results showed that rare but important words have a broader term of 'word', which carries significant meaning and relevance in text analysis. The deletion of stop words has been shown by Fani et al. to enhance data mining tasks' effectiveness. Combinations of classifiers, such as Bagging ensemble method, can improve predictive performance and robustness. In the context of research grant applications, funding agencies assist in manual review processes. A pipeline was designed for systematic analysis using text pre-processing techniques like n-grams and bigrams. The methodology section outlined procedures used to conduct experiments presented in Table 4.",
+    "The overall design of the project outlines the methodologies and processes used to analyze grant applications. The term 'design' refers to the structure and framework outlined in Section 4, which encompasses approaches and techniques for collecting and analyzing data. In this context, common words like shift are frequently used but do not significantly contribute to analysis. Each country's government research funding agencies provide scientific research funding, while combinations of classifiers work together as ensembles to improve predictive performance. Experimental results prove the feasibility of a strict experimental pipeline, which does not support our initial guess that IC scores are closely related to content in specific sections. The methodology section outlines procedures for evaluating grant proposals effectively.",
+    "The Random Forest classifier, with its hyper-parameters including min_samples_split = 67 and max_samples_leaf, depends independently on a random sample. This ensemble method combines multiple decision trees to improve predictive accuracy. In analyzing grant applications using this algorithm, it's crucial to optimize the model's performance by identifying the best combination of parameters and target values. The methodology section outlines the feature extraction technique used, including SVD for dimensionality reduction. Experimental results show that the proposed method outperforms traditional approaches in text representation and sentiment analysis.",
+    "The maximize method, an optimization technique used to determine the best hyper-parameters for data mining models, has been applied successfully. The methodology section outlines the approaches and techniques used to collect and analyze data. In this context, accuracy refers to a statistical measure evaluating model performance by determining correct predictions made out of total predictions. Experimental results show that the proposed method achieves an impressive 68.33% accuracy in analyzing Innovation and Creativity statement sections of Ideas Grant applications. Funding agencies like the Australian Government research funding agency provide financial support for research initiatives. Custom stop words are excluded from text analysis to improve relevance, while bigrams capture relationships between adjacent terms. Text pre-processing techniques, such as stemming, prepare data for further processing. The system proposed integrates multiple evaluation scores to enhance prediction accuracy. Fan and Qin's TF-IDCRF algorithm emphasizes the relationship between classes in classification models. Hyper-parameter tuning optimizes model parameters to improve performance. Funding projects support diverse scientific research endeavors. Research grant applications are formal requests submitted by researchers seeking financial support for their proposed projects.",
+    "The K-means clustering algorithm, an unsupervised machine learning method, has a broader term of 'algorithms'. Next Word Negation (NWN) technique enhances traditional TF-IDF by accounting for word negations in sentiment analysis. Text classification tasks involve categorizing text into predefined labels or classes based on content. Keywords represent main topics or concepts and are significant terms used to facilitate search and categorization. Metadata provides information about data, describing its context, structure, and content. Essential scientific research projects receive funding from government agencies for innovative advancements in various fields. Small pieces of text can be referred to as tokens generated by breaking down the text into individual components after removing punctuation and whitespace. Hyper-parameters define configuration settings and bounds used in Bayesian Optimization process. Bigrams are sequences of two consecutive words, capturing relationships between adjacent terms. Low IC scores refer to innovation and creativity ratings below 15%. Several experiments were conducted using a proposed data mining model. Trigrams capture three-consecutive-word relationships for language modeling and feature extraction. Results from the DT classifier indicate optimal performance in classifying news articles. Scarce words are rare or infrequent terms within grant applications, not considered essential features by algorithms. The maximize method optimizes hyper-parameters through iterative exploration of parameter space. Experimental results validate hypotheses or assess model performance.",
+    "The Multivariate Bernoulli Naive Bayes classification model was applied to standard corpora, which are collections of data sets. The plot of DT classifier illustrates the decision-making process and outcomes for various research proposals. Hyper-parameters such as max_depth and max_samples_leaf were tuned using statistical analysis and methodology section guidelines. Text pre-processing techniques like text stemming and custom stop words removal were employed to prepare the training data, which was built around Innovation and Creativity statements. The scoring method used a range of IC scores from 0~15% for low innovation proposals up to high classification levels.",
+    "The application of Bayesian Optimization to text classification tasks has led to significant improvements. The use of bigrams and trigrams, which are sequences of two or three consecutive words respectively, have been instrumental in capturing relationships between adjacent terms. Furthermore, the importance of project significance cannot be overstated as it is crucial for securing funding from government research agencies. In addition, the Random Forest classifier's hyper-parameters require careful tuning to optimize its performance. The Numpy library has played a vital role in calculating statistical measurements such as median and mode. Our next research focus will involve exploring pre-trained language models in Natural Language Processing to enhance text semantics understanding.",
+    "In machine learning, hyper-parameters such as max_depth and min_samples_leaf = 11 play a crucial role in determining the performance of algorithms like K-means clustering. The process of tuning these parameters involves optimizing their values to achieve better results. This study compared the effectiveness of Multivariate Bernoulli Naive Bayes with Xgboost, highlighting the importance of text pre-processing and predictive vocabulary in sentiment classification techniques. Furthermore, guidelines for human assessors are essential when evaluating research proposals, as they provide a framework for assessing grant applications effectively.",
+    "The proposed experimental pipeline for analyzing grant applications introduces new implementations, which are organized into sections. The binary bag of words representation method has a broader term in text representation, while encoding techniques also fall under this category. Ensemble methods and their variants like Bagging have been shown to be effective in improving predictive performance. The feasibility of the approach was demonstrated through its application on funding agencies' grant applications. Scientific terms are represented using language models, which can be pre-trained for specific domains. Hyper-parameters such as n_iter define the number of steps in Bayesian Optimization processes. Text stemming reduces words to their root format, enabling feature extraction and analysis. Training models involve algorithms like decision trees with parameters min_samples_leaf defining the minimum samples required on a leaf node. The study by Wongso et al. applied SVD for dimensionality reduction in text classification tasks. Combinations of classifiers can be used to improve predictive performance, while trigrams denote combinations of unigrams and bigrams.",
+    "The scientific research funding has a broader term, which refers to the financial resources allocated to support and facilitate scientific research activities. A project typically has a problem statement that outlines the specific issue it aims to solve. The min_samples_split hyper-parameter tuning process determines the minimum number of samples required to split an internal node in decision tree-based algorithms. Fig. 2 shows a confusion matrix, which is used to evaluate the performance of classification algorithms by comparing predicted classifications with actual ones. Other stop words are filtered out during text pre-processing techniques because they carry less meaningful information. The design of the project refers to its overall structure and framework outlined in Section 4. Training data sets are used to train machine learning models, while test data is used for evaluation purposes. Text classification tasks involve categorizing text into predefined labels or classes based on their content. Parameter values refer to specific numerical settings that influence a model's behavior and performance. A scientific research project has a broader term, which refers to the systematic investigation undertaken to develop knowledge or solve a problem.",
+    "The proposed method for analyzing grant applications involves several key steps. First, reviewers score proposals based on multiple criteria, including innovation and significance scores. Next, stop words are deleted from the text to enhance data mining performance. The Random Forest classifier uses n_estimation hyper-parameters to determine the number of trees in the forest. Tokenizing by whitespace is used to split text into smaller segments for further analysis. Experimental results show that Multivariate Bernoulli Naive Bayes classification outperforms other algorithms, with category labels indicating the most popular outcome selected by the ensemble of decision trees. The maximize method optimizes hyper-parameters using Bayesian Optimization techniques. Finally, abstracts summarize research findings and methodology sections outline experimental pipelines.",
+    "The study explores the relationship between hyper-parameters and their impact on machine learning models. The vocabulary of innovative proposals refers to the specific language used in grant applications, which can be analyzed using techniques like 10-fold cross-validation. Hyper-parameter tuning involves optimizing parameters such as max_features = 0.9931 and min_samples_leaf for decision tree algorithms. Scientific research funding is crucial for supporting projects that aim to advance knowledge in various fields. The Feasibility Score assesses the practicality of proposals, while methodology sections outline the steps taken during experimentation. Thousands of research proposals are reviewed by expert panels each year, with reviewers scoring them based on criteria such as feasibility and importance.",
+    "The study on grant applications employs various techniques, including Singular Value Decomposition (SVD) for dimensionality reduction and feature extraction. The SVD technique helps to identify relevant features from a larger set of data, which improves model performance in machine learning algorithms. Additionally, hyper-parameters such as max_samples_leaf are used to optimize the training process. Furthermore, text pre-processing techniques like removing punctuations and stop words filtering enhance the quality of extracted content for analysis. The study also utilizes CouchDB database management system to store JSON files of research proposals efficiently. In conclusion, this paper presents a comprehensive methodology for analyzing grant applications using data mining techniques.",
+    "The methodology section outlines the text pre-processing techniques used to prepare and clean textual data for analysis. The classification accuracy (Acc) of a model can be evaluated using various metrics, including test accuracy. Experimental results are obtained by conducting experiments with different hyper-parameters, such as min_samples_leaf = 11, max_depth, and n_estimation. A comparison study is conducted to evaluate the performance of different models or methods in research proposals. The motivation behind a project drives researchers to pursue innovative ideas.",
+    "Researchers, such as HaCohen-Kerner and Wongso et al., have demonstrated the effectiveness of text pre-processing techniques in enhancing the performance of data mining models. Innovation refers to the process of creating new ideas or methods that provide value or improve upon existing solutions. In this context, innovation is evaluated using a multi-criteria approach, which considers various factors such as methodology and hyper-parameters. The most popular category determined by Random Forest classifier is based on the majority vote from multiple decision trees in the ensemble. Metadata sets are organized collections of data that provide information about other data, facilitating its management, retrieval, and understanding.",
+    "The methodology section outlines various text sentiment classification techniques, including Python-based methods that extract metadata from Indonesian Language corpus and other data sets. The importance of developing cutting-edge scientific research emphasizes the need for nations to invest in innovative endeavors. In this context, people pay attention to a certain set of words, which are significant in documents. Natural Language Processing is a subfield of computer science that enables machines to understand human language. Oztaysi et al.'s multi-criteria evaluation approach uses interval-valued intuitionistic fuzzy sets for research proposals. The Random Forest classifier determines the most popular category based on individual decision trees' outputs, resulting in the final result. Experimental settings involve configuring hyper-parameters such as max_depth = 22 and min_samples_leaf = 11 to optimize model performance. Reviewers evaluate grant applications by assessing their quality and potential for innovation.",
+    "Human evaluators respond to necessary qualities. Experimental settings and implementations have a broader term, experimental settings. The methodology section has a broader term, methodology. Workflow also has a broader term, methodology. SVD algorithms are defined as having a broader term, SVD. Frequent words have a broader term, word. Fani et al. is included in the category of scientists. Other sections have a broader term, sections. The median is part of statistical measures. All the words from documents also fall under the umbrella of word. Background and related work has a broader term, background. Min_samples_split is defined as having a broader term, the minimum number of samples needed to split an internal node. Hyper-parameters include min_samples_split. Section 4 falls within the category of sections. Test accuracy is part of evaluation criterion. Meaning is included in text semantics. The Tesseract-OCR method is applied to metadata.",
+    "The Tesseract-OCR method extracts metadata from PDF files. This section introduces sections, which are distinct parts of a document that organize content into manageable units. The cross-validation setup has a broader term methodology section, where experimental settings and implementations are introduced. Section 2 provides an introduction to background and related work relevant to the research project on analyzing grant applications. All supported file types have a broader term file types, which refer to various formats in which data can be stored and organized. The researcher refers to scientists who conduct systematic investigations and research to advance knowledge. Extracting text from PDF files is necessary for understanding their content. Section 6 presents conclusions drawn from the research and outlines potential future work related to grant applications analysis.",
+    "Experimental settings refer to specific conditions and environments established for conducting experiments. Methodology, on the other hand, refers to a systematic framework or set of principles that guide research design and execution. Tesseract-OCR software enables conversion of images containing text into machine-readable text, which is applied in metadata processing. Preliminary experiments are initial tests conducted to gather data and inform further research. Scientists and researchers pay attention to words when analyzing grant applications. The methodology section outlines the methods used to conduct research. Results can guide scientists' decisions or inform future work. Vocabulary refers to a set of words and phrases used within a particular language, which has broader implications for understanding language itself. Future work includes planned projects that will be pursued following this study.",
+    "The importance of developing cutting-edge scientific research is self-evident for every country. Governments or funding agencies, such as an Australian Government research funding agency, provide financial support for research initiatives and projects. The methodology section outlines the methods and procedures used to conduct the research. Experimental settings refer to the specific conditions established for conducting experiments. Human evaluators understand strengths and weaknesses of a subject. Chen et al.'s work on term weighting techniques in information retrieval highlights the significance of word choice, with six sections providing an overview of their findings.",
+    "The process of removing punctuations involves adopting tokenizing by whitespace. The project's motivation and problem statement are introduced through sections, which also introduce experimental settings. Characters are converted to lowercase for further analysis. Conclusions have a broader term in sections, while common words have a broader term in word. Hardware platforms like MacBook Pro with Intel Core i7 2.9 GHz Quad-Core processor are introduced in sections. The importance of the 21st century is recognized by every country as a crucial period for scientific research and advancement. Every country has a broader term in 'country'. The memory configuration is specified to be 16GB 2133 MHz LPDDR3, while Australian Government has a broader term in government."
+  ],
+  "times": [
+    1058.6073064804077
+  ]
+}

@@ -1,0 +1,824 @@
+{
+  "iri": "Paper-58",
+  "title": "P06-1013",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-58-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-58-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-58-Section-1-Paragraph-1-Sentence-1",
+              "text": "Combination methods are an effective way of improving system performance ."
+            },
+            {
+              "iri": "Paper-58-Section-1-Paragraph-1-Sentence-2",
+              "text": "This paper examines the benefits of system combination for unsupervised WSD ."
+            },
+            {
+              "iri": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+              "text": "We investigate several voting - and arbiter-based combination strategies over a diverse pool of unsupervised WSD systems ."
+            },
+            {
+              "iri": "Paper-58-Section-1-Paragraph-1-Sentence-4",
+              "text": "Our combination methods rely on predominant senses which are derived automatically from raw text ."
+            },
+            {
+              "iri": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+              "text": "Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results when compared with state-of-the-art ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005052089691162109,
+    15.145755290985107,
+    20.88329291343689,
+    19.323918342590332,
+    0.019062519073486328,
+    9.083747863769531e-05,
+    0.0001087188720703125,
+    31.711589336395264,
+    28.413172245025635,
+    1.029205083847046,
+    24.96427822113037,
+    0.008106470108032227,
+    0.00016355514526367188,
+    23.59933853149414,
+    3.5367653369903564,
+    0.010180950164794922,
+    1.0906825065612793,
+    3.2773709297180176,
+    3.0600059032440186,
+    4.229001760482788,
+    31.723069190979004,
+    1.5574300289154053,
+    10.396429777145386,
+    1.0204670429229736,
+    0.0004253387451171875,
+    0.008884906768798828
+  ],
+  "nodes": {
+    "Entity-our_combination_method": {
+      "node_id": "our_combination_method",
+      "disambiguation_index": 0,
+      "label": "Our combination methods",
+      "aliases": [
+        "Our combination methods"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of approaches that combine multiple unsupervised WSD systems to improve their performance by relying on predominantly sensed meanings automatically extracted from raw text.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Our combination methods",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-our_combination_method-Mention-1"
+        }
+      ],
+      "relevance": 0.80517578125
+    },
+    "Entity-the_benefit_of_system_combination_for_unsupervised_wsd": {
+      "node_id": "the_benefit_of_system_combination_for_unsupervised_wsd",
+      "disambiguation_index": 0,
+      "label": "the benefits of system combination for unsupervised WSD",
+      "aliases": [
+        "the benefits of system combination for unsupervised WSD"
+      ],
+      "types": [
+        "benefit",
+        "WSD",
+        "combination"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The advantages gained by combining multiple systems for performing Word Sense Disambiguation without supervision.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the benefits of system combination for unsupervised WSD",
+          "local_types": [
+            "benefit",
+            "WSD",
+            "combination"
+          ],
+          "iri": "Entity-the_benefit_of_system_combination_for_unsupervised_wsd-Mention-1"
+        }
+      ],
+      "relevance": 0.78515625
+    },
+    "Entity-voting_-_and_arbiter-based_combination_strategy": {
+      "node_id": "voting_-_and_arbiter-based_combination_strategy",
+      "disambiguation_index": 0,
+      "label": "voting - and arbiter-based combination strategies",
+      "aliases": [
+        "arbiter-based combination strategies",
+        "voting - and arbiter-based combination strategies"
+      ],
+      "types": [
+        "approach",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Several algorithmic methods that combine the outputs of multiple unsupervised Word Sense Disambiguation (WSD) systems using voting and arbiter-based strategies.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "voting - and arbiter-based combination strategies",
+          "local_types": [
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-voting_-_and_arbiter-based_combination_strategy-Mention-1"
+        },
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "arbiter-based combination strategies",
+          "local_types": [
+            "approach",
+            "method"
+          ],
+          "iri": "Entity-voting_-_and_arbiter-based_combination_strategy-Mention-2"
+        }
+      ],
+      "relevance": 0.751953125
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "We",
+        "This paper"
+      ],
+      "types": [
+        "author",
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The current research study examining the benefits and strategies of combining systems for unsupervised Word Sense Disambiguation (WSD).",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        },
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-this_paper-Mention-2"
+        }
+      ],
+      "relevance": 0.74072265625
+    },
+    "Entity-unsupervised_wsd_system": {
+      "node_id": "unsupervised_wsd_system",
+      "disambiguation_index": 0,
+      "label": "unsupervised WSD systems",
+      "aliases": [
+        "unsupervised WSD systems"
+      ],
+      "types": [
+        "natural language processing tool",
+        "information retrieval system",
+        "software system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of software system that performs Word Sense Disambiguation (WSD) without human supervision, used for natural language processing and information retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "unsupervised WSD systems",
+          "local_types": [
+            "natural language processing tool",
+            "information retrieval system",
+            "software system"
+          ],
+          "iri": "Entity-unsupervised_wsd_system-Mention-1"
+        }
+      ],
+      "relevance": 0.6650390625
+    },
+    "Entity-a_diverse_pool_of_unsupervised_wsd_system": {
+      "node_id": "a_diverse_pool_of_unsupervised_wsd_system",
+      "disambiguation_index": 0,
+      "label": "a diverse pool of unsupervised WSD systems",
+      "aliases": [
+        "a diverse pool of unsupervised WSD systems"
+      ],
+      "types": [
+        "pool",
+        "dataset",
+        "systems"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A collection of various machine learning models that perform word sense disambiguation without human supervision, used for combining and improving their performance.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a diverse pool of unsupervised WSD systems",
+          "local_types": [
+            "pool",
+            "dataset",
+            "systems"
+          ],
+          "iri": "Entity-a_diverse_pool_of_unsupervised_wsd_system-Mention-1"
+        }
+      ],
+      "relevance": 0.66455078125
+    },
+    "Entity-unsupervised_wsd": {
+      "node_id": "unsupervised_wsd",
+      "disambiguation_index": 0,
+      "label": "unsupervised WSD",
+      "aliases": [
+        "unsupervised WSD"
+      ],
+      "types": [
+        "information retrieval technique",
+        "natural language processing task",
+        "technique",
+        "information retrieval method",
+        "task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of assigning word senses to words in text without using labeled training data",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "unsupervised WSD",
+          "local_types": [
+            "information retrieval technique",
+            "natural language processing task",
+            "technique",
+            "information retrieval method",
+            "task"
+          ],
+          "iri": "Entity-unsupervised_wsd-Mention-1"
+        }
+      ],
+      "relevance": 0.64306640625
+    },
+    "Entity-wsd_system": {
+      "node_id": "wsd_system",
+      "disambiguation_index": 0,
+      "label": "WSD systems",
+      "aliases": [
+        "WSD systems"
+      ],
+      "types": [
+        "system",
+        "technology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Systems that perform Word Sense Disambiguation, which involves identifying the correct sense or meaning of words with multiple meanings.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "WSD systems",
+          "local_types": [
+            "system",
+            "technology"
+          ],
+          "iri": "Entity-wsd_system-Mention-1"
+        }
+      ],
+      "relevance": 0.59521484375
+    },
+    "Entity-our_ensemble": {
+      "node_id": "our_ensemble",
+      "disambiguation_index": 0,
+      "label": "our ensembles",
+      "aliases": [
+        "our ensembles"
+      ],
+      "types": [
+        "model",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of machine learning models or algorithms used together to improve performance.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "our ensembles",
+          "local_types": [
+            "model",
+            "algorithm"
+          ],
+          "iri": "Entity-our_ensemble-Mention-1"
+        }
+      ],
+      "relevance": 0.5947265625
+    },
+    "Entity-combination_method": {
+      "node_id": "combination_method",
+      "disambiguation_index": 0,
+      "label": "Combination methods",
+      "aliases": [
+        "combination methods",
+        "Combination methods",
+        "system combination",
+        "combination strategies"
+      ],
+      "types": [
+        "approach",
+        "algorithm",
+        "algorithmic approach",
+        "method",
+        "algorithmic technique",
+        "concept",
+        "methodological framework",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A method or approach that combines multiple techniques, strategies, or principles to achieve a specific goal or outcome.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Combination methods",
+          "local_types": [
+            "approach",
+            "concept",
+            "methodology",
+            "method"
+          ],
+          "iri": "Entity-combination_method-Mention-1"
+        },
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "combination methods",
+          "local_types": [
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-combination_method-Mention-2"
+        },
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "system combination",
+          "local_types": [
+            "methodology",
+            "algorithmic technique"
+          ],
+          "iri": "Entity-combination_method-Mention-3"
+        },
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "combination strategies",
+          "local_types": [
+            "methodological framework",
+            "algorithmic approach"
+          ],
+          "iri": "Entity-combination_method-Mention-4"
+        }
+      ],
+      "relevance": 0.5908203125
+    },
+    "Entity-our_ensemble_yield_significantly_better_result_when_compared_with_state-of-the-art": {
+      "node_id": "our_ensemble_yield_significantly_better_result_when_compared_with_state-of-the-art",
+      "disambiguation_index": 0,
+      "label": "our ensembles yield significantly better results when compared with state-of-the-art",
+      "aliases": [
+        "our ensembles yield significantly better results when compared with state-of-the-art"
+      ],
+      "types": [
+        "result"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Machine learning models or algorithms",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "our ensembles yield significantly better results when compared with state-of-the-art",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-our_ensemble_yield_significantly_better_result_when_compared_with_state-of-the-art-Mention-1"
+        }
+      ],
+      "relevance": 0.57958984375
+    },
+    "Entity-senseval-3_data_set": {
+      "node_id": "senseval-3_data_set",
+      "disambiguation_index": 0,
+      "label": "Senseval-3 data sets",
+      "aliases": [
+        "SemCor and Senseval-3 data sets",
+        "the SemCor and Senseval-3 data sets",
+        "Senseval-3 data sets"
+      ],
+      "types": [
+        "information repository",
+        "data set",
+        "resource",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of text datasets used for evaluating natural language processing tasks, particularly semantic sense induction.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Senseval-3 data sets",
+          "local_types": [
+            "resource",
+            "dataset"
+          ],
+          "iri": "Entity-senseval-3_data_set-Mention-1"
+        },
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "SemCor and Senseval-3 data sets",
+          "local_types": [
+            "information repository",
+            "dataset"
+          ],
+          "iri": "Entity-senseval-3_data_set-Mention-2"
+        },
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the SemCor and Senseval-3 data sets",
+          "local_types": [
+            "data set"
+          ],
+          "iri": "Entity-senseval-3_data_set-Mention-3"
+        }
+      ],
+      "relevance": 0.57666015625
+    },
+    "Entity-senseval-3": {
+      "node_id": "senseval-3",
+      "disambiguation_index": 0,
+      "label": "Senseval-3",
+      "aliases": [
+        "Senseval-3"
+      ],
+      "types": [
+        "evaluation metric",
+        "competition",
+        "dataset"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A well-known evaluation metric, competition, or dataset for semantic sense induction and disambiguation.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Senseval-3",
+          "local_types": [
+            "evaluation metric",
+            "competition",
+            "dataset"
+          ],
+          "iri": "Entity-senseval-3-Mention-1"
+        }
+      ],
+      "relevance": 0.55712890625
+    },
+    "Entity-system_performance": {
+      "node_id": "system_performance",
+      "disambiguation_index": 0,
+      "label": "system performance",
+      "aliases": [
+        "system performance"
+      ],
+      "types": [
+        "performance",
+        "performance metric",
+        "evaluation metric",
+        "performance indicator",
+        "evaluation criterion"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The measure or evaluation of a system's efficiency, effectiveness, and quality.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "system performance",
+          "local_types": [
+            "performance",
+            "performance metric",
+            "evaluation metric",
+            "performance indicator",
+            "evaluation criterion"
+          ],
+          "iri": "Entity-system_performance-Mention-1"
+        }
+      ],
+      "relevance": 0.53857421875
+    },
+    "Entity-which_are_derived_automatically_from_raw_text": {
+      "node_id": "which_are_derived_automatically_from_raw_text",
+      "disambiguation_index": 0,
+      "label": "which are derived automatically from raw text",
+      "aliases": [
+        "which are derived automatically from raw text"
+      ],
+      "types": [
+        "text"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Predominant word senses that are generated or extracted directly from unprocessed textual data without human intervention.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "which are derived automatically from raw text",
+          "local_types": [
+            "text"
+          ],
+          "iri": "Entity-which_are_derived_automatically_from_raw_text-Mention-1"
+        }
+      ],
+      "relevance": 0.53515625
+    },
+    "Entity-wsd": {
+      "node_id": "wsd",
+      "disambiguation_index": 0,
+      "label": "WSD",
+      "aliases": [
+        "WSD"
+      ],
+      "types": [
+        "technique",
+        "methodology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Word Sense Disambiguation technique or methodology",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "WSD",
+          "local_types": [
+            "technique",
+            "methodology"
+          ],
+          "iri": "Entity-wsd-Mention-1"
+        }
+      ],
+      "relevance": 0.533203125
+    },
+    "Entity-semcor": {
+      "node_id": "semcor",
+      "disambiguation_index": 0,
+      "label": "SemCor",
+      "aliases": [
+        "SemCor"
+      ],
+      "types": [
+        "resource",
+        "dataset"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A linguistic resource or dataset",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "SemCor",
+          "local_types": [
+            "resource",
+            "dataset"
+          ],
+          "iri": "Entity-semcor-Mention-1"
+        }
+      ],
+      "relevance": 0.50634765625
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "Experiments",
+      "aliases": [
+        "Experiments"
+      ],
+      "types": [
+        "study",
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A series of controlled tests or trials conducted to test hypotheses, gather data, and draw conclusions about a particular phenomenon or concept.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Experiments",
+          "local_types": [
+            "study",
+            "research"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.45458984375
+    },
+    "Entity-raw_text": {
+      "node_id": "raw_text",
+      "disambiguation_index": 0,
+      "label": "raw text",
+      "aliases": [
+        "raw text"
+      ],
+      "types": [
+        "text data",
+        "input data",
+        "unprocessed information",
+        "data source"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Unprocessed textual data",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "raw text",
+          "local_types": [
+            "text data",
+            "input data",
+            "unprocessed information",
+            "data source"
+          ],
+          "iri": "Entity-raw_text-Mention-1"
+        }
+      ],
+      "relevance": 0.4423828125
+    },
+    "Entity-state-of-the-art": {
+      "node_id": "state-of-the-art",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art",
+      "aliases": [
+        "state-of-the-art"
+      ],
+      "types": [
+        "benchmark",
+        "standard"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The current most advanced or highest level of achievement in a particular field, technology, or methodology.",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "state-of-the-art",
+          "local_types": [
+            "benchmark",
+            "standard"
+          ],
+          "iri": "Entity-state-of-the-art-Mention-1"
+        }
+      ],
+      "relevance": 0.4248046875
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "research publication",
+        "academic work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written document presenting research or scholarly information",
+      "mentions": [
+        {
+          "reference": "Paper-58-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "paper",
+          "local_types": [
+            "research publication",
+            "academic work"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.40283203125
+    }
+  },
+  "summary": "Combination methods are an effective way of improving system performance . This paper examines the benefits of system combination for unsupervised WSD . We investigate several voting - and arbiter-based combination strategies over a diverse pool of unsupervised WSD systems . Our combination methods rely on predominant senses which are derived automatically from raw text . Experiments using the SemCor and Senseval-3 data sets demonstrate that our ensembles yield significantly better results when compared with state-of-the-art .",
+  "triples": [
+    [
+      "Entity-combination_method",
+      "Predicate-are_an_effective_way_of_improving",
+      "Entity-system_performance"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-examines",
+      "Entity-the_benefit_of_system_combination_for_unsupervised_wsd"
+    ],
+    [
+      "Entity-combination_method",
+      "Predicate-investigate",
+      "Entity-a_diverse_pool_of_unsupervised_wsd_system"
+    ],
+    [
+      "Entity-our_combination_method",
+      "Predicate-derive_automatically_from",
+      "Entity-raw_text"
+    ],
+    [
+      "Entity-experiment",
+      "Predicate-demonstrate_that",
+      "Entity-our_ensemble"
+    ],
+    [
+      "Entity-our_ensemble",
+      "Predicate-yield_significantly_better_results_when_compared_with",
+      "Entity-state-of-the-art"
+    ],
+    [
+      "Entity-our_combination_method",
+      "Predicate-examine",
+      "Entity-the_benefit_of_system_combination_for_unsupervised_wsd"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_benefit_of_system_combination_for_unsupervised_wsd",
+      "skos:broader",
+      "Entity-wsd_system"
+    ],
+    [
+      "Entity-the_benefit_of_system_combination_for_unsupervised_wsd",
+      "skos:broader",
+      "Entity-wsd"
+    ]
+  ],
+  "predicates": {
+    "Predicate-are_an_effective_way_of_improving": {
+      "label": "are an effective way of improving",
+      "description": "This predicate indicates that the subject has a direct and significant impact on achieving or enhancing the object. It suggests a causal relationship between the subject's existence or application and the improvement of the object, implying a positive outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-examines": {
+      "label": "examines",
+      "description": "To examine a predicate means to investigate or analyze its properties, characteristics, or implications. In this sense, the subject (e.g., This paper) engages in an intellectual inquiry into the object (e.g., the benefits of system combination for unsupervised WSD), seeking to understand and interpret it.",
+      "disambiguation_index": 0
+    },
+    "Predicate-investigate": {
+      "label": "investigate",
+      "description": "To investigate means to systematically examine or analyze something (the object) with the intention of gaining insight, understanding, or uncovering information about it. The subject performs this examination or analysis to gather knowledge, identify patterns, or solve a problem related to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-derive_automatically_from": {
+      "label": "derive automatically from",
+      "description": "This predicate indicates that the subject generates or obtains its characteristics, properties, or rules directly and immediately from the object. The connection between the subject and object implies a causal relationship where the object serves as the source of inspiration, guidance, or foundation for the subject's development.",
+      "disambiguation_index": 0
+    },
+    "Predicate-demonstrate_that": {
+      "label": "demonstrate that",
+      "description": "To predicate 'demonstrate that' indicates a relationship where the subject (e.g., Experiments) provides evidence or proof to support or validate the object (e.g., our ensembles), typically implying a sense of verification, confirmation, or validation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-yield_significantly_better_results_when_compared_with": {
+      "label": "yield significantly better results when compared with",
+      "description": "This predicate indicates a comparative advantage or superiority of the subject over the object. It suggests that the subject possesses qualities or characteristics that lead to more desirable outcomes, making it a better choice than the object when compared.",
+      "disambiguation_index": 0
+    },
+    "Predicate-examine": {
+      "label": "examine",
+      "description": "To examine means to investigate or scrutinize something in order to gain a deeper understanding or insight. It implies a systematic and thorough analysis, often with the goal of identifying patterns, relationships, or underlying principles.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject concept is a specific instance or subclass of a more general category or class represented by the object. It establishes a hierarchical relationship between the two, where the subject is a narrower or more specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

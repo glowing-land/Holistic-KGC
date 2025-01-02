@@ -1,0 +1,1458 @@
+{
+  "iri": "Paper-92",
+  "title": "CVPR_2008_258_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-92-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-92-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+              "text": "We propose a novel step toward the unsupervised seg-mentation of whole objects by combining '' hints '' of partial scene segmentation offered by multiple soft , binary mattes ."
+            },
+            {
+              "iri": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+              "text": "These mattes are implied by a set of hypothesized object boundary fragments in the scene ."
+            },
+            {
+              "iri": "Paper-92-Section-1-Paragraph-1-Sentence-3",
+              "text": "Rather than trying to find or define a single '' best '' segmentation , we generate multiple segmentations of an image ."
+            },
+            {
+              "iri": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+              "text": "This reflects contemporary methods for unsupervised object discovery from groups of images , and it allows us to define intuitive evaluation met-rics for our sets of segmentations based on the accurate and parsimonious delineation of scene objects ."
+            },
+            {
+              "iri": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+              "text": "Our proposed approach builds on recent advances in spectral clustering , image matting , and boundary detection ."
+            },
+            {
+              "iri": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+              "text": "It is demonstrated qualitatively and quantitatively on a dataset of scenes and is suitable for current work in unsupervised object discovery without top-down knowledge ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005242824554443359,
+    17.290542364120483,
+    24.643207550048828,
+    24.430983304977417,
+    0.0310821533203125,
+    0.00011587142944335938,
+    0.000148773193359375,
+    46.82613754272461,
+    68.23920321464539,
+    1.305027723312378,
+    48.034390449523926,
+    0.012959718704223633,
+    0.00025177001953125,
+    29.305270195007324,
+    2.248187303543091,
+    0.014316797256469727,
+    1.0944724082946777,
+    3.22633957862854,
+    7.373347997665405,
+    10.065637826919556,
+    54.54619288444519,
+    2.1416890621185303,
+    24.25630021095276,
+    0.9974417686462402,
+    0.0011487007141113281,
+    0.015703678131103516
+  ],
+  "nodes": {
+    "Entity-our_proposed_approach": {
+      "node_id": "our_proposed_approach",
+      "disambiguation_index": 0,
+      "label": "Our proposed approach",
+      "aliases": [
+        "Our proposed approach"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A novel method that combines partial scene segmentation hints from multiple soft binary mattes to generate multiple segmentations of an image for unsupervised object discovery.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Our proposed approach",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-our_proposed_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.86376953125
+    },
+    "Entity-novel_step_toward_the_unsupervised_seg-mentation_of_whole_object": {
+      "node_id": "novel_step_toward_the_unsupervised_seg-mentation_of_whole_object",
+      "disambiguation_index": 0,
+      "label": "novel step toward the unsupervised seg-mentation of whole objects",
+      "aliases": [
+        "novel step toward the unsupervised seg-mentation of whole objects",
+        "a novel step toward the unsupervised seg-mentation of whole objects"
+      ],
+      "types": [
+        "unsupervised learning",
+        "methodology",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A proposed methodology for combining partial scene segmentation hints from multiple soft, binary mattes to generate multiple segmentations of an image without top-down knowledge.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel step toward the unsupervised seg-mentation of whole objects",
+          "local_types": [
+            "unsupervised learning",
+            "methodology"
+          ],
+          "iri": "Entity-novel_step_toward_the_unsupervised_seg-mentation_of_whole_object-Mention-1"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a novel step toward the unsupervised seg-mentation of whole objects",
+          "local_types": [
+            "methodology",
+            "approach"
+          ],
+          "iri": "Entity-novel_step_toward_the_unsupervised_seg-mentation_of_whole_object-Mention-2"
+        }
+      ],
+      "relevance": 0.86083984375
+    },
+    "Entity-hint__of_partial_scene_segmentation_offered_by_multiple_soft__binary_matte": {
+      "node_id": "hint__of_partial_scene_segmentation_offered_by_multiple_soft__binary_matte",
+      "disambiguation_index": 0,
+      "label": "hints  '' of partial scene segmentation offered by multiple soft , binary mattes",
+      "aliases": [
+        "hints  '' of partial scene segmentation offered by multiple soft , binary mattes",
+        "hints '' of partial scene segmentation offered by multiple soft , binary mattes"
+      ],
+      "types": [
+        "technique",
+        "algorithm",
+        "image processing"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A technique for combining multiple, partially segmented images to generate whole object segmentations.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "hints  '' of partial scene segmentation offered by multiple soft , binary mattes",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "image processing"
+          ],
+          "iri": "Entity-hint__of_partial_scene_segmentation_offered_by_multiple_soft__binary_matte-Mention-1"
+        }
+      ],
+      "relevance": 0.814453125
+    },
+    "Entity-partial_scene_segmentation": {
+      "node_id": "partial_scene_segmentation",
+      "disambiguation_index": 0,
+      "label": "partial scene segmentation",
+      "aliases": [
+        "partial scene segmentation"
+      ],
+      "types": [
+        "image analysis process",
+        "approach",
+        "scene understanding problem",
+        "computational problem",
+        "image analysis task",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The process or approach that combines 'hints' from multiple soft and binary mattes to segment a whole object partially.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "partial scene segmentation",
+          "local_types": [
+            "image analysis process",
+            "approach",
+            "scene understanding problem",
+            "computational problem",
+            "image analysis task",
+            "concept"
+          ],
+          "iri": "Entity-partial_scene_segmentation-Mention-1"
+        }
+      ],
+      "relevance": 0.78515625
+    },
+    "Entity-it_is_demonstrated_qualitatively_and_quantitatively_on_a_dataset_of_scene_and_is_suitable_for_current_work_in_unsupervised_object_discovery_without_top-down_knowledge": {
+      "node_id": "it_is_demonstrated_qualitatively_and_quantitatively_on_a_dataset_of_scene_and_is_suitable_for_current_work_in_unsupervised_object_discovery_without_top-down_knowledge",
+      "disambiguation_index": 0,
+      "label": "It is demonstrated qualitatively and quantitatively on a dataset of scenes and is suitable for current work in unsupervised object discovery without top-down knowledge",
+      "aliases": [
+        "It is demonstrated qualitatively and quantitatively on a dataset of scenes and is suitable for current work in unsupervised object discovery without top-down knowledge"
+      ],
+      "types": [
+        "evaluation",
+        "unsupervised learning"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The proposed approach to unsupervised object segmentation",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "It is demonstrated qualitatively and quantitatively on a dataset of scenes and is suitable for current work in unsupervised object discovery without top-down knowledge",
+          "local_types": [
+            "evaluation",
+            "unsupervised learning"
+          ],
+          "iri": "Entity-it_is_demonstrated_qualitatively_and_quantitatively_on_a_dataset_of_scene_and_is_suitable_for_current_work_in_unsupervised_object_discovery_without_top-down_knowledge-Mention-1"
+        }
+      ],
+      "relevance": 0.76220703125
+    },
+    "Entity-soft__binary_matte": {
+      "node_id": "soft__binary_matte",
+      "disambiguation_index": 0,
+      "label": "soft, binary mattes",
+      "aliases": [
+        "soft, binary mattes"
+      ],
+      "types": [
+        "image representation technique",
+        "computer vision tool",
+        "image representation format"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A set of hypothesized object boundary fragments in an image used for unsupervised object discovery and segmentation.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "soft, binary mattes",
+          "local_types": [
+            "image representation technique",
+            "computer vision tool",
+            "image representation format"
+          ],
+          "iri": "Entity-soft__binary_matte-Mention-1"
+        }
+      ],
+      "relevance": 0.75927734375
+    },
+    "Entity-matte": {
+      "node_id": "matte",
+      "disambiguation_index": 0,
+      "label": "mattes",
+      "aliases": [
+        "mattes",
+        "These mattes"
+      ],
+      "types": [
+        "object",
+        "visual effect"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Soft, binary images used as hints for partial scene segmentation and object boundary detection.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "mattes",
+          "local_types": [
+            "visual effect"
+          ],
+          "iri": "Entity-matte-Mention-1"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "These mattes",
+          "local_types": [
+            "object"
+          ],
+          "iri": "Entity-matte-Mention-2"
+        }
+      ],
+      "relevance": 0.74609375
+    },
+    "Entity-these_matte_are_implied_by_a_set_of_hypothesized_object_boundary_fragment_in_the_scene": {
+      "node_id": "these_matte_are_implied_by_a_set_of_hypothesized_object_boundary_fragment_in_the_scene",
+      "disambiguation_index": 0,
+      "label": "These mattes are implied by a set of hypothesized object boundary fragments in the scene",
+      "aliases": [
+        "These mattes are implied by a set of hypothesized object boundary fragments in the scene"
+      ],
+      "types": [
+        "scene analysis",
+        "concept",
+        "computer vision",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A collection of soft, binary mattes inferred from hypothetical object boundaries within an image or scene.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "These mattes are implied by a set of hypothesized object boundary fragments in the scene",
+          "local_types": [
+            "scene analysis",
+            "concept",
+            "computer vision",
+            "data"
+          ],
+          "iri": "Entity-these_matte_are_implied_by_a_set_of_hypothesized_object_boundary_fragment_in_the_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.740234375
+    },
+    "Entity-rather_than_trying_to_find_or_define_a_single__best__segmentation__we_generate_multiple_segmentation_of_an_image": {
+      "node_id": "rather_than_trying_to_find_or_define_a_single__best__segmentation__we_generate_multiple_segmentation_of_an_image",
+      "disambiguation_index": 0,
+      "label": "Rather than trying to find or define a single '' best '' segmentation , we generate multiple segmentations of an image",
+      "aliases": [
+        "Rather than trying to find or define a single '' best '' segmentation , we generate multiple segmentations of an image"
+      ],
+      "types": [
+        "approach",
+        "image processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The approach for unsupervised object discovery that generates multiple segmentations of an image instead of finding a single 'best' segmentation.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Rather than trying to find or define a single '' best '' segmentation , we generate multiple segmentations of an image",
+          "local_types": [
+            "approach",
+            "image processing"
+          ],
+          "iri": "Entity-rather_than_trying_to_find_or_define_a_single__best__segmentation__we_generate_multiple_segmentation_of_an_image-Mention-1"
+        }
+      ],
+      "relevance": 0.73095703125
+    },
+    "Entity-our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object": {
+      "node_id": "our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object",
+      "disambiguation_index": 0,
+      "label": "our sets of segmentations based on the accurate and parsimonious delineation of scene objects",
+      "aliases": [
+        "our sets of segmentations based on the accurate and parsimonious delineation of scene objects"
+      ],
+      "types": [
+        "dataset",
+        "segmentation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A collection of multiple image segmentations generated without prior knowledge, evaluated based on their accuracy and simplicity in delineating scene objects.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "our sets of segmentations based on the accurate and parsimonious delineation of scene objects",
+          "local_types": [
+            "dataset",
+            "segmentation"
+          ],
+          "iri": "Entity-our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object-Mention-1"
+        }
+      ],
+      "relevance": 0.71337890625
+    },
+    "Entity-object_boundary_fragment": {
+      "node_id": "object_boundary_fragment",
+      "disambiguation_index": 0,
+      "label": "object boundary fragments",
+      "aliases": [
+        "object boundary fragments"
+      ],
+      "types": [
+        "computer vision concept",
+        "indicator",
+        "scene understanding concept",
+        "image feature extraction method",
+        "image feature",
+        "feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Hypothesized boundaries or outlines of objects within an image, used as input for partial scene segmentation and object discovery.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "object boundary fragments",
+          "local_types": [
+            "computer vision concept",
+            "indicator",
+            "scene understanding concept",
+            "image feature extraction method",
+            "image feature",
+            "feature"
+          ],
+          "iri": "Entity-object_boundary_fragment-Mention-1"
+        }
+      ],
+      "relevance": 0.71044921875
+    },
+    "Entity-this_reflects_contemporary_method_for_unsupervised_object_discovery_from_group_of_image__and_it_allows_u_to_define_intuitive_evaluation_met-rics_for_our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object": {
+      "node_id": "this_reflects_contemporary_method_for_unsupervised_object_discovery_from_group_of_image__and_it_allows_u_to_define_intuitive_evaluation_met-rics_for_our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object",
+      "disambiguation_index": 0,
+      "label": "This reflects contemporary methods for unsupervised object discovery from groups of images , and it allows us to define intuitive evaluation met-rics for our sets of segmentations based on the accurate and parsimonious delineation of scene objects",
+      "aliases": [
+        "This reflects contemporary methods for unsupervised object discovery from groups of images , and it allows us to define intuitive evaluation met-rics for our sets of segmentations based on the accurate and parsimonious delineation of scene objects"
+      ],
+      "types": [
+        "methodology",
+        "evaluation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A framework or approach used in evaluating or discovering entities from visual data.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "This reflects contemporary methods for unsupervised object discovery from groups of images , and it allows us to define intuitive evaluation met-rics for our sets of segmentations based on the accurate and parsimonious delineation of scene objects",
+          "local_types": [
+            "methodology",
+            "evaluation"
+          ],
+          "iri": "Entity-this_reflects_contemporary_method_for_unsupervised_object_discovery_from_group_of_image__and_it_allows_u_to_define_intuitive_evaluation_met-rics_for_our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object-Mention-1"
+        }
+      ],
+      "relevance": 0.7021484375
+    },
+    "Entity-we_propose": {
+      "node_id": "we_propose",
+      "disambiguation_index": 0,
+      "label": "We propose",
+      "aliases": [
+        "We propose"
+      ],
+      "types": [
+        "research",
+        "proposition"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A new approach to segmenting entire objects in an image without prior knowledge or supervision.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "We propose",
+          "local_types": [
+            "research",
+            "proposition"
+          ],
+          "iri": "Entity-we_propose-Mention-1"
+        }
+      ],
+      "relevance": 0.69775390625
+    },
+    "Entity-set_of_segmentation": {
+      "node_id": "set_of_segmentation",
+      "disambiguation_index": 0,
+      "label": "sets of segmentations",
+      "aliases": [
+        "sets of segmentations"
+      ],
+      "types": [
+        "output",
+        "result"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A collection of multiple image segmentations generated without prior knowledge, used to evaluate object discovery methods.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "sets of segmentations",
+          "local_types": [
+            "output",
+            "result"
+          ],
+          "iri": "Entity-set_of_segmentation-Mention-1"
+        }
+      ],
+      "relevance": 0.69091796875
+    },
+    "Entity-set_of_hypothesized_object_boundary_fragment": {
+      "node_id": "set_of_hypothesized_object_boundary_fragment",
+      "disambiguation_index": 0,
+      "label": "set of hypothesized object boundary fragments",
+      "aliases": [
+        "a set of hypothesized object boundary fragments in the scene",
+        "set of hypothesized object boundary fragments"
+      ],
+      "types": [
+        "data set",
+        "research data",
+        "scene",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of proposed boundaries for objects within an image, used as input for generating multiple segmentations and evaluating their accuracy.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "set of hypothesized object boundary fragments",
+          "local_types": [
+            "data set",
+            "research data"
+          ],
+          "iri": "Entity-set_of_hypothesized_object_boundary_fragment-Mention-1"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a set of hypothesized object boundary fragments in the scene",
+          "local_types": [
+            "scene",
+            "data"
+          ],
+          "iri": "Entity-set_of_hypothesized_object_boundary_fragment-Mention-2"
+        }
+      ],
+      "relevance": 0.68994140625
+    },
+    "Entity-a_dataset_of_scene": {
+      "node_id": "a_dataset_of_scene",
+      "disambiguation_index": 0,
+      "label": "a dataset of scenes",
+      "aliases": [
+        "a dataset of scenes"
+      ],
+      "types": [
+        "dataset",
+        "scenes"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A collection of images or frames that are used to demonstrate and evaluate the proposed approach for unsupervised object segmentation.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a dataset of scenes",
+          "local_types": [
+            "dataset",
+            "scenes"
+          ],
+          "iri": "Entity-a_dataset_of_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.6875
+    },
+    "Entity-it": {
+      "node_id": "it",
+      "disambiguation_index": 0,
+      "label": "It",
+      "aliases": [
+        "It"
+      ],
+      "types": [
+        "text"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The proposed approach to unsupervised object segmentation",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "It",
+          "local_types": [
+            "text"
+          ],
+          "iri": "Entity-it-Mention-1"
+        }
+      ],
+      "relevance": 0.68505859375
+    },
+    "Entity-contemporary_method_for_unsupervised_object_discovery_from_group_of_image": {
+      "node_id": "contemporary_method_for_unsupervised_object_discovery_from_group_of_image",
+      "disambiguation_index": 0,
+      "label": "contemporary methods for unsupervised object discovery from groups of images",
+      "aliases": [
+        "contemporary methods for unsupervised object discovery from groups of images"
+      ],
+      "types": [
+        "research area",
+        "computer vision field",
+        "methodology",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A set of contemporary methods used in computer vision to discover objects from groups of images without prior supervision.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "contemporary methods for unsupervised object discovery from groups of images",
+          "local_types": [
+            "research area",
+            "computer vision field",
+            "methodology",
+            "computer vision"
+          ],
+          "iri": "Entity-contemporary_method_for_unsupervised_object_discovery_from_group_of_image-Mention-1"
+        }
+      ],
+      "relevance": 0.67236328125
+    },
+    "Entity-this": {
+      "node_id": "this",
+      "disambiguation_index": 0,
+      "label": "This",
+      "aliases": [
+        "This"
+      ],
+      "types": [
+        "research",
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The proposed approach's reflection of contemporary methods in unsupervised object discovery from groups of images.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "This",
+          "local_types": [
+            "research",
+            "study"
+          ],
+          "iri": "Entity-this-Mention-1"
+        }
+      ],
+      "relevance": 0.66650390625
+    },
+    "Entity-intuitive_evaluation_met-rics": {
+      "node_id": "intuitive_evaluation_met-rics",
+      "disambiguation_index": 0,
+      "label": "intuitive evaluation met-rics",
+      "aliases": [
+        "intuitive evaluation met-rics"
+      ],
+      "types": [
+        "evaluation metric",
+        "metric"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Metrics used to evaluate the accuracy and simplicity of multiple image segmentations in an unsupervised object discovery setting.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "intuitive evaluation met-rics",
+          "local_types": [
+            "evaluation metric",
+            "metric"
+          ],
+          "iri": "Entity-intuitive_evaluation_met-rics-Mention-1"
+        }
+      ],
+      "relevance": 0.66357421875
+    },
+    "Entity-spectral_clustering__image_matting__and_boundary_detection": {
+      "node_id": "spectral_clustering__image_matting__and_boundary_detection",
+      "disambiguation_index": 0,
+      "label": "spectral clustering, image matting, and boundary detection",
+      "aliases": [
+        "Our proposed approach builds on recent advances in spectral clustering , image matting , and boundary detection",
+        "spectral clustering, image matting, and boundary detection"
+      ],
+      "types": [
+        "research",
+        "research areas",
+        "computer vision",
+        "computer vision techniques"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A combination of computer vision techniques that includes spectral clustering for grouping similar data points, image matting to separate objects from their backgrounds, and boundary detection to identify object edges.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "spectral clustering, image matting, and boundary detection",
+          "local_types": [
+            "computer vision techniques",
+            "research areas"
+          ],
+          "iri": "Entity-spectral_clustering__image_matting__and_boundary_detection-Mention-1"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Our proposed approach builds on recent advances in spectral clustering , image matting , and boundary detection",
+          "local_types": [
+            "research",
+            "computer vision"
+          ],
+          "iri": "Entity-spectral_clustering__image_matting__and_boundary_detection-Mention-2"
+        }
+      ],
+      "relevance": 0.66259765625
+    },
+    "Entity-unsupervised_object_discovery": {
+      "node_id": "unsupervised_object_discovery",
+      "disambiguation_index": 0,
+      "label": "unsupervised object discovery",
+      "aliases": [
+        "unsupervised object discovery",
+        "unsupervised object discovery without top-down knowledge"
+      ],
+      "types": [
+        "computer vision task",
+        "research area",
+        "concept",
+        "field of study",
+        "machine learning application"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of identifying and categorizing objects in images or scenes without prior knowledge or supervision.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "unsupervised object discovery",
+          "local_types": [
+            "research area",
+            "field of study"
+          ],
+          "iri": "Entity-unsupervised_object_discovery-Mention-1"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "unsupervised object discovery",
+          "local_types": [
+            "computer vision task",
+            "machine learning application"
+          ],
+          "iri": "Entity-unsupervised_object_discovery-Mention-2"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "unsupervised object discovery without top-down knowledge",
+          "local_types": [
+            "concept",
+            "research area"
+          ],
+          "iri": "Entity-unsupervised_object_discovery-Mention-3"
+        }
+      ],
+      "relevance": 0.65185546875
+    },
+    "Entity-multiple_segmentation_of_an_image": {
+      "node_id": "multiple_segmentation_of_an_image",
+      "disambiguation_index": 0,
+      "label": "multiple segmentations of an image",
+      "aliases": [
+        "we generate multiple segmentations of an image",
+        "multiple segmentations of an image"
+      ],
+      "types": [
+        "image processing technique",
+        "computer vision approach",
+        "process",
+        "image processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of distinct divisions or partitions of an image",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "multiple segmentations of an image",
+          "local_types": [
+            "image processing technique",
+            "computer vision approach"
+          ],
+          "iri": "Entity-multiple_segmentation_of_an_image-Mention-1"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "we generate multiple segmentations of an image",
+          "local_types": [
+            "process",
+            "image processing"
+          ],
+          "iri": "Entity-multiple_segmentation_of_an_image-Mention-2"
+        }
+      ],
+      "relevance": 0.62841796875
+    },
+    "Entity-image_matting": {
+      "node_id": "image_matting",
+      "disambiguation_index": 0,
+      "label": "image matting",
+      "aliases": [
+        "image matting"
+      ],
+      "types": [
+        "computer vision technique",
+        "computer vision task",
+        "technique",
+        "algorithm",
+        "image processing method",
+        "tool",
+        "matting",
+        "discipline",
+        "field of study"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The process of separating foreground objects from their backgrounds in digital images.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "image matting",
+          "local_types": [
+            "computer vision technique",
+            "computer vision task",
+            "technique",
+            "algorithm",
+            "image processing method",
+            "tool",
+            "matting",
+            "discipline",
+            "field of study"
+          ],
+          "iri": "Entity-image_matting-Mention-1"
+        }
+      ],
+      "relevance": 0.6201171875
+    },
+    "Entity-boundary_detection": {
+      "node_id": "boundary_detection",
+      "disambiguation_index": 0,
+      "label": "boundary detection",
+      "aliases": [
+        "boundary detection"
+      ],
+      "types": [
+        "problem",
+        "image analysis process",
+        "approach",
+        "computer vision concept",
+        "image processing task",
+        "detection",
+        "task",
+        "concept"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The process of identifying or determining the edges or limits that separate different regions within an image.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "boundary detection",
+          "local_types": [
+            "problem",
+            "image analysis process",
+            "approach",
+            "computer vision concept",
+            "image processing task",
+            "detection",
+            "task",
+            "concept"
+          ],
+          "iri": "Entity-boundary_detection-Mention-1"
+        }
+      ],
+      "relevance": 0.61474609375
+    },
+    "Entity-segmentation": {
+      "node_id": "segmentation",
+      "disambiguation_index": 0,
+      "label": "segmentation",
+      "aliases": [
+        "segmentation"
+      ],
+      "types": [
+        "data processing",
+        "computer vision"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process of dividing or separating something into distinct parts",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "segmentation",
+          "local_types": [
+            "data processing",
+            "computer vision"
+          ],
+          "iri": "Entity-segmentation-Mention-1"
+        }
+      ],
+      "relevance": 0.603515625
+    },
+    "Entity-scene": {
+      "node_id": "scene",
+      "disambiguation_index": 0,
+      "label": "scene",
+      "aliases": [
+        "scenes",
+        "scene"
+      ],
+      "types": [
+        "image",
+        "video frame",
+        "visual data",
+        "image sequences"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A visual representation or setting, typically comprising objects and their spatial relationships.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scene",
+          "local_types": [
+            "image",
+            "video frame"
+          ],
+          "iri": "Entity-scene-Mention-1"
+        },
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "scenes",
+          "local_types": [
+            "visual data",
+            "image sequences"
+          ],
+          "iri": "Entity-scene-Mention-2"
+        }
+      ],
+      "relevance": 0.59130859375
+    },
+    "Entity-scene_object": {
+      "node_id": "scene_object",
+      "disambiguation_index": 0,
+      "label": "scene objects",
+      "aliases": [
+        "scene objects"
+      ],
+      "types": [
+        "real-world object",
+        "visual entity",
+        "idea",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of tangible or intangible entities that make up a visual environment, such as physical objects, structures, or features.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scene objects",
+          "local_types": [
+            "real-world object",
+            "visual entity",
+            "idea",
+            "concept"
+          ],
+          "iri": "Entity-scene_object-Mention-1"
+        }
+      ],
+      "relevance": 0.58056640625
+    },
+    "Entity-rather_than": {
+      "node_id": "rather_than",
+      "disambiguation_index": 0,
+      "label": "Rather than",
+      "aliases": [
+        "Rather than"
+      ],
+      "types": [
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The approach of generating multiple segmentations instead of finding a single 'best' segmentation.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Rather than",
+          "local_types": [
+            "approach"
+          ],
+          "iri": "Entity-rather_than-Mention-1"
+        }
+      ],
+      "relevance": 0.57470703125
+    },
+    "Entity-dataset_of_scene": {
+      "node_id": "dataset_of_scene",
+      "disambiguation_index": 0,
+      "label": "dataset of scenes",
+      "aliases": [
+        "dataset of scenes"
+      ],
+      "types": [
+        "data set",
+        "research data"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A collection of visual or auditory representations of environments, settings, or situations.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "dataset of scenes",
+          "local_types": [
+            "data set",
+            "research data"
+          ],
+          "iri": "Entity-dataset_of_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.57177734375
+    },
+    "Entity-spectral_clustering": {
+      "node_id": "spectral_clustering",
+      "disambiguation_index": 0,
+      "label": "spectral clustering",
+      "aliases": [
+        "spectral clustering"
+      ],
+      "types": [
+        "technique",
+        "algorithm",
+        "machine learning algorithm",
+        "method",
+        "data analysis technique"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A machine learning algorithm that groups data points into clusters based on their similarity in a high-dimensional space.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "spectral clustering",
+          "local_types": [
+            "technique",
+            "algorithm",
+            "machine learning algorithm",
+            "method",
+            "data analysis technique"
+          ],
+          "iri": "Entity-spectral_clustering-Mention-1"
+        }
+      ],
+      "relevance": 0.56787109375
+    },
+    "Entity-recent_advance_in_spectral_clustering": {
+      "node_id": "recent_advance_in_spectral_clustering",
+      "disambiguation_index": 0,
+      "label": "recent advances in spectral clustering",
+      "aliases": [
+        "recent advances in spectral clustering"
+      ],
+      "types": [
+        "advance",
+        "spectral clustering"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Recent developments or improvements made to the technique of spectral clustering.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "recent advances in spectral clustering",
+          "local_types": [
+            "advance",
+            "spectral clustering"
+          ],
+          "iri": "Entity-recent_advance_in_spectral_clustering-Mention-1"
+        }
+      ],
+      "relevance": 0.5419921875
+    },
+    "Entity-image": {
+      "node_id": "image",
+      "disambiguation_index": 0,
+      "label": "image",
+      "aliases": [
+        "image"
+      ],
+      "types": [
+        "visual data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A visual representation captured by a camera or other device.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "image",
+          "local_types": [
+            "visual data"
+          ],
+          "iri": "Entity-image-Mention-1"
+        }
+      ],
+      "relevance": 0.53515625
+    },
+    "Entity-group_of_image": {
+      "node_id": "group_of_image",
+      "disambiguation_index": 0,
+      "label": "groups of images",
+      "aliases": [
+        "groups of images"
+      ],
+      "types": [
+        "dataset",
+        "collection"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection or dataset of images organized into groups",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "groups of images",
+          "local_types": [
+            "dataset",
+            "collection"
+          ],
+          "iri": "Entity-group_of_image-Mention-1"
+        }
+      ],
+      "relevance": 0.5341796875
+    },
+    "Entity-evaluation_met-rics": {
+      "node_id": "evaluation_met-rics",
+      "disambiguation_index": 0,
+      "label": "evaluation met-rics",
+      "aliases": [
+        "evaluation met-rics"
+      ],
+      "types": [
+        "image analysis metric",
+        "metric",
+        "performance measurement technique",
+        "measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of metrics used to evaluate performance or measurement techniques",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "evaluation met-rics",
+          "local_types": [
+            "image analysis metric",
+            "metric",
+            "performance measurement technique",
+            "measure"
+          ],
+          "iri": "Entity-evaluation_met-rics-Mention-1"
+        }
+      ],
+      "relevance": 0.52734375
+    },
+    "Entity-whole_object": {
+      "node_id": "whole_object",
+      "disambiguation_index": 0,
+      "label": "whole objects",
+      "aliases": [
+        "whole objects"
+      ],
+      "types": [
+        "physical entities",
+        "objects of study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Physical entities or subjects that are studied in their entirety",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "whole objects",
+          "local_types": [
+            "physical entities",
+            "objects of study"
+          ],
+          "iri": "Entity-whole_object-Mention-1"
+        }
+      ],
+      "relevance": 0.5224609375
+    },
+    "Entity-dataset": {
+      "node_id": "dataset",
+      "disambiguation_index": 0,
+      "label": "dataset",
+      "aliases": [
+        "dataset"
+      ],
+      "types": [
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of data, typically used as the basis for statistical analysis or machine learning.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "dataset",
+          "local_types": [
+            "data set"
+          ],
+          "iri": "Entity-dataset-Mention-1"
+        }
+      ],
+      "relevance": 0.49609375
+    },
+    "Entity-novel_step": {
+      "node_id": "novel_step",
+      "disambiguation_index": 0,
+      "label": "novel step",
+      "aliases": [
+        "novel step"
+      ],
+      "types": [
+        "academic contribution",
+        "research approach",
+        "research proposal"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A new or innovative method or approach in a particular field",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "novel step",
+          "local_types": [
+            "academic contribution",
+            "research approach",
+            "research proposal"
+          ],
+          "iri": "Entity-novel_step-Mention-1"
+        }
+      ],
+      "relevance": 0.477783203125
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "methods",
+      "aliases": [
+        "methods"
+      ],
+      "types": [
+        "approach",
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic approach or technique used to achieve a specific goal or solve a problem.",
+      "mentions": [
+        {
+          "reference": "Paper-92-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "methods",
+          "local_types": [
+            "approach",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        }
+      ],
+      "relevance": 0.47607421875
+    }
+  },
+  "summary": "We propose a novel step toward the unsupervised seg-mentation of whole objects by combining '' hints '' of partial scene segmentation offered by multiple soft , binary mattes . These mattes are implied by a set of hypothesized object boundary fragments in the scene . Rather than trying to find or define a single '' best '' segmentation , we generate multiple segmentations of an image . This reflects contemporary methods for unsupervised object discovery from groups of images , and it allows us to define intuitive evaluation met-rics for our sets of segmentations based on the accurate and parsimonious delineation of scene objects . Our proposed approach builds on recent advances in spectral clustering , image matting , and boundary detection . It is demonstrated qualitatively and quantitatively on a dataset of scenes and is suitable for current work in unsupervised object discovery without top-down knowledge .",
+  "triples": [
+    [
+      "Entity-we_propose",
+      "Predicate-propose",
+      "Entity-novel_step_toward_the_unsupervised_seg-mentation_of_whole_object"
+    ],
+    [
+      "Entity-matte",
+      "Predicate-are_implied_by",
+      "Entity-set_of_hypothesized_object_boundary_fragment"
+    ],
+    [
+      "Entity-this",
+      "Predicate-reflects",
+      "Entity-contemporary_method_for_unsupervised_object_discovery_from_group_of_image"
+    ],
+    [
+      "Entity-our_proposed_approach",
+      "Predicate-builds_on",
+      "Entity-recent_advance_in_spectral_clustering"
+    ],
+    [
+      "Entity-our_proposed_approach",
+      "Predicate-builds_on",
+      "Entity-image_matting"
+    ],
+    [
+      "Entity-our_proposed_approach",
+      "Predicate-builds_on",
+      "Entity-boundary_detection"
+    ],
+    [
+      "Entity-it",
+      "Predicate-is_demonstrated_qualitatively_and_quantitatively_on_a_dataset_of_scenes",
+      "Entity-a_dataset_of_scene"
+    ],
+    [
+      "Entity-multiple_segmentation_of_an_image",
+      "Predicate-reflects",
+      "Entity-contemporary_method_for_unsupervised_object_discovery_from_group_of_image"
+    ],
+    [
+      "Entity-novel_step_toward_the_unsupervised_seg-mentation_of_whole_object",
+      "Predicate-propose",
+      "Entity-our_proposed_approach"
+    ],
+    [
+      "Entity-our_proposed_approach",
+      "Predicate-builds_on",
+      "Entity-hint__of_partial_scene_segmentation_offered_by_multiple_soft__binary_matte"
+    ],
+    [
+      "Entity-novel_step_toward_the_unsupervised_seg-mentation_of_whole_object",
+      "Predicate-propose",
+      "Entity-hint__of_partial_scene_segmentation_offered_by_multiple_soft__binary_matte"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_dataset_of_scene",
+      "skos:broader",
+      "Entity-scene"
+    ],
+    [
+      "Entity-a_dataset_of_scene",
+      "skos:broader",
+      "Entity-dataset"
+    ],
+    [
+      "Entity-group_of_image",
+      "skos:broader",
+      "Entity-dataset"
+    ],
+    [
+      "Entity-spectral_clustering",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-image_matting",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-rather_than_trying_to_find_or_define_a_single__best__segmentation__we_generate_multiple_segmentation_of_an_image",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-hint__of_partial_scene_segmentation_offered_by_multiple_soft__binary_matte",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-scene",
+      "skos:broader",
+      "Entity-image"
+    ],
+    [
+      "Entity-rather_than",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-partial_scene_segmentation",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-novel_step_toward_the_unsupervised_seg-mentation_of_whole_object",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-set_of_hypothesized_object_boundary_fragment",
+      "skos:broader",
+      "Entity-scene"
+    ],
+    [
+      "Entity-boundary_detection",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-dataset_of_scene",
+      "skos:broader",
+      "Entity-dataset"
+    ],
+    [
+      "Entity-set_of_hypothesized_object_boundary_fragment",
+      "skos:broader",
+      "Entity-dataset"
+    ],
+    [
+      "Entity-recent_advance_in_spectral_clustering",
+      "skos:broader",
+      "Entity-spectral_clustering"
+    ],
+    [
+      "Entity-our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object",
+      "skos:broader",
+      "Entity-dataset"
+    ],
+    [
+      "Entity-our_set_of_segmentation_based_on_the_accurate_and_parsimonious_delineation_of_scene_object",
+      "skos:broader",
+      "Entity-segmentation"
+    ]
+  ],
+  "predicates": {
+    "Predicate-propose": {
+      "label": "propose",
+      "description": "To propose means to suggest or put forward an idea, plan, or solution for consideration and potential implementation. The predicate 'propose' connects the subject (the entity making the proposal) with the object (the proposed concept, action, or course of action), indicating that the subject is advocating for or recommending the object as a viable option.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_implied_by": {
+      "label": "are implied by",
+      "description": "The predicate 'are implied by' indicates a relationship where the subject (e.g. mattes) has its meaning or significance derived from, or logically connected to, the object (e.g. set of hypothesized object boundary fragments). In this sense, the subject's characteristics are inferred or suggested through their association with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-reflects": {
+      "label": "reflects",
+      "description": "The predicate 'reflects' indicates a relationship where the subject represents or embodies the characteristics, principles, or ideas described by the object. In general, it suggests that the subject has incorporated or internalized the qualities or concepts expressed by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-builds_on": {
+      "label": "builds on",
+      "description": "Indicates that the subject relies upon or draws inspiration from the object to create a foundation for its own existence, development, or understanding. The predicate 'builds on' suggests a relationship of dependence, where the subject leverages the ideas, concepts, or principles presented in the object as a starting point or basis for further exploration.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_demonstrated_qualitatively_and_quantitatively_on_a_dataset_of_scenes": {
+      "label": "is demonstrated qualitatively and quantitatively on a dataset of scenes",
+      "description": "This predicate indicates that the subject's properties or characteristics are showcased through a comprehensive representation provided by the object - a dataset of scenes. The combination of qualitative and quantitative aspects highlights both the inherent nature (qualitative) and measurable patterns (quantitative) present within these scenes, effectively demonstrating the subject's attributes.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or example of a more general concept or category represented by the object. The relationship between the subject and object is one of instantiation, where the subject is a particular case or exemplar within the scope defined by the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

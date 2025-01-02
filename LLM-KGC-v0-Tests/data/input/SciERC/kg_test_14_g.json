@@ -1,0 +1,1380 @@
+{
+  "iri": "Paper-14",
+  "title": "ICCV_2003_161_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-14-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-14-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-1",
+              "text": "The perception of transparent objects from images is known to be a very hard problem in vision ."
+            },
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-2",
+              "text": "Given a single image , it is difficult to even detect the presence of transparent objects in the scene ."
+            },
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-3",
+              "text": "In this paper , we explore what can be said about transparent objects by a moving observer ."
+            },
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-4",
+              "text": "We show how features that are imaged through a transparent object behave differently from those that are rigidly attached to the scene ."
+            },
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+              "text": "We present a novel model-based approach to recover the shapes and the poses of transparent objects from known motion ."
+            },
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+              "text": "The objects can be complex in that they may be composed of multiple layers with different refractive indices ."
+            },
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-7",
+              "text": "We have conducted numerous simulations to verify the practical feasibility of our algorithm ."
+            },
+            {
+              "iri": "Paper-14-Section-1-Paragraph-1-Sentence-8",
+              "text": "We have applied it to real scenes that include transparent objects and recovered the shapes of the objects with high accuracy ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0013971328735351562,
+    8.174752950668335,
+    20.78412699699402,
+    20.489227056503296,
+    0.046108245849609375,
+    0.00014209747314453125,
+    0.00017213821411132812,
+    24.785045862197876,
+    38.09926509857178,
+    4.374572038650513,
+    14.134294748306274,
+    0.011912107467651367,
+    0.0002028942108154297,
+    17.218435049057007,
+    0.0015559196472167969,
+    0.04138016700744629,
+    0.002882719039916992,
+    5.385515213012695,
+    2.9351308345794678,
+    2.4546968936920166,
+    72.0844841003418,
+    9.388561964035034,
+    44.56786108016968,
+    4.150176048278809,
+    0.0005660057067871094,
+    0.011332988739013672
+  ],
+  "nodes": {
+    "Entity-the_perception_of_transparent_object_from_image": {
+      "node_id": "the_perception_of_transparent_object_from_image",
+      "disambiguation_index": 0,
+      "label": "The perception of transparent objects from images",
+      "aliases": [
+        "The perception of transparent objects from images"
+      ],
+      "types": [
+        "concept",
+        "vision problem"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The perception of transparent objects from images refers to the challenges and methodologies involved in detecting and interpreting transparent objects in visual scenes, particularly through the analysis of images captured by a moving observer.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "The perception of transparent objects from images",
+          "local_types": [
+            "concept",
+            "vision problem"
+          ],
+          "iri": "Entity-the_perception_of_transparent_object_from_image-Mention-1"
+        }
+      ],
+      "relevance": 0.837890625
+    },
+    "Entity-feature_that_are_imaged_through_a_transparent_object": {
+      "node_id": "feature_that_are_imaged_through_a_transparent_object",
+      "disambiguation_index": 0,
+      "label": "features that are imaged through a transparent object",
+      "aliases": [
+        "features that are imaged through a transparent object"
+      ],
+      "types": [
+        "feature",
+        "object"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Features that are imaged through a transparent object refer to visual characteristics or attributes of objects that are distorted or altered in appearance due to the presence of a transparent medium, affecting how they are perceived compared to features of objects that are directly visible in the scene.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "features that are imaged through a transparent object",
+          "local_types": [
+            "feature",
+            "object"
+          ],
+          "iri": "Entity-feature_that_are_imaged_through_a_transparent_object-Mention-1"
+        }
+      ],
+      "relevance": 0.7919921875
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents a novel model-based approach to understanding and recovering the shapes and poses of transparent objects from images as perceived by a moving observer.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.79052734375
+    },
+    "Entity-the_shape_and_the_pose_of_transparent_object": {
+      "node_id": "the_shape_and_the_pose_of_transparent_object",
+      "disambiguation_index": 0,
+      "label": "the shapes and the poses of transparent objects",
+      "aliases": [
+        "the shapes and the poses of transparent objects"
+      ],
+      "types": [
+        "shapes",
+        "poses",
+        "transparent objects"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The shapes and the poses of transparent objects refer to the geometric configurations and orientations of objects that allow light to pass through them, which are challenging to perceive and recover from images due to their unique optical properties.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the shapes and the poses of transparent objects",
+          "local_types": [
+            "shapes",
+            "poses",
+            "transparent objects"
+          ],
+          "iri": "Entity-the_shape_and_the_pose_of_transparent_object-Mention-1"
+        }
+      ],
+      "relevance": 0.76953125
+    },
+    "Entity-problem": {
+      "node_id": "problem",
+      "disambiguation_index": 0,
+      "label": "problem",
+      "aliases": [
+        "problem"
+      ],
+      "types": [
+        "challenge",
+        "issue"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The 'problem' refers to the challenge of perceiving transparent objects from images, which is difficult due to the complexities involved in detecting their presence and accurately interpreting their features in visual scenes.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "problem",
+          "local_types": [
+            "challenge",
+            "issue"
+          ],
+          "iri": "Entity-problem-Mention-1"
+        }
+      ],
+      "relevance": 0.76904296875
+    },
+    "Entity-shape": {
+      "node_id": "shape",
+      "disambiguation_index": 0,
+      "label": "shapes",
+      "aliases": [
+        "shapes",
+        "the shapes of the objects"
+      ],
+      "types": [
+        "shape",
+        "object",
+        "geometric property",
+        "geometric form",
+        "physical property",
+        "object characteristic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'shapes' refers to the geometric forms of transparent objects that are being recovered through a model-based approach to analyze their poses and characteristics from images captured by a moving observer.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "shapes",
+          "local_types": [
+            "geometric property",
+            "geometric form",
+            "physical property",
+            "shape"
+          ],
+          "iri": "Entity-shape-Mention-1"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "shapes",
+          "local_types": [
+            "geometric form",
+            "object characteristic"
+          ],
+          "iri": "Entity-shape-Mention-2"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "the shapes of the objects",
+          "local_types": [
+            "shape",
+            "object"
+          ],
+          "iri": "Entity-shape-Mention-3"
+        }
+      ],
+      "relevance": 0.76416015625
+    },
+    "Entity-a_novel_model-based_approach": {
+      "node_id": "a_novel_model-based_approach",
+      "disambiguation_index": 0,
+      "label": "a novel model-based approach",
+      "aliases": [
+        "a novel model-based approach"
+      ],
+      "types": [
+        "method",
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A novel model-based approach refers to a method developed to accurately recover the shapes and poses of transparent objects in images by utilizing known motion, addressing the challenges posed by their complex refractive properties.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a novel model-based approach",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-a_novel_model-based_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.75537109375
+    },
+    "Entity-the_practical_feasibility_of_our_algorithm": {
+      "node_id": "the_practical_feasibility_of_our_algorithm",
+      "disambiguation_index": 0,
+      "label": "the practical feasibility of our algorithm",
+      "aliases": [
+        "the practical feasibility of our algorithm"
+      ],
+      "types": [
+        "feasibility",
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The practical feasibility of our algorithm refers to the effectiveness and applicability of the proposed model-based approach for recovering the shapes and poses of transparent objects from images, as demonstrated through simulations and real scene applications.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "the practical feasibility of our algorithm",
+          "local_types": [
+            "feasibility",
+            "algorithm"
+          ],
+          "iri": "Entity-the_practical_feasibility_of_our_algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.74609375
+    },
+    "Entity-object": {
+      "node_id": "object",
+      "disambiguation_index": 0,
+      "label": "objects",
+      "aliases": [
+        "objects"
+      ],
+      "types": [
+        "physical entity",
+        "scientific concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'objects' refers to transparent entities that can be complex in structure, potentially consisting of multiple layers with varying refractive indices, which pose challenges in visual perception and detection from images.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "objects",
+          "local_types": [
+            "physical entity",
+            "scientific concept"
+          ],
+          "iri": "Entity-object-Mention-1"
+        }
+      ],
+      "relevance": 0.74462890625
+    },
+    "Entity-transparent_object": {
+      "node_id": "transparent_object",
+      "disambiguation_index": 0,
+      "label": "transparent objects",
+      "aliases": [
+        "transparent objects",
+        "The objects",
+        "transparent object"
+      ],
+      "types": [
+        "physical object",
+        "objects",
+        "optical phenomenon",
+        "visual element",
+        "transparent object",
+        "material",
+        "transparent",
+        "object"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Transparent objects refer to physical entities that allow light to pass through them, making it challenging to perceive their presence and characteristics in images due to their optical properties, such as varying refractive indices.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "transparent objects",
+          "local_types": [
+            "physical object",
+            "optical phenomenon",
+            "visual element",
+            "transparent",
+            "object"
+          ],
+          "iri": "Entity-transparent_object-Mention-1"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "transparent objects",
+          "local_types": [
+            "material",
+            "physical object",
+            "object"
+          ],
+          "iri": "Entity-transparent_object-Mention-2"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "transparent objects",
+          "local_types": [
+            "optical phenomenon",
+            "physical object",
+            "object"
+          ],
+          "iri": "Entity-transparent_object-Mention-3"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "transparent object",
+          "local_types": [
+            "material",
+            "object"
+          ],
+          "iri": "Entity-transparent_object-Mention-4"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "transparent objects",
+          "local_types": [
+            "physical object",
+            "material"
+          ],
+          "iri": "Entity-transparent_object-Mention-5"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "transparent objects",
+          "local_types": [
+            "transparent object",
+            "material",
+            "physical object",
+            "object"
+          ],
+          "iri": "Entity-transparent_object-Mention-6"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "The objects",
+          "local_types": [
+            "objects"
+          ],
+          "iri": "Entity-transparent_object-Mention-7"
+        }
+      ],
+      "relevance": 0.744140625
+    },
+    "Entity-known_motion": {
+      "node_id": "known_motion",
+      "disambiguation_index": 0,
+      "label": "known motion",
+      "aliases": [
+        "known motion"
+      ],
+      "types": [
+        "kinematics",
+        "movement",
+        "motion"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Known motion refers to the movement of an observer that is utilized in a model-based approach to recover the shapes and poses of transparent objects in a scene.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "known motion",
+          "local_types": [
+            "kinematics",
+            "movement",
+            "motion"
+          ],
+          "iri": "Entity-known_motion-Mention-1"
+        }
+      ],
+      "relevance": 0.73974609375
+    },
+    "Entity-pose": {
+      "node_id": "pose",
+      "disambiguation_index": 0,
+      "label": "poses",
+      "aliases": [
+        "poses"
+      ],
+      "types": [
+        "orientation",
+        "pose",
+        "configuration",
+        "position"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'poses' refers to the spatial configurations or orientations of transparent objects that are being recovered through a model-based approach from known motion.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "poses",
+          "local_types": [
+            "orientation",
+            "pose",
+            "configuration",
+            "position"
+          ],
+          "iri": "Entity-pose-Mention-1"
+        }
+      ],
+      "relevance": 0.71533203125
+    },
+    "Entity-different_refractive_index": {
+      "node_id": "different_refractive_index",
+      "disambiguation_index": 0,
+      "label": "different refractive indices",
+      "aliases": [
+        "different refractive indices"
+      ],
+      "types": [
+        "property",
+        "refractive index"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Different refractive indices refer to the varying optical properties of materials that affect how light is bent or refracted as it passes through layers of transparent objects, which can complicate the perception and imaging of these objects.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "different refractive indices",
+          "local_types": [
+            "property",
+            "refractive index"
+          ],
+          "iri": "Entity-different_refractive_index-Mention-1"
+        }
+      ],
+      "relevance": 0.71240234375
+    },
+    "Entity-real_scene": {
+      "node_id": "real_scene",
+      "disambiguation_index": 0,
+      "label": "real scenes",
+      "aliases": [
+        "real scenes"
+      ],
+      "types": [
+        "scene",
+        "context",
+        "environment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Real scenes refer to actual environments or settings in the physical world where transparent objects are present and can be analyzed using the proposed algorithm for shape recovery.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "real scenes",
+          "local_types": [
+            "scene",
+            "context",
+            "environment"
+          ],
+          "iri": "Entity-real_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.7080078125
+    },
+    "Entity-complex": {
+      "node_id": "complex",
+      "disambiguation_index": 0,
+      "label": "complex",
+      "aliases": [
+        "complex"
+      ],
+      "types": [
+        "complexity"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'complex' refers to transparent objects that are composed of multiple layers, each potentially having different refractive indices, which complicates their perception and modeling in vision.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "complex",
+          "local_types": [
+            "complexity"
+          ],
+          "iri": "Entity-complex-Mention-1"
+        }
+      ],
+      "relevance": 0.70751953125
+    },
+    "Entity-simulation": {
+      "node_id": "simulation",
+      "disambiguation_index": 0,
+      "label": "simulations",
+      "aliases": [
+        "numerous simulations",
+        "simulations"
+      ],
+      "types": [
+        "simulation",
+        "experiment",
+        "modeling",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'simulations' refers to computational experiments conducted to test and validate the practical feasibility of the proposed algorithm for recovering the shapes and poses of transparent objects from images.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "simulations",
+          "local_types": [
+            "experiment",
+            "modeling",
+            "methodology"
+          ],
+          "iri": "Entity-simulation-Mention-1"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "numerous simulations",
+          "local_types": [
+            "simulation"
+          ],
+          "iri": "Entity-simulation-Mention-2"
+        }
+      ],
+      "relevance": 0.69384765625
+    },
+    "Entity-feature": {
+      "node_id": "feature",
+      "disambiguation_index": 0,
+      "label": "features",
+      "aliases": [
+        "features"
+      ],
+      "types": [
+        "characteristics",
+        "concept",
+        "attribute",
+        "attributes",
+        "feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'features' refers to the visual characteristics or attributes of objects as they are perceived through a transparent medium, highlighting their distinct behavior compared to objects that are not affected by such transparency.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "features",
+          "local_types": [
+            "characteristics",
+            "concept",
+            "attribute",
+            "attributes",
+            "feature"
+          ],
+          "iri": "Entity-feature-Mention-1"
+        }
+      ],
+      "relevance": 0.69140625
+    },
+    "Entity-image": {
+      "node_id": "image",
+      "disambiguation_index": 0,
+      "label": "images",
+      "aliases": [
+        "image",
+        "images"
+      ],
+      "types": [
+        "visual data",
+        "image",
+        "visual representation",
+        "media"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'images' refers to visual data captured in a single frame that is used to analyze and perceive transparent objects in the context of computer vision.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "images",
+          "local_types": [
+            "media",
+            "image",
+            "visual data"
+          ],
+          "iri": "Entity-image-Mention-1"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "image",
+          "local_types": [
+            "visual representation",
+            "media"
+          ],
+          "iri": "Entity-image-Mention-2"
+        }
+      ],
+      "relevance": 0.6904296875
+    },
+    "Entity-layer": {
+      "node_id": "layer",
+      "disambiguation_index": 0,
+      "label": "layers",
+      "aliases": [
+        "multiple layers",
+        "layers"
+      ],
+      "types": [
+        "physical entity",
+        "layer",
+        "component",
+        "material structure",
+        "structural component"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'layers' refers to the distinct physical strata of a transparent object, each potentially having different refractive indices, which contribute to the object's overall optical properties and complexity.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "layers",
+          "local_types": [
+            "physical entity",
+            "structural component",
+            "component",
+            "material structure"
+          ],
+          "iri": "Entity-layer-Mention-1"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "multiple layers",
+          "local_types": [
+            "layer"
+          ],
+          "iri": "Entity-layer-Mention-2"
+        }
+      ],
+      "relevance": 0.6806640625
+    },
+    "Entity-scene": {
+      "node_id": "scene",
+      "disambiguation_index": 0,
+      "label": "scene",
+      "aliases": [
+        "the scene",
+        "scene"
+      ],
+      "types": [
+        "scene",
+        "context",
+        "environment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'scene' refers to the visual environment captured in an image where the presence of transparent objects poses challenges for detection and perception.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scene",
+          "local_types": [
+            "environment",
+            "context"
+          ],
+          "iri": "Entity-scene-Mention-1"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scene",
+          "local_types": [
+            "environment",
+            "context"
+          ],
+          "iri": "Entity-scene-Mention-2"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the scene",
+          "local_types": [
+            "scene"
+          ],
+          "iri": "Entity-scene-Mention-3"
+        }
+      ],
+      "relevance": 0.671875
+    },
+    "Entity-a_single_image": {
+      "node_id": "a_single_image",
+      "disambiguation_index": 0,
+      "label": "a single image",
+      "aliases": [
+        "a single image"
+      ],
+      "types": [
+        "image"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A single image refers to an individual visual representation captured by a camera, which poses challenges in detecting transparent objects within the scene due to the complexities of light refraction and occlusion.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a single image",
+          "local_types": [
+            "image"
+          ],
+          "iri": "Entity-a_single_image-Mention-1"
+        }
+      ],
+      "relevance": 0.671875
+    },
+    "Entity-those_that_are_rigidly_attached_to_the_scene": {
+      "node_id": "those_that_are_rigidly_attached_to_the_scene",
+      "disambiguation_index": 0,
+      "label": "those that are rigidly attached to the scene",
+      "aliases": [
+        "those that are rigidly attached to the scene"
+      ],
+      "types": [
+        "feature",
+        "scene"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'those that are rigidly attached to the scene' refers to features in a visual scene that remain fixed in position relative to the scene itself, as opposed to features that may be affected by the presence of transparent objects.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "those that are rigidly attached to the scene",
+          "local_types": [
+            "feature",
+            "scene"
+          ],
+          "iri": "Entity-those_that_are_rigidly_attached_to_the_scene-Mention-1"
+        }
+      ],
+      "relevance": 0.6435546875
+    },
+    "Entity-vision": {
+      "node_id": "vision",
+      "disambiguation_index": 0,
+      "label": "vision",
+      "aliases": [
+        "vision"
+      ],
+      "types": [
+        "field",
+        "field of study",
+        "cognitive science",
+        "science"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'vision' refers to the field of study focused on the perception and interpretation of visual information, particularly in relation to the challenges of detecting and understanding transparent objects in images.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "vision",
+          "local_types": [
+            "field",
+            "field of study",
+            "cognitive science",
+            "science"
+          ],
+          "iri": "Entity-vision-Mention-1"
+        }
+      ],
+      "relevance": 0.62939453125
+    },
+    "Entity-refractive_index": {
+      "node_id": "refractive_index",
+      "disambiguation_index": 0,
+      "label": "refractive indices",
+      "aliases": [
+        "refractive indices"
+      ],
+      "types": [
+        "physical property",
+        "optical property"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Refractive indices are numerical values that describe how light propagates through different materials, indicating the degree to which light is bent or refracted when entering or exiting a medium.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "refractive indices",
+          "local_types": [
+            "physical property",
+            "optical property"
+          ],
+          "iri": "Entity-refractive_index-Mention-1"
+        }
+      ],
+      "relevance": 0.62109375
+    },
+    "Entity-model-based_approach": {
+      "node_id": "model-based_approach",
+      "disambiguation_index": 0,
+      "label": "model-based approach",
+      "aliases": [
+        "model-based approach"
+      ],
+      "types": [
+        "algorithm",
+        "technique",
+        "method",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A model-based approach is a systematic method that utilizes mathematical models to represent and analyze complex systems or phenomena, often employed in various fields such as computer vision, robotics, and machine learning.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "model-based approach",
+          "local_types": [
+            "algorithm",
+            "technique",
+            "method",
+            "methodology"
+          ],
+          "iri": "Entity-model-based_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.6083984375
+    },
+    "Entity-moving_observer": {
+      "node_id": "moving_observer",
+      "disambiguation_index": 0,
+      "label": "moving observer",
+      "aliases": [
+        "moving observer",
+        "a moving observer"
+      ],
+      "types": [
+        "entity",
+        "observer"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A moving observer is an entity that perceives and interprets information from a dynamic perspective, typically involving changes in position or viewpoint over time.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "moving observer",
+          "local_types": [
+            "entity",
+            "observer"
+          ],
+          "iri": "Entity-moving_observer-Mention-1"
+        },
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a moving observer",
+          "local_types": [
+            "observer"
+          ],
+          "iri": "Entity-moving_observer-Mention-2"
+        }
+      ],
+      "relevance": 0.60400390625
+    },
+    "Entity-algorithm": {
+      "node_id": "algorithm",
+      "disambiguation_index": 0,
+      "label": "algorithm",
+      "aliases": [
+        "algorithm"
+      ],
+      "types": [
+        "computational method",
+        "procedure",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An algorithm is a systematic procedure or set of rules designed to solve a problem or perform a task, often implemented in software to execute computational methods.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "algorithm",
+          "local_types": [
+            "computational method",
+            "procedure",
+            "software"
+          ],
+          "iri": "Entity-algorithm-Mention-1"
+        }
+      ],
+      "relevance": 0.51708984375
+    },
+    "Entity-high_accuracy": {
+      "node_id": "high_accuracy",
+      "disambiguation_index": 0,
+      "label": "high accuracy",
+      "aliases": [
+        "high accuracy"
+      ],
+      "types": [
+        "accuracy",
+        "quality measure",
+        "performance metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "high accuracy refers to a measure of precision and correctness in the performance of a system or method, indicating a high level of agreement between the measured values and the true values.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "high accuracy",
+          "local_types": [
+            "accuracy",
+            "quality measure",
+            "performance metric"
+          ],
+          "iri": "Entity-high_accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.498291015625
+    },
+    "Entity-practical_feasibility": {
+      "node_id": "practical_feasibility",
+      "disambiguation_index": 0,
+      "label": "practical feasibility",
+      "aliases": [
+        "practical feasibility"
+      ],
+      "types": [
+        "feasibility"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Practical feasibility refers to the assessment of whether a proposed idea, method, or project can be effectively implemented in real-world conditions.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "practical feasibility",
+          "local_types": [
+            "feasibility"
+          ],
+          "iri": "Entity-practical_feasibility-Mention-1"
+        }
+      ],
+      "relevance": 0.491455078125
+    },
+    "Entity-accuracy": {
+      "node_id": "accuracy",
+      "disambiguation_index": 0,
+      "label": "accuracy",
+      "aliases": [
+        "accuracy"
+      ],
+      "types": [
+        "performance metric",
+        "measurement quality"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Accuracy is a performance metric that quantifies the degree of correctness or precision of a measurement or prediction in various contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-8",
+          "local_name": "accuracy",
+          "local_types": [
+            "performance metric",
+            "measurement quality"
+          ],
+          "iri": "Entity-accuracy-Mention-1"
+        }
+      ],
+      "relevance": 0.490234375
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "academic work",
+        "research document"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A paper is a written document that presents research findings, analyses, or arguments, typically in an academic or scholarly context.",
+      "mentions": [
+        {
+          "reference": "Paper-14-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "paper",
+          "local_types": [
+            "academic work",
+            "research document"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.4541015625
+    }
+  },
+  "summary": "The perception of transparent objects from images is known to be a very hard problem in vision . Given a single image , it is difficult to even detect the presence of transparent objects in the scene . In this paper , we explore what can be said about transparent objects by a moving observer . We show how features that are imaged through a transparent object behave differently from those that are rigidly attached to the scene . We present a novel model-based approach to recover the shapes and the poses of transparent objects from known motion . The objects can be complex in that they may be composed of multiple layers with different refractive indices . We have conducted numerous simulations to verify the practical feasibility of our algorithm . We have applied it to real scenes that include transparent objects and recovered the shapes of the objects with high accuracy .",
+  "triples": [
+    [
+      "Entity-transparent_object",
+      "Predicate-are_perceived_from",
+      "Entity-image"
+    ],
+    [
+      "Entity-a_single_image",
+      "Predicate-detects",
+      "Entity-transparent_object"
+    ],
+    [
+      "Entity-a_single_image",
+      "Predicate-is_difficult_to_detect_in",
+      "Entity-scene"
+    ],
+    [
+      "Entity-transparent_object",
+      "Predicate-detected_in",
+      "Entity-scene"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-explores",
+      "Entity-transparent_object"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-explores",
+      "Entity-moving_observer"
+    ],
+    [
+      "Entity-feature_that_are_imaged_through_a_transparent_object",
+      "Predicate-behave_differently_from",
+      "Entity-those_that_are_rigidly_attached_to_the_scene"
+    ],
+    [
+      "Entity-a_novel_model-based_approach",
+      "Predicate-recovers",
+      "Entity-the_shape_and_the_pose_of_transparent_object"
+    ],
+    [
+      "Entity-a_novel_model-based_approach",
+      "Predicate-recovers",
+      "Entity-shape"
+    ],
+    [
+      "Entity-a_novel_model-based_approach",
+      "Predicate-recovers",
+      "Entity-pose"
+    ],
+    [
+      "Entity-transparent_object",
+      "Predicate-can_be",
+      "Entity-complex"
+    ],
+    [
+      "Entity-transparent_object",
+      "Predicate-may_be_composed_of",
+      "Entity-layer"
+    ],
+    [
+      "Entity-layer",
+      "Predicate-have",
+      "Entity-different_refractive_index"
+    ],
+    [
+      "Entity-transparent_object",
+      "Predicate-can_be_composed_of",
+      "Entity-layer"
+    ],
+    [
+      "Entity-simulation",
+      "Predicate-verify",
+      "Entity-the_practical_feasibility_of_our_algorithm"
+    ],
+    [
+      "Entity-transparent_object",
+      "Predicate-included_in",
+      "Entity-real_scene"
+    ],
+    [
+      "Entity-shape",
+      "Predicate-recovered",
+      "Entity-shape"
+    ],
+    [
+      "Entity-shape",
+      "Predicate-recovered_with",
+      "Entity-high_accuracy"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-explores",
+      "Entity-the_perception_of_transparent_object_from_image"
+    ],
+    [
+      "Entity-the_perception_of_transparent_object_from_image",
+      "Predicate-affect",
+      "Entity-feature_that_are_imaged_through_a_transparent_object"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-explores_how_features_that_are_imaged_through_a_transparent_object_behave_differently",
+      "Entity-feature_that_are_imaged_through_a_transparent_object"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-a_single_image",
+      "skos:broader",
+      "Entity-image"
+    ],
+    [
+      "Entity-the_practical_feasibility_of_our_algorithm",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-the_shape_and_the_pose_of_transparent_object",
+      "skos:broader",
+      "Entity-pose"
+    ],
+    [
+      "Entity-the_shape_and_the_pose_of_transparent_object",
+      "skos:broader",
+      "Entity-transparent_object"
+    ],
+    [
+      "Entity-different_refractive_index",
+      "skos:broader",
+      "Entity-refractive_index"
+    ],
+    [
+      "Entity-the_shape_and_the_pose_of_transparent_object",
+      "skos:broader",
+      "Entity-shape"
+    ],
+    [
+      "Entity-model-based_approach",
+      "skos:broader",
+      "Entity-algorithm"
+    ],
+    [
+      "Entity-high_accuracy",
+      "skos:broader",
+      "Entity-accuracy"
+    ],
+    [
+      "Entity-those_that_are_rigidly_attached_to_the_scene",
+      "skos:broader",
+      "Entity-scene"
+    ],
+    [
+      "Entity-feature_that_are_imaged_through_a_transparent_object",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-transparent_object",
+      "skos:broader",
+      "Entity-object"
+    ],
+    [
+      "Entity-real_scene",
+      "skos:broader",
+      "Entity-scene"
+    ],
+    [
+      "Entity-shape",
+      "skos:broader",
+      "Entity-object"
+    ],
+    [
+      "Entity-feature_that_are_imaged_through_a_transparent_object",
+      "skos:broader",
+      "Entity-object"
+    ],
+    [
+      "Entity-those_that_are_rigidly_attached_to_the_scene",
+      "skos:broader",
+      "Entity-feature"
+    ],
+    [
+      "Entity-the_practical_feasibility_of_our_algorithm",
+      "skos:broader",
+      "Entity-practical_feasibility"
+    ]
+  ],
+  "predicates": {
+    "Predicate-are_perceived_from": {
+      "label": "are perceived from",
+      "description": "The predicate 'are perceived from' indicates a relationship where the subject is the source or origin of a perception or observation that results in the object. It suggests that the object is the outcome or representation of the sensory experience derived from the subject, highlighting the process of perception as it relates to the interaction between the observer and the observed.",
+      "disambiguation_index": 0
+    },
+    "Predicate-detects": {
+      "label": "detects",
+      "description": "The predicate 'detects' indicates the action of identifying or recognizing the presence of a specific entity or characteristic within a given subject. In this context, the subject is capable of perceiving or analyzing information, while the object represents the entity or characteristic that is being identified. The relationship implies that the subject has the ability to discern or uncover the existence of the object based on certain criteria or features.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_difficult_to_detect_in": {
+      "label": "is difficult to detect in",
+      "description": "The predicate 'is difficult to detect in' indicates a challenge or obstacle in identifying or recognizing the subject within the context of the object. It suggests that the subject may be obscured, subtle, or not easily noticeable when considered in relation to the object, which serves as the environment or setting where detection is attempted.",
+      "disambiguation_index": 0
+    },
+    "Predicate-detected_in": {
+      "label": "detected in",
+      "description": "The predicate 'detected in' establishes a relationship where the subject is identified or observed within the context or environment represented by the object. It implies that the subject can be found or recognized as part of the object, indicating a spatial or situational presence.",
+      "disambiguation_index": 0
+    },
+    "Predicate-explores": {
+      "label": "explores",
+      "description": "The predicate 'explores' indicates an active investigation or examination conducted by the subject, which seeks to understand, analyze, or uncover information about the object. It implies a process of inquiry or research that aims to gain insights or knowledge regarding the characteristics, properties, or implications of the object in question.",
+      "disambiguation_index": 0
+    },
+    "Predicate-behave_differently_from": {
+      "label": "behave differently from",
+      "description": "The predicate 'behave differently from' indicates a comparative relationship between the subject and the object, highlighting that the subject exhibits distinct characteristics, actions, or responses that set it apart from the object. This suggests that while both entities may share a common context or category, their behaviors or properties diverge in significant ways, leading to different outcomes or perceptions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-recovers": {
+      "label": "recovers",
+      "description": "The predicate 'recovers' indicates a process or action in which the subject retrieves, restores, or reconstructs information, data, or characteristics that may have been lost, obscured, or not directly observable, resulting in the identification or understanding of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be": {
+      "label": "can be",
+      "description": "The predicate 'can be' indicates a potential or possibility for the subject to take on the characteristics or qualities described by the object. It suggests that under certain conditions or contexts, the subject may exhibit the properties or attributes represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-may_be_composed_of": {
+      "label": "may be composed of",
+      "description": "The predicate 'may be composed of' indicates a potential relationship where the subject is formed or constructed from the elements represented by the object. It suggests that the subject can consist of, or be made up of, the specified components, highlighting a possible structural or material composition.",
+      "disambiguation_index": 0
+    },
+    "Predicate-have": {
+      "label": "have",
+      "description": "The predicate 'have' indicates a relationship of possession or existence between the subject and the object, where the subject possesses, contains, or is characterized by the object. In this context, it signifies that the subject is associated with or includes the qualities or attributes represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_composed_of": {
+      "label": "can be composed of",
+      "description": "The predicate 'can be composed of' indicates a relationship where the subject is made up of or constructed from the elements represented by the object. It suggests that the object is a fundamental or integral part of the subject's structure or composition, highlighting a potential or actual assembly of components that together form a cohesive whole.",
+      "disambiguation_index": 0
+    },
+    "Predicate-verify": {
+      "label": "verify",
+      "description": "The predicate 'verify' indicates an action where the subject conducts an assessment or examination to confirm the truth, accuracy, or validity of the object. In this context, the subject is responsible for establishing the reliability or authenticity of the object, which represents a claim, hypothesis, or assertion that requires validation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-included_in": {
+      "label": "included in",
+      "description": "The predicate 'included in' indicates a relationship where the subject is a part of or contained within the object. It signifies that the subject is encompassed by the object, suggesting a sense of belonging or integration within a larger context. This relationship often implies that the subject contributes to the characteristics or qualities of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-recovered": {
+      "label": "recovered",
+      "description": "The predicate 'recovered' indicates a process or action in which the subject has regained or restored a previous state, condition, or form, resulting in the object being in a state that reflects this restoration. It implies a transition from a state of loss or deterioration to one of restoration or improvement.",
+      "disambiguation_index": 0
+    },
+    "Predicate-recovered_with": {
+      "label": "recovered with",
+      "description": "The predicate 'recovered with' indicates a relationship where the subject has been restored or retrieved in a manner characterized by the qualities or conditions specified by the object. It suggests that the process of recovery has been completed successfully, often implying a level of effectiveness or precision associated with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-affect": {
+      "label": "affect",
+      "description": "The predicate 'affect' denotes a relationship in which the subject has an influence or impact on the object. It implies that the characteristics, qualities, or states of the subject can modify, change, or alter the attributes or conditions of the object in some way. This connection suggests a dynamic interaction where the subject's properties or actions lead to a discernible effect on the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-explores_how_features_that_are_imaged_through_a_transparent_object_behave_differently": {
+      "label": "explores how features that are imaged through a transparent object behave differently",
+      "description": "The predicate describes an investigation or analysis that focuses on the distinct behaviors or characteristics of certain features when they are viewed through a transparent medium. It connects the subject, which is typically a research work or study, to the object, which consists of the specific features being examined, highlighting the relationship between the method of observation (through a transparent object) and the resulting differences in behavior or perception.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or example that falls under the more general category represented by the object. This relationship signifies that the object encompasses a wider scope or classification that includes the subject as one of its members.",
+      "disambiguation_index": 0
+    }
+  }
+}

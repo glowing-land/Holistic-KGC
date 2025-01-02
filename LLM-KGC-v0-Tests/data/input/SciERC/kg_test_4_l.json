@@ -1,0 +1,1295 @@
+{
+  "iri": "Paper-4",
+  "title": "H01-1049",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-4-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-4-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-4-Section-1-Paragraph-1-Sentence-1",
+              "text": "Listen-Communicate-Show -LRB- LCS -RRB- is a new paradigm for human interaction with data sources ."
+            },
+            {
+              "iri": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+              "text": "We integrate a spoken language understanding system with intelligent mobile agents that mediate between users and information sources ."
+            },
+            {
+              "iri": "Paper-4-Section-1-Paragraph-1-Sentence-3",
+              "text": "We have built and will demonstrate an application of this approach called LCS-Marine ."
+            },
+            {
+              "iri": "Paper-4-Section-1-Paragraph-1-Sentence-4",
+              "text": "Using LCS-Marine , tactical personnel can converse with their logistics system to place a supply or information request ."
+            },
+            {
+              "iri": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+              "text": "The request is passed to a mobile , intelligent agent for execution at the appropriate database ."
+            },
+            {
+              "iri": "Paper-4-Section-1-Paragraph-1-Sentence-6",
+              "text": "Requestors can also instruct the system to notify them when the status of a request changes or when a request is complete ."
+            },
+            {
+              "iri": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+              "text": "We have demonstrated this capability in several field exercises with the Marines and are currently developing applications of this technology in new domains ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0004966259002685547,
+    16.769943237304688,
+    21.684165000915527,
+    24.22894525527954,
+    0.014181137084960938,
+    9.584426879882812e-05,
+    0.00012230873107910156,
+    35.8537335395813,
+    50.44930386543274,
+    1.1635916233062744,
+    20.954451084136963,
+    0.010776281356811523,
+    0.000209808349609375,
+    31.00921392440796,
+    6.610010147094727,
+    0.016963720321655273,
+    1.1438651084899902,
+    3.2505760192871094,
+    7.28749680519104,
+    9.729992389678955,
+    37.1999728679657,
+    1.8604857921600342,
+    26.785995960235596,
+    1.0435140132904053,
+    0.0006377696990966797,
+    0.01300358772277832
+  ],
+  "nodes": {
+    "Entity-an_application_of_this_approach": {
+      "node_id": "an_application_of_this_approach",
+      "disambiguation_index": 0,
+      "label": "an application of this approach",
+      "aliases": [
+        "an application of this approach"
+      ],
+      "types": [
+        "application",
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "LCS-Marine, a system that enables tactical personnel to converse with their logistics system to place supply or information requests and receive notifications on request status changes.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "an application of this approach",
+          "local_types": [
+            "application",
+            "approach"
+          ],
+          "iri": "Entity-an_application_of_this_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.7900390625
+    },
+    "Entity-lcs-marine": {
+      "node_id": "lcs-marine",
+      "disambiguation_index": 0,
+      "label": "LCS-Marine",
+      "aliases": [
+        "LCS-Marine"
+      ],
+      "types": [
+        "technology",
+        "system",
+        "application",
+        "software"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A software application enabling tactical personnel to converse with their logistics system using spoken language, allowing them to place supply or information requests and receive notifications on request status.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "LCS-Marine",
+          "local_types": [
+            "system",
+            "application",
+            "software"
+          ],
+          "iri": "Entity-lcs-marine-Mention-1"
+        },
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "LCS-Marine",
+          "local_types": [
+            "technology",
+            "system"
+          ],
+          "iri": "Entity-lcs-marine-Mention-2"
+        }
+      ],
+      "relevance": 0.74951171875
+    },
+    "Entity-using_lcs-marine": {
+      "node_id": "using_lcs-marine",
+      "disambiguation_index": 0,
+      "label": "Using LCS-Marine",
+      "aliases": [
+        "Using LCS-Marine"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A method for tactical personnel to interactively communicate with their logistics systems using spoken language and intelligent mobile agents.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "Using LCS-Marine",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-using_lcs-marine-Mention-1"
+        }
+      ],
+      "relevance": 0.74853515625
+    },
+    "Entity-requestors": {
+      "node_id": "requestors",
+      "disambiguation_index": 0,
+      "label": "Requestors",
+      "aliases": [
+        "Requestors"
+      ],
+      "types": [
+        "group"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Individuals who place supply or information requests through the LCS-Marine logistics system, and can also instruct the system to notify them of status updates.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "Requestors",
+          "local_types": [
+            "group"
+          ],
+          "iri": "Entity-requestors-Mention-1"
+        }
+      ],
+      "relevance": 0.68798828125
+    },
+    "Entity-to_place_a_supply_or_information_request": {
+      "node_id": "to_place_a_supply_or_information_request",
+      "disambiguation_index": 0,
+      "label": "to place a supply or information request",
+      "aliases": [
+        "to place a supply or information request",
+        "The request"
+      ],
+      "types": [
+        "request"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The act of submitting a demand for resources or data through the LCS-Marine application.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "to place a supply or information request",
+          "local_types": [
+            "request"
+          ],
+          "iri": "Entity-to_place_a_supply_or_information_request-Mention-1"
+        },
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "The request",
+          "local_types": [
+            "request"
+          ],
+          "iri": "Entity-to_place_a_supply_or_information_request-Mention-2"
+        }
+      ],
+      "relevance": 0.677734375
+    },
+    "Entity-listen-communicate-show": {
+      "node_id": "listen-communicate-show",
+      "disambiguation_index": 0,
+      "label": "Listen-Communicate-Show",
+      "aliases": [
+        "Listen-Communicate-Show"
+      ],
+      "types": [
+        "paradigm",
+        "framework",
+        "approach"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "A framework or approach that integrates spoken language understanding systems and intelligent mobile agents to facilitate human interaction with data sources.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Listen-Communicate-Show",
+          "local_types": [
+            "paradigm",
+            "framework",
+            "approach"
+          ],
+          "iri": "Entity-listen-communicate-show-Mention-1"
+        }
+      ],
+      "relevance": 0.67333984375
+    },
+    "Entity-new_domain": {
+      "node_id": "new_domain",
+      "disambiguation_index": 0,
+      "label": "new domains",
+      "aliases": [
+        "new domains"
+      ],
+      "types": [
+        "field",
+        "domain"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "New areas or fields where a technology, such as LCS- Marine, can be applied to improve human interaction with data sources.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "new domains",
+          "local_types": [
+            "field",
+            "domain"
+          ],
+          "iri": "Entity-new_domain-Mention-1"
+        }
+      ],
+      "relevance": 0.6689453125
+    },
+    "Entity-lcs": {
+      "node_id": "lcs",
+      "disambiguation_index": 0,
+      "label": "LCS",
+      "aliases": [
+        "LCS"
+      ],
+      "types": [
+        "notation",
+        "abbreviation",
+        "approach",
+        "system",
+        "acronym"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A notation or approach used in human-computer interaction, typically referring to a system or paradigm for interacting with data sources.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "LCS",
+          "local_types": [
+            "notation",
+            "abbreviation",
+            "approach",
+            "system",
+            "acronym"
+          ],
+          "iri": "Entity-lcs-Mention-1"
+        }
+      ],
+      "relevance": 0.6494140625
+    },
+    "Entity-we_(1)": {
+      "node_id": "we_(1)",
+      "disambiguation_index": 1,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author",
+        "organization"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors or developers of the Listen-Communicate-Show (LCS) paradigm, responsible for building and demonstrating its applications.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we_(1)-Mention-1"
+        },
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "We",
+          "local_types": [
+            "organization"
+          ],
+          "iri": "Entity-we_(1)-Mention-2"
+        }
+      ],
+      "relevance": 0.64794921875
+    },
+    "Entity-the_system": {
+      "node_id": "the_system",
+      "disambiguation_index": 0,
+      "label": "the system",
+      "aliases": [
+        "the system"
+      ],
+      "types": [
+        "system"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A spoken language understanding system integrated with intelligent mobile agents, enabling users to converse and place requests for information or supplies.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the system",
+          "local_types": [
+            "system"
+          ],
+          "iri": "Entity-the_system-Mention-1"
+        }
+      ],
+      "relevance": 0.640625
+    },
+    "Entity-their_logistics_system": {
+      "node_id": "their_logistics_system",
+      "disambiguation_index": 0,
+      "label": "their logistics system",
+      "aliases": [
+        "their logistics system"
+      ],
+      "types": [
+        "system"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A computerized system that enables tactical personnel to interactively submit requests for supplies or information and receive updates on the status of those requests.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "their logistics system",
+          "local_types": [
+            "system"
+          ],
+          "iri": "Entity-their_logistics_system-Mention-1"
+        }
+      ],
+      "relevance": 0.63720703125
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors of the paper, who are developing an application called LCS- Marine.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.63525390625
+    },
+    "Entity-this_capability": {
+      "node_id": "this_capability",
+      "disambiguation_index": 0,
+      "label": "this capability",
+      "aliases": [
+        "this capability"
+      ],
+      "types": [
+        "technology",
+        "capability"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The ability to demonstrate a spoken language understanding system integrated with intelligent mobile agents for mediating between users and information sources.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "this capability",
+          "local_types": [
+            "technology",
+            "capability"
+          ],
+          "iri": "Entity-this_capability-Mention-1"
+        }
+      ],
+      "relevance": 0.60595703125
+    },
+    "Entity-spoken_language_understanding_system": {
+      "node_id": "spoken_language_understanding_system",
+      "disambiguation_index": 0,
+      "label": "spoken language understanding system",
+      "aliases": [
+        "a spoken language understanding system",
+        "spoken language understanding system"
+      ],
+      "types": [
+        "technology",
+        "system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A technology or system designed to comprehend spoken languages.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "spoken language understanding system",
+          "local_types": [
+            "technology",
+            "system"
+          ],
+          "iri": "Entity-spoken_language_understanding_system-Mention-1"
+        },
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a spoken language understanding system",
+          "local_types": [
+            "system",
+            "technology"
+          ],
+          "iri": "Entity-spoken_language_understanding_system-Mention-2"
+        }
+      ],
+      "relevance": 0.56982421875
+    },
+    "Entity-user_and_information_source": {
+      "node_id": "user_and_information_source",
+      "disambiguation_index": 0,
+      "label": "users and information sources",
+      "aliases": [
+        "users and information sources"
+      ],
+      "types": [
+        "entities",
+        "user",
+        "information source"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A group of individuals interacting with various data providers or databases.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "users and information sources",
+          "local_types": [
+            "entities",
+            "user",
+            "information source"
+          ],
+          "iri": "Entity-user_and_information_source-Mention-1"
+        }
+      ],
+      "relevance": 0.560546875
+    },
+    "Entity-logistics_system": {
+      "node_id": "logistics_system",
+      "disambiguation_index": 0,
+      "label": "logistics system",
+      "aliases": [
+        "logistics system"
+      ],
+      "types": [
+        "system for managing resources",
+        "information technology",
+        "system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A structured organization of resources and processes for planning, coordinating, and controlling the movement of goods, supplies, and services.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "logistics system",
+          "local_types": [
+            "system for managing resources",
+            "information technology",
+            "system"
+          ],
+          "iri": "Entity-logistics_system-Mention-1"
+        }
+      ],
+      "relevance": 0.55712890625
+    },
+    "Entity-a_mobile": {
+      "node_id": "a_mobile",
+      "disambiguation_index": 0,
+      "label": "a mobile",
+      "aliases": [
+        "a mobile"
+      ],
+      "types": [
+        "mobile",
+        "device"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "An autonomous software entity that executes requests and provides notifications on behalf of users in an information system.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a mobile",
+          "local_types": [
+            "mobile",
+            "device"
+          ],
+          "iri": "Entity-a_mobile-Mention-1"
+        }
+      ],
+      "relevance": 0.55322265625
+    },
+    "Entity-intelligent_mobile_agent": {
+      "node_id": "intelligent_mobile_agent",
+      "disambiguation_index": 0,
+      "label": "intelligent mobile agents",
+      "aliases": [
+        "intelligent mobile agents"
+      ],
+      "types": [
+        "mobile agent",
+        "agent",
+        "agents",
+        "software agent",
+        "mobile technology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Software entities that autonomously move from one location to another, interacting with their environment and performing tasks on behalf of a user or organization.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "intelligent mobile agents",
+          "local_types": [
+            "mobile agent",
+            "agent",
+            "agents",
+            "software agent",
+            "mobile technology"
+          ],
+          "iri": "Entity-intelligent_mobile_agent-Mention-1"
+        }
+      ],
+      "relevance": 0.537109375
+    },
+    "Entity-database": {
+      "node_id": "database",
+      "disambiguation_index": 0,
+      "label": "database",
+      "aliases": [
+        "database"
+      ],
+      "types": [
+        "repository",
+        "information system",
+        "system",
+        "data storage"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A collection of organized data that can be accessed and manipulated electronically.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "database",
+          "local_types": [
+            "repository",
+            "information system",
+            "system",
+            "data storage"
+          ],
+          "iri": "Entity-database-Mention-1"
+        }
+      ],
+      "relevance": 0.5283203125
+    },
+    "Entity-a_request_change_or_when_a_request_is_complete": {
+      "node_id": "a_request_change_or_when_a_request_is_complete",
+      "disambiguation_index": 0,
+      "label": "a request changes or when a request is complete",
+      "aliases": [
+        "a request changes or when a request is complete"
+      ],
+      "types": [
+        "event"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The event where the status of a user's supply or information request changes, either by being fulfilled or completed.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a request changes or when a request is complete",
+          "local_types": [
+            "event"
+          ],
+          "iri": "Entity-a_request_change_or_when_a_request_is_complete-Mention-1"
+        }
+      ],
+      "relevance": 0.52490234375
+    },
+    "Entity-user": {
+      "node_id": "user",
+      "disambiguation_index": 0,
+      "label": "users",
+      "aliases": [
+        "users"
+      ],
+      "types": [
+        "human user",
+        "individual"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Individuals who interact or utilize a particular service, platform, or technology.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "users",
+          "local_types": [
+            "human user",
+            "individual"
+          ],
+          "iri": "Entity-user-Mention-1"
+        }
+      ],
+      "relevance": 0.5234375
+    },
+    "Entity-mobile": {
+      "node_id": "mobile",
+      "disambiguation_index": 0,
+      "label": "mobile",
+      "aliases": [
+        "mobile"
+      ],
+      "types": [
+        "device",
+        "technology"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A portable electronic device that provides access to various communication and computing services.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "mobile",
+          "local_types": [
+            "device",
+            "technology"
+          ],
+          "iri": "Entity-mobile-Mention-1"
+        }
+      ],
+      "relevance": 0.521484375
+    },
+    "Entity-the_appropriate_database": {
+      "node_id": "the_appropriate_database",
+      "disambiguation_index": 0,
+      "label": "the appropriate database",
+      "aliases": [
+        "the appropriate database"
+      ],
+      "types": [
+        "database",
+        "repository"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A repository or system that stores and manages data in support of executing requests from users.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the appropriate database",
+          "local_types": [
+            "database",
+            "repository"
+          ],
+          "iri": "Entity-the_appropriate_database-Mention-1"
+        }
+      ],
+      "relevance": 0.5185546875
+    },
+    "Entity-system": {
+      "node_id": "system",
+      "disambiguation_index": 0,
+      "label": "system",
+      "aliases": [
+        "system"
+      ],
+      "types": [
+        "computer system",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A software-based or computer-controlled entity that performs specific tasks, processes information, and/or manages data.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "system",
+          "local_types": [
+            "computer system",
+            "software"
+          ],
+          "iri": "Entity-system-Mention-1"
+        }
+      ],
+      "relevance": 0.5166015625
+    },
+    "Entity-intelligent_agent": {
+      "node_id": "intelligent_agent",
+      "disambiguation_index": 0,
+      "label": "intelligent agent",
+      "aliases": [
+        "intelligent agent"
+      ],
+      "types": [
+        "AI system",
+        "artificial intelligence",
+        "agent",
+        "software"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A software entity that uses artificial intelligence and decision-making capabilities to perform tasks autonomously.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "intelligent agent",
+          "local_types": [
+            "AI system",
+            "artificial intelligence",
+            "agent",
+            "software"
+          ],
+          "iri": "Entity-intelligent_agent-Mention-1"
+        }
+      ],
+      "relevance": 0.49658203125
+    },
+    "Entity-several_field_exercise_with_the_marine": {
+      "node_id": "several_field_exercise_with_the_marine",
+      "disambiguation_index": 0,
+      "label": "several field exercises with the Marines",
+      "aliases": [
+        "several field exercises with the Marines"
+      ],
+      "types": [
+        "event",
+        "military operation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A series of military training activities conducted by personnel from the United States Marine Corps.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "several field exercises with the Marines",
+          "local_types": [
+            "event",
+            "military operation"
+          ],
+          "iri": "Entity-several_field_exercise_with_the_marine-Mention-1"
+        }
+      ],
+      "relevance": 0.496337890625
+    },
+    "Entity-request": {
+      "node_id": "request",
+      "disambiguation_index": 0,
+      "label": "request",
+      "aliases": [
+        "request"
+      ],
+      "types": [
+        "instruction",
+        "process",
+        "task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A formal or informal expression of desire or need that requires action or attention.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "request",
+          "local_types": [
+            "task",
+            "instruction"
+          ],
+          "iri": "Entity-request-Mention-1"
+        },
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "request",
+          "local_types": [
+            "task",
+            "process"
+          ],
+          "iri": "Entity-request-Mention-2"
+        }
+      ],
+      "relevance": 0.494384765625
+    },
+    "Entity-information_source": {
+      "node_id": "information_source",
+      "disambiguation_index": 0,
+      "label": "information sources",
+      "aliases": [
+        "information sources"
+      ],
+      "types": [
+        "data source",
+        "knowledge base"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of data or knowledge from which one can gather facts, details, or insights.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "information sources",
+          "local_types": [
+            "data source",
+            "knowledge base"
+          ],
+          "iri": "Entity-information_source-Mention-1"
+        }
+      ],
+      "relevance": 0.4912109375
+    },
+    "Entity-technology": {
+      "node_id": "technology",
+      "disambiguation_index": 0,
+      "label": "technology",
+      "aliases": [
+        "technology"
+      ],
+      "types": [
+        "innovation",
+        "system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A system or innovation that enables a particular function, process, or application.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "technology",
+          "local_types": [
+            "innovation",
+            "system"
+          ],
+          "iri": "Entity-technology-Mention-1"
+        }
+      ],
+      "relevance": 0.49072265625
+    },
+    "Entity-tactical_personnel": {
+      "node_id": "tactical_personnel",
+      "disambiguation_index": 0,
+      "label": "tactical personnel",
+      "aliases": [
+        "tactical personnel"
+      ],
+      "types": [
+        "personnel",
+        "group",
+        "military unit",
+        "group of people"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A group of trained individuals responsible for executing military strategies and operations.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "tactical personnel",
+          "local_types": [
+            "personnel",
+            "group",
+            "military unit",
+            "group of people"
+          ],
+          "iri": "Entity-tactical_personnel-Mention-1"
+        }
+      ],
+      "relevance": 0.48486328125
+    },
+    "Entity-marine": {
+      "node_id": "marine",
+      "disambiguation_index": 0,
+      "label": "Marines",
+      "aliases": [
+        "Marines"
+      ],
+      "types": [
+        "military",
+        "organisation",
+        "military unit",
+        "organization"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A military organization or unit",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "Marines",
+          "local_types": [
+            "military",
+            "organisation",
+            "military unit",
+            "organization"
+          ],
+          "iri": "Entity-marine-Mention-1"
+        }
+      ],
+      "relevance": 0.47412109375
+    },
+    "Entity-the_marine": {
+      "node_id": "the_marine",
+      "disambiguation_index": 0,
+      "label": "the Marines",
+      "aliases": [
+        "the Marines"
+      ],
+      "types": [
+        "organization",
+        "military unit"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The United States Marine Corps, a military unit",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "the Marines",
+          "local_types": [
+            "organization",
+            "military unit"
+          ],
+          "iri": "Entity-the_marine-Mention-1"
+        }
+      ],
+      "relevance": 0.460205078125
+    },
+    "Entity-status_of_a_request": {
+      "node_id": "status_of_a_request",
+      "disambiguation_index": 0,
+      "label": "status of a request",
+      "aliases": [
+        "status of a request"
+      ],
+      "types": [
+        "state",
+        "condition"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The current state or condition of an inquiry, application, or petition.",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "status of a request",
+          "local_types": [
+            "state",
+            "condition"
+          ],
+          "iri": "Entity-status_of_a_request-Mention-1"
+        }
+      ],
+      "relevance": 0.45703125
+    },
+    "Entity-field_exercise": {
+      "node_id": "field_exercise",
+      "disambiguation_index": 0,
+      "label": "field exercises",
+      "aliases": [
+        "field exercises"
+      ],
+      "types": [
+        "training program",
+        "event"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Military training or testing activities conducted outdoors",
+      "mentions": [
+        {
+          "reference": "Paper-4-Section-1-Paragraph-1-Sentence-7",
+          "local_name": "field exercises",
+          "local_types": [
+            "training program",
+            "event"
+          ],
+          "iri": "Entity-field_exercise-Mention-1"
+        }
+      ],
+      "relevance": 0.425048828125
+    }
+  },
+  "summary": "Listen-Communicate-Show -LRB- LCS -RRB- is a new paradigm for human interaction with data sources . We integrate a spoken language understanding system with intelligent mobile agents that mediate between users and information sources . We have built and will demonstrate an application of this approach called LCS-Marine . Using LCS-Marine , tactical personnel can converse with their logistics system to place a supply or information request . The request is passed to a mobile , intelligent agent for execution at the appropriate database . Requestors can also instruct the system to notify them when the status of a request changes or when a request is complete . We have demonstrated this capability in several field exercises with the Marines and are currently developing applications of this technology in new domains .",
+  "triples": [
+    [
+      "Entity-spoken_language_understanding_system",
+      "Predicate-integrate_with",
+      "Entity-intelligent_mobile_agent"
+    ],
+    [
+      "Entity-we",
+      "Predicate-mediate_between",
+      "Entity-user_and_information_source"
+    ],
+    [
+      "Entity-we_(1)",
+      "Predicate-have_built_and_will_demonstrate_an_application_of",
+      "Entity-lcs-marine"
+    ],
+    [
+      "Entity-lcs-marine",
+      "Predicate-is",
+      "Entity-an_application_of_this_approach"
+    ],
+    [
+      "Entity-tactical_personnel",
+      "Predicate-converse_with",
+      "Entity-their_logistics_system"
+    ],
+    [
+      "Entity-tactical_personnel",
+      "Predicate-can_converse_with_their_logistics_system_to_place_a_supply_or_information_request",
+      "Entity-their_logistics_system"
+    ],
+    [
+      "Entity-to_place_a_supply_or_information_request",
+      "Predicate-passed_to",
+      "Entity-a_mobile"
+    ],
+    [
+      "Entity-a_mobile",
+      "Predicate-for_execution_at",
+      "Entity-the_appropriate_database"
+    ],
+    [
+      "Entity-requestors",
+      "Predicate-instruct",
+      "Entity-the_system"
+    ],
+    [
+      "Entity-we_(1)",
+      "Predicate-have_demonstrated",
+      "Entity-this_capability"
+    ],
+    [
+      "Entity-we_(1)",
+      "Predicate-demonstrated_in",
+      "Entity-several_field_exercise_with_the_marine"
+    ],
+    [
+      "Entity-lcs-marine",
+      "Predicate-have_built",
+      "Entity-an_application_of_this_approach"
+    ],
+    [
+      "Entity-an_application_of_this_approach",
+      "Predicate-have_built",
+      "Entity-using_lcs-marine"
+    ],
+    [
+      "Entity-lcs-marine",
+      "Predicate-can_converse",
+      "Entity-using_lcs-marine"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-technology",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-their_logistics_system",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-mobile",
+      "skos:broader",
+      "Entity-technology"
+    ],
+    [
+      "Entity-lcs-marine",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-lcs-marine",
+      "skos:broader",
+      "Entity-technology"
+    ],
+    [
+      "Entity-a_mobile",
+      "skos:broader",
+      "Entity-mobile"
+    ],
+    [
+      "Entity-the_system",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-user_and_information_source",
+      "skos:broader",
+      "Entity-information_source"
+    ],
+    [
+      "Entity-logistics_system",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-to_place_a_supply_or_information_request",
+      "skos:broader",
+      "Entity-request"
+    ],
+    [
+      "Entity-spoken_language_understanding_system",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-spoken_language_understanding_system",
+      "skos:broader",
+      "Entity-technology"
+    ],
+    [
+      "Entity-lcs",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-database",
+      "skos:broader",
+      "Entity-system"
+    ],
+    [
+      "Entity-the_appropriate_database",
+      "skos:broader",
+      "Entity-database"
+    ],
+    [
+      "Entity-this_capability",
+      "skos:broader",
+      "Entity-technology"
+    ],
+    [
+      "Entity-user_and_information_source",
+      "skos:broader",
+      "Entity-user"
+    ]
+  ],
+  "predicates": {
+    "Predicate-integrate_with": {
+      "label": "integrate with",
+      "description": "To combine or unify two entities (or systems) to create a cohesive and functional whole. This predicate indicates that the subject entity will work together with, share resources or capabilities with, or be part of an overall system with the object entity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-mediate_between": {
+      "label": "mediate between",
+      "description": "To mediate between two entities means to act as a neutral or impartial intermediary that facilitates communication, understanding, or resolution between them. This predicate implies a role of facilitation, negotiation, or arbitration, where the subject (in this case, 'We') plays a crucial part in bridging the gap between the object's constituent parts ('users' and 'information sources').",
+      "disambiguation_index": 0
+    },
+    "Predicate-have_built_and_will_demonstrate_an_application_of": {
+      "label": "have built and will demonstrate an application of",
+      "description": "This predicate indicates that the subject has created or developed something (represented by the object), which they are also prepared to showcase or illustrate its practical application. The connection between the subject and object lies in the idea of creation, development, and demonstration, highlighting the subject's expertise and willingness to share their work with others.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' indicates a state or characteristic that defines the relationship between the subject and object. It suggests equivalence, identity, or classification, implying that the subject possesses or embodies the quality described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-converse_with": {
+      "label": "converse with",
+      "description": "To converse with means to engage in a verbal exchange or dialogue with something, typically an entity that can respond or interact. This predicate establishes a communicative relationship between the subject and object, implying mutual understanding, information sharing, or coordination.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_converse_with_their_logistics_system_to_place_a_supply_or_information_request": {
+      "label": "can converse with their logistics system to place a supply or information request",
+      "description": "This predicate indicates that the subject has the ability and means to interactively communicate with an object (their logistics system), requesting either a supply or information, thereby facilitating coordination and exchange between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-passed_to": {
+      "label": "passed to",
+      "description": "The predicate 'passed to' indicates that some action, intention, or instruction was conveyed from the subject (in this case, someone placing a supply or information request) to the object (a mobile device), suggesting transmission of information or control.",
+      "disambiguation_index": 0
+    },
+    "Predicate-for_execution_at": {
+      "label": "for execution at",
+      "description": "The predicate 'for execution at' indicates a relationship between an entity (the subject) and a specific context or environment where some action or process related to that entity should take place. The object represents the location, platform, or system where this execution occurs.",
+      "disambiguation_index": 0
+    },
+    "Predicate-instruct": {
+      "label": "instruct",
+      "description": "To instruct means to convey information or guidance in a way that enables someone (or something) to perform an action, follow a procedure, or achieve a goal. The subject of the predicate 'instruct' has knowledge or expertise that they are sharing with the object, which may be another person, entity, or system.",
+      "disambiguation_index": 0
+    },
+    "Predicate-have_demonstrated": {
+      "label": "have demonstrated",
+      "description": "To 'have demonstrated' means to show or prove something through evidence, examples, or actions, indicating a clear understanding or proficiency. This predicate connects the subject (the entity performing the demonstration) with the object (what was demonstrated), implying that the subject has successfully conveyed their knowledge or skill.",
+      "disambiguation_index": 0
+    },
+    "Predicate-demonstrated_in": {
+      "label": "demonstrated in",
+      "description": "The predicate 'demonstrated in' indicates a context or environment where an action (implied by the subject) was performed. It suggests that the subject's actions, skills, or abilities were showcased within the specified object, which can be a setting, situation, or activity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-have_built": {
+      "label": "have built",
+      "description": "To indicate that a subject has created or constructed something, often with significant effort and planning. The predicate 'have built' implies a sense of accomplishment and completion, suggesting that the object is now tangible and exists as a result of the subject's actions.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_converse": {
+      "label": "can converse",
+      "description": "The predicate 'can converse' indicates that the subject has the ability to engage in a conversation with someone or something represented by the object. This implies mutual understanding and exchange of information, ideas, or thoughts between the subject and the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is a specific instance or member of a more general category or class denoted by the object. In other words, it establishes a hierarchical relationship between the subject and the object, where the subject is a narrower concept within the scope of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

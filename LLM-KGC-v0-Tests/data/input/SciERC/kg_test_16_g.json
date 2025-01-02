@@ -1,0 +1,1318 @@
+{
+  "iri": "Paper-16",
+  "title": "N03-1026",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-16-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-16-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+              "text": "We present an application of ambiguity packing and stochastic disambiguation techniques for Lexical-Functional Grammars -LRB- LFG -RRB- to the domain of sentence condensation ."
+            },
+            {
+              "iri": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+              "text": "Our system incorporates a linguistic parser/generator for LFG , a transfer component for parse reduction operating on packed parse forests , and a maximum-entropy model for stochastic output selection ."
+            },
+            {
+              "iri": "Paper-16-Section-1-Paragraph-1-Sentence-3",
+              "text": "Furthermore , we propose the use of standard parser evaluation methods for automatically evaluating the summarization quality of sentence condensation systems ."
+            },
+            {
+              "iri": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+              "text": "An experimental evaluation of summarization quality shows a close correlation between the automatic parse-based evaluation and a manual evaluation of generated strings ."
+            },
+            {
+              "iri": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+              "text": "Overall summarization quality of the proposed system is state-of-the-art , with guaranteed grammaticality of the system output due to the use of a constraint-based parser/generator ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0015938282012939453,
+    9.673338890075684,
+    22.73166298866272,
+    17.610785007476807,
+    0.04785490036010742,
+    0.00015497207641601562,
+    0.00017571449279785156,
+    25.23239302635193,
+    39.65939807891846,
+    4.453164100646973,
+    27.579154014587402,
+    0.011917829513549805,
+    0.0009698867797851562,
+    14.270388126373291,
+    0.0020668506622314453,
+    0.048432111740112305,
+    0.0015370845794677734,
+    4.741749048233032,
+    2.1440088748931885,
+    2.84037184715271,
+    71.1183409690857,
+    9.583781719207764,
+    36.037302017211914,
+    3.4515891075134277,
+    0.0017762184143066406,
+    0.01196599006652832
+  ],
+  "nodes": {
+    "Entity-proposed_system": {
+      "node_id": "proposed_system",
+      "disambiguation_index": 0,
+      "label": "proposed system",
+      "aliases": [
+        "proposed system"
+      ],
+      "types": [
+        "system",
+        "software"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The proposed system is a state-of-the-art sentence condensation software that utilizes ambiguity packing and stochastic disambiguation techniques within a Lexical-Functional Grammar framework, ensuring grammaticality in its output through a constraint-based parser/generator.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "proposed system",
+          "local_types": [
+            "system",
+            "software"
+          ],
+          "iri": "Entity-proposed_system-Mention-1"
+        }
+      ],
+      "relevance": 0.77880859375
+    },
+    "Entity-ambiguity_packing_and_stochastic_disambiguation_technique": {
+      "node_id": "ambiguity_packing_and_stochastic_disambiguation_technique",
+      "disambiguation_index": 0,
+      "label": "ambiguity packing and stochastic disambiguation techniques",
+      "aliases": [
+        "ambiguity packing and stochastic disambiguation techniques"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Ambiguity packing and stochastic disambiguation techniques refer to methods used in the context of Lexical-Functional Grammars for optimizing sentence condensation by managing multiple interpretations of sentences and selecting the most probable outputs through probabilistic models.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "ambiguity packing and stochastic disambiguation techniques",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-ambiguity_packing_and_stochastic_disambiguation_technique-Mention-1"
+        }
+      ],
+      "relevance": 0.75634765625
+    },
+    "Entity-ambiguity_packing": {
+      "node_id": "ambiguity_packing",
+      "disambiguation_index": 0,
+      "label": "ambiguity packing",
+      "aliases": [
+        "ambiguity packing"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "linguistic method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Ambiguity packing is a linguistic method used in conjunction with stochastic disambiguation techniques to enhance the processing of Lexical-Functional Grammars (LFG) for applications such as sentence condensation.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "ambiguity packing",
+          "local_types": [
+            "technique",
+            "method",
+            "linguistic method"
+          ],
+          "iri": "Entity-ambiguity_packing-Mention-1"
+        }
+      ],
+      "relevance": 0.75146484375
+    },
+    "Entity-stochastic_disambiguation": {
+      "node_id": "stochastic_disambiguation",
+      "disambiguation_index": 0,
+      "label": "stochastic disambiguation",
+      "aliases": [
+        "stochastic disambiguation"
+      ],
+      "types": [
+        "technique",
+        "method",
+        "linguistic method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Stochastic disambiguation refers to a method used in the context of Lexical-Functional Grammars (LFG) that employs probabilistic techniques to resolve ambiguities in linguistic structures, particularly in applications such as sentence condensation.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "stochastic disambiguation",
+          "local_types": [
+            "technique",
+            "method",
+            "linguistic method"
+          ],
+          "iri": "Entity-stochastic_disambiguation-Mention-1"
+        }
+      ],
+      "relevance": 0.74462890625
+    },
+    "Entity-our_system": {
+      "node_id": "our_system",
+      "disambiguation_index": 0,
+      "label": "Our system",
+      "aliases": [
+        "the proposed system",
+        "Our system"
+      ],
+      "types": [
+        "system"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our system refers to a sophisticated sentence condensation framework that utilizes a linguistic parser/generator based on Lexical-Functional Grammar, a transfer component for reducing parse trees, and a maximum-entropy model for selecting stochastic outputs.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Our system",
+          "local_types": [
+            "system"
+          ],
+          "iri": "Entity-our_system-Mention-1"
+        },
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the proposed system",
+          "local_types": [
+            "system"
+          ],
+          "iri": "Entity-our_system-Mention-2"
+        }
+      ],
+      "relevance": 0.7177734375
+    },
+    "Entity-lfg": {
+      "node_id": "lfg",
+      "disambiguation_index": 0,
+      "label": "LFG",
+      "aliases": [
+        "LFG"
+      ],
+      "types": [
+        "linguistic framework",
+        "grammar",
+        "abbreviation",
+        "linguistic theory",
+        "framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "LFG refers to Lexical-Functional Grammar, a linguistic framework used for parsing and generating sentences, particularly in the context of ambiguity packing and stochastic disambiguation techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "LFG",
+          "local_types": [
+            "linguistic theory",
+            "grammar",
+            "abbreviation"
+          ],
+          "iri": "Entity-lfg-Mention-1"
+        },
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "LFG",
+          "local_types": [
+            "framework",
+            "grammar",
+            "linguistic framework"
+          ],
+          "iri": "Entity-lfg-Mention-2"
+        }
+      ],
+      "relevance": 0.71435546875
+    },
+    "Entity-sentence_condensation_system": {
+      "node_id": "sentence_condensation_system",
+      "disambiguation_index": 0,
+      "label": "sentence condensation systems",
+      "aliases": [
+        "sentence condensation systems"
+      ],
+      "types": [
+        "text processing tool",
+        "system",
+        "sentence condensation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Sentence condensation systems are advanced text processing tools that utilize linguistic parsing and stochastic techniques to automatically summarize and condense sentences while ensuring grammaticality and high-quality output.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "sentence condensation systems",
+          "local_types": [
+            "text processing tool",
+            "system",
+            "sentence condensation"
+          ],
+          "iri": "Entity-sentence_condensation_system-Mention-1"
+        }
+      ],
+      "relevance": 0.70166015625
+    },
+    "Entity-stochastic_disambiguation_technique": {
+      "node_id": "stochastic_disambiguation_technique",
+      "disambiguation_index": 0,
+      "label": "stochastic disambiguation techniques",
+      "aliases": [
+        "stochastic disambiguation techniques"
+      ],
+      "types": [
+        "technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Stochastic disambiguation techniques refer to methods that utilize probabilistic models, such as maximum-entropy models, to resolve ambiguities in linguistic structures, specifically applied here to enhance the performance of Lexical-Functional Grammars in the context of sentence condensation.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "stochastic disambiguation techniques",
+          "local_types": [
+            "technique"
+          ],
+          "iri": "Entity-stochastic_disambiguation_technique-Mention-1"
+        }
+      ],
+      "relevance": 0.689453125
+    },
+    "Entity-stochastic_output_selection": {
+      "node_id": "stochastic_output_selection",
+      "disambiguation_index": 0,
+      "label": "stochastic output selection",
+      "aliases": [
+        "stochastic output selection"
+      ],
+      "types": [
+        "algorithm",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Stochastic output selection refers to a maximum-entropy model used in the context of a linguistic parser/generator for Lexical-Functional Grammars, which probabilistically determines the most appropriate outputs during the process of sentence condensation.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "stochastic output selection",
+          "local_types": [
+            "algorithm",
+            "process"
+          ],
+          "iri": "Entity-stochastic_output_selection-Mention-1"
+        }
+      ],
+      "relevance": 0.6865234375
+    },
+    "Entity-sentence_condensation": {
+      "node_id": "sentence_condensation",
+      "disambiguation_index": 0,
+      "label": "sentence condensation",
+      "aliases": [
+        "sentence condensation"
+      ],
+      "types": [
+        "text processing",
+        "text summarization",
+        "linguistic process",
+        "process",
+        "domain",
+        "text summarization technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Sentence condensation refers to a text summarization technique that reduces the length of sentences while preserving their essential meaning, often utilizing linguistic parsing and stochastic models to enhance the quality and grammaticality of the output.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "sentence condensation",
+          "local_types": [
+            "text processing",
+            "text summarization",
+            "linguistic process",
+            "process",
+            "domain",
+            "text summarization technique"
+          ],
+          "iri": "Entity-sentence_condensation-Mention-1"
+        }
+      ],
+      "relevance": 0.67041015625
+    },
+    "Entity-automatic_parse-based_evaluation": {
+      "node_id": "automatic_parse-based_evaluation",
+      "disambiguation_index": 0,
+      "label": "automatic parse-based evaluation",
+      "aliases": [
+        "automatic parse-based evaluation"
+      ],
+      "types": [
+        "automatic evaluation",
+        "evaluation",
+        "automated assessment",
+        "evaluation method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Automatic parse-based evaluation refers to a method for assessing the quality of sentence condensation systems by using standard parser evaluation techniques to automatically compare the generated outputs against manual evaluations.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "automatic parse-based evaluation",
+          "local_types": [
+            "automatic evaluation",
+            "evaluation",
+            "automated assessment",
+            "evaluation method"
+          ],
+          "iri": "Entity-automatic_parse-based_evaluation-Mention-1"
+        }
+      ],
+      "relevance": 0.63134765625
+    },
+    "Entity-generated_string": {
+      "node_id": "generated_string",
+      "disambiguation_index": 0,
+      "label": "generated strings",
+      "aliases": [
+        "generated strings"
+      ],
+      "types": [
+        "output",
+        "text"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'generated strings' refers to the outputs produced by the sentence condensation system, which are evaluated for summarization quality in relation to both automatic and manual assessments.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "generated strings",
+          "local_types": [
+            "output",
+            "text"
+          ],
+          "iri": "Entity-generated_string-Mention-1"
+        }
+      ],
+      "relevance": 0.625
+    },
+    "Entity-the_system_output": {
+      "node_id": "the_system_output",
+      "disambiguation_index": 0,
+      "label": "the system output",
+      "aliases": [
+        "the system output"
+      ],
+      "types": [
+        "output"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The system output refers to the generated strings produced by the proposed sentence condensation system, which are ensured to be grammatically correct through the use of a constraint-based parser/generator.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the system output",
+          "local_types": [
+            "output"
+          ],
+          "iri": "Entity-the_system_output-Mention-1"
+        }
+      ],
+      "relevance": 0.6181640625
+    },
+    "Entity-overall_summarization_quality": {
+      "node_id": "overall_summarization_quality",
+      "disambiguation_index": 0,
+      "label": "Overall summarization quality",
+      "aliases": [
+        "Overall summarization quality",
+        "overall summarization quality"
+      ],
+      "types": [
+        "summarization",
+        "quality"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Overall summarization quality refers to the effectiveness and grammatical correctness of the output generated by a sentence condensation system, evaluated through both automatic and manual methods, indicating its performance relative to state-of-the-art standards.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Overall summarization quality",
+          "local_types": [
+            "summarization",
+            "quality"
+          ],
+          "iri": "Entity-overall_summarization_quality-Mention-1"
+        }
+      ],
+      "relevance": 0.61767578125
+    },
+    "Entity-standard_parser_evaluation_method": {
+      "node_id": "standard_parser_evaluation_method",
+      "disambiguation_index": 0,
+      "label": "standard parser evaluation methods",
+      "aliases": [
+        "standard parser evaluation methods"
+      ],
+      "types": [
+        "method",
+        "evaluation method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Standard parser evaluation methods refer to established techniques used to assess the performance and accuracy of linguistic parsers, particularly in the context of evaluating the quality of generated outputs in natural language processing tasks such as sentence condensation.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "standard parser evaluation methods",
+          "local_types": [
+            "method",
+            "evaluation method"
+          ],
+          "iri": "Entity-standard_parser_evaluation_method-Mention-1"
+        }
+      ],
+      "relevance": 0.61474609375
+    },
+    "Entity-parse_reduction": {
+      "node_id": "parse_reduction",
+      "disambiguation_index": 0,
+      "label": "parse reduction",
+      "aliases": [
+        "parse reduction"
+      ],
+      "types": [
+        "algorithm",
+        "linguistic operation",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Parse reduction refers to a transfer component in a linguistic system that operates on packed parse forests to simplify or condense the structure of sentences within the context of Lexical-Functional Grammars.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "parse reduction",
+          "local_types": [
+            "algorithm",
+            "linguistic operation",
+            "process"
+          ],
+          "iri": "Entity-parse_reduction-Mention-1"
+        }
+      ],
+      "relevance": 0.60498046875
+    },
+    "Entity-constraint-based_parsergenerator": {
+      "node_id": "constraint-based_parsergenerator",
+      "disambiguation_index": 0,
+      "label": "constraint-based parser/generator",
+      "aliases": [
+        "constraint-based parser/generator",
+        "a constraint-based parser/generator"
+      ],
+      "types": [
+        "natural language processing tool",
+        "tool",
+        "software tool",
+        "generator",
+        "parser",
+        "linguistic tool"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A constraint-based parser/generator is a natural language processing tool that utilizes a set of linguistic constraints to analyze and produce grammatically correct sentences.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "constraint-based parser/generator",
+          "local_types": [
+            "natural language processing tool",
+            "tool",
+            "software tool",
+            "generator",
+            "parser",
+            "linguistic tool"
+          ],
+          "iri": "Entity-constraint-based_parsergenerator-Mention-1"
+        },
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a constraint-based parser/generator",
+          "local_types": [
+            "parser",
+            "generator"
+          ],
+          "iri": "Entity-constraint-based_parsergenerator-Mention-2"
+        }
+      ],
+      "relevance": 0.60498046875
+    },
+    "Entity-transfer_component": {
+      "node_id": "transfer_component",
+      "disambiguation_index": 0,
+      "label": "transfer component",
+      "aliases": [
+        "transfer component for parse reduction",
+        "transfer component"
+      ],
+      "types": [
+        "algorithm",
+        "system component",
+        "software module",
+        "software component",
+        "component"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The transfer component refers to a software module within the system that performs parse reduction on packed parse forests to facilitate sentence condensation in the context of Lexical-Functional Grammars.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "transfer component",
+          "local_types": [
+            "algorithm",
+            "system component",
+            "software component",
+            "software module",
+            "component"
+          ],
+          "iri": "Entity-transfer_component-Mention-1"
+        },
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "transfer component for parse reduction",
+          "local_types": [
+            "component"
+          ],
+          "iri": "Entity-transfer_component-Mention-2"
+        }
+      ],
+      "relevance": 0.595703125
+    },
+    "Entity-manual_evaluation_of_generated_string": {
+      "node_id": "manual_evaluation_of_generated_string",
+      "disambiguation_index": 0,
+      "label": "manual evaluation of generated strings",
+      "aliases": [
+        "manual evaluation of generated strings"
+      ],
+      "types": [
+        "evaluation",
+        "manual evaluation",
+        "evaluation method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The manual evaluation of generated strings refers to the process of human assessment of the quality and coherence of text outputs produced by a system, particularly in the context of summarization and sentence condensation, to ensure that the generated content meets linguistic and contextual standards.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "manual evaluation of generated strings",
+          "local_types": [
+            "evaluation",
+            "manual evaluation",
+            "evaluation method"
+          ],
+          "iri": "Entity-manual_evaluation_of_generated_string-Mention-1"
+        }
+      ],
+      "relevance": 0.58935546875
+    },
+    "Entity-linguistic_parsergenerator": {
+      "node_id": "linguistic_parsergenerator",
+      "disambiguation_index": 0,
+      "label": "linguistic parser/generator",
+      "aliases": [
+        "linguistic parser/generator"
+      ],
+      "types": [
+        "tool",
+        "software tool",
+        "software",
+        "generator",
+        "parser",
+        "linguistic tool"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A linguistic parser/generator is a software tool designed to analyze and produce natural language text by processing linguistic structures and generating syntactically and semantically correct sentences.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "linguistic parser/generator",
+          "local_types": [
+            "tool",
+            "software tool",
+            "software",
+            "generator",
+            "parser",
+            "linguistic tool"
+          ],
+          "iri": "Entity-linguistic_parsergenerator-Mention-1"
+        }
+      ],
+      "relevance": 0.58544921875
+    },
+    "Entity-packed_parse_forest": {
+      "node_id": "packed_parse_forest",
+      "disambiguation_index": 0,
+      "label": "packed parse forests",
+      "aliases": [
+        "packed parse forests"
+      ],
+      "types": [
+        "linguistic representation",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Packed parse forests are a data structure used in computational linguistics to represent multiple parse trees for a given input in a compact form, allowing for efficient storage and processing of syntactic information.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "packed parse forests",
+          "local_types": [
+            "linguistic representation",
+            "data structure"
+          ],
+          "iri": "Entity-packed_parse_forest-Mention-1"
+        }
+      ],
+      "relevance": 0.5693359375
+    },
+    "Entity-parser_evaluation_method": {
+      "node_id": "parser_evaluation_method",
+      "disambiguation_index": 0,
+      "label": "parser evaluation methods",
+      "aliases": [
+        "parser evaluation methods"
+      ],
+      "types": [
+        "evaluation method",
+        "linguistic technique",
+        "linguistic assessment",
+        "evaluation technique",
+        "linguistic analysis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Parser evaluation methods are systematic approaches used to assess the performance and accuracy of parsing algorithms in natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "parser evaluation methods",
+          "local_types": [
+            "evaluation method",
+            "linguistic technique",
+            "linguistic assessment",
+            "evaluation technique",
+            "linguistic analysis"
+          ],
+          "iri": "Entity-parser_evaluation_method-Mention-1"
+        }
+      ],
+      "relevance": 0.5595703125
+    },
+    "Entity-lexical-functional_grammar": {
+      "node_id": "lexical-functional_grammar",
+      "disambiguation_index": 0,
+      "label": "Lexical-Functional Grammars",
+      "aliases": [
+        "Lexical-Functional Grammars"
+      ],
+      "types": [
+        "theory",
+        "linguistic framework",
+        "grammar",
+        "linguistic theory",
+        "grammar framework"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Lexical-Functional Grammars is a theoretical framework in linguistics that focuses on the relationship between the syntactic structure of sentences and their functional aspects, emphasizing the role of both syntax and semantics in language analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Lexical-Functional Grammars",
+          "local_types": [
+            "theory",
+            "linguistic framework",
+            "grammar",
+            "linguistic theory",
+            "grammar framework"
+          ],
+          "iri": "Entity-lexical-functional_grammar-Mention-1"
+        }
+      ],
+      "relevance": 0.55322265625
+    },
+    "Entity-guaranteed_grammaticality": {
+      "node_id": "guaranteed_grammaticality",
+      "disambiguation_index": 0,
+      "label": "guaranteed grammaticality",
+      "aliases": [
+        "guaranteed grammaticality"
+      ],
+      "types": [
+        "quality",
+        "grammaticality",
+        "property"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Guaranteed grammaticality refers to the assurance that the output generated by a linguistic system, specifically a constraint-based parser/generator, adheres to the rules of grammar, ensuring that the sentences produced are grammatically correct.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "guaranteed grammaticality",
+          "local_types": [
+            "quality",
+            "grammaticality",
+            "property"
+          ],
+          "iri": "Entity-guaranteed_grammaticality-Mention-1"
+        }
+      ],
+      "relevance": 0.5478515625
+    },
+    "Entity-summarization_quality": {
+      "node_id": "summarization_quality",
+      "disambiguation_index": 0,
+      "label": "summarization quality",
+      "aliases": [
+        "summarization quality"
+      ],
+      "types": [
+        "summarization",
+        "evaluation criterion",
+        "quality metric",
+        "evaluation metric",
+        "quality",
+        "quality measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Summarization quality refers to the measure or evaluation of how effectively a summarization system condenses information while maintaining its essential meaning and coherence.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "summarization quality",
+          "local_types": [
+            "summarization",
+            "evaluation criterion",
+            "quality measure",
+            "quality",
+            "quality metric"
+          ],
+          "iri": "Entity-summarization_quality-Mention-1"
+        },
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "summarization quality",
+          "local_types": [
+            "evaluation metric",
+            "quality measure"
+          ],
+          "iri": "Entity-summarization_quality-Mention-2"
+        },
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "summarization quality",
+          "local_types": [
+            "quality measure",
+            "evaluation metric"
+          ],
+          "iri": "Entity-summarization_quality-Mention-3"
+        }
+      ],
+      "relevance": 0.54248046875
+    },
+    "Entity-experimental_evaluation_of_summarization_quality": {
+      "node_id": "experimental_evaluation_of_summarization_quality",
+      "disambiguation_index": 0,
+      "label": "experimental evaluation of summarization quality",
+      "aliases": [
+        "experimental evaluation of summarization quality",
+        "An experimental evaluation of summarization quality"
+      ],
+      "types": [
+        "summarization",
+        "evaluation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic assessment method that measures the effectiveness and accuracy of summarization techniques through controlled experiments.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "experimental evaluation of summarization quality",
+          "local_types": [
+            "evaluation"
+          ],
+          "iri": "Entity-experimental_evaluation_of_summarization_quality-Mention-1"
+        },
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "An experimental evaluation of summarization quality",
+          "local_types": [
+            "evaluation",
+            "summarization"
+          ],
+          "iri": "Entity-experimental_evaluation_of_summarization_quality-Mention-2"
+        }
+      ],
+      "relevance": 0.53125
+    },
+    "Entity-maximum-entropy_model": {
+      "node_id": "maximum-entropy_model",
+      "disambiguation_index": 0,
+      "label": "maximum-entropy model",
+      "aliases": [
+        "maximum-entropy model"
+      ],
+      "types": [
+        "machine learning model",
+        "statistical model",
+        "statistical method",
+        "model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The maximum-entropy model is a statistical model used in machine learning that predicts outcomes based on the principle of maximizing entropy subject to given constraints, often applied in various fields such as natural language processing and information theory.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "maximum-entropy model",
+          "local_types": [
+            "machine learning model",
+            "statistical model",
+            "statistical method",
+            "model"
+          ],
+          "iri": "Entity-maximum-entropy_model-Mention-1"
+        }
+      ],
+      "relevance": 0.51123046875
+    },
+    "Entity-grammaticality_of_the_system_output": {
+      "node_id": "grammaticality_of_the_system_output",
+      "disambiguation_index": 0,
+      "label": "grammaticality of the system output",
+      "aliases": [
+        "grammaticality of the system output"
+      ],
+      "types": [
+        "quality"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "the degree to which the output generated by a system adheres to the rules and conventions of a given language.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "grammaticality of the system output",
+          "local_types": [
+            "quality"
+          ],
+          "iri": "Entity-grammaticality_of_the_system_output-Mention-1"
+        }
+      ],
+      "relevance": 0.5048828125
+    },
+    "Entity-grammaticality": {
+      "node_id": "grammaticality",
+      "disambiguation_index": 0,
+      "label": "grammaticality",
+      "aliases": [
+        "grammaticality"
+      ],
+      "types": [
+        "linguistic property",
+        "language quality"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Grammaticality refers to the property of a sentence or phrase being in accordance with the rules and conventions of a given language, indicating whether it is structurally correct and acceptable within that language.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "grammaticality",
+          "local_types": [
+            "linguistic property",
+            "language quality"
+          ],
+          "iri": "Entity-grammaticality-Mention-1"
+        }
+      ],
+      "relevance": 0.50048828125
+    },
+    "Entity-experimental_evaluation": {
+      "node_id": "experimental_evaluation",
+      "disambiguation_index": 0,
+      "label": "experimental evaluation",
+      "aliases": [
+        "experimental evaluation"
+      ],
+      "types": [
+        "research method",
+        "assessment technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Experimental evaluation refers to a systematic method of assessing the effectiveness or quality of a process, product, or system through controlled experiments and empirical data collection.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "experimental evaluation",
+          "local_types": [
+            "research method",
+            "assessment technique"
+          ],
+          "iri": "Entity-experimental_evaluation-Mention-1"
+        }
+      ],
+      "relevance": 0.443115234375
+    },
+    "Entity-manual_evaluation": {
+      "node_id": "manual_evaluation",
+      "disambiguation_index": 0,
+      "label": "manual evaluation",
+      "aliases": [
+        "manual evaluation"
+      ],
+      "types": [
+        "evaluation method",
+        "human assessment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Manual evaluation refers to the process of assessing the quality or performance of a task or output through human judgment and analysis, rather than relying solely on automated methods.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "manual evaluation",
+          "local_types": [
+            "evaluation method",
+            "human assessment"
+          ],
+          "iri": "Entity-manual_evaluation-Mention-1"
+        }
+      ],
+      "relevance": 0.43603515625
+    },
+    "Entity-system_output": {
+      "node_id": "system_output",
+      "disambiguation_index": 0,
+      "label": "system output",
+      "aliases": [
+        "system output"
+      ],
+      "types": [
+        "output",
+        "result"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The term 'system output' refers to the results or data produced by a computational system or algorithm, typically as a response to input or processing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "system output",
+          "local_types": [
+            "output",
+            "result"
+          ],
+          "iri": "Entity-system_output-Mention-1"
+        }
+      ],
+      "relevance": 0.420166015625
+    },
+    "Entity-state-of-the-art": {
+      "node_id": "state-of-the-art",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art",
+      "aliases": [
+        "state-of-the-art"
+      ],
+      "types": [
+        "quality",
+        "quality descriptor",
+        "performance descriptor"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "state-of-the-art refers to the highest level of development or performance achieved in a particular field, often characterized by the latest advancements and superior quality.",
+      "mentions": [
+        {
+          "reference": "Paper-16-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "state-of-the-art",
+          "local_types": [
+            "quality",
+            "quality descriptor",
+            "performance descriptor"
+          ],
+          "iri": "Entity-state-of-the-art-Mention-1"
+        }
+      ],
+      "relevance": 0.39208984375
+    }
+  },
+  "summary": "We present an application of ambiguity packing and stochastic disambiguation techniques for Lexical-Functional Grammars -LRB- LFG -RRB- to the domain of sentence condensation . Our system incorporates a linguistic parser/generator for LFG , a transfer component for parse reduction operating on packed parse forests , and a maximum-entropy model for stochastic output selection . Furthermore , we propose the use of standard parser evaluation methods for automatically evaluating the summarization quality of sentence condensation systems . An experimental evaluation of summarization quality shows a close correlation between the automatic parse-based evaluation and a manual evaluation of generated strings . Overall summarization quality of the proposed system is state-of-the-art , with guaranteed grammaticality of the system output due to the use of a constraint-based parser/generator .",
+  "triples": [
+    [
+      "Entity-ambiguity_packing_and_stochastic_disambiguation_technique",
+      "Predicate-applies_to",
+      "Entity-lexical-functional_grammar"
+    ],
+    [
+      "Entity-ambiguity_packing_and_stochastic_disambiguation_technique",
+      "Predicate-applies_to",
+      "Entity-sentence_condensation"
+    ],
+    [
+      "Entity-our_system",
+      "Predicate-incorporates",
+      "Entity-linguistic_parsergenerator"
+    ],
+    [
+      "Entity-our_system",
+      "Predicate-incorporates",
+      "Entity-transfer_component"
+    ],
+    [
+      "Entity-our_system",
+      "Predicate-incorporates",
+      "Entity-maximum-entropy_model"
+    ],
+    [
+      "Entity-transfer_component",
+      "Predicate-operates_on",
+      "Entity-packed_parse_forest"
+    ],
+    [
+      "Entity-maximum-entropy_model",
+      "Predicate-is_for",
+      "Entity-stochastic_output_selection"
+    ],
+    [
+      "Entity-maximum-entropy_model",
+      "Predicate-is_used_for",
+      "Entity-stochastic_output_selection"
+    ],
+    [
+      "Entity-standard_parser_evaluation_method",
+      "Predicate-propose_the_use_of",
+      "Entity-parser_evaluation_method"
+    ],
+    [
+      "Entity-standard_parser_evaluation_method",
+      "Predicate-evaluate",
+      "Entity-summarization_quality"
+    ],
+    [
+      "Entity-standard_parser_evaluation_method",
+      "Predicate-evaluate",
+      "Entity-sentence_condensation_system"
+    ],
+    [
+      "Entity-automatic_parse-based_evaluation",
+      "Predicate-correlates_with",
+      "Entity-manual_evaluation"
+    ],
+    [
+      "Entity-manual_evaluation",
+      "Predicate-correlates_with",
+      "Entity-automatic_parse-based_evaluation"
+    ],
+    [
+      "Entity-overall_summarization_quality",
+      "Predicate-is",
+      "Entity-state-of-the-art"
+    ],
+    [
+      "Entity-system_output",
+      "Predicate-has",
+      "Entity-guaranteed_grammaticality"
+    ],
+    [
+      "Entity-system_output",
+      "Predicate-is_due_to_the_use_of",
+      "Entity-constraint-based_parsergenerator"
+    ],
+    [
+      "Entity-grammaticality_of_the_system_output",
+      "Predicate-is_ensured_by",
+      "Entity-constraint-based_parsergenerator"
+    ],
+    [
+      "Entity-our_system",
+      "Predicate-is",
+      "Entity-state-of-the-art"
+    ],
+    [
+      "Entity-our_system",
+      "Predicate-has",
+      "Entity-guaranteed_grammaticality"
+    ],
+    [
+      "Entity-constraint-based_parsergenerator",
+      "Predicate-ensures",
+      "Entity-grammaticality_of_the_system_output"
+    ],
+    [
+      "Entity-proposed_system",
+      "Predicate-utilizes",
+      "Entity-ambiguity_packing_and_stochastic_disambiguation_technique"
+    ],
+    [
+      "Entity-proposed_system",
+      "Predicate-utilizes",
+      "Entity-ambiguity_packing"
+    ],
+    [
+      "Entity-ambiguity_packing_and_stochastic_disambiguation_technique",
+      "Predicate-is_used_in_conjunction_with",
+      "Entity-ambiguity_packing"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-guaranteed_grammaticality",
+      "skos:broader",
+      "Entity-grammaticality"
+    ],
+    [
+      "Entity-the_system_output",
+      "skos:broader",
+      "Entity-system_output"
+    ],
+    [
+      "Entity-manual_evaluation_of_generated_string",
+      "skos:broader",
+      "Entity-manual_evaluation"
+    ],
+    [
+      "Entity-generated_string",
+      "skos:broader",
+      "Entity-system_output"
+    ],
+    [
+      "Entity-sentence_condensation_system",
+      "skos:broader",
+      "Entity-sentence_condensation"
+    ]
+  ],
+  "predicates": {
+    "Predicate-applies_to": {
+      "label": "applies to",
+      "description": "The predicate 'applies to' indicates a relationship where the subject is relevant or pertinent to the object, suggesting that the subject can be utilized, implemented, or is suitable for the context or framework represented by the object. This connection implies that the subject has a functional or theoretical association with the object, often in a way that enhances understanding, application, or analysis within the domain defined by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-incorporates": {
+      "label": "incorporates",
+      "description": "The predicate 'incorporates' indicates that the subject includes or integrates the object as a part of its structure or functionality. It suggests a relationship where the subject actively combines or utilizes the object to enhance its capabilities or to fulfill a specific purpose.",
+      "disambiguation_index": 0
+    },
+    "Predicate-operates_on": {
+      "label": "operates on",
+      "description": "The predicate 'operates on' indicates a functional relationship where the subject performs actions, processes, or manipulations that directly affect or utilize the object. It suggests that the subject is actively engaging with the object in a manner that alters, analyzes, or interacts with it, thereby establishing a dynamic connection between the two entities.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_for": {
+      "label": "is for",
+      "description": "The predicate 'is for' indicates a purpose, function, or intended use of the subject in relation to the object. It establishes a connection where the subject serves or is designed to achieve the outcome or goal represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_for": {
+      "label": "is used for",
+      "description": "The predicate 'is used for' indicates a functional relationship where the subject serves a specific purpose or application represented by the object. It implies that the subject is employed or utilized in a manner that facilitates, supports, or enables the action or outcome described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-propose_the_use_of": {
+      "label": "propose the use of",
+      "description": "The predicate 'propose the use of' indicates a suggestion or recommendation made by the subject regarding the implementation or application of the object. It connects the subject, which typically represents an idea, method, or framework, to the object, which is the specific practice, tool, or concept being recommended for use. This predicate implies an advocacy for the adoption of the object in a relevant context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluate": {
+      "label": "evaluate",
+      "description": "The predicate 'evaluate' signifies the action of assessing or determining the quality, effectiveness, or performance of the object in relation to the subject. In this context, the subject represents a method, technique, or framework that is being used to analyze or measure the characteristics of the object, which is typically a specific aspect, outcome, or performance metric. The evaluation process involves comparing the object against established criteria or standards to derive conclusions about its value or success.",
+      "disambiguation_index": 0
+    },
+    "Predicate-correlates_with": {
+      "label": "correlates with",
+      "description": "The predicate 'correlates with' indicates a relationship between the subject and the object, suggesting that there is a statistical or conceptual association between the two entities. This relationship implies that changes or variations in the subject are related to changes or variations in the object, often indicating a degree of dependency or similarity in their characteristics or outcomes.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is": {
+      "label": "is",
+      "description": "The predicate 'is' serves as a linking verb that establishes an identity or equivalence between the subject and the object. It indicates that the subject possesses the characteristics or qualities described by the object, effectively asserting that the subject can be defined or classified in terms of the object. This relationship often conveys a state of being, classification, or a specific attribute that the subject embodies.",
+      "disambiguation_index": 0
+    },
+    "Predicate-has": {
+      "label": "has",
+      "description": "The predicate 'has' indicates a relationship of possession or attribute between the subject and the object, suggesting that the subject possesses, contains, or is characterized by the object. In this context, it implies that the subject exhibits a certain quality or feature represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_due_to_the_use_of": {
+      "label": "is due to the use of",
+      "description": "The predicate 'is due to the use of' establishes a causal relationship between the subject and the object, indicating that the subject's state, condition, or outcome is a result of employing the object. It implies that the effectiveness, functionality, or characteristics of the subject can be attributed to the application or implementation of the object in question.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_ensured_by": {
+      "label": "is ensured by",
+      "description": "The predicate 'is ensured by' establishes a relationship where the subject is guaranteed or made certain by the object. It indicates that the object plays a crucial role in providing assurance, support, or validation to the subject, thereby contributing to its reliability or correctness.",
+      "disambiguation_index": 0
+    },
+    "Predicate-ensures": {
+      "label": "ensures",
+      "description": "The predicate 'ensures' indicates a relationship where the subject is responsible for guaranteeing or securing a certain condition or quality represented by the object. In this context, it implies that the subject actively contributes to the fulfillment or maintenance of the state described by the object, thereby establishing a sense of reliability or assurance regarding that state.",
+      "disambiguation_index": 0
+    },
+    "Predicate-utilizes": {
+      "label": "utilizes",
+      "description": "The predicate 'utilizes' indicates that the subject employs or makes use of the object in order to achieve a specific purpose or function. It suggests an active engagement where the subject leverages the capabilities or features of the object to enhance its performance, effectiveness, or efficiency in a given context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_used_in_conjunction_with": {
+      "label": "is used in conjunction with",
+      "description": "The predicate 'is used in conjunction with' indicates a relationship where the subject and object are employed together or in combination to achieve a specific purpose or outcome. This suggests that both elements complement each other and are often utilized simultaneously in a particular context or process.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or subset of the more general concept represented by the object. This relationship implies that the object encompasses a wider range of meanings or applications than the subject, thereby situating the subject within a broader category.",
+      "disambiguation_index": 0
+    }
+  }
+}

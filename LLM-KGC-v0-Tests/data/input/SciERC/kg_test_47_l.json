@@ -1,0 +1,953 @@
+{
+  "iri": "Paper-47",
+  "title": "P08-1105",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-47-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-47-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-47-Section-1-Paragraph-1-Sentence-1",
+              "text": "Topical blog post retrieval is the task of ranking blog posts with respect to their relevance for a given topic ."
+            },
+            {
+              "iri": "Paper-47-Section-1-Paragraph-1-Sentence-2",
+              "text": "To improve topical blog post retrieval we incorporate textual credibility indicators in the retrieval process ."
+            },
+            {
+              "iri": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+              "text": "We consider two groups of indicators : post level -LRB- determined using information about individual blog posts only -RRB- and blog level -LRB- determined using information from the underlying blogs -RRB- ."
+            },
+            {
+              "iri": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+              "text": "We describe how to estimate these indicators and how to integrate them into a retrieval approach based on language models ."
+            },
+            {
+              "iri": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+              "text": "Experiments on the TREC Blog track test set show that both groups of credibility indicators significantly improve retrieval effectiveness ; the best performance is achieved when combining them ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005123615264892578,
+    12.547028064727783,
+    19.19422483444214,
+    19.054913759231567,
+    0.014714717864990234,
+    8.869171142578125e-05,
+    0.00011754035949707031,
+    32.925673723220825,
+    42.15869641304016,
+    1.2844467163085938,
+    29.139627933502197,
+    0.008811473846435547,
+    0.0001862049102783203,
+    27.62599539756775,
+    7.079204082489014,
+    0.014859914779663086,
+    1.095041036605835,
+    3.1988139152526855,
+    2.883366107940674,
+    4.335411787033081,
+    35.23878860473633,
+    1.7033522129058838,
+    16.209648609161377,
+    0.9610872268676758,
+    0.0005462169647216797,
+    0.009955644607543945
+  ],
+  "nodes": {
+    "Entity-post_level_-lrb-_determined_using_information_about_individual_blog_post_only_-rrb-_and_blog_level_-lrb-_determined_using_information_from_the_underlying_blog_-rrb-": {
+      "node_id": "post_level_-lrb-_determined_using_information_about_individual_blog_post_only_-rrb-_and_blog_level_-lrb-_determined_using_information_from_the_underlying_blog_-rrb-",
+      "disambiguation_index": 0,
+      "label": "post level -LRB- determined using information about individual blog posts only -RRB- and blog level -LRB- determined using information from the underlying blogs -RRB-",
+      "aliases": [
+        "post level -LRB- determined using information about individual blog posts only -RRB- and blog level -LRB- determined using information from the underlying blogs -RRB-"
+      ],
+      "types": [
+        "credibility indicator type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Two types of credibility indicators used in topical blog post retrieval, one based on individual blog posts and another based on underlying blogs.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "post level -LRB- determined using information about individual blog posts only -RRB- and blog level -LRB- determined using information from the underlying blogs -RRB-",
+          "local_types": [
+            "credibility indicator type"
+          ],
+          "iri": "Entity-post_level_-lrb-_determined_using_information_about_individual_blog_post_only_-rrb-_and_blog_level_-lrb-_determined_using_information_from_the_underlying_blog_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.8603515625
+    },
+    "Entity-the_best_performance_is_achieved_when_combining_them": {
+      "node_id": "the_best_performance_is_achieved_when_combining_them",
+      "disambiguation_index": 0,
+      "label": "the best performance is achieved when combining them",
+      "aliases": [
+        "the best performance is achieved when combining them"
+      ],
+      "types": [
+        "result",
+        "finding"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The combination of post-level and blog-level textual credibility indicators in topical blog post retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the best performance is achieved when combining them",
+          "local_types": [
+            "result",
+            "finding"
+          ],
+          "iri": "Entity-the_best_performance_is_achieved_when_combining_them-Mention-1"
+        }
+      ],
+      "relevance": 0.8095703125
+    },
+    "Entity-blog_level_-lrb-_determined_using_information_from_the_underlying_blog_-rrb-": {
+      "node_id": "blog_level_-lrb-_determined_using_information_from_the_underlying_blog_-rrb-",
+      "disambiguation_index": 0,
+      "label": "blog level -LRB- determined using information from the underlying blogs -RRB-",
+      "aliases": [
+        "blog level -LRB- determined using information from the underlying blogs -RRB-"
+      ],
+      "types": [
+        "indicator type"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A credibility indicator that uses information from multiple blogs to determine a blog's relevance and ranking.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "blog level -LRB- determined using information from the underlying blogs -RRB-",
+          "local_types": [
+            "indicator type"
+          ],
+          "iri": "Entity-blog_level_-lrb-_determined_using_information_from_the_underlying_blog_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.7998046875
+    },
+    "Entity-how_to_estimate_these_indicator": {
+      "node_id": "how_to_estimate_these_indicator",
+      "disambiguation_index": 0,
+      "label": "how to estimate these indicators",
+      "aliases": [
+        "how to estimate these indicators"
+      ],
+      "types": [
+        "methodology",
+        "estimation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of calculating and determining textual credibility indicators for topical blog post retrieval, including both post-level and blog-level indicators.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "how to estimate these indicators",
+          "local_types": [
+            "methodology",
+            "estimation"
+          ],
+          "iri": "Entity-how_to_estimate_these_indicator-Mention-1"
+        }
+      ],
+      "relevance": 0.798828125
+    },
+    "Entity-post_level_-lrb-_determined_using_information_about_individual_blog_post_only_-rrb-": {
+      "node_id": "post_level_-lrb-_determined_using_information_about_individual_blog_post_only_-rrb-",
+      "disambiguation_index": 0,
+      "label": "post level -LRB- determined using information about individual blog posts only -RRB-",
+      "aliases": [
+        "post level -LRB- determined using information about individual blog posts only -RRB-"
+      ],
+      "types": [
+        "indicator type"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A type of credibility indicator that uses information about individual blog posts to determine their relevance and ranking.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "post level -LRB- determined using information about individual blog posts only -RRB-",
+          "local_types": [
+            "indicator type"
+          ],
+          "iri": "Entity-post_level_-lrb-_determined_using_information_about_individual_blog_post_only_-rrb--Mention-1"
+        }
+      ],
+      "relevance": 0.79833984375
+    },
+    "Entity-topical_blog_post_retrieval": {
+      "node_id": "topical_blog_post_retrieval",
+      "disambiguation_index": 0,
+      "label": "Topical blog post retrieval",
+      "aliases": [
+        "Topical blog post retrieval",
+        "topical blog post retrieval"
+      ],
+      "types": [
+        "information retrieval system",
+        "topic",
+        "retrieval method",
+        "research area",
+        "search algorithm",
+        "task",
+        "concept"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The process or method of retrieving and ranking online blog posts based on their relevance to a specific topic.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Topical blog post retrieval",
+          "local_types": [
+            "research area",
+            "concept",
+            "task"
+          ],
+          "iri": "Entity-topical_blog_post_retrieval-Mention-1"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "topical blog post retrieval",
+          "local_types": [
+            "search algorithm",
+            "information retrieval system",
+            "topic",
+            "retrieval method"
+          ],
+          "iri": "Entity-topical_blog_post_retrieval-Mention-2"
+        }
+      ],
+      "relevance": 0.794921875
+    },
+    "Entity-to_improve": {
+      "node_id": "to_improve",
+      "disambiguation_index": 0,
+      "label": "To improve",
+      "aliases": [
+        "To improve"
+      ],
+      "types": [
+        "goal",
+        "objective"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The incorporation of textual credibility indicators into a language-based approach to enhance the effectiveness of ranking blog posts with respect to their relevance for a given topic.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "To improve",
+          "local_types": [
+            "goal",
+            "objective"
+          ],
+          "iri": "Entity-to_improve-Mention-1"
+        }
+      ],
+      "relevance": 0.7802734375
+    },
+    "Entity-two_group_of_indicator": {
+      "node_id": "two_group_of_indicator",
+      "disambiguation_index": 0,
+      "label": "two groups of indicators",
+      "aliases": [
+        "these indicators",
+        "two groups of indicators",
+        "both groups of credibility indicators"
+      ],
+      "types": [
+        "indicators",
+        "plural noun",
+        "credibility indicator",
+        "indicator"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Two distinct categories of credibility indicators, one based on individual blog posts (post-level) and another based on information about the underlying blogs (blog-level), used to improve topical blog post retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "two groups of indicators",
+          "local_types": [
+            "indicators"
+          ],
+          "iri": "Entity-two_group_of_indicator-Mention-1"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "these indicators",
+          "local_types": [
+            "indicator",
+            "plural noun"
+          ],
+          "iri": "Entity-two_group_of_indicator-Mention-2"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "both groups of credibility indicators",
+          "local_types": [
+            "credibility indicator"
+          ],
+          "iri": "Entity-two_group_of_indicator-Mention-3"
+        }
+      ],
+      "relevance": 0.77001953125
+    },
+    "Entity-a_retrieval_approach_based_on_language_model": {
+      "node_id": "a_retrieval_approach_based_on_language_model",
+      "disambiguation_index": 0,
+      "label": "a retrieval approach based on language models",
+      "aliases": [
+        "a retrieval approach based on language models"
+      ],
+      "types": [
+        "approach",
+        "retrieval",
+        "language model"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A method for ranking blog posts by relevance, which integrates textual credibility indicators into a framework utilizing natural language processing techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "a retrieval approach based on language models",
+          "local_types": [
+            "approach",
+            "retrieval",
+            "language model"
+          ],
+          "iri": "Entity-a_retrieval_approach_based_on_language_model-Mention-1"
+        }
+      ],
+      "relevance": 0.77001953125
+    },
+    "Entity-blog_level": {
+      "node_id": "blog_level",
+      "disambiguation_index": 0,
+      "label": "blog level",
+      "aliases": [
+        "blog level"
+      ],
+      "types": [
+        "category",
+        "level"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A measure of credibility or relevance at the level of a blog, used to improve topical blog post retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "blog level",
+          "local_types": [
+            "category",
+            "level"
+          ],
+          "iri": "Entity-blog_level-Mention-1"
+        }
+      ],
+      "relevance": 0.76220703125
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "Experiments",
+      "aliases": [
+        "Experiments"
+      ],
+      "types": [
+        "study"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Studies conducted on the TREC Blog track test set to evaluate the impact of incorporating textual credibility indicators on retrieval effectiveness.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Experiments",
+          "local_types": [
+            "study"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.75927734375
+    },
+    "Entity-ranking_blog_post_with_respect_to_their_relevance_for_a_given_topic": {
+      "node_id": "ranking_blog_post_with_respect_to_their_relevance_for_a_given_topic",
+      "disambiguation_index": 0,
+      "label": "ranking blog posts with respect to their relevance for a given topic",
+      "aliases": [
+        "ranking blog posts with respect to their relevance for a given topic"
+      ],
+      "types": [
+        "retrieval task"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The process of ordering and prioritizing online blog articles based on how well they match or relate to a specific subject matter.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "ranking blog posts with respect to their relevance for a given topic",
+          "local_types": [
+            "retrieval task"
+          ],
+          "iri": "Entity-ranking_blog_post_with_respect_to_their_relevance_for_a_given_topic-Mention-1"
+        }
+      ],
+      "relevance": 0.75341796875
+    },
+    "Entity-retrieval_effectiveness": {
+      "node_id": "retrieval_effectiveness",
+      "disambiguation_index": 0,
+      "label": "retrieval effectiveness",
+      "aliases": [
+        "retrieval effectiveness"
+      ],
+      "types": [
+        "metric"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The measure of how well a system retrieves relevant blog posts for a given topic.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "retrieval effectiveness",
+          "local_types": [
+            "metric"
+          ],
+          "iri": "Entity-retrieval_effectiveness-Mention-1"
+        }
+      ],
+      "relevance": 0.73876953125
+    },
+    "Entity-trec_blog": {
+      "node_id": "trec_blog",
+      "disambiguation_index": 0,
+      "label": "TREC Blog",
+      "aliases": [
+        "TREC Blog"
+      ],
+      "types": [
+        "track",
+        "dataset"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A publicly available dataset and track used to evaluate information retrieval systems, focusing on blog posts.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "TREC Blog",
+          "local_types": [
+            "track",
+            "dataset"
+          ],
+          "iri": "Entity-trec_blog-Mention-1"
+        }
+      ],
+      "relevance": 0.70361328125
+    },
+    "Entity-trec_blog_track_test_set": {
+      "node_id": "trec_blog_track_test_set",
+      "disambiguation_index": 0,
+      "label": "TREC Blog track test set",
+      "aliases": [
+        "the TREC Blog track test set",
+        "TREC Blog track test set"
+      ],
+      "types": [
+        "evaluation metric",
+        "dataset",
+        "test set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A dataset used to evaluate and compare different approaches or systems in information retrieval, particularly focused on blog-related content.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "TREC Blog track test set",
+          "local_types": [
+            "evaluation metric",
+            "dataset"
+          ],
+          "iri": "Entity-trec_blog_track_test_set-Mention-1"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the TREC Blog track test set",
+          "local_types": [
+            "dataset",
+            "test set"
+          ],
+          "iri": "Entity-trec_blog_track_test_set-Mention-2"
+        }
+      ],
+      "relevance": 0.70263671875
+    },
+    "Entity-we": {
+      "node_id": "we",
+      "disambiguation_index": 0,
+      "label": "We",
+      "aliases": [
+        "We"
+      ],
+      "types": [
+        "author"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The authors of this paper, who are describing their methodology for estimating and integrating textual credibility indicators into a retrieval approach based on language models.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "We",
+          "local_types": [
+            "author"
+          ],
+          "iri": "Entity-we-Mention-1"
+        }
+      ],
+      "relevance": 0.6982421875
+    },
+    "Entity-post_level": {
+      "node_id": "post_level",
+      "disambiguation_index": 0,
+      "label": "post level",
+      "aliases": [
+        "post level"
+      ],
+      "types": [
+        "category",
+        "level"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A measure of credibility based on characteristics of individual blog posts.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "post level",
+          "local_types": [
+            "category",
+            "level"
+          ],
+          "iri": "Entity-post_level-Mention-1"
+        }
+      ],
+      "relevance": 0.67529296875
+    },
+    "Entity-textual_credibility_indicator": {
+      "node_id": "textual_credibility_indicator",
+      "disambiguation_index": 0,
+      "label": "textual credibility indicators",
+      "aliases": [
+        "textual credibility indicators",
+        "credibility indicators"
+      ],
+      "types": [
+        "data quality metric",
+        "indicator",
+        "natural language processing technique",
+        "evaluation criterion",
+        "metric",
+        "credibility metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A measure or characteristic used to assess the trustworthiness, reliability, or authenticity of written content.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "textual credibility indicators",
+          "local_types": [
+            "data quality metric",
+            "indicator",
+            "natural language processing technique",
+            "evaluation criterion",
+            "metric",
+            "credibility metric"
+          ],
+          "iri": "Entity-textual_credibility_indicator-Mention-1"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "credibility indicators",
+          "local_types": [
+            "metric",
+            "indicator"
+          ],
+          "iri": "Entity-textual_credibility_indicator-Mention-2"
+        }
+      ],
+      "relevance": 0.65576171875
+    },
+    "Entity-trec": {
+      "node_id": "trec",
+      "disambiguation_index": 0,
+      "label": "TREC",
+      "aliases": [
+        "TREC"
+      ],
+      "types": [
+        "organization",
+        "dataset"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A benchmarking organization and dataset for evaluating information retrieval systems, particularly in the context of text-based search engines.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "TREC",
+          "local_types": [
+            "organization",
+            "dataset"
+          ],
+          "iri": "Entity-trec-Mention-1"
+        }
+      ],
+      "relevance": 0.61767578125
+    },
+    "Entity-retrieval_process": {
+      "node_id": "retrieval_process",
+      "disambiguation_index": 0,
+      "label": "retrieval process",
+      "aliases": [
+        "retrieval approach",
+        "retrieval process"
+      ],
+      "types": [
+        "methodology",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic approach or algorithm used to obtain relevant information from a database, repository, or other source.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "retrieval process",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-retrieval_process-Mention-1"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "retrieval approach",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-retrieval_process-Mention-2"
+        }
+      ],
+      "relevance": 0.59326171875
+    },
+    "Entity-blog_post": {
+      "node_id": "blog_post",
+      "disambiguation_index": 0,
+      "label": "blog posts",
+      "aliases": [
+        "blog posts"
+      ],
+      "types": [
+        "collection",
+        "data set",
+        "documents",
+        "information",
+        "content"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of online articles or written content published on a regular basis, typically by an individual or organization.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "blog posts",
+          "local_types": [
+            "content",
+            "documents",
+            "information"
+          ],
+          "iri": "Entity-blog_post-Mention-1"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "blog posts",
+          "local_types": [
+            "data set",
+            "collection"
+          ],
+          "iri": "Entity-blog_post-Mention-2"
+        }
+      ],
+      "relevance": 0.57177734375
+    },
+    "Entity-individual_blog_post": {
+      "node_id": "individual_blog_post",
+      "disambiguation_index": 0,
+      "label": "individual blog posts",
+      "aliases": [
+        "individual blog posts"
+      ],
+      "types": [
+        "unit of analysis",
+        "sample"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Self-contained online articles or entries published on a personal website.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "individual blog posts",
+          "local_types": [
+            "unit of analysis",
+            "sample"
+          ],
+          "iri": "Entity-individual_blog_post-Mention-1"
+        }
+      ],
+      "relevance": 0.54296875
+    },
+    "Entity-indicator": {
+      "node_id": "indicator",
+      "disambiguation_index": 0,
+      "label": "indicators",
+      "aliases": [
+        "indicators"
+      ],
+      "types": [
+        "statistic",
+        "metric",
+        "measure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical measure or metric used to quantify or evaluate something.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "indicators",
+          "local_types": [
+            "metric",
+            "measure"
+          ],
+          "iri": "Entity-indicator-Mention-1"
+        },
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "indicators",
+          "local_types": [
+            "metric",
+            "statistic"
+          ],
+          "iri": "Entity-indicator-Mention-2"
+        }
+      ],
+      "relevance": 0.50732421875
+    },
+    "Entity-topic": {
+      "node_id": "topic",
+      "disambiguation_index": 0,
+      "label": "topic",
+      "aliases": [
+        "topic"
+      ],
+      "types": [
+        "theme",
+        "subject matter"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A subject or area of interest, concern, or discussion.",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "topic",
+          "local_types": [
+            "theme",
+            "subject matter"
+          ],
+          "iri": "Entity-topic-Mention-1"
+        }
+      ],
+      "relevance": 0.48876953125
+    },
+    "Entity-language_model": {
+      "node_id": "language_model",
+      "disambiguation_index": 0,
+      "label": "language models",
+      "aliases": [
+        "language models"
+      ],
+      "types": [
+        "technology",
+        "artificial intelligence",
+        "model",
+        "natural language processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Computer-generated systems that process, understand, and generate human-like natural language",
+      "mentions": [
+        {
+          "reference": "Paper-47-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "language models",
+          "local_types": [
+            "technology",
+            "artificial intelligence",
+            "model",
+            "natural language processing"
+          ],
+          "iri": "Entity-language_model-Mention-1"
+        }
+      ],
+      "relevance": 0.482177734375
+    }
+  },
+  "summary": "Topical blog post retrieval is the task of ranking blog posts with respect to their relevance for a given topic . To improve topical blog post retrieval we incorporate textual credibility indicators in the retrieval process . We consider two groups of indicators : post level -LRB- determined using information about individual blog posts only -RRB- and blog level -LRB- determined using information from the underlying blogs -RRB- . We describe how to estimate these indicators and how to integrate them into a retrieval approach based on language models . Experiments on the TREC Blog track test set show that both groups of credibility indicators significantly improve retrieval effectiveness ; the best performance is achieved when combining them .",
+  "triples": [
+    [
+      "Entity-blog_post",
+      "Predicate-ranking_with_respect_to_their_relevance_for_a_given",
+      "Entity-topic"
+    ],
+    [
+      "Entity-to_improve",
+      "Predicate-improve",
+      "Entity-topical_blog_post_retrieval"
+    ],
+    [
+      "Entity-we",
+      "Predicate-describe",
+      "Entity-how_to_estimate_these_indicator"
+    ],
+    [
+      "Entity-we",
+      "Predicate-estimate",
+      "Entity-two_group_of_indicator"
+    ],
+    [
+      "Entity-experiment",
+      "Predicate-show_that",
+      "Entity-two_group_of_indicator"
+    ],
+    [
+      "Entity-two_group_of_indicator",
+      "Predicate-significantly_improve",
+      "Entity-retrieval_effectiveness"
+    ],
+    [
+      "Entity-the_best_performance_is_achieved_when_combining_them",
+      "Predicate-improve",
+      "Entity-post_level_-lrb-_determined_using_information_about_individual_blog_post_only_-rrb-_and_blog_level_-lrb-_determined_using_information_from_the_underlying_blog_-rrb-"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-ranking_blog_post_with_respect_to_their_relevance_for_a_given_topic",
+      "skos:broader",
+      "Entity-retrieval_process"
+    ],
+    [
+      "Entity-two_group_of_indicator",
+      "skos:broader",
+      "Entity-indicator"
+    ],
+    [
+      "Entity-a_retrieval_approach_based_on_language_model",
+      "skos:broader",
+      "Entity-language_model"
+    ],
+    [
+      "Entity-textual_credibility_indicator",
+      "skos:broader",
+      "Entity-indicator"
+    ],
+    [
+      "Entity-a_retrieval_approach_based_on_language_model",
+      "skos:broader",
+      "Entity-retrieval_process"
+    ],
+    [
+      "Entity-topical_blog_post_retrieval",
+      "skos:broader",
+      "Entity-retrieval_process"
+    ],
+    [
+      "Entity-topical_blog_post_retrieval",
+      "skos:broader",
+      "Entity-topic"
+    ],
+    [
+      "Entity-two_group_of_indicator",
+      "skos:broader",
+      "Entity-textual_credibility_indicator"
+    ]
+  ],
+  "predicates": {
+    "Predicate-ranking_with_respect_to_their_relevance_for_a_given": {
+      "label": "ranking with respect to their relevance for a given",
+      "description": "This predicate establishes an ordering relationship between the subject and object based on how relevant each element of the subject set is to the specified context or category (object). The ranking indicates which elements are most pertinent, important, or applicable within that particular framework.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improve": {
+      "label": "improve",
+      "description": "The predicate 'improve' indicates a relationship where the subject takes action to enhance or increase the quality of the object. It suggests that the subject has control over the process and intentionally makes changes to achieve better results.",
+      "disambiguation_index": 0
+    },
+    "Predicate-describe": {
+      "label": "describe",
+      "description": "To describe means to convey a detailed and accurate representation of something's characteristics, features, or essence. It involves providing an account or explanation that helps others understand or visualize what is being described.",
+      "disambiguation_index": 0
+    },
+    "Predicate-estimate": {
+      "label": "estimate",
+      "description": "To estimate means to form an opinion or make a judgment about something based on available information, often involving quantification or measurement. The predicate 'estimate' connects the subject (the entity making the estimation) with the object (the thing being estimated), indicating that the subject is providing their assessment of the object's magnitude, frequency, likelihood, etc.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show_that": {
+      "label": "show that",
+      "description": "To demonstrate or prove something through evidence or observation. The predicate 'show that' indicates a causal relationship between the subject and object, where the subject provides proof or demonstration of the existence or validity of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-significantly_improve": {
+      "label": "significantly improve",
+      "description": "To significantly improve means to enhance or elevate something (the object) by a substantial amount, indicating a notable change for the better. This predicate connects the subject and object by implying that the subject has an impact on the object's quality, performance, or outcome.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject conceptually encompasses or generalizes the object. It suggests a hierarchical relationship between the two entities, where the subject represents a more specific or detailed aspect of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

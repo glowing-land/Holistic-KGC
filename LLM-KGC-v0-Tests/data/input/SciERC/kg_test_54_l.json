@@ -1,0 +1,262 @@
+{
+  "iri": "Paper-54",
+  "title": "P06-4007",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-54-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-54-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper describes FERRET , an interactive question-answering -LRB- Q/A -RRB- system designed to address the challenges of integrating automatic Q/A applications into real-world environments ."
+            },
+            {
+              "iri": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+              "text": "FERRET utilizes a novel approach to Q/A known as predictive questioning which attempts to identify the questions -LRB- and answers -RRB- that users need by analyzing how a user interacts with a system while gathering information related to a particular scenario ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005240440368652344,
+    7.403279781341553,
+    10.310194253921509,
+    10.770171165466309,
+    0.006593227386474609,
+    5.555152893066406e-05,
+    6.008148193359375e-05,
+    5.196639537811279,
+    8.531903266906738,
+    0.9703218936920166,
+    1.1082289218902588,
+    0.0019550323486328125,
+    7.843971252441406e-05,
+    11.62501072883606,
+    2.271286964416504,
+    0.005463123321533203,
+    1.103635549545288,
+    3.0142722129821777,
+    1.1114184856414795,
+    1.1094024181365967,
+    9.16011357307434,
+    0.9907376766204834,
+    3.563905715942383,
+    0.7723407745361328,
+    0.000331878662109375,
+    0.0030651092529296875
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The research paper being described, which presents FERRET, an interactive question-answering system designed for real-world environments.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.8173828125
+    },
+    "Entity-ferret": {
+      "node_id": "ferret",
+      "disambiguation_index": 0,
+      "label": "FERRET",
+      "aliases": [
+        "FERRET"
+      ],
+      "types": [
+        "question answering system",
+        "question-answering system",
+        "tool",
+        "system"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "An interactive question-answering system or tool.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "FERRET",
+          "local_types": [
+            "question answering system",
+            "question-answering system",
+            "tool",
+            "system"
+          ],
+          "iri": "Entity-ferret-Mention-1"
+        },
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "FERRET",
+          "local_types": [
+            "tool",
+            "system"
+          ],
+          "iri": "Entity-ferret-Mention-2"
+        }
+      ],
+      "relevance": 0.7763671875
+    },
+    "Entity-answer": {
+      "node_id": "answer",
+      "disambiguation_index": 0,
+      "label": "answers",
+      "aliases": [
+        "answers"
+      ],
+      "types": [
+        "answer"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The answers refer to the responses or solutions that users need, which are identified by FERRET's predictive questioning approach.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "answers",
+          "local_types": [
+            "answer"
+          ],
+          "iri": "Entity-answer-Mention-1"
+        }
+      ],
+      "relevance": 0.7138671875
+    },
+    "Entity-predictive_questioning": {
+      "node_id": "predictive_questioning",
+      "disambiguation_index": 0,
+      "label": "predictive questioning",
+      "aliases": [
+        "predictive questioning"
+      ],
+      "types": [
+        "approach",
+        "methodology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A novel approach to question-answering that attempts to identify users' questions and answers by analyzing their interactions with a system while gathering information related to a particular scenario.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "predictive questioning",
+          "local_types": [
+            "approach",
+            "methodology"
+          ],
+          "iri": "Entity-predictive_questioning-Mention-1"
+        }
+      ],
+      "relevance": 0.65771484375
+    },
+    "Entity-qa": {
+      "node_id": "qa",
+      "disambiguation_index": 0,
+      "label": "Q/A",
+      "aliases": [
+        "Q/A"
+      ],
+      "types": [
+        "application",
+        "technology",
+        "method",
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An interactive question-and-answer system",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Q/A",
+          "local_types": [
+            "application",
+            "technology",
+            "method",
+            "technique"
+          ],
+          "iri": "Entity-qa-Mention-1"
+        }
+      ],
+      "relevance": 0.638671875
+    },
+    "Entity-question": {
+      "node_id": "question",
+      "disambiguation_index": 0,
+      "label": "questions",
+      "aliases": [
+        "questions"
+      ],
+      "types": [
+        "question"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A type of inquiry or query, typically asked in order to gather information or clarify understanding.",
+      "mentions": [
+        {
+          "reference": "Paper-54-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "questions",
+          "local_types": [
+            "question"
+          ],
+          "iri": "Entity-question-Mention-1"
+        }
+      ],
+      "relevance": 0.48876953125
+    }
+  },
+  "summary": "This paper describes FERRET , an interactive question-answering -LRB- Q/A -RRB- system designed to address the challenges of integrating automatic Q/A applications into real-world environments . FERRET utilizes a novel approach to Q/A known as predictive questioning which attempts to identify the questions -LRB- and answers -RRB- that users need by analyzing how a user interacts with a system while gathering information related to a particular scenario .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-describes",
+      "Entity-ferret"
+    ],
+    [
+      "Entity-ferret",
+      "Predicate-describes",
+      "Entity-this_paper"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-ferret",
+      "skos:broader",
+      "Entity-predictive_questioning"
+    ]
+  ],
+  "predicates": {
+    "Predicate-describes": {
+      "label": "describes",
+      "description": "The predicate 'describes' connects a subject (typically an entity or concept) to its representation or characteristics, highlighting what it represents or conveys about something.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "utilizes",
+      "description": "The predicate 'utilizes' indicates that the subject has a specific way of using or making use of something (the object), often implying efficiency, effectiveness, or cleverness in doing so.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,974 @@
+{
+  "iri": "Paper-9",
+  "title": "P06-2012",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-9-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-9-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper presents an unsupervised learning approach to disambiguate various relations between named entities by use of various lexical and syntactic features from the contexts ."
+            },
+            {
+              "iri": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+              "text": "It works by calculating eigenvectors of an adjacency graph 's Laplacian to recover a submanifold of data from a high dimensionality space and then performing cluster number estimation on the eigenvectors ."
+            },
+            {
+              "iri": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+              "text": "Experiment results on ACE corpora show that this spectral clustering based approach outperforms the other clustering methods ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.000507354736328125,
+    8.983872413635254,
+    18.75284218788147,
+    17.368082523345947,
+    0.016471385955810547,
+    8.630752563476562e-05,
+    0.00011277198791503906,
+    36.57988381385803,
+    38.81740212440491,
+    1.146677017211914,
+    20.385734796524048,
+    0.009845495223999023,
+    0.0001888275146484375,
+    21.34547758102417,
+    3.063807487487793,
+    0.008836030960083008,
+    1.1257548332214355,
+    3.2269046306610107,
+    3.4604523181915283,
+    3.9333295822143555,
+    23.252965688705444,
+    1.4686665534973145,
+    13.791389226913452,
+    0.8077125549316406,
+    0.0004477500915527344,
+    0.010317802429199219
+  ],
+  "nodes": {
+    "Entity-an_unsupervised_learning_approach": {
+      "node_id": "an_unsupervised_learning_approach",
+      "disambiguation_index": 0,
+      "label": "an unsupervised learning approach",
+      "aliases": [
+        "an unsupervised learning approach"
+      ],
+      "types": [
+        "methodology",
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A methodology that uses eigenvectors of an adjacency graph's Laplacian to recover a submanifold of data from high dimensionality space and perform cluster number estimation, without requiring labeled training data.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "an unsupervised learning approach",
+          "local_types": [
+            "methodology",
+            "approach"
+          ],
+          "iri": "Entity-an_unsupervised_learning_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.8447265625
+    },
+    "Entity-calculating_eigenvectors_of_an_adjacency_graph_s_laplacian": {
+      "node_id": "calculating_eigenvectors_of_an_adjacency_graph_s_laplacian",
+      "disambiguation_index": 0,
+      "label": "calculating eigenvectors of an adjacency graph's Laplacian",
+      "aliases": [
+        "calculating eigenvectors of an adjacency graph's Laplacian"
+      ],
+      "types": [
+        "mathematical concept",
+        "mathematics",
+        "algorithm"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The process of computing and analyzing the eigenvalues and eigenvectors resulting from applying the Laplace operator to the matrix representation of an undirected graph, used in spectral clustering algorithms for dimensionality reduction.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "calculating eigenvectors of an adjacency graph's Laplacian",
+          "local_types": [
+            "mathematical concept",
+            "mathematics",
+            "algorithm"
+          ],
+          "iri": "Entity-calculating_eigenvectors_of_an_adjacency_graph_s_laplacian-Mention-1"
+        }
+      ],
+      "relevance": 0.7333984375
+    },
+    "Entity-it_work": {
+      "node_id": "it_work",
+      "disambiguation_index": 0,
+      "label": "It works",
+      "aliases": [
+        "It works"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The method used in this paper's unsupervised learning approach to disambiguate various relations between named entities.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "It works",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-it_work-Mention-1"
+        }
+      ],
+      "relevance": 0.73193359375
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The research paper being referred to, which presents an unsupervised learning approach for disambiguating relations between named entities.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.689453125
+    },
+    "Entity-by_use_of_various_lexical_and_syntactic_feature_from_the_context": {
+      "node_id": "by_use_of_various_lexical_and_syntactic_feature_from_the_context",
+      "disambiguation_index": 0,
+      "label": "by use of various lexical and syntactic features from the contexts",
+      "aliases": [
+        "by use of various lexical and syntactic features from the contexts"
+      ],
+      "types": [
+        "technique",
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A technique for disambiguating named entities by leveraging multiple linguistic cues, including word order, grammatical structure, and semantic relationships.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "by use of various lexical and syntactic features from the contexts",
+          "local_types": [
+            "technique",
+            "method"
+          ],
+          "iri": "Entity-by_use_of_various_lexical_and_syntactic_feature_from_the_context-Mention-1"
+        }
+      ],
+      "relevance": 0.65234375
+    },
+    "Entity-unsupervised_learning_approach": {
+      "node_id": "unsupervised_learning_approach",
+      "disambiguation_index": 0,
+      "label": "unsupervised learning approach",
+      "aliases": [
+        "unsupervised learning approach"
+      ],
+      "types": [
+        "methodology",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A machine learning method that identifies patterns or relationships in data without prior human guidance.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "unsupervised learning approach",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-unsupervised_learning_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.65185546875
+    },
+    "Entity-experiment_result_on_ace_corpus_show_that_this_spectral_clustering_based_approach_outperforms_the_other_clustering_method": {
+      "node_id": "experiment_result_on_ace_corpus_show_that_this_spectral_clustering_based_approach_outperforms_the_other_clustering_method",
+      "disambiguation_index": 0,
+      "label": "Experiment results on ACE corpora show that this spectral clustering based approach outperforms the other clustering methods",
+      "aliases": [
+        "Experiment results on ACE corpora show that this spectral clustering based approach outperforms the other clustering methods",
+        "Experiment results"
+      ],
+      "types": [
+        "result",
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The experiment result showing that the spectral clustering-based approach outperformed other clustering methods on ACE corpora.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Experiment results on ACE corpora show that this spectral clustering based approach outperforms the other clustering methods",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-experiment_result_on_ace_corpus_show_that_this_spectral_clustering_based_approach_outperforms_the_other_clustering_method-Mention-1"
+        },
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Experiment results",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-experiment_result_on_ace_corpus_show_that_this_spectral_clustering_based_approach_outperforms_the_other_clustering_method-Mention-2"
+        }
+      ],
+      "relevance": 0.64990234375
+    },
+    "Entity-performing_cluster_number_estimation_on_the_eigenvectors": {
+      "node_id": "performing_cluster_number_estimation_on_the_eigenvectors",
+      "disambiguation_index": 0,
+      "label": "performing cluster number estimation on the eigenvectors",
+      "aliases": [
+        "then performing cluster number estimation on the eigenvectors",
+        "performing cluster number estimation on the eigenvectors"
+      ],
+      "types": [
+        "mathematical concept",
+        "statistics",
+        "analysis",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical algorithm that estimates the number of clusters in a dataset by analyzing its eigenvectors.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "performing cluster number estimation on the eigenvectors",
+          "local_types": [
+            "mathematical concept",
+            "algorithm"
+          ],
+          "iri": "Entity-performing_cluster_number_estimation_on_the_eigenvectors-Mention-1"
+        },
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "then performing cluster number estimation on the eigenvectors",
+          "local_types": [
+            "analysis",
+            "statistics"
+          ],
+          "iri": "Entity-performing_cluster_number_estimation_on_the_eigenvectors-Mention-2"
+        }
+      ],
+      "relevance": 0.64697265625
+    },
+    "Entity-spectral_clustering_based_approach": {
+      "node_id": "spectral_clustering_based_approach",
+      "disambiguation_index": 0,
+      "label": "spectral clustering based approach",
+      "aliases": [
+        "this spectral clustering based approach",
+        "spectral clustering based approach"
+      ],
+      "types": [
+        "approach",
+        "methodology",
+        "method",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A data analysis methodology or algorithm that uses spectral clustering techniques to group similar entities.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "spectral clustering based approach",
+          "local_types": [
+            "methodology",
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-spectral_clustering_based_approach-Mention-1"
+        },
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this spectral clustering based approach",
+          "local_types": [
+            "method",
+            "approach"
+          ],
+          "iri": "Entity-spectral_clustering_based_approach-Mention-2"
+        }
+      ],
+      "relevance": 0.6357421875
+    },
+    "Entity-disambiguate_various_relation_between_named_entity": {
+      "node_id": "disambiguate_various_relation_between_named_entity",
+      "disambiguation_index": 0,
+      "label": "disambiguate various relations between named entities",
+      "aliases": [
+        "disambiguate various relations between named entities",
+        "to disambiguate various relations between named entities"
+      ],
+      "types": [
+        "named entity recognition",
+        "task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A task or process that aims to identify and clarify different relationships between recognized names, such as people, places, organizations, etc.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "disambiguate various relations between named entities",
+          "local_types": [
+            "named entity recognition",
+            "task"
+          ],
+          "iri": "Entity-disambiguate_various_relation_between_named_entity-Mention-1"
+        },
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "to disambiguate various relations between named entities",
+          "local_types": [
+            "task"
+          ],
+          "iri": "Entity-disambiguate_various_relation_between_named_entity-Mention-2"
+        }
+      ],
+      "relevance": 0.57861328125
+    },
+    "Entity-ace": {
+      "node_id": "ace",
+      "disambiguation_index": 0,
+      "label": "ACE",
+      "aliases": [
+        "ACE",
+        "ACE corpora"
+      ],
+      "types": [
+        "corpus",
+        "dataset",
+        "corpora"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A dataset or collection of texts used for natural language processing and computational linguistics research.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ACE",
+          "local_types": [
+            "dataset",
+            "corpora"
+          ],
+          "iri": "Entity-ace-Mention-1"
+        },
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ACE corpora",
+          "local_types": [
+            "corpus",
+            "dataset",
+            "corpora"
+          ],
+          "iri": "Entity-ace-Mention-2"
+        }
+      ],
+      "relevance": 0.57275390625
+    },
+    "Entity-clustering_method": {
+      "node_id": "clustering_method",
+      "disambiguation_index": 0,
+      "label": "clustering methods",
+      "aliases": [
+        "clustering methods"
+      ],
+      "types": [
+        "technique",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A technique or approach used to group similar data points into clusters.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "clustering methods",
+          "local_types": [
+            "technique",
+            "approach"
+          ],
+          "iri": "Entity-clustering_method-Mention-1"
+        }
+      ],
+      "relevance": 0.56640625
+    },
+    "Entity-adjacency_graph": {
+      "node_id": "adjacency_graph",
+      "disambiguation_index": 0,
+      "label": "adjacency graph",
+      "aliases": [
+        "adjacency graph"
+      ],
+      "types": [
+        "graph theory",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical representation that shows how nodes or vertices are connected to each other, often used in graph theory and data structure applications.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "adjacency graph",
+          "local_types": [
+            "graph theory",
+            "data structure"
+          ],
+          "iri": "Entity-adjacency_graph-Mention-1"
+        }
+      ],
+      "relevance": 0.56298828125
+    },
+    "Entity-s_laplacian": {
+      "node_id": "s_laplacian",
+      "disambiguation_index": 0,
+      "label": "'s Laplacian",
+      "aliases": [
+        "'s Laplacian"
+      ],
+      "types": [
+        "matrix algebra",
+        "linear operator"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The matrix representing the linear operator that plays a key role in graph theory, particularly in spectral clustering.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "'s Laplacian",
+          "local_types": [
+            "matrix algebra",
+            "linear operator"
+          ],
+          "iri": "Entity-s_laplacian-Mention-1"
+        }
+      ],
+      "relevance": 0.56201171875
+    },
+    "Entity-the_other_clustering_method": {
+      "node_id": "the_other_clustering_method",
+      "disambiguation_index": 0,
+      "label": "the other clustering methods",
+      "aliases": [
+        "the other clustering methods"
+      ],
+      "types": [
+        "methods"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Various clustering algorithms and techniques used in machine learning, excluding the presented spectral clustering method.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the other clustering methods",
+          "local_types": [
+            "methods"
+          ],
+          "iri": "Entity-the_other_clustering_method-Mention-1"
+        }
+      ],
+      "relevance": 0.56201171875
+    },
+    "Entity-cluster_number_estimation": {
+      "node_id": "cluster_number_estimation",
+      "disambiguation_index": 0,
+      "label": "cluster number estimation",
+      "aliases": [
+        "cluster number estimation"
+      ],
+      "types": [
+        "methodology",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical method or algorithm used for determining the optimal number of clusters in a dataset.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "cluster number estimation",
+          "local_types": [
+            "methodology",
+            "algorithm"
+          ],
+          "iri": "Entity-cluster_number_estimation-Mention-1"
+        }
+      ],
+      "relevance": 0.5556640625
+    },
+    "Entity-recover_a_submanifold_of_data_from_a_high_dimensionality_space": {
+      "node_id": "recover_a_submanifold_of_data_from_a_high_dimensionality_space",
+      "disambiguation_index": 0,
+      "label": "recover a submanifold of data from a high dimensionality space",
+      "aliases": [
+        "recover a submanifold of data from a high dimensionality space"
+      ],
+      "types": [
+        "data processing",
+        "task",
+        "dimensionality reduction"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The process of extracting and identifying meaningful patterns in large datasets by reducing their complexity through dimensionality reduction techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "recover a submanifold of data from a high dimensionality space",
+          "local_types": [
+            "data processing",
+            "task",
+            "dimensionality reduction"
+          ],
+          "iri": "Entity-recover_a_submanifold_of_data_from_a_high_dimensionality_space-Mention-1"
+        }
+      ],
+      "relevance": 0.5556640625
+    },
+    "Entity-eigenvectors": {
+      "node_id": "eigenvectors",
+      "disambiguation_index": 0,
+      "label": "eigenvectors",
+      "aliases": [
+        "eigenvectors"
+      ],
+      "types": [
+        "mathematical concept",
+        "vector space"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of vectors that, when transformed by a linear operator, result in scaled versions of themselves.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "eigenvectors",
+          "local_types": [
+            "mathematical concept",
+            "vector space"
+          ],
+          "iri": "Entity-eigenvectors-Mention-1"
+        }
+      ],
+      "relevance": 0.53173828125
+    },
+    "Entity-named_entity": {
+      "node_id": "named_entity",
+      "disambiguation_index": 0,
+      "label": "named entities",
+      "aliases": [
+        "named entities"
+      ],
+      "types": [
+        "entities",
+        "concepts"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A group or collection of people, organizations, locations, etc., that can be referred to in a specific context.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "named entities",
+          "local_types": [
+            "entities",
+            "concepts"
+          ],
+          "iri": "Entity-named_entity-Mention-1"
+        }
+      ],
+      "relevance": 0.5146484375
+    },
+    "Entity-submanifold_of_data": {
+      "node_id": "submanifold_of_data",
+      "disambiguation_index": 0,
+      "label": "submanifold of data",
+      "aliases": [
+        "submanifold of data"
+      ],
+      "types": [
+        "mathematical concept",
+        "geometric shape",
+        "data structure"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A lower-dimensional structure within a higher-dimensional dataset, defined by its geometric properties.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "submanifold of data",
+          "local_types": [
+            "mathematical concept",
+            "geometric shape",
+            "data structure"
+          ],
+          "iri": "Entity-submanifold_of_data-Mention-1"
+        }
+      ],
+      "relevance": 0.492919921875
+    },
+    "Entity-context": {
+      "node_id": "context",
+      "disambiguation_index": 0,
+      "label": "contexts",
+      "aliases": [
+        "contexts"
+      ],
+      "types": [
+        "setting",
+        "environment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of surrounding words, phrases or situations that provide context for understanding a particular entity.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "contexts",
+          "local_types": [
+            "setting",
+            "environment"
+          ],
+          "iri": "Entity-context-Mention-1"
+        }
+      ],
+      "relevance": 0.48876953125
+    },
+    "Entity-it": {
+      "node_id": "it",
+      "disambiguation_index": 0,
+      "label": "It",
+      "aliases": [
+        "It"
+      ],
+      "types": [
+        "algorithm",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical technique or procedure for processing or analyzing data",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "It",
+          "local_types": [
+            "algorithm",
+            "method"
+          ],
+          "iri": "Entity-it-Mention-1"
+        }
+      ],
+      "relevance": 0.487548828125
+    },
+    "Entity-laplacian": {
+      "node_id": "laplacian",
+      "disambiguation_index": 0,
+      "label": "Laplacian",
+      "aliases": [
+        "Laplacian"
+      ],
+      "types": [
+        "mathematical concept",
+        "operator"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical concept that represents an operator used in linear algebra to describe the rate at which a function changes over time or space.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Laplacian",
+          "local_types": [
+            "mathematical concept",
+            "operator"
+          ],
+          "iri": "Entity-laplacian-Mention-1"
+        }
+      ],
+      "relevance": 0.47412109375
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "Experiment",
+      "aliases": [
+        "Experiment"
+      ],
+      "types": [
+        "research",
+        "study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic investigation or testing process, typically conducted to gather data and draw conclusions about a particular phenomenon or hypothesis.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Experiment",
+          "local_types": [
+            "research",
+            "study"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.47265625
+    },
+    "Entity-lexical_and_syntactic_feature": {
+      "node_id": "lexical_and_syntactic_feature",
+      "disambiguation_index": 0,
+      "label": "lexical and syntactic features",
+      "aliases": [
+        "lexical and syntactic features from the contexts",
+        "lexical and syntactic features"
+      ],
+      "types": [
+        "feature",
+        "features"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of characteristics related to language structure, including vocabulary and sentence organization.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "lexical and syntactic features",
+          "local_types": [
+            "features"
+          ],
+          "iri": "Entity-lexical_and_syntactic_feature-Mention-1"
+        },
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "lexical and syntactic features from the contexts",
+          "local_types": [
+            "feature"
+          ],
+          "iri": "Entity-lexical_and_syntactic_feature-Mention-2"
+        }
+      ],
+      "relevance": 0.4716796875
+    },
+    "Entity-high_dimensionality_space": {
+      "node_id": "high_dimensionality_space",
+      "disambiguation_index": 0,
+      "label": "high dimensionality space",
+      "aliases": [
+        "high dimensionality space"
+      ],
+      "types": [
+        "mathematical concept",
+        "vector space"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical concept that refers to a vector space with an extremely large number of dimensions.",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "high dimensionality space",
+          "local_types": [
+            "mathematical concept",
+            "vector space"
+          ],
+          "iri": "Entity-high_dimensionality_space-Mention-1"
+        }
+      ],
+      "relevance": 0.452392578125
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "research paper",
+        "academic work"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written work presenting research or academic findings",
+      "mentions": [
+        {
+          "reference": "Paper-9-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "research paper",
+            "academic work"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.44140625
+    }
+  },
+  "summary": "This paper presents an unsupervised learning approach to disambiguate various relations between named entities by use of various lexical and syntactic features from the contexts . It works by calculating eigenvectors of an adjacency graph 's Laplacian to recover a submanifold of data from a high dimensionality space and then performing cluster number estimation on the eigenvectors . Experiment results on ACE corpora show that this spectral clustering based approach outperforms the other clustering methods .",
+  "triples": [
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-an_unsupervised_learning_approach"
+    ],
+    [
+      "Entity-unsupervised_learning_approach",
+      "Predicate-disambiguate_various_relations_between_named_entities",
+      "Entity-named_entity"
+    ],
+    [
+      "Entity-named_entity",
+      "Predicate-disambiguate_various_relations_between",
+      "Entity-named_entity"
+    ],
+    [
+      "Entity-named_entity",
+      "Predicate-disambiguate_various_relations_between",
+      "Entity-by_use_of_various_lexical_and_syntactic_feature_from_the_context"
+    ],
+    [
+      "Entity-it",
+      "Predicate-calculates",
+      "Entity-s_laplacian"
+    ],
+    [
+      "Entity-eigenvectors",
+      "Predicate-are_calculated_by",
+      "Entity-s_laplacian"
+    ],
+    [
+      "Entity-it",
+      "Predicate-works_by",
+      "Entity-calculating_eigenvectors_of_an_adjacency_graph_s_laplacian"
+    ],
+    [
+      "Entity-experiment",
+      "Predicate-show_that",
+      "Entity-spectral_clustering_based_approach"
+    ],
+    [
+      "Entity-spectral_clustering_based_approach",
+      "Predicate-outperforms",
+      "Entity-the_other_clustering_method"
+    ],
+    [
+      "Entity-spectral_clustering_based_approach",
+      "Predicate-outperforms_the_other_clustering_methods",
+      "Entity-the_other_clustering_method"
+    ],
+    [
+      "Entity-experiment_result_on_ace_corpus_show_that_this_spectral_clustering_based_approach_outperforms_the_other_clustering_method",
+      "Predicate-show_that_this_spectral_clustering_based_approach_outperforms",
+      "Entity-the_other_clustering_method"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-an_unsupervised_learning_approach",
+      "skos:broader",
+      "Entity-calculating_eigenvectors_of_an_adjacency_graph_s_laplacian"
+    ]
+  ],
+  "predicates": {
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject is introducing or offering something to others. It implies a sense of provision, display, or exposition, where the subject is providing access to information, ideas, or concepts through the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-disambiguate_various_relations_between_named_entities": {
+      "label": "disambiguate various relations between named entities",
+      "description": "To clarify and distinguish different types of relationships or associations that exist among a set of identified entities (named entities), such as people, organizations, locations, etc. This process involves identifying and resolving ambiguities or uncertainties surrounding these relationships.",
+      "disambiguation_index": 0
+    },
+    "Predicate-disambiguate_various_relations_between": {
+      "label": "disambiguate various relations between",
+      "description": "To identify and clarify the different types of relationships or connections that exist between two sets of entities (the subject and object), often involving semantic analysis to determine their meaning, context, and significance.",
+      "disambiguation_index": 0
+    },
+    "Predicate-calculates": {
+      "label": "calculates",
+      "description": "The predicate 'calculates' represents a mathematical operation that connects the subject to an object by describing how the subject processes or derives information from the object. In general, it indicates that the subject applies its own rules, methods, or algorithms to obtain some result or value related to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_calculated_by": {
+      "label": "are calculated by",
+      "description": "The predicate 'are calculated by' indicates a relationship where the subject (in this case, eigenvectors) has its values determined or derived from the object (the Laplacian), often through some mathematical process or algorithm. This connection implies that the subject's properties or characteristics are obtained or inferred from the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-works_by": {
+      "label": "works by",
+      "description": "The predicate 'works by' indicates a means or method by which something (the subject) accomplishes its purpose, achieves its goal, or produces its effect. It describes how the subject operates, functions, or performs an action to produce the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show_that": {
+      "label": "show that",
+      "description": "To demonstrate or prove something through evidence or demonstration. The predicate 'show that' indicates a causal relationship between the subject and object, where the subject (e.g., an experiment) provides empirical support for the object (e.g., a spectral clustering based approach), thereby demonstrating its effectiveness or validity.",
+      "disambiguation_index": 0
+    },
+    "Predicate-outperforms": {
+      "label": "outperforms",
+      "description": "Indicates that the subject has a superior performance or outcome compared to the object. The predicate suggests that the subject's method, technique, or approach yields better results than what is expected from the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-outperforms_the_other_clustering_methods": {
+      "label": "outperforms the other clustering methods",
+      "description": "The predicate 'outperforms' indicates that the subject (a method or algorithm for clustering data) achieves better results than all others in a comparison of multiple clustering approaches, as measured by some relevant performance metric. The object refers to these other methods collectively.",
+      "disambiguation_index": 0
+    },
+    "Predicate-show_that_this_spectral_clustering_based_approach_outperforms": {
+      "label": "show that this spectral clustering based approach outperforms",
+      "description": "This predicate indicates a comparison between two or more approaches to achieve a specific goal (e.g., clustering), where 'this spectral clustering based approach' represents one of the approaches being evaluated, and 'the other clustering methods' represent alternative approaches. The subject of this sentence is typically an experiment, study, results, or similar entity that provides evidence for the comparison.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates that the subject employs or utilizes a particular method, technique, process, or resource to achieve its purpose. It suggests an intentional and deliberate action of utilizing something for a specific goal.",
+      "disambiguation_index": 0
+    }
+  }
+}

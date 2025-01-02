@@ -1,0 +1,64 @@
+{
+  "iri": "Paper-61",
+  "title": "ECCV_2016_99_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-61-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-61-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-1",
+              "text": "Human action recognition from well-segmented 3D skeleton data has been intensively studied and attracting an increasing attention ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-2",
+              "text": "Online action detection goes one step further and is more challenging , which identifies the action type and localizes the action positions on the fly from the untrimmed stream ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-3",
+              "text": "In this paper , we study the problem of online action detection from the streaming skeleton data ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-4",
+              "text": "We propose a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network to better explore the action type and temporal localiza-tion information ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-5",
+              "text": "By employing a joint classification and regression optimization objective , this network is capable of automatically localizing the start and end points of actions more accurately ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-6",
+              "text": "Specifically , by leveraging the merits of the deep Long Short-Term Memory -LRB- LSTM -RRB- subnetwork , the proposed model automatically captures the complex long-range temporal dynamics , which naturally avoids the typical sliding window design and thus ensures high computational efficiency ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-7",
+              "text": "Furthermore , the subtask of regression optimization provides the ability to forecast the action prior to its occurrence ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-8",
+              "text": "To evaluate our proposed model , we build a large streaming video dataset with annotations ."
+            },
+            {
+              "iri": "Paper-61-Section-1-Paragraph-1-Sentence-9",
+              "text": "Experimental results on our dataset and the public G3D dataset both demonstrate very promising performance of our scheme ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Human action recognition from well-segmented 3D skeleton data has been intensively studied and attracting an increasing attention . Online action detection goes one step further and is more challenging , which identifies the action type and localizes the action positions on the fly from the untrimmed stream . In this paper , we study the problem of online action detection from the streaming skeleton data . We propose a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network to better explore the action type and temporal localiza-tion information . By employing a joint classification and regression optimization objective , this network is capable of automatically localizing the start and end points of actions more accurately . Specifically , by leveraging the merits of the deep Long Short-Term Memory -LRB- LSTM -RRB- subnetwork , the proposed model automatically captures the complex long-range temporal dynamics , which naturally avoids the typical sliding window design and thus ensures high computational efficiency . Furthermore , the subtask of regression optimization provides the ability to forecast the action prior to its occurrence . To evaluate our proposed model , we build a large streaming video dataset with annotations . Experimental results on our dataset and the public G3D dataset both demonstrate very promising performance of our scheme .",
+  "kg2text": [
+    "This paper presents a study on the problem of online action detection, which involves streaming skeleton data. It proposes a model known as the Joint Classification-Regression Recurrent Neural Network, which addresses the challenges of online action detection by employing a joint classification and regression optimization objective. This network is capable of localizing the start and end points of actions while exploring various action types. Furthermore, it demonstrates promising performance in detecting and localizing actions, capturing the complex long-range temporal dynamics inherent in the data. The proposed model ensures high computational efficiency, making it a significant advancement in the field of online action detection, which is recognized as more challenging than traditional human action recognition.",
+    "Online action detection is a crucial method that identifies various action types and localizes their corresponding action positions in real-time from continuous video streams. The Joint Classification-Regression Recurrent Neural Network plays a significant role in evaluating a large streaming video dataset, which is built with annotations to enhance the detection process. Within this framework, action types and action positions are broader terms that encompass the specific actions being detected. The model effectively avoids the inefficiencies associated with a typical sliding window design, leveraging Long Short-Term Memory (LSTM) architecture to capture complex temporal dynamics. Furthermore, regression optimization is employed to forecast actions, providing the ability to anticipate actions prior to their occurrence. Experimental results demonstrate the promising performance of the proposed scheme, validated through evaluations on both our dataset and the public G3D dataset, which is specifically designed for human action recognition from well-segmented 3D skeleton data.",
+    "The G3D dataset is a specific type of dataset that serves as a public resource for evaluating human action recognition algorithms. Similarly, a streaming video dataset also falls under the broader category of datasets, which are structured collections of data used for various analytical purposes. Recent experimental results have demonstrated promising performance, showcasing the effectiveness of a multi-task end-to-end Joint Classification-Regression Recurrent Neural Network in detecting and localizing actions from streaming skeleton data. Additionally, the ability to forecast the action prior to its occurrence is an important aspect of predictive modeling, which is encapsulated within the broader term of forecast."
+  ],
+  "times": [
+    5.6321797370910645
+  ]
+}

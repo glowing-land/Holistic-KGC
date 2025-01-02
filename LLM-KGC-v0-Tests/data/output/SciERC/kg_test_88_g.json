@@ -1,0 +1,68 @@
+{
+  "iri": "Paper-88",
+  "title": "ECCV_2016_212_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-88-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-88-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-1",
+              "text": "Person re-identification is challenging due to the large variations of pose , illumination , occlusion and camera view ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-2",
+              "text": "Owing to these variations , the pedestrian data is distributed as highly-curved manifolds in the feature space , despite the current convolutional neural networks -LRB- CNN -RRB- 's capability of feature extraction ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-3",
+              "text": "However , the distribution is unknown , so it is difficult to use the geodesic distance when comparing two samples ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-4",
+              "text": "In practice , the current deep embedding methods use the Euclidean distance for the training and test ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-5",
+              "text": "On the other hand , the manifold learning methods suggest to use the Euclidean distance in the local range , combining with the graphical relationship between samples , for approximating the geodesic distance ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-6",
+              "text": "From this point of view , selecting suitable positive -LRB- i.e. intra-class -RRB- training samples within a local range is critical for training the CNN embedding , especially when the data has large intra-class variations ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-7",
+              "text": "In this paper , we propose a novel moderate positive sample mining method to train robust CNN for person re-identification , dealing with the problem of large variation ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-8",
+              "text": "In addition , we improve the learning by a metric weight constraint , so that the learned metric has a better generalization ability ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-9",
+              "text": "Experiments show that these two strategies are effective in learning robust deep metrics for person re-identification , and accordingly our deep model significantly outperforms the state-of-the-art methods on several benchmarks of person re-identification ."
+            },
+            {
+              "iri": "Paper-88-Section-1-Paragraph-1-Sentence-10",
+              "text": "Therefore , the study presented in this paper may be useful in inspiring new designs of deep models for person re-identification ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Person re-identification is challenging due to the large variations of pose , illumination , occlusion and camera view . Owing to these variations , the pedestrian data is distributed as highly-curved manifolds in the feature space , despite the current convolutional neural networks -LRB- CNN -RRB- 's capability of feature extraction . However , the distribution is unknown , so it is difficult to use the geodesic distance when comparing two samples . In practice , the current deep embedding methods use the Euclidean distance for the training and test . On the other hand , the manifold learning methods suggest to use the Euclidean distance in the local range , combining with the graphical relationship between samples , for approximating the geodesic distance . From this point of view , selecting suitable positive -LRB- i.e. intra-class -RRB- training samples within a local range is critical for training the CNN embedding , especially when the data has large intra-class variations . In this paper , we propose a novel moderate positive sample mining method to train robust CNN for person re-identification , dealing with the problem of large variation . In addition , we improve the learning by a metric weight constraint , so that the learned metric has a better generalization ability . Experiments show that these two strategies are effective in learning robust deep metrics for person re-identification , and accordingly our deep model significantly outperforms the state-of-the-art methods on several benchmarks of person re-identification . Therefore , the study presented in this paper may be useful in inspiring new designs of deep models for person re-identification .",
+  "kg2text": [
+    "The moderate positive sample mining method proposes a novel moderate positive sample mining method, which is a specific implementation designed to enhance the training of deep embedding methods. This novel method enhances the training process by effectively selecting suitable intra-class training samples, thereby addressing the challenges posed by large variations in pedestrian data. Learning robust deep metrics plays a crucial role in enhancing both the moderate positive sample mining method and the novel moderate positive sample mining method, which in turn trains a robust CNN. The robust CNN, a type of convolutional neural network, benefits from the improvements brought by deep embedding methods, which utilize Euclidean distance for training. Furthermore, the study presented in this paper may inspire new designs of deep models, while the concept of positive samples is integral to the broader category of samples used in training. Overall, our deep model significantly outperforms existing benchmarks of person re-identification, showcasing the effectiveness of these methodologies in tackling the problem of large variation and large intra-class variations in data.",
+    "Learning improves by applying a metric weight constraint, which enhances the generalization ability of the learned metric in convolutional neural networks (CNNs). New designs of deep models are specifically tailored for person re-identification, utilizing CNN embedding, a broader term for convolutional neural networks. Deep embedding methods leverage training to optimize their performance, while graphical relationships exist between samples in the context of person re-identification. The pedestrian data used in this domain is distributed as highly-curved manifolds, which are complex structures that challenge traditional distance metrics. This data also falls under the broader category of data. The learned metric, optimized during training, possesses better generalization ability, allowing it to perform effectively on unseen data. In this context, Euclidean distance is employed within a local range to approximate geodesic distance, and it combines with graphical relationships to enhance the learning process. Suitable positive (intra-class) training samples are a subset of training samples, which are crucial for effective model training. Manifold learning methods suggest using Euclidean distance to understand the underlying structure of the data. Convolutional neural networks excel in feature extraction, which is vital for processing pedestrian data distributed in feature space. Our deep model significantly outperforms state-of-the-art methods, and benchmarks of person re-identification serve as standardized tests to evaluate the effectiveness of these approaches.",
+    "State-of-the-art methods encompass a broader term known as benchmarks. Benchmarks serve as standardized tests or criteria that are essential for evaluating the performance and effectiveness of various systems, methods, or models within a specific domain. Thus, state-of-the-art methods not only represent the most advanced techniques but also rely on benchmarks to measure their superiority."
+  ],
+  "times": [
+    7.371276378631592
+  ]
+}

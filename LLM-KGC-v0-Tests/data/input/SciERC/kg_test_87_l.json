@@ -1,0 +1,571 @@
+{
+  "iri": "Paper-87",
+  "title": "N03-1033",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-87-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-87-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+              "text": "We present a new part-of-speech tagger that demonstrates the following ideas : -LRB- i -RRB- explicit use of both preceding and following tag contexts via a dependency network representation , -LRB- ii -RRB- broad use of lexical features , including jointly conditioning on multiple consecutive words , -LRB- iii -RRB- effective use of priors in conditional loglinear models , and -LRB- iv -RRB- fine-grained modeling of unknown word features ."
+            },
+            {
+              "iri": "Paper-87-Section-1-Paragraph-1-Sentence-2",
+              "text": "Using these ideas together , the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ , an error reduction of 4.4 % on the best previous single automatically learned tagging result ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005345344543457031,
+    9.371997356414795,
+    11.267282724380493,
+    14.995157241821289,
+    0.014875411987304688,
+    6.508827209472656e-05,
+    8.96453857421875e-05,
+    17.82286047935486,
+    26.145838737487793,
+    0.9234054088592529,
+    10.718666553497314,
+    0.005397796630859375,
+    0.00015735626220703125,
+    19.287951707839966,
+    1.1019830703735352,
+    0.018034696578979492,
+    1.0850892066955566,
+    3.0789098739624023,
+    1.090160846710205,
+    1.0975978374481201,
+    18.369404315948486,
+    1.237666368484497,
+    5.384382963180542,
+    0.820281982421875,
+    0.00039076805114746094,
+    0.006242513656616211
+  ],
+  "nodes": {
+    "Entity-the_resulting_tagger": {
+      "node_id": "the_resulting_tagger",
+      "disambiguation_index": 0,
+      "label": "the resulting tagger",
+      "aliases": [
+        "the resulting tagger"
+      ],
+      "types": [
+        "tagger"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A part-of-speech tagger that achieves a 97.24% accuracy and an error reduction of 4.4% on the Penn Treebank WSJ, resulting from the combination of explicit use of preceding and following tag contexts via dependency network representation, broad lexical features, effective priors in conditional loglinear models, and fine-grained modeling of unknown word features.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the resulting tagger",
+          "local_types": [
+            "tagger"
+          ],
+          "iri": "Entity-the_resulting_tagger-Mention-1"
+        }
+      ],
+      "relevance": 0.8486328125
+    },
+    "Entity-the_resulting_tagger_give_a_97.24__accuracy_on_the_penn_treebank_wsj__an_error_reduction_of_4.4__on_the_best_previous_single_automatically_learned_tagging_result": {
+      "node_id": "the_resulting_tagger_give_a_97.24__accuracy_on_the_penn_treebank_wsj__an_error_reduction_of_4.4__on_the_best_previous_single_automatically_learned_tagging_result",
+      "disambiguation_index": 0,
+      "label": "the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ, an error reduction of 4.4 % on the best previous single automatically learned tagging result",
+      "aliases": [
+        "the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ, an error reduction of 4.4 % on the best previous single automatically learned tagging result"
+      ],
+      "types": [
+        "result",
+        "evaluation metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An evaluation metric that measures the accuracy and improvement in part-of-speech tagging",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ, an error reduction of 4.4 % on the best previous single automatically learned tagging result",
+          "local_types": [
+            "result",
+            "evaluation metric"
+          ],
+          "iri": "Entity-the_resulting_tagger_give_a_97.24__accuracy_on_the_penn_treebank_wsj__an_error_reduction_of_4.4__on_the_best_previous_single_automatically_learned_tagging_result-Mention-1"
+        }
+      ],
+      "relevance": 0.74072265625
+    },
+    "Entity-the_best_previous_single_automatically_learned_tagging_result": {
+      "node_id": "the_best_previous_single_automatically_learned_tagging_result",
+      "disambiguation_index": 0,
+      "label": "the best previous single automatically learned tagging result",
+      "aliases": [
+        "the best previous single automatically learned tagging result"
+      ],
+      "types": [
+        "result"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The previously achieved highest accuracy in a single automatic part-of-speech tagging model.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "the best previous single automatically learned tagging result",
+          "local_types": [
+            "result"
+          ],
+          "iri": "Entity-the_best_previous_single_automatically_learned_tagging_result-Mention-1"
+        }
+      ],
+      "relevance": 0.67529296875
+    },
+    "Entity-we_present_a_new_part-of-speech_tagger": {
+      "node_id": "we_present_a_new_part-of-speech_tagger",
+      "disambiguation_index": 0,
+      "label": "We present a new part-of-speech tagger",
+      "aliases": [
+        "We present a new part-of-speech tagger"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A novel part-of-speech tagger that demonstrates innovative ideas in natural language processing.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "We present a new part-of-speech tagger",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-we_present_a_new_part-of-speech_tagger-Mention-1"
+        }
+      ],
+      "relevance": 0.66796875
+    },
+    "Entity-broad_use_of_lexical_feature__including_jointly_conditioning_on_multiple_consecutive_word": {
+      "node_id": "broad_use_of_lexical_feature__including_jointly_conditioning_on_multiple_consecutive_word",
+      "disambiguation_index": 0,
+      "label": "broad use of lexical features, including jointly conditioning on multiple consecutive words",
+      "aliases": [
+        "broad use of lexical features, including jointly conditioning on multiple consecutive words"
+      ],
+      "types": [
+        "idea",
+        "feature extraction",
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The concept refers to a linguistic approach that utilizes multiple consecutive words in combination with various lexical features for part-of-speech tagging.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "broad use of lexical features, including jointly conditioning on multiple consecutive words",
+          "local_types": [
+            "idea",
+            "feature extraction",
+            "approach"
+          ],
+          "iri": "Entity-broad_use_of_lexical_feature__including_jointly_conditioning_on_multiple_consecutive_word-Mention-1"
+        }
+      ],
+      "relevance": 0.66796875
+    },
+    "Entity-tagger": {
+      "node_id": "tagger",
+      "disambiguation_index": 0,
+      "label": "tagger",
+      "aliases": [
+        "tagger"
+      ],
+      "types": [
+        "algorithm",
+        "model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A machine learning algorithm or model that assigns predefined labels to words in natural language text.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "tagger",
+          "local_types": [
+            "algorithm",
+            "model"
+          ],
+          "iri": "Entity-tagger-Mention-1"
+        }
+      ],
+      "relevance": 0.646484375
+    },
+    "Entity-explicit_use_of_both_preceding_and_following_tag_context_via_a_dependency_network_representation": {
+      "node_id": "explicit_use_of_both_preceding_and_following_tag_context_via_a_dependency_network_representation",
+      "disambiguation_index": 0,
+      "label": "explicit use of both preceding and following tag contexts via a dependency network representation",
+      "aliases": [
+        "explicit use of both preceding and following tag contexts via a dependency network representation"
+      ],
+      "types": [
+        "technique",
+        "idea",
+        "representation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A technique that utilizes a dependency network representation to explicitly consider both preceding and following tag contexts.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "explicit use of both preceding and following tag contexts via a dependency network representation",
+          "local_types": [
+            "technique",
+            "idea",
+            "representation"
+          ],
+          "iri": "Entity-explicit_use_of_both_preceding_and_following_tag_context_via_a_dependency_network_representation-Mention-1"
+        }
+      ],
+      "relevance": 0.63720703125
+    },
+    "Entity-part-of-speech_tagger": {
+      "node_id": "part-of-speech_tagger",
+      "disambiguation_index": 0,
+      "label": "part-of-speech tagger",
+      "aliases": [
+        "part-of-speech tagger"
+      ],
+      "types": [
+        "model",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A computational model or algorithm that identifies the grammatical category (such as noun, verb, adjective, etc.) of each word in a given text.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "part-of-speech tagger",
+          "local_types": [
+            "model",
+            "algorithm"
+          ],
+          "iri": "Entity-part-of-speech_tagger-Mention-1"
+        }
+      ],
+      "relevance": 0.6337890625
+    },
+    "Entity-penn_treebank_wsj": {
+      "node_id": "penn_treebank_wsj",
+      "disambiguation_index": 0,
+      "label": "Penn Treebank WSJ",
+      "aliases": [
+        "Penn Treebank WSJ"
+      ],
+      "types": [
+        "corpus",
+        "dataset"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A widely used corpus and dataset for natural language processing research, particularly in the area of part-of-speech tagging.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Penn Treebank WSJ",
+          "local_types": [
+            "corpus",
+            "dataset"
+          ],
+          "iri": "Entity-penn_treebank_wsj-Mention-1"
+        }
+      ],
+      "relevance": 0.62158203125
+    },
+    "Entity-effective_use_of_prior_in_conditional_loglinear_model": {
+      "node_id": "effective_use_of_prior_in_conditional_loglinear_model",
+      "disambiguation_index": 0,
+      "label": "effective use of priors in conditional loglinear models",
+      "aliases": [
+        "effective use of priors in conditional loglinear models"
+      ],
+      "types": [
+        "technique",
+        "idea",
+        "modeling approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The technique or approach of incorporating prior knowledge into a conditional loglinear model to improve its performance.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "effective use of priors in conditional loglinear models",
+          "local_types": [
+            "technique",
+            "idea",
+            "modeling approach"
+          ],
+          "iri": "Entity-effective_use_of_prior_in_conditional_loglinear_model-Mention-1"
+        }
+      ],
+      "relevance": 0.59619140625
+    },
+    "Entity-conditional_loglinear_model": {
+      "node_id": "conditional_loglinear_model",
+      "disambiguation_index": 0,
+      "label": "conditional loglinear models",
+      "aliases": [
+        "conditional loglinear models"
+      ],
+      "types": [
+        "statistical modeling technique",
+        "machine learning algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A statistical technique used to model relationships between variables with prior probabilities.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "conditional loglinear models",
+          "local_types": [
+            "statistical modeling technique",
+            "machine learning algorithm"
+          ],
+          "iri": "Entity-conditional_loglinear_model-Mention-1"
+        }
+      ],
+      "relevance": 0.5703125
+    },
+    "Entity-fine-grained_modeling_of_unknown_word_feature": {
+      "node_id": "fine-grained_modeling_of_unknown_word_feature",
+      "disambiguation_index": 0,
+      "label": "fine-grained modeling of unknown word features",
+      "aliases": [
+        "fine-grained modeling of unknown word features"
+      ],
+      "types": [
+        "idea",
+        "feature extraction",
+        "approach"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The approach to representing or analyzing the characteristics of words that are not in a vocabulary or dictionary, with high levels of detail and precision.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "fine-grained modeling of unknown word features",
+          "local_types": [
+            "idea",
+            "feature extraction",
+            "approach"
+          ],
+          "iri": "Entity-fine-grained_modeling_of_unknown_word_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.5556640625
+    },
+    "Entity-lexical_feature": {
+      "node_id": "lexical_feature",
+      "disambiguation_index": 0,
+      "label": "lexical features",
+      "aliases": [
+        "lexical features"
+      ],
+      "types": [
+        "natural language processing concept",
+        "linguistic feature"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of characteristics or attributes that describe words in a language",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "lexical features",
+          "local_types": [
+            "natural language processing concept",
+            "linguistic feature"
+          ],
+          "iri": "Entity-lexical_feature-Mention-1"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity--lrb-": {
+      "node_id": "-lrb-",
+      "disambiguation_index": 0,
+      "label": "-LRB-",
+      "aliases": [
+        "-RRB-",
+        "-LRB-"
+      ],
+      "types": [
+        "punctuation",
+        "bracket",
+        "symbol"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A left square bracket",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "-LRB-",
+          "local_types": [
+            "punctuation",
+            "bracket",
+            "symbol"
+          ],
+          "iri": "Entity--lrb--Mention-1"
+        },
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "-RRB-",
+          "local_types": [
+            "punctuation",
+            "bracket",
+            "symbol"
+          ],
+          "iri": "Entity--lrb--Mention-2"
+        }
+      ],
+      "relevance": 0.48291015625
+    },
+    "Entity-dependency_network_representation": {
+      "node_id": "dependency_network_representation",
+      "disambiguation_index": 0,
+      "label": "dependency network representation",
+      "aliases": [
+        "dependency network representation"
+      ],
+      "types": [
+        "data structure",
+        "computational model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A graphical representation that shows the dependencies between nodes or entities in a network, often used to model complex relationships and structures.",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "dependency network representation",
+          "local_types": [
+            "data structure",
+            "computational model"
+          ],
+          "iri": "Entity-dependency_network_representation-Mention-1"
+        }
+      ],
+      "relevance": 0.465087890625
+    },
+    "Entity-i": {
+      "node_id": "i",
+      "disambiguation_index": 0,
+      "label": "i",
+      "aliases": [
+        "i"
+      ],
+      "types": [
+        "number",
+        "index"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A numerical identifier or index",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "i",
+          "local_types": [
+            "number",
+            "index"
+          ],
+          "iri": "Entity-i-Mention-1"
+        }
+      ],
+      "relevance": 0.4150390625
+    },
+    "Entity-the_following_idea": {
+      "node_id": "the_following_idea",
+      "disambiguation_index": 0,
+      "label": "the following ideas",
+      "aliases": [
+        "the following ideas"
+      ],
+      "types": [
+        "ideas"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of concepts or notions",
+      "mentions": [
+        {
+          "reference": "Paper-87-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "the following ideas",
+          "local_types": [
+            "ideas"
+          ],
+          "iri": "Entity-the_following_idea-Mention-1"
+        }
+      ],
+      "relevance": 0.412353515625
+    }
+  },
+  "summary": "We present a new part-of-speech tagger that demonstrates the following ideas : -LRB- i -RRB- explicit use of both preceding and following tag contexts via a dependency network representation , -LRB- ii -RRB- broad use of lexical features , including jointly conditioning on multiple consecutive words , -LRB- iii -RRB- effective use of priors in conditional loglinear models , and -LRB- iv -RRB- fine-grained modeling of unknown word features . Using these ideas together , the resulting tagger gives a 97.24 % accuracy on the Penn Treebank WSJ , an error reduction of 4.4 % on the best previous single automatically learned tagging result .",
+  "triples": [
+    [
+      "Entity-we_present_a_new_part-of-speech_tagger",
+      "Predicate-demonstrates",
+      "Entity-the_following_idea"
+    ],
+    [
+      "Entity-the_resulting_tagger",
+      "Predicate-gives_a_97.24__accuracy_on",
+      "Entity-penn_treebank_wsj"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-the_resulting_tagger",
+      "skos:broader",
+      "Entity-part-of-speech_tagger"
+    ],
+    [
+      "Entity-the_resulting_tagger",
+      "skos:broader",
+      "Entity-tagger"
+    ]
+  ],
+  "predicates": {
+    "Predicate-demonstrates": {
+      "label": "demonstrates",
+      "description": "To demonstrate means to show or illustrate something, typically by providing evidence or examples that support an idea or concept. In this sense, the predicate 'demonstrates' connects the subject (the entity presenting or showing) with the object (what is being presented or shown), highlighting a relationship of explanation, illustration, or proof.",
+      "disambiguation_index": 0
+    },
+    "Predicate-gives_a_97.24__accuracy_on": {
+      "label": "gives a 97.24 % accuracy on",
+      "description": "Indicates that the subject has achieved or demonstrated a specific level of accuracy when applied to or evaluated against the object. The predicate highlights the performance metric and its corresponding value, providing insight into the effectiveness or quality of the subject's actions.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject is related to or encompasses another concept (the object), which serves as its more general category, superclass, or parent. This relationship suggests an hierarchical connection between the two concepts.",
+      "disambiguation_index": 0
+    }
+  }
+}

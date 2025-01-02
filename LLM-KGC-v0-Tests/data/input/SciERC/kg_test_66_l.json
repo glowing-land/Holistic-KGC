@@ -1,0 +1,1049 @@
+{
+  "iri": "Paper-66",
+  "title": "C90-3063",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-66-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-66-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-66-Section-1-Paragraph-1-Sentence-1",
+              "text": "Manual acquisition of semantic constraints in broad domains is very expensive ."
+            },
+            {
+              "iri": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+              "text": "This paper presents an automatic scheme for collecting statistics on cooccurrence patterns in a large corpus ."
+            },
+            {
+              "iri": "Paper-66-Section-1-Paragraph-1-Sentence-3",
+              "text": "To a large extent , these statistics reflect semantic constraints and thus are used to disambiguate anaphora references and syntactic ambiguities ."
+            },
+            {
+              "iri": "Paper-66-Section-1-Paragraph-1-Sentence-4",
+              "text": "The scheme was implemented by gathering statistics on the output of other linguistic tools ."
+            },
+            {
+              "iri": "Paper-66-Section-1-Paragraph-1-Sentence-5",
+              "text": "An experiment was performed to resolve references of the pronoun `` it '' in sentences that were randomly selected from the corpus ."
+            },
+            {
+              "iri": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+              "text": "The results of the experiment show that in most of the cases the cooccurrence statistics indeed reflect the semantic constraints and thus provide a basis for a useful disambiguation tool ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.00047969818115234375,
+    15.363736152648926,
+    23.54248046875,
+    21.731284141540527,
+    0.019765377044677734,
+    9.703636169433594e-05,
+    0.0001316070556640625,
+    34.94719219207764,
+    41.81939673423767,
+    1.0791192054748535,
+    21.366448879241943,
+    0.009800910949707031,
+    0.0002117156982421875,
+    28.654683113098145,
+    9.176628589630127,
+    0.010938882827758789,
+    1.114013910293579,
+    3.3194539546966553,
+    3.220675468444824,
+    3.5933377742767334,
+    44.27494025230408,
+    1.7958519458770752,
+    15.070225954055786,
+    0.8969054222106934,
+    0.0005400180816650391,
+    0.011385917663574219
+  ],
+  "nodes": {
+    "Entity-manual_acquisition_of_semantic_constraint": {
+      "node_id": "manual_acquisition_of_semantic_constraint",
+      "disambiguation_index": 0,
+      "label": "Manual acquisition of semantic constraints",
+      "aliases": [
+        "Manual acquisition of semantic constraints"
+      ],
+      "types": [
+        "concept",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A method for automatically collecting statistics on cooccurrence patterns in a large corpus, which reflect semantic constraints and can be used to disambiguate anaphora references and syntactic ambiguities.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Manual acquisition of semantic constraints",
+          "local_types": [
+            "concept",
+            "method"
+          ],
+          "iri": "Entity-manual_acquisition_of_semantic_constraint-Mention-1"
+        }
+      ],
+      "relevance": 0.837890625
+    },
+    "Entity-the_scheme_wa_implemented_by_gathering_statistic_on_the_output_of_other_linguistic_tool": {
+      "node_id": "the_scheme_wa_implemented_by_gathering_statistic_on_the_output_of_other_linguistic_tool",
+      "disambiguation_index": 0,
+      "label": "The scheme was implemented by gathering statistics on the output of other linguistic tools",
+      "aliases": [
+        "The scheme",
+        "The scheme was implemented by gathering statistics on the output of other linguistic tools"
+      ],
+      "types": [
+        "scheme",
+        "implementation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "An automatic scheme for collecting statistics on cooccurrence patterns in a large corpus, used to disambiguate anaphora references and syntactic ambiguities.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "The scheme was implemented by gathering statistics on the output of other linguistic tools",
+          "local_types": [
+            "scheme",
+            "implementation"
+          ],
+          "iri": "Entity-the_scheme_wa_implemented_by_gathering_statistic_on_the_output_of_other_linguistic_tool-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "The scheme",
+          "local_types": [
+            "scheme"
+          ],
+          "iri": "Entity-the_scheme_wa_implemented_by_gathering_statistic_on_the_output_of_other_linguistic_tool-Mention-2"
+        }
+      ],
+      "relevance": 0.8251953125
+    },
+    "Entity-these_statistic_reflect_semantic_constraint_and_thus_are_used_to_disambiguate_anaphora_reference_and_syntactic_ambiguity": {
+      "node_id": "these_statistic_reflect_semantic_constraint_and_thus_are_used_to_disambiguate_anaphora_reference_and_syntactic_ambiguity",
+      "disambiguation_index": 0,
+      "label": "these statistics reflect semantic constraints and thus are used to disambiguate anaphora references and syntactic ambiguities",
+      "aliases": [
+        "these statistics reflect semantic constraints and thus are used to disambiguate anaphora references and syntactic ambiguities"
+      ],
+      "types": [
+        "statistics"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Statistics collected on cooccurrence patterns in a large corpus that reflect semantic constraints, used for disambiguating anaphora references and syntactic ambiguities.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "these statistics reflect semantic constraints and thus are used to disambiguate anaphora references and syntactic ambiguities",
+          "local_types": [
+            "statistics"
+          ],
+          "iri": "Entity-these_statistic_reflect_semantic_constraint_and_thus_are_used_to_disambiguate_anaphora_reference_and_syntactic_ambiguity-Mention-1"
+        }
+      ],
+      "relevance": 0.80615234375
+    },
+    "Entity-an_experiment_wa_performed_to_resolve_reference_of_the_pronoun__it__in_sentence_that_were_randomly_selected_from_the_corpus": {
+      "node_id": "an_experiment_wa_performed_to_resolve_reference_of_the_pronoun__it__in_sentence_that_were_randomly_selected_from_the_corpus",
+      "disambiguation_index": 0,
+      "label": "An experiment was performed to resolve references of the pronoun `` it '' in sentences that were randomly selected from the corpus",
+      "aliases": [
+        "An experiment was performed to resolve references of the pronoun `` it '' in sentences that were randomly selected from the corpus"
+      ],
+      "types": [
+        "experiment"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A study conducted to determine how well cooccurrence statistics can be used to resolve pronoun references in random sentences.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "An experiment was performed to resolve references of the pronoun `` it '' in sentences that were randomly selected from the corpus",
+          "local_types": [
+            "experiment"
+          ],
+          "iri": "Entity-an_experiment_wa_performed_to_resolve_reference_of_the_pronoun__it__in_sentence_that_were_randomly_selected_from_the_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.76806640625
+    },
+    "Entity-this_paper_present_an_automatic_scheme_for_collecting_statistic_on_cooccurrence_pattern_in_a_large_corpus": {
+      "node_id": "this_paper_present_an_automatic_scheme_for_collecting_statistic_on_cooccurrence_pattern_in_a_large_corpus",
+      "disambiguation_index": 0,
+      "label": "This paper presents an automatic scheme for collecting statistics on cooccurrence patterns in a large corpus",
+      "aliases": [
+        "This paper presents an automatic scheme for collecting statistics on cooccurrence patterns in a large corpus",
+        "an automatic scheme for collecting statistics on cooccurrence patterns in a large corpus"
+      ],
+      "types": [
+        "methodology",
+        "research",
+        "paper"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A research paper presenting an automated method for gathering statistical data on co-occurrence patterns in a large corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "This paper presents an automatic scheme for collecting statistics on cooccurrence patterns in a large corpus",
+          "local_types": [
+            "research",
+            "paper"
+          ],
+          "iri": "Entity-this_paper_present_an_automatic_scheme_for_collecting_statistic_on_cooccurrence_pattern_in_a_large_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "an automatic scheme for collecting statistics on cooccurrence patterns in a large corpus",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-this_paper_present_an_automatic_scheme_for_collecting_statistic_on_cooccurrence_pattern_in_a_large_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.755859375
+    },
+    "Entity-the_result_of_the_experiment_show_that_in_most_of_the_case_the_cooccurrence_statistic_indeed_reflect_the_semantic_constraint_and_thus_provide_a_basis_for_a_useful_disambiguation_tool": {
+      "node_id": "the_result_of_the_experiment_show_that_in_most_of_the_case_the_cooccurrence_statistic_indeed_reflect_the_semantic_constraint_and_thus_provide_a_basis_for_a_useful_disambiguation_tool",
+      "disambiguation_index": 0,
+      "label": "the results of the experiment show that in most of the cases the cooccurrence statistics indeed reflect the semantic constraints and thus provide a basis for a useful disambiguation tool",
+      "aliases": [
+        "the results of the experiment show that in most of the cases the cooccurrence statistics indeed reflect the semantic constraints and thus provide a basis for a useful disambiguation tool"
+      ],
+      "types": [
+        "results",
+        "disambiguation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The experiment's results, which show that cooccurrence statistics often reflect semantic constraints, providing a foundation for an effective disambiguation tool.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the results of the experiment show that in most of the cases the cooccurrence statistics indeed reflect the semantic constraints and thus provide a basis for a useful disambiguation tool",
+          "local_types": [
+            "results",
+            "disambiguation"
+          ],
+          "iri": "Entity-the_result_of_the_experiment_show_that_in_most_of_the_case_the_cooccurrence_statistic_indeed_reflect_the_semantic_constraint_and_thus_provide_a_basis_for_a_useful_disambiguation_tool-Mention-1"
+        }
+      ],
+      "relevance": 0.7431640625
+    },
+    "Entity-these_statistic": {
+      "node_id": "these_statistic",
+      "disambiguation_index": 0,
+      "label": "these statistics",
+      "aliases": [
+        "the cooccurrence statistics",
+        "these statistics"
+      ],
+      "types": [
+        "statistics"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Statistics collected on cooccurrence patterns in a large corpus that reflect semantic constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "these statistics",
+          "local_types": [
+            "statistics"
+          ],
+          "iri": "Entity-these_statistic-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the cooccurrence statistics",
+          "local_types": [
+            "statistics"
+          ],
+          "iri": "Entity-these_statistic-Mention-2"
+        }
+      ],
+      "relevance": 0.72216796875
+    },
+    "Entity-an_experiment": {
+      "node_id": "an_experiment",
+      "disambiguation_index": 0,
+      "label": "An experiment",
+      "aliases": [
+        "An experiment"
+      ],
+      "types": [
+        "experiment"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A research study conducted to test a method for resolving anaphora references and syntactic ambiguities by analyzing cooccurrence patterns in a large corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "An experiment",
+          "local_types": [
+            "experiment"
+          ],
+          "iri": "Entity-an_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.69482421875
+    },
+    "Entity-a_useful_disambiguation_tool": {
+      "node_id": "a_useful_disambiguation_tool",
+      "disambiguation_index": 0,
+      "label": "a useful disambiguation tool",
+      "aliases": [
+        "a useful disambiguation tool"
+      ],
+      "types": [
+        "tool"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A statistical method or software application that uses patterns of word co-occurrences to resolve ambiguities in natural language text, such as anaphora and syntactic ambiguity.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "a useful disambiguation tool",
+          "local_types": [
+            "tool"
+          ],
+          "iri": "Entity-a_useful_disambiguation_tool-Mention-1"
+        }
+      ],
+      "relevance": 0.693359375
+    },
+    "Entity-manual_acquisition_of_semantic_constraint_in_broad_domain": {
+      "node_id": "manual_acquisition_of_semantic_constraint_in_broad_domain",
+      "disambiguation_index": 0,
+      "label": "Manual acquisition of semantic constraints in broad domains",
+      "aliases": [
+        "Manual acquisition of semantic constraints in broad domains"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A research approach for acquiring and utilizing semantic constraints across various domains, which is typically done manually but can be expensive.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Manual acquisition of semantic constraints in broad domains",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-manual_acquisition_of_semantic_constraint_in_broad_domain-Mention-1"
+        }
+      ],
+      "relevance": 0.66357421875
+    },
+    "Entity-cooccurrence_pattern": {
+      "node_id": "cooccurrence_pattern",
+      "disambiguation_index": 0,
+      "label": "cooccurrence patterns",
+      "aliases": [
+        "cooccurrence patterns"
+      ],
+      "types": [
+        "linguistic phenomenon",
+        "linguistic pattern",
+        "statistical phenomenon",
+        "statistical pattern"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The statistical relationships between words or phrases that appear together frequently in language.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "cooccurrence patterns",
+          "local_types": [
+            "linguistic phenomenon",
+            "linguistic pattern",
+            "statistical phenomenon",
+            "statistical pattern"
+          ],
+          "iri": "Entity-cooccurrence_pattern-Mention-1"
+        }
+      ],
+      "relevance": 0.64306640625
+    },
+    "Entity-the_result_of_the_experiment": {
+      "node_id": "the_result_of_the_experiment",
+      "disambiguation_index": 0,
+      "label": "The results of the experiment",
+      "aliases": [
+        "The results of the experiment"
+      ],
+      "types": [
+        "experiment"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The outcome or findings from an experiment performed to resolve references of the pronoun 'it' in sentences randomly selected from a corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "The results of the experiment",
+          "local_types": [
+            "experiment"
+          ],
+          "iri": "Entity-the_result_of_the_experiment-Mention-1"
+        }
+      ],
+      "relevance": 0.626953125
+    },
+    "Entity-cooccurrence_statistic": {
+      "node_id": "cooccurrence_statistic",
+      "disambiguation_index": 0,
+      "label": "cooccurrence statistics",
+      "aliases": [
+        "cooccurrence statistics"
+      ],
+      "types": [
+        "statistical analysis",
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical analysis or data set that measures the frequency of two or more entities appearing together in a given context.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "cooccurrence statistics",
+          "local_types": [
+            "statistical analysis",
+            "data set"
+          ],
+          "iri": "Entity-cooccurrence_statistic-Mention-1"
+        }
+      ],
+      "relevance": 0.6259765625
+    },
+    "Entity-sentence_that_were_randomly_selected_from_the_corpus": {
+      "node_id": "sentence_that_were_randomly_selected_from_the_corpus",
+      "disambiguation_index": 0,
+      "label": "sentences that were randomly selected from the corpus",
+      "aliases": [
+        "sentences that were randomly selected from the corpus"
+      ],
+      "types": [
+        "data",
+        "corpus"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A set of sentences chosen at random from a large collection of text data.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "sentences that were randomly selected from the corpus",
+          "local_types": [
+            "data",
+            "corpus"
+          ],
+          "iri": "Entity-sentence_that_were_randomly_selected_from_the_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.60400390625
+    },
+    "Entity-disambiguation_tool": {
+      "node_id": "disambiguation_tool",
+      "disambiguation_index": 0,
+      "label": "disambiguation tool",
+      "aliases": [
+        "disambiguation tool"
+      ],
+      "types": [
+        "software application",
+        "natural language processing"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A software application or system utilizing natural language processing techniques to resolve ambiguity in text, typically by analyzing context and semantic constraints.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "disambiguation tool",
+          "local_types": [
+            "software application",
+            "natural language processing"
+          ],
+          "iri": "Entity-disambiguation_tool-Mention-1"
+        }
+      ],
+      "relevance": 0.58349609375
+    },
+    "Entity-statistic": {
+      "node_id": "statistic",
+      "disambiguation_index": 0,
+      "label": "statistics",
+      "aliases": [
+        "statistics"
+      ],
+      "types": [
+        "data set",
+        "quantitative data",
+        "data analysis"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of numerical facts or data, often used to summarize and analyze trends or patterns.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "statistics",
+          "local_types": [
+            "data analysis",
+            "quantitative data"
+          ],
+          "iri": "Entity-statistic-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "statistics",
+          "local_types": [
+            "data set"
+          ],
+          "iri": "Entity-statistic-Mention-2"
+        }
+      ],
+      "relevance": 0.56201171875
+    },
+    "Entity-semantic_constraint": {
+      "node_id": "semantic_constraint",
+      "disambiguation_index": 0,
+      "label": "semantic constraints",
+      "aliases": [
+        "semantic constraints"
+      ],
+      "types": [
+        "linguistic concept",
+        "rule",
+        "constraint",
+        "linguistic constraint",
+        "computational constraint",
+        "concept",
+        "knowledge"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A set of rules or principles that govern the meaning and interpretation of language, often used to guide linguistic processing and communication.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "semantic constraints",
+          "local_types": [
+            "rule",
+            "concept",
+            "knowledge"
+          ],
+          "iri": "Entity-semantic_constraint-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "semantic constraints",
+          "local_types": [
+            "constraint",
+            "linguistic constraint"
+          ],
+          "iri": "Entity-semantic_constraint-Mention-2"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "semantic constraints",
+          "local_types": [
+            "constraint",
+            "linguistic concept",
+            "computational constraint"
+          ],
+          "iri": "Entity-semantic_constraint-Mention-3"
+        }
+      ],
+      "relevance": 0.54541015625
+    },
+    "Entity-anaphora_reference": {
+      "node_id": "anaphora_reference",
+      "disambiguation_index": 0,
+      "label": "anaphora references",
+      "aliases": [
+        "anaphora references"
+      ],
+      "types": [
+        "linguistic phenomenon",
+        "co-reference",
+        "reference",
+        "referential expression"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of linguistic reference that refers back to a previously mentioned expression or concept.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "anaphora references",
+          "local_types": [
+            "linguistic phenomenon",
+            "co-reference",
+            "reference",
+            "referential expression"
+          ],
+          "iri": "Entity-anaphora_reference-Mention-1"
+        }
+      ],
+      "relevance": 0.54541015625
+    },
+    "Entity-corpus": {
+      "node_id": "corpus",
+      "disambiguation_index": 0,
+      "label": "corpus",
+      "aliases": [
+        "large corpus",
+        "corpus"
+      ],
+      "types": [
+        "dataset",
+        "data set",
+        "large text collection",
+        "resource",
+        "text dataset",
+        "database",
+        "repository of text data",
+        "collection of texts"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of written or printed works, typically comprising a significant amount of text.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "corpus",
+          "local_types": [
+            "resource",
+            "text dataset",
+            "large text collection",
+            "dataset"
+          ],
+          "iri": "Entity-corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "corpus",
+          "local_types": [
+            "collection of texts",
+            "data set"
+          ],
+          "iri": "Entity-corpus-Mention-2"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "large corpus",
+          "local_types": [
+            "repository of text data",
+            "database"
+          ],
+          "iri": "Entity-corpus-Mention-3"
+        }
+      ],
+      "relevance": 0.54296875
+    },
+    "Entity-syntactic_ambiguity": {
+      "node_id": "syntactic_ambiguity",
+      "disambiguation_index": 0,
+      "label": "syntactic ambiguities",
+      "aliases": [
+        "syntactic ambiguities"
+      ],
+      "types": [
+        "grammatical ambiguity",
+        "ambiguity",
+        "linguistic phenomenon",
+        "linguistic ambiguity"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A type of linguistic ambiguity that arises from the multiple possible interpretations of a sentence's grammatical structure.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "syntactic ambiguities",
+          "local_types": [
+            "grammatical ambiguity",
+            "ambiguity",
+            "linguistic phenomenon",
+            "linguistic ambiguity"
+          ],
+          "iri": "Entity-syntactic_ambiguity-Mention-1"
+        }
+      ],
+      "relevance": 0.54296875
+    },
+    "Entity-pronoun": {
+      "node_id": "pronoun",
+      "disambiguation_index": 0,
+      "label": "pronoun",
+      "aliases": [
+        "pronoun"
+      ],
+      "types": [
+        "linguistic term",
+        "language phenomenon"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A linguistic term used as a substitute for a noun or nouns, referring back to a previously mentioned entity.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "pronoun",
+          "local_types": [
+            "linguistic term",
+            "language phenomenon"
+          ],
+          "iri": "Entity-pronoun-Mention-1"
+        }
+      ],
+      "relevance": 0.521484375
+    },
+    "Entity-manual_acquisition": {
+      "node_id": "manual_acquisition",
+      "disambiguation_index": 0,
+      "label": "Manual acquisition",
+      "aliases": [
+        "Manual acquisition"
+      ],
+      "types": [
+        "process",
+        "method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The process or method of acquiring information, skills, or knowledge through hands-on effort and personal involvement.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Manual acquisition",
+          "local_types": [
+            "process",
+            "method"
+          ],
+          "iri": "Entity-manual_acquisition-Mention-1"
+        }
+      ],
+      "relevance": 0.4970703125
+    },
+    "Entity-experiment": {
+      "node_id": "experiment",
+      "disambiguation_index": 0,
+      "label": "experiment",
+      "aliases": [
+        "experiment"
+      ],
+      "types": [
+        "scientific investigation",
+        "research study"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic and controlled process of observation, measurement, or testing designed to draw conclusions about a phenomenon or hypothesis.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "experiment",
+          "local_types": [
+            "research study",
+            "scientific investigation"
+          ],
+          "iri": "Entity-experiment-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "experiment",
+          "local_types": [
+            "research study"
+          ],
+          "iri": "Entity-experiment-Mention-2"
+        }
+      ],
+      "relevance": 0.4873046875
+    },
+    "Entity-scheme": {
+      "node_id": "scheme",
+      "disambiguation_index": 0,
+      "label": "scheme",
+      "aliases": [
+        "scheme"
+      ],
+      "types": [
+        "program",
+        "initiative",
+        "methodology",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic approach or plan of action",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "scheme",
+          "local_types": [
+            "algorithm",
+            "methodology"
+          ],
+          "iri": "Entity-scheme-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "scheme",
+          "local_types": [
+            "program",
+            "initiative"
+          ],
+          "iri": "Entity-scheme-Mention-2"
+        }
+      ],
+      "relevance": 0.479248046875
+    },
+    "Entity-linguistic_tool": {
+      "node_id": "linguistic_tool",
+      "disambiguation_index": 0,
+      "label": "linguistic tools",
+      "aliases": [
+        "other linguistic tools",
+        "linguistic tools"
+      ],
+      "types": [
+        "natural language processing software",
+        "software",
+        "tools",
+        "tool",
+        "linguistic",
+        "technology",
+        "software tool"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Software or technologies used for processing, analyzing, and manipulating language",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "linguistic tools",
+          "local_types": [
+            "software",
+            "tools",
+            "tool",
+            "linguistic",
+            "technology"
+          ],
+          "iri": "Entity-linguistic_tool-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "other linguistic tools",
+          "local_types": [
+            "software tool",
+            "natural language processing software"
+          ],
+          "iri": "Entity-linguistic_tool-Mention-2"
+        }
+      ],
+      "relevance": 0.46875
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper",
+        "paper"
+      ],
+      "types": [
+        "research publication",
+        "research",
+        "academic work",
+        "document",
+        "publication"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A written work presenting research or findings",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "This paper",
+          "local_types": [
+            "publication",
+            "research",
+            "document"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        },
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "paper",
+          "local_types": [
+            "research publication",
+            "academic work"
+          ],
+          "iri": "Entity-this_paper-Mention-2"
+        }
+      ],
+      "relevance": 0.45849609375
+    },
+    "Entity-broad_domain": {
+      "node_id": "broad_domain",
+      "disambiguation_index": 0,
+      "label": "broad domains",
+      "aliases": [
+        "broad domains"
+      ],
+      "types": [
+        "field",
+        "domain",
+        "category"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A general category or field that encompasses multiple related areas or topics.",
+      "mentions": [
+        {
+          "reference": "Paper-66-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "broad domains",
+          "local_types": [
+            "field",
+            "domain",
+            "category"
+          ],
+          "iri": "Entity-broad_domain-Mention-1"
+        }
+      ],
+      "relevance": 0.452392578125
+    }
+  },
+  "summary": "Manual acquisition of semantic constraints in broad domains is very expensive . This paper presents an automatic scheme for collecting statistics on cooccurrence patterns in a large corpus . To a large extent , these statistics reflect semantic constraints and thus are used to disambiguate anaphora references and syntactic ambiguities . The scheme was implemented by gathering statistics on the output of other linguistic tools . An experiment was performed to resolve references of the pronoun `` it '' in sentences that were randomly selected from the corpus . The results of the experiment show that in most of the cases the cooccurrence statistics indeed reflect the semantic constraints and thus provide a basis for a useful disambiguation tool .",
+  "triples": [
+    [
+      "Entity-manual_acquisition",
+      "Predicate-acquires",
+      "Entity-semantic_constraint"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-this_paper_present_an_automatic_scheme_for_collecting_statistic_on_cooccurrence_pattern_in_a_large_corpus"
+    ],
+    [
+      "Entity-semantic_constraint",
+      "Predicate-reflect",
+      "Entity-statistic"
+    ],
+    [
+      "Entity-experiment",
+      "Predicate-was_performed_to_resolve_references_of",
+      "Entity-pronoun"
+    ],
+    [
+      "Entity-these_statistic",
+      "Predicate-reflect",
+      "Entity-semantic_constraint"
+    ],
+    [
+      "Entity-manual_acquisition_of_semantic_constraint",
+      "Predicate-is_implemented_by",
+      "Entity-the_scheme_wa_implemented_by_gathering_statistic_on_the_output_of_other_linguistic_tool"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-these_statistic",
+      "skos:broader",
+      "Entity-statistic"
+    ],
+    [
+      "Entity-sentence_that_were_randomly_selected_from_the_corpus",
+      "skos:broader",
+      "Entity-corpus"
+    ],
+    [
+      "Entity-the_scheme_wa_implemented_by_gathering_statistic_on_the_output_of_other_linguistic_tool",
+      "skos:broader",
+      "Entity-scheme"
+    ],
+    [
+      "Entity-these_statistic_reflect_semantic_constraint_and_thus_are_used_to_disambiguate_anaphora_reference_and_syntactic_ambiguity",
+      "skos:broader",
+      "Entity-statistic"
+    ],
+    [
+      "Entity-the_result_of_the_experiment",
+      "skos:broader",
+      "Entity-experiment"
+    ],
+    [
+      "Entity-this_paper_present_an_automatic_scheme_for_collecting_statistic_on_cooccurrence_pattern_in_a_large_corpus",
+      "skos:broader",
+      "Entity-this_paper"
+    ],
+    [
+      "Entity-an_experiment_wa_performed_to_resolve_reference_of_the_pronoun__it__in_sentence_that_were_randomly_selected_from_the_corpus",
+      "skos:broader",
+      "Entity-experiment"
+    ],
+    [
+      "Entity-an_experiment",
+      "skos:broader",
+      "Entity-experiment"
+    ]
+  ],
+  "predicates": {
+    "Predicate-acquires": {
+      "label": "acquires",
+      "description": "To acquire means to obtain or gain possession of something, often through effort, learning, or experience. The subject of the predicate 'acquires' takes on a new understanding, skill, or knowledge by actively engaging with the object, which represents the thing being acquired.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject provides or offers something to others, often in the form of an idea, concept, method, or solution. It implies a sense of introduction, exposition, or revelation, where the subject brings forth information, insights, or innovations for consideration and discussion.",
+      "disambiguation_index": 0
+    },
+    "Predicate-reflect": {
+      "label": "reflect",
+      "description": "To reflect means to consider or think about something in relation to a particular context or framework. It implies considering the subject's perspective or characteristics as relevant to understanding the object. In general, 'reflect' connects the subject and object by suggesting that the subject's properties or features are being used to illuminate or make sense of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-was_performed_to_resolve_references_of": {
+      "label": "was performed to resolve references of",
+      "description": "This predicate indicates that an action (the subject) aimed to clarify or identify specific references (the object), likely involving ambiguity resolution. The connection between the subject and object suggests a causal relationship, where the action was performed with the intention of resolving ambiguities or unclear references.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_implemented_by": {
+      "label": "is implemented by",
+      "description": "The predicate 'is implemented by' indicates a relationship between an idea or concept (the subject) and its underlying method, process, or mechanism that brings it into being. It suggests that the object provides the means to realize or execute the subject's purpose.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "Indicates that the subject concept is more specific than or equal to the object concept. The predicate connects two concepts with a hierarchical relationship where the subject has a broader term (i.e., it encompasses) the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

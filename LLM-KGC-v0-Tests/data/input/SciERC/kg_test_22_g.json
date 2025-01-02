@@ -1,0 +1,658 @@
+{
+  "iri": "Paper-22",
+  "title": "P05-2013",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-22-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-22-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+              "text": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar -LRB- CCG -RRB- lexicon from a Turkish dependency treebank ."
+            },
+            {
+              "iri": "Paper-22-Section-1-Paragraph-1-Sentence-2",
+              "text": "The fact that Turkish is an agglutinating free word order language presents a challenge for language theories ."
+            },
+            {
+              "iri": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+              "text": "We explored possible ways to obtain a compact lexicon , consistent with CCG principles , from a treebank which is an order of magnitude smaller than Penn WSJ ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.002015829086303711,
+    8.131901979446411,
+    11.05972409248352,
+    9.354777097702026,
+    0.01394510269165039,
+    0.00010704994201660156,
+    0.00012803077697753906,
+    11.407915830612183,
+    17.409852981567383,
+    2.304894208908081,
+    2.1497979164123535,
+    0.006309032440185547,
+    0.00022983551025390625,
+    8.276511907577515,
+    0.0012700557708740234,
+    0.016929149627685547,
+    0.0013499259948730469,
+    3.1475841999053955,
+    0.0016467571258544922,
+    0.0003330707550048828,
+    33.12301421165466,
+    5.682458877563477,
+    17.310874938964844,
+    1.940605878829956,
+    0.0003662109375,
+    0.005415916442871094
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "This paper",
+      "aliases": [
+        "This paper"
+      ],
+      "types": [
+        "research"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "This paper discusses the automatic induction of a Combinatory Categorial Grammar lexicon from a Turkish dependency treebank, addressing the challenges posed by the agglutinative and free word order nature of the Turkish language.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "This paper",
+          "local_types": [
+            "research"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.84423828125
+    },
+    "Entity-a_compact_lexicon": {
+      "node_id": "a_compact_lexicon",
+      "disambiguation_index": 0,
+      "label": "a compact lexicon",
+      "aliases": [
+        "a compact lexicon"
+      ],
+      "types": [
+        "lexicon"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A compact lexicon refers to a streamlined and efficient set of lexical entries derived from a smaller Turkish dependency treebank, designed to align with the principles of Combinatory Categorial Grammar (CCG).",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a compact lexicon",
+          "local_types": [
+            "lexicon"
+          ],
+          "iri": "Entity-a_compact_lexicon-Mention-1"
+        }
+      ],
+      "relevance": 0.7421875
+    },
+    "Entity-a_treebank": {
+      "node_id": "a_treebank",
+      "disambiguation_index": 0,
+      "label": "a treebank",
+      "aliases": [
+        "a treebank"
+      ],
+      "types": [
+        "treebank"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A treebank is a structured dataset that provides syntactic annotations for sentences in a language, used for linguistic research and the development of computational models, such as the one explored in this paper for inducing a Combinatory Categorial Grammar lexicon from a Turkish dependency treebank.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a treebank",
+          "local_types": [
+            "treebank"
+          ],
+          "iri": "Entity-a_treebank-Mention-1"
+        }
+      ],
+      "relevance": 0.70751953125
+    },
+    "Entity-turkish_dependency_treebank": {
+      "node_id": "turkish_dependency_treebank",
+      "disambiguation_index": 0,
+      "label": "Turkish dependency treebank",
+      "aliases": [
+        "Turkish dependency treebank"
+      ],
+      "types": [
+        "dataset",
+        "resource",
+        "corpus",
+        "linguistic resource",
+        "data set",
+        "treebank",
+        "dependency treebank"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "The Turkish dependency treebank is a linguistic resource that provides a structured representation of the syntactic dependencies in Turkish sentences, used for various natural language processing tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Turkish dependency treebank",
+          "local_types": [
+            "dataset",
+            "resource",
+            "corpus",
+            "linguistic resource",
+            "data set",
+            "treebank",
+            "dependency treebank"
+          ],
+          "iri": "Entity-turkish_dependency_treebank-Mention-1"
+        }
+      ],
+      "relevance": 0.68310546875
+    },
+    "Entity-ccg": {
+      "node_id": "ccg",
+      "disambiguation_index": 0,
+      "label": "CCG",
+      "aliases": [
+        "CCG"
+      ],
+      "types": [
+        "theory",
+        "linguistic framework",
+        "grammar",
+        "abbreviation",
+        "linguistic theory",
+        "grammar framework"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "CCG refers to Combinatory Categorial Grammar, a linguistic framework used for syntactic analysis that emphasizes the combination of categories to derive grammatical structures.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "CCG",
+          "local_types": [
+            "linguistic theory",
+            "grammar framework",
+            "theory",
+            "linguistic framework"
+          ],
+          "iri": "Entity-ccg-Mention-1"
+        },
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "CCG",
+          "local_types": [
+            "abbreviation",
+            "grammar",
+            "linguistic theory"
+          ],
+          "iri": "Entity-ccg-Mention-2"
+        }
+      ],
+      "relevance": 0.59814453125
+    },
+    "Entity-language_theory": {
+      "node_id": "language_theory",
+      "disambiguation_index": 0,
+      "label": "language theories",
+      "aliases": [
+        "language theories"
+      ],
+      "types": [
+        "linguistic theory",
+        "theory",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Language theories refer to the frameworks and principles that explain the structure, use, and processing of languages, particularly in the context of linguistic phenomena such as agglutination and free word order, as highlighted in the challenges posed by the Turkish language.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "language theories",
+          "local_types": [
+            "linguistic theory",
+            "theory",
+            "theoretical framework"
+          ],
+          "iri": "Entity-language_theory-Mention-1"
+        }
+      ],
+      "relevance": 0.58447265625
+    },
+    "Entity-ccg_principle": {
+      "node_id": "ccg_principle",
+      "disambiguation_index": 0,
+      "label": "CCG principles",
+      "aliases": [
+        "CCG principles"
+      ],
+      "types": [
+        "principle",
+        "principles",
+        "linguistic theory",
+        "linguistic principles",
+        "theoretical framework"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "CCG principles refer to the foundational guidelines and theoretical constructs of Combinatory Categorial Grammar, which inform the development of a lexicon that aligns with the syntactic and semantic structures of the language being analyzed.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "CCG principles",
+          "local_types": [
+            "principle",
+            "principles",
+            "linguistic theory",
+            "linguistic principles",
+            "theoretical framework"
+          ],
+          "iri": "Entity-ccg_principle-Mention-1"
+        }
+      ],
+      "relevance": 0.58447265625
+    },
+    "Entity-treebank": {
+      "node_id": "treebank",
+      "disambiguation_index": 0,
+      "label": "treebank",
+      "aliases": [
+        "treebank"
+      ],
+      "types": [
+        "resource",
+        "linguistic resource",
+        "corpus"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A treebank is a linguistic resource that consists of a structured corpus of sentences annotated with syntactic and/or semantic information, typically used for the analysis and development of natural language processing tools.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "treebank",
+          "local_types": [
+            "resource"
+          ],
+          "iri": "Entity-treebank-Mention-1"
+        },
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "treebank",
+          "local_types": [
+            "corpus",
+            "linguistic resource"
+          ],
+          "iri": "Entity-treebank-Mention-2"
+        }
+      ],
+      "relevance": 0.58154296875
+    },
+    "Entity-combinatory_categorial_grammar": {
+      "node_id": "combinatory_categorial_grammar",
+      "disambiguation_index": 0,
+      "label": "Combinatory Categorial Grammar",
+      "aliases": [
+        "Combinatory Categorial Grammar"
+      ],
+      "types": [
+        "linguistics",
+        "theory",
+        "linguistic framework",
+        "grammar",
+        "linguistic theory"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Combinatory Categorial Grammar is a type of formal grammar that combines categorial grammar with combinatory logic to analyze the syntactic structure of natural language.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Combinatory Categorial Grammar",
+          "local_types": [
+            "linguistics",
+            "theory",
+            "linguistic framework",
+            "grammar",
+            "linguistic theory"
+          ],
+          "iri": "Entity-combinatory_categorial_grammar-Mention-1"
+        }
+      ],
+      "relevance": 0.57958984375
+    },
+    "Entity-agglutinating_free_word_order_language": {
+      "node_id": "agglutinating_free_word_order_language",
+      "disambiguation_index": 0,
+      "label": "agglutinating free word order language",
+      "aliases": [
+        "agglutinating free word order language"
+      ],
+      "types": [
+        "linguistic property",
+        "language feature",
+        "linguistic characteristic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An agglutinating free word order language is a type of language that allows for the combination of morphemes in a linear sequence to form words, while also permitting flexible arrangements of those words within sentences without a fixed order.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "agglutinating free word order language",
+          "local_types": [
+            "linguistic property",
+            "language feature",
+            "linguistic characteristic"
+          ],
+          "iri": "Entity-agglutinating_free_word_order_language-Mention-1"
+        }
+      ],
+      "relevance": 0.55029296875
+    },
+    "Entity-penn_wsj": {
+      "node_id": "penn_wsj",
+      "disambiguation_index": 0,
+      "label": "Penn WSJ",
+      "aliases": [
+        "Penn WSJ"
+      ],
+      "types": [
+        "dataset",
+        "resource",
+        "corpus",
+        "linguistic resource",
+        "treebank"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Penn WSJ is a linguistic resource that serves as a treebank, specifically designed for syntactic and semantic analysis of the Wall Street Journal corpus.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Penn WSJ",
+          "local_types": [
+            "dataset",
+            "resource",
+            "corpus",
+            "linguistic resource",
+            "treebank"
+          ],
+          "iri": "Entity-penn_wsj-Mention-1"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity-turkish": {
+      "node_id": "turkish",
+      "disambiguation_index": 0,
+      "label": "Turkish",
+      "aliases": [
+        "Turkish"
+      ],
+      "types": [
+        "natural language",
+        "nationality",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Turkish refers to the language spoken primarily in Turkey, which is part of the Turkic language family, and can also denote the nationality of people from Turkey.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "Turkish",
+          "local_types": [
+            "natural language",
+            "nationality",
+            "language"
+          ],
+          "iri": "Entity-turkish-Mention-1"
+        },
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Turkish",
+          "local_types": [
+            "natural language",
+            "nationality",
+            "language"
+          ],
+          "iri": "Entity-turkish-Mention-2"
+        }
+      ],
+      "relevance": 0.51806640625
+    },
+    "Entity-free_word_order": {
+      "node_id": "free_word_order",
+      "disambiguation_index": 0,
+      "label": "free word order",
+      "aliases": [
+        "free word order"
+      ],
+      "types": [
+        "syntactic feature",
+        "linguistic property"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Free word order is a syntactic feature of a language that allows the arrangement of words in a sentence to vary without changing the overall meaning.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "free word order",
+          "local_types": [
+            "syntactic feature",
+            "linguistic property"
+          ],
+          "iri": "Entity-free_word_order-Mention-1"
+        }
+      ],
+      "relevance": 0.50439453125
+    },
+    "Entity-agglutinating": {
+      "node_id": "agglutinating",
+      "disambiguation_index": 0,
+      "label": "agglutinating",
+      "aliases": [
+        "agglutinating"
+      ],
+      "types": [
+        "linguistic feature",
+        "morphological type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Agglutinating refers to a type of morphological structure in which words are formed by stringing together various morphemes, each representing a distinct grammatical function, without altering the individual morphemes.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "agglutinating",
+          "local_types": [
+            "linguistic feature",
+            "morphological type"
+          ],
+          "iri": "Entity-agglutinating-Mention-1"
+        }
+      ],
+      "relevance": 0.501953125
+    },
+    "Entity-lexicon": {
+      "node_id": "lexicon",
+      "disambiguation_index": 0,
+      "label": "lexicon",
+      "aliases": [
+        "lexicon"
+      ],
+      "types": [
+        "linguistic resource",
+        "vocabulary"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A lexicon is a collection of words and their meanings, often used in linguistics to represent the vocabulary of a language or a specific domain.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "lexicon",
+          "local_types": [
+            "linguistic resource",
+            "vocabulary"
+          ],
+          "iri": "Entity-lexicon-Mention-1"
+        }
+      ],
+      "relevance": 0.4873046875
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "academic document",
+        "research publication"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A paper is an academic document that presents research findings, methodologies, or theoretical discussions, typically published in a journal or conference proceedings.",
+      "mentions": [
+        {
+          "reference": "Paper-22-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "paper",
+          "local_types": [
+            "academic document",
+            "research publication"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.337158203125
+    }
+  },
+  "summary": "This paper presents the results of automatically inducing a Combinatory Categorial Grammar -LRB- CCG -RRB- lexicon from a Turkish dependency treebank . The fact that Turkish is an agglutinating free word order language presents a challenge for language theories . We explored possible ways to obtain a compact lexicon , consistent with CCG principles , from a treebank which is an order of magnitude smaller than Penn WSJ .",
+  "triples": [
+    [
+      "Entity-combinatory_categorial_grammar",
+      "Predicate-induced_from",
+      "Entity-turkish_dependency_treebank"
+    ],
+    [
+      "Entity-turkish",
+      "Predicate-presents_a_challenge_for",
+      "Entity-language_theory"
+    ],
+    [
+      "Entity-agglutinating_free_word_order_language",
+      "Predicate-presents_a_challenge_for",
+      "Entity-language_theory"
+    ],
+    [
+      "Entity-ccg_principle",
+      "Predicate-consistent_with",
+      "Entity-a_compact_lexicon"
+    ],
+    [
+      "Entity-a_treebank",
+      "Predicate-is_smaller_than",
+      "Entity-penn_wsj"
+    ],
+    [
+      "Entity-a_compact_lexicon",
+      "Predicate-obtained_from",
+      "Entity-a_treebank"
+    ],
+    [
+      "Entity-a_compact_lexicon",
+      "Predicate-consistent_with",
+      "Entity-ccg_principle"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-turkish_dependency_treebank",
+      "skos:broader",
+      "Entity-treebank"
+    ],
+    [
+      "Entity-a_treebank",
+      "skos:broader",
+      "Entity-treebank"
+    ],
+    [
+      "Entity-penn_wsj",
+      "skos:broader",
+      "Entity-a_treebank"
+    ],
+    [
+      "Entity-turkish_dependency_treebank",
+      "skos:broader",
+      "Entity-a_treebank"
+    ],
+    [
+      "Entity-a_compact_lexicon",
+      "skos:broader",
+      "Entity-lexicon"
+    ],
+    [
+      "Entity-penn_wsj",
+      "skos:broader",
+      "Entity-treebank"
+    ]
+  ],
+  "predicates": {
+    "Predicate-induced_from": {
+      "label": "induced from",
+      "description": "The predicate 'induced from' establishes a relationship where the subject is derived or developed based on the information, structure, or principles provided by the object. It implies a process of inference or generation, indicating that the subject is a result of analyzing or interpreting the data or framework represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents_a_challenge_for": {
+      "label": "presents a challenge for",
+      "description": "The predicate 'presents a challenge for' indicates that the subject introduces difficulties, complexities, or obstacles that must be addressed or overcome in relation to the object. It suggests that the subject has characteristics or features that complicate the understanding, analysis, or application of the object, thereby requiring additional effort or consideration.",
+      "disambiguation_index": 0
+    },
+    "Predicate-consistent_with": {
+      "label": "consistent with",
+      "description": "The predicate 'consistent with' indicates a relationship where the subject aligns or agrees with the object in terms of principles, characteristics, or criteria. It suggests that the subject does not contradict the object and that both can coexist without conflict, often implying a harmonious or supportive connection between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_smaller_than": {
+      "label": "is smaller than",
+      "description": "The predicate 'is smaller than' establishes a comparative relationship between the subject and the object, indicating that the subject has a lesser size, extent, or magnitude in comparison to the object. This relationship can apply to various contexts, such as physical dimensions, quantities, or abstract measures, and serves to highlight the relative scale of the two entities involved.",
+      "disambiguation_index": 0
+    },
+    "Predicate-obtained_from": {
+      "label": "obtained from",
+      "description": "The predicate 'obtained from' indicates a source or origin relationship between the subject and the object, where the subject is derived or extracted from the object. It implies that the subject has been created, developed, or formed using the information, data, or resources provided by the object.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or subset of the more general category represented by the object. This relationship implies that the object encompasses a wider scope or a more inclusive concept that includes the subject within its definition.",
+      "disambiguation_index": 0
+    }
+  }
+}

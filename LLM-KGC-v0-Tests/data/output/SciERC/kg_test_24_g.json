@@ -1,0 +1,51 @@
+{
+  "iri": "Paper-24",
+  "title": "CVPR_2006_10_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-24-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-24-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-1",
+              "text": "In this paper we discuss object detection when only a small number of training examples are given ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-2",
+              "text": "Specifically , we show how to incorporate a simple prior on the distribution of natural images into support vector machines ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-3",
+              "text": "SVMs are known to be robust to overfitting ; however , a few training examples usually do not represent well the structure of the class ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-4",
+              "text": "Thus the resulting detectors are not robust and highly depend on the choice of the training examples ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-5",
+              "text": "We incorporate the prior on natural images by requiring that the separating hyperplane will not only yield a wide margin , but also that the corresponding positive half space will have a low probability to contain natural images -LRB- the background -RRB- ."
+            },
+            {
+              "iri": "Paper-24-Section-1-Paragraph-1-Sentence-6",
+              "text": "Our experiments on real data sets show that the resulting detector is more robust to the choice of training examples , and substantially improves both linear and kernel SVM when trained on 10 positive and 10 negative examples ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "In this paper we discuss object detection when only a small number of training examples are given . Specifically , we show how to incorporate a simple prior on the distribution of natural images into support vector machines . SVMs are known to be robust to overfitting ; however , a few training examples usually do not represent well the structure of the class . Thus the resulting detectors are not robust and highly depend on the choice of the training examples . We incorporate the prior on natural images by requiring that the separating hyperplane will not only yield a wide margin , but also that the corresponding positive half space will have a low probability to contain natural images -LRB- the background -RRB- . Our experiments on real data sets show that the resulting detector is more robust to the choice of training examples , and substantially improves both linear and kernel SVM when trained on 10 positive and 10 negative examples .",
+  "kg2text": [
+    "This paper presents a method for incorporating the prior on natural images into support vector machines (SVMs), which enhances their performance in object detection tasks. Our experiments show that the resulting detector significantly improves both linear and kernel SVMs, demonstrating its effectiveness in scenarios with limited training data. The resulting detector is a broader term that encompasses various detectors, which are influenced by the choice of training examples. Linear and kernel SVMs, which are types of SVMs, are known for their robustness to overfitting, especially when trained on a small number of training examples, such as 10 positive and 10 negative examples. Additionally, a simple prior on the distribution of natural images is integrated into these models to further enhance their robustness.",
+    "Detectors are algorithms that depend heavily on the choice of the training examples, which significantly influences their robustness. In fact, detectors are not robust and highly depend on the specific training examples used. The term 'training examples' encompasses the data instances that are crucial for teaching the model, but when these examples do not adequately represent the structure of the class, the detectors fail to perform effectively. Object detection, a broader term that includes these detectors, is particularly challenging when only a small number of training examples are available. Furthermore, the separating hyperplane, a key concept in classification tasks, yields a wide margin, which is essential for enhancing the robustness of detectors. Our experiments, which are systematic investigations into the performance of modified support vector machine detectors, highlight the importance of the choice of training examples in achieving effective object detection."
+  ],
+  "times": [
+    4.199281454086304
+  ]
+}

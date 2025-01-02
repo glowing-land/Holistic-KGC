@@ -1,0 +1,1394 @@
+{
+  "iri": "Paper-67",
+  "title": "J05-4003",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-67-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-67-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+              "text": "We present a novel method for discovering parallel sentences in comparable , non-parallel corpora ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+              "text": "We train a maximum entropy classifier that , given a pair of sentences , can reliably determine whether or not they are translations of each other ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+              "text": "Using this approach , we extract parallel data from large Chinese , Arabic , and English non-parallel newspaper corpora ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+              "text": "We evaluate the quality of the extracted data by showing that it improves the performance of a state-of-the-art statistical machine translation system ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+              "text": "We also show that a good-quality MT system can be built from scratch by starting with a very small parallel corpus -LRB- 100,000 words -RRB- and exploiting a large non-parallel corpus ."
+            },
+            {
+              "iri": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+              "text": "Thus , our method can be applied with great benefit to language pairs for which only scarce resources are available ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0007312297821044922,
+    65.02872705459595,
+    70.81778836250305,
+    69.81710696220398,
+    0.04426312446594238,
+    0.00011706352233886719,
+    0.00017595291137695312,
+    353.02764225006104,
+    360.04361510276794,
+    5.179227352142334,
+    225.67604398727417,
+    0.013041973114013672,
+    0.00023984909057617188,
+    67.6944010257721,
+    0.0018961429595947266,
+    0.025809288024902344,
+    0.0035440921783447266,
+    5.251265048980713,
+    19.859889030456543,
+    29.487921714782715,
+    516.1028997898102,
+    9.029782056808472,
+    263.3213460445404,
+    3.9466798305511475,
+    0.0006220340728759766,
+    0.011819124221801758
+  ],
+  "nodes": {
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "a novel method for discovering parallel sentences",
+        "method",
+        "our method",
+        "this approach"
+      ],
+      "types": [
+        "technique",
+        "research",
+        "approach",
+        "method",
+        "methodology",
+        "research method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The method refers to a novel technique for discovering parallel sentences in comparable, non-parallel corpora using a maximum entropy classifier to determine sentence translations.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "method",
+          "local_types": [
+            "technique",
+            "research method",
+            "approach"
+          ],
+          "iri": "Entity-method-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "method",
+          "local_types": [
+            "technique",
+            "approach"
+          ],
+          "iri": "Entity-method-Mention-2"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a novel method for discovering parallel sentences",
+          "local_types": [
+            "method",
+            "research"
+          ],
+          "iri": "Entity-method-Mention-3"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this approach",
+          "local_types": [
+            "methodology"
+          ],
+          "iri": "Entity-method-Mention-4"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "our method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-method-Mention-5"
+        }
+      ],
+      "relevance": 0.7734375
+    },
+    "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus": {
+      "node_id": "large_chinese__arabic__and_english_non-parallel_newspaper_corpus",
+      "disambiguation_index": 0,
+      "label": "large Chinese, Arabic, and English non-parallel newspaper corpora",
+      "aliases": [
+        "large Chinese, Arabic, and English non-parallel newspaper corpora"
+      ],
+      "types": [
+        "newspaper",
+        "corpora",
+        "data source",
+        "language"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The term 'large Chinese, Arabic, and English non-parallel newspaper corpora' refers to extensive collections of newspaper articles in Chinese, Arabic, and English that are not aligned as translations, which are utilized for extracting parallel sentences to enhance machine translation systems.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "large Chinese, Arabic, and English non-parallel newspaper corpora",
+          "local_types": [
+            "newspaper",
+            "corpora",
+            "data source",
+            "language"
+          ],
+          "iri": "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.75927734375
+    },
+    "Entity-parallel_sentence": {
+      "node_id": "parallel_sentence",
+      "disambiguation_index": 0,
+      "label": "parallel sentences",
+      "aliases": [
+        "parallel sentences"
+      ],
+      "types": [
+        "sentence",
+        "linguistic construct",
+        "parallel",
+        "sentence type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Parallel sentences refer to pairs of sentences that are translations of each other, identified within comparable but non-parallel corpora using a novel method that employs a maximum entropy classifier.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "parallel sentences",
+          "local_types": [
+            "sentence",
+            "linguistic construct",
+            "parallel",
+            "sentence type"
+          ],
+          "iri": "Entity-parallel_sentence-Mention-1"
+        }
+      ],
+      "relevance": 0.73388671875
+    },
+    "Entity-pair_of_sentence": {
+      "node_id": "pair_of_sentence",
+      "disambiguation_index": 0,
+      "label": "pair of sentences",
+      "aliases": [
+        "a pair of sentences",
+        "pair of sentences"
+      ],
+      "types": [
+        "sentence pair"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A pair of sentences refers to two sentences that are analyzed by a maximum entropy classifier to determine if they are translations of each other in the context of discovering parallel sentences from non-parallel corpora.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "pair of sentences",
+          "local_types": [
+            "sentence pair"
+          ],
+          "iri": "Entity-pair_of_sentence-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a pair of sentences",
+          "local_types": [
+            "sentence pair"
+          ],
+          "iri": "Entity-pair_of_sentence-Mention-2"
+        }
+      ],
+      "relevance": 0.73291015625
+    },
+    "Entity-a_novel_method": {
+      "node_id": "a_novel_method",
+      "disambiguation_index": 0,
+      "label": "a novel method",
+      "aliases": [
+        "a novel method"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A novel method refers to a technique for discovering parallel sentences in comparable, non-parallel corpora by training a maximum entropy classifier to determine if pairs of sentences are translations of each other.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a novel method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-a_novel_method-Mention-1"
+        }
+      ],
+      "relevance": 0.732421875
+    },
+    "Entity-comparable__non-parallel_corpus": {
+      "node_id": "comparable__non-parallel_corpus",
+      "disambiguation_index": 0,
+      "label": "comparable, non-parallel corpora",
+      "aliases": [
+        "comparable, non-parallel corpora"
+      ],
+      "types": [
+        "corpus",
+        "comparable",
+        "non-parallel"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Comparable, non-parallel corpora refer to collections of texts in different languages that are not direct translations of each other but share thematic or contextual similarities, allowing for the extraction of parallel sentences for applications such as machine translation.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "comparable, non-parallel corpora",
+          "local_types": [
+            "corpus",
+            "comparable",
+            "non-parallel"
+          ],
+          "iri": "Entity-comparable__non-parallel_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.7158203125
+    },
+    "Entity-non-parallel_corpus": {
+      "node_id": "non-parallel_corpus",
+      "disambiguation_index": 0,
+      "label": "non-parallel corpora",
+      "aliases": [
+        "non-parallel corpora",
+        "non-parallel corpus"
+      ],
+      "types": [
+        "data source",
+        "text corpus",
+        "corpus",
+        "linguistic resource",
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Non-parallel corpora are collections of texts in different languages that do not have a direct one-to-one correspondence between their sentences or segments, often used for comparative linguistic analysis or training machine learning models.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "non-parallel corpora",
+          "local_types": [
+            "data source",
+            "text corpus",
+            "corpus",
+            "linguistic resource",
+            "data set"
+          ],
+          "iri": "Entity-non-parallel_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "non-parallel corpus",
+          "local_types": [
+            "data set",
+            "linguistic resource"
+          ],
+          "iri": "Entity-non-parallel_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.69677734375
+    },
+    "Entity-small_parallel_corpus": {
+      "node_id": "small_parallel_corpus",
+      "disambiguation_index": 0,
+      "label": "small parallel corpus",
+      "aliases": [
+        "small parallel corpus"
+      ],
+      "types": [
+        "corpus",
+        "parallel corpus"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A small parallel corpus is a collection of texts in two or more languages that are aligned at the sentence or phrase level, typically used for training and evaluating machine translation systems.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "small parallel corpus",
+          "local_types": [
+            "corpus",
+            "parallel corpus"
+          ],
+          "iri": "Entity-small_parallel_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.681640625
+    },
+    "Entity-translation": {
+      "node_id": "translation",
+      "disambiguation_index": 0,
+      "label": "translations",
+      "aliases": [
+        "translations"
+      ],
+      "types": [
+        "translation",
+        "language process",
+        "text transformation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Translations refer to pairs of sentences that are equivalent in meaning across different languages, which can be identified using a maximum entropy classifier in the context of parallel sentence discovery.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "translations",
+          "local_types": [
+            "translation",
+            "language process",
+            "text transformation"
+          ],
+          "iri": "Entity-translation-Mention-1"
+        }
+      ],
+      "relevance": 0.67822265625
+    },
+    "Entity-very_small_parallel_corpus": {
+      "node_id": "very_small_parallel_corpus",
+      "disambiguation_index": 0,
+      "label": "very small parallel corpus",
+      "aliases": [
+        "a very small parallel corpus",
+        "very small parallel corpus"
+      ],
+      "types": [
+        "parallel data",
+        "parallel corpus",
+        "corpus"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A very small parallel corpus is a limited collection of text data that contains aligned translations of the same content in multiple languages, typically used for training or evaluating machine translation systems.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "very small parallel corpus",
+          "local_types": [
+            "corpus",
+            "parallel data"
+          ],
+          "iri": "Entity-very_small_parallel_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a very small parallel corpus",
+          "local_types": [
+            "corpus",
+            "parallel corpus"
+          ],
+          "iri": "Entity-very_small_parallel_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.671875
+    },
+    "Entity-parallel_corpus": {
+      "node_id": "parallel_corpus",
+      "disambiguation_index": 0,
+      "label": "parallel corpus",
+      "aliases": [
+        "parallel corpus"
+      ],
+      "types": [
+        "data source",
+        "text corpus",
+        "corpus",
+        "linguistic resource",
+        "data set"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A parallel corpus is a collection of texts that are translated into multiple languages, aligned at the sentence or segment level, and used for various linguistic and computational purposes, such as machine translation and language learning.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "parallel corpus",
+          "local_types": [
+            "data source",
+            "text corpus",
+            "corpus",
+            "linguistic resource",
+            "data set"
+          ],
+          "iri": "Entity-parallel_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.66943359375
+    },
+    "Entity-large_non-parallel_corpus": {
+      "node_id": "large_non-parallel_corpus",
+      "disambiguation_index": 0,
+      "label": "large non-parallel corpus",
+      "aliases": [
+        "large non-parallel corpus",
+        "a large non-parallel corpus"
+      ],
+      "types": [
+        "corpus",
+        "non-parallel data",
+        "non-parallel corpus"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A large non-parallel corpus is a substantial collection of text data that consists of documents in one language without corresponding translations in another language, used for various linguistic and computational tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "large non-parallel corpus",
+          "local_types": [
+            "non-parallel corpus",
+            "non-parallel data",
+            "corpus"
+          ],
+          "iri": "Entity-large_non-parallel_corpus-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a large non-parallel corpus",
+          "local_types": [
+            "corpus",
+            "non-parallel corpus"
+          ],
+          "iri": "Entity-large_non-parallel_corpus-Mention-2"
+        }
+      ],
+      "relevance": 0.6572265625
+    },
+    "Entity-translation_of_each_other": {
+      "node_id": "translation_of_each_other",
+      "disambiguation_index": 0,
+      "label": "translations of each other",
+      "aliases": [
+        "translations of each other"
+      ],
+      "types": [
+        "translation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'translations of each other' refers to pairs of sentences that convey the same meaning in different languages, allowing for the identification of parallel data in non-parallel corpora.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "translations of each other",
+          "local_types": [
+            "translation"
+          ],
+          "iri": "Entity-translation_of_each_other-Mention-1"
+        }
+      ],
+      "relevance": 0.64501953125
+    },
+    "Entity-parallel_data": {
+      "node_id": "parallel_data",
+      "disambiguation_index": 0,
+      "label": "parallel data",
+      "aliases": [
+        "parallel data"
+      ],
+      "types": [
+        "data",
+        "data type",
+        "linguistic resource"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Parallel data refers to a type of linguistic resource that consists of texts in two or more languages that are aligned at the sentence or segment level, allowing for comparative analysis and translation tasks.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "parallel data",
+          "local_types": [
+            "data",
+            "data type",
+            "linguistic resource"
+          ],
+          "iri": "Entity-parallel_data-Mention-1"
+        }
+      ],
+      "relevance": 0.63671875
+    },
+    "Entity-maximum_entropy_classifier": {
+      "node_id": "maximum_entropy_classifier",
+      "disambiguation_index": 0,
+      "label": "maximum entropy classifier",
+      "aliases": [
+        "a maximum entropy classifier",
+        "maximum entropy classifier"
+      ],
+      "types": [
+        "algorithm",
+        "machine learning model",
+        "classifier"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A maximum entropy classifier is a statistical model used in machine learning that predicts outcomes based on the principle of maximizing entropy, ensuring that the model is as unbiased as possible given the constraints of the training data.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "maximum entropy classifier",
+          "local_types": [
+            "algorithm",
+            "machine learning model",
+            "classifier"
+          ],
+          "iri": "Entity-maximum_entropy_classifier-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "a maximum entropy classifier",
+          "local_types": [
+            "classifier"
+          ],
+          "iri": "Entity-maximum_entropy_classifier-Mention-2"
+        }
+      ],
+      "relevance": 0.62548828125
+    },
+    "Entity-100000_word": {
+      "node_id": "100000_word",
+      "disambiguation_index": 0,
+      "label": "100,000 words",
+      "aliases": [
+        "100,000 words"
+      ],
+      "types": [
+        "quantity",
+        "words",
+        "measurement"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "100,000 words refers to the size of a small parallel corpus that can be used to build a good-quality machine translation system.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "100,000 words",
+          "local_types": [
+            "quantity",
+            "words",
+            "measurement"
+          ],
+          "iri": "Entity-100000_word-Mention-1"
+        }
+      ],
+      "relevance": 0.6220703125
+    },
+    "Entity-resource": {
+      "node_id": "resource",
+      "disambiguation_index": 0,
+      "label": "resources",
+      "aliases": [
+        "resources"
+      ],
+      "types": [
+        "data resources",
+        "linguistic resources"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'resources' refers to the linguistic data and parallel corpora that are necessary for training machine translation systems, particularly in scenarios where such data is limited.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "resources",
+          "local_types": [
+            "data resources",
+            "linguistic resources"
+          ],
+          "iri": "Entity-resource-Mention-1"
+        }
+      ],
+      "relevance": 0.61083984375
+    },
+    "Entity-state-of-the-art_statistical_machine_translation_system": {
+      "node_id": "state-of-the-art_statistical_machine_translation_system",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art statistical machine translation system",
+      "aliases": [
+        "state-of-the-art statistical machine translation system"
+      ],
+      "types": [
+        "system",
+        "machine translation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A state-of-the-art statistical machine translation system is an advanced computational framework that utilizes statistical methods to automatically translate text from one language to another with high accuracy and efficiency.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "state-of-the-art statistical machine translation system",
+          "local_types": [
+            "system",
+            "machine translation"
+          ],
+          "iri": "Entity-state-of-the-art_statistical_machine_translation_system-Mention-1"
+        }
+      ],
+      "relevance": 0.6015625
+    },
+    "Entity-performance": {
+      "node_id": "performance",
+      "disambiguation_index": 0,
+      "label": "performance",
+      "aliases": [
+        "performance"
+      ],
+      "types": [
+        "metric",
+        "evaluation criterion"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In this context, 'performance' refers to the effectiveness or efficiency of a state-of-the-art statistical machine translation system, as measured by the quality of the extracted parallel data.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "performance",
+          "local_types": [
+            "metric",
+            "evaluation criterion"
+          ],
+          "iri": "Entity-performance-Mention-1"
+        }
+      ],
+      "relevance": 0.59130859375
+    },
+    "Entity-newspaper_corpus": {
+      "node_id": "newspaper_corpus",
+      "disambiguation_index": 0,
+      "label": "newspaper corpora",
+      "aliases": [
+        "newspaper corpora"
+      ],
+      "types": [
+        "data source",
+        "text corpus",
+        "textual resource",
+        "corpus",
+        "data"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Newspaper corpora refer to collections of text data derived from newspapers, which are used for linguistic research, natural language processing, and other analytical purposes.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "newspaper corpora",
+          "local_types": [
+            "data source",
+            "text corpus",
+            "textual resource",
+            "corpus",
+            "data"
+          ],
+          "iri": "Entity-newspaper_corpus-Mention-1"
+        }
+      ],
+      "relevance": 0.578125
+    },
+    "Entity-good-quality_mt_system": {
+      "node_id": "good-quality_mt_system",
+      "disambiguation_index": 0,
+      "label": "good-quality MT system",
+      "aliases": [
+        "a good-quality MT system",
+        "good-quality MT system"
+      ],
+      "types": [
+        "system",
+        "machine translation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A good-quality MT system is a machine translation system that produces accurate and fluent translations from one language to another, typically utilizing various linguistic and computational techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "good-quality MT system",
+          "local_types": [
+            "system",
+            "machine translation"
+          ],
+          "iri": "Entity-good-quality_mt_system-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "a good-quality MT system",
+          "local_types": [
+            "system",
+            "machine translation"
+          ],
+          "iri": "Entity-good-quality_mt_system-Mention-2"
+        }
+      ],
+      "relevance": 0.57470703125
+    },
+    "Entity-the_performance_of_a_state-of-the-art_statistical_machine_translation_system": {
+      "node_id": "the_performance_of_a_state-of-the-art_statistical_machine_translation_system",
+      "disambiguation_index": 0,
+      "label": "the performance of a state-of-the-art statistical machine translation system",
+      "aliases": [
+        "the performance of a state-of-the-art statistical machine translation system"
+      ],
+      "types": [
+        "performance",
+        "system",
+        "machine translation"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The performance of a state-of-the-art statistical machine translation system refers to the effectiveness and quality of translation outputs produced by an advanced machine translation system that utilizes statistical methods to translate text between languages.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the performance of a state-of-the-art statistical machine translation system",
+          "local_types": [
+            "performance",
+            "system",
+            "machine translation"
+          ],
+          "iri": "Entity-the_performance_of_a_state-of-the-art_statistical_machine_translation_system-Mention-1"
+        }
+      ],
+      "relevance": 0.560546875
+    },
+    "Entity-statistical_machine_translation_system": {
+      "node_id": "statistical_machine_translation_system",
+      "disambiguation_index": 0,
+      "label": "statistical machine translation system",
+      "aliases": [
+        "statistical machine translation system"
+      ],
+      "types": [
+        "machine translation system",
+        "system",
+        "software",
+        "machine translation",
+        "technology"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical machine translation system is a type of software that uses statistical models to automatically translate text from one language to another.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "statistical machine translation system",
+          "local_types": [
+            "machine translation system",
+            "system",
+            "software",
+            "machine translation",
+            "technology"
+          ],
+          "iri": "Entity-statistical_machine_translation_system-Mention-1"
+        }
+      ],
+      "relevance": 0.556640625
+    },
+    "Entity-mt_system": {
+      "node_id": "mt_system",
+      "disambiguation_index": 0,
+      "label": "MT system",
+      "aliases": [
+        "MT system"
+      ],
+      "types": [
+        "technology",
+        "machine translation system",
+        "system"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An MT system is a technology designed to automatically translate text from one language to another using computational methods.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "MT system",
+          "local_types": [
+            "technology",
+            "machine translation system",
+            "system"
+          ],
+          "iri": "Entity-mt_system-Mention-1"
+        }
+      ],
+      "relevance": 0.55615234375
+    },
+    "Entity-language_pair": {
+      "node_id": "language_pair",
+      "disambiguation_index": 0,
+      "label": "language pairs",
+      "aliases": [
+        "language pairs"
+      ],
+      "types": [
+        "linguistic concept",
+        "linguistic construct",
+        "language combination",
+        "linguistic entities",
+        "language pair",
+        "language relationship"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Language pairs refer to combinations of two different languages that are used together for translation, communication, or linguistic analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "language pairs",
+          "local_types": [
+            "linguistic concept",
+            "linguistic construct",
+            "language combination",
+            "linguistic entities",
+            "language pair",
+            "language relationship"
+          ],
+          "iri": "Entity-language_pair-Mention-1"
+        }
+      ],
+      "relevance": 0.5244140625
+    },
+    "Entity-extracted_data": {
+      "node_id": "extracted_data",
+      "disambiguation_index": 0,
+      "label": "extracted data",
+      "aliases": [
+        "extracted data"
+      ],
+      "types": [
+        "data",
+        "information"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Extracted data refers to information that has been obtained and processed from a source for analysis or use in various applications.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "extracted data",
+          "local_types": [
+            "data",
+            "information"
+          ],
+          "iri": "Entity-extracted_data-Mention-1"
+        }
+      ],
+      "relevance": 0.453857421875
+    },
+    "Entity-sentence": {
+      "node_id": "sentence",
+      "disambiguation_index": 0,
+      "label": "sentences",
+      "aliases": [
+        "sentences"
+      ],
+      "types": [
+        "linguistic unit",
+        "text"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Sentences are linguistic units that consist of a group of words expressing a complete thought, typically containing a subject and a predicate.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "sentences",
+          "local_types": [
+            "linguistic unit"
+          ],
+          "iri": "Entity-sentence-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "sentences",
+          "local_types": [
+            "text",
+            "linguistic unit"
+          ],
+          "iri": "Entity-sentence-Mention-2"
+        }
+      ],
+      "relevance": 0.45361328125
+    },
+    "Entity-quality_of_the_extracted_data": {
+      "node_id": "quality_of_the_extracted_data",
+      "disambiguation_index": 0,
+      "label": "quality of the extracted data",
+      "aliases": [
+        "quality of the extracted data",
+        "the quality of the extracted data"
+      ],
+      "types": [
+        "quality",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The quality of the extracted data refers to the accuracy, reliability, and relevance of the information obtained from a data extraction process.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "quality of the extracted data",
+          "local_types": [
+            "quality",
+            "data"
+          ],
+          "iri": "Entity-quality_of_the_extracted_data-Mention-1"
+        },
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "the quality of the extracted data",
+          "local_types": [
+            "quality",
+            "data"
+          ],
+          "iri": "Entity-quality_of_the_extracted_data-Mention-2"
+        }
+      ],
+      "relevance": 0.444091796875
+    },
+    "Entity-chinese": {
+      "node_id": "chinese",
+      "disambiguation_index": 0,
+      "label": "Chinese",
+      "aliases": [
+        "Chinese"
+      ],
+      "types": [
+        "natural language",
+        "nationality",
+        "national language",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "Chinese refers to the language spoken by the people of China, which is also used to denote the nationality of individuals from China.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Chinese",
+          "local_types": [
+            "natural language",
+            "nationality",
+            "national language",
+            "language"
+          ],
+          "iri": "Entity-chinese-Mention-1"
+        }
+      ],
+      "relevance": 0.411376953125
+    },
+    "Entity-arabic": {
+      "node_id": "arabic",
+      "disambiguation_index": 0,
+      "label": "Arabic",
+      "aliases": [
+        "Arabic"
+      ],
+      "types": [
+        "natural language",
+        "nationality",
+        "national language",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Arabic refers to a Semitic language that is widely spoken in the Arab world and serves as the national language of many countries in the Middle East and North Africa.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Arabic",
+          "local_types": [
+            "natural language",
+            "nationality",
+            "national language",
+            "language"
+          ],
+          "iri": "Entity-arabic-Mention-1"
+        }
+      ],
+      "relevance": 0.40087890625
+    },
+    "Entity-scarce_resource": {
+      "node_id": "scarce_resource",
+      "disambiguation_index": 0,
+      "label": "scarce resources",
+      "aliases": [
+        "scarce resources"
+      ],
+      "types": [
+        "resource availability",
+        "resources",
+        "data limitation",
+        "resource"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Scarce resources refer to limited or insufficient supplies of materials, data, or assets that are necessary for a particular purpose or activity.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "scarce resources",
+          "local_types": [
+            "resource availability",
+            "resources",
+            "data limitation",
+            "resource"
+          ],
+          "iri": "Entity-scarce_resource-Mention-1"
+        }
+      ],
+      "relevance": 0.398681640625
+    },
+    "Entity-english": {
+      "node_id": "english",
+      "disambiguation_index": 0,
+      "label": "English",
+      "aliases": [
+        "English"
+      ],
+      "types": [
+        "natural language",
+        "nationality",
+        "national language",
+        "language"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "English is a West Germanic language that is the primary language spoken in England and is widely used as a global lingua franca.",
+      "mentions": [
+        {
+          "reference": "Paper-67-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "English",
+          "local_types": [
+            "natural language",
+            "nationality",
+            "national language",
+            "language"
+          ],
+          "iri": "Entity-english-Mention-1"
+        }
+      ],
+      "relevance": 0.39501953125
+    }
+  },
+  "summary": "We present a novel method for discovering parallel sentences in comparable , non-parallel corpora . We train a maximum entropy classifier that , given a pair of sentences , can reliably determine whether or not they are translations of each other . Using this approach , we extract parallel data from large Chinese , Arabic , and English non-parallel newspaper corpora . We evaluate the quality of the extracted data by showing that it improves the performance of a state-of-the-art statistical machine translation system . We also show that a good-quality MT system can be built from scratch by starting with a very small parallel corpus -LRB- 100,000 words -RRB- and exploiting a large non-parallel corpus . Thus , our method can be applied with great benefit to language pairs for which only scarce resources are available .",
+  "triples": [
+    [
+      "Entity-method",
+      "Predicate-is_for_discovering",
+      "Entity-parallel_sentence"
+    ],
+    [
+      "Entity-method",
+      "Predicate-is_applied_to",
+      "Entity-comparable__non-parallel_corpus"
+    ],
+    [
+      "Entity-method",
+      "Predicate-discovers",
+      "Entity-parallel_sentence"
+    ],
+    [
+      "Entity-maximum_entropy_classifier",
+      "Predicate-can_determine",
+      "Entity-translation_of_each_other"
+    ],
+    [
+      "Entity-maximum_entropy_classifier",
+      "Predicate-given",
+      "Entity-pair_of_sentence"
+    ],
+    [
+      "Entity-maximum_entropy_classifier",
+      "Predicate-determines",
+      "Entity-translation_of_each_other"
+    ],
+    [
+      "Entity-method",
+      "Predicate-extracts",
+      "Entity-parallel_data"
+    ],
+    [
+      "Entity-method",
+      "Predicate-extracts",
+      "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus"
+    ],
+    [
+      "Entity-quality_of_the_extracted_data",
+      "Predicate-improves",
+      "Entity-the_performance_of_a_state-of-the-art_statistical_machine_translation_system"
+    ],
+    [
+      "Entity-extracted_data",
+      "Predicate-evaluates",
+      "Entity-quality_of_the_extracted_data"
+    ],
+    [
+      "Entity-extracted_data",
+      "Predicate-improves",
+      "Entity-performance"
+    ],
+    [
+      "Entity-good-quality_mt_system",
+      "Predicate-can_be_built_from",
+      "Entity-very_small_parallel_corpus"
+    ],
+    [
+      "Entity-good-quality_mt_system",
+      "Predicate-can_be_built_from",
+      "Entity-small_parallel_corpus"
+    ],
+    [
+      "Entity-good-quality_mt_system",
+      "Predicate-can_be_built_from",
+      "Entity-parallel_corpus"
+    ],
+    [
+      "Entity-good-quality_mt_system",
+      "Predicate-exploits",
+      "Entity-large_non-parallel_corpus"
+    ],
+    [
+      "Entity-good-quality_mt_system",
+      "Predicate-exploits",
+      "Entity-non-parallel_corpus"
+    ],
+    [
+      "Entity-method",
+      "Predicate-can_be_applied_to",
+      "Entity-language_pair"
+    ],
+    [
+      "Entity-method",
+      "Predicate-can_be_applied_with_great_benefit_to",
+      "Entity-language_pair"
+    ],
+    [
+      "Entity-language_pair",
+      "Predicate-are_available_with",
+      "Entity-scarce_resource"
+    ],
+    [
+      "Entity-method",
+      "Predicate-discovering",
+      "Entity-parallel_sentence"
+    ],
+    [
+      "Entity-method",
+      "Predicate-extracts_parallel_data_from",
+      "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus"
+    ],
+    [
+      "Entity-large_chinese__arabic__and_english_non-parallel_newspaper_corpus",
+      "Predicate-extracts",
+      "Entity-parallel_sentence"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-very_small_parallel_corpus",
+      "skos:broader",
+      "Entity-small_parallel_corpus"
+    ],
+    [
+      "Entity-parallel_sentence",
+      "skos:broader",
+      "Entity-sentence"
+    ],
+    [
+      "Entity-very_small_parallel_corpus",
+      "skos:broader",
+      "Entity-parallel_corpus"
+    ],
+    [
+      "Entity-large_non-parallel_corpus",
+      "skos:broader",
+      "Entity-comparable__non-parallel_corpus"
+    ],
+    [
+      "Entity-mt_system",
+      "skos:broader",
+      "Entity-statistical_machine_translation_system"
+    ],
+    [
+      "Entity-translation_of_each_other",
+      "skos:broader",
+      "Entity-translation"
+    ],
+    [
+      "Entity-mt_system",
+      "skos:broader",
+      "Entity-state-of-the-art_statistical_machine_translation_system"
+    ],
+    [
+      "Entity-small_parallel_corpus",
+      "skos:broader",
+      "Entity-parallel_corpus"
+    ],
+    [
+      "Entity-very_small_parallel_corpus",
+      "skos:broader",
+      "Entity-parallel_data"
+    ],
+    [
+      "Entity-large_non-parallel_corpus",
+      "skos:broader",
+      "Entity-non-parallel_corpus"
+    ],
+    [
+      "Entity-scarce_resource",
+      "skos:broader",
+      "Entity-resource"
+    ],
+    [
+      "Entity-the_performance_of_a_state-of-the-art_statistical_machine_translation_system",
+      "skos:broader",
+      "Entity-performance"
+    ],
+    [
+      "Entity-a_novel_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-statistical_machine_translation_system",
+      "skos:broader",
+      "Entity-state-of-the-art_statistical_machine_translation_system"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_for_discovering": {
+      "label": "is for discovering",
+      "description": "The predicate 'is for discovering' indicates that the subject serves a purpose or function related to the act of uncovering, identifying, or learning about the object. It implies that the subject is designed, intended, or utilized in a way that facilitates the exploration or revelation of the characteristics, properties, or existence of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_applied_to": {
+      "label": "is applied to",
+      "description": "The predicate 'is applied to' indicates a relationship where the subject, typically a method, technique, or process, is utilized or implemented in relation to the object, which represents a specific context, dataset, or scenario. This connection implies that the subject serves a functional role in addressing, analyzing, or interacting with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-discovers": {
+      "label": "discovers",
+      "description": "The predicate 'discovers' indicates an action where the subject identifies, uncovers, or finds out something new or previously unknown about the object. It implies a process of exploration or investigation that leads to the revelation of information or insights regarding the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_determine": {
+      "label": "can determine",
+      "description": "The predicate 'can determine' indicates the ability of the subject to ascertain, identify, or establish the nature, characteristics, or relationship of the object. It implies a capacity for analysis or decision-making that leads to a conclusion about the object in question.",
+      "disambiguation_index": 0
+    },
+    "Predicate-given": {
+      "label": "given",
+      "description": "The predicate 'given' establishes a relationship where the subject is provided with or is in possession of the object, indicating that the object serves as a condition, context, or input relevant to the subject's function or operation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-determines": {
+      "label": "determines",
+      "description": "The predicate 'determines' indicates a relationship where the subject has a defining influence or authority over the object, establishing a condition or outcome that is essential or necessary for the existence, nature, or characteristics of the object. In this context, the subject plays a crucial role in shaping, guiding, or controlling the properties or state of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-extracts": {
+      "label": "extracts",
+      "description": "The predicate 'extracts' indicates an action performed by the subject that involves obtaining or deriving specific information, elements, or components from the object. In this context, the subject is typically a process, technique, or tool that systematically retrieves or isolates the relevant data or features from the object, which represents a broader set of information or resources.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improves": {
+      "label": "improves",
+      "description": "The predicate 'improves' indicates a positive enhancement or increase in the effectiveness, quality, or capability of the object as a result of the influence or change brought about by the subject. It establishes a causal relationship where the subject contributes to a better state or condition of the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-evaluates": {
+      "label": "evaluates",
+      "description": "The predicate 'evaluates' signifies an assessment or judgment process where the subject performs an analysis or appraisal of the object. It indicates that the subject is determining the value, effectiveness, or quality of the object based on certain criteria or standards.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_built_from": {
+      "label": "can be built from",
+      "description": "The predicate 'can be built from' indicates a relationship where the subject is constructed or developed using the resources, components, or materials specified by the object. It implies that the object serves as a foundational element or necessary input that enables the creation or formation of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-exploits": {
+      "label": "exploits",
+      "description": "The predicate 'exploits' indicates that the subject utilizes or takes advantage of the object in a manner that enhances its functionality, effectiveness, or performance. It implies a strategic or beneficial use of the object by the subject to achieve a specific goal or outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_applied_to": {
+      "label": "can be applied to",
+      "description": "The predicate 'can be applied to' indicates a relationship where the subject is capable of being utilized or implemented in relation to the object. It suggests that the subject has relevance or effectiveness when used in conjunction with the object, highlighting a functional or operational connection between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_applied_with_great_benefit_to": {
+      "label": "can be applied with great benefit to",
+      "description": "The predicate 'can be applied with great benefit to' indicates that the subject possesses the capability or suitability to be utilized in a manner that yields significant advantages or positive outcomes when directed towards the object. This suggests a strong relationship where the subject enhances or improves the effectiveness, efficiency, or overall results related to the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_available_with": {
+      "label": "are available with",
+      "description": "The predicate 'are available with' indicates a relationship where the subject possesses or has access to the object, suggesting that the object is a resource, tool, or condition that can be utilized or is present in conjunction with the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-discovering": {
+      "label": "discovering",
+      "description": "The predicate 'discovering' indicates the action of finding out or uncovering information, insights, or entities that were previously unknown or unrecognized. In the context of the subject and object, it connects the subject, which represents a means or approach (such as a method), to the object, which represents the new knowledge or entities being revealed (such as parallel sentences). This relationship emphasizes the process of exploration and revelation inherent in the act of discovering.",
+      "disambiguation_index": 0
+    },
+    "Predicate-extracts_parallel_data_from": {
+      "label": "extracts parallel data from",
+      "description": "The predicate 'extracts parallel data from' indicates a process or action performed by the subject, which involves retrieving or identifying data that exhibits parallelism or similarity from the specified object. The object typically represents a collection of data sources, such as corpora or datasets, from which the subject aims to derive relevant parallel data for analysis or further processing.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates a hierarchical relationship between the subject and the object, where the subject represents a more specific instance or category, and the object represents a more general or inclusive category that encompasses the subject. This relationship implies that the characteristics or properties of the subject are also applicable to the object, thereby situating the subject within a larger conceptual framework.",
+      "disambiguation_index": 0
+    }
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "iri": "Paper-Modeling_Actuations_in_BCI-O_A_Context-based_Integration_of_SOSA_and_IoT-O",
+  "title": "Modeling Actuations in BCI-O: A Context-based Integration of SOSA and IoT-O",
+  "authors": [
+    "Sergio Jos\u00e9 Rodr\u00edguez M\u00e9ndez"
+  ],
+  "keywords": [
+    "Brain-Computer Interaction",
+    "BCI Ontology",
+    "Actuation Model",
+    "Context-based",
+    "Internet of Things",
+    "Semantic Interoperability"
+  ],
+  "sections": [
+    {
+      "iri": "Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-1",
+              "text": "Recent technological developments in Brain-Computer Interfaces (BCI) will largely enable BCI as a powerful, natural and intuitive mainstream human-computer interaction (HCI) in real-world activities, especially throughout actuators connected to the Internet."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-2",
+              "text": "As a type of sensor-actuator system, BCI will integrate novel interfaces that will be fully interoperating with IoT-based systems."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-3",
+              "text": "An ontological metadata overlay for BCI systems in real-world applications is defined in the BCI Ontology (BCI-O), which formalizes and integrates BCI-domain-specific Sense and Actuation Models along with a novel Context Model for describing any kind of real/virtual environments."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-4",
+              "text": "This paper presents the design principle of BCI-O's Actuation Model, which integrates SOSA and SAN (IoT-O) axioms for actuations and actuators along with the BCI-O's Context Model."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-5",
+              "text": "This model will become relevant in the degree as context-based semantic interoperability will become a core pre-requisite for any context-aware BCI actuation application with real-time collaboration in IoT environments."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-2",
+      "subtitle": "Introduction",
+      "paragraphs": [
+        {
+          "iri": "Section-2-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-1",
+              "text": "Brain-Computer Interfaces (BCI) are systems that determine a user's brain states by collecting and analyzing her neurophysiological signals (which are highly situational, individual dependent, and non-stationary in characteristics) and then actuating specific responses, for example to drive her wheelchair autonomously."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-2",
+              "text": "Key developments in wearable sensors, wireless networks, and distributed computing will largely enable BCI as a powerful, natural and intuitive mainstream human-computer interaction (HCI) in real-world activities."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-3",
+              "text": "In a not too far future, BCI will be regarded as the ultimate HCI system, integrating novel interfaces that will be fully interoperating with Internet-of-Things- (IoT)-based systems."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-4",
+              "text": "In this scenario, context-based semantic interoperability will be a core pre-requisite for any context-aware BCI application with real-time collaboration in IoT environments."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-5",
+              "text": "The BCI Ontology (BCI-O) [1] is the first OWL 2 ontology that formalizes relevant metadata for BCI data capture activities by integrating BCI-domain-specific Sense and Actuation Models along with a novel Context Model for describing any kind of real/virtual environments."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-6",
+              "text": "Due that BCI is a type of sensor-actuator system, as an ontological metadata overlay for BCI systems in real-world applications, BCI-O is properly aligned with the W3C Semantic Sensor Network (SSN) and Sensor, Observation, Sample, and Actuator (SOSA) [2] upper ontologies."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-7",
+              "text": "Because many BCI devices, especially actuators, are connected to the Internet, BCI-O is also aligned with the core actuation semantic model for the IoT ontology (IoT-O) [3]: the Semantic Actuator Network (SAN) [5]."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-8",
+              "text": "BCI-O makes an important contribution: the introduction of the concepts of context and contextual relations [1]."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-9",
+              "text": "This puts the architectural description of any context as a first-class semantic model that enables BCI applications to be context-aware, laying the foundations of meaningful interactions with IoT-based systems."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-10",
+              "text": "This paper presents the structure and design principle of BCI-O's Actuation Model, which integrates SOSA and SAN (IoT-O) axioms for actuations and actuators along with the BCI-O's Context Model."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-11",
+              "text": "A use case for this model is explained in a subsequent section."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-12",
+              "text": "Lastly, the main contribution is summarized in the conclusions."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-3",
+      "subtitle": "Actuations in the BCI Ontology",
+      "paragraphs": [
+        {
+          "iri": "Section-3-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-1",
+              "text": "BCI-O origins, purpose, core models, global overview, public access (spec and examples), design principles, and applications are described in [1]."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-2",
+              "text": "At its core, BCI-O defines the conceptual components in any BCI through a bidirectional subject-context interaction model (a BCI session with sensors/actuators): a Sense Model (context to subject) and an Actuation Model (subject to context), as depicted in Fig. 1."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-3",
+              "text": "Its Actuation Model is based on the"
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-1",
+              "text": "Two distinct conceptual domains are found in this interaction model: BCI domain (observations, actuations, and interactions) and context domain (surroundings)."
+            },
+            {
+              "iri": "Section-3-Paragraph-2-Sentence-2",
+              "text": "Following, a brief description of BCI-O's core modules related to actuations are presented:"
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-1",
+              "text": "Session: represents the interaction between a bci:Subject and a bci:Context while performing (bci:Session) a single bci:Activity."
+            },
+            {
+              "iri": "Section-3-Paragraph-3-Sentence-2",
+              "text": "A bci:Session groups both observations (multimodal records: bci:Record) and actuations (bci:Actuation)."
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-4",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-1",
+              "text": "Context: captures the architectural description of any physical/virtual environment."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-2",
+              "text": "Its conceptual components enable the structural, functional, and temporal complexity definitions of any environment (Fig. 4)."
+            },
+            {
+              "iri": "Section-3-Paragraph-4-Sentence-3",
+              "text": "Under the bci:Context.Event classification, BCI-O defines three key concepts that bind the contextual integration (including with its Actuation Model): bci:StimulusEvent (a stimulus to the bci:Subject), bci:Action (issued by a bci:Subject while performing a bci:Activity), and bci:ActuationEvent (an effect -change of state- in bci:Context as the result of bci:Actuation)."
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-5",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-5-Sentence-1",
+              "text": "Observations: describes the contextual input data and events to the subject [3]."
+            },
+            {
+              "iri": "Section-3-Paragraph-5-Sentence-2",
+              "text": "Specific concepts aligned to the SOSA/SSN axioms [2] are defined for modeling observations."
+            },
+            {
+              "iri": "Section-3-Paragraph-5-Sentence-3",
+              "text": "These are related to bci:Record (a single observation, and input to an actuator), bci:Modality types, aspects (bci:Aspect), channeling specs (bci:ChannelingSpec), sensor output (bci:RecordedData), and bci:StimulusEvent."
+            }
+          ]
+        },
+        {
+          "iri": "Section-3-Paragraph-6",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-6-Sentence-1",
+              "text": "Actuation: integrated concepts aligned to the SOSA and SAN (IoT-O) axioms for modeling actuations and actuators."
+            },
+            {
+              "iri": "Section-3-Paragraph-6-Sentence-2",
+              "text": "This model depicts how the bci:Subject can interact with the bci:Context [3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-4",
+      "subtitle": "Actuations in the BCI Ontology",
+      "paragraphs": [
+        {
+          "iri": "Section-4-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-1",
+              "text": "This model was developed based on the following premises:"
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-2",
+              "text": "Aims to integrate and reconcile SOSA and SAN axioms for modeling actuations and actuators (Fig. 2 and Fig. 3)."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-3",
+              "text": "Follows closely the proposed Actuation-Actuator-Effect (AAE) ontology design pattern [4]: a core model for the IoT Ontology (IoT-O)1 [3] (Fig. 3)."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-1",
+              "text": "3.1 Core Abstractions"
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-2",
+              "text": "Actuation: Carries out a procedure to change the state of the context using an actuator."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-3",
+              "text": "The relationships from and to actuation and other concepts are the ones defined at [2]."
+            },
+            {
+              "iri": "Section-4-Paragraph-2-Sentence-4",
+              "text": "bci:Actuation is aligned to both sosa:Actuation and san:Actuation."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-1",
+              "text": "Actuation Event: Represents a transition (something that has changed from a state to a different one: actuation target) \u2500 a modification (impacted property, as a consequence of an actuation effect) \u2500 in the context as the result of an actuation (actuation result involves actuation event)."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-2",
+              "text": "From the context perspective, this concept is a context event (triggered by an actuator) that changes the impacted property of the actuation target."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-3",
+              "text": "bci:ActuationEvent is aligned to both bci:Context.Event and san:Effect."
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-4",
+              "text": "Following the AAE ODP [4], this concept is taken from the following relationships involving the san:Effect definition [5]:"
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-5",
+              "text": "san:Actuator - (triggers) -> san:Effect"
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-6",
+              "text": "san:Actuation - (involves) -> san:Effect"
+            },
+            {
+              "iri": "Section-4-Paragraph-3-Sentence-7",
+              "text": "san:Effect - (impacts) -> bci:ImpactedProperty"
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-4",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-1",
+              "text": "Actuation Result: It represents the result of an actuation [2], i.e. an entity representing the \u201ceffect\u201d of the actuation, which involves an actuation event."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-2",
+              "text": "bci:ActuationResult is aligned to both sosa:Result and san:ActuationValue."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-3",
+              "text": "Following the AAE ODP [4], this concept expands the following relationship:"
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-4",
+              "text": "san:Actuation - (involves) -> san:Effect"
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-5",
+              "text": "Actuation Target: Its modeling depiction is based on the composition of three concepts."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-6",
+              "text": "The first, as a sosa:FeatureOfInterest [2]: the thing (actuation target) whose property (impacted property) is being manipulated by an actuator."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-7",
+              "text": "The second, related from a sosa:Actuation via the property sosa:hasFeatureOfInterest [2]: a relation between an actuation and the entity (actuation target) whose property (an impacted property as a consequence of an actuation effect) was modified."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-8",
+              "text": "And the third one, a bci:Context.Object: a thing (object) in the contextual interaction of the bci:Session."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-9",
+              "text": "bci:ActuationTarget is aligned to both bci:Context.Object and sosa:FeatureOfInterest."
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-10",
+              "text": "Following the AAE ODP [4], this concept captures the definition of sosa:FeatureOfInterest from the following relation:"
+            },
+            {
+              "iri": "Section-4-Paragraph-4-Sentence-11",
+              "text": "bci:ImpactedProperty - (is property of) -> sosa:FeatureOfInterest"
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-5",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-1",
+              "text": "Actuator: A device that is used by, or implements, an actuation that changes the state of the context."
+            },
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-2",
+              "text": "According to [3], actuators are devices that transform an input signal into a physical output, making them the exact opposite of sensors."
+            },
+            {
+              "iri": "Section-4-Paragraph-5-Sentence-3",
+              "text": "bci:Actuator is aligned to both sosa:Actuator and san:Actuator."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-6",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-1",
+              "text": "Command: Represents a specific order (based on a bci:Record) to an actuator to perform an actuation."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-2",
+              "text": "Typically, it depicts an instruction (or signal) that causes an actuator to perform (executes) one of its basic functions, and thus, triggering an actuation."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-3",
+              "text": "A command defines the input for a set of actuators from a specific source: a set of bci:Record."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-4",
+              "text": "bci:Command is aligned to both dul:Method and san:ActuatorInput."
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-5",
+              "text": "Following the AAE ODP [4], this concept is based on the following definition:"
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-6",
+              "text": "[AAE::Actuator] - (AAE::consumes) -> [AAE::Input]"
+            },
+            {
+              "iri": "Section-4-Paragraph-6-Sentence-7",
+              "text": "bci:Actuator - (bci:executes) -> bci:Command"
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-7",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-7-Sentence-1",
+              "text": "Impacted Property: Represents an actuatable quality (property or characteristic) of an actuation target."
+            },
+            {
+              "iri": "Section-4-Paragraph-7-Sentence-2",
+              "text": "An actuator connects to an impacted property (as a consequence of an actuation effect) via the object property ssn:forProperty [2], i.e., an actuator triggers an actuation event that causes an effect (modification) on the actuation target: impacted property [4]."
+            },
+            {
+              "iri": "Section-4-Paragraph-7-Sentence-3",
+              "text": "bci:ImpactedProperty is aligned to sosa:ActuatableProperty."
+            },
+            {
+              "iri": "Section-4-Paragraph-7-Sentence-4",
+              "text": "Following the AAE ODP [4], this concept captures the definition of Impacted Property (linked to san:Effect) from the following relationships:"
+            },
+            {
+              "iri": "Section-4-Paragraph-7-Sentence-5",
+              "text": "san:Effect - (impacts) -> bci:ImpactedProperty"
+            },
+            {
+              "iri": "Section-4-Paragraph-7-Sentence-6",
+              "text": "bci:ImpactedProperty - (is property of) -> sosa:FeatureOfInterest"
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-8",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-8-Sentence-1",
+              "text": "3.2 Modeling Integration: BCI-O Context Model with SOSA and SAN Alignments"
+            },
+            {
+              "iri": "Section-4-Paragraph-8-Sentence-2",
+              "text": "As a broad application domain ontology for BCI activities, BCI-O integrates and refines some modeling considerations of the SOSA and SAN concepts regarding actuations and actuators."
+            },
+            {
+              "iri": "Section-4-Paragraph-8-Sentence-3",
+              "text": "The \u201ccontext-aware\u201d domain level concepts were aligned initially to SOSA/SSN."
+            },
+            {
+              "iri": "Section-4-Paragraph-8-Sentence-4",
+              "text": "Afterwards, they were integrated with proper alignments to SAN (IoT-O), following closely their axiomatization satisfiability."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-9",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-9-Sentence-1",
+              "text": "The main modeling integration was done with the actuation event alignment to san:Effect (or san:ActuatorOutput)."
+            },
+            {
+              "iri": "Section-4-Paragraph-9-Sentence-2",
+              "text": "san:Effect is defined in [5] as \u201cconcept bound to the definition of an actuator as an agent having an effect on the physical world."
+            },
+            {
+              "iri": "Section-4-Paragraph-9-Sentence-3",
+              "text": "Therefore, an effect is any kind of physical modification induced by an actuator\u201d."
+            },
+            {
+              "iri": "Section-4-Paragraph-9-Sentence-4",
+              "text": "In order to be more semantically precise, and based on the SOSA/SSN definitions aligned with Dolce-Ultralite (DUL) in [2] (Vertical Segmentation: DUL alignment module), the concept san:Effect is described distinctively by the following combined ontological notions along with BCI-O's Context Model:"
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-10",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-10-Sentence-1",
+              "text": "A happening that impacts a quality (dul:Quality), or property (ssn:Property), with the capability of an actuation to act on it (sosa:actsOnProperty), that is, a type of sosa:ActuatableProperty, i.e. the bci:ImpactedProperty."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-11",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-11-Sentence-1",
+              "text": "An event (dul:Event) triggered by an actuator, that modifies (changes) the physical world (actuation target): a type of bci:Context.Event; the actuation event."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-12",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-12-Sentence-1",
+              "text": "(An effect is seeing as...) Any kind (of an impacted property) of physical modification (an effect on the physical world \u2014 context) as the result of an actuation (an actuation result involves an actuation event), induced by an actuator (a characteristic of its nature, as an agent that has an effect on the context)."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-13",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-13-Sentence-1",
+              "text": "An actuation event is a bci:Context.Event triggered by an actuator that changes the state of the actuation target (which is a bci:Context.Object) (see Fig. 4)."
+            }
+          ]
+        },
+        {
+          "iri": "Section-4-Paragraph-14",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-14-Sentence-1",
+              "text": "Another inherited modeling perspective for BCI, comes from the definition of san:impacts object property: san:Effect - ( san:impacts ) -> oldssn:Property."
+            },
+            {
+              "iri": "Section-4-Paragraph-14-Sentence-2",
+              "text": "Also, BCI-O's alignment to SAN allows the following inferred relationship:"
+            },
+            {
+              "iri": "Section-4-Paragraph-14-Sentence-3",
+              "text": "bci:ActuationEvent - (\u00b7san:impacts\u00b7) -> bci:ImpactedProperty"
+            },
+            {
+              "iri": "Section-4-Paragraph-14-Sentence-4",
+              "text": "Last, in order to be consistent in the BCI-O's overall structure and intention, direct alignments to DUL were considered carefully evaluating the scope and constraints for each concept, which led to properly define class hierarchies and disjoint axioms, especially for its Actuation Model."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-5",
+      "subtitle": "Use Case: Automated Wheelchair Driving",
+      "paragraphs": [
+        {
+          "iri": "Section-5-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-1",
+              "text": "The following use case depicts how to define related BCI-O actuation concepts (its description and source code is available online in the spec's human-readable version [1])."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-2",
+              "text": "Its purpose is to use an actuator capable to control a wheelchair based on the input from a BCI/EEG record (obtained directly from the subject's head)."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-3",
+              "text": "In this use case, Alice is driving a wheelchair throughout a human interface composed of three major components: (1) an EEG sensor capable of reading brain signals, (2) a computing system capable to process and analyze (classify) the brain signals collected from the EEG sensor, and (3) an actuator capable to control the wheelchair's movement (such as direction and acceleration) based on the input from the EEG recordings."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-4",
+              "text": "The actuator is a device that implements the procedure (actuation) to control the wheelchair, which triggers a series of steps aimed to change the wheelchair's state, such as to decelerate its wheels."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-5",
+              "text": "The input to the actuator are the observed and processed brain signals that issue specific movement commands."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-6",
+              "text": "For example, the \u201cslow down\u201d command with the parameters (and values) of \u201cdirection\u201d (\u201cgo forward\u201d -no change in the direction-) and \u201cacceleration\u201d (-10.5 cm/s\u00b2 -change in the speed-)."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-7",
+              "text": "The modeled concepts involved in this scenario (see Fig.5), excluding those from the observation component (except EEG-Record and EEG-Device), are listed below:"
+            }
+          ]
+        },
+        {
+          "iri": "Section-5-Paragraph-2",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-1",
+              "text": "bci:Subject (1 individual = x1): \u201cAlice\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-2",
+              "text": "bci:Session (x1): \u201ca situation where the EEG recording and actuation happened\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-3",
+              "text": "bci:Activity (x1): \u201ccontrolling the automated wheelchair\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-4",
+              "text": "bci:Context (x1): \u201cat home\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-5",
+              "text": "bci:Context.Scene (x1): \u201cspecific indoors situation\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-6",
+              "text": "bci:EegRecord (x1): \u201cEEG observation that serves as the input of the actuations\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-7",
+              "text": "bci:EegDevice (x1): \u201cEEG device that made the EEG recordings\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-8",
+              "text": "bci:Command (x1): \u201cslow down\u201d, actuators' input from the EEG record."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-9",
+              "text": "bci:Actuator (2 individuals = x2): \u201cthe devices that perform the actuations\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-10",
+              "text": "bci:Actuation (x2): \u201cprocedures that change the state of the wheels via actuators\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-11",
+              "text": "bci:ImpactedProperty (x2): \u201cthe speed of the wheels (their state)\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-12",
+              "text": "bci:ActuationEvent (x2): \u201creduce the speed of wheels\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-13",
+              "text": "bci:ActuationResult (x2): \u201cslowing down\u201d (\u201ceffect of decelerating the wheels\u201d)."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-14",
+              "text": "bci:ActuationTarget (x2): \u201ctwo rear wheels\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-15",
+              "text": "bci:Context.Object (composite) (x1): \u201cwheelchair\u201d."
+            },
+            {
+              "iri": "Section-5-Paragraph-2-Sentence-16",
+              "text": "bci:Context.Method (x1): \u201cdeceleration of a wheel\u201d."
+            }
+          ]
+        },
+        {
+          "iri": "Section-5-Paragraph-3",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-1",
+              "text": "BCI-O's Actuation Model provides a mechanism to correlate the observed/analyzed raw data [1], with the contextual components that the subject interacts with, through actuators (IoT devices), identifying how the actuations affect the context."
+            },
+            {
+              "iri": "Section-5-Paragraph-3-Sentence-2",
+              "text": "This is useful in BCI context-aware applications to model how subjects use actuators and interact with the environment, for \u201cintelligent\u201d subject-context personalization."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-6",
+      "subtitle": "Conclusion",
+      "paragraphs": [
+        {
+          "iri": "Section-6-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-1",
+              "text": "BCI-O's Actuation Model integrates carefully both standard axiomatization models for actuations, developed by W3C/OGC [2] and IoT [3] [5] communities, based on its Context Model."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-2",
+              "text": "Thus, its structure follows closely the AAE ODP [4], while aligning to SOSA/SSN and SAN (IoT-O) concepts, based on contextual notions."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-3",
+              "text": "The SOSA-SAN integrated Actuation Model of BCI-O represents a major contribution to the IoT and BCI communities, especially because its structure includes contextual notions that enables its usage in context-aware BCI-IoT integrated applications."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-4",
+              "text": "Semantically-enabled BCIs will play a key role in the future \u201cInternet of Brains\u201d interoperating completely with IoT [6]."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-5",
+              "text": "Under this vision, where one could semantically model, interoperate and control real life objects throughout BCIs connected to the Internet, BCI-O's Actuation Model would become a core semantic structure that integrates BCI, IoT, and contextual concepts in real-world scenarios."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-6",
+              "text": "It is important noting that as part of the BCI-O's Actuation Model development, the author raised the issue to the W3C Spatial Data on the Web Working Group [7], regarding the mapping of SOSA/SSN to AAE ODP, due of their structural resemblance."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Recent technological developments in Brain-Computer Interfaces (BCI) will largely enable BCI as a powerful, natural and intuitive mainstream human-computer interaction (HCI) in real-world activities, especially throughout actuators connected to the Internet. As a type of sensor-actuator system, BCI will integrate novel interfaces that will be fully interoperating with IoT-based systems. An ontological metadata overlay for BCI systems in real-world applications is defined in the BCI Ontology (BCI-O), which formalizes and integrates BCI-domain-specific Sense and Actuation Models along with a novel Context Model for describing any kind of real/virtual environments. This paper presents the design principle of BCI-O's Actuation Model, which integrates SOSA and SAN (IoT-O) axioms for actuations and actuators along with the BCI-O's Context Model. This model will become relevant in the degree as context-based semantic interoperability will become a core pre-requisite for any context-aware BCI actuation application with real-time collaboration in IoT environments.\n\nBrain-Computer Interfaces (BCI) are systems that determine a user's brain states by collecting and analyzing her neurophysiological signals (which are highly situational, individual dependent, and non-stationary in characteristics) and then actuating specific responses, for example to drive her wheelchair autonomously. Key developments in wearable sensors, wireless networks, and distributed computing will largely enable BCI as a powerful, natural and intuitive mainstream human-computer interaction (HCI) in real-world activities. In a not too far future, BCI will be regarded as the ultimate HCI system, integrating novel interfaces that will be fully interoperating with Internet-of-Things- (IoT)-based systems. In this scenario, context-based semantic interoperability will be a core pre-requisite for any context-aware BCI application with real-time collaboration in IoT environments. The BCI Ontology (BCI-O) [1] is the first OWL 2 ontology that formalizes relevant metadata for BCI data capture activities by integrating BCI-domain-specific Sense and Actuation Models along with a novel Context Model for describing any kind of real/virtual environments. Due that BCI is a type of sensor-actuator system, as an ontological metadata overlay for BCI systems in real-world applications, BCI-O is properly aligned with the W3C Semantic Sensor Network (SSN) and Sensor, Observation, Sample, and Actuator (SOSA) [2] upper ontologies. Because many BCI devices, especially actuators, are connected to the Internet, BCI-O is also aligned with the core actuation semantic model for the IoT ontology (IoT-O) [3]: the Semantic Actuator Network (SAN) [5]. BCI-O makes an important contribution: the introduction of the concepts of context and contextual relations [1]. This puts the architectural description of any context as a first-class semantic model that enables BCI applications to be context-aware, laying the foundations of meaningful interactions with IoT-based systems. This paper presents the structure and design principle of BCI-O's Actuation Model, which integrates SOSA and SAN (IoT-O) axioms for actuations and actuators along with the BCI-O's Context Model. A use case for this model is explained in a subsequent section. Lastly, the main contribution is summarized in the conclusions.\n\nBCI-O origins, purpose, core models, global overview, public access (spec and examples), design principles, and applications are described in [1]. At its core, BCI-O defines the conceptual components in any BCI through a bidirectional subject-context interaction model (a BCI session with sensors/actuators): a Sense Model (context to subject) and an Actuation Model (subject to context), as depicted in Fig. 1. Its Actuation Model is based on the\n\nTwo distinct conceptual domains are found in this interaction model: BCI domain (observations, actuations, and interactions) and context domain (surroundings). Following, a brief description of BCI-O's core modules related to actuations are presented:\n\nSession: represents the interaction between a bci:Subject and a bci:Context while performing (bci:Session) a single bci:Activity. A bci:Session groups both observations (multimodal records: bci:Record) and actuations (bci:Actuation).\n\nContext: captures the architectural description of any physical/virtual environment. Its conceptual components enable the structural, functional, and temporal complexity definitions of any environment (Fig. 4). Under the bci:Context.Event classification, BCI-O defines three key concepts that bind the contextual integration (including with its Actuation Model): bci:StimulusEvent (a stimulus to the bci:Subject), bci:Action (issued by a bci:Subject while performing a bci:Activity), and bci:ActuationEvent (an effect -change of state- in bci:Context as the result of bci:Actuation).\n\nObservations: describes the contextual input data and events to the subject [3]. Specific concepts aligned to the SOSA/SSN axioms [2] are defined for modeling observations. These are related to bci:Record (a single observation, and input to an actuator), bci:Modality types, aspects (bci:Aspect), channeling specs (bci:ChannelingSpec), sensor output (bci:RecordedData), and bci:StimulusEvent.\n\nActuation: integrated concepts aligned to the SOSA and SAN (IoT-O) axioms for modeling actuations and actuators. This model depicts how the bci:Subject can interact with the bci:Context [3].\n\nThe model integrates SOSA and SAN axioms for actuations and actuators, following the Actuation-Actuator-Effect (AAE) ontology design pattern. Key concepts include: Actuation, which changes the context state using an actuator; Actuation Event, representing a transition in the context due to an actuation; Actuation Result, the effect of an actuation; Actuation Target, the entity whose property is modified; Actuator, a device that implements actuation; Command, an order to an actuator; and Impacted Property, a quality of the actuation target. The BCI-O Context Model aligns with SOSA and SAN, refining modeling considerations and ensuring semantic precision in the definitions of actuation events and their impacts on the physical world.\n\nThe following use case depicts how to define related BCI-O actuation concepts (its description and source code is available online in the spec's human-readable version [1]). Its purpose is to use an actuator capable to control a wheelchair based on the input from a BCI/EEG record (obtained directly from the subject's head). In this use case, Alice is driving a wheelchair throughout a human interface composed of three major components: (1) an EEG sensor capable of reading brain signals, (2) a computing system capable to process and analyze (classify) the brain signals collected from the EEG sensor, and (3) an actuator capable to control the wheelchair's movement (such as direction and acceleration) based on the input from the EEG recordings. The actuator is a device that implements the procedure (actuation) to control the wheelchair, which triggers a series of steps aimed to change the wheelchair's state, such as to decelerate its wheels. The input to the actuator are the observed and processed brain signals that issue specific movement commands. For example, the \u201cslow down\u201d command with the parameters (and values) of \u201cdirection\u201d (\u201cgo forward\u201d -no change in the direction-) and \u201cacceleration\u201d (-10.5 cm/s\u00b2 -change in the speed-). The modeled concepts involved in this scenario (see Fig.5), excluding those from the observation component (except EEG-Record and EEG-Device), are listed below:\n\nbci:Subject (1 individual = x1): \u201cAlice\u201d. bci:Session (x1): \u201ca situation where the EEG recording and actuation happened\u201d. bci:Activity (x1): \u201ccontrolling the automated wheelchair\u201d. bci:Context (x1): \u201cat home\u201d. bci:Context.Scene (x1): \u201cspecific indoors situation\u201d. bci:EegRecord (x1): \u201cEEG observation that serves as the input of the actuations\u201d. bci:EegDevice (x1): \u201cEEG device that made the EEG recordings\u201d. bci:Command (x1): \u201cslow down\u201d, actuators' input from the EEG record. bci:Actuator (2 individuals = x2): \u201cthe devices that perform the actuations\u201d. bci:Actuation (x2): \u201cprocedures that change the state of the wheels via actuators\u201d. bci:ImpactedProperty (x2): \u201cthe speed of the wheels (their state)\u201d. bci:ActuationEvent (x2): \u201creduce the speed of wheels\u201d. bci:ActuationResult (x2): \u201cslowing down\u201d (\u201ceffect of decelerating the wheels\u201d). bci:ActuationTarget (x2): \u201ctwo rear wheels\u201d. bci:Context.Object (composite) (x1): \u201cwheelchair\u201d. bci:Context.Method (x1): \u201cdeceleration of a wheel\u201d.\n\nBCI-O's Actuation Model provides a mechanism to correlate the observed/analyzed raw data [1], with the contextual components that the subject interacts with, through actuators (IoT devices), identifying how the actuations affect the context. This is useful in BCI context-aware applications to model how subjects use actuators and interact with the environment, for \u201cintelligent\u201d subject-context personalization.\n\nBCI-O's Actuation Model integrates carefully both standard axiomatization models for actuations, developed by W3C/OGC [2] and IoT [3] [5] communities, based on its Context Model. Thus, its structure follows closely the AAE ODP [4], while aligning to SOSA/SSN and SAN (IoT-O) concepts, based on contextual notions. The SOSA-SAN integrated Actuation Model of BCI-O represents a major contribution to the IoT and BCI communities, especially because its structure includes contextual notions that enables its usage in context-aware BCI-IoT integrated applications. Semantically-enabled BCIs will play a key role in the future \u201cInternet of Brains\u201d interoperating completely with IoT [6]. Under this vision, where one could semantically model, interoperate and control real life objects throughout BCIs connected to the Internet, BCI-O's Actuation Model would become a core semantic structure that integrates BCI, IoT, and contextual concepts in real-world scenarios. It is important noting that as part of the BCI-O's Actuation Model development, the author raised the issue to the W3C Spatial Data on the Web Working Group [7], regarding the mapping of SOSA/SSN to AAE ODP, due of their structural resemblance.",
+  "kg2text": [
+    "The BCI-O Context Model integrates with the BCI Ontology, which presents the BCI- O's Actuation Model. This actuation model enables context-aware interactions through the integration of SOSA and SAN axioms. The BCI Ontology formalizes and integrates domain-specific Sense and Actuation Models for Brain-Computer Interface applications. Additionally, it governs the design principle of BCI-O's Actuation Model, which facilitates semantic interoperability in real-world scenarios. Furthermore, the ultimate HCI system is enabled by this context-aware framework.",
+    "The BCI Ontology facilitates its alignment to SAN, enabling context-based semantic interoperability. The integration of SOSA and SAN axioms within the Actuation Model enables actuators to interact with real-world environments through brain-computer interfaces. This framework also integrates Sense and Actuation Models for describing interactions between actuators in Brain-Computer Interface systems. Furthermore, BCI Ontology's alignment to SAN facilitates semantic interoperability between BCI systems and IoT environments. Additionally, the design principle of BCI-O's Actuation Model enables context-aware actuation applications, such as controlling a wheelchair based on EEG signals.",
+    "The BCI-O Context Model enables context-aware BCI-IoT integrated applications by integrating SOSA and SAN (IoT-O) axioms. The Actuation Model, a core semantic structure within the BCI Ontology, integrates modeling actuations and actuators to define how subjects interact with contexts through actuations. This model facilitates applications that leverage brain-computer interfaces and Internet of Things systems for real-time interaction and control. Furthermore, the design principle of BCI-O's Actuation Model governs its integration with SOSA and SAN axioms, enabling context-based semantic interoperability between BCI systems and IoT environments. The ultimate HCI system is an advanced Brain-Computer Interface that seamlessly integrates with Internet-of-Things systems to enable intuitive human-computer interactions through the analysis of neurophysiological signals and actuation responses.",
+    "The BCI Ontology introduces contextual relations, which are formalized and integrated into an ontological metadata overlay. This framework enables context-aware actuation concepts within Brain-Computer Interface systems, particularly through BCIO's Actuation Model. The model integrates domain-specific Sense and Actuation Models to facilitate real-time interaction with actuators in Internet of Things environments. Furthermore, the SOSA-SAN integrated Actuation Model combines axioms from SAN (IoT-O) to enhance semantic interoperability between Brain-Computer Interface systems and IoT applications. BCIO's Actuation Model also enables context-aware BCI-IoT integrated applications, which facilitate real-time interaction with devices based on contextual information.",
+    "The BCI Ontology, aligned with the Semantic Actuator Network, integrates domain-specific sense and actuation models that formalize brain-computer interaction systems. The ultimate HCI system enables these interactions through context-aware actuations facilitated by modeling actuations and actuators. This is achieved via SOSA- SAN integrated Actuation Models that align BCI Ontology's Actuation Model with IoT environments. Furthermore, the design principle of BCI-O's Actuation Model integrates Sense and Actuation Models to enable real-time collaboration and interaction between brain-computer interfaces and Internet of Things systems.",
+    "The BCI Ontology, which formalizes Brain-Computer Interface systems, integrates Sense and Actuation Models that enable context-aware interactions. These models facilitate actuations through SOSA- SAN integrated frameworks, aligning with semantic interoperability principles. The ultimate HCI system relies on Semantically-enabled BCIs to analyze neurophysiological signals and respond accordingly. Context-based semantic interoperability is a core pre-requisite for Sense and Actuation Models, which integrate domain-specific concepts from the BCI Ontology.",
+    "The BCI-actuation concepts enable the context-aware BCI-IoT integrated applications, which integrate SOSA and SAN axioms. The design principle of BCI-O's Actuation Model facilitates modeling actuations and actuators, while its alignment to SAN enables the ultimate HCI system. Context-based semantic interoperability is a core pre-requisite for this system, as it defines how subjects interact with contexts through actuations. Furthermore, the SOSA-SAN integrated Actuation Model integrates BCI-O's Actuation Concepts, enabling real-time collaboration and interaction in IoT environments.",
+    "The SOSA-SAN integrated Actuation Model facilitates applications, which integrate Sense and Actuation Models that combine SOSA and SAN axioms. The design principle of BCI-O's Actuation Model governs BC-I-O's alignment to SAN, enabling context-based semantic interoperability. This model enables the ultimate HCI system by integrating Brain-Computer Interfaces with Internet of Things environments. Applications facilitate Sense and Actuation Models, which integrate systems through modeling actuations and actuators in semantically-enabled BCIs. The BCI Ontology defines bci:Context.Event as a classification that encompasses key concepts related to context-aware interactions.",
+    "The integration of brain-computer interfaces (BCI) with Internet of Things (IoT) environments enables context-aware actuation, which relies on the SOSA and SAN axioms. The BCI Ontology's Actuation Model facilitates this process by defining principles for actuators driven by brain signals. This framework is essential for developing Semantically-enabled BCIs that can seamlessly interact with IoT systems. In addition to enabling intuitive human-computer interaction, these advanced interfaces also facilitate the development of context-aware applications and ultimately lead to the creation of the ultimate HCI system.",
+    "The integration of brain-computer interfaces (BCIs) with Internet of Things (IoT) environments enables context-aware interactions and actuations. The BCI Ontology's Actuation Model facilitates this process by defining how subjects interact with contexts through actuators, driven by brain signals. This model is enabled by the design principle of BCI-O's Actuation Model, which integrates SOSA and SAN axioms to facilitate semantic interoperability in BCIs. Furthermore, context-based semantic interoperability enables real-time collaboration between BCIs and IoT systems, enhancing human-computer interaction. The ultimate HCI system integrates with these principles to provide a seamless interface for users.",
+    "The BCI Ontology (BCI-O) facilitates context-aware interactions between Brain-Computer Interface systems and Internet of Things environments. The Actuation Model, a core module within BCI-O, integrates SOSA and SAN axioms to define how subjects interact with contexts through actuations. This model enables applications such as controlling wheelchairs based on EEG signals. Semantically-enabled BCIs integrate semantic technologies to facilitate interoperability between IoT systems, enhancing human-computer interaction in real-world applications. The ultimate HCI system is regarded as a Brain-Computer Interface that seamlessly integrates with IoT systems, enabling intuitive and context-aware interactions.",
+    "The concept of context-based semantic interoperability enables effective communication and operation within Internet of Things (IoT) environments by utilizing contextual information. This principle governs Brain-Computer Interface (BCI) systems, which facilitate direct communication between the brain and external devices. Semantically-enabled BCIs enable intuitive human-computer interaction and integration with IoT environments through various applications that leverage BCI Ontology's Actuation Model. The design principle of this model integrates SOSA and SAN axioms to define how actuators interact with real-world environments, enhancing context-aware interactions in Brain-Computer Interface applications.",
+    "Context-aware BCI-IoT integrated applications enable systems, which are broadened by BCI activities. These activities encompass systems and facilitate actuations that align with SOSA and SAN (IoT-O) axioms. The Actuation Model integrates Context Model to provide a framework for context-aware interactions in Brain-Computer Interface applications. Furthermore, the Sense Model is part of this broader model.",
+    "The BCI Ontology (BCI-O) integrates SOSA and SAN axioms to facilitate context-aware interactions between Brain-Computer Interfaces (BCIs) and Internet of Things (IoT) environments. The Actuation Model, a core component of IoT-ontology (IoT-O), enables the integration of actuators in BCIs connected to the internet. Semantically-enabled BCIs will be regarded as the ultimate HCI system, which seamlessly integrates with IoT systems through context-based semantic interoperability. A use case for this model demonstrates the practical implementation and effectiveness of BCI Ontology's Actuation Model in facilitating context-aware interactions within Brain-Computer Interface systems integrated with Internet of Things technologies.",
+    "The BCI actuation application refers to a context-aware system that utilizes Brain-Computer Interface technology to enable real-time collaboration and interaction with actuators in Internet of Things environments. This system integrates novel interfaces, such as brain-computer interfaces, which facilitate seamless integration and interoperability with IoT systems. The SOSA-SAN integrated Actuation Model is a framework within the BCI Ontology that combines the SOSA and SAN axioms to facilitate context-aware actuation in Brain-Computer Interface applications. Furthermore, Semantically-enabled BCIs refer to advanced brain-computer interfaces that utilize semantic technologies to facilitate interoperability and context-aware interactions with IoT systems.",
+    "In the realm of Brain-Computer Interface (BCI) systems, various entities and concepts converge to facilitate seamless interactions between subjects and contexts. The BCI Ontology (BCI-O), for instance, formalizes conceptual components like core models, Actuation Model, and Context Model to describe real-world activities such as BCIs data capture activities, which involve collecting neurophysiological signals from users in Brain-Computer Interface systems. These concepts are further integrated with SOSA and SAN (IoT-O) axioms to enable context-aware actuations in BCI devices, ultimately leading to the development of semantically-enabled BCIs that can interact with Internet of Things environments. Furthermore, the integration of brain-computer interfaces with IoT technologies gives rise to novel applications such as context-ware BCI-IoT integrated applications, which empower users to control and interact with physical objects in real-time.",
+    "In Brain-Computer Interface (BCI) systems, actuations refer to processes or actions facilitated by actuators that are integrated within the BCI-O's Actuation Model. This model enables context-aware interactions between subjects and contexts in IoT environments. BCIs integrate with Internet of Things (IoT) frameworks to facilitate meaningful interactions through novel interfaces. The BCI Ontology (BCI-O) formalizes Sense and Actuation Models specific to Brain-Computer Interaction systems, along with a Context Model for describing real and virtual environments.",
+    "The BCI Ontology (BCI-O) formalizes and integrates Sense and Actuation Models specific to Brain-Computer Interaction (BCI) systems, along with a Context Model for describing real and virtual environments. The SOSA- SAN integrated Actuation Model represents a major contribution to the IoT and BCI communities. Semantically-enabled BCIs refer to advanced brain-computer interfaces that utilize semantic technologies to facilitate interoperability and context-aware interactions with Internet of Things (IoT) systems, thereby enhancing human-computer interaction in real-world applications.",
+    "The BCI Ontology (BCI-O) formalizes and integrates Sense and Actuation Models specific to Brain-Computer Interaction (BCI) systems, along with a Context Model for describing real and virtual environments. The ontology aligns with Sensor, Observation, Sample, and Actuator (SOSA), enabling the description of actuations and actuators within BCI applications. In this context, an actuator is a device that implements an actuation, transforming an input signal into a physical output to change the state of a context. The core model for IoT Ontology (IoT-O) follows closely with AAE ODP, facilitating semantic interoperability in Brain-Computer Interface systems. Recent technological developments enable more intuitive human-computer interactions in real-world applications.",
+    "In the context of Brain-Computer Interfaces, BCI communities refer to groups or networks focused on developing and applying these technologies. The Sense Model describes interactions from the context to the subject, while actuations facilitate changes to the state of a contextual entity. SOSA regards actuations as processes that carry out procedures to change the state of a context using actuators. SAN has broader concepts related to public access, which enables users to engage with and utilize BCI-ontology components in various applications.",
+    "In the context of Brain-Computer Interfaces, a specific indoor situation within the BCI application refers to a scene where the interaction between the user and environment defines actuations for devices like wheelchairs. The term 'context' describes various real and virtual environments facilitating context-aware interactions in BCIs. Actuation events occur through procedures that change the state of contexts using actuators, aligning with SOSA and SAN axioms. Brain-Computer Interfaces enable users to control technology through neural activity, integrating principles from IoT-O ontology for semantic interoperability. The BCI Ontology's Actuation Model defines how subjects interact with contexts through actuations, facilitating context-aware interactions in BCIs.",
+    "In Brain-Computer Interface (BCI) systems, sessions refer to the interaction between a subject and context while performing specific activities. BCI context-aware applications enable personalized interactions by considering individual contexts and needs. Actuations are processes that modify environmental states through actuators, which can be sensors or devices implementing actuation events. The bidirectional subject-context interaction model describes how subjects interact with their environments, comprising sense models for capturing contextual information and actuation models facilitating actions. Axiomatization models provide formal structures for defining and integrating actuations within the BCI-Actuation Model framework.",
+    "In the context of Brain-Computer Interfaces, meaningful interactions refer to the dynamic exchanges between a BCI subject and their surroundings. These interactions are facilitated by systems that integrate with Internet-of-Things (IoT) devices, enabling users to control technology through neural activity. The capability of an actuation is crucial in this process, as it determines how actuators influence or modify specific properties of an actuation target. Within the BCI Ontology's Actuation Model, integrated concepts align with SOSA/SSN axioms for modeling observations and sensor data. This framework enables context-aware interactions between subjects and their environments, which is essential in real-world applications like autonomous wheelchair driving.",
+    "In the context of Brain-Computer Interfaces (BCI), actuations refer to processes or actions facilitated by actuators that are integrated within the BCI Ontology's Actuation Model. This model enables context-aware interactions between subjects and contexts, such as reducing the speed of wheels in a wheelchair controlled through brain signals. The relationships from and to actuation and other concepts define how actuation is integrated with contextual elements like actuators, effects, and impacted properties. The BCI Ontology's core modules facilitate this interaction by defining disjoint axioms that ensure semantic clarity and integrity.",
+    "In the context of Brain-Computer Interfaces (BCI), a stimulus event directed towards a subject facilitates interaction within a context-aware system. The various modalities that characterize observations and inputs are essential for this interaction, which aligns with specific concepts aligned to SOSA/SSN axioms. A scenario illustrates how contextual notions underpin the integration of models and frameworks in the BCI-Actuation Model, enabling actuations through actuators like devices controlling a wheelchair. The Actuation Model was developed based on premises that reconcile SOSA and SAN axioms for effective modeling of actuations and actuators. Brain-Computer Interfaces (BCI) systems analyze neurophysiological signals to determine brain states and actuate responses, integrating with IoT environments.",
+    "In Brain-Computer Interface (BCI) systems, an actuator refers to a device that implements an actuation to change the state of a context. A bci:Actuator has a broader term 'concepts', which aligns with definitions from SOSA/SSN and SAN (IoT-O). Within a BCI session, a subject performs activities, such as issuing actions or responding to stimuli events. The integration of actuations and actuators in the context-aware model enables personalized interactions between subjects and their environments. In this framework, devices like sensors and actuators facilitate bidirectional interaction, while SAN (IoT-O) provides axioms for semantic interoperability.",
+    "In the context of Brain-Computer Interface systems, IoT environments refer to interconnected settings where devices communicate and operate. Systems encompass various applications that analyze neurophysiological signals to determine a user's brain states and actuate responses. A Session represents the interaction between a BCI subject and their context while performing an activity. Concepts within this framework align with SOSA/SSN axioms for modeling observations, enabling intuitive human-computer interaction. Actuation events are aligned with SAN ontologies, facilitating integration of actuators in Brain-Computer Interface applications.",
+    "The BCI Ontology (BCI-O) provides a framework for modeling observations and actuations within Brain-Computer Interface systems. The SOSA/SSN axioms are aligned with specific concepts, such as bci:Record, which represents single observations. These records can be used to control devices like automated wheelchairs through brain signals. IoT-based systems integrate these interactions into broader applications. In the context of BCI-O, 'concepts' refer to theoretical constructs and ideas that model observations within Brain-Computer Interface systems. The SOSA-SAN integrated Actuation Model enables actuations in real or virtual environments. Context events trigger changes in the impacted property of an actuation target. Two distinct conceptual domains exist: the BCI domain, which encompasses observations, actuations, and interactions; and the context domain, which pertains to surrounding environmental factors.",
+    "In a context-aware Brain-Computer Interface (BCI) system, domain level concepts are integrated and aligned with SOSA and SAN frameworks to model interactions. A procedure to change the state of the context involves an actuator that implements this change. The BCI Ontology's Actuation Model defines procedures for changing the state of a context through actuators and sensors-actuators systems. Alice, as a bci:Subject, uses her brain signals to control a wheelchair in real-time collaboration with other users. The system involves san:ActuatorInput commands that are aligned with dul:Method techniques. Core Abstractions outline procedures for changing the state of a context through actuations and actuators.",
+    "In this context-aware BCI application, Alice uses her brain signals to control a wheelchair through EEG recordings. The main contribution of this research lies in introducing contextual relations within the BCI Ontology (BCI-O), enabling meaningful interactions with IoT-based systems. This framework integrates concepts from SOSA and SAN ontologies for modeling actuations and actuators. A scenario illustrates how various components interact, including brain signals, actuators, and environmental context. The architectural description of this system captures the complexities of real-world environments. Actuation events occur as a result of procedures to change the state of the environment, involving modifications that can be observed through event logs.",
+    "In the context of Brain-Computer Interfaces (BCI), actuations refer to processes or actions facilitated by actuators that are integrated within the BCI-O's Actuation Model. This model enables context-aware interactions between a subject and their environment, leveraging IoT devices connected to the Internet. The main modeling integration aligns with the SAN ontology design pattern, which defines the impact of actuators on physical targets. Modeling actuations and actuators involves integrating concepts from SOSA/SSN axioms for sensor-actuator systems in BCI applications. Actuation events are triggered by commands issued to an actuator, modifying properties or characteristics of a target object within its context.",
+    "In Brain-Computer Interface (BCI) systems, sensor-actuator systems facilitate direct communication between brain signals and external devices. The BCI-O framework models observations as contextual input data and events that provide relevant information to subjects. Actuations and actuators enable control and movement of systems or mechanisms in response to commands. Meaningful interactions occur when IoT-based systems integrate with BCIs, allowing for intuitive and effective communication and control. Within the context of actuation modeling, bci:ActuationTarget represents an entity whose properties are impacted during an actuation event.",
+    "In the context of Brain-Computer Interfaces (BCI), actuation and actuators play a crucial role. Actuators are devices that convert energy into motion to perform specific actions or control mechanisms, while actuations refer to processes or actions facilitated by these devices within BCI systems. The AAE ODP serves as a foundational model for integrating and reconciling actuation concepts within the IoT-ontology framework. Within this context, novel interfaces interoperate with IoT-based systems, enabling seamless integration and interoperability with Internet of Things (IoT) systems. Furthermore, two distinct conceptual domains are found in the context domain, which encompasses observations, actuations, and interactions. The BCI Ontology's Actuation Model enables context-aware interactions in IoT environments by integrating actuators, actuations, and their effects.",
+    "In the context of Brain-Computer Interfaces (BCIs), observations refer to multimodal records that serve as contextual input data and events. These records encompass various concepts such as bci:Record, bci:Modality types, and sensor outputs. Another inherited modeling perspective for BCI is the integration of san:impacts object property within the BCI Ontology, which establishes a relationship between the effects of actuations and the properties they impact. Alice uses a Brain-Computer Interface (BCI) to control a wheelchair through EEG signals in a context-aware application. The AAE ODP serves as a foundational model for integrating and reconciling actuation concepts within the Internet of Things Ontology (IoT-O) framework. Actuators are devices that convert energy into motion to perform specific actions or control mechanisms, while sensors/actuators facilitate bidirectional interaction between users and their environments. The BCI-Actuator performs devices in response to brain signals, enabling users to control actuatable qualities of actuation targets.",
+    "In Brain-Computer Interface (BCI) systems, observations serve as contextual input data and events that provide relevant information about the environment and stimuli to the subject. The SAN ontology integrates axioms from IoT-O into the BCI-O's Actuation Model for interoperability of actuations and actuators. Actuators are devices that convert energy into motion to perform specific actions or control mechanisms, such as adjusting a wheelchair's speed and direction based on processed brain signals. A situation where EEG recording and actuation happened refers to a specific instance in which brain signals are recorded and used to control an actuator. The BCI Ontology formalizes Sense and Actuation Models for Brain-Computer Interaction systems, along with Context Model descriptions of real and virtual environments. Design principles inform the creation and evaluation of products or processes, ensuring they meet functional and aesthetic criteria.",
+    "In the context of Brain-Computer Interfaces (BCI), an actuation event triggered by an actuator changes the impacted property of a bci:ActuationTarget. This process, referred to as 'the procedure (actuation)', has a broader term in the concept of procedures. The resulting san:Effect is described by ontological notions and has a broader term within the context of concepts. Actuations and actuators integrate and reconcile with SOSA and SAN axioms, enabling semantic interoperability between real/virtual environments. In this framework, 'context' refers to physical or digitally simulated spaces where interactions occur. The actuation event alignment is inferred as an event that changes the state of wheels, which has a broader term within events. Furthermore, actuatable qualities are properties of bci:ActuationTargets that can be modified by actuators.",
+    "In the context of Brain-Computer Interfaces (BCI), applications refer to various use cases and implementations that facilitate context-aware actuation. A specific scenario involves Alice controlling a wheelchair at home, where procedures change the state of the wheels via actuators. The BCI Ontology's Actuation Model integrates design principles with wearable sensors and IoT concepts, enabling context-aware interactions. Observations, including multimodal records (bci:Record), are used to trigger actuations that modify impacted properties within a specific indoors situation or scenario.",
+    "In the context of Brain-Computer Interfaces (BCIs), relationships refer to the defined connections and associations between actuation, effect, and impacted property. Actuators convert energy into motion to perform specific actions or control mechanisms. Movement commands are derived from processed brain signals that direct actuators to execute functions. The Actuation Model integrates principles from SOSA and IoT-O axioms to facilitate context-aware interactions in BCIs. EEG-Record data is analyzed to generate movement commands for actuators, enabling users to control devices based on their neural activity.",
+    "Within the BCI-Ontology (BCI-O) framework, an actuation event occurs when a bci:Actuator reduces the speed of wheels. This concept expands on the following relationship between actuators and their effects. The Context Model describes real/virtual environments where interactions take place. Actuation events involve changes to impacted properties of actuation targets, which are aligned with san:Effect concepts. In this context, an effect refers to a physical modification induced by an actuator, impacting a quality or property. The integration of SOSA/SSN axioms provides a standardized framework for modeling observations within Brain-Computer Interface systems.",
+    "In Brain-Computer Interface (BCI) systems, actuators play a crucial role in enabling users to control devices through neural activity. The BCI Ontology's Actuation Model defines actuations as processes or actions facilitated by actuators that are integrated within IoT environments. For instance, an agent that has an effect on the context can be an actuator controlling a wheelchair, which is instructed to slow down based on brain signals. This concept refers to a context event triggered by an actuator and results in a change to the impacted property of the actuation target. The outcome of this actuation event is represented as bci:ActuationResult, aligned with sosa:Result. Actuations can happen at various levels, including domain level concepts that were aligned to SOSA/SSN frameworks.",
+    "In the context of Brain-Computer Interfaces (BCI), actuations refer to processes or actions facilitated by actuators that are integrated within the BCI-O's Actuation Model. This model enables context-aware interactions in IoT environments, where physical modifications can occur as a result of an actuator's effect on the impacted property of an actuation target. The design principle of BCI-O's Actuation Model is based on SOSA/SSN axioms and aligns with Dolce-Ultralite (DUL) ontology for modeling observations within IoT environments. Real-time collaboration plays a crucial role in this context, as it facilitates simultaneous engagement between multiple individuals or systems. The AAE ODP serves as a foundational model for integrating actuation concepts within the Internet of Things Ontology (IoT-O) framework.",
+    "In a Brain-Computer Interface (BCI) system, actuators convert brain signals into physical actions. Actuators are devices that implement actuations to change the state of a context, such as controlling a wheelchair's movement based on processed brain signals from EEG recordings. The SOSA framework provides axioms for integrating actuations and actuators within BCI systems. An actuation event alignment refers to the integration of an actuation event with san:Effect in the BCI-O framework, emphasizing the relationship between actuators and physical modifications they induce. Real-time collaboration enables simultaneous engagement and interaction among multiple individuals or systems in a shared task or project facilitated by technology that allows for immediate communication and updates.",
+    "In a specific indoors situation, actuators connected to the Internet enable users to control devices such as wheelchairs through Brain-Computer Interfaces (BCI). The architectural description of this context captures its structural, functional, and temporal complexities. Within this framework, actuation targets are defined by bci:ActuationTarget, which is aligned with san:ActuationValue. Axiomatization models developed by IoT communities provide formal structures for defining and integrating actuations within the BCI- Ontology (BCI-O). The SOSA/SSN axioms enable modeling of observations and sensor data in a standardized manner. In this context, commands are issued to actuators based on EEG-record inputs from Brain-Computer Interfaces devices.",
+    "In the context of Brain-Computer Interfaces (BCI) and Internet of Things (IoT), actuators are devices that convert energy into motion to perform a specific action or control a mechanism. Actuations, on the other hand, refer to processes that carry out procedures to change the state of a context using an actuator. A command is a specific order given to an actuator based on a bci:Record to execute an actuation. The input to the actuator refers to processed brain signals obtained from EEG recordings that provide movement commands for controlling actuators, such as directing a wheelchair's movement. An event triggered by an actuator results in a change to the impacted property of an actuation target within the framework of the BCI Ontology.",
+    "The W3C Semantic Sensor Network (SSN) standard ontology enables modeling of sensor networks, observations, and related concepts. Actuation effects refer to physical modifications resulting from actuations triggered by actuators within context-aware systems. The input to an actuator can be processed brain signals obtained from EEG recordings that provide specific movement commands for controlling the actuator's actions. A set of actuators implements multiple devices that modify a context, receiving commands based on input signals. In IoT environments and physical worlds, actuatable qualities or properties are modified as consequences of actuation events triggered by actuators. The state of a context is changed through modifications resulting from actuations involving an actuator.",
+    "In this context, an individual at home uses their brain signals to control a wheelchair through a human interface. The main contribution of this framework lies in introducing concepts such as context and contextual relations within Brain-Computer Interaction (BCI) systems that interact meaningfully with IoT-based systems. An actuation event occurs when the user's observed and processed brain signals are used to generate specific movement commands for actuators controlling the wheelchair, which can reduce its speed of wheels or perform other actions. The BCI Ontology framework provides a semantic model for context-aware BCI applications that interact meaningfully with IoT-based systems.",
+    "In a Brain-Computer Interface (BCI) system, user's brain states are analyzed to determine mental and emotional conditions. The state of actuators connected to the Internet can be modified through actuations and actuators, enabling responsive actions such as autonomous wheelchair driving. IoT-based systems facilitate interaction within environments that are context-aware, leveraging SOSA/SSN standards for modeling observations. Actuation events trigger changes in states, resulting from procedures that change the speed of wheels via actuators. The Context Model formalizes various real and virtual environments, guiding design principles for BCI applications.",
+    "In a Brain-Computer Interface (BCI) system, an observation component collects EEG recordings and uses them as input for actuations. The BCI-O Actuation Model involves san:Effect, which represents physical modifications or changes in state induced by actuators during actuation events. These events can impact specific properties of the actuation target. A set of actuators receives commands from a source to perform actions such as slowing down or speeding up a wheelchair based on EEG signals recorded from an individual's brain. The BCI-O Actuation Model also involves IoT environments, where devices communicate and operate to enable data exchange and automation across various applications. Real-time collaboration is possible in these environments.",
+    "In real-time collaboration environments, IoT devices and sensors work together seamlessly. The wearable sensors detect physiological or environmental conditions, while EEG recording captures brain signals that can be used to control actuators like those found in sensor-actuator systems. These actuations are facilitated by axiomatization models developed by W3C/OGC, which provide standardized frameworks for defining and integrating actuations within the context of IoT-based systems. The human interface integrates an EEG sensor with a computing system that processes brain signals to control actuators like those in wheelchairs, enabling users to interact with real/virtual environments through direction commands such as 'go forward'.",
+    "In the context of Brain-Computer Interfaces (BCI), Alice uses her brain signals to control a wheelchair, which triggers a series of steps. The BCI system records EEG observations and generates commands such as 'slow down' that are executed by actuators, inducing physical modifications on the wheelchair's speed and direction. This process is part of a sensor-actuator system that enables specific responses, like autonomously driving the wheelchair. The actuation effects caused by these events modify impacted properties related to the wheelchair's state.",
+    "The Brain-Computer Interface (BCI) system uses electroencephalography (EEG) recordings from a subject's head to control an automated wheelchair. The BCI system decelerates the wheel of the wheelchair, which refers to reducing its rotational speed over time. This actuation procedure is controlled by commands generated from brain activity, such as slowing down or changing direction. The EEG-Device records electrical signals in the brain and provides a broader term for devices that perform similar functions. In this context, class hierarchies refer to structured organizations of classes representing relationships among entities or concepts. Controlling an automated wheelchair refers to using BCI technology to direct its movement based on commands derived from brain activity. The physical/virtual environment encompasses both tangible and digital settings in which interactions occur. Actuators are devices that convert energy into motion, such as IoT devices that collect and exchange data over the internet.",
+    "In the context of Brain-Computer Interface (BCI) systems, actuation events are triggered by an actuator, which implements a specific procedure to change the state of a target. This process involves converting brain signals obtained from EEG recordings into physical outputs that control devices such as wheelchairs. The speed of the wheels is one impacted property affected by these actuations. Actuators can be used in various contexts, including BCI systems and IoT applications. An architectural description provides formal representations of system structures, behaviors, and interactions to guide design and implementation. In this framework, events refer to significant occurrences or actions that provide contextual input data.",
+    "The actuation event refers to a transition that signifies a change in the state of an actuation target, resulting from an actuation. This process involves devices such as actuators and sensors working together to control movement, like adjusting the speed of wheelchair wheels based on brain signals recorded through EEG records. The input signal generated by brain activity instructs an actuator to reduce or increase the speed of the wheels according to acceleration parameters. In this context, class hierarchies play a crucial role in organizing concepts and relationships between entities such as actuators, sensors, and computing systems.",
+    "Wearable sensors, such as EEG sensors, detect brain signals and transmit them to actuators. These devices convert input signals into physical actions or changes in the environment. For instance, slowing down commands from a Brain-Computer Interface (BCI) system can impact the quality of wheelchair movement through procedures that change its state via actuators. Actuators transform input signals into physical outputs, making it possible to control mechanisms like wheelchairs. The author raised an issue with the Spatial Data on the Web Working Group regarding the mapping of SOSA/SSN to AAE ODP. In this context, actuations and actuators refer to processes that enable control and movement of systems or mechanisms in response to signals or commands.",
+    "The BCI-O Actuation Model integrates SOSA and SAN axioms to enable effective modeling of actuations and actuators. The input to the actuator, which refers to processed brain signals from EEG recordings, provides specific movement commands for controlling devices like wheelchairs. An effect is any kind of physical modification induced by an actuator, impacting a quality or property in the context of an actuation event. Actuators capable of controlling devices like wheelchairs can induce such modifications. The speed of the wheels refers to the measurement of how fast the wheels are moving, which is affected by the actuation commands issued through Brain-Computer Interfaces. Distributed computing systems process EEG recordings and generate movement commands for actuators.",
+    "The electroencephalogram (EEG) record, obtained from an EEG sensor, serves as the input of actuations. This recorded data is processed to generate specific movement commands for controlling actuators, such as those used in a wheelchair. The EEG observation that serves as the input of the actuations refers to the recorded brain signals obtained from an EEG sensor, which are processed to generate commands for controlling actuators. In this context, acceleration refers to the parameter that quantifies the change in speed of the wheelchair's movement, specifically indicating how fast the wheelchair should increase or decrease its velocity based on processed brain signals.",
+    "EEG observations are recorded by EEG-Devices, which measure electrical activity in the brain. These recordings can be further processed to obtain input from the EEG recordings, providing valuable insights into neurological processes. The physical world can also undergo modifications as a result of events (dul:Event). In conclusion, this study provides an overview of the relationships between these entities and their roles in understanding brain function."
+  ],
+  "times": [
+    563.0551226139069
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "iri": "Paper-75",
+  "title": "ECCV_2016_204_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-75-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-75-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-1",
+              "text": "Our goal is to learn a Mahalanobis distance by minimizing a loss defined on the weighted sum of the precision at different ranks ."
+            },
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-2",
+              "text": "Our core motivation is that minimizing a weighted rank loss is a natural criterion for many problems in computer vision such as person re-identification ."
+            },
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-3",
+              "text": "We propose a novel metric learning formulation called Weighted Approximate Rank Component Analysis -LRB- WARCA -RRB- ."
+            },
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-4",
+              "text": "We then derive a scalable stochastic gradient descent algorithm for the resulting learning problem ."
+            },
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-5",
+              "text": "We also derive an efficient non-linear extension of WARCA by using the kernel trick ."
+            },
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-6",
+              "text": "Kernel space embedding decouples the training and prediction costs from the data dimension and enables us to plug inarbitrary distance measures which are more natural for the features ."
+            },
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-7",
+              "text": "We also address a more general problem of matrix rank degeneration & non-isolated minima in the low-rank matrix optimization by using new type of regularizer which approximately enforces the or-thonormality of the learned matrix very efficiently ."
+            },
+            {
+              "iri": "Paper-75-Section-1-Paragraph-1-Sentence-8",
+              "text": "We validate this new method on nine standard person re-identification datasets including two large scale Market-1501 and CUHK03 datasets and show that we improve upon the current state-of-the-art methods on all of them ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "Our goal is to learn a Mahalanobis distance by minimizing a loss defined on the weighted sum of the precision at different ranks . Our core motivation is that minimizing a weighted rank loss is a natural criterion for many problems in computer vision such as person re-identification . We propose a novel metric learning formulation called Weighted Approximate Rank Component Analysis -LRB- WARCA -RRB- . We then derive a scalable stochastic gradient descent algorithm for the resulting learning problem . We also derive an efficient non-linear extension of WARCA by using the kernel trick . Kernel space embedding decouples the training and prediction costs from the data dimension and enables us to plug inarbitrary distance measures which are more natural for the features . We also address a more general problem of matrix rank degeneration & non-isolated minima in the low-rank matrix optimization by using new type of regularizer which approximately enforces the or-thonormality of the learned matrix very efficiently . We validate this new method on nine standard person re-identification datasets including two large scale Market-1501 and CUHK03 datasets and show that we improve upon the current state-of-the-art methods on all of them .",
+  "kg2text": [
+    "Weighted Approximate Rank Component Analysis (WARCA) is a novel metric learning formulation that addresses the resulting learning problem, which involves optimizing a Mahalanobis distance. This method has an efficient non-linear extension that utilizes the kernel trick, enhancing its performance in metric learning. WARCA improves upon the current state-of-the-art methods and has been validated on nine standard person re-identification datasets, including Market-1501 and CUHK03. The learning problem associated with WARCA is derived using a scalable stochastic gradient descent algorithm, which minimizes a weighted rank loss. Ultimately, the Mahalanobis distance is learned by minimizing this loss, making WARCA a significant advancement in the field of computer vision.",
+    "Minimizing a weighted rank loss is a crucial criterion for person re-identification, which is a significant task within the broader field of computer vision. The loss function in this context is defined on the weighted sum of the precision at different ranks, emphasizing the importance of precision in evaluating ranking systems. This weighted sum is closely related to the concept of precision at different ranks, which itself is a broader term encompassing the general notion of precision. In the realm of person re-identification, there are nine standard datasets, including Market-1501 and CUHK03, which serve as benchmarks for evaluating algorithms. These datasets are categorized under person re-identification datasets, highlighting their role in training and testing models. Additionally, challenges such as matrix rank degeneration and non-isolated minima are recognized as problems in low-rank matrix optimization, which is often employed in these tasks. Techniques like kernel space embedding are utilized to decouple data dimensions and manage training and prediction costs effectively, further enhancing the performance of algorithms in this domain.",
+    "Kernel space embedding enables the application of distance measures, which are mathematical concepts used to quantify the similarity or dissimilarity between data points. These distance measures are more natural for features, the data attributes utilized in metric learning formulations. Additionally, the new type of regularizer has a broader term known as regularizer, which is a technique used in optimization to impose constraints and improve model generalization."
+  ],
+  "times": [
+    6.2448999881744385
+  ]
+}

@@ -1,0 +1,1138 @@
+{
+  "iri": "Paper-11",
+  "title": "NIPS_2001_11_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-11-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-11-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-11-Section-1-Paragraph-1-Sentence-1",
+              "text": "A mixed-signal paradigm is presented for high-resolution parallel inner-product computation in very high dimensions , suitable for efficient implementation of kernels in image processing ."
+            },
+            {
+              "iri": "Paper-11-Section-1-Paragraph-1-Sentence-2",
+              "text": "At the core of the externally digital architecture is a high-density , low-power analog array performing binary-binary partial matrix-vector multiplication ."
+            },
+            {
+              "iri": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+              "text": "Full digital resolution is maintained even with low-resolution analog-to-digital conversion , owing to random statistics in the analog summation of binary products ."
+            },
+            {
+              "iri": "Paper-11-Section-1-Paragraph-1-Sentence-4",
+              "text": "A random modulation scheme produces near-Bernoulli statistics even for highly correlated inputs ."
+            },
+            {
+              "iri": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+              "text": "The approach is validated with real image data , and with experimental results from a CID/DRAM analog array prototype in 0.5 cents m CMOS ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0008032321929931641,
+    8.981069087982178,
+    23.246580362319946,
+    16.60346531867981,
+    0.049311161041259766,
+    0.0001380443572998047,
+    0.00014829635620117188,
+    21.465348720550537,
+    35.237032890319824,
+    3.678168773651123,
+    11.002901077270508,
+    0.010496139526367188,
+    0.00021719932556152344,
+    13.921701908111572,
+    0.0013761520385742188,
+    0.030565977096557617,
+    0.00131988525390625,
+    4.248573303222656,
+    0.6050770282745361,
+    0.9194350242614746,
+    74.60325002670288,
+    9.631505966186523,
+    32.4461829662323,
+    2.9459431171417236,
+    0.0014469623565673828,
+    0.008968830108642578
+  ],
+  "nodes": {
+    "Entity-mixed-signal_paradigm": {
+      "node_id": "mixed-signal_paradigm",
+      "disambiguation_index": 0,
+      "label": "mixed-signal paradigm",
+      "aliases": [
+        "mixed-signal paradigm",
+        "A mixed-signal paradigm"
+      ],
+      "types": [
+        "computational model",
+        "signal processing technique",
+        "signal processing",
+        "paradigm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The mixed-signal paradigm refers to a computational model that integrates both analog and digital processing techniques to achieve high-resolution parallel inner-product computation, particularly for efficient kernel implementation in image processing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "mixed-signal paradigm",
+          "local_types": [
+            "computational model",
+            "signal processing technique",
+            "signal processing",
+            "paradigm"
+          ],
+          "iri": "Entity-mixed-signal_paradigm-Mention-1"
+        },
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "A mixed-signal paradigm",
+          "local_types": [
+            "paradigm"
+          ],
+          "iri": "Entity-mixed-signal_paradigm-Mention-2"
+        }
+      ],
+      "relevance": 0.77685546875
+    },
+    "Entity-approach": {
+      "node_id": "approach",
+      "disambiguation_index": 0,
+      "label": "approach",
+      "aliases": [
+        "approach"
+      ],
+      "types": [
+        "methodology",
+        "research method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The approach refers to a mixed-signal paradigm for high-resolution parallel inner-product computation that utilizes a low-power analog array for efficient implementation of kernels in image processing, validated through real image data and experimental results.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "approach",
+          "local_types": [
+            "methodology",
+            "research method"
+          ],
+          "iri": "Entity-approach-Mention-1"
+        }
+      ],
+      "relevance": 0.77685546875
+    },
+    "Entity-high-resolution_parallel_inner-product_computation": {
+      "node_id": "high-resolution_parallel_inner-product_computation",
+      "disambiguation_index": 0,
+      "label": "high-resolution parallel inner-product computation",
+      "aliases": [
+        "high-resolution parallel inner-product computation"
+      ],
+      "types": [
+        "computation",
+        "computational method",
+        "mathematical operation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "High-resolution parallel inner-product computation refers to a computational method that utilizes a mixed-signal architecture to efficiently perform inner-product calculations in high dimensions, particularly for applications in image processing, while maintaining digital resolution through low-power analog processing techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "high-resolution parallel inner-product computation",
+          "local_types": [
+            "computation",
+            "computational method",
+            "mathematical operation"
+          ],
+          "iri": "Entity-high-resolution_parallel_inner-product_computation-Mention-1"
+        }
+      ],
+      "relevance": 0.7509765625
+    },
+    "Entity-externally_digital_architecture": {
+      "node_id": "externally_digital_architecture",
+      "disambiguation_index": 0,
+      "label": "externally digital architecture",
+      "aliases": [
+        "externally digital architecture"
+      ],
+      "types": [
+        "system architecture",
+        "architecture",
+        "digital architecture",
+        "digital design"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The externally digital architecture refers to a high-density, low-power analog array designed for efficient binary-binary partial matrix-vector multiplication, enabling high-resolution parallel inner-product computation while maintaining full digital resolution through innovative analog-to-digital conversion techniques.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "externally digital architecture",
+          "local_types": [
+            "system architecture",
+            "architecture",
+            "digital architecture",
+            "digital design"
+          ],
+          "iri": "Entity-externally_digital_architecture-Mention-1"
+        }
+      ],
+      "relevance": 0.73388671875
+    },
+    "Entity-ciddram_analog_array_prototype": {
+      "node_id": "ciddram_analog_array_prototype",
+      "disambiguation_index": 0,
+      "label": "CID/DRAM analog array prototype",
+      "aliases": [
+        "CID/DRAM analog array prototype"
+      ],
+      "types": [
+        "circuit design",
+        "analog circuit",
+        "hardware",
+        "array",
+        "analog array",
+        "prototype",
+        "hardware prototype"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The CID/DRAM analog array prototype is a hardware implementation designed for high-density, low-power analog processing, specifically used for validating a mixed-signal paradigm in high-resolution parallel inner-product computations for image processing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "CID/DRAM analog array prototype",
+          "local_types": [
+            "circuit design",
+            "analog circuit",
+            "hardware",
+            "array",
+            "analog array",
+            "prototype",
+            "hardware prototype"
+          ],
+          "iri": "Entity-ciddram_analog_array_prototype-Mention-1"
+        }
+      ],
+      "relevance": 0.7275390625
+    },
+    "Entity-random_modulation_scheme": {
+      "node_id": "random_modulation_scheme",
+      "disambiguation_index": 0,
+      "label": "random modulation scheme",
+      "aliases": [
+        "A random modulation scheme",
+        "random modulation scheme"
+      ],
+      "types": [
+        "modulation scheme",
+        "modulation method",
+        "signal processing technique",
+        "scheme"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A random modulation scheme is a signal processing technique that generates near-Bernoulli statistics from highly correlated inputs, enhancing the performance of analog-to-digital conversion in mixed-signal architectures.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "random modulation scheme",
+          "local_types": [
+            "modulation scheme",
+            "modulation method",
+            "signal processing technique",
+            "scheme"
+          ],
+          "iri": "Entity-random_modulation_scheme-Mention-1"
+        },
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "A random modulation scheme",
+          "local_types": [
+            "modulation scheme"
+          ],
+          "iri": "Entity-random_modulation_scheme-Mention-2"
+        }
+      ],
+      "relevance": 0.71337890625
+    },
+    "Entity-binary-binary_partial_matrix-vector_multiplication": {
+      "node_id": "binary-binary_partial_matrix-vector_multiplication",
+      "disambiguation_index": 0,
+      "label": "binary-binary partial matrix-vector multiplication",
+      "aliases": [
+        "binary-binary partial matrix-vector multiplication"
+      ],
+      "types": [
+        "mathematical operation",
+        "computation",
+        "multiplication",
+        "operation",
+        "mathematics",
+        "computational technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Binary-binary partial matrix-vector multiplication refers to a computational technique used in a mixed-signal architecture that efficiently performs inner-product computations by multiplying binary matrices with binary vectors, leveraging low-power analog processing to maintain high digital resolution.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "binary-binary partial matrix-vector multiplication",
+          "local_types": [
+            "mathematical operation",
+            "computation",
+            "multiplication",
+            "operation",
+            "mathematics",
+            "computational technique"
+          ],
+          "iri": "Entity-binary-binary_partial_matrix-vector_multiplication-Mention-1"
+        }
+      ],
+      "relevance": 0.712890625
+    },
+    "Entity-binary_product": {
+      "node_id": "binary_product",
+      "disambiguation_index": 0,
+      "label": "binary products",
+      "aliases": [
+        "binary products"
+      ],
+      "types": [
+        "mathematical term",
+        "data representation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of the paper, 'binary products' refer to the results obtained from the multiplication of binary values during the analog summation process in a mixed-signal architecture designed for high-resolution inner-product computations.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "binary products",
+          "local_types": [
+            "mathematical term",
+            "data representation"
+          ],
+          "iri": "Entity-binary_product-Mention-1"
+        }
+      ],
+      "relevance": 0.71044921875
+    },
+    "Entity-low-power_analog_array": {
+      "node_id": "low-power_analog_array",
+      "disambiguation_index": 0,
+      "label": "low-power analog array",
+      "aliases": [
+        "low-power analog array",
+        "high-density, low-power analog array"
+      ],
+      "types": [
+        "array",
+        "hardware",
+        "analog array"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The low-power analog array is a high-density hardware component designed for efficient binary-binary partial matrix-vector multiplication within a mixed-signal architecture, enabling high-resolution computations in image processing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "low-power analog array",
+          "local_types": [
+            "hardware",
+            "analog array"
+          ],
+          "iri": "Entity-low-power_analog_array-Mention-1"
+        },
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "high-density, low-power analog array",
+          "local_types": [
+            "hardware",
+            "array"
+          ],
+          "iri": "Entity-low-power_analog_array-Mention-2"
+        }
+      ],
+      "relevance": 0.70849609375
+    },
+    "Entity-random_statistic": {
+      "node_id": "random_statistic",
+      "disambiguation_index": 0,
+      "label": "random statistics",
+      "aliases": [
+        "random statistics"
+      ],
+      "types": [
+        "mathematical term",
+        "statistics",
+        "statistical concept",
+        "mathematical theory"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Random statistics refers to the statistical properties arising from the analog summation of binary products in a mixed-signal architecture, which allows for the maintenance of full digital resolution despite low-resolution analog-to-digital conversion.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "random statistics",
+          "local_types": [
+            "mathematical term",
+            "statistics",
+            "statistical concept",
+            "mathematical theory"
+          ],
+          "iri": "Entity-random_statistic-Mention-1"
+        }
+      ],
+      "relevance": 0.693359375
+    },
+    "Entity-analog_summation": {
+      "node_id": "analog_summation",
+      "disambiguation_index": 0,
+      "label": "analog summation",
+      "aliases": [
+        "analog summation of binary products",
+        "analog summation"
+      ],
+      "types": [
+        "mathematical operation",
+        "process",
+        "summation",
+        "signal processing technique",
+        "operation",
+        "binary products"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Analog summation refers to the process of combining binary products in an analog manner, which allows for the maintenance of full digital resolution despite low-resolution analog-to-digital conversion, leveraging random statistics to achieve this outcome.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "analog summation",
+          "local_types": [
+            "process",
+            "mathematical operation"
+          ],
+          "iri": "Entity-analog_summation-Mention-1"
+        },
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "analog summation of binary products",
+          "local_types": [
+            "mathematical operation",
+            "summation",
+            "binary products",
+            "operation",
+            "signal processing technique"
+          ],
+          "iri": "Entity-analog_summation-Mention-2"
+        }
+      ],
+      "relevance": 0.67822265625
+    },
+    "Entity-ciddram": {
+      "node_id": "ciddram",
+      "disambiguation_index": 0,
+      "label": "CID/DRAM",
+      "aliases": [
+        "CID/DRAM"
+      ],
+      "types": [
+        "technology",
+        "hardware"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "CID/DRAM refers to a prototype of an analog array designed for high-density, low-power computation, specifically used for parallel inner-product calculations in image processing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "CID/DRAM",
+          "local_types": [
+            "technology",
+            "hardware"
+          ],
+          "iri": "Entity-ciddram-Mention-1"
+        }
+      ],
+      "relevance": 0.677734375
+    },
+    "Entity-input": {
+      "node_id": "input",
+      "disambiguation_index": 0,
+      "label": "inputs",
+      "aliases": [
+        "inputs"
+      ],
+      "types": [
+        "data",
+        "variables"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'inputs' refers to the highly correlated data variables used in the random modulation scheme to achieve near-Bernoulli statistics in the context of high-resolution parallel inner-product computation.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "inputs",
+          "local_types": [
+            "data",
+            "variables"
+          ],
+          "iri": "Entity-input-Mention-1"
+        }
+      ],
+      "relevance": 0.66845703125
+    },
+    "Entity-full_digital_resolution": {
+      "node_id": "full_digital_resolution",
+      "disambiguation_index": 0,
+      "label": "Full digital resolution",
+      "aliases": [
+        "Full digital resolution"
+      ],
+      "types": [
+        "resolution"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Full digital resolution refers to the capability of maintaining high-quality digital output in computational processes, even when using low-resolution analog-to-digital conversion, achieved through the use of random statistics in the summation of binary products.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Full digital resolution",
+          "local_types": [
+            "resolution"
+          ],
+          "iri": "Entity-full_digital_resolution-Mention-1"
+        }
+      ],
+      "relevance": 0.6669921875
+    },
+    "Entity-real_image_data": {
+      "node_id": "real_image_data",
+      "disambiguation_index": 0,
+      "label": "real image data",
+      "aliases": [
+        "real image data"
+      ],
+      "types": [
+        "image data",
+        "data type",
+        "data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Real image data refers to actual images used in experiments to validate the proposed mixed-signal paradigm for high-resolution parallel inner-product computation in image processing.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "real image data",
+          "local_types": [
+            "image data",
+            "data type",
+            "data"
+          ],
+          "iri": "Entity-real_image_data-Mention-1"
+        }
+      ],
+      "relevance": 0.6435546875
+    },
+    "Entity-0.5_cent_m_cmos": {
+      "node_id": "0.5_cent_m_cmos",
+      "disambiguation_index": 0,
+      "label": "0.5 cents m CMOS",
+      "aliases": [
+        "0.5 cents m CMOS"
+      ],
+      "types": [
+        "semiconductor technology",
+        "CMOS",
+        "technology node",
+        "technology",
+        "fabrication process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "0.5 cents m CMOS refers to a cost-effective fabrication process for a mixed-signal integrated circuit technology node that enables the development of a high-density, low-power analog array for image processing applications.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "0.5 cents m CMOS",
+          "local_types": [
+            "semiconductor technology",
+            "CMOS",
+            "technology node",
+            "technology",
+            "fabrication process"
+          ],
+          "iri": "Entity-0.5_cent_m_cmos-Mention-1"
+        }
+      ],
+      "relevance": 0.62744140625
+    },
+    "Entity-very_high_dimension": {
+      "node_id": "very_high_dimension",
+      "disambiguation_index": 0,
+      "label": "very high dimensions",
+      "aliases": [
+        "very high dimensions"
+      ],
+      "types": [
+        "mathematical concept",
+        "dimensionality",
+        "dimension"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'very high dimensions' refers to the mathematical concept of spaces with a large number of dimensions, which is relevant in the context of high-resolution parallel inner-product computation and kernel implementations in image processing.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "very high dimensions",
+          "local_types": [
+            "mathematical concept",
+            "dimensionality",
+            "dimension"
+          ],
+          "iri": "Entity-very_high_dimension-Mention-1"
+        }
+      ],
+      "relevance": 0.6103515625
+    },
+    "Entity-kernel": {
+      "node_id": "kernel",
+      "disambiguation_index": 0,
+      "label": "kernels",
+      "aliases": [
+        "kernels"
+      ],
+      "types": [
+        "kernel",
+        "image processing technique",
+        "mathematical function"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of image processing, 'kernels' refer to mathematical functions used for operations such as convolution, which facilitate high-resolution parallel inner-product computations in very high dimensions.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "kernels",
+          "local_types": [
+            "kernel",
+            "image processing technique",
+            "mathematical function"
+          ],
+          "iri": "Entity-kernel-Mention-1"
+        }
+      ],
+      "relevance": 0.609375
+    },
+    "Entity-low-resolution_analog-to-digital_conversion": {
+      "node_id": "low-resolution_analog-to-digital_conversion",
+      "disambiguation_index": 0,
+      "label": "low-resolution analog-to-digital conversion",
+      "aliases": [
+        "low-resolution analog-to-digital conversion"
+      ],
+      "types": [
+        "analog-to-digital",
+        "conversion",
+        "conversion technique",
+        "process"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Low-resolution analog-to-digital conversion is a process that transforms analog signals into digital form at a lower resolution, potentially sacrificing detail while still aiming to preserve essential information.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "low-resolution analog-to-digital conversion",
+          "local_types": [
+            "analog-to-digital",
+            "conversion",
+            "conversion technique",
+            "process"
+          ],
+          "iri": "Entity-low-resolution_analog-to-digital_conversion-Mention-1"
+        }
+      ],
+      "relevance": 0.59326171875
+    },
+    "Entity-near-bernoulli_statistic": {
+      "node_id": "near-bernoulli_statistic",
+      "disambiguation_index": 0,
+      "label": "near-Bernoulli statistics",
+      "aliases": [
+        "near-Bernoulli statistics"
+      ],
+      "types": [
+        "statistics",
+        "statistical concept",
+        "probability distribution"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Near-Bernoulli statistics refer to a statistical behavior produced by a random modulation scheme that approximates the properties of Bernoulli distributions, even when the inputs are highly correlated.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "near-Bernoulli statistics",
+          "local_types": [
+            "statistics",
+            "statistical concept",
+            "probability distribution"
+          ],
+          "iri": "Entity-near-bernoulli_statistic-Mention-1"
+        }
+      ],
+      "relevance": 0.59228515625
+    },
+    "Entity-cmos": {
+      "node_id": "cmos",
+      "disambiguation_index": 0,
+      "label": "CMOS",
+      "aliases": [
+        "CMOS"
+      ],
+      "types": [
+        "technology",
+        "semiconductor",
+        "hardware"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "CMOS, or Complementary Metal-Oxide-Semiconductor, is a technology used in the fabrication of integrated circuits, particularly for digital logic and analog applications, characterized by low power consumption and high noise immunity.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "CMOS",
+          "local_types": [
+            "technology",
+            "semiconductor",
+            "hardware"
+          ],
+          "iri": "Entity-cmos-Mention-1"
+        }
+      ],
+      "relevance": 0.5810546875
+    },
+    "Entity-analog-to-digital_conversion": {
+      "node_id": "analog-to-digital_conversion",
+      "disambiguation_index": 0,
+      "label": "analog-to-digital conversion",
+      "aliases": [
+        "analog-to-digital conversion"
+      ],
+      "types": [
+        "conversion process",
+        "signal processing technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Analog-to-digital conversion is the process of transforming continuous analog signals into discrete digital values for processing and analysis.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "analog-to-digital conversion",
+          "local_types": [
+            "conversion process",
+            "signal processing technique"
+          ],
+          "iri": "Entity-analog-to-digital_conversion-Mention-1"
+        }
+      ],
+      "relevance": 0.57861328125
+    },
+    "Entity-digital_resolution": {
+      "node_id": "digital_resolution",
+      "disambiguation_index": 0,
+      "label": "digital resolution",
+      "aliases": [
+        "digital resolution"
+      ],
+      "types": [
+        "technical term",
+        "measurement"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Digital resolution refers to the level of detail and clarity in a digital image or signal, typically measured in pixels or bits, indicating the amount of information captured or displayed.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "digital resolution",
+          "local_types": [
+            "technical term",
+            "measurement"
+          ],
+          "iri": "Entity-digital_resolution-Mention-1"
+        }
+      ],
+      "relevance": 0.56982421875
+    },
+    "Entity-modulation_scheme": {
+      "node_id": "modulation_scheme",
+      "disambiguation_index": 0,
+      "label": "modulation scheme",
+      "aliases": [
+        "modulation scheme"
+      ],
+      "types": [
+        "signal processing technique",
+        "communication method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A modulation scheme is a method used in signal processing and communication to encode information onto a carrier signal by varying its properties such as amplitude, frequency, or phase.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "modulation scheme",
+          "local_types": [
+            "signal processing technique",
+            "communication method"
+          ],
+          "iri": "Entity-modulation_scheme-Mention-1"
+        }
+      ],
+      "relevance": 0.54150390625
+    },
+    "Entity-image_processing": {
+      "node_id": "image_processing",
+      "disambiguation_index": 0,
+      "label": "image processing",
+      "aliases": [
+        "image processing"
+      ],
+      "types": [
+        "image processing",
+        "field of study",
+        "field",
+        "application area"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Image processing is a field of study that involves the manipulation and analysis of digital images using algorithms and techniques to enhance, transform, or extract information from visual data.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "image processing",
+          "local_types": [
+            "image processing",
+            "field of study",
+            "field",
+            "application area"
+          ],
+          "iri": "Entity-image_processing-Mention-1"
+        }
+      ],
+      "relevance": 0.52978515625
+    },
+    "Entity-highly_correlated_input": {
+      "node_id": "highly_correlated_input",
+      "disambiguation_index": 0,
+      "label": "highly correlated inputs",
+      "aliases": [
+        "highly correlated inputs"
+      ],
+      "types": [
+        "data characteristic",
+        "variables",
+        "statistical property",
+        "inputs",
+        "data",
+        "input"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "highly correlated inputs refer to a set of data variables that exhibit a strong statistical relationship with each other, indicating that changes in one variable are associated with changes in another.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "highly correlated inputs",
+          "local_types": [
+            "data characteristic",
+            "variables",
+            "statistical property",
+            "inputs",
+            "data",
+            "input"
+          ],
+          "iri": "Entity-highly_correlated_input-Mention-1"
+        }
+      ],
+      "relevance": 0.52392578125
+    },
+    "Entity-image_data": {
+      "node_id": "image_data",
+      "disambiguation_index": 0,
+      "label": "image data",
+      "aliases": [
+        "image data"
+      ],
+      "types": [
+        "data type",
+        "visual data"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Image data refers to digital representations of visual information, typically in the form of pixels, that can be processed, analyzed, and stored by computer systems.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "image data",
+          "local_types": [
+            "data type",
+            "visual data"
+          ],
+          "iri": "Entity-image_data-Mention-1"
+        }
+      ],
+      "relevance": 0.52099609375
+    },
+    "Entity-experimental_result": {
+      "node_id": "experimental_result",
+      "disambiguation_index": 0,
+      "label": "experimental results",
+      "aliases": [
+        "experimental results"
+      ],
+      "types": [
+        "data output",
+        "experimental",
+        "research findings",
+        "results"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Experimental results refer to the data and findings obtained from conducting experiments, typically used to validate hypotheses or assess the performance of a method or system.",
+      "mentions": [
+        {
+          "reference": "Paper-11-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "experimental results",
+          "local_types": [
+            "data output",
+            "experimental",
+            "research findings",
+            "results"
+          ],
+          "iri": "Entity-experimental_result-Mention-1"
+        }
+      ],
+      "relevance": 0.4462890625
+    }
+  },
+  "summary": "A mixed-signal paradigm is presented for high-resolution parallel inner-product computation in very high dimensions , suitable for efficient implementation of kernels in image processing . At the core of the externally digital architecture is a high-density , low-power analog array performing binary-binary partial matrix-vector multiplication . Full digital resolution is maintained even with low-resolution analog-to-digital conversion , owing to random statistics in the analog summation of binary products . A random modulation scheme produces near-Bernoulli statistics even for highly correlated inputs . The approach is validated with real image data , and with experimental results from a CID/DRAM analog array prototype in 0.5 cents m CMOS .",
+  "triples": [
+    [
+      "Entity-mixed-signal_paradigm",
+      "Predicate-is_presented_for",
+      "Entity-high-resolution_parallel_inner-product_computation"
+    ],
+    [
+      "Entity-externally_digital_architecture",
+      "Predicate-is_at_the_core_of",
+      "Entity-low-power_analog_array"
+    ],
+    [
+      "Entity-low-power_analog_array",
+      "Predicate-performing",
+      "Entity-binary-binary_partial_matrix-vector_multiplication"
+    ],
+    [
+      "Entity-full_digital_resolution",
+      "Predicate-is_maintained_with",
+      "Entity-low-resolution_analog-to-digital_conversion"
+    ],
+    [
+      "Entity-low-resolution_analog-to-digital_conversion",
+      "Predicate-is_owing_to",
+      "Entity-random_statistic"
+    ],
+    [
+      "Entity-random_statistic",
+      "Predicate-is_in",
+      "Entity-analog_summation"
+    ],
+    [
+      "Entity-analog_summation",
+      "Predicate-is_of",
+      "Entity-binary_product"
+    ],
+    [
+      "Entity-analog_summation",
+      "Predicate-is_related_to",
+      "Entity-binary_product"
+    ],
+    [
+      "Entity-low-resolution_analog-to-digital_conversion",
+      "Predicate-maintains",
+      "Entity-full_digital_resolution"
+    ],
+    [
+      "Entity-random_statistic",
+      "Predicate-is_owing_to",
+      "Entity-analog_summation"
+    ],
+    [
+      "Entity-random_modulation_scheme",
+      "Predicate-produces",
+      "Entity-near-bernoulli_statistic"
+    ],
+    [
+      "Entity-approach",
+      "Predicate-validated_with",
+      "Entity-real_image_data"
+    ],
+    [
+      "Entity-approach",
+      "Predicate-validated_with",
+      "Entity-experimental_result"
+    ],
+    [
+      "Entity-experimental_result",
+      "Predicate-from",
+      "Entity-ciddram_analog_array_prototype"
+    ],
+    [
+      "Entity-ciddram_analog_array_prototype",
+      "Predicate-in",
+      "Entity-0.5_cent_m_cmos"
+    ],
+    [
+      "Entity-approach",
+      "Predicate-utilizes",
+      "Entity-mixed-signal_paradigm"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-highly_correlated_input",
+      "skos:broader",
+      "Entity-input"
+    ],
+    [
+      "Entity-low-resolution_analog-to-digital_conversion",
+      "skos:broader",
+      "Entity-analog-to-digital_conversion"
+    ],
+    [
+      "Entity-0.5_cent_m_cmos",
+      "skos:broader",
+      "Entity-cmos"
+    ],
+    [
+      "Entity-random_modulation_scheme",
+      "skos:broader",
+      "Entity-modulation_scheme"
+    ],
+    [
+      "Entity-kernel",
+      "skos:broader",
+      "Entity-image_processing"
+    ],
+    [
+      "Entity-analog_summation",
+      "skos:broader",
+      "Entity-binary_product"
+    ],
+    [
+      "Entity-real_image_data",
+      "skos:broader",
+      "Entity-image_data"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_presented_for": {
+      "label": "is presented for",
+      "description": "The predicate 'is presented for' indicates that the subject serves as a context, framework, or method that is specifically designed or utilized to achieve, facilitate, or demonstrate the capabilities or applications represented by the object. It establishes a relationship where the subject is relevant or beneficial in relation to the object, often implying a purpose or intended use.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_at_the_core_of": {
+      "label": "is at the core of",
+      "description": "The predicate 'is at the core of' indicates that the subject is fundamental or essential to the existence, function, or understanding of the object. It suggests that the object is significantly influenced, supported, or defined by the subject, implying a central or pivotal relationship between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-performing": {
+      "label": "performing",
+      "description": "The predicate 'performing' indicates an action or process undertaken by the subject that results in the execution or realization of the object. It establishes a dynamic relationship where the subject actively engages in carrying out the task or function represented by the object, thereby facilitating a specific operation or computation.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_maintained_with": {
+      "label": "is maintained with",
+      "description": "The predicate 'is maintained with' indicates a relationship where the subject is sustained or preserved through the use of the object. It suggests that the object plays a crucial role in ensuring the continued existence or quality of the subject, often implying a dependency or support mechanism between the two.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_owing_to": {
+      "label": "is owing to",
+      "description": "The predicate 'is owing to' establishes a causal or explanatory relationship between the subject and the object, indicating that the subject is a result or consequence of the factors or conditions represented by the object. It implies that the object provides the reason or basis for the existence, occurrence, or state of the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_in": {
+      "label": "is in",
+      "description": "The predicate 'is in' establishes a relationship of inclusion or membership between the subject and the object, indicating that the subject exists within the context, category, or framework defined by the object. It suggests that the subject is part of a larger whole represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_of": {
+      "label": "is of",
+      "description": "The predicate 'is of' establishes a relationship of classification or belonging between the subject and the object, indicating that the subject is a type, category, or instance that falls under the broader concept represented by the object. It signifies that the subject possesses characteristics or properties that are inherent to the object, thereby linking the two in a way that highlights the subject's association with the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_related_to": {
+      "label": "is related to",
+      "description": "The predicate 'is related to' establishes a connection or association between the subject and the object, indicating that there is a relevant link, correlation, or interaction between the two entities. This relationship can encompass various forms of association, such as similarity, dependency, influence, or relevance, and serves to highlight how the subject and object are interconnected within a broader context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-maintains": {
+      "label": "maintains",
+      "description": "The predicate 'maintains' indicates a relationship where the subject actively preserves, upholds, or continues the state or condition represented by the object. It suggests that the subject has a role in ensuring that the object remains in a certain state or quality over time.",
+      "disambiguation_index": 0
+    },
+    "Predicate-produces": {
+      "label": "produces",
+      "description": "The predicate 'produces' indicates a causal or generative relationship between the subject and the object, where the subject is responsible for creating, generating, or resulting in the object. In this context, the subject actively contributes to the formation or emergence of the object, which can be a state, condition, or outcome that arises as a consequence of the subject's action or characteristics.",
+      "disambiguation_index": 0
+    },
+    "Predicate-validated_with": {
+      "label": "validated with",
+      "description": "The predicate 'validated with' indicates a relationship where the subject has undergone a process of verification or confirmation using the object as a basis or reference. This implies that the subject's effectiveness, accuracy, or reliability has been assessed through comparison or testing against the object, which serves as a standard or source of truth.",
+      "disambiguation_index": 0
+    },
+    "Predicate-from": {
+      "label": "from",
+      "description": "The predicate 'from' indicates a source or origin relationship between the subject and the object, suggesting that the subject is derived, obtained, or produced by the object. It establishes a connection where the subject is a result or outcome that can be traced back to the object as its source.",
+      "disambiguation_index": 0
+    },
+    "Predicate-in": {
+      "label": "in",
+      "description": "The predicate 'in' indicates a relationship of inclusion or containment, where the subject is situated within or is part of the context or environment defined by the object. It suggests that the subject operates, exists, or is relevant within the parameters or characteristics specified by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-utilizes": {
+      "label": "utilizes",
+      "description": "The predicate 'utilizes' indicates that the subject employs or makes use of the object in a practical or effective manner. It suggests an active engagement where the subject applies the object as a tool, method, or resource to achieve a specific purpose or outcome.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a specific instance or subset that falls under the more general category represented by the object. This relationship implies that the object encompasses a wider range of concepts or entities than the subject, thereby providing a context in which the subject can be understood as part of a larger classification.",
+      "disambiguation_index": 0
+    }
+  }
+}

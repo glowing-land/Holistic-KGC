@@ -1,0 +1,251 @@
+{
+  "iri": "Paper-MEL_Metadata_Extractor__Loader",
+  "title": "MEL: Metadata Extractor & Loader",
+  "authors": [
+    "Sergio J. Rodr\u00edguez M\u00e9ndez",
+    "Pouya G. Omran",
+    "Armin Haller",
+    "KerryTaylor"
+  ],
+  "keywords": [
+    "Metadata Extraction",
+    "Information Extraction",
+    "Data Preprocessing",
+    "Knowledge Graph Construction",
+    "Data Analysis Pipeline"
+  ],
+  "sections": [
+    {
+      "iri": "Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-1",
+              "text": "The metadata and content-based information extraction tasks from heterogeneous file sets are pre-processing steps of many Knowledge Graph Construction Pipelines (KGCP)."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-2",
+              "text": "These tasks often take longer than necessary due to the lack of proper tools that integrate several complementary extraction methods and properties to get a rich output set."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-3",
+              "text": "This paper presents MEL, a Python-based tool that implements a set of methods to extract metadata and content-based information from unstructured information encoded in different source document formats."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-4",
+              "text": "The results are generated as JSON files, which can: (a) optionally be stored in a document store, and (b) easily be mapped to RDF using a variety of tools such as J2RM."
+            },
+            {
+              "iri": "Section-1-Paragraph-1-Sentence-5",
+              "text": "MEL supports more than 20 different file types, making it a versatile tool that aids pre-processing tasks as part of a KGCP based on comprehensive configurable settings."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-2",
+      "subtitle": "Introduction",
+      "paragraphs": [
+        {
+          "iri": "Section-2-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-1",
+              "text": "This paper introduces MEL, a tool that implements a set of methods to extract metadata and content-based information from various file formats as JSON objects."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-2",
+              "text": "For each supported file type, MEL extracts the textual content from the source document and performs specific pre-processing and data cleaning tasks."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-3",
+              "text": "Also, it performs basic text analysis tasks (pattern matching and keyword extraction) and generates the results in a machine-readable format (JSON), preparing the ground for content-based analysis."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-4",
+              "text": "MEL is integrated with \u201cThe NLP -NER Toolkit\u201d (TNNT), which automates the extraction task of categorised named entities from the MEL results by using diverse state-of-the-art NLP tools and NER models [5]."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-5",
+              "text": "MEL implements primitives for metadata and content extraction from unstructured data sets of heterogeneous formats, and along with the TNNT results, it provides the groundwork for content-based analysis."
+            },
+            {
+              "iri": "Section-2-Paragraph-1-Sentence-6",
+              "text": "MEL and TNNT were developed in conjunction with J2RM [4], to easily map the JSON results to RDF as part of an automated KGCP."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-3",
+      "subtitle": "Core Features",
+      "paragraphs": [
+        {
+          "iri": "Section-3-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-1",
+              "text": "MEL has comprehensive metadata extraction support of various file types and formats."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-2",
+              "text": "In a nutshell: (1) it takes as input a document (file) set; (2) then, for each document, it extracts its related metadata and content-based information, while performing basic text analysis (such as applying a configurable set of regular expressions and keyword extraction task); and, (3) as output, it generates a JSON file with the extracted metadata and text content with a structure based on the supported formats' document object model."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-3",
+              "text": "It can store the results in a document store."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-4",
+              "text": "MEL's general output structure is presented in Table 1."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-5",
+              "text": "MEL has a detailed configuration JSON file that defines how the processing will be performed through a set of parameters and flags that establish the initial settings related to the document store, input document sets, TNNT general configuration, file extension mappings, the \u201cAssociated-Metadata\u201d processing (Table 1), and regular expressions to apply in the text analysis task, among other settings."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-6",
+              "text": "The supported file types are presented in Table 2."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-7",
+              "text": "The third column shows the theoretical number of attributes that the tool is able to extract per document type, whilst the fourth column shows the average of the extracted attributes from four use case document sets."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-8",
+              "text": "OLE 2 file types and .docm can only be processed on Windows operating systems."
+            },
+            {
+              "iri": "Section-3-Paragraph-1-Sentence-9",
+              "text": "Specifically for OLE 2 file types, MEL uses the olemeta tool."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-4",
+      "subtitle": "Architecture",
+      "paragraphs": [
+        {
+          "iri": "Section-4-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-1",
+              "text": "MEL is fully integrated with TNNT as depicted in Figure 1."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-2",
+              "text": "The set of Python-based methods implemented in MEL are generic and can be applied to extract the content and metadata of all supported file types."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-3",
+              "text": "MEL uses various opensource packages and tools with complementary capabilities to form a \u201cSwiss army knife\u201d of metadata and content-based information extraction from heterogeneous document sets."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-4",
+              "text": "As part of the \u201cGeneral-Metadata\u201d extraction task, MEL optionally uses the XML output from the NLNZ Metadata Extractor tool, a Java standalone tool that extracts a comprehensive attribute and property list from dozens of file formats."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-5",
+              "text": "The MEL general processing model is presented in Figure 2."
+            },
+            {
+              "iri": "Section-4-Paragraph-1-Sentence-6",
+              "text": "It is important to note that each file type has its own specific processing model as well as the text analysis task, which is the last step that is performed for any output."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-5",
+      "subtitle": "Related Work",
+      "paragraphs": [
+        {
+          "iri": "Section-5-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-1",
+              "text": "The most comprehensive and current state-of-the-art tool for content extraction and analysis is Apache Tika, which is a complete and complex Java-based general-purpose system."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-2",
+              "text": "While MEL's core goals resemble the ones of Apache Tika, the main difference and benefit of MEL as compared to Apache Tika is that it is a lightweight Python-based package for the metadata extraction of common file formats aimed to be used in a KGCP."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-3",
+              "text": "Although there is a wide range of Python-based tools and libraries for metadata extraction, to the best of our knowledge, there is no package available that fully integrates in one system a comprehensive set of methods for metadata and content extraction of common file formats that generate the results in JSON structures based on the document object model of each format type."
+            },
+            {
+              "iri": "Section-5-Paragraph-1-Sentence-4",
+              "text": "Last, MEL can assist in the information extraction stage of several KGCPs, such as the ones described in [6], [2], and [3]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "iri": "Section-6",
+      "subtitle": "Conclusions and Future Work",
+      "paragraphs": [
+        {
+          "iri": "Section-6-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-1",
+              "text": "MEL provides a versatile mechanism to extract metadata and content-based information from unstructured data sets of heterogeneous file formats, agnostic of the data sets' domain (general purpose)."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-2",
+              "text": "It has been tested over thousands of documents using different formats and datasets as part of the AGRIF project."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-3",
+              "text": "Based on the structure of the MEL's JSON results, it is possible to easily add a vocabulary or light-weight ontology using JSON-LD annotations, in order to make the extracted metadata \u201cRDF ready\u201d."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-4",
+              "text": "This will be explored in the near future leveraging on the integration with JSON-LD ontologies."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-5",
+              "text": "More file formats will be added in a per use-case requirements basis, in order to support KGCP tasks."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-6",
+              "text": "Additionally, a project to \u201ccontainerise\u201d the MEL+TNNT tools is planned in the near future."
+            },
+            {
+              "iri": "Section-6-Paragraph-1-Sentence-7",
+              "text": "The major contributions of this tool are: (1) the ability to extract metadata sets and content-based information from different source document formats; (2) the comprehensive support of over 20 different file types/formats integrated into one easy-to-use Python-based system; (3) integration with TNNT which automates the extraction of categorised named entities from the results by using diverse state-of-the-art NLP tools and NER models; and (4) the JSON result files can be easily mapped to RDF using J2RM."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": "The metadata and content-based information extraction tasks from heterogeneous file sets are pre-processing steps of many Knowledge Graph Construction Pipelines (KGCP). These tasks often take longer than necessary due to the lack of proper tools that integrate several complementary extraction methods and properties to get a rich output set. This paper presents MEL, a Python-based tool that implements a set of methods to extract metadata and content-based information from unstructured information encoded in different source document formats. The results are generated as JSON files, which can: (a) optionally be stored in a document store, and (b) easily be mapped to RDF using a variety of tools such as J2RM. MEL supports more than 20 different file types, making it a versatile tool that aids pre-processing tasks as part of a KGCP based on comprehensive configurable settings.\n\nThis paper introduces MEL, a tool that implements a set of methods to extract metadata and content-based information from various file formats as JSON objects. For each supported file type, MEL extracts the textual content from the source document and performs specific pre-processing and data cleaning tasks. Also, it performs basic text analysis tasks (pattern matching and keyword extraction) and generates the results in a machine-readable format (JSON), preparing the ground for content-based analysis. MEL is integrated with \u201cThe NLP -NER Toolkit\u201d (TNNT), which automates the extraction task of categorised named entities from the MEL results by using diverse state-of-the-art NLP tools and NER models [5]. MEL implements primitives for metadata and content extraction from unstructured data sets of heterogeneous formats, and along with the TNNT results, it provides the groundwork for content-based analysis. MEL and TNNT were developed in conjunction with J2RM [4], to easily map the JSON results to RDF as part of an automated KGCP.\n\nMEL has comprehensive metadata extraction support of various file types and formats. In a nutshell: (1) it takes as input a document (file) set; (2) then, for each document, it extracts its related metadata and content-based information, while performing basic text analysis (such as applying a configurable set of regular expressions and keyword extraction task); and, (3) as output, it generates a JSON file with the extracted metadata and text content with a structure based on the supported formats' document object model. It can store the results in a document store. MEL's general output structure is presented in Table 1. MEL has a detailed configuration JSON file that defines how the processing will be performed through a set of parameters and flags that establish the initial settings related to the document store, input document sets, TNNT general configuration, file extension mappings, the \u201cAssociated-Metadata\u201d processing (Table 1), and regular expressions to apply in the text analysis task, among other settings. The supported file types are presented in Table 2. The third column shows the theoretical number of attributes that the tool is able to extract per document type, whilst the fourth column shows the average of the extracted attributes from four use case document sets. OLE 2 file types and .docm can only be processed on Windows operating systems. Specifically for OLE 2 file types, MEL uses the olemeta tool.\n\nMEL is fully integrated with TNNT as depicted in Figure 1. The set of Python-based methods implemented in MEL are generic and can be applied to extract the content and metadata of all supported file types. MEL uses various opensource packages and tools with complementary capabilities to form a \u201cSwiss army knife\u201d of metadata and content-based information extraction from heterogeneous document sets. As part of the \u201cGeneral-Metadata\u201d extraction task, MEL optionally uses the XML output from the NLNZ Metadata Extractor tool, a Java standalone tool that extracts a comprehensive attribute and property list from dozens of file formats. The MEL general processing model is presented in Figure 2. It is important to note that each file type has its own specific processing model as well as the text analysis task, which is the last step that is performed for any output.\n\nThe most comprehensive and current state-of-the-art tool for content extraction and analysis is Apache Tika, which is a complete and complex Java-based general-purpose system. While MEL's core goals resemble the ones of Apache Tika, the main difference and benefit of MEL as compared to Apache Tika is that it is a lightweight Python-based package for the metadata extraction of common file formats aimed to be used in a KGCP. Although there is a wide range of Python-based tools and libraries for metadata extraction, to the best of our knowledge, there is no package available that fully integrates in one system a comprehensive set of methods for metadata and content extraction of common file formats that generate the results in JSON structures based on the document object model of each format type. Last, MEL can assist in the information extraction stage of several KGCPs, such as the ones described in [6], [2], and [3].\n\nMEL provides a versatile mechanism to extract metadata and content-based information from unstructured data sets of heterogeneous file formats, agnostic of the data sets' domain (general purpose). It has been tested over thousands of documents using different formats and datasets as part of the AGRIF project. Based on the structure of the MEL's JSON results, it is possible to easily add a vocabulary or light-weight ontology using JSON-LD annotations, in order to make the extracted metadata \u201cRDF ready\u201d. This will be explored in the near future leveraging on the integration with JSON-LD ontologies. More file formats will be added in a per use-case requirements basis, in order to support KGCP tasks. Additionally, a project to \u201ccontainerise\u201d the MEL+TNNT tools is planned in the near future. The major contributions of this tool are: (1) the ability to extract metadata sets and content-based information from different source document formats; (2) the comprehensive support of over 20 different file types/formats integrated into one easy-to-use Python-based system; (3) integration with TNNT which automates the extraction of categorised named entities from the results by using diverse state-of-the-art NLP tools and NER models; and (4) the JSON result files can be easily mapped to RDF using J2RM.",
+  "kg2text": [
+    "MEL+TNNT tools consist of MEL, a Python-based tool that extracts metadata and content- based information from various file types. It can assist in the information extraction stage of several Knowledge Graph Construction Pipelines (KGCPs), such as those described in [6], [2], and [3]. This paper presents MEL+TNNT tools, which are part of a versatile tool that aids pre-processing tasks as part of a KGCP based on comprehensive configurable settings. The metadata extracted by MEL+TNNT is generated from unstructured data sets of heterogeneous file formats.",
+    "According to MEL, a Python-based tool that extracts metadata and content- based information from various file types, it can assist in the information extraction stage of several Knowledge Graph Construction Pipelines (KGCPs). The set of Python-based methods implemented by MEL are generic and can be applied to extract the content and metadata of all supported file types. Additionally, MEL+TNNT tools generate a JSON file with the extracted metadata and text content from input documents.",
+    "The set of Python-based methods, which implements MEL are generic and can be applied to extract the content and metadata of all supported file types. It is implemented by MEL+TNNT tools that aid pre-processing tasks as part of a Knowledge Graph Construction Pipeline with configurable settings. The tool extracts textual content from source documents and generates JSON files containing extracted metadata and text content, which are used in various KGCPs. This paper presents the set of Python-based methods, which assists in information extraction stages of several KGCPs.",
+    "MEL, a Python-based metadata extractor and loader, uses MEL extracts the textual content from the source document to generate a versatile tool that aids pre-processing tasks as part of a KGCP based on comprehensive configurable settings. This tool can assist in the information extraction stage of several KGCPs, such as those described in [6], [2], and [3]. The metadata contains JSON file with the extracted metadata and text content, which is generated by MEL. Additionally, MEL' s uses a set of Python-based methods to extract both content and metadata from various file formats, making it a lightweight alternative compared to Apache Tika.",
+    "MEL, as compared to Apache Tika, refers to a lightweight Python-based tool for extracting metadata from various file formats. It implements a comprehensive set of methods used by MEL to extract content and metadata from different source document types. The extracted textual content can be stored in JSON files with the extracted metadata and text content. This paper presents MEL as a software framework or system that extracts metadata, performing basic text analysis tasks such as pattern matching and keyword extraction on input documents. It takes four use case document sets as input to demonstrate its capabilities.",
+    "MEL, a Python-based tool for metadata extraction and content- based information processing from unstructured file sets, can assist in the information extraction stage of several Knowledge Graph Construction Pipelines (KGCPs). It supports more than 20 different file types and aids pre-processing tasks as part of a KGCP with comprehensive configurable settings. MEL stores its results in a document store and is fully integrated with TNNT tools for mapping data from one format to another. Additionally, it implements primitives for metadata and content extraction from unstructured data sets, making it a versatile tool that can be applied to extract the content and metadata of all supported file types.",
+    "The AGRIF project uses MEL, a Python-based tool that extracts metadata and content-based information from unstructured data sets of heterogeneous file formats. For each supported file type, MEL performs pre-processing and data cleaning tasks to extract relevant attributes. The results are generated as JSON files, which can be further processed using tools like J2RM. AGRIF has been tested over various document types, demonstrating the versatility of this metadata extractor and loader tool.",
+    "The process of extracting relevant information from content, known as metadata and content extraction tasks, can be achieved using proper tools that integrate several complementary extraction methods and properties to get a rich output set. These tools, such as MEL, are designed to extract metadata features per file type, with the theoretical number of attributes being able to extract per document type varying depending on the specific processing model used. In order to support KGCP tasks, more file formats can be supported by integrating multiple extraction methods and properties into a single toolset. The average of extracted attributes from four use case document sets is an important metric in evaluating the effectiveness of these tools.",
+    "The AGRIF project, which uses MEL (Metadata Extractor & Loader) to extract metadata and content-based information from unstructured data sets of heterogeneous file formats, has led to the development of a document store that stores JSON files generated by MEL as output. These results can be mapped to RDF using various tools such as J2RM. The project also utilizes Apache Tika for content extraction and analysis, which involves pattern matching and keyword extraction tasks. Furthermore, TNNT (The NLP-NER Toolkit) was developed in conjunction with J2RM to automate the extraction task of categorized named entities from MEL's metadata and content-based information.",
+    "The input document sets are categorized into file types, which can be further processed using tools like J2RM and Apache Tika. The extracted data can then be represented as JSON objects or files, with XML output being another possible format. Source documents can also be analyzed to extract relevant information, such as keywords and patterns. Regular expressions can be used for pattern matching and keyword extraction, which are essential methods in text analysis tasks like content extraction and analysis. To support Knowledge Graph Construction Pipeline (KGCP) tasks, more file formats may need to be added on a case-by-case basis.",
+    "The integration of MEL's results with JSON-LD ontologies will be explored in the near future. This involves metadata and content extraction tasks from heterogeneous file sets, including source document formats, configuration JSON files, and common file formats. The extracted information can then be used to support KGCP tasks, such as pattern matching and keyword extraction using regular expressions. Additionally, unstructured information encoded in different source document formats will need to be processed and analyzed through text analysis techniques. A project has been initiated to containerize and integrate the MEL+TNNT tools for metadata and content-based information extraction.",
+    "The Knowledge Graph Construction Process (KGCP) has a broader term of project, which includes initiatives such as Apache Tika. The KGCP tasks involve content-based information extraction tasks that have a broader term of tasks. These tasks include basic text analysis techniques like pattern matching and keyword extraction, which are primitives or fundamental operations used to perform specific methods. Additionally, the KGCP has a broader term of project, including Knowledge Graph Construction Pipelines (KGCPs) such as those described in [6], [2], and [3]. Furthermore, the process involves text analysis tasks that have a broader term of tasks. The vocabulary or light-weight ontology used for knowledge representation is part of ontologies. Pre-processing and data cleaning tasks are also included under tasks. Interestingly, .docm files can only be processed by Windows."
+  ],
+  "times": [
+    79.291574716568
+  ]
+}

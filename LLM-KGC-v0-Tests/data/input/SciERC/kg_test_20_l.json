@@ -1,0 +1,1084 @@
+{
+  "iri": "Paper-20",
+  "title": "ICASSP_2016_11_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-20-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-20-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+              "text": "The problem of blind separation of underdetermined instantaneous mixtures of independent signals is addressed through a method relying on nonstationarity of the original signals ."
+            },
+            {
+              "iri": "Paper-20-Section-1-Paragraph-1-Sentence-2",
+              "text": "The signals are assumed to be piecewise stationary with varying variances in different epochs ."
+            },
+            {
+              "iri": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+              "text": "In comparison with previous works , in this paper it is assumed that the signals are not i.i.d. in each epoch , but obey a first-order autoregressive model ."
+            },
+            {
+              "iri": "Paper-20-Section-1-Paragraph-1-Sentence-4",
+              "text": "This model was shown to be more appropriate for blind separation of natural speech signals ."
+            },
+            {
+              "iri": "Paper-20-Section-1-Paragraph-1-Sentence-5",
+              "text": "A separation method is proposed that is nearly statistically efficient -LRB- approaching the corresponding Cram\u00e9r-Rao lower bound -RRB- , if the separated signals obey the assumed model ."
+            },
+            {
+              "iri": "Paper-20-Section-1-Paragraph-1-Sentence-6",
+              "text": "In the case of natural speech signals , the method is shown to have separation accuracy better than the state-of-the-art methods ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.000514984130859375,
+    15.515172958374023,
+    22.190882205963135,
+    22.340580940246582,
+    0.016486167907714844,
+    9.1552734375e-05,
+    0.0001270771026611328,
+    35.77918481826782,
+    54.28593111038208,
+    1.1029274463653564,
+    33.90132808685303,
+    0.009538412094116211,
+    0.00018858909606933594,
+    28.027957916259766,
+    5.854893445968628,
+    0.011311769485473633,
+    1.2081317901611328,
+    3.107027530670166,
+    3.0166754722595215,
+    2.9447953701019287,
+    35.46710419654846,
+    1.6791894435882568,
+    22.14071249961853,
+    0.9538187980651855,
+    0.0006444454193115234,
+    0.0112152099609375
+  ],
+  "nodes": {
+    "Entity-a_separation_method": {
+      "node_id": "a_separation_method",
+      "disambiguation_index": 0,
+      "label": "A separation method",
+      "aliases": [
+        "A separation method"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A proposed statistical approach to blind separation of underdetermined instantaneous mixtures of independent signals that is nearly statistically efficient and approaches the Cram\u00e9r-Rao lower bound, assuming the separated signals obey a first-order autoregressive model.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "A separation method",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-a_separation_method-Mention-1"
+        }
+      ],
+      "relevance": 0.83251953125
+    },
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "paper"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A research paper that proposes a method for blind separation of underdetermined instantaneous mixtures of independent signals, assuming piecewise stationarity with varying variances and first-order autoregressive models.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "this paper",
+          "local_types": [
+            "paper"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.74267578125
+    },
+    "Entity-blind_separation": {
+      "node_id": "blind_separation",
+      "disambiguation_index": 0,
+      "label": "blind separation",
+      "aliases": [
+        "The problem of blind separation",
+        "blind separation"
+      ],
+      "types": [
+        "research_problem",
+        "signal processing technique",
+        "algorithm"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A signal processing technique or algorithm for separating underdetermined instantaneous mixtures of independent signals without prior knowledge of their characteristics.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "blind separation",
+          "local_types": [
+            "signal processing technique",
+            "algorithm"
+          ],
+          "iri": "Entity-blind_separation-Mention-1"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "The problem of blind separation",
+          "local_types": [
+            "research_problem"
+          ],
+          "iri": "Entity-blind_separation-Mention-2"
+        }
+      ],
+      "relevance": 0.73876953125
+    },
+    "Entity-blind_separation_of_underdetermined_instantaneous_mixture_of_independent_signal": {
+      "node_id": "blind_separation_of_underdetermined_instantaneous_mixture_of_independent_signal",
+      "disambiguation_index": 0,
+      "label": "blind separation of underdetermined instantaneous mixtures of independent signals",
+      "aliases": [
+        "blind separation of underdetermined instantaneous mixtures of independent signals"
+      ],
+      "types": [
+        "signal processing technique"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A signal processing technique for separating multiple unknown audio sources from their mixed and noisy recordings without prior knowledge or labeling, assuming non-stationarity in the original signals.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "blind separation of underdetermined instantaneous mixtures of independent signals",
+          "local_types": [
+            "signal processing technique"
+          ],
+          "iri": "Entity-blind_separation_of_underdetermined_instantaneous_mixture_of_independent_signal-Mention-1"
+        }
+      ],
+      "relevance": 0.70751953125
+    },
+    "Entity-blind_separation_of_natural_speech_signal": {
+      "node_id": "blind_separation_of_natural_speech_signal",
+      "disambiguation_index": 0,
+      "label": "blind separation of natural speech signals",
+      "aliases": [
+        "blind separation of natural speech signals"
+      ],
+      "types": [
+        "technique",
+        "signal processing"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A technique used to separate and extract individual audio signals from a mixed signal without prior knowledge or labeling, specifically designed for natural speech signals.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "blind separation of natural speech signals",
+          "local_types": [
+            "technique",
+            "signal processing"
+          ],
+          "iri": "Entity-blind_separation_of_natural_speech_signal-Mention-1"
+        }
+      ],
+      "relevance": 0.6962890625
+    },
+    "Entity-the_problem": {
+      "node_id": "the_problem",
+      "disambiguation_index": 0,
+      "label": "The problem",
+      "aliases": [
+        "The problem"
+      ],
+      "types": [
+        "problem"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "Blind separation of underdetermined instantaneous mixtures of independent signals",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "The problem",
+          "local_types": [
+            "problem"
+          ],
+          "iri": "Entity-the_problem-Mention-1"
+        }
+      ],
+      "relevance": 0.69189453125
+    },
+    "Entity-the_state-of-the-art_method": {
+      "node_id": "the_state-of-the-art_method",
+      "disambiguation_index": 0,
+      "label": "the state-of-the-art methods",
+      "aliases": [
+        "the state-of-the-art methods"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The current most advanced and effective techniques for blind separation of natural speech signals.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "the state-of-the-art methods",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-the_state-of-the-art_method-Mention-1"
+        }
+      ],
+      "relevance": 0.68310546875
+    },
+    "Entity-a_method_relying_on_nonstationarity_of_the_original_signal": {
+      "node_id": "a_method_relying_on_nonstationarity_of_the_original_signal",
+      "disambiguation_index": 0,
+      "label": "a method relying on nonstationarity of the original signals",
+      "aliases": [
+        "a method relying on nonstationarity of the original signals"
+      ],
+      "types": [
+        "method"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A statistical signal processing technique that separates mixed audio signals by exploiting their non-stationary properties.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a method relying on nonstationarity of the original signals",
+          "local_types": [
+            "method"
+          ],
+          "iri": "Entity-a_method_relying_on_nonstationarity_of_the_original_signal-Mention-1"
+        }
+      ],
+      "relevance": 0.66162109375
+    },
+    "Entity-if_the_separated_signal_obey_the_assumed_model": {
+      "node_id": "if_the_separated_signal_obey_the_assumed_model",
+      "disambiguation_index": 0,
+      "label": "if the separated signals obey the assumed model",
+      "aliases": [
+        "if the separated signals obey the assumed model"
+      ],
+      "types": [
+        "condition"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The condition under which the proposed separation method approaches its optimal performance, assuming that the separated signals conform to the underlying first-order autoregressive model.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "if the separated signals obey the assumed model",
+          "local_types": [
+            "condition"
+          ],
+          "iri": "Entity-if_the_separated_signal_obey_the_assumed_model-Mention-1"
+        }
+      ],
+      "relevance": 0.6484375
+    },
+    "Entity-separation_method": {
+      "node_id": "separation_method",
+      "disambiguation_index": 0,
+      "label": "separation method",
+      "aliases": [
+        "separation method"
+      ],
+      "types": [
+        "mathematical concept",
+        "algorithm",
+        "signal_processing_method"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical procedure or algorithm used to extract distinct signals from a mixture of signals that are governed by a specific statistical model.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "separation method",
+          "local_types": [
+            "mathematical concept",
+            "algorithm",
+            "signal_processing_method"
+          ],
+          "iri": "Entity-separation_method-Mention-1"
+        }
+      ],
+      "relevance": 0.63330078125
+    },
+    "Entity-the_signal_are_not_i.i.d_.": {
+      "node_id": "the_signal_are_not_i.i.d_.",
+      "disambiguation_index": 0,
+      "label": "the signals are not i.i.d.",
+      "aliases": [
+        "the signals are not i.i.d."
+      ],
+      "types": [
+        "signal property"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "The assumption that the original signals do not have independent and identically distributed (i.i.d.) properties in each epoch, but instead follow a first-order autoregressive model.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "the signals are not i.i.d.",
+          "local_types": [
+            "signal property"
+          ],
+          "iri": "Entity-the_signal_are_not_i.i.d_.-Mention-1"
+        }
+      ],
+      "relevance": 0.625
+    },
+    "Entity-the_signal": {
+      "node_id": "the_signal",
+      "disambiguation_index": 0,
+      "label": "The signals",
+      "aliases": [
+        "The signals"
+      ],
+      "types": [
+        "signal"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Independent audio signals, specifically natural speech signals, which are assumed to be piecewise stationary with varying variances in different epochs.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "The signals",
+          "local_types": [
+            "signal"
+          ],
+          "iri": "Entity-the_signal-Mention-1"
+        }
+      ],
+      "relevance": 0.61474609375
+    },
+    "Entity-underdetermined_instantaneous_mixture_of_independent_signal": {
+      "node_id": "underdetermined_instantaneous_mixture_of_independent_signal",
+      "disambiguation_index": 0,
+      "label": "underdetermined instantaneous mixtures of independent signals",
+      "aliases": [
+        "instantaneous mixtures",
+        "underdetermined instantaneous mixtures of independent signals"
+      ],
+      "types": [
+        "signal representation",
+        "signal_processing",
+        "mathematical concept",
+        "signal processing",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "A statistical mixture model where multiple independent signals are combined in an underdetermined manner, resulting in a complex signal representation.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "underdetermined instantaneous mixtures of independent signals",
+          "local_types": [
+            "mathematical concept",
+            "signal representation",
+            "signal_processing"
+          ],
+          "iri": "Entity-underdetermined_instantaneous_mixture_of_independent_signal-Mention-1"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "instantaneous mixtures",
+          "local_types": [
+            "concept",
+            "signal processing"
+          ],
+          "iri": "Entity-underdetermined_instantaneous_mixture_of_independent_signal-Mention-2"
+        }
+      ],
+      "relevance": 0.61279296875
+    },
+    "Entity-problem": {
+      "node_id": "problem",
+      "disambiguation_index": 0,
+      "label": "problem",
+      "aliases": [
+        "problem"
+      ],
+      "types": [
+        "research question",
+        "challenge",
+        "research topic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A research question or challenge that requires finding a solution to separate mixed signals into their individual components.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "problem",
+          "local_types": [
+            "research question",
+            "challenge",
+            "research topic"
+          ],
+          "iri": "Entity-problem-Mention-1"
+        }
+      ],
+      "relevance": 0.58642578125
+    },
+    "Entity-first-order_autoregressive_model": {
+      "node_id": "first-order_autoregressive_model",
+      "disambiguation_index": 0,
+      "label": "first-order autoregressive model",
+      "aliases": [
+        "a first-order autoregressive model",
+        "first-order autoregressive model"
+      ],
+      "types": [
+        "mathematical concept",
+        "model",
+        "statistical model",
+        "statistical_model"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical model that assumes the current value of a signal is determined by its previous value, with only one lag in the relationship.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "first-order autoregressive model",
+          "local_types": [
+            "mathematical concept",
+            "model",
+            "statistical model",
+            "statistical_model"
+          ],
+          "iri": "Entity-first-order_autoregressive_model-Mention-1"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "a first-order autoregressive model",
+          "local_types": [
+            "model",
+            "mathematical concept"
+          ],
+          "iri": "Entity-first-order_autoregressive_model-Mention-2"
+        }
+      ],
+      "relevance": 0.56689453125
+    },
+    "Entity-each_epoch": {
+      "node_id": "each_epoch",
+      "disambiguation_index": 0,
+      "label": "each epoch",
+      "aliases": [
+        "each epoch"
+      ],
+      "types": [
+        "time period"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": true,
+      "description": "A period of time characterized by varying signal variances and non-independent signals that can be modeled using a first-order autoregressive process.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "each epoch",
+          "local_types": [
+            "time period"
+          ],
+          "iri": "Entity-each_epoch-Mention-1"
+        }
+      ],
+      "relevance": 0.5478515625
+    },
+    "Entity-cramr-rao_lower_bound": {
+      "node_id": "cramr-rao_lower_bound",
+      "disambiguation_index": 0,
+      "label": "Cram\u00e9r-Rao lower bound",
+      "aliases": [
+        "the corresponding Cram\u00e9r-Rao lower bound",
+        "Cram\u00e9r-Rao lower bound"
+      ],
+      "types": [
+        "mathematical concept",
+        "statistical theory",
+        "bound",
+        "statistical_bound"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A statistical bound that represents the minimum variance of an estimator in a system, used to quantify the precision of parameter estimation.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "Cram\u00e9r-Rao lower bound",
+          "local_types": [
+            "mathematical concept",
+            "statistical theory",
+            "statistical_bound"
+          ],
+          "iri": "Entity-cramr-rao_lower_bound-Mention-1"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-5",
+          "local_name": "the corresponding Cram\u00e9r-Rao lower bound",
+          "local_types": [
+            "bound"
+          ],
+          "iri": "Entity-cramr-rao_lower_bound-Mention-2"
+        }
+      ],
+      "relevance": 0.541015625
+    },
+    "Entity-piecewise_stationary_with_varying_variance_in_different_epoch": {
+      "node_id": "piecewise_stationary_with_varying_variance_in_different_epoch",
+      "disambiguation_index": 0,
+      "label": "piecewise stationary with varying variances in different epochs",
+      "aliases": [
+        "piecewise stationary with varying variances in different epochs"
+      ],
+      "types": [
+        "property",
+        "signal_property",
+        "statistical property"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "A property of signals, where they exhibit stationarity within specific time intervals (epochs) but have varying levels of variance across these epochs.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "piecewise stationary with varying variances in different epochs",
+          "local_types": [
+            "property",
+            "signal_property",
+            "statistical property"
+          ],
+          "iri": "Entity-piecewise_stationary_with_varying_variance_in_different_epoch-Mention-1"
+        }
+      ],
+      "relevance": 0.53759765625
+    },
+    "Entity-nonstationarity": {
+      "node_id": "nonstationarity",
+      "disambiguation_index": 0,
+      "label": "nonstationarity",
+      "aliases": [
+        "nonstationarity",
+        "nonstationarity of the original signals"
+      ],
+      "types": [
+        "characteristic",
+        "property",
+        "signal_characteristic"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A property or characteristic that refers to the lack of statistical constancy in a signal, process, or system over time.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "nonstationarity",
+          "local_types": [
+            "property",
+            "characteristic"
+          ],
+          "iri": "Entity-nonstationarity-Mention-1"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "nonstationarity of the original signals",
+          "local_types": [
+            "signal_characteristic",
+            "property"
+          ],
+          "iri": "Entity-nonstationarity-Mention-2"
+        }
+      ],
+      "relevance": 0.513671875
+    },
+    "Entity-signal": {
+      "node_id": "signal",
+      "disambiguation_index": 0,
+      "label": "signals",
+      "aliases": [
+        "natural speech signals",
+        "signals"
+      ],
+      "types": [
+        "signal",
+        "data set",
+        "information",
+        "data type",
+        "audio signals",
+        "signal processing",
+        "data streams",
+        "signal_type",
+        "data",
+        "audio signal",
+        "audio data",
+        "concept"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A sequence of physical or abstract phenomena that convey information, often measurable and quantifiable.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "signals",
+          "local_types": [
+            "data set",
+            "audio signals",
+            "signal processing",
+            "data streams",
+            "concept"
+          ],
+          "iri": "Entity-signal-Mention-1"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "signals",
+          "local_types": [
+            "data set"
+          ],
+          "iri": "Entity-signal-Mention-2"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "signals",
+          "local_types": [
+            "data",
+            "information"
+          ],
+          "iri": "Entity-signal-Mention-3"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "natural speech signals",
+          "local_types": [
+            "data set",
+            "signal processing",
+            "signal_type",
+            "audio signal",
+            "data type",
+            "audio data",
+            "concept"
+          ],
+          "iri": "Entity-signal-Mention-4"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "natural speech signals",
+          "local_types": [
+            "signal",
+            "data"
+          ],
+          "iri": "Entity-signal-Mention-5"
+        }
+      ],
+      "relevance": 0.472900390625
+    },
+    "Entity-model": {
+      "node_id": "model",
+      "disambiguation_index": 0,
+      "label": "model",
+      "aliases": [
+        "model"
+      ],
+      "types": [
+        "algorithm",
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A mathematical algorithm or technique used to solve a specific problem or achieve a particular goal.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "model",
+          "local_types": [
+            "algorithm",
+            "technique"
+          ],
+          "iri": "Entity-model-Mention-1"
+        }
+      ],
+      "relevance": 0.452392578125
+    },
+    "Entity-state-of-the-art_method": {
+      "node_id": "state-of-the-art_method",
+      "disambiguation_index": 0,
+      "label": "state-of-the-art methods",
+      "aliases": [
+        "state-of-the-art methods"
+      ],
+      "types": [
+        "methodology",
+        "approach"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "The most advanced and effective methodologies or approaches currently available in a particular field.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-6",
+          "local_name": "state-of-the-art methods",
+          "local_types": [
+            "methodology",
+            "approach"
+          ],
+          "iri": "Entity-state-of-the-art_method-Mention-1"
+        }
+      ],
+      "relevance": 0.4443359375
+    },
+    "Entity-method": {
+      "node_id": "method",
+      "disambiguation_index": 0,
+      "label": "method",
+      "aliases": [
+        "method"
+      ],
+      "types": [
+        "approach",
+        "algorithm",
+        "technique"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A systematic approach, algorithm or technique used to solve a problem or achieve a specific goal.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "method",
+          "local_types": [
+            "approach",
+            "algorithm",
+            "technique"
+          ],
+          "iri": "Entity-method-Mention-1"
+        }
+      ],
+      "relevance": 0.44384765625
+    },
+    "Entity-this_model": {
+      "node_id": "this_model",
+      "disambiguation_index": 0,
+      "label": "This model",
+      "aliases": [
+        "This model"
+      ],
+      "types": [
+        "research",
+        "model"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "A research model",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "This model",
+          "local_types": [
+            "research",
+            "model"
+          ],
+          "iri": "Entity-this_model-Mention-1"
+        }
+      ],
+      "relevance": 0.429931640625
+    },
+    "Entity-epoch": {
+      "node_id": "epoch",
+      "disambiguation_index": 0,
+      "label": "epochs",
+      "aliases": [
+        "epochs",
+        "epoch"
+      ],
+      "types": [
+        "time period",
+        "time intervals",
+        "interval"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A series of recurring periods or intervals",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "epochs",
+          "local_types": [
+            "time period",
+            "time intervals",
+            "interval"
+          ],
+          "iri": "Entity-epoch-Mention-1"
+        },
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "epoch",
+          "local_types": [
+            "time period"
+          ],
+          "iri": "Entity-epoch-Mention-2"
+        }
+      ],
+      "relevance": 0.41357421875
+    },
+    "Entity-previous_work": {
+      "node_id": "previous_work",
+      "disambiguation_index": 0,
+      "label": "previous works",
+      "aliases": [
+        "previous works"
+      ],
+      "types": [
+        "research_paper",
+        "studies",
+        "research papers",
+        "research",
+        "research studies"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A collection of research studies or papers that have been published previously.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "previous works",
+          "local_types": [
+            "research_paper",
+            "studies",
+            "research papers",
+            "research",
+            "research studies"
+          ],
+          "iri": "Entity-previous_work-Mention-1"
+        }
+      ],
+      "relevance": 0.3916015625
+    },
+    "Entity-paper": {
+      "node_id": "paper",
+      "disambiguation_index": 0,
+      "label": "paper",
+      "aliases": [
+        "paper"
+      ],
+      "types": [
+        "academic publication",
+        "document"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "A written work or document that presents research findings, arguments, or information on a particular topic.",
+      "mentions": [
+        {
+          "reference": "Paper-20-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "paper",
+          "local_types": [
+            "academic publication",
+            "document"
+          ],
+          "iri": "Entity-paper-Mention-1"
+        }
+      ],
+      "relevance": 0.37353515625
+    }
+  },
+  "summary": "The problem of blind separation of underdetermined instantaneous mixtures of independent signals is addressed through a method relying on nonstationarity of the original signals . The signals are assumed to be piecewise stationary with varying variances in different epochs . In comparison with previous works , in this paper it is assumed that the signals are not i.i.d. in each epoch , but obey a first-order autoregressive model . This model was shown to be more appropriate for blind separation of natural speech signals . A separation method is proposed that is nearly statistically efficient -LRB- approaching the corresponding Cram\u00e9r-Rao lower bound -RRB- , if the separated signals obey the assumed model . In the case of natural speech signals , the method is shown to have separation accuracy better than the state-of-the-art methods .",
+  "triples": [
+    [
+      "Entity-the_problem",
+      "Predicate-is_addressed_through",
+      "Entity-a_method_relying_on_nonstationarity_of_the_original_signal"
+    ],
+    [
+      "Entity-blind_separation",
+      "Predicate-of",
+      "Entity-underdetermined_instantaneous_mixture_of_independent_signal"
+    ],
+    [
+      "Entity-blind_separation",
+      "Predicate-is_addressed_through",
+      "Entity-a_method_relying_on_nonstationarity_of_the_original_signal"
+    ],
+    [
+      "Entity-signal",
+      "Predicate-are_assumed_to_be",
+      "Entity-piecewise_stationary_with_varying_variance_in_different_epoch"
+    ],
+    [
+      "Entity-the_signal",
+      "Predicate-are_assumed_to_be",
+      "Entity-piecewise_stationary_with_varying_variance_in_different_epoch"
+    ],
+    [
+      "Entity-previous_work",
+      "Predicate-compared_with",
+      "Entity-this_paper"
+    ],
+    [
+      "Entity-the_signal_are_not_i.i.d_.",
+      "Predicate-obey",
+      "Entity-first-order_autoregressive_model"
+    ],
+    [
+      "Entity-this_model",
+      "Predicate-is_shown_to_be_more_appropriate_for",
+      "Entity-blind_separation_of_natural_speech_signal"
+    ],
+    [
+      "Entity-this_model",
+      "Predicate-was_shown_to_be_more_appropriate_for",
+      "Entity-blind_separation_of_natural_speech_signal"
+    ],
+    [
+      "Entity-a_separation_method",
+      "Predicate-proposes",
+      "Entity-this_paper"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-state-of-the-art_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-model",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-previous_work",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-first-order_autoregressive_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-the_state-of-the-art_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-a_method_relying_on_nonstationarity_of_the_original_signal",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-the_signal",
+      "skos:broader",
+      "Entity-signal"
+    ],
+    [
+      "Entity-a_separation_method",
+      "skos:broader",
+      "Entity-method"
+    ],
+    [
+      "Entity-this_model",
+      "skos:broader",
+      "Entity-model"
+    ],
+    [
+      "Entity-the_problem",
+      "skos:broader",
+      "Entity-problem"
+    ],
+    [
+      "Entity-this_paper",
+      "skos:broader",
+      "Entity-paper"
+    ],
+    [
+      "Entity-blind_separation_of_natural_speech_signal",
+      "skos:broader",
+      "Entity-method"
+    ]
+  ],
+  "predicates": {
+    "Predicate-is_addressed_through": {
+      "label": "is addressed through",
+      "description": "Indicates that the subject's issue or challenge is resolved, managed, or tackled by means of the object. The predicate suggests a connection between the problem and its solution, highlighting the method or approach used to address it.",
+      "disambiguation_index": 0
+    },
+    "Predicate-of": {
+      "label": "of",
+      "description": "The predicate 'of' indicates a relationship between the subject and object where the subject has some inherent or defining characteristic that is described by the object. The object typically provides more information about what makes up, composes, or characterizes the subject.",
+      "disambiguation_index": 0
+    },
+    "Predicate-are_assumed_to_be": {
+      "label": "are assumed to be",
+      "description": "The predicate 'are assumed to be' indicates a hypothetical or inferred relationship between the subject and object. It suggests that based on available information, data, or evidence, it can be reasonably concluded that the subject has the property or characteristic described by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-compared_with": {
+      "label": "compared with",
+      "description": "The predicate 'compared with' indicates a relationship of similarity or contrast between two entities (subject and object), suggesting that one entity (the subject) shares characteristics, features, or qualities with another entity (the object).",
+      "disambiguation_index": 0
+    },
+    "Predicate-obey": {
+      "label": "obey",
+      "description": "The predicate 'obey' indicates a relationship of compliance or adherence between the subject and object, suggesting that the subject follows or conforms to the rules, principles, or patterns specified by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_shown_to_be_more_appropriate_for": {
+      "label": "is shown to be more appropriate for",
+      "description": "Indicates that a subject (typically an entity or concept) has been demonstrated or proven to have a superior suitability or fit with respect to achieving a specific goal, task, or application represented by the object. The predicate highlights the subject's advantages and capabilities when applied to the specified context.",
+      "disambiguation_index": 0
+    },
+    "Predicate-was_shown_to_be_more_appropriate_for": {
+      "label": "was shown to be more appropriate for",
+      "description": "Indicates that a subject has been demonstrated or proven to have a superior suitability or fit for a particular purpose or context, as compared to other options.",
+      "disambiguation_index": 0
+    },
+    "Predicate-proposes": {
+      "label": "proposes",
+      "description": "To propose means to suggest or recommend something, typically as a solution or approach. The predicate 'proposes' indicates that the subject (in this case, an entity such as a method) presents or advocates for its object (the paper), implying endorsement, support, or approval.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' indicates that the subject concept is a specific instance or subclass of a more general category or class represented by the object. It establishes a hierarchical relationship between the two, where the subject is a narrower or more specialized version of the object.",
+      "disambiguation_index": 0
+    }
+  }
+}

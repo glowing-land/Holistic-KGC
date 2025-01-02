@@ -1,0 +1,858 @@
+{
+  "iri": "Paper-98",
+  "title": "INTERSPEECH_2007_40_abs",
+  "authors": [],
+  "keywords": [],
+  "sections": [
+    {
+      "iri": "Paper-98-Section-1",
+      "subtitle": "Abstract",
+      "paragraphs": [
+        {
+          "iri": "Paper-98-Section-1-Paragraph-1",
+          "sentences": [
+            {
+              "iri": "Paper-98-Section-1-Paragraph-1-Sentence-1",
+              "text": "Information distillation aims to extract relevant pieces of information related to a given query from massive , possibly multilingual , audio and textual document sources ."
+            },
+            {
+              "iri": "Paper-98-Section-1-Paragraph-1-Sentence-2",
+              "text": "In this paper , we present our approach for using information extraction annotations to augment document retrieval for distillation ."
+            },
+            {
+              "iri": "Paper-98-Section-1-Paragraph-1-Sentence-3",
+              "text": "We take advantage of the fact that some of the distillation queries can be associated with annotation elements introduced for the NIST Automatic Content Extraction -LRB- ACE -RRB- task ."
+            },
+            {
+              "iri": "Paper-98-Section-1-Paragraph-1-Sentence-4",
+              "text": "We experimentally show that using the ACE events to constrain the document set returned by an information retrieval engine significantly improves the precision at various recall rates for two different query templates ."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "times": [
+    0.0005960464477539062,
+    52.56600213050842,
+    51.55907106399536,
+    52.60206079483032,
+    0.041754722595214844,
+    0.00022411346435546875,
+    0.0001270771026611328,
+    194.93392705917358,
+    203.23226594924927,
+    3.285644769668579,
+    33.23951005935669,
+    0.008327960968017578,
+    0.0001678466796875,
+    51.14342188835144,
+    0.0010941028594970703,
+    0.026741981506347656,
+    0.0009930133819580078,
+    4.09834098815918,
+    0.7619578838348389,
+    9.830729961395264,
+    398.96164298057556,
+    6.782418251037598,
+    161.49713397026062,
+    3.022372245788574,
+    0.0015096664428710938,
+    0.006691932678222656
+  ],
+  "nodes": {
+    "Entity-this_paper": {
+      "node_id": "this_paper",
+      "disambiguation_index": 0,
+      "label": "this paper",
+      "aliases": [
+        "this paper"
+      ],
+      "types": [
+        "document"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "This paper presents an approach for enhancing document retrieval in information distillation by utilizing information extraction annotations, specifically leveraging NIST Automatic Content Extraction (ACE) task elements to improve retrieval precision.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "this paper",
+          "local_types": [
+            "document"
+          ],
+          "iri": "Entity-this_paper-Mention-1"
+        }
+      ],
+      "relevance": 0.86328125
+    },
+    "Entity-distillation_query": {
+      "node_id": "distillation_query",
+      "disambiguation_index": 0,
+      "label": "distillation queries",
+      "aliases": [
+        "distillation queries"
+      ],
+      "types": [
+        "query",
+        "data extraction"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Distillation queries refer to specific queries used in information distillation processes that extract relevant information from large audio and textual document sources, particularly those associated with annotation elements from the NIST Automatic Content Extraction task.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "distillation queries",
+          "local_types": [
+            "query",
+            "data extraction"
+          ],
+          "iri": "Entity-distillation_query-Mention-1"
+        }
+      ],
+      "relevance": 0.81201171875
+    },
+    "Entity-ace_event": {
+      "node_id": "ace_event",
+      "disambiguation_index": 0,
+      "label": "ACE events",
+      "aliases": [
+        "ACE events"
+      ],
+      "types": [
+        "dataset",
+        "event type",
+        "annotation",
+        "data type",
+        "event"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": false,
+      "description": "ACE events refer to specific types of information extraction annotations introduced for the NIST Automatic Content Extraction task, which are used to enhance document retrieval precision in information distillation processes.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "ACE events",
+          "local_types": [
+            "dataset",
+            "event type",
+            "annotation",
+            "data type",
+            "event"
+          ],
+          "iri": "Entity-ace_event-Mention-1"
+        }
+      ],
+      "relevance": 0.8017578125
+    },
+    "Entity-our_approach": {
+      "node_id": "our_approach",
+      "disambiguation_index": 0,
+      "label": "our approach",
+      "aliases": [
+        "our approach"
+      ],
+      "types": [
+        "method",
+        "methodology"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Our approach refers to a method that utilizes information extraction annotations to enhance the process of document retrieval in information distillation, specifically by leveraging annotation elements from the NIST Automatic Content Extraction task to improve retrieval precision.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "our approach",
+          "local_types": [
+            "method",
+            "methodology"
+          ],
+          "iri": "Entity-our_approach-Mention-1"
+        }
+      ],
+      "relevance": 0.79736328125
+    },
+    "Entity-annotation_element": {
+      "node_id": "annotation_element",
+      "disambiguation_index": 0,
+      "label": "annotation elements",
+      "aliases": [
+        "annotation elements"
+      ],
+      "types": [
+        "element",
+        "data structure",
+        "metadata",
+        "annotation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Annotation elements refer to specific metadata structures used in the NIST Automatic Content Extraction (ACE) task to enhance the relevance of information retrieval queries in the context of information distillation.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "annotation elements",
+          "local_types": [
+            "element",
+            "data structure",
+            "metadata",
+            "annotation"
+          ],
+          "iri": "Entity-annotation_element-Mention-1"
+        }
+      ],
+      "relevance": 0.76904296875
+    },
+    "Entity-information_distillation": {
+      "node_id": "information_distillation",
+      "disambiguation_index": 0,
+      "label": "Information distillation",
+      "aliases": [
+        "distillation",
+        "Information distillation"
+      ],
+      "types": [
+        "process",
+        "data processing",
+        "information retrieval"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Information distillation is a process that focuses on extracting relevant information from large, potentially multilingual audio and textual document sources in response to specific queries.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "Information distillation",
+          "local_types": [
+            "process",
+            "information retrieval"
+          ],
+          "iri": "Entity-information_distillation-Mention-1"
+        },
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "distillation",
+          "local_types": [
+            "process",
+            "data processing"
+          ],
+          "iri": "Entity-information_distillation-Mention-2"
+        }
+      ],
+      "relevance": 0.7626953125
+    },
+    "Entity-information_extraction_annotation": {
+      "node_id": "information_extraction_annotation",
+      "disambiguation_index": 0,
+      "label": "information extraction annotations",
+      "aliases": [
+        "information extraction annotations"
+      ],
+      "types": [
+        "data type",
+        "data processing technique",
+        "information extraction",
+        "annotation"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Information extraction annotations are structured labels or tags applied to data that identify and categorize specific pieces of information extracted from unstructured text, facilitating the process of data analysis and retrieval.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "information extraction annotations",
+          "local_types": [
+            "data type",
+            "data processing technique",
+            "information extraction",
+            "annotation"
+          ],
+          "iri": "Entity-information_extraction_annotation-Mention-1"
+        }
+      ],
+      "relevance": 0.70849609375
+    },
+    "Entity-ace": {
+      "node_id": "ace",
+      "disambiguation_index": 0,
+      "label": "ACE",
+      "aliases": [
+        "ACE"
+      ],
+      "types": [
+        "task",
+        "research initiative",
+        "abbreviation",
+        "project"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "ACE refers to the NIST Automatic Content Extraction task, which focuses on extracting relevant information from large audio and textual document sources.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "ACE",
+          "local_types": [
+            "task",
+            "research initiative",
+            "abbreviation",
+            "project"
+          ],
+          "iri": "Entity-ace-Mention-1"
+        }
+      ],
+      "relevance": 0.70166015625
+    },
+    "Entity-query": {
+      "node_id": "query",
+      "disambiguation_index": 0,
+      "label": "query",
+      "aliases": [
+        "query",
+        "a given query"
+      ],
+      "types": [
+        "information request",
+        "query",
+        "search term"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "The term 'query' refers to a specific search term or information request used in the context of information distillation to extract relevant information from large, potentially multilingual audio and textual document sources.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "query",
+          "local_types": [
+            "search term",
+            "information request"
+          ],
+          "iri": "Entity-query-Mention-1"
+        },
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "a given query",
+          "local_types": [
+            "query"
+          ],
+          "iri": "Entity-query-Mention-2"
+        }
+      ],
+      "relevance": 0.6845703125
+    },
+    "Entity-nist_automatic_content_extraction": {
+      "node_id": "nist_automatic_content_extraction",
+      "disambiguation_index": 0,
+      "label": "NIST Automatic Content Extraction",
+      "aliases": [
+        "NIST Automatic Content Extraction"
+      ],
+      "types": [
+        "organization",
+        "NIST",
+        "research initiative",
+        "project",
+        "content extraction",
+        "task"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "NIST Automatic Content Extraction is a research initiative and project organized by the National Institute of Standards and Technology focused on developing and evaluating methods for automatically extracting information from text.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "NIST Automatic Content Extraction",
+          "local_types": [
+            "organization",
+            "NIST",
+            "research initiative",
+            "project",
+            "content extraction",
+            "task"
+          ],
+          "iri": "Entity-nist_automatic_content_extraction-Mention-1"
+        }
+      ],
+      "relevance": 0.6767578125
+    },
+    "Entity-two_different_query_template": {
+      "node_id": "two_different_query_template",
+      "disambiguation_index": 0,
+      "label": "two different query templates",
+      "aliases": [
+        "two different query templates"
+      ],
+      "types": [
+        "template",
+        "query"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "The term 'two different query templates' refers to distinct structured formats or patterns used to formulate queries in the context of information distillation, which enhance the precision of document retrieval when constrained by ACE events.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "two different query templates",
+          "local_types": [
+            "template",
+            "query"
+          ],
+          "iri": "Entity-two_different_query_template-Mention-1"
+        }
+      ],
+      "relevance": 0.67626953125
+    },
+    "Entity-relevant_piece_of_information": {
+      "node_id": "relevant_piece_of_information",
+      "disambiguation_index": 0,
+      "label": "relevant pieces of information",
+      "aliases": [
+        "relevant pieces of information"
+      ],
+      "types": [
+        "information"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Relevant pieces of information refer to specific data or content extracted from large audio and textual document sources that are pertinent to a particular query in the context of information distillation.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "relevant pieces of information",
+          "local_types": [
+            "information"
+          ],
+          "iri": "Entity-relevant_piece_of_information-Mention-1"
+        }
+      ],
+      "relevance": 0.65478515625
+    },
+    "Entity-document_retrieval": {
+      "node_id": "document_retrieval",
+      "disambiguation_index": 0,
+      "label": "document retrieval",
+      "aliases": [
+        "document retrieval"
+      ],
+      "types": [
+        "process",
+        "information retrieval",
+        "retrieval"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Document retrieval is the process of obtaining and retrieving documents from a collection or database based on user queries or information needs.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-2",
+          "local_name": "document retrieval",
+          "local_types": [
+            "process",
+            "information retrieval",
+            "retrieval"
+          ],
+          "iri": "Entity-document_retrieval-Mention-1"
+        }
+      ],
+      "relevance": 0.65283203125
+    },
+    "Entity-automatic_content_extraction": {
+      "node_id": "automatic_content_extraction",
+      "disambiguation_index": 0,
+      "label": "Automatic Content Extraction",
+      "aliases": [
+        "Automatic Content Extraction"
+      ],
+      "types": [
+        "task",
+        "project"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "Automatic Content Extraction refers to a task focused on the automated extraction of information and content from various data sources, often used in natural language processing and information retrieval projects.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "Automatic Content Extraction",
+          "local_types": [
+            "task",
+            "project"
+          ],
+          "iri": "Entity-automatic_content_extraction-Mention-1"
+        }
+      ],
+      "relevance": 0.650390625
+    },
+    "Entity-information_retrieval_engine": {
+      "node_id": "information_retrieval_engine",
+      "disambiguation_index": 0,
+      "label": "information retrieval engine",
+      "aliases": [
+        "information retrieval engine"
+      ],
+      "types": [
+        "engine",
+        "system",
+        "software",
+        "tool"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "An information retrieval engine is a software system designed to search for and retrieve information from a database or the internet based on user queries.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "information retrieval engine",
+          "local_types": [
+            "engine",
+            "system",
+            "software",
+            "tool"
+          ],
+          "iri": "Entity-information_retrieval_engine-Mention-1"
+        }
+      ],
+      "relevance": 0.63427734375
+    },
+    "Entity-audio_and_textual_document_source": {
+      "node_id": "audio_and_textual_document_source",
+      "disambiguation_index": 0,
+      "label": "audio and textual document sources",
+      "aliases": [
+        "audio and textual document sources"
+      ],
+      "types": [
+        "multimedia content",
+        "document type",
+        "data source"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Audio and textual document sources refer to large collections of multimedia content that include both spoken audio and written text, which are utilized for information extraction and retrieval tasks in the context of information distillation.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "audio and textual document sources",
+          "local_types": [
+            "multimedia content",
+            "document type",
+            "data source"
+          ],
+          "iri": "Entity-audio_and_textual_document_source-Mention-1"
+        }
+      ],
+      "relevance": 0.6162109375
+    },
+    "Entity-massive__possibly_multilingual__audio_and_textual_document_source": {
+      "node_id": "massive__possibly_multilingual__audio_and_textual_document_source",
+      "disambiguation_index": 0,
+      "label": "massive, possibly multilingual, audio and textual document sources",
+      "aliases": [
+        "massive, possibly multilingual, audio and textual document sources"
+      ],
+      "types": [
+        "audio",
+        "document source",
+        "text"
+      ],
+      "node_type": "other",
+      "LLM_familiarity": false,
+      "description": "Massive, possibly multilingual, audio and textual document sources refer to large collections of spoken and written materials in various languages that are utilized for extracting relevant information in response to specific queries during the information distillation process.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-1",
+          "local_name": "massive, possibly multilingual, audio and textual document sources",
+          "local_types": [
+            "audio",
+            "document source",
+            "text"
+          ],
+          "iri": "Entity-massive__possibly_multilingual__audio_and_textual_document_source-Mention-1"
+        }
+      ],
+      "relevance": 0.60595703125
+    },
+    "Entity-precision": {
+      "node_id": "precision",
+      "disambiguation_index": 0,
+      "label": "precision",
+      "aliases": [
+        "precision"
+      ],
+      "types": [
+        "performance metric",
+        "evaluation measure",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "In the context of information retrieval, 'precision' refers to the performance metric that measures the accuracy of the retrieved documents by calculating the proportion of relevant documents among the total documents returned.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "precision",
+          "local_types": [
+            "performance metric",
+            "evaluation measure",
+            "metric"
+          ],
+          "iri": "Entity-precision-Mention-1"
+        }
+      ],
+      "relevance": 0.599609375
+    },
+    "Entity-query_template": {
+      "node_id": "query_template",
+      "disambiguation_index": 0,
+      "label": "query templates",
+      "aliases": [
+        "query templates"
+      ],
+      "types": [
+        "search query",
+        "data structure",
+        "query type"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": false,
+      "description": "Query templates refer to structured formats or patterns used to formulate search queries that guide information retrieval systems in extracting relevant data from large document collections.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "query templates",
+          "local_types": [
+            "search query",
+            "data structure",
+            "query type"
+          ],
+          "iri": "Entity-query_template-Mention-1"
+        }
+      ],
+      "relevance": 0.5712890625
+    },
+    "Entity-recall_rate": {
+      "node_id": "recall_rate",
+      "disambiguation_index": 0,
+      "label": "recall rates",
+      "aliases": [
+        "recall rates"
+      ],
+      "types": [
+        "performance metric",
+        "evaluation measure",
+        "metric"
+      ],
+      "node_type": "general term",
+      "LLM_familiarity": true,
+      "description": "Recall rates refer to a performance metric used to evaluate the effectiveness of a system in retrieving relevant items, indicating the proportion of actual positive instances that were correctly identified.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-4",
+          "local_name": "recall rates",
+          "local_types": [
+            "performance metric",
+            "evaluation measure",
+            "metric"
+          ],
+          "iri": "Entity-recall_rate-Mention-1"
+        }
+      ],
+      "relevance": 0.55126953125
+    },
+    "Entity-nist": {
+      "node_id": "nist",
+      "disambiguation_index": 0,
+      "label": "NIST",
+      "aliases": [
+        "NIST"
+      ],
+      "types": [
+        "organization",
+        "government agency"
+      ],
+      "node_type": "named entity",
+      "LLM_familiarity": true,
+      "description": "NIST refers to the National Institute of Standards and Technology, a federal agency within the United States Department of Commerce that develops and promotes measurement standards and technology.",
+      "mentions": [
+        {
+          "reference": "Paper-98-Section-1-Paragraph-1-Sentence-3",
+          "local_name": "NIST",
+          "local_types": [
+            "organization",
+            "government agency"
+          ],
+          "iri": "Entity-nist-Mention-1"
+        }
+      ],
+      "relevance": 0.463623046875
+    }
+  },
+  "summary": "Information distillation aims to extract relevant pieces of information related to a given query from massive , possibly multilingual , audio and textual document sources . In this paper , we present our approach for using information extraction annotations to augment document retrieval for distillation . We take advantage of the fact that some of the distillation queries can be associated with annotation elements introduced for the NIST Automatic Content Extraction -LRB- ACE -RRB- task . We experimentally show that using the ACE events to constrain the document set returned by an information retrieval engine significantly improves the precision at various recall rates for two different query templates .",
+  "triples": [
+    [
+      "Entity-information_distillation",
+      "Predicate-aims_to_extract",
+      "Entity-relevant_piece_of_information"
+    ],
+    [
+      "Entity-relevant_piece_of_information",
+      "Predicate-related_to",
+      "Entity-query"
+    ],
+    [
+      "Entity-information_distillation",
+      "Predicate-extracts_from",
+      "Entity-massive__possibly_multilingual__audio_and_textual_document_source"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents",
+      "Entity-our_approach"
+    ],
+    [
+      "Entity-our_approach",
+      "Predicate-uses",
+      "Entity-information_extraction_annotation"
+    ],
+    [
+      "Entity-our_approach",
+      "Predicate-augments",
+      "Entity-document_retrieval"
+    ],
+    [
+      "Entity-document_retrieval",
+      "Predicate-is_for",
+      "Entity-information_distillation"
+    ],
+    [
+      "Entity-distillation_query",
+      "Predicate-can_be_associated_with",
+      "Entity-annotation_element"
+    ],
+    [
+      "Entity-annotation_element",
+      "Predicate-introduced_for",
+      "Entity-nist_automatic_content_extraction"
+    ],
+    [
+      "Entity-information_retrieval_engine",
+      "Predicate-improves",
+      "Entity-precision"
+    ],
+    [
+      "Entity-information_retrieval_engine",
+      "Predicate-improves",
+      "Entity-recall_rate"
+    ],
+    [
+      "Entity-information_retrieval_engine",
+      "Predicate-improves",
+      "Entity-two_different_query_template"
+    ],
+    [
+      "Entity-this_paper",
+      "Predicate-presents_an_approach_for_using_distillation_queries",
+      "Entity-distillation_query"
+    ]
+  ],
+  "triples_typing": [
+    [
+      "Entity-information_distillation",
+      "skos:broader",
+      "Entity-document_retrieval"
+    ],
+    [
+      "Entity-two_different_query_template",
+      "skos:broader",
+      "Entity-query"
+    ],
+    [
+      "Entity-nist_automatic_content_extraction",
+      "skos:broader",
+      "Entity-nist"
+    ],
+    [
+      "Entity-document_retrieval",
+      "skos:broader",
+      "Entity-information_retrieval_engine"
+    ],
+    [
+      "Entity-information_distillation",
+      "skos:broader",
+      "Entity-information_retrieval_engine"
+    ],
+    [
+      "Entity-nist_automatic_content_extraction",
+      "skos:broader",
+      "Entity-automatic_content_extraction"
+    ],
+    [
+      "Entity-distillation_query",
+      "skos:broader",
+      "Entity-query"
+    ]
+  ],
+  "predicates": {
+    "Predicate-aims_to_extract": {
+      "label": "aims to extract",
+      "description": "The predicate 'aims to extract' indicates an intention or goal of the subject to obtain or retrieve specific elements or components represented by the object. It suggests a purposeful action where the subject is focused on isolating or drawing out particular information, features, or data that are deemed significant or useful.",
+      "disambiguation_index": 0
+    },
+    "Predicate-related_to": {
+      "label": "related to",
+      "description": "The predicate 'related to' establishes a connection or association between the subject and the object, indicating that the subject has a relevant or pertinent relationship with the object. This relationship can imply various forms of linkage, such as thematic relevance, contextual association, or informational connection, suggesting that the subject contributes to or is influenced by the object in some meaningful way.",
+      "disambiguation_index": 0
+    },
+    "Predicate-extracts_from": {
+      "label": "extracts from",
+      "description": "The predicate 'extracts from' indicates a relationship where the subject derives or obtains specific information, data, or insights from the object, which represents a source or collection of materials. This connection implies a process of selection or retrieval, where the subject utilizes the object as a foundation or resource to gather relevant content or knowledge.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents": {
+      "label": "presents",
+      "description": "The predicate 'presents' indicates that the subject is introducing, showcasing, or displaying the object to an audience. It implies a formal or structured communication of information, ideas, or findings, where the subject serves as the medium through which the object is conveyed.",
+      "disambiguation_index": 0
+    },
+    "Predicate-uses": {
+      "label": "uses",
+      "description": "The predicate 'uses' indicates that the subject employs, utilizes, or applies the object in some capacity. It establishes a functional relationship where the subject actively engages with the object to achieve a specific purpose or outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-augments": {
+      "label": "augments",
+      "description": "The predicate 'augments' indicates that the subject enhances, improves, or adds to the capabilities or effectiveness of the object. It suggests a relationship where the subject contributes additional value or functionality to the object, resulting in a more robust or comprehensive outcome.",
+      "disambiguation_index": 0
+    },
+    "Predicate-is_for": {
+      "label": "is for",
+      "description": "The predicate 'is for' establishes a relationship of purpose or intended function between the subject and the object. It indicates that the subject serves a specific role or is designed to achieve the objectives represented by the object.",
+      "disambiguation_index": 0
+    },
+    "Predicate-can_be_associated_with": {
+      "label": "can be associated with",
+      "description": "The predicate 'can be associated with' indicates a potential or established relationship between the subject and the object, suggesting that they share a connection, relevance, or correlation in a particular context. This relationship may imply that the subject may involve, utilize, or relate to the object in some meaningful way, allowing for further exploration or analysis of their interaction.",
+      "disambiguation_index": 0
+    },
+    "Predicate-introduced_for": {
+      "label": "introduced for",
+      "description": "The predicate 'introduced for' indicates the purpose or reason behind the introduction of the subject, linking it to the object as the intended application, goal, or context in which the subject is utilized or relevant.",
+      "disambiguation_index": 0
+    },
+    "Predicate-improves": {
+      "label": "improves",
+      "description": "The predicate 'improves' indicates a positive enhancement or increase in the quality, effectiveness, or performance of the object as a result of the influence or action of the subject. It suggests that the subject has a beneficial impact on the object, leading to a better state or condition.",
+      "disambiguation_index": 0
+    },
+    "Predicate-presents_an_approach_for_using_distillation_queries": {
+      "label": "presents an approach for using distillation queries",
+      "description": "The predicate 'presents an approach for using distillation queries' indicates that the subject is introducing or outlining a method or strategy that involves the application of distillation queries. This connection implies that the subject is providing insights, frameworks, or techniques that can be utilized in the context of distillation queries, which are typically used to extract or refine information from a larger dataset or model.",
+      "disambiguation_index": 0
+    },
+    "skos:broader": {
+      "label": "has a broader term",
+      "description": "The predicate 'has a broader term' establishes a hierarchical relationship between the subject and the object, indicating that the subject is a more specific concept or instance that falls under the wider category represented by the object. This relationship is often used in categorization and taxonomy to show how different concepts are related in terms of generality and specificity.",
+      "disambiguation_index": 0
+    }
+  }
+}
