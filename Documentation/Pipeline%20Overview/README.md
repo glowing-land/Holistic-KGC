@@ -1,6 +1,6 @@
 # The Pipeline Overview: Supplementary Resources
 
-This page provides link to the full algorithm and prompt of each stage of the pipeline. The pipeline itself is at [here](../../LLM-KGC-v0/). Some prompt mentioned in the paper is further divided into several variations.
+This page provides links to the full algorithm and prompt of each stage of the pipeline. The pipeline itself is at [here](../../LLM-KGC-v0/). Some prompt mentioned in the paper is further divided into several variations.
 
 ## Stage 1
 
@@ -17,6 +17,10 @@ Prompt 2.1 ([LLM Background Knowledge Check](../../LLM-KGC-v0/src/modules/m03_en
 Prompt 2.2.1 ([Description Generation with Full Context](../../LLM-KGC-v0/src/modules/m03_entity_resolution_disambiguation/prompt_3_specific.md))
 
 Prompt 2.2.2 ([Description Generation with Limited Context](../../LLM-KGC-v0/src/modules/m03_entity_resolution_disambiguation/prompt_3_general.md))
+
+Prompt 2.3 ([LLM Double Checking (Disabled)](../../LLM-KGC-v0/src/modules/m03_entity_resolution_disambiguation/prompt_5_section.md))
+
+*Note that the full version of the pipeline prompt the generative LLM using Prompt 2.3 to double check if the two Mentions are the same when their embeddings are found highly similar. However, this functionality is disabled because it can lead to quadratic complexity.*
 
 ## Stage 3
 
